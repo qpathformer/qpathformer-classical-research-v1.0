@@ -1,0 +1,189 @@
+{
+  "schema": "qpath-source-map-1",
+  "study_version": "v0.2",
+  "actual_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r2",
+  "archive": {
+    "path": "C:\\Q2\\Improvement_Study_v0.2\\DELIVERY_MANIFEST.json",
+    "bytes": 768526,
+    "sha256": "6a23544293294135d228a05949aad45ce2fa15769b8a2207fa30573b9f01b78c"
+  },
+  "files": [
+    {
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "source_absolute_path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r2\\assembly\\QPathformer_v0.2_Documentation\\GUIDANCE_LICENSE_SCOPE.json",
+      "source_identity": {
+        "bytes": 2649,
+        "sha256": "1cfe05c20e11afdbd435f9d71d72165e1d69724b7c06ddf96c8cdabbe40a11a3"
+      },
+      "bytes": 2649,
+      "sha256": "1cfe05c20e11afdbd435f9d71d72165e1d69724b7c06ddf96c8cdabbe40a11a3",
+      "handling": "Authored packaging or derived scope/inventory record in this Q2 build"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "source_absolute_path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r2\\assembly\\QPathformer_v0.2_Documentation\\LICENSES\\CC-BY-4.0.txt",
+      "source_identity": {
+        "bytes": 18615,
+        "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+      },
+      "bytes": 18615,
+      "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196",
+      "handling": "Authored packaging or derived scope/inventory record in this Q2 build"
+    },
+    {
+      "path": "LICENSES/QPATHFORMER-PLATFORM-1.0.txt",
+      "source_absolute_path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r2\\assembly\\QPathformer_v0.2_Documentation\\LICENSES\\QPATHFORMER-PLATFORM-1.0.txt",
+      "source_identity": {
+        "bytes": 1461,
+        "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+      },
+      "bytes": 1461,
+      "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057",
+      "handling": "Authored packaging or derived scope/inventory record in this Q2 build"
+    },
+    {
+      "path": "LICENSE_ADOPTION.json",
+      "source_absolute_path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r2\\assembly\\QPathformer_v0.2_Documentation\\LICENSE_ADOPTION.json",
+      "source_identity": {
+        "bytes": 1621,
+        "sha256": "b127b4d330b1e024db98fed3a1083c42cfef9b2ee4f16e5d1ef4b33a72932266"
+      },
+      "bytes": 1621,
+      "sha256": "b127b4d330b1e024db98fed3a1083c42cfef9b2ee4f16e5d1ef4b33a72932266",
+      "handling": "Authored packaging or derived scope/inventory record in this Q2 build"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "source_absolute_path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r2\\assembly\\QPathformer_v0.2_Documentation\\RELEASE_NOTES.md",
+      "source_identity": {
+        "bytes": 1287,
+        "sha256": "649b992583238e9a1a3d91952f31fd70ae7a68097365ab6d1d6592f18cf2452e"
+      },
+      "bytes": 1287,
+      "sha256": "649b992583238e9a1a3d91952f31fd70ae7a68097365ab6d1d6592f18cf2452e",
+      "handling": "Authored packaging or derived scope/inventory record in this Q2 build"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "source_absolute_path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r2\\assembly\\QPathformer_v0.2_Documentation\\REPRODUCIBILITY.md",
+      "source_identity": {
+        "bytes": 1091,
+        "sha256": "d8109a57fb6c2eb16c58ab180249cf6ab314e5830535d3a757207ba76178d34d"
+      },
+      "bytes": 1091,
+      "sha256": "d8109a57fb6c2eb16c58ab180249cf6ab314e5830535d3a757207ba76178d34d",
+      "handling": "Authored packaging or derived scope/inventory record in this Q2 build"
+    },
+    {
+      "path": "RESEARCH_GUIDE.md",
+      "source_absolute_path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r2\\assembly\\QPathformer_v0.2_Documentation\\RESEARCH_GUIDE.md",
+      "source_identity": {
+        "bytes": 1678,
+        "sha256": "c7538d6890abf120feeb6dd339866fdde7d63c12513bdb95fab0bb6ba8bd2a87"
+      },
+      "bytes": 1678,
+      "sha256": "c7538d6890abf120feeb6dd339866fdde7d63c12513bdb95fab0bb6ba8bd2a87",
+      "handling": "Authored packaging or derived scope/inventory record in this Q2 build"
+    },
+    {
+      "path": "RIGHTS.md",
+      "source_absolute_path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r2\\assembly\\QPathformer_v0.2_Documentation\\RIGHTS.md",
+      "source_identity": {
+        "bytes": 1568,
+        "sha256": "9b8eeae8f3da20b4edb789786779f21091b31accb0edeb6806a5ed3916e7b34b"
+      },
+      "bytes": 1568,
+      "sha256": "9b8eeae8f3da20b4edb789786779f21091b31accb0edeb6806a5ed3916e7b34b",
+      "handling": "Authored packaging or derived scope/inventory record in this Q2 build"
+    },
+    {
+      "path": "START_HERE.md",
+      "source_absolute_path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r2\\assembly\\QPathformer_v0.2_Documentation\\START_HERE.md",
+      "source_identity": {
+        "bytes": 609,
+        "sha256": "a93cd23d6b54987fe837d4c82a389d5ba1c772922809dbdcda984a55657ec013"
+      },
+      "bytes": 609,
+      "sha256": "a93cd23d6b54987fe837d4c82a389d5ba1c772922809dbdcda984a55657ec013",
+      "handling": "Authored packaging or derived scope/inventory record in this Q2 build"
+    },
+    {
+      "path": "VERIFY.md",
+      "source_absolute_path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r2\\assembly\\QPathformer_v0.2_Documentation\\VERIFY.md",
+      "source_identity": {
+        "bytes": 905,
+        "sha256": "51cd4e600402c26995c2d57a5762d13313f9ba2d961839e9f9ade4506f1f24cb"
+      },
+      "bytes": 905,
+      "sha256": "51cd4e600402c26995c2d57a5762d13313f9ba2d961839e9f9ade4506f1f24cb",
+      "handling": "Authored packaging or derived scope/inventory record in this Q2 build"
+    },
+    {
+      "path": "historical/REPRODUCE_INTERNAL.txt",
+      "source_absolute_path": "C:\\Q2\\Improvement_Study_v0.2\\REPRODUCE_INTERNAL.txt",
+      "source_identity": {
+        "bytes": 15287,
+        "sha256": "57fbfa664a8c47feace706f72af3d119255ac70ba95254faecb8c1f36606fb46"
+      },
+      "bytes": 15287,
+      "sha256": "57fbfa664a8c47feace706f72af3d119255ac70ba95254faecb8c1f36606fb46",
+      "handling": "Copied unchanged"
+    },
+    {
+      "path": "historical/RUN_STATUS.txt",
+      "source_absolute_path": "C:\\Q2\\Improvement_Study_v0.2\\RUN_STATUS.txt",
+      "source_identity": {
+        "bytes": 1301,
+        "sha256": "981dd4347fb1254bdfcf88970754e6cafb1c080f863a70d482ec375c8e670c3e"
+      },
+      "bytes": 1301,
+      "sha256": "981dd4347fb1254bdfcf88970754e6cafb1c080f863a70d482ec375c8e670c3e",
+      "handling": "Copied unchanged"
+    },
+    {
+      "path": "historical/classical/data_work/DATA_PROTOCOL.json",
+      "source_absolute_path": "C:\\Q2\\Improvement_Study_v0.2\\classical\\data_work\\DATA_PROTOCOL.json",
+      "source_identity": {
+        "bytes": 1366,
+        "sha256": "c39861c7e9f661ec1e71f700a5e10e7aacb068b87cd644db910c0f567b2c00a4"
+      },
+      "bytes": 1366,
+      "sha256": "c39861c7e9f661ec1e71f700a5e10e7aacb068b87cd644db910c0f567b2c00a4",
+      "handling": "Copied unchanged"
+    },
+    {
+      "path": "historical/governance/ANALYSIS_PROTOCOL.json",
+      "source_absolute_path": "C:\\Q2\\Improvement_Study_v0.2\\governance\\ANALYSIS_PROTOCOL.json",
+      "source_identity": {
+        "bytes": 5611,
+        "sha256": "9b409934d07e8eb7a6380a02fe93780cab3323401d595c846da1b2ce7ba1e414"
+      },
+      "bytes": 5611,
+      "sha256": "9b409934d07e8eb7a6380a02fe93780cab3323401d595c846da1b2ce7ba1e414",
+      "handling": "Copied unchanged"
+    },
+    {
+      "path": "historical/quantum/PROPOSED_PROTOCOL.json",
+      "source_absolute_path": "C:\\Q2\\Improvement_Study_v0.2\\quantum\\PROPOSED_PROTOCOL.json",
+      "source_identity": {
+        "bytes": 9767,
+        "sha256": "6638b90e5cfe1c26b5faa7751659263c14c67ca5e314712798ca0d03c95b2ede"
+      },
+      "bytes": 9767,
+      "sha256": "6638b90e5cfe1c26b5faa7751659263c14c67ca5e314712798ca0d03c95b2ede",
+      "handling": "Copied unchanged"
+    },
+    {
+      "path": "historical/quantum/READINESS_PROTOCOL.json",
+      "source_absolute_path": "C:\\Q2\\Improvement_Study_v0.2\\quantum\\READINESS_PROTOCOL.json",
+      "source_identity": {
+        "bytes": 2099,
+        "sha256": "abbd9f58aaae80416e0ac349ce8b1bd4f4ccfab915f1baa5cb332b1ca6ee4a6f"
+      },
+      "bytes": 2099,
+      "sha256": "abbd9f58aaae80416e0ac349ce8b1bd4f4ccfab915f1baa5cb332b1ca6ee4a6f",
+      "handling": "Copied unchanged"
+    }
+  ],
+  "scope": "Maps all files present before SOURCE_MAP, MANIFEST and CHECKSUMS creation. Final integrity inventories cover these generated records. Original source scientific files are preserved."
+}

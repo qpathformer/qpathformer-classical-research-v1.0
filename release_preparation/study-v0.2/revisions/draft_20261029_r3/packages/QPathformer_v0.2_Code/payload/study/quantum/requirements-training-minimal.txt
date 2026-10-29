@@ -1,0 +1,3 @@
+# NumPy trainer, data preparation, independent matrix replay and unittest checks.
+# Local Qiskit/Aer circuit readiness additionally requires requirements-quantum-minimal.txt.
+numpy==2.5.4

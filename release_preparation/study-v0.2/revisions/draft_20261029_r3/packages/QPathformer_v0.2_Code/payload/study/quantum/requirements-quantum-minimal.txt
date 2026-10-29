@@ -1,0 +1,14 @@
+# Declared base dependency closure for local quantum training and Qiskit/Aer readiness.
+# Pinned to the versions observed in the study CPU environment.
+# No Torch, Hugging Face, plotting extras, IBM Runtime provider or cloud SDK.
+numpy==2.5.4
+scipy==1.18.1
+qiskit==2.6.0
+qiskit-aer==0.17.2
+rustworkx==0.18.1
+dill==0.4.1
+stevedore==5.9.1
+typing_extensions==4.16.0
+psutil==7.2.2
+python-dateutil==2.9.0.post0
+six==1.17.0

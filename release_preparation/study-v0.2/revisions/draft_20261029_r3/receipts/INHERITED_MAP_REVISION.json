@@ -1,0 +1,25 @@
+{
+  "status": "CORRECTED_INHERITED_EXPRESSION_CATALOG_RESOLUTION",
+  "previous_build": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r2",
+  "previous_package_index": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r2\\receipts\\PACKAGE_INDEX.json",
+    "bytes": 4081,
+    "sha256": "a103033cf2b70146c424bc0fa8909dd76f6a2aba63ba005d9c7889b36537aba1"
+  },
+  "previous_startup_binding": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r2\\receipts\\FRESH_PACKAGE_VERIFICATION.json",
+    "bytes": 4116,
+    "sha256": "40062bfca212af30366f0e4f172aed54101fd8b9410978e79c962d39c2461dbf"
+  },
+  "corrected_catalog": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\draft_batch_20261029\\ADOPTED_SCOPE_CATALOG.json",
+    "bytes": 193887,
+    "sha256": "59dd27a0f4b1f857ed62d68a18d2fcfbac44415957c8c15e1d65ecfadf9d9fa5"
+  },
+  "scientific_code_and_helpers_unchanged": true,
+  "study_and_documentation_zip_and_seal_bytes_unchanged": true,
+  "previous_shared_expression_records": 2,
+  "current_shared_expression_records": 2,
+  "exact_whole_file_matches_unchanged": true,
+  "prior_sealed_evidence_preserved": true
+}

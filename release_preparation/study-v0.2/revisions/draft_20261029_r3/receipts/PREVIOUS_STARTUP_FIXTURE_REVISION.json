@@ -1,0 +1,15 @@
+{
+  "reason": "Correct new bounded text smoke fixture to use ordinary content token IDs instead of a row containing only special tokens. Original scientific code and report bytes are unchanged.",
+  "superseded_build": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029",
+  "superseded_package_index": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029\\receipts\\PACKAGE_INDEX.json",
+    "bytes": 4042,
+    "sha256": "52197c6dd1bdeadfd28ef1b9759e4c321982f7d49ff0ddc26384cd7ef46febf0"
+  },
+  "superseded_startup": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029\\receipts\\QPathformer_v0.2_Code.startup.json",
+    "bytes": 6021,
+    "sha256": "ee4dd6a7d5debc6b68b84824648491e526b7d5c5fcbe524468e3136a94b8d306"
+  },
+  "history_preserved": true
+}

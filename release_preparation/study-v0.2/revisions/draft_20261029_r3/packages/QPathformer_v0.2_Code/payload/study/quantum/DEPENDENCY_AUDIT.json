@@ -1,0 +1,189 @@
+{
+  "created_utc": "2026-10-18T12:06:53.273969+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+  "purpose": "Read-only installed metadata audit supporting the minimal declared base dependency closure; no environment installation or modification",
+  "complete_observed_environment_sha256": "c4e7087b10bcfd02e22b7a3924c9bcafe0f51b1c07c663f33ab28ee8635fbfe5",
+  "minimal_quantum_requirements_sha256": "da1b6e18ee0819fad13b4071241fb20be822fde9ec9e37295c1a9b940b117632",
+  "minimal_training_requirements_sha256": "3d0351fc82e93f544c7f6cfd2a6222e610427ab607a518e6a3ee22906bed2a31",
+  "packages": {
+    "numpy": {
+      "version": "2.5.4",
+      "declared_requires_dist": []
+    },
+    "scipy": {
+      "version": "1.18.1",
+      "declared_requires_dist": [
+        "numpy<2.8,>=2.0.0",
+        "pytest>=8.0.0; extra == \"test\"",
+        "pytest-cov; extra == \"test\"",
+        "pytest-timeout; extra == \"test\"",
+        "pytest-xdist; extra == \"test\"",
+        "asv; extra == \"test\"",
+        "mpmath; extra == \"test\"",
+        "gmpy2; extra == \"test\"",
+        "threadpoolctl; extra == \"test\"",
+        "scikit-umfpack; extra == \"test\"",
+        "pooch; extra == \"test\"",
+        "hypothesis>=6.30; extra == \"test\"",
+        "array-api-strict>=2.3.1; extra == \"test\"",
+        "Cython; extra == \"test\"",
+        "meson; extra == \"test\"",
+        "ninja; sys_platform != \"emscripten\" and extra == \"test\"",
+        "scipy-doctest>=2.0.0; extra == \"test\"",
+        "sphinx<8.2.0,>=5.0.0; extra == \"doc\"",
+        "intersphinx_registry; extra == \"doc\"",
+        "pydata-sphinx-theme>=0.15.2; extra == \"doc\"",
+        "sphinx-copybutton; extra == \"doc\"",
+        "sphinx-design>=0.4.0; extra == \"doc\"",
+        "matplotlib>=3.5; extra == \"doc\"",
+        "numpydoc; extra == \"doc\"",
+        "jupytext; extra == \"doc\"",
+        "myst-nb>=1.2.0; extra == \"doc\"",
+        "pooch; extra == \"doc\"",
+        "jupyterlite-sphinx>=0.19.1; extra == \"doc\"",
+        "jupyterlite-pyodide-kernel; extra == \"doc\"",
+        "linkify-it-py; extra == \"doc\"",
+        "tabulate; extra == \"doc\"",
+        "click<8.3.0; extra == \"dev\"",
+        "spin; extra == \"dev\"",
+        "mypy==1.19.1; extra == \"dev\"",
+        "pyrefly==0.63.0; extra == \"dev\"",
+        "typing_extensions; extra == \"dev\"",
+        "types-psutil; extra == \"dev\"",
+        "pycodestyle; extra == \"dev\"",
+        "ruff>=0.12.0; extra == \"dev\"",
+        "cython-lint>=0.12.2; extra == \"dev\""
+      ]
+    },
+    "qiskit": {
+      "version": "2.6.0",
+      "declared_requires_dist": [
+        "numpy<3,>=2.0",
+        "scipy>=1.14",
+        "rustworkx>=0.15.0",
+        "dill>=0.3",
+        "stevedore>=3.0.0",
+        "typing-extensions",
+        "qiskit-qasm3-import>=0.1.0; extra == \"qasm3-import\"",
+        "matplotlib>=3.3; extra == \"visualization\"",
+        "pydot; extra == \"visualization\"",
+        "Pillow>=4.2.1; extra == \"visualization\"",
+        "pylatexenc>=1.4; extra == \"visualization\"",
+        "seaborn>=0.9.0; extra == \"visualization\"",
+        "sympy>=1.3; extra == \"visualization\"",
+        "z3-solver>=4.7; extra == \"crosstalk-pass\"",
+        "python-constraint>=1.4; extra == \"csp-layout-pass\"",
+        "symengine<0.14,>=0.11; extra == \"qpy-compat\"",
+        "sympy>1.3; extra == \"qpy-compat\"",
+        "qiskit[crosstalk-pass,csp-layout-pass,qasm3-import,qpy-compat,visualization]; extra == \"all\""
+      ]
+    },
+    "qiskit-aer": {
+      "version": "0.17.2",
+      "declared_requires_dist": [
+        "qiskit>=1.1.0",
+        "numpy>=1.16.3",
+        "scipy>=1.0",
+        "psutil>=5",
+        "python-dateutil>=2.8.0"
+      ]
+    },
+    "rustworkx": {
+      "version": "0.18.1",
+      "declared_requires_dist": [
+        "numpy>=1.16.0,<3",
+        "matplotlib>=3.0 ; extra == 'all'",
+        "pillow>=5.4 ; extra == 'all'",
+        "pillow>=5.4 ; extra == 'graphviz'",
+        "matplotlib>=3.0 ; extra == 'mpl'"
+      ]
+    },
+    "dill": {
+      "version": "0.4.1",
+      "declared_requires_dist": [
+        "objgraph>=1.7.2; extra == \"graph\"",
+        "gprof2dot>=2022.7.29; extra == \"profile\""
+      ]
+    },
+    "stevedore": {
+      "version": "5.9.1",
+      "declared_requires_dist": []
+    },
+    "typing_extensions": {
+      "version": "4.16.0",
+      "declared_requires_dist": []
+    },
+    "psutil": {
+      "version": "7.2.2",
+      "declared_requires_dist": [
+        "psleak ; extra == 'dev'",
+        "pytest ; extra == 'dev'",
+        "pytest-instafail ; extra == 'dev'",
+        "pytest-xdist ; extra == 'dev'",
+        "setuptools ; extra == 'dev'",
+        "abi3audit ; extra == 'dev'",
+        "black ; extra == 'dev'",
+        "check-manifest ; extra == 'dev'",
+        "coverage ; extra == 'dev'",
+        "packaging ; extra == 'dev'",
+        "pylint ; extra == 'dev'",
+        "pyperf ; extra == 'dev'",
+        "pypinfo ; extra == 'dev'",
+        "pytest-cov ; extra == 'dev'",
+        "requests ; extra == 'dev'",
+        "rstcheck ; extra == 'dev'",
+        "ruff ; extra == 'dev'",
+        "sphinx ; extra == 'dev'",
+        "sphinx-rtd-theme ; extra == 'dev'",
+        "toml-sort ; extra == 'dev'",
+        "twine ; extra == 'dev'",
+        "validate-pyproject[all] ; extra == 'dev'",
+        "virtualenv ; extra == 'dev'",
+        "vulture ; extra == 'dev'",
+        "wheel ; extra == 'dev'",
+        "colorama ; (os_name == \"nt\") and extra == 'dev'",
+        "pyreadline3 ; (os_name == \"nt\") and extra == 'dev'",
+        "pywin32 ; (os_name == \"nt\" and implementation_name != \"pypy\") and extra == 'dev'",
+        "wheel ; (os_name == \"nt\" and implementation_name != \"pypy\") and extra == 'dev'",
+        "wmi ; (os_name == \"nt\" and implementation_name != \"pypy\") and extra == 'dev'",
+        "psleak ; extra == 'test'",
+        "pytest ; extra == 'test'",
+        "pytest-instafail ; extra == 'test'",
+        "pytest-xdist ; extra == 'test'",
+        "setuptools ; extra == 'test'",
+        "pywin32 ; (os_name == \"nt\" and implementation_name != \"pypy\") and extra == 'test'",
+        "wheel ; (os_name == \"nt\" and implementation_name != \"pypy\") and extra == 'test'",
+        "wmi ; (os_name == \"nt\" and implementation_name != \"pypy\") and extra == 'test'"
+      ]
+    },
+    "python-dateutil": {
+      "version": "2.9.0.post0",
+      "declared_requires_dist": [
+        "six >=1.5"
+      ]
+    },
+    "six": {
+      "version": "1.17.0",
+      "declared_requires_dist": []
+    }
+  },
+  "extras_requested": [],
+  "base_dependency_closure": [
+    "numpy",
+    "scipy",
+    "qiskit",
+    "qiskit-aer",
+    "rustworkx",
+    "dill",
+    "stevedore",
+    "typing_extensions",
+    "psutil",
+    "python-dateutil",
+    "six"
+  ],
+  "metadata_conclusion": "Every non-extra Requires-Dist dependency is included at its observed compatible version. Extras are not requested.",
+  "clean_room_installation_performed": false,
+  "cloud_provider_needed": false,
+  "network_calls_performed": false
+}

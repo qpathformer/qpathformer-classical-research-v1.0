@@ -1,0 +1,189 @@
+{
+  "study_id": "QPATH-QMECH-v0.2",
+  "classification": "INTERNAL - NOT FOR PUBLICATION",
+  "created_utc": "2026-10-18T11:07:12.499986+00:00",
+  "review_status": "pending_root_review",
+  "official_training_started": false,
+  "methods": [
+    "scheduled",
+    "min_depth2",
+    "untied_assigned",
+    "untied_balanced",
+    "untied_all_records",
+    "fixed4",
+    "mlp129",
+    "mlp17",
+    "mlp41"
+  ],
+  "training_seeds": [
+    301,
+    302,
+    303
+  ],
+  "source_hashes": {
+    "qstudy.py": "d33e7b7b537be10ffddf34e4b7b642c18fdf81a708ea2654102b764616997128",
+    "prepare_study.py": "cda68a7554adbcc22707a6ea54f88afde6356de952e950f0eae77a2b010086e4",
+    "tests\\test_v02.py": "16de1765129855d5a9f6dabfc301ecbf356d38d8a614b09d64928251db074504",
+    "launch_stage.py": "8ff441b3f5556c527a2827366d0cfe802e0e0413847aa0a05a4772def2e6d4f0",
+    "select_candidate.py": "65d6ed00e370352f93576ef12070d9c84cdbcbb5c1784bbe8e574ae6a60d25dc",
+    "vendor\\qpath\\__init__.py": "05824d3c944b73dd461a8aaabd287cdb1618b70f9d2232d3ebf418d4ca08d14d",
+    "vendor\\qpath\\data.py": "b827e92b2e9c0b861c12eecc8eb539cb6703490d1354aed6065dfedfeabf2ab1",
+    "vendor\\qpath\\quantum.py": "0b1fd34a3c6ef3d739450ed6c553580d3e8dd5da36494c60e725aed58557f619",
+    "vendor\\qpath\\reference.py": "6148eecb303e81767c5a2718d3e076dd939e65a60506a8b89a86542815900e10"
+  },
+  "data_seal_sha256": "3f64622469ee967812f4ef88f0a4d33430a605c78b9185a9cf5fe27bff7e6f0f",
+  "root_analysis_protocol_sha256": "9b409934d07e8eb7a6380a02fe93780cab3323401d595c846da1b2ce7ba1e414",
+  "data": {
+    "development": {
+      "seeds": {
+        "features": 12017,
+        "classes": 12023,
+        "split": 12029
+      },
+      "counts": {
+        "train": 4800,
+        "validation": 1600,
+        "test": 1600
+      }
+    },
+    "confirmation": {
+      "seeds": {
+        "features": 22017,
+        "classes": 22023,
+        "split": 22029
+      },
+      "counts": {
+        "train": 4800,
+        "validation": 1600,
+        "test": 1600
+      }
+    },
+    "engineering": {
+      "seeds": {
+        "features": 32017,
+        "classes": 32023,
+        "split": 32029
+      },
+      "counts": {
+        "train": 4800,
+        "validation": 1600,
+        "test": 1600
+      }
+    }
+  },
+  "data_sealed_utc": "2026-10-18T11:02:19.736090+00:00",
+  "boundary": "Stage A consumes development train/validation only. Stage B consumes independent confirmation train/validation. Confirmation test is loaded only by separate final evaluator after all Stage B checkpoints and identities are fixed.",
+  "rounds": 200,
+  "batch_size": 64,
+  "global_updates_per_run": 15000,
+  "optimizer": {
+    "name": "Adam",
+    "learning_rate": 0.01,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "epsilon": 1e-08,
+    "weight_decay": 0
+  },
+  "initialization": "PCG64 SeedSequence([training_seed,1]); circuit shared16 Uniform[-0.1,0.1], untied bank d copies the corresponding shared prefix at initialization; MLP Xavier uniform weights and zero biases",
+  "pairing": "PCG64 SeedSequence([training_seed,2]) shuffled full passes, same record order across all ordinary treatments; all-records control presents each global batch to every bank",
+  "checkpoint_selection": "Minimum full validation clipped BCE over all 200 rounds, earliest exact tie; complete horizon charged",
+  "metric": {
+    "primary": "BCE with probabilities clipped to [1e-7,1-1e-7]",
+    "secondary": [
+      "macro F1",
+      "accuracy",
+      "resource work"
+    ],
+    "classification_threshold": 0.5
+  },
+  "stage_a": {
+    "runs": 27,
+    "selectable_candidates": [
+      "min_depth2",
+      "untied_assigned",
+      "untied_balanced"
+    ],
+    "hyperparameter_search": "none beyond three prespecified mechanism alternatives",
+    "selection": "Lowest mean selected-validation BCE across seeds301-303. Candidates within0.002 of minimum prefer lower mean measured training circuit-example work, then fewer allocated parameters, then lexical method name. All27 runs must complete; no silent exclusions.",
+    "promising_flag": "mean validation BCE improvement>=0.01 versus original scheduled; confirmation still proceeds if absent, explicitly diagnostic"
+  },
+  "exposure": {
+    "scheduled/min_depth2/fixed4/MLPs": "960,000 record visits, 15,000 global Adam steps; min_depth2 raises original depth1 to2; fixed4 runs all records at4",
+    "untied_assigned": "40 angles in independent depth1..4 banks. Identical global64-record batches; each bank receives only its original assigned-depth records. Gradients sum over its selected rows divided by total global batch size64. 960,000 total record visits, 15,000 global vector-Adam steps.",
+    "untied_balanced": "At each of the same15,000 global steps, each of four banks receives64 records from repeated independent shuffled passes through its original fixed subset. 960,000 visits per bank,3,840,000 total. No new record IDs for a bank. Conditional mean bank gradient is weighted by its original training depth proportion. Different batch noise, exposure and compute; not extra optimizer steps.",
+    "untied_all_records": "At each global step, all four banks receive the same64-record full-training batch with forced executed depth1..4. Same3,840,000 visits and weighting as balanced, but each bank sees all4,800 distinct training records. Nonselectable mechanism control.",
+    "weights": "Fixed per-depth training population proportions, independently recomputed for development versus confirmation datasets"
+  },
+  "capacity_controls": {
+    "mlp17": "6 inputs,2 ReLU hidden,1 sigmoid:17 parameters",
+    "mlp41": "6 inputs,5 ReLU hidden:41 parameters",
+    "mlp129": "6 inputs,16 ReLU hidden:129 parameters",
+    "features": "x0,x1 plus original assigned-depth one-hot; min_depth2_mlp129 instead receives minimum-depth-two assignment. Small counts approximately match circuit budgets, not equivalent expressive capacity."
+  },
+  "stage_b": {
+    "training_seeds": [
+      401,
+      402,
+      403,
+      404,
+      405
+    ],
+    "selection_source": "Frozen Stage A selection only, before any confirmation outcomes",
+    "if_min_depth2": [
+      "scheduled",
+      "fixed4",
+      "min_depth2",
+      "mlp129",
+      "mlp17",
+      "min_depth2_mlp129"
+    ],
+    "if_untied": [
+      "scheduled",
+      "fixed4",
+      "untied_assigned",
+      "untied_balanced",
+      "untied_all_records",
+      "mlp129",
+      "mlp17",
+      "mlp41"
+    ],
+    "runs": "30 if minimum-depth-two selected;40 if either untied candidate selected",
+    "fresh_dataset": "confirmation seeds22017/22023/22029, all train/validation/test independent of Stage A and v0.1",
+    "primary_contrast": "Selected candidate minus original scheduled test BCE, paired by training seed",
+    "practical_threshold": "Mean difference <= -0.01 BCE labels a practically worthwhile engineering improvement; uncertainty and all other comparisons still reported. No equivalence or quantum advantage inference.",
+    "uncertainty": "Five paired seed means/SD and descriptive t95 intervals; one fixed fresh dataset, no population-wide generalization. Secondary contrasts descriptive and not multiplicity-adjusted.",
+    "shots": "After checkpoint/test freeze only: selected new quantum candidate validation-selected checkpoints,1024/4096 ideal binomial readouts, five nested shot seeds per checkpoint; no finite-shot training, no hardware"
+  },
+  "diagnostics": "Prespecified training-only gradients by original depth at selected checkpoints; raw gradient norms and common-active-prefix cosines for shared circuits. Not Adam update directions or causal evidence. All training/validation/replay/gradient circuit-example and layer work recorded separately.",
+  "failures": "Preserve all logs, partial checkpoints and failures. No resumability claim: no sampler state is saved. Any fresh retry requires a documented incident and explicit review; never silently excludes the failed run.",
+  "parallelism": "Three Stage A seed processes or five Stage B seed processes, one BLAS/OMP thread each. Local NumPy CPU; no GPU contention expected.",
+  "pilot": {
+    "engineering_seed": 901,
+    "dataset": "engineering32017/32023/32029, entirely separate from development and confirmation",
+    "rounds": 3,
+    "population": "full4800 training/full1600 validation",
+    "source_note": "Second pilot includes final numerical implementation. Subsequent edits only added launcher/selector hashes and diagnostic selection wording. Final unit tests run after all edits.",
+    "per_seed_stage_a_projection_seconds": [
+      2045.3056666612006,
+      1454.2377399940356
+    ],
+    "forecast": "Stage A approximately25-50min; Stage B approximately15-45min depending selected mechanism, contention and thermal conditions. Allow60-110min including checks/reporting; projection is not a guarantee."
+  },
+  "preflight": {
+    "unit_tests_passed": true,
+    "reference_cases": 3240,
+    "reference_status": "pass",
+    "all9methods_timing_pilot_completed": true,
+    "test_outcomes_accessed": false
+  },
+  "confounding": [
+    "Untying increases independent parameters from16 to40 and changes which records update each parameter.",
+    "Exposure balancing changes batch noise and record/circuit work.",
+    "All-records control adds distinct records per bank at matched visit count.",
+    "Minimum depth2 uses more executed layers despite same16 allocated angles.",
+    "The data classes are random metadata, not semantic priority."
+  ],
+  "next_action": "Await root independent review. Root may create STAGE_A_FREEZE.json with approved_by_root; this proposal does not authorize itself."
+}

@@ -1,0 +1,355 @@
+{
+  "schema": "qpath-package-manifest-1",
+  "package": "QPathformer_v0.2_Code",
+  "files": [
+    {
+      "path": "CODE_LICENSE_SCOPE.json",
+      "bytes": 8230,
+      "sha256": "ec67fc4b4a061a214a6c0738c507f8ade77f5f2f5fe4a96fd3fc8dcd4ab0c84d"
+    },
+    {
+      "path": "DEPENDENCIES.md",
+      "bytes": 795,
+      "sha256": "374d28848495741d714ad826a99b3b3e8538e803886db6786f72f2f983621d14"
+    },
+    {
+      "path": "DEPENDENCY_INVENTORY.json",
+      "bytes": 19899,
+      "sha256": "f2f88f0c0fdd1a1b61177a41328d8a56a1b88dd1899a824f3cce6b24f51eace9"
+    },
+    {
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "bytes": 1774,
+      "sha256": "b2835e29e59bb4f9fc2b8c154826f007376b8ae630d4e15553fe83b627c978a1"
+    },
+    {
+      "path": "INHERITED_LICENSE_MAP.json",
+      "bytes": 16015,
+      "sha256": "efa7662b3af1fe97ba06f6d7f25eb2eeed47fb30851da6435c95157602c5ec1a"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 18615,
+      "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+    },
+    {
+      "path": "LICENSES/QPATHFORMER-PLATFORM-1.0.txt",
+      "bytes": 1461,
+      "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+    },
+    {
+      "path": "LICENSE_ADOPTION.json",
+      "bytes": 1621,
+      "sha256": "b127b4d330b1e024db98fed3a1083c42cfef9b2ee4f16e5d1ef4b33a72932266"
+    },
+    {
+      "path": "QUICKSTART.md",
+      "bytes": 1206,
+      "sha256": "3cb9fc69fbf8c73407398efda475a48fc900255b6c298f4807529f5a2f84a561"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 1559,
+      "sha256": "cf7c27f63e086489e5ed69767f5e6b59f91ec004a0980117a3c6319128216700"
+    },
+    {
+      "path": "SOURCE_MAP.json",
+      "bytes": 33697,
+      "sha256": "20799e2dff30bbd6a6333d74953c9f0f6cd00411addc7854f19c45a810ab26a2"
+    },
+    {
+      "path": "SOURCE_SELECTION.json",
+      "bytes": 14615,
+      "sha256": "d2431e7107b73652bbc06a460f10b118d95969c1c2c059ab227b8d0c324c1609"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 960,
+      "sha256": "109f12567f6b52b0eb1cd4a43102d1c984a40ee7d1220f7158736d813ac95953"
+    },
+    {
+      "path": "VERIFY.md",
+      "bytes": 887,
+      "sha256": "cc156010bf8a650c17060d88883553b463834dcc4c31f9a579d67e68fd7573bc"
+    },
+    {
+      "path": "historical/REPRODUCE_INTERNAL.txt",
+      "bytes": 15287,
+      "sha256": "57fbfa664a8c47feace706f72af3d119255ac70ba95254faecb8c1f36606fb46"
+    },
+    {
+      "path": "historical/RUN_STATUS.txt",
+      "bytes": 1301,
+      "sha256": "981dd4347fb1254bdfcf88970754e6cafb1c080f863a70d482ec375c8e670c3e"
+    },
+    {
+      "path": "payload/study/analysis/classical_independent/audit_stage_a.py",
+      "bytes": 20788,
+      "sha256": "eb0724bdaaf72074f00762d79188e20760501878325f17b5bed3802dd2099535"
+    },
+    {
+      "path": "payload/study/analysis/classical_independent/audit_stage_b.py",
+      "bytes": 31595,
+      "sha256": "0ef24836ff490df2509539ef620d7e25605546bb319b352d6ec64a78a7c3ad08"
+    },
+    {
+      "path": "payload/study/analysis/classical_independent/replay_and_analyse.py",
+      "bytes": 32271,
+      "sha256": "dca77d8c05ed1c6ef53adfe7ae88d1be12aca673a08dbc91fc384eb6ed574f6d"
+    },
+    {
+      "path": "payload/study/analysis/quantum_independent/audit_outputs.py",
+      "bytes": 24276,
+      "sha256": "f22cb68678be8dbc87e8ec679fb92ddf1a17485790037b789bb4f4fe8c974065"
+    },
+    {
+      "path": "payload/study/classical/data_work/DATA_PROTOCOL.json",
+      "bytes": 1366,
+      "sha256": "c39861c7e9f661ec1e71f700a5e10e7aacb068b87cd644db910c0f567b2c00a4"
+    },
+    {
+      "path": "payload/study/classical/data_work/audit_data.py",
+      "bytes": 8541,
+      "sha256": "d7ee3c57c8acadbfdf1976b383b4cfb16818f6cdb5994aeeebec10abdd53df1f"
+    },
+    {
+      "path": "payload/study/classical/data_work/prepare_dbpedia.py",
+      "bytes": 13996,
+      "sha256": "269c97dde0ceefc42b237ca2a8dd1a9ed058c73d3c68b771b2bcfe9f47ad1d7d"
+    },
+    {
+      "path": "payload/study/classical/engine.py",
+      "bytes": 13403,
+      "sha256": "acb747cad7cf9948fad9d71f5ae7cd92cb571aef8cfc18500fef7cea504d395d"
+    },
+    {
+      "path": "payload/study/classical/evaluate_sealed.py",
+      "bytes": 8155,
+      "sha256": "4cbed8fba21d51c355a5055c63e46f026028cf43a36e7a12e0c28124bca2e5d9"
+    },
+    {
+      "path": "payload/study/classical/qpath/__init__.py",
+      "bytes": 85,
+      "sha256": "05824d3c944b73dd461a8aaabd287cdb1618b70f9d2232d3ebf418d4ca08d14d"
+    },
+    {
+      "path": "payload/study/classical/qpath/classical.py",
+      "bytes": 23460,
+      "sha256": "f5dfbf945df026bf168048309335a3cc8403bbf4c6b8bb2aa1d3afe34be5d225"
+    },
+    {
+      "path": "payload/study/classical/qpath/policies.py",
+      "bytes": 12368,
+      "sha256": "f3418f4111285b2f2819b51a96ef23cf5b1b7b5fff9da7ee901dc47ba5695d78"
+    },
+    {
+      "path": "payload/study/classical/requirements-cuda-lock.txt",
+      "bytes": 445,
+      "sha256": "bc934b9be9239b99f87cf42c50b69967da1fa8ac50050359ba449a81edf67cd9"
+    },
+    {
+      "path": "payload/study/classical/study.py",
+      "bytes": 29550,
+      "sha256": "1d77536379946d04eff406bc9769dbbdcdc2ebb48598bbb457c6eefc8fee360e"
+    },
+    {
+      "path": "payload/study/classical/tests/test_classical.py",
+      "bytes": 8815,
+      "sha256": "8894a4668f192081b15583efb576a6e5a262233277ed1cbe768df6e2641a5ef1"
+    },
+    {
+      "path": "payload/study/classical/tests/test_policies.py",
+      "bytes": 8504,
+      "sha256": "d9a7a81a940f326817e422be372719eb7d94044c8ea2e9b2313fb7a4149da5ea"
+    },
+    {
+      "path": "payload/study/classical/tests/test_v02.py",
+      "bytes": 12699,
+      "sha256": "655541398a89232b087f12af7b81663418e400e33b9643beb35fd791a3718af8"
+    },
+    {
+      "path": "payload/study/classical/verify_training.py",
+      "bytes": 3940,
+      "sha256": "380880fcc4e28c7b901386db34c8c39414826a24f94abf9cc8cc1f420a0da103"
+    },
+    {
+      "path": "payload/study/governance/ANALYSIS_PROTOCOL.json",
+      "bytes": 5611,
+      "sha256": "9b409934d07e8eb7a6380a02fe93780cab3323401d595c846da1b2ce7ba1e414"
+    },
+    {
+      "path": "payload/study/governance/approve_classical_stage_a.py",
+      "bytes": 1792,
+      "sha256": "978fdab0689363c0c823190830a47ce1e44a07fb80b5e055fc3cf5d92703137a"
+    },
+    {
+      "path": "payload/study/governance/approve_classical_stage_b.py",
+      "bytes": 6761,
+      "sha256": "232422f29693e8a4a10724c090ca6bd04d023b9edee763e8e7bc392474adb8aa"
+    },
+    {
+      "path": "payload/study/governance/approve_quantum_stage_a.py",
+      "bytes": 1441,
+      "sha256": "5d80af59dfb10f8f977eafd1e3986c5b9521a1edac04db53b6a16b39e0ea93d3"
+    },
+    {
+      "path": "payload/study/governance/approve_quantum_stage_b.py",
+      "bytes": 7374,
+      "sha256": "a4940440706b50cdc2172b5f799deeece84f7ed61030fe24e3d34c204044f712"
+    },
+    {
+      "path": "payload/study/governance/release_classical_test.py",
+      "bytes": 11794,
+      "sha256": "be2c330a99d52b15865cd72e27615a42b822ea672a9c0c2e1fc2154a8a1be26c"
+    },
+    {
+      "path": "payload/study/governance/release_quantum_test.py",
+      "bytes": 14240,
+      "sha256": "e58ac238924acfb525657b65d89e5813ad85ff4f3663429cbfd278a5131678b2"
+    },
+    {
+      "path": "payload/study/quantum/DEPENDENCY_AUDIT.json",
+      "bytes": 7312,
+      "sha256": "232d08d451b1849d8c580244711bae60d3d014d93eadfa108cc687edbedce5ba"
+    },
+    {
+      "path": "payload/study/quantum/PROPOSED_PROTOCOL.json",
+      "bytes": 9767,
+      "sha256": "6638b90e5cfe1c26b5faa7751659263c14c67ca5e314712798ca0d03c95b2ede"
+    },
+    {
+      "path": "payload/study/quantum/READINESS_PROTOCOL.json",
+      "bytes": 2099,
+      "sha256": "abbd9f58aaae80416e0ac349ce8b1bd4f4ccfab915f1baa5cb332b1ca6ee4a6f"
+    },
+    {
+      "path": "payload/study/quantum/SETUP_QUANTUM.txt",
+      "bytes": 3316,
+      "sha256": "c8db36bc20c704b0c1e29fce9199f29e788247aa7c41e918756ee779a25d5c55"
+    },
+    {
+      "path": "payload/study/quantum/audit_stage_a.py",
+      "bytes": 5668,
+      "sha256": "fa42a8754394b03eeb949bfc807d1b332dcb42484e1df4487d314dbc2dffc4eb"
+    },
+    {
+      "path": "payload/study/quantum/evaluate_confirmation.py",
+      "bytes": 20414,
+      "sha256": "e9d40495cacc5b1196c8c83cd86729a2279c5c68fb0ed0ec40b50a2ef4c69cd2"
+    },
+    {
+      "path": "payload/study/quantum/ibm_local.py",
+      "bytes": 6663,
+      "sha256": "eb58b72c8f615dacf1f3681f9a7287bb5da97b59ff4833c198ecc9a8a369bb0d"
+    },
+    {
+      "path": "payload/study/quantum/launch_stage.py",
+      "bytes": 3296,
+      "sha256": "8ff441b3f5556c527a2827366d0cfe802e0e0413847aa0a05a4772def2e6d4f0"
+    },
+    {
+      "path": "payload/study/quantum/local_readiness.py",
+      "bytes": 9526,
+      "sha256": "85c20c2001ac63030ee038f83c7c827acc38493c2cd9f472de61280f33cd66cb"
+    },
+    {
+      "path": "payload/study/quantum/preflight.py",
+      "bytes": 2738,
+      "sha256": "176caa6bcdab136925aece32786cbf8da53ef42d43ba32ed585749fdf7143932"
+    },
+    {
+      "path": "payload/study/quantum/prepare_study.py",
+      "bytes": 3162,
+      "sha256": "cda68a7554adbcc22707a6ea54f88afde6356de952e950f0eae77a2b010086e4"
+    },
+    {
+      "path": "payload/study/quantum/propose_stage_b.py",
+      "bytes": 4156,
+      "sha256": "09054ee9011e460affef74c5f2471836db4afcc6a492ccc4cc4cd05a071d7ce3"
+    },
+    {
+      "path": "payload/study/quantum/qstudy.py",
+      "bytes": 21732,
+      "sha256": "d33e7b7b537be10ffddf34e4b7b642c18fdf81a708ea2654102b764616997128"
+    },
+    {
+      "path": "payload/study/quantum/requirements-cpu-lock.txt",
+      "bytes": 585,
+      "sha256": "c4e7087b10bcfd02e22b7a3924c9bcafe0f51b1c07c663f33ab28ee8635fbfe5"
+    },
+    {
+      "path": "payload/study/quantum/requirements-quantum-minimal.txt",
+      "bytes": 418,
+      "sha256": "da1b6e18ee0819fad13b4071241fb20be822fde9ec9e37295c1a9b940b117632"
+    },
+    {
+      "path": "payload/study/quantum/requirements-training-minimal.txt",
+      "bytes": 188,
+      "sha256": "3d0351fc82e93f544c7f6cfd2a6222e610427ab607a518e6a3ee22906bed2a31"
+    },
+    {
+      "path": "payload/study/quantum/select_candidate.py",
+      "bytes": 3848,
+      "sha256": "65d6ed00e370352f93576ef12070d9c84cdbcbb5c1784bbe8e574ae6a60d25dc"
+    },
+    {
+      "path": "payload/study/quantum/tests/test_evaluation.py",
+      "bytes": 3374,
+      "sha256": "e409d4704dc705151451a5bbcb387ca9831d9075f846f1ff034f08025257f6f8"
+    },
+    {
+      "path": "payload/study/quantum/tests/test_v02.py",
+      "bytes": 4981,
+      "sha256": "16de1765129855d5a9f6dabfc301ecbf356d38d8a614b09d64928251db074504"
+    },
+    {
+      "path": "payload/study/quantum/vendor/qpath/__init__.py",
+      "bytes": 85,
+      "sha256": "05824d3c944b73dd461a8aaabd287cdb1618b70f9d2232d3ebf418d4ca08d14d"
+    },
+    {
+      "path": "payload/study/quantum/vendor/qpath/data.py",
+      "bytes": 3078,
+      "sha256": "b827e92b2e9c0b861c12eecc8eb539cb6703490d1354aed6065dfedfeabf2ab1"
+    },
+    {
+      "path": "payload/study/quantum/vendor/qpath/quantum.py",
+      "bytes": 5179,
+      "sha256": "0b1fd34a3c6ef3d739450ed6c553580d3e8dd5da36494c60e725aed58557f619"
+    },
+    {
+      "path": "payload/study/quantum/vendor/qpath/reference.py",
+      "bytes": 3705,
+      "sha256": "6148eecb303e81767c5a2718d3e076dd939e65a60506a8b89a86542815900e10"
+    },
+    {
+      "path": "payload/study/quantum/watch_stage_a.py",
+      "bytes": 3825,
+      "sha256": "753ff87e59a0c46d05bc2c61f71952b4c2404c0f7114e92dd752cdd6bf7f337f"
+    },
+    {
+      "path": "payload/study/quantum/watch_stage_b.py",
+      "bytes": 4398,
+      "sha256": "a1f5c484bdb2e54561e38b9632a93117b49ae12c8a035939510b5c2870f54937"
+    },
+    {
+      "path": "provenance/inherited_scopes/v0.1_CODE_LICENSE_SCOPE.json",
+      "bytes": 6678,
+      "sha256": "e4fbd5efbe5505ee2349eed036c7463befce83c2e261d0f478f1dd5552867dc1"
+    },
+    {
+      "path": "tools/startup_check.py",
+      "bytes": 3506,
+      "sha256": "14ccf036a726b46f275885644468bbe22fbb69dd8480d1c72d801e4f2943e1fb"
+    },
+    {
+      "path": "tools/verify_package.py",
+      "bytes": 1128,
+      "sha256": "d1ee04bfd12eed979d3f8f3f05bfccea8c82f3cba54c8bbe07ab39dd0993ebbb"
+    }
+  ],
+  "excluded": [
+    "MANIFEST.json",
+    "CHECKSUMS.sha256"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "status": "PASS_FRESH_EXTRACTION_AND_BOUNDED_STARTUP",
+  "checked_at_utc": "2026-10-29T09:13:30.600859+00:00",
+  "packages": [
+    {
+      "package": "QPathformer_v0.2_Code",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r3\\dist\\QPathformer_v0.2_Code.zip",
+        "bytes": 203044,
+        "sha256": "e10c72038237c5d283ec97a4331eee180c19d17189ad718cc9a5a8a97540ecfe"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r3\\dist\\QPathformer_v0.2_Code.seal.json",
+        "bytes": 1366,
+        "sha256": "67482c8301c82d0f1be9251aacba02143b8546043a4f839bd6b7d6418b7c8a01"
+      },
+      "fresh_extraction": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r3\\qa\\fresh_extraction\\QPathformer_v0.2_Code",
+      "verification": {
+        "status": "PASS",
+        "files": 71
+      }
+    },
+    {
+      "package": "QPathformer_v0.2_Documentation",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r3\\dist\\QPathformer_v0.2_Documentation.zip",
+        "bytes": 35776,
+        "sha256": "c6af42921068af2a2018bd34d5c11cc60f703335d89163ef434a0ed1afa5590d"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r3\\dist\\QPathformer_v0.2_Documentation.seal.json",
+        "bytes": 1435,
+        "sha256": "5be8d6cd7726e2700209a3dc730b4a601efa00802dbe1438282fa853f40a238d"
+      },
+      "fresh_extraction": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r3\\qa\\fresh_extraction\\QPathformer_v0.2_Documentation",
+      "verification": {
+        "status": "PASS",
+        "files": 19
+      }
+    },
+    {
+      "package": "QPathformer_v0.2_Study",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r3\\dist\\QPathformer_v0.2_Study.zip",
+        "bytes": 1394386,
+        "sha256": "8e854c651422bca696a21bd479f5e084ef236d35bc71c976deecc4c1eb95dc81"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r3\\dist\\QPathformer_v0.2_Study.seal.json",
+        "bytes": 1373,
+        "sha256": "3901bcf7e6da62a8e811231299c8dcfa855a084af5d849dd248b79964a3b4409"
+      },
+      "fresh_extraction": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r3\\qa\\fresh_extraction\\QPathformer_v0.2_Study",
+      "verification": {
+        "status": "PASS",
+        "files": 18
+      }
+    }
+  ],
+  "code_zip": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r3\\dist\\QPathformer_v0.2_Code.zip",
+    "bytes": 203044,
+    "sha256": "e10c72038237c5d283ec97a4331eee180c19d17189ad718cc9a5a8a97540ecfe"
+  },
+  "code_seal": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r3\\dist\\QPathformer_v0.2_Code.seal.json",
+    "bytes": 1366,
+    "sha256": "67482c8301c82d0f1be9251aacba02143b8546043a4f839bd6b7d6418b7c8a01"
+  },
+  "code_startup_receipt": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r3\\receipts\\QPathformer_v0.2_Code.startup.json",
+    "bytes": 4949,
+    "sha256": "21dcb1d56f0b61d6029dc4d66620906d9cf756dbc1184c1aae7be11c298b68bc"
+  },
+  "package_bytes_unchanged": true,
+  "receipt_outside_entire_package": true,
+  "scope": "All selected Python parsed; source-specific imports and deterministic in-memory predictions, CLI help and one explicit nontraining invariant; v0.2 additionally a CPU text forward. No official input files used.",
+  "not_verified": [
+    "Clean-room dependency installation",
+    "Full training or official scoring",
+    "Datasets and selected checkpoints",
+    "Full-archive relocation",
+    "Shot sampling or noise experiments",
+    "Hardware or QPU execution"
+  ]
+}

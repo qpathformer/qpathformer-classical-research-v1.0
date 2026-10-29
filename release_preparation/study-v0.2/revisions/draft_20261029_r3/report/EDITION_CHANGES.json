@@ -1,0 +1,47 @@
+{
+  "status": "PASS_STRUCTURAL_PRESERVATION",
+  "source": {
+    "path": "C:\\Q2\\Improvement_Study_v0.2\\docs\\QPATH-RPT-003_Improvement_Study_and_Baseline_Comparison_v0.2.docx",
+    "bytes": 581560,
+    "sha256": "fb6a575707c3e2952d418bf20d3b3fcfff1929edf05c4a9f1a1d53b94abb9172"
+  },
+  "edition": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r2\\report\\files\\QPathformer_v0.2_Report.docx",
+    "bytes": 582429,
+    "sha256": "bdc94fdbf1de187ac54be14e4ee61da5959e7438220648764dfa6fbad6158b17"
+  },
+  "original_body_elements": 133,
+  "original_body_canonical_xml_unchanged": true,
+  "original_tables": 14,
+  "media": [
+    {
+      "path": "word/media/image1.png",
+      "bytes": 145170,
+      "sha256": "750f7ae07c1971c976df3d71622ed4a133a4ed9809fb7197405bce2bdca91b41"
+    },
+    {
+      "path": "word/media/image2.png",
+      "bytes": 246568,
+      "sha256": "99715525daebd339152b89dd971440a9656b154eaa0ea9d71988c21ab5eb63d9"
+    },
+    {
+      "path": "word/media/image3.png",
+      "bytes": 110696,
+      "sha256": "68dd0815da4676535a41d041b95570829a9641a2ff733671ef06acb402efca22"
+    },
+    {
+      "path": "word/media/image4.png",
+      "bytes": 66015,
+      "sha256": "140c40110fdc03b2c93a891c833b5b04a24aaafbb5ba79c54ab3b20e2e81b933"
+    }
+  ],
+  "media_byte_identical": true,
+  "changes": [
+    "word/document.xml",
+    "docProps/core.xml",
+    "docProps/app.xml"
+  ],
+  "scientific_content_edits": 0,
+  "appended_edition_note": true,
+  "disclosure_review": "Historical local paths, host/environment descriptions and internal labels remain in the source report. No scientific content redacted. Private owner review required before public distribution."
+}

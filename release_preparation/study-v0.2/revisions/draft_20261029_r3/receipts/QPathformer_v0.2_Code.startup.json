@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "recorded_at_utc": "2026-10-29T09:13:30.341031+00:00",
+  "python": "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "checks": [
+    {
+      "label": "numeric imports and in-memory predictions",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-c",
+        "import json, numpy as np; import qstudy as s\nx=np.array([[0.,0.],[.1,-.3],[-.6,.7],[.9,.9]]); d=np.array([1,2,3,4]); route=np.array([0,1,2,3]); counts={}\nfor method in s.METHODS:\n m=s.Model(method,902); p=m.predict(x,d); assert p.shape==(4,) and np.isfinite(p).all() and ((p>=0)&(p<=1)).all(); counts[method]=len(m.parameters)\nprint(json.dumps({\"model_parameter_counts\":counts,\"finite_in_memory_predictions\":True}))"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r3\\qa\\fresh_extraction\\QPathformer_v0.2_Code\\payload\\study\\quantum",
+      "returncode": 0,
+      "stdout": "{\"model_parameter_counts\": {\"scheduled\": 16, \"min_depth2\": 16, \"untied_assigned\": 40, \"untied_balanced\": 40, \"untied_all_records\": 40, \"fixed4\": 16, \"mlp129\": 129, \"mlp17\": 17, \"mlp41\": 41, \"min_depth2_mlp129\": 129}, \"finite_in_memory_predictions\": true}\n",
+      "stderr": ""
+    },
+    {
+      "label": "training CLI argument help",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "qstudy.py",
+        "--help"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r3\\qa\\fresh_extraction\\QPathformer_v0.2_Code\\payload\\study\\quantum",
+      "returncode": 0,
+      "stdout": "usage: qstudy.py [-h] [--stage {A,B}] --method\n                 {scheduled,min_depth2,untied_assigned,untied_balanced,untied_all_records,fixed4,mlp129,mlp17,mlp41,min_depth2_mlp129}\n                 --seed SEED [--engineering] [--rounds ROUNDS]\n                 [--train-limit TRAIN_LIMIT] --output OUTPUT\n\nInternal v0.2 quantum mechanism study. Training never opens a test partition.\nOfficial training requires a separately reviewed stage freeze. Engineering\nruns are explicitly separate and are never eligible for candidate selection.\n\noptions:\n  -h, --help            show this help message and exit\n  --stage {A,B}\n  --method {scheduled,min_depth2,untied_assigned,untied_balanced,untied_all_records,fixed4,mlp129,mlp17,mlp41,min_depth2_mlp129}\n  --seed SEED\n  --engineering\n  --rounds ROUNDS\n  --train-limit TRAIN_LIMIT\n  --output OUTPUT\n",
+      "stderr": ""
+    },
+    {
+      "label": "independent matrix or initialization invariant",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "test_v02.MechanismChecks.test_untied_initialization_matches_original_prefix"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r3\\qa\\fresh_extraction\\QPathformer_v0.2_Code\\payload\\study\\quantum\\tests",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ".\n----------------------------------------------------------------------\nRan 1 test in 0.143s\n\nOK\n"
+    },
+    {
+      "label": "classical CPU forward without updates",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-c",
+        "import json, torch; from dataclasses import replace; from qpath.classical import ModelConfig,QPathTextModel; torch.set_num_threads(1); c=replace(ModelConfig.smoke(),dropout=0.,labels=14); m=QPathTextModel(c).eval(); m.route_mode='shared'; x=torch.tensor([[8,9,0],[10,11,12]]); mask=x!=0; result=m(x,mask)['logits']; assert result.shape==(2,14) and torch.isfinite(result).all(); print(json.dumps({'torch':torch.__version__,'shape':list(result.shape),'training_updates':0}))"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r3\\qa\\fresh_extraction\\QPathformer_v0.2_Code\\payload\\study\\classical",
+      "returncode": 0,
+      "stdout": "{\"torch\": \"2.14.1+cpu\", \"shape\": [2, 14], \"training_updates\": 0}\n",
+      "stderr": ""
+    }
+  ],
+  "scope": "All selected Python parsed; source-specific imports and deterministic in-memory predictions, CLI help and one explicit nontraining invariant; v0.2 additionally a CPU text forward. No official input files used.",
+  "not_verified": [
+    "Clean-room dependency installation",
+    "Full training or official scoring",
+    "Datasets and selected checkpoints",
+    "Full-archive relocation",
+    "Shot sampling or noise experiments",
+    "Hardware or QPU execution"
+  ]
+}

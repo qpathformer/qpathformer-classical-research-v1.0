@@ -1,0 +1,22 @@
+Q PATHFORMER v0.2 INTERNAL STUDY
+EXPERIMENTS, ANALYSES AND WORD REPORT COMPLETE
+
+All 94 registered main runs and 8 common text warmups completed.
+Classical confirmation: 15 endpoints; quantum confirmation: 40 endpoints.
+Independent completion audits and prediction/statistical replay PASS.
+All 2,081 original v0.1 payload hashes rechecked PASS; no baseline writes.
+The 15-page final Word report is in docs. Every page passed visual review.
+
+Text: Hash18 macro F1 97.659%, current content 97.642%, shared 97.602%.
+Primary mean gain +0.01694 percentage points; paired 95% interval crosses zero.
+Quantum: untied assigned 81.44%, original schedule 71.83%, fixed depth 4 93.32%,
+matched-information MLP129 99.04%. Improved schedule; no quantum advantage.
+
+This is the finalized pre-copy scientific/report snapshot. Delivery integrity
+is established by actual DELIVERY_MANIFEST.json, DELIVERY_VERIFICATION.json
+and DELIVERY_VERIFICATION_INDEPENDENT.json at package root, not by this note.
+Those records must all be present with PASS before treating delivery as final.
+Close Word before rerunning governance/Verify_Delivery.ps1.
+
+Internal only. Zero IBM hardware/cloud jobs or physical quantum shots.
+Earlier staging status notes are preserved under governance/delivery_status_history.

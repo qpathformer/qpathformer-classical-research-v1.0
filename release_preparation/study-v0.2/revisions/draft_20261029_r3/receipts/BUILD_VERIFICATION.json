@@ -1,0 +1,58 @@
+{
+  "status": "PASS_SEALED_FOR_PRIVATE_DRAFT_REVIEW",
+  "packages": [
+    {
+      "package": "QPathformer_v0.2_Code",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r3\\dist\\QPathformer_v0.2_Code.zip",
+        "bytes": 203044,
+        "sha256": "e10c72038237c5d283ec97a4331eee180c19d17189ad718cc9a5a8a97540ecfe"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r3\\dist\\QPathformer_v0.2_Code.seal.json",
+        "bytes": 1366,
+        "sha256": "67482c8301c82d0f1be9251aacba02143b8546043a4f839bd6b7d6418b7c8a01"
+      },
+      "verification": {
+        "status": "PASS",
+        "files": 71
+      }
+    },
+    {
+      "package": "QPathformer_v0.2_Documentation",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r3\\dist\\QPathformer_v0.2_Documentation.zip",
+        "bytes": 35776,
+        "sha256": "c6af42921068af2a2018bd34d5c11cc60f703335d89163ef434a0ed1afa5590d"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r3\\dist\\QPathformer_v0.2_Documentation.seal.json",
+        "bytes": 1435,
+        "sha256": "5be8d6cd7726e2700209a3dc730b4a601efa00802dbe1438282fa853f40a238d"
+      },
+      "verification": {
+        "status": "PASS",
+        "files": 19
+      },
+      "unchanged_origin_build": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r2"
+    },
+    {
+      "package": "QPathformer_v0.2_Study",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r3\\dist\\QPathformer_v0.2_Study.zip",
+        "bytes": 1394386,
+        "sha256": "8e854c651422bca696a21bd479f5e084ef236d35bc71c976deecc4c1eb95dc81"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r3\\dist\\QPathformer_v0.2_Study.seal.json",
+        "bytes": 1373,
+        "sha256": "3901bcf7e6da62a8e811231299c8dcfa855a084af5d849dd248b79964a3b4409"
+      },
+      "verification": {
+        "status": "PASS",
+        "files": 18
+      },
+      "unchanged_origin_build": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r2"
+    }
+  ]
+}
