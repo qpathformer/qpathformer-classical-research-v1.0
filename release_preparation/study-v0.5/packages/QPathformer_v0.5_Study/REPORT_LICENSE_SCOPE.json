@@ -1,0 +1,60 @@
+{
+  "status": "ADOPTED",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "files": [
+    {
+      "path": "reports/QPathformer_v0.5_Report.docx",
+      "bytes": 675972,
+      "sha256": "51580cfc9f21a69a815f3887c0405c5b5b854aee37513b189e67aa29f7eadeea"
+    },
+    {
+      "path": "reports/QPathformer_v0.5_Report.pdf",
+      "bytes": 1115782,
+      "sha256": "047762c2826827f5239dbf7432840acc7e39a215bc0972b964c36119c35f180a"
+    }
+  ],
+  "original_report": {
+    "path": "C:\\Q2\\Improvement_Study_v0.5\\docs\\QPATH-RPT-006_Flexible_Readouts_and_Classical_Controls_v0.5.docx",
+    "bytes": 675200,
+    "sha256": "b08a039280e478710eeae7faa521fd37a41224bfd81100391ba8880f15992fb9",
+    "figures": 4,
+    "tables": 25
+  },
+  "included_original_content": "Controlled original report prose, table presentation and all report figures; original scientific results preserved. New edition note included.",
+  "figure_media": [
+    {
+      "part": "word/media/image1.png",
+      "bytes": 269351,
+      "sha256": "5285f8861b8bb070e2444fff6ae9d4d47dfb019b4a57724797cb948392ac07e3"
+    },
+    {
+      "part": "word/media/image2.png",
+      "bytes": 182701,
+      "sha256": "7ebb4dd3cf41f5d547fb77c816e42fd7620ecd61ab8d893913a4a1173512a4d6"
+    },
+    {
+      "part": "word/media/image3.png",
+      "bytes": 92004,
+      "sha256": "be7129349f85613a5ccf729d3a98197591c2f2d438dc521e948a1601fc2da4a2"
+    },
+    {
+      "part": "word/media/image4.png",
+      "bytes": 125065,
+      "sha256": "c5b411913c0227881a757182fb9c7ec9c003b3f99471402e0c3046022d516355"
+    }
+  ],
+  "figure_count": 4,
+  "exclusions": [
+    "Third-party cited expression",
+    "Architecture documents outside this report",
+    "Datasets",
+    "Model artifacts",
+    "Full archives"
+  ],
+  "inherited_grants": "Any already-licensed expression retains its grant. Newly selected controlled original content is covered by the separately scoped adopted grant. No blanket grant applies to excluded material.",
+  "license": "CC-BY-4.0",
+  "licensor": "Anthony Siljeg",
+  "adopted_on": "2026-10-29",
+  "timezone": "Australia/Sydney",
+  "adoption_record": "LICENSE_ADOPTION.json"
+}

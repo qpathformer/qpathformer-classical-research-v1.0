@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\Alnotrea\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "C:\\Users\\Alnotrea\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.1026.10807\\skills\\documents\\render_docx.py",
+    "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261029\\report\\QPathformer_v0.5_Report.docx",
+    "--output_dir",
+    "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261029\\qa\\packaged_renderer",
+    "--emit_pdf"
+  ],
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\Alnotrea\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.1026.10807\\skills\\documents\\render_docx.py\", line 546, in <module>\n    main()\n  File \"C:\\Users\\Alnotrea\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.1026.10807\\skills\\documents\\render_docx.py\", line 538, in main\n    rasterize(render_input_path, out_dir, dpi, verbose=args.verbose, emit_pdf=args.emit_pdf)\n  File \"C:\\Users\\Alnotrea\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.1026.10807\\skills\\documents\\render_docx.py\", line 418, in rasterize\n    pdf_path, debug = convert_to_pdf(\n                      ^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Alnotrea\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.1026.10807\\skills\\documents\\render_docx.py\", line 270, in convert_to_pdf\n    soffice = _resolve_soffice()\n              ^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Alnotrea\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.1026.10807\\skills\\documents\\render_docx.py\", line 79, in _resolve_soffice\n    raise FileNotFoundError(f\"LibreOffice {executable_name} was not found on PATH\")\nFileNotFoundError: LibreOffice soffice.exe was not found on PATH\n",
+  "note": "Windows runtime has no bundled LibreOffice. If unavailable, native Word export and Poppler rendering are used with separate receipts."
+}

@@ -1,0 +1,76 @@
+{
+  "schema": "qpath-package-manifest-1",
+  "package": "QPathformer_v0.5_Study",
+  "files": [
+    {
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "bytes": 1199,
+      "sha256": "8aa907c77fb7baf4941d6683359b7f8b022f14233eb8f9b329eb50b1c8c94f53"
+    },
+    {
+      "path": "LICENSE_ADOPTION.json",
+      "bytes": 1686,
+      "sha256": "2ce3f72434c07b2bdd70b23d392e0d4b491ec4a72679c378296668654e568cd2"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 18615,
+      "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+    },
+    {
+      "path": "provenance/EDITION_CHANGES.md",
+      "bytes": 580,
+      "sha256": "10f0dcafb731aa3816e9296da6319712ff92991b8253cea38c92c54d92d930ff"
+    },
+    {
+      "path": "provenance/REPORT_PRESERVATION.json",
+      "bytes": 3325,
+      "sha256": "9d8ae5fe8c1c21e2eba072611ad27faf70a2867094bf43775ed7217dcb5277ca"
+    },
+    {
+      "path": "provenance/REPORT_REVIEW.json",
+      "bytes": 2411,
+      "sha256": "58323af5ac46030d35a22ae946f1373995066cf0f6ddc7b5cca894b8f0afb099"
+    },
+    {
+      "path": "provenance/SOURCE_MAP.json",
+      "bytes": 4954,
+      "sha256": "01f2975d229e690e65d322f6cd70dbdef9133f9a860c3eb2957264371bfa424c"
+    },
+    {
+      "path": "QPATHFORMER-PLATFORM-1.0.txt",
+      "bytes": 1461,
+      "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+    },
+    {
+      "path": "REPORT_LICENSE_SCOPE.json",
+      "bytes": 2209,
+      "sha256": "6689059b6462f3fa41a6fef6338923b31a93dc22e6fea508e4845dc506ac23d7"
+    },
+    {
+      "path": "reports/QPathformer_v0.5_Report.docx",
+      "bytes": 675972,
+      "sha256": "51580cfc9f21a69a815f3887c0405c5b5b854aee37513b189e67aa29f7eadeea"
+    },
+    {
+      "path": "reports/QPathformer_v0.5_Report.pdf",
+      "bytes": 1115782,
+      "sha256": "047762c2826827f5239dbf7432840acc7e39a215bc0972b964c36119c35f180a"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 1092,
+      "sha256": "fe73c673f2c2538bcf467fa078f51084c26945d4540a9d1856619f7402fc90d3"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 1555,
+      "sha256": "49b28fae3698f4b3d3836e11fbd4aa1daaaa11d44e28f81b1c16364ab5d9a0be"
+    },
+    {
+      "path": "VERIFY.md",
+      "bytes": 625,
+      "sha256": "f721c391a965641b181706a2d1afdcc6af034b141b28722d6ac3371b228b0ce2"
+    }
+  ]
+}

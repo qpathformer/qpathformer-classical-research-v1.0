@@ -1,0 +1,111 @@
+{
+  "study_id": "QPATH-READOUT-v0.5",
+  "status": "REGISTERED_BEFORE_OFFICIAL_TRAINING",
+  "scope": "Local software checks and illustrative logical noise sensitivity only. No hardware, cloud provider, credentials or device calibration.",
+  "gate": "All 165 confirmation endpoints committed and independently audited, then root hash-bound release before running this diagnostic capsule. No model reselection.",
+  "populations": [
+    "confirmation_circle_1",
+    "confirmation_circle_2",
+    "confirmation_ellipse"
+  ],
+  "training_seeds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005
+  ],
+  "methods": [
+    "q2_kmeans",
+    "qscalar_kmeans",
+    "qmulti_kmeans",
+    "qfrozen_kmeans"
+  ],
+  "fixtures": {
+    "n_per_population": 32,
+    "selection": "32 validation records with the smallest numeric record IDs in ascending order. Same records for every seed and method; label independent. Preserve IDs and coordinates."
+  },
+  "observables": [
+    "X0",
+    "X1",
+    "Z0",
+    "Z1",
+    "Z0Z1"
+  ],
+  "measurement": {
+    "settings": [
+      "XX",
+      "ZZ"
+    ],
+    "legacy_scalar": "XX yields X0; one setting per input.",
+    "multi_frozen": "XX yields X0 and X1 jointly; ZZ yields Z0, Z1 and Z0Z1 jointly. Two settings per input.",
+    "basis_rotation": "Apply noiseless interpretation of joint bitstrings to moments. Physical X-basis readout uses RY(-pi/2) on each measured qubit, followed by Z measurement; verify sign against Pauli matrices. The legacy P1 following RY(+pi/2) on q0 is equivalent to (1+X0)/2; retain the original legacy readout rotation for q2 checks.",
+    "cost_clarification": "The common XX capsule rotates both qubits, including an unnecessary q1 rotation for scalar X0-only readout. Charge that actual circuit; the original q2 legacy q0-only readout is verified and charged separately. The final local q1 noise does not change the q0 marginal under these scenarios. No minimum-gate claim."
+  },
+  "ideal": "All 60 selected checkpoints, all 32 fixtures. Independently compare full Pauli moments, production and local Aer, then apply each stored classical head. Tolerance 2e-12. Legacy Born output compared separately to its original circuit. Retain raw classes and declared ambiguity-band diagnostics.",
+  "compile": {
+    "basis_gates": [
+      "rz",
+      "sx",
+      "x",
+      "cx"
+    ],
+    "optimization_level": 1,
+    "seed_transpiler": 590017,
+    "coupling_map": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "selection": "Every fixture and required measurement setting, all 60 checkpoints. Compare compiled ideal moments/probabilities with originals to 2e-12. Record input/compiled gate counts, CX counts and depth. Abstract two-qubit target only."
+  },
+  "noise_scenarios": [
+    {
+      "name": "ideal",
+      "one_qubit_depolarizing": 0,
+      "cx_depolarizing": 0,
+      "symmetric_readout_flip": 0
+    },
+    {
+      "name": "illustrative_mild",
+      "one_qubit_depolarizing": 0.001,
+      "cx_depolarizing": 0.01,
+      "symmetric_readout_flip": 0.01
+    },
+    {
+      "name": "illustrative_stress",
+      "one_qubit_depolarizing": 0.005,
+      "cx_depolarizing": 0.03,
+      "symmetric_readout_flip": 0.03
+    }
+  ],
+  "noise_semantics": "Local Aer density-matrix depolarizing_error(p,1) after every logical RY/RZ including encoding and readout rotations, and depolarizing_error(p,2) after each CX. Transform joint bitstring probabilities by independent symmetric bit flips on each measured qubit. Noise is on logical gates, not on the compiled basis, and is not a measured device model.",
+  "finite_shot": {
+    "shots_per_setting": [
+      1024,
+      8192
+    ],
+    "replicates": 5,
+    "sampling": "For each setting, jointly sample four bitstrings with multinomial(shots,joint_observed_probabilities); derive all moments belonging to that setting from those same counts. Do not sample individual observables independently. Legacy may marginalize the same joint count draw to its measured q0 bit. NumPy PCG64 SeedSequence([590101,population_index,training_seed,method_index,scenario_index,shots,replicate_index,setting_index]), zero-based indices in registered orders.",
+    "head": "Apply saved scalar or multivariate sigmoid head once to noisy moment estimates. Retain empirical probability bias/variance; nonlinear head makes plug-in probability generally biased.",
+    "storage": "Retain every four-outcome count and predicted probability, measurement setting, seed tuple and total shots. Scalar/legacy total shots=N; multi/frozen total shots=2N per fixture per replicate."
+  },
+  "aer_measured_smoke": {
+    "records_per_checkpoint": 8,
+    "selection": "First 8 of the 32 registered fixture IDs",
+    "shots_per_setting": 1024,
+    "scenarios": [
+      "ideal",
+      "illustrative_mild"
+    ],
+    "seed_simulator": 590103,
+    "method": "Actual local Aer measured circuits with the same logical noise and ReadoutError. Save counts and compare joint distribution/moment predictions to density expectations. Standardized residuals are descriptive; no stochastic accuracy selection gate."
+  },
+  "outputs": "Moment and predictor parity; original and compiled resources; joint ideal/noisy distributions; shot counts and probability distributions; raw-input latency and cache separation; environment, source and protocol hashes. Aggregate mean/max distortion, class disagreement, and variability. Fixture accuracy, if shown, is explicitly a 32-record diagnostic.",
+  "limitations": "Illustrative fixed noise scenarios, no hardware speed or advantage inference. Five training seeds and 32 reused validation fixtures per population support software readiness, not broad predictive performance. Measurement setting and shot costs are separate from simulator state evolution counts."
+}

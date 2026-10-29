@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "command": [
+    "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+    "-B",
+    "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261029\\qa\\fresh_extraction\\QPathformer_v0.5_Code\\tools\\startup_check.py"
+  ],
+  "returncode": 0,
+  "stdout": "{\"status\": \"PASS\", \"python\": \"3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]\", \"platform\": \"Windows-11-10.0.26300-SP0\", \"numpy\": \"2.5.4\", \"scipy\": \"1.18.1\", \"methods\": [\"q2_kmeans\", \"qscalar_kmeans\", \"qmulti_kmeans\", \"qfrozen_kmeans\", \"mlp4relu_kmeans\", \"mlp8relu_kmeans\", \"mlp4tanh_kmeans\", \"mlp8tanh_kmeans\", \"trig_kmeans\", \"trig_global\", \"mlp_global\"], \"tests_run\": 2, \"scope\": \"AST parse all selected Python; numeric imports; registered model shapes and independent state/moment parity; v0.6 coefficient-conversion tests where supplied. No training, official scoring, shot sampling, QPU job or network.\"}\n",
+  "stderr": "test_shapes_and_paired_initial_predictions (test_models.ModelTests.test_shapes_and_paired_initial_predictions) ... ok\ntest_moments_and_state_against_independent_matrices (test_models.ModelTests.test_moments_and_state_against_independent_matrices) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.226s\n\nOK\n",
+  "checked_at_utc": "2026-10-29T09:06:07.786699+00:00"
+}

@@ -1,0 +1,313 @@
+{
+  "files": [
+    {
+      "path": "payload/study/analysis/classical_review/audit_confirmation_readiness_v05.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\classical_review\\audit_confirmation_readiness_v05.py",
+      "bytes": 38829,
+      "sha256": "3bf15ad30e924c0be4933d9040c3807a9574c65b5c44f50c8bc04f14992796c8"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/audit_data_v05.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\classical_review\\audit_data_v05.py",
+      "bytes": 10989,
+      "sha256": "6c41835733fe76934dc8cf938ab368c983260e6f3373086d17e497bf4bdcea99"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/audit_endpoints_v05.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\classical_review\\audit_endpoints_v05.py",
+      "bytes": 39564,
+      "sha256": "1cc9c9a80465e302da07d3af26c0fceb4445ee3b33345d9281a8ea9129b3b554"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/audit_final_synthetic_readout_v05.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\classical_review\\audit_final_synthetic_readout_v05.py",
+      "bytes": 1914,
+      "sha256": "eb7ba3002d985dfd61f7d2c05042a8d7c660ccaf37718d85bbbc913d4b251fcb"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/audit_models_v05.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\classical_review\\audit_models_v05.py",
+      "bytes": 10657,
+      "sha256": "12768f2b755ee78874df498f7be53cf86357d370d47df2342285e2464462729b"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/audit_synthetic_readout_v05.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\classical_review\\audit_synthetic_readout_v05.py",
+      "bytes": 7466,
+      "sha256": "7ae4fd1ad9c260fb15b1375605b39dd8e3f875da5f6202c1139b6f996098c43e"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/crosscheck_statistics_v05.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\classical_review\\crosscheck_statistics_v05.py",
+      "bytes": 3560,
+      "sha256": "63be43aa6889d0e48b76218d01488f379ff48b4b1961d8856b53f78374d0d02b"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/readout_reference_v05.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\classical_review\\readout_reference_v05.py",
+      "bytes": 5266,
+      "sha256": "069e4982085887e4721bfd7a93da70e7078b9d19ca84722f7f3b1e183ca5b51b"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/reference_v05.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\classical_review\\reference_v05.py",
+      "bytes": 11306,
+      "sha256": "89a225cc52810f706f92d0279474f0f2f22fd1f8646a3f38c21889c70ddc2489"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/test_confirmation_readiness_v05.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\classical_review\\test_confirmation_readiness_v05.py",
+      "bytes": 13066,
+      "sha256": "9fa10b9376548bc0e0d7a328aeb7a95ad1deb4365c9a9596b3f47fe8884d4055"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/test_endpoint_auditor_v05.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\classical_review\\test_endpoint_auditor_v05.py",
+      "bytes": 8916,
+      "sha256": "3c8003b86382cf69aeaa85eea49157729ca3aaad20d908fce299e98b46df307c"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/test_readout_reference_v05.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\classical_review\\test_readout_reference_v05.py",
+      "bytes": 3992,
+      "sha256": "9fb0e0cb2047a500597e77ccae84393ddcbcdc0ea7bfd40665b0f65d3be17c78"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/test_reference_v05.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\classical_review\\test_reference_v05.py",
+      "bytes": 6327,
+      "sha256": "96ec9ced0c6912622a5ee4a4678199558d5df06caf6e96f1317b206fcdd4889a"
+    },
+    {
+      "path": "payload/study/analysis/extract_v04_context.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\extract_v04_context.py",
+      "bytes": 17401,
+      "sha256": "c91a569883188a87dcedcc326df6331e4d8759ec4df0b5462f2611d34895f2b4"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/evidence_io.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\independent_replay\\evidence_io.py",
+      "bytes": 7030,
+      "sha256": "e6db78caa892901997b928206b8a7737c561620d82b484aa17142e3d03e9f8a3"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/official_comparison.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\independent_replay\\official_comparison.py",
+      "bytes": 11689,
+      "sha256": "2e3884180b7ecfc1dfd687fc66b7675c713e47d6b41148ce6c3935da36a68c05"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/prediction_reference.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\independent_replay\\prediction_reference.py",
+      "bytes": 4863,
+      "sha256": "5121ef95fbf70245022edfba12381a2053c27587296e5b294a6ce488fe2a8807"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/preflight_relocated.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\independent_replay\\preflight_relocated.py",
+      "bytes": 6307,
+      "sha256": "18099fec210e036af918789dc8b7b5ddf39e53cbc9d037327c4fa651c1b4fddf"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/register_ready.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\independent_replay\\register_ready.py",
+      "bytes": 6002,
+      "sha256": "8c861a1d234f444e8ee1d053c43f1fc855484d1b495305125576abd8e25c5e92"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/release_gate.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\independent_replay\\release_gate.py",
+      "bytes": 17594,
+      "sha256": "bf804abc0a01699380df1f00d0b28c354b08f9bd90388f43ef8a48bcb6dedd2d"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/replay_and_analyse.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\independent_replay\\replay_and_analyse.py",
+      "bytes": 26609,
+      "sha256": "aca121b23b0332f8df3640eb25651fd5cc2a5bffe2ceb2620ddc375028036106"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/statistics_reference.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\independent_replay\\statistics_reference.py",
+      "bytes": 14519,
+      "sha256": "95ae0c99434378647790a0e8010bee02cee1a4055718bde6a9801de4e0aca517"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/synthetic_fixture.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\independent_replay\\synthetic_fixture.py",
+      "bytes": 20189,
+      "sha256": "370397c709b46329a2ce4b111a13a3e4cd25d27e44619a09174f5405e1ef0a51"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/test_prediction_reference.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\independent_replay\\test_prediction_reference.py",
+      "bytes": 4310,
+      "sha256": "0c9b97a4db5ff0813af2366f7196b785ec870c1ec765b6822974a0d90920f74f"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/test_replay_adapter.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\independent_replay\\test_replay_adapter.py",
+      "bytes": 13282,
+      "sha256": "f9a64b77c673510879ff39c6f85cfc81843e6eb4a34988a99da1bb5ec9fc07f8"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/test_replay_cores.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\independent_replay\\test_replay_cores.py",
+      "bytes": 11517,
+      "sha256": "398e37656d6d0fae4be174f6467ad2fc4875d66abcea23256946aa97454da461"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/threshold_reference.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\independent_replay\\threshold_reference.py",
+      "bytes": 4164,
+      "sha256": "646261d3c055fdf1129dca9fb436becba8f3ccadd2bee2b221b823c13eabe1d0"
+    },
+    {
+      "path": "payload/study/analysis/learning_resources_v05.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\learning_resources_v05.py",
+      "bytes": 32742,
+      "sha256": "b8d73ee81e9c0816604081ca66a891dc351127d26342fcbcf318b05a35126069"
+    },
+    {
+      "path": "payload/study/analysis/statistics_v05.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\statistics_v05.py",
+      "bytes": 8465,
+      "sha256": "ebc9b6fe1de562aa14d506bfa8414ef41cee80b31f173f8a4c37f98ecc6d7cf9"
+    },
+    {
+      "path": "payload/study/analysis/test_statistics_v05.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\test_statistics_v05.py",
+      "bytes": 3159,
+      "sha256": "a398cab5592e6e0e664a2bedfeb356d3473d9f5ce5e7bf61696ee14d56ad3e36"
+    },
+    {
+      "path": "payload/study/analysis/tests/test_learning_resources_v05.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\analysis\\tests\\test_learning_resources_v05.py",
+      "bytes": 16724,
+      "sha256": "21d6c972951ad7ea2adfc834f8d1850b08350253a10fbe431a5afc1dfa9e8059"
+    },
+    {
+      "path": "payload/study/quantum/audit_stage.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\audit_stage.py",
+      "bytes": 15918,
+      "sha256": "2e0131c14b2f4ef1c08a3ff9c953e03f1a41db072ddc843bfdc35cbfa6ca0f7c"
+    },
+    {
+      "path": "payload/study/quantum/circuits.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\circuits.py",
+      "bytes": 5505,
+      "sha256": "2ac3d12903899f8baf9e226e53e0fe5178f9ab700e83a6e929d212cc6e8da90e"
+    },
+    {
+      "path": "payload/study/quantum/evaluate_confirmation.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\evaluate_confirmation.py",
+      "bytes": 18428,
+      "sha256": "bf3072ddf42d712fc27f0aceb745191b992414df5a6a31bf8c9b83d0a89d6d0e"
+    },
+    {
+      "path": "payload/study/quantum/evaluation_checks/run_readiness_synthetic.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\evaluation_checks\\run_readiness_synthetic.py",
+      "bytes": 2852,
+      "sha256": "2416195da3cacfd278d8140be7363d09333bb5c647197ba1d4ba201349fb350d"
+    },
+    {
+      "path": "payload/study/quantum/evaluation_checks/test_evaluation_v05.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\evaluation_checks\\test_evaluation_v05.py",
+      "bytes": 14980,
+      "sha256": "7a4a9b4a32a4afa8d43f58f7cebf3524cb87c4e2a3aa08f9fc629fe615bfcd85"
+    },
+    {
+      "path": "payload/study/quantum/evaluation_checks/test_readiness_v05.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\evaluation_checks\\test_readiness_v05.py",
+      "bytes": 3257,
+      "sha256": "bfdd7c524f12e463aed6966359738a5819adb160fa413500d08f7eb887e934f0"
+    },
+    {
+      "path": "payload/study/quantum/launch_stage.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\launch_stage.py",
+      "bytes": 4699,
+      "sha256": "8afac349b257f89f81712a9733bb60fe33539921ff6e0b69db690b98710f9cf3"
+    },
+    {
+      "path": "payload/study/quantum/local_readiness.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\local_readiness.py",
+      "bytes": 26591,
+      "sha256": "e6dcc8f3602e7e9cf302287eda44a94da9cdc1bba08717827cbfe70865c4e11f"
+    },
+    {
+      "path": "payload/study/quantum/models.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\models.py",
+      "bytes": 13361,
+      "sha256": "1366920341ee6060cf49adbb0bb3b1845d9e86bfaa7976eddbb6b8d086e402f7"
+    },
+    {
+      "path": "payload/study/quantum/path_mapping.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\path_mapping.py",
+      "bytes": 1303,
+      "sha256": "0d446ebefb1baeaf9b550fcdf6acd117f637c35b00543f2f196de2854d9f4400"
+    },
+    {
+      "path": "payload/study/quantum/prepare_data.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\prepare_data.py",
+      "bytes": 23809,
+      "sha256": "11853a9c3398c5faa46005ee160b2b4b96cc223baba27a402dfa62da14a974ca"
+    },
+    {
+      "path": "payload/study/quantum/reference_v03.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\reference_v03.py",
+      "bytes": 1251,
+      "sha256": "6740c96737c3f46f53967c579543bc5d0b4b8aac2f9305dd21b6b51d2a725071"
+    },
+    {
+      "path": "payload/study/quantum/register_evaluation.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\register_evaluation.py",
+      "bytes": 3098,
+      "sha256": "a146dd0f8bd15a1ed788c160921aa765a8b66c6ead5e1ee2cd427f6f98d88239"
+    },
+    {
+      "path": "payload/study/quantum/routers.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\routers.py",
+      "bytes": 8349,
+      "sha256": "0b62c0bcca42ab93551dab88e0e20828158f8a3d529253db6f0c1a5cf67a2c68"
+    },
+    {
+      "path": "payload/study/quantum/run_engineering.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\run_engineering.py",
+      "bytes": 3884,
+      "sha256": "5f3cb5fd5d5a551f80c20ef1efbb8ba4bb390420f36d7cbb950c1c96f206e785"
+    },
+    {
+      "path": "payload/study/quantum/study.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\study.py",
+      "bytes": 26618,
+      "sha256": "55cbf1471d65d0c68ea1dcc18a7c21943b31df5360c926ee9b6c3e3c082e3e82"
+    },
+    {
+      "path": "payload/study/quantum/tests/test_models.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\tests\\test_models.py",
+      "bytes": 12593,
+      "sha256": "f0d1829bd63c168efb8a5b1c7d82ed837f327e5dadd469f8bd06e2edb4d97e9b"
+    },
+    {
+      "path": "payload/study/quantum/tests/test_routers_data.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\tests\\test_routers_data.py",
+      "bytes": 11009,
+      "sha256": "26d8521abaf0e0b6784156dc8e1ed37575d8e63e906df31ccba2f446693f6509"
+    },
+    {
+      "path": "payload/study/quantum/verification.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\verification.py",
+      "bytes": 6904,
+      "sha256": "45b5d4ce89b2ade49db6a5c555901f84df5e5373a97fdea8d02d9b81a6cade82"
+    }
+  ],
+  "excluded": [
+    "raw datasets",
+    "checkpoints",
+    "installed environments",
+    "credentials",
+    "full operational archives",
+    "monitor/watch orchestration and report-generation writers"
+  ],
+  "selection_rationale": "Preserve numerical, training, data preparation, audit, evaluation, local readiness and independent replay implementation with bounded tests. No experiments are rerun during release preparation."
+}
