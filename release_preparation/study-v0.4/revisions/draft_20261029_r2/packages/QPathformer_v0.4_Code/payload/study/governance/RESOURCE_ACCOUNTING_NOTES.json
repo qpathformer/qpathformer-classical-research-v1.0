@@ -1,0 +1,9 @@
+{
+  "scope": "Work counters, not comparable hardware FLOPs or execution speed.",
+  "circuit": "Parameter-shift forwards, circuit record evaluations, layers, RY/RZ/CX gates and bank visits are counted; exact CPU statevector simulation.",
+  "classical": "Forward/backward record examples, computed trigonometric feature values and MLP hidden activations. Gradient recomputation of features/activations is charged twice. No recorded MAC or FLOP counts.",
+  "times": "Concurrent CPU times are measured process wall durations, not isolated dedicated device speed. Logical counts compare executed recipes; they are not hardware cost estimates.",
+  "router": "Train-only fit and cached preparation retained; equal training bank occupancies, no equal heldout-occupancy assumption. Uncached routing + forward inference timing recorded separately.",
+  "host_cpu": "AMD Ryzen AI 9 HX 370 w/ Radeon 890M;12physical cores24logical processors",
+  "scope_exclusions": "No quantum hardware, GPU training, external jobs or network code; operating-system network isolation was not installed."
+}

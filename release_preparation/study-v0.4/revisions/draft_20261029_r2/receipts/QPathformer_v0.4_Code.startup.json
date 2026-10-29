@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "recorded_at_utc": "2026-10-29T09:13:34.384502+00:00",
+  "python": "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "checks": [
+    {
+      "label": "numeric imports and in-memory predictions",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-c",
+        "import json, numpy as np; import study as s; import models\nx=np.array([[0.,0.],[.1,-.3],[-.6,.7],[.9,.9]]); d=np.array([1,2,3,4]); route=np.array([0,1,2,3]); counts={}\nfor method in models.METHODS:\n m=models.Model(method,902); p=m.predict(x,None if m.routing==\"global\" else route); assert p.shape==(4,) and np.isfinite(p).all() and ((p>=0)&(p<=1)).all(); counts[method]=len(m.parameters)\nprint(json.dumps({\"model_parameter_counts\":counts,\"finite_in_memory_predictions\":True}))"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\qa\\fresh_extraction\\QPathformer_v0.4_Code\\payload\\study\\quantum",
+      "returncode": 0,
+      "stdout": "{\"model_parameter_counts\": {\"q2_global\": 8, \"q2_hash\": 40, \"q2_kmeans\": 40, \"mlp_global\": 129, \"mlp_hash\": 45, \"mlp_kmeans\": 45, \"trig_global\": 25, \"trig_hash\": 125, \"trig_kmeans\": 125}, \"finite_in_memory_predictions\": true}\n",
+      "stderr": ""
+    },
+    {
+      "label": "training CLI argument help",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "study.py",
+        "--help"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\qa\\fresh_extraction\\QPathformer_v0.4_Code\\payload\\study\\quantum",
+      "returncode": 0,
+      "stdout": "usage: study.py [-h] [--stage {A,B}] --population POPULATION --method\n                {q2_global,q2_hash,q2_kmeans,mlp_global,mlp_hash,mlp_kmeans,trig_global,trig_hash,trig_kmeans}\n                --seed SEED [--engineering] [--rounds ROUNDS]\n                [--train-limit TRAIN_LIMIT] --output OUTPUT\n\nInternal v0.4 trainer. Official full runs require external root freeze.\nTraining cannot load a test payload. All round parameters and validation\nprobabilities are flushed before that round's ledger entry. Failed runs retain\npartial arrays and current state; sampler state is not resumable\nautomatically.\n\noptions:\n  -h, --help            show this help message and exit\n  --stage {A,B}\n  --population POPULATION\n  --method {q2_global,q2_hash,q2_kmeans,mlp_global,mlp_hash,mlp_kmeans,trig_global,trig_hash,trig_kmeans}\n  --seed SEED\n  --engineering\n  --rounds ROUNDS\n  --train-limit TRAIN_LIMIT\n  --output OUTPUT\n",
+      "stderr": ""
+    },
+    {
+      "label": "independent matrix or initialization invariant",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "test_models.ModelTests.test_full_matrix_agreement"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\qa\\fresh_extraction\\QPathformer_v0.4_Code\\payload\\study\\quantum\\tests",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ".\n----------------------------------------------------------------------\nRan 1 test in 0.175s\n\nOK\n"
+    }
+  ],
+  "scope": "All selected Python parsed; source-specific imports and deterministic in-memory predictions, CLI help and one explicit nontraining invariant; v0.2 additionally a CPU text forward. No official input files used.",
+  "not_verified": [
+    "Clean-room dependency installation",
+    "Full training or official scoring",
+    "Datasets and selected checkpoints",
+    "Full-archive relocation",
+    "Shot sampling or noise experiments",
+    "Hardware or QPU execution"
+  ]
+}

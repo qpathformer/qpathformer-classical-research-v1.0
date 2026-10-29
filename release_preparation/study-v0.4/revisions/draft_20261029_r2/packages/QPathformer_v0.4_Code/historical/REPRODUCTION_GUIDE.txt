@@ -1,0 +1,130 @@
+Q Pathformer version 0.4 internal reproduction guide
+
+Study identity: QPATH-ROUTING-v0.4
+Authoritative specification: governance/STUDY_PLAN.json
+Analysis: governance/ANALYSIS_PROTOCOL.json
+Local circuit capsule: governance/LOCAL_READINESS_PROTOCOL.json
+Resource interpretation: governance/RESOURCE_ACCOUNTING_NOTES.json
+
+Scope
+
+The study compares nine combinations of model family and routing on fresh
+synthetic binary classification data. The model families are two-qubit,
+two-layer circuits, raw-input ReLU MLPs, and 25-feature trigonometric logit
+models. Routing is global, coordinate hash, or train-only five-centroid k means.
+All routing and computation are classical; circuits execute in a CPU simulator.
+There are no provider credentials, hardware jobs or cloud submission steps.
+
+Stage A contains 54 development endpoints on a circle and rotated ellipse,
+seeds 701-703. Stage B contains 135 confirmation endpoints on two independent
+circle populations and a rotated ellipse, seeds 801-805. All nine methods
+continue. Each run completes 200 rounds and 15,000 Adam updates; selected
+checkpoints minimize validation BCE with earliest exact ties. Test evaluation
+requires full endpoint audits and a separate root release. The complete raw
+per-seed evidence is authoritative; the Word report interprets those records.
+
+The completed v0.3 package and sealed Baseline3 are historical context, not
+inputs to optimization. Their before/after hash checks are under governance.
+Raw performance differences between fresh populations do not estimate a
+paired version improvement. The v0.4 global MLP differs from the v0.3 model.
+
+Verify an untouched delivery
+
+Run PowerShell 7 using the delivered read-only verifier. For the requested
+destination the command is:
+
+& 'C:\Q2\Improvement_Study_v0.4\governance\Verify_Delivery.ps1'
+
+The final DELIVERY_MANIFEST.json binds every delivered payload by relative
+name, byte count and SHA256. Only the manifest itself and the two explicitly
+named delivery-verification result files are outside the payload inventory.
+It is an integrity inventory, not a digital signature or atomic snapshot.
+Never add new reproduction outputs to the original verified package.
+
+Runtime
+
+Numeric runs used Python 3.12.14, NumPy 2.5.4, SciPy 1.18.1, Qiskit 2.6.0 and
+Qiskit Aer 0.17.2. Full observed environment records are in governance.
+Existing local numeric executable during this study:
+C:\Q2\Implementation_v0.1\.venv\Scripts\python.exe
+
+The package includes source and data, not a copied Python environment. A new
+machine requires a compatible separately provisioned environment. Exact
+bootstrap count replay requires the registered NumPy version. No package
+installation, internet access or device account is performed by this guide.
+Set OMP_NUM_THREADS, OPENBLAS_NUM_THREADS, MKL_NUM_THREADS and NUMEXPR_NUM_THREADS
+to 1 for comparable thread settings. Host times still depend on contention.
+
+Replaying predictions and statistics
+
+First make a separate working copy of the entire verified package and verify
+that copy before creating new outputs. The independent replay maps recorded
+original absolute paths to the copy's corresponding relative paths without
+editing sealed metadata. It requires the original root release, official
+evaluation commit, full endpoint audits, registered sources and READY record.
+
+From the copy, invoke the existing numeric Python with -B and the copy's
+analysis/independent_replay/replay_and_analyse.py. Supply --release pointing to
+the copy's quantum/EVALUATION_RELEASE.json and --output pointing to a NEW
+direct child of analysis/independent_replay, for example reproduction_replay_001.
+Do not use an existing directory. Example with a chosen copy root:
+
+$qpfCopy = 'C:\Anthony Siljeg\Q2_v04_reproduction_copy'
+& 'C:\Q2\Implementation_v0.1\.venv\Scripts\python.exe' -B `
+  (Join-Path $qpfCopy 'analysis\independent_replay\replay_and_analyse.py') `
+  --release (Join-Path $qpfCopy 'quantum\EVALUATION_RELEASE.json') `
+  --output (Join-Path $qpfCopy 'analysis\independent_replay\reproduction_replay_001')
+
+The replay independently reconstructs all 216,000 checkpoint-record prediction
+pairs and all population statistics. It checks exact paired bootstrap count
+hashes, canonical metrics, independent probabilities/BCE and the registered
+threshold-band diagnostics. It does not retrain or change selected models.
+The altered reproduction copy will naturally differ from its original delivery
+manifest once new outputs are added; retain its pre-run verification result.
+
+Other reproducible checks
+
+quantum/tests contains the original model/data unit tests. The independent
+auditor and its tests are in analysis/classical_review. Replay fixture tests
+and source are in analysis/independent_replay. Generated synthetic replay and
+readiness fixture trees are retained in the original working area rather than
+duplicated into the scientific delivery. Their durable sources, logs and
+summaries are included.
+Tests create only synthetic fixtures; do not point them at a sealed baseline.
+
+The official evaluator intentionally refuses an existing confirmation_evaluation
+directory. The training launcher refuses existing stage directories. These are
+duplicate-run safeguards, not instructions to delete evidence. Full retraining
+should use a separately authorized reproduction workspace and new governance
+records. Keep original budgets, datasets, sources and failed attempts intact.
+The endpoint audit replays every stored validation round and verifies selection;
+it is not an independent rerun of every Adam update.
+
+Evidence map
+
+quantum/data: all seven populations, fitted immutable router policies, data seal
+quantum/stage_A and stage_B: parameters, Adam states, round histories, predictions,
+  batches, diagnostics, run commits, logs and exact execution order
+quantum/STAGE_A_FREEZE.json and STAGE_B_FREEZE.json: pre-run source/protocol binds
+quantum/*ENDPOINT_LOCK.json: author endpoint inventories and audits
+analysis/classical_review: independent preflight and all-round endpoint reviews
+quantum/EVALUATION_REGISTRATION.json and EVALUATION_RELEASE.json: scoring gates
+quantum/confirmation_evaluation: canonical test reports and population statistics
+analysis/independent_replay/confirmation_replay: independent prediction/statistics replay
+analysis/learning_resources/stage_A_v01 and stage_B_v01: validation milestones,
+  censored nonreachers, full charged work and timing summaries
+quantum/local_readiness_confirmation: local ideal/compiled/noisy circuit and shots
+report_work: retained template, report input bindings, figure/content sources,
+  scientific reviews and final visual quality evidence
+docs: final QPATH RPT005 Word report
+governance: protocols, environment, integrity and delivery controls
+
+Interpretation limits
+
+Each population is analyzed separately. Five training seeds do not create five
+independent datasets, and 5,000 record bootstrap draws do not create additional
+training replicates. Primary BCE comparisons use the registered family of nine.
+Validation steps to 97 percent are descriptive; every run pays the full budget.
+Classical controls have unequal functional capacity and optimization geometry.
+The local noise scenarios are fixed illustrations, not IBM device calibration.
+These synthetic simulator results do not establish quantum computational advantage.

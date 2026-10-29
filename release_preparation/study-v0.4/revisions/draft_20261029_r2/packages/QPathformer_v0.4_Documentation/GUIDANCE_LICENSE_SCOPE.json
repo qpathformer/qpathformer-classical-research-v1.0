@@ -1,0 +1,79 @@
+{
+  "schema": "qpath-guidance-license-scope-1",
+  "status": "ADOPTED",
+  "license": "CC-BY-4.0",
+  "licensor": "Anthony Siljeg",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "adoption_record": "LICENSE_ADOPTION.json",
+  "scope": "Controlled original explanatory prose in the exact listed file instances. This is not a grant for external works quoted or referenced, datasets, software or surrounding factual/operational records as whole packages.",
+  "files": [
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 1401,
+      "sha256": "85bf9e747580bf26d1565283e15d9dde0770e9346143efd180fc13e1062a29d0"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "bytes": 1091,
+      "sha256": "288aea9105efb47d727692fd77cbe2ef1fef6b0e8f6bbd03ce442d79ee0bf84c"
+    },
+    {
+      "path": "RESEARCH_GUIDE.md",
+      "bytes": 1873,
+      "sha256": "be1d37d39d62bb4147a68f071da8a89488fc7b363837279fb320bbd7df8892b8"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 1568,
+      "sha256": "9b8eeae8f3da20b4edb789786779f21091b31accb0edeb6806a5ed3916e7b34b"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 685,
+      "sha256": "9fa55b9dd00fea2c6efa03c78d1dbc77d449c06d3a0ed26ee900c16b3780250f"
+    },
+    {
+      "path": "VERIFY.md",
+      "bytes": 905,
+      "sha256": "754097d010dc37d6f75ccf24f19437a92c7982488370df7f24c12426da76213a"
+    },
+    {
+      "path": "historical/README.txt",
+      "bytes": 5021,
+      "sha256": "6632343f21be2de50ab9121b68bd32f11f23b653403f2a15f838a11b083377cc"
+    },
+    {
+      "path": "historical/REPRODUCTION_GUIDE.txt",
+      "bytes": 7345,
+      "sha256": "018dc58c49120878e03304df6583a4a84ef70e2225a5191905b7365f260546b5"
+    },
+    {
+      "path": "historical/governance/ANALYSIS_PROTOCOL.json",
+      "bytes": 6520,
+      "sha256": "c6318f6fab2ff5130984efc55b84b8ce04f7a15cafd3870113af331f1603c034"
+    },
+    {
+      "path": "historical/governance/LOCAL_READINESS_PROTOCOL.json",
+      "bytes": 4193,
+      "sha256": "b29d34f6ae9b64d27c378c71e515e2079cfe17c5c427c98d449c33da43eedc80"
+    },
+    {
+      "path": "historical/governance/RESOURCE_ACCOUNTING_NOTES.json",
+      "bytes": 1086,
+      "sha256": "bd3b9bdbb5e7184f45ec6d4ad55845b6a7bb539c14e7d5d4dfed18c51edd5d4d"
+    },
+    {
+      "path": "historical/governance/STUDY_PLAN.json",
+      "bytes": 8337,
+      "sha256": "9a75ea08e2a215f694c6bcbb0ca544b44fcc4be9b782bcd9e39b6a1eab48b091"
+    }
+  ],
+  "exclusions": [
+    "Third-party expression",
+    "Source code",
+    "Datasets",
+    "Model artifacts",
+    "Architecture documents",
+    "Full archives"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "qpath-scoped-license-adoption-1",
+  "status": "ADOPTED",
+  "study_version": "v0.4",
+  "repository_edition": "v1.0",
+  "adopted_on": "2026-10-29",
+  "timezone": "Australia/Sydney",
+  "licensor": "Anthony Siljeg",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "owner_instruction": "the licensing decisions can be adopted, if its the same as the first two",
+  "owner_followup": "this can save recomputing the seals?",
+  "condition": "The same separately scoped scheme as study-v0.1 and study-v0.9.5: CC BY 4.0 for controlled original report content and exact selected original explanatory prose; unchanged Q-Pathformer Platform License 1.0 for exact selected Python files and helpers.",
+  "implementation": "Exact adopted content identities are listed in the accompanying report/code/guidance scope records. Canonical license texts are copied unchanged. No license scheme outside the stated condition is adopted.",
+  "attribution_note": "Anthony remains licensor; company affiliation does not transfer ownership.",
+  "existing_grants": "Earlier licenses remain applicable to reused expression, including adaptations and extracts regardless of changed file hashes.",
+  "exclusions": [
+    "Third-party materials and dependencies",
+    "Datasets and source text content",
+    "Checkpoints and model artifacts",
+    "Architecture documents",
+    "Complete operational archives",
+    "Surrounding provenance records as whole works"
+  ],
+  "access": "Licensing is separate from repository visibility and release publication."
+}

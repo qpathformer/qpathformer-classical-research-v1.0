@@ -1,0 +1,91 @@
+{
+  "study_id": "QPATH-ROUTING-v0.4",
+  "status": "REGISTERED_BEFORE_OFFICIAL_TRAINING",
+  "scope": "Local software and illustrative logical-noise sensitivity only; no provider, hardware, backend, account, cloud job, credentials or calibration claims.",
+  "gate": "All135B endpoints independently audited, selected checkpoints committed and root release before this diagnostic capsule. Never select or change models from its outcomes.",
+  "populations": [
+    "confirmation_circle_1",
+    "confirmation_circle_2",
+    "confirmation_ellipse"
+  ],
+  "training_seeds": [
+    801,
+    802,
+    803,
+    804,
+    805
+  ],
+  "methods": [
+    "q2_global",
+    "q2_hash",
+    "q2_kmeans"
+  ],
+  "fixtures": {
+    "n_per_population": 32,
+    "selection": "32 validation records with smallest numeric record IDs, ascending; label independent. Same records for all methods/seeds. No test data. Preserve IDs and coordinates."
+  },
+  "ideal": "All45 selected checkpoints: compare independent matrix, production and Qiskit Aer ideal probabilities on all32 fixtures. Absolute tolerance2e-12. No threshold-failure for predeclared ambiguity band; preserve raw classes.",
+  "compile": {
+    "basis_gates": [
+      "rz",
+      "sx",
+      "x",
+      "cx"
+    ],
+    "optimization_level": 1,
+    "seed_transpiler": 490017,
+    "coupling_map": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "selection": "All32 fixtures per45checkpoint. Record input and compiled depth, gate counts and CX counts. Compare compiled ideal probability to original with2e-12 tolerance. Fully connected abstract2qubit target, no hardware mapping claim."
+  },
+  "noise_scenarios": [
+    {
+      "name": "ideal",
+      "one_qubit_depolarizing": 0.0,
+      "cx_depolarizing": 0.0,
+      "symmetric_readout_flip": 0.0
+    },
+    {
+      "name": "illustrative_mild",
+      "one_qubit_depolarizing": 0.001,
+      "cx_depolarizing": 0.01,
+      "symmetric_readout_flip": 0.01
+    },
+    {
+      "name": "illustrative_stress",
+      "one_qubit_depolarizing": 0.005,
+      "cx_depolarizing": 0.03,
+      "symmetric_readout_flip": 0.03
+    }
+  ],
+  "noise_semantics": "Aer density-matrix depolarizing_error(p,1) after each logical RY/RZ (including encoding and final readout rotation), depolarizing_error(p,2) after each CX. Obtain premeasurementP1; apply symmetric readout analytically p_observed=r+(1-2r)*p1. These are fixed logical-gate scenarios, not noise on the compiled target and not measured device noise.",
+  "finite_shot": {
+    "shots": [
+      1024,
+      8192
+    ],
+    "replicates": 5,
+    "sampling": "Independent binomial(shots,p_observed)/shots using NumPy PCG64 SeedSequence([490101,population_index,training_seed,method_index,scenario_index,shots,replicate_index]); indices zero-based in registered orders. Store every probability. This models independent binary shots conditional on density probability, not actual device execution."
+  },
+  "aer_measured_smoke": {
+    "records_per_checkpoint": 8,
+    "selection": "First8 of32 fixture IDs",
+    "shots": 1024,
+    "scenarios": [
+      "ideal",
+      "illustrative_mild"
+    ],
+    "seed_simulator": 490103,
+    "method": "Actual local Aer measured circuits, same logical noise plus ReadoutError. Retain counts, compare with density expected probability; diagnostic standardized residuals, no accuracy-selection gate or arbitrary stochastic pass/fail."
+  },
+  "outputs": "Per-circuit matrix/ideal/compiled/noisy probabilities, work/depth counts, finite-shot probabilities, actual local Aer counts and timings, environment/source/protocol hashes. Aggregate mean/max absolute distortion from ideal, class-disagreement fractions and finite-shot variability. Optional fixture F1 explicitly32-record diagnostic, not full validation/test performance.",
+  "limitations": "Logical-noise choices arbitrary and predeclared; simulator speed is not hardware speed.32 label-independent validation records perpopulation and reused training-seed checkpoints support capsule checks, not broad accuracy or advantage claims. No post-result scenario tuning."
+}

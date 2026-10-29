@@ -1,0 +1,191 @@
+{
+  "study_id": "QPATH-ROUTING-v0.4",
+  "status": "REGISTERED_SPECIFICATION_BEFORE_OFFICIAL_TRAINING",
+  "population_order": [
+    "confirmation_circle_1",
+    "confirmation_circle_2",
+    "confirmation_ellipse"
+  ],
+  "methods": [
+    "q2_global",
+    "q2_hash",
+    "q2_kmeans",
+    "mlp_global",
+    "mlp_hash",
+    "mlp_kmeans",
+    "trig_global",
+    "trig_hash",
+    "trig_kmeans"
+  ],
+  "training_seeds": [
+    801,
+    802,
+    803,
+    804,
+    805
+  ],
+  "primary_metric": "Mean clipped binary cross entropy, clip[1e-7,1-1e-7], natural logs; lower is better",
+  "primary_contrasts": [
+    [
+      "q2_kmeans",
+      "q2_hash"
+    ],
+    [
+      "q2_kmeans",
+      "mlp_kmeans"
+    ],
+    [
+      "q2_kmeans",
+      "trig_kmeans"
+    ]
+  ],
+  "primary_family_size": 9,
+  "primary_direction": "First minus second within training seed and population. Negative BCE favors first.",
+  "primary_inference": "Each population is analysed separately. Three contrasts across three populations make one nine-comparison primary family. No pooling seed/population cells as independent datasets. Practical mean BCE reduction0.01, with interval and threshold reported separately. No equivalence claim.",
+  "seed_uncertainty": {
+    "n": 5,
+    "df": 4,
+    "descriptive_confidence": 0.95,
+    "primary_confidence": 0.9944444444444445,
+    "formula": "mean paired differences +/- t.ppf(1-alpha/2,4)*sampleSD/sqrt5",
+    "limits": "Conditional on this population, data split, fitted router, architecture, hyperparameters and checkpoint-selection procedure; smalln and t assumptions apply."
+  },
+  "record_bootstrap": {
+    "replicates": 5000,
+    "rng": "NumPy2.5.4 PCG64",
+    "seeds": {
+      "confirmation_circle_1": 198101,
+      "confirmation_circle_2": 198102,
+      "confirmation_ellipse": 198103
+    },
+    "unit": "Test record within one population",
+    "draws": "rng.multinomial(n, np.full(n,1.0/n), size=5000); save count matrix asuint16 NPY and SHA256. Same counts shared acrossallmethods/fivetrainedcheckpoints.",
+    "aggregation": "Recompute each metric for eachcheckpoint and bootstrap sample, then averagefivecheckpoints. BCEcan algebraicallyaverageper-recordlossacrosscheckpoints first. F1 must recompute percheckpoint beforeaverage.",
+    "intervals": "NumPy quantile methodlinear; ordinarypercentiles2.5/97.5; primary tailsalpha/2withalpha=.05/9.",
+    "limits": "Conditional fixedtrainedcheckpoints/testpopulation. Not additionaltrainingreplications; do not pool with seedCI or claim taskgeneralization."
+  },
+  "secondary_metrics": [
+    "macro_f1",
+    "accuracy"
+  ],
+  "secondary_units": "F1 andaccuracycontrasts in percentagepoints; per-methodmeans/stdev storedfractions",
+  "secondary_contrasts": [
+    [
+      "mlp_kmeans",
+      "mlp_hash"
+    ],
+    [
+      "trig_kmeans",
+      "trig_hash"
+    ],
+    [
+      "q2_kmeans",
+      "q2_global"
+    ],
+    [
+      "q2_hash",
+      "q2_global"
+    ],
+    [
+      "mlp_kmeans",
+      "mlp_global"
+    ],
+    [
+      "mlp_hash",
+      "mlp_global"
+    ],
+    [
+      "trig_kmeans",
+      "trig_global"
+    ],
+    [
+      "trig_hash",
+      "trig_global"
+    ],
+    [
+      "q2_kmeans",
+      "mlp_global"
+    ],
+    [
+      "q2_kmeans",
+      "trig_global"
+    ],
+    [
+      "q2_global",
+      "trig_global"
+    ],
+    [
+      "q2_global",
+      "mlp_global"
+    ]
+  ],
+  "secondary_interactions": [
+    {
+      "name": "quantum_vs_mlp_route_gain",
+      "terms": [
+        [
+          "q2_kmeans",
+          1
+        ],
+        [
+          "q2_hash",
+          -1
+        ],
+        [
+          "mlp_kmeans",
+          -1
+        ],
+        [
+          "mlp_hash",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "quantum_vs_trig_route_gain",
+      "terms": [
+        [
+          "q2_kmeans",
+          1
+        ],
+        [
+          "q2_hash",
+          -1
+        ],
+        [
+          "trig_kmeans",
+          -1
+        ],
+        [
+          "trig_hash",
+          1
+        ]
+      ]
+    }
+  ],
+  "secondary_limits": "Ordinary95intervals descriptive only. Interactions measure recipe-dependentchanges, not capacity-isolatedcausalquantumadvantage.",
+  "numerical": {
+    "canonical_threshold": 0.5,
+    "rule": "prediction1 iff p>=0.5",
+    "probability_abs_tolerance": 2e-12,
+    "independent_aggregate_bce_abs_tolerance": 1e-8,
+    "canonical_saved_probability_metric_abs_tolerance": 2e-12,
+    "band": 7.105427357601002e-15,
+    "band_policy": "Any independentclassdifference must have bothcanonical/referenceprobabilitieswithinband around0.5; outsidebandFAIL. Canonicalclasses/metricsunchanged, rawreferenceclassesreported. Reportallambiguouscounts andcanonicalmask sensitivity: all0,all1,label-assistedallincorrect/allcorrect. Label-assistedextrema diagnostic only, nottrainedpredictions/CI. IndependentBCEtolerance fixedbeforeofficialtraining because clipping amplifies smallprobabilitydifferences."
+  },
+  "milestones": {
+    "threshold": 0.97,
+    "cadence_updates": 75,
+    "confirmation_checks": 3,
+    "all_runs_full_budget": true,
+    "first": "FirstloggedvalidationF1>=.97",
+    "confirmed": "Earliestthirdconsecutivequalifyingcheck; also reportfirstcheckofthatsequence",
+    "nonreachers": "Explicit counts and censoredhorizon; conditionalmedians onlyamongreached, never treat asfullsamplestatistics",
+    "limits": "Validationdescriptive,noearlystopping,noactualcompute-savingclaim,noheldoutscoreatearlyupdates."
+  },
+  "resources": "Separate train,fullvalidation,selectedaudit,diagnostics,preparation,inference; circuitforward/parameter-shift/layer/gatecounts; perbankexposure and allocatedparameters; featurecomputationcounts andclassicalmultiplyaccumulateconventionexplicit; hostconcurrenttimingsdescriptive, not quantumhardwarecost.",
+  "gate": "Official test model outcomes only after all135B full endpoint/round-validation audits PASS and root release binds everyendpoint,source,data,protocol. Independentreplayafterofficialcommit; readall135endpoints andall1600testrecords each. No outcome-basedchanges.",
+  "local_readiness": "Separate pre-result frozen protocol for localAer/noise; noIBMhardware/provider/accountcalls.",
+  "failure_policy": "Preserve failures and partial evidence. No overwrite or drop of arms/seeds. Document recovery and newreview; no training-source/budgetchanges afterfreeze.",
+  "report": "All populations,models,contrasts anduncertainty; historicalv03context only, newglobalMLP architecture change explicit; no quantumadvantageorreal-worldgeneralization claim from synthetic results."
+}
