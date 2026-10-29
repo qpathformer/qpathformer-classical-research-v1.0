@@ -1,0 +1,84 @@
+{
+  "status": "PASS_READY_TO_PUBLISH",
+  "checked_at_utc": "2026-10-29T10:44:35.903968+00:00",
+  "release_id": 427658431,
+  "target_commit": "efd01b4423e7bf3ca9340670d11b93152c10bd0f",
+  "assets": {
+    "QPathformer_v0.3_Code.seal.json": {
+      "id": 688205960,
+      "bytes": 1366,
+      "sha256": "318c3ab5e865be1da88b978edf7814a7b703b314143097bd5d6df80eca1ce404",
+      "state": "uploaded"
+    },
+    "QPathformer_v0.3_Code.zip": {
+      "id": 688206148,
+      "bytes": 206271,
+      "sha256": "5733039548ea0e3995522327cd6d307b362ea5a09aff58927b74bc9a8f5f49df",
+      "state": "uploaded"
+    },
+    "QPathformer_v0.3_Documentation.seal.json": {
+      "id": 688000107,
+      "bytes": 1429,
+      "sha256": "7f9b0cc08dcc18364a553ffdff7353a7cf1f322ba5b427bc950fc6b8d1cdd9e0",
+      "state": "uploaded"
+    },
+    "QPathformer_v0.3_Documentation.zip": {
+      "id": 688000306,
+      "bytes": 33759,
+      "sha256": "e7b9bfd9ef535113c33c3438c75d7d11c12fca09b143d53ae32cd268b8ed38a5",
+      "state": "uploaded"
+    },
+    "QPathformer_v0.3_Study.seal.json": {
+      "id": 688000438,
+      "bytes": 1367,
+      "sha256": "369cc3e7135fe4e6de150bcaa262ae6e8b927b0ee3d1fc811d6f891308e15607",
+      "state": "uploaded"
+    },
+    "QPathformer_v0.3_Study.zip": {
+      "id": 688000625,
+      "bytes": 1703511,
+      "sha256": "f2a27d4e8c24754cade334fbd0121c698f2f368b4d55be83ecac2ede33a6fa98",
+      "state": "uploaded"
+    }
+  },
+  "evidence_links": [
+    {
+      "commit": "efd01b4423e7bf3ca9340670d11b93152c10bd0f",
+      "path": "release_preparation/study-v0.3/revisions/draft_20261029_r3/PACKAGE_INDEX.json",
+      "sha256": "cee0524d3df7d59fc383381570d25e04a9b7224250280bc0ad2f8d3b74e1fba1"
+    },
+    {
+      "commit": "efd01b4423e7bf3ca9340670d11b93152c10bd0f",
+      "path": "release_preparation/study-v0.3/revisions/draft_20261029_r3/receipts/FRESH_PACKAGE_VERIFICATION.json",
+      "sha256": "6f6cca60d1a78034fba7cf74a3ed60247c07040148069884722d220324de8daf"
+    },
+    {
+      "commit": "efd01b4423e7bf3ca9340670d11b93152c10bd0f",
+      "path": "release_preparation/study-v0.3/revisions/draft_20261029_r3/receipts/ROOT_PACKAGE_VERIFICATION.json",
+      "sha256": "36834445765c5db4bc72c2d3f9371e547ff80acf3e43c2fe502dab0ab3cd2f79"
+    },
+    {
+      "commit": "efd01b4423e7bf3ca9340670d11b93152c10bd0f",
+      "path": "release_preparation/study-v0.3/revisions/draft_20261029_r3/report/REPORT_REVIEW.json",
+      "sha256": "dcbec8f8347ecfef7f4123263a18bd25339435e0a2cca35a51e358df2f11a61d"
+    },
+    {
+      "commit": "efd01b4423e7bf3ca9340670d11b93152c10bd0f",
+      "path": "release_preparation/study-v0.3/revisions/draft_20261029_r3/receipts/SOURCE_INVENTORY.json",
+      "sha256": "0fa56c2d02b3a78ae5d289f08a489b3094811e06009119c95bb69c882a7fdb6a"
+    },
+    {
+      "commit": "efd01b4423e7bf3ca9340670d11b93152c10bd0f",
+      "path": "release_preparation/study-v0.3/revisions/draft_20261029_r3/OWNER_LICENSE_AUTHORIZATION.json",
+      "sha256": "079679582d015f1f0422edb31da07bbbf867a0eff1a57e2a61e3dafe2477845b"
+    },
+    {
+      "commit": "c6acc74d678d8a5d954eda60b67d5d506dd042c4",
+      "path": "release_preparation/study-v0.3/revisions/draft_20261029_r3/DRAFT_RELEASE.json",
+      "sha256": "0159e528aefa18367c1d4fcc0b9452da55b06b857bdbb5652aba884afb89b8ab"
+    }
+  ],
+  "repository_private": true,
+  "latest": "study-v0.9.5",
+  "independent_review": "Read-only independent reviewer authenticated all six current downloads, verified exact r3 bytes and target source, and found no blockers."
+}

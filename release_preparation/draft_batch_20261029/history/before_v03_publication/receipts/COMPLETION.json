@@ -1,0 +1,19 @@
+{
+  "status": "V02_PUBLISHED_SEVEN_PRIVATE_DRAFTS_REMAIN",
+  "repository_private": true,
+  "drafts": 7,
+  "assets_verified": 48,
+  "report_pages_reviewed": 275,
+  "code_startups_passed": 8,
+  "licensing_decisions_remaining": [],
+  "main_unchanged": "7c05ea9712d4b21a3b16fd1258f2731972e344c2",
+  "protected_releases_unchanged": true,
+  "latest": "study-v0.9.5",
+  "branch": "prepare-studies-v0.2-v0.9-20261029",
+  "final_evidence_commit": "e007593fa19fb01afb1acaf75fe31a7314d0c922",
+  "remote_review_index": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/e007593fa19fb01afb1acaf75fe31a7314d0c922/release_preparation/draft_batch_20261029/REVIEW_INDEX.md",
+  "local_review_index": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\draft_batch_20261029\\LOCAL_REVIEW_INDEX.md",
+  "completed_at_utc": "2026-10-29T10:40:44.584515+00:00",
+  "latest_revision": "v0.3 r3",
+  "published_from_batch": 1
+}
