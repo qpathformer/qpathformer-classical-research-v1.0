@@ -1,0 +1,112 @@
+{
+  "schema": "qpath-distribution-publication-1",
+  "status": "PUBLISHED_PRIVATE",
+  "distribution": "v1.0",
+  "recorded_at_utc": "2026-10-29T06:27:06.625843+00:00",
+  "repository": {
+    "name": "qpathformer/qpathformer-classical-research",
+    "id": 1438032349,
+    "url": "https://github.com/qpathformer/qpathformer-classical-research",
+    "private": true,
+    "visibility": "private"
+  },
+  "release": {
+    "id": 427529591,
+    "url": "https://github.com/qpathformer/qpathformer-classical-research/releases/tag/v1.0",
+    "tag": "v1.0",
+    "commit": "be4ea57cd877d9b11d2df01a3effe1d30acf4e25",
+    "draft": false,
+    "prerelease": false,
+    "published_at": "2026-10-29T06:26:59Z"
+  },
+  "clean_history": {
+    "initial_commit": "be4ea57cd877d9b11d2df01a3effe1d30acf4e25",
+    "initial_parents": [],
+    "staging_history_imported": false
+  },
+  "assets": [
+    {
+      "name": "QPathformer_v1.0_Code.seal.json",
+      "id": 687593125,
+      "bytes": 1561,
+      "sha256": "91fe1bc0ec126698d157b7a5b87221b32f57235d63476a523dcecf75c9e2c56d",
+      "url": "https://github.com/qpathformer/qpathformer-classical-research/releases/download/v1.0/QPathformer_v1.0_Code.seal.json"
+    },
+    {
+      "name": "QPathformer_v1.0_Code.zip",
+      "id": 687593133,
+      "bytes": 233689,
+      "sha256": "266f69e9b71dd5596e13925d91eda99a06c65e803038a35ee21be48d129e1c83",
+      "url": "https://github.com/qpathformer/qpathformer-classical-research/releases/download/v1.0/QPathformer_v1.0_Code.zip"
+    },
+    {
+      "name": "QPathformer_v1.0_Documentation.seal.json",
+      "id": 687593127,
+      "bytes": 1597,
+      "sha256": "727ff2e025f8623f0fe40ead8c5e07a25fbfb715d139685d6847c9c0a1a9872b",
+      "url": "https://github.com/qpathformer/qpathformer-classical-research/releases/download/v1.0/QPathformer_v1.0_Documentation.seal.json"
+    },
+    {
+      "name": "QPathformer_v1.0_Documentation.zip",
+      "id": 687593130,
+      "bytes": 4824365,
+      "sha256": "14635820caad3fe531af3b44a5b36bf7f07faec23338caa5f15562ef3df20ae0",
+      "url": "https://github.com/qpathformer/qpathformer-classical-research/releases/download/v1.0/QPathformer_v1.0_Documentation.zip"
+    },
+    {
+      "name": "QPathformer_v1.0_Study.seal.json",
+      "id": 687593126,
+      "bytes": 1563,
+      "sha256": "50074878dded898c6864d18b1542a356968f4d02f9a43687b56d2eca7d5a2f8d",
+      "url": "https://github.com/qpathformer/qpathformer-classical-research/releases/download/v1.0/QPathformer_v1.0_Study.seal.json"
+    },
+    {
+      "name": "QPathformer_v1.0_Study.zip",
+      "id": 687593150,
+      "bytes": 3274610,
+      "sha256": "9645300977802c09b42d03209497e4c6bb5e21d5541a1b46c03057dd366a419b",
+      "url": "https://github.com/qpathformer/qpathformer-classical-research/releases/download/v1.0/QPathformer_v1.0_Study.zip"
+    }
+  ],
+  "remote_download_verification": "All six assets downloaded after publication and compared byte-for-byte by SHA-256 and size; all three downloaded ZIPs also verified against their downloaded seals and internal records.",
+  "build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\v1.0\\final_20261029",
+  "startup_binding": {
+    "path": "FRESH_PACKAGE_VERIFICATION.json",
+    "bytes": 3276,
+    "sha256": "32f465ae2af79eb89a49ef1d18457a156ea7631b9ea997918b374af8c61231a2"
+  },
+  "startup_receipt": {
+    "path": "QPathformer_v1.0_Code.startup.json",
+    "bytes": 9647,
+    "sha256": "37cb926851d65f1ff0b93945c61d5fae840b8dd31fb33fc98c3dff8f5de3413c"
+  },
+  "startup_scope": "Original package verifier before and after startup; bounded runtime/CLI/import/ETEL/retained-test checks; no full study, retraining, dependency installation or physical-QPU run.",
+  "new_guidance_decision": {
+    "adopted_on": "2026-10-29",
+    "licensor": "Anthony Siljeg",
+    "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "owner_confirmation": {
+      "question_id": "call_5e61bef512ea4681b6bd5a3100fc346b",
+      "question_index": 0,
+      "question": "For the new original wrapper and support prose listed in the reviewed v1.0 packs, do you confirm authority and adopt CC BY 4.0 as Anthony Siljeg, with your existing founder/company attribution, including the final status and link corrections? The existing report, code and source-documentation grants stay unchanged; architecture, data, models and archives remain outside this new grant. This decision is needed because your earlier documentation approval explicitly excluded future wrapper files.",
+      "answer": "Yes — adopt CC BY 4.0 for the listed new prose"
+    },
+    "scope": "Only controlled new original explanatory prose in the listed files, including final status and link corrections. Existing licensed source content and applicable adaptations retain their earlier grants.",
+    "exclusions": "No additional grant for architecture documents, software, report artifacts as whole files, datasets, models, complete archives, third-party material, canonical legal texts or machine-readable integrity/provenance records. Existing code, report and source-documentation grants remain unchanged.",
+    "attribution_note": "Company and founder details are attribution, not an ownership transfer. No blanket repository or package grant. Publisher hashes identify editions, not restrictions on licensed adaptations."
+  },
+  "staging_preserved": {
+    "repository_id": 1436694826,
+    "name": "qpathformer/qpathformer-classical-research-staging",
+    "private": true,
+    "main_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+    "study_tag_commit": "f9f4723e31b4944ccea16541cb0efc4c74cda841",
+    "release_id": 426359002,
+    "asset_count": 19,
+    "original_release_body_unchanged": true,
+    "original_asset_identities_unchanged": true
+  },
+  "publication_record_boundary": "This record documents the later publication event. It is added after the distribution tag and is outside all sealed packages. Preparation seals are not rewritten to claim an event they preceded."
+}
