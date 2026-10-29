@@ -1,0 +1,71 @@
+{
+  "schema": "qpath-draft-release-1",
+  "status": "PRIVATE_DRAFT_UPLOADED_AND_AUTHENTICATED_DOWNLOAD_VERIFIED",
+  "study_version": "v0.3",
+  "repository": {
+    "id": 1438032349,
+    "name": "qpathformer/qpathformer-classical-research-v1.0",
+    "private": true
+  },
+  "draft_release": {
+    "id": 427658431,
+    "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-da9e8f7e826965a21685",
+    "tag_name": "study-v0.3",
+    "target_commitish": "dbcfe6cb00fdfd439f174059666c2dfb5fec71f1",
+    "name": "Q-Pathformer Study v0.3 — Shallow Circuits and Routing",
+    "draft": true,
+    "prerelease": false,
+    "published_at": null
+  },
+  "assets": [
+    {
+      "id": 687999668,
+      "name": "QPathformer_v0.3_Code.seal.json",
+      "bytes": 1366,
+      "sha256": "cb8f240b8883f3c4aaa5c7ec6977964cc8accbbd4a348c436291ff2961f62422",
+      "download_verified": true
+    },
+    {
+      "id": 687999867,
+      "name": "QPathformer_v0.3_Code.zip",
+      "bytes": 202363,
+      "sha256": "a3f830709d73f02347f9eca3f7ac93bfe1d2b5c7264033e5bcfb50307d7ee535",
+      "download_verified": true
+    },
+    {
+      "id": 688000107,
+      "name": "QPathformer_v0.3_Documentation.seal.json",
+      "bytes": 1429,
+      "sha256": "7f9b0cc08dcc18364a553ffdff7353a7cf1f322ba5b427bc950fc6b8d1cdd9e0",
+      "download_verified": true
+    },
+    {
+      "id": 688000306,
+      "name": "QPathformer_v0.3_Documentation.zip",
+      "bytes": 33759,
+      "sha256": "e7b9bfd9ef535113c33c3438c75d7d11c12fca09b143d53ae32cd268b8ed38a5",
+      "download_verified": true
+    },
+    {
+      "id": 688000438,
+      "name": "QPathformer_v0.3_Study.seal.json",
+      "bytes": 1367,
+      "sha256": "369cc3e7135fe4e6de150bcaa262ae6e8b927b0ee3d1fc811d6f891308e15607",
+      "download_verified": true
+    },
+    {
+      "id": 688000625,
+      "name": "QPathformer_v0.3_Study.zip",
+      "bytes": 1703511,
+      "sha256": "f2a27d4e8c24754cade334fbd0121c698f2f368b4d55be83ecac2ede33a6fa98",
+      "download_verified": true
+    }
+  ],
+  "branch": "prepare-studies-v0.2-v0.9-20261029",
+  "main_unchanged": "7c05ea9712d4b21a3b16fd1258f2731972e344c2",
+  "protected_releases_unchanged": true,
+  "v095_remains_latest": true,
+  "checked_at_utc": "2026-10-29T09:20:36.560345+00:00",
+  "licensing": "Same scoped scheme adopted with exact per-study membership records; documented exceptions excluded.",
+  "publication_authorized": false
+}
