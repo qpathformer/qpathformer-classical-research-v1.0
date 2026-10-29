@@ -1,0 +1,53 @@
+{
+  "study_version": "v0.2",
+  "revision": "draft_20261029_r4",
+  "target_commit": "f65722c17c54ff67dd018f5a299526d984fe9325",
+  "evidence_commit": "8a90e206e154c5e6dfc329d75ae0f8410e2ece6b",
+  "record_path": "release_preparation/study-v0.2/revisions/draft_20261029_r4",
+  "draft": true,
+  "assets": [
+    {
+      "id": 688149913,
+      "name": "QPathformer_v0.2_Code.seal.json",
+      "bytes": 1366,
+      "sha256": "d1fd7ad591daedbf7f64bb2522c5fe946807a0c105bd3e7cdb18dbd563a06ec1",
+      "download_verified": true
+    },
+    {
+      "id": 688150108,
+      "name": "QPathformer_v0.2_Code.zip",
+      "bytes": 206580,
+      "sha256": "a73fffc11ba9928074462963065ef1cc5466c834e6fd8c2580dabd40e1a2ec56",
+      "download_verified": true
+    },
+    {
+      "id": 688150413,
+      "name": "QPathformer_v0.2_Documentation.seal.json",
+      "bytes": 1436,
+      "sha256": "c6f42a80faadf948d12134f044e72b1c96db9a55f37ef6ad61c6da54796628e0",
+      "download_verified": true
+    },
+    {
+      "id": 688150670,
+      "name": "QPathformer_v0.2_Documentation.zip",
+      "bytes": 37003,
+      "sha256": "f047146f4fb4cae5cdfd196a824772c43e4461f951cccc64de6f1cfec883c2dc",
+      "download_verified": true
+    },
+    {
+      "id": 688150871,
+      "name": "QPathformer_v0.2_Study.seal.json",
+      "bytes": 1373,
+      "sha256": "dc9ed6a06b6e6a5894b3eeb0cdae69c1fa3b9409507c3b6f8c0800e4a4ec0565",
+      "download_verified": true
+    },
+    {
+      "id": 688151099,
+      "name": "QPathformer_v0.2_Study.zip",
+      "bytes": 1394953,
+      "sha256": "6567321e68e2898cea95c3c0ef9544083c6371156d29b3f69f249a36323050b5",
+      "download_verified": true
+    }
+  ],
+  "previous_revision": "draft_20261029_r3"
+}
