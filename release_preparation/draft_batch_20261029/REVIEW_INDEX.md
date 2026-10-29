@@ -7,7 +7,7 @@ The 24 packages passed inventory, safe-path, hash, JSON, link and adopted-scope 
 | Study | GitHub release | Evidence | Pages | Python files | Original figures | ETEL |
 | --- | --- | --- | ---: | ---: | ---: | --- |
 | v0.2 | [Published v0.2](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/study-v0.2) | [Verification and scopes](https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/8a90e206e154c5e6dfc329d75ae0f8410e2ece6b/release_preparation/study-v0.2/revisions/draft_20261029_r4/README.md) | 16 | 42 | 4 | Not supplied |
-| v0.3 | [Open draft](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-9a9e478bdaeecc581dc7) | [Verification and scopes](https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/c3db98ebf7d03bad20c934716e53f6cc46cbde33/release_preparation/study-v0.3/revisions/draft_20261029_r2/README.md) | 22 | 49 | 4 | Not supplied |
+| v0.3 | [Open draft](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-fb6505d04b28d9e00eb8) | [Verification and scopes](https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/c6acc74d678d8a5d954eda60b67d5d506dd042c4/release_preparation/study-v0.3/revisions/draft_20261029_r3/README.md) | 22 | 49 | 4 | Not supplied |
 | v0.4 | [Open draft](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-2331f5a175812d6367f9) | [Verification and scopes](https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/74a82a30c165b27e13eb1428350fb59626ed7f94/release_preparation/study-v0.4/revisions/draft_20261029_r2/README.md) | 40 | 50 | 4 | Not supplied |
 | v0.5 | [Open draft](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-3f4315e16e04b088cc1c) | [Verification and scopes](https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/1ec1e579b9cd49d2c14346c1176cff3e75aa8c4a/release_preparation/study-v0.5/revisions/draft_20261029_r02/README.md) | 34 | 52 | 4 | Not supplied |
 | v0.6 | [Open draft](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-946028b39f088ce0dcb3) | [Verification and scopes](https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/72cda7268a65dbb991f89b1e5ce3c64bfddf2473/release_preparation/study-v0.6/revisions/draft_20261029_r02/README.md) | 35 | 61 | 3 | Not supplied |
@@ -24,7 +24,7 @@ Full reproduction still requires separately retained data, checkpoints and histo
 Local final pack folders:
 
 - v0.2: `C:\Q2\Release_Preparation\QPathformer_Classical_Research\study-v0.2\draft_20261029_r4`; downloads are in its `dist` folder.
-- v0.3: `C:\Q2\Release_Preparation\QPathformer_Classical_Research\study-v0.3\draft_20261029_r2`; downloads are in its `dist` folder.
+- v0.3: `C:\Q2\Release_Preparation\QPathformer_Classical_Research\study-v0.3\draft_20261029_r3`; downloads are in its `dist` folder.
 - v0.4: `C:\Q2\Release_Preparation\QPathformer_Classical_Research\study-v0.4\draft_20261029_r2`; downloads are in its `dist` folder.
 - v0.5: `C:\Q2\Release_Preparation\QPathformer_Classical_Research\study-v0.5\draft_20261029_r02`; downloads are in its `dist` folder.
 - v0.6: `C:\Q2\Release_Preparation\QPathformer_Classical_Research\study-v0.6\draft_20261029_r02`; downloads are in its `dist` folder.
@@ -37,3 +37,5 @@ Earlier sealed candidates and superseded identities remain preserved. The v0.5 r
 The current v0.2 selection is r4: corrected scientific summaries, exclusive startup receipts, strict inventories and pre/post startup integrity checks. Its 40 scientific Python files and report PDF/DOCX retain their reviewed bytes. r3 assets, records and the previous index remain preserved. Other study drafts are unchanged.
 
 Published v0.2 uses the unchanged r4 ZIPs and seals. Its publication receipt is retained separately from the historical draft receipts. Repository access remains private and v0.9.5 remains Latest.
+
+The current v0.3 selection is r3: strict inventory parsing, guarded PowerShell quickstart, exact pre/post startup integrity and corrected release-level metric/verification wording. Only the Code ZIP and seal changed; Study and Documentation assets are reused unchanged. v0.3 remains a private draft.
