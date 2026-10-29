@@ -1,0 +1,63 @@
+{
+  "status": "LICENSED_PRESERVATION_EDITION_PREPARED",
+  "source": {
+    "path": "C:\\Q2\\Improvement_Study_v0.7\\docs\\QPATH_RPT008_v0.7_Internal_Study_Report.docx",
+    "bytes": 697132,
+    "sha256": "3b2c31ec5f56cd6c6207d2a1f04820b1433dd938e08f4e906ad1d6a945038bc1"
+  },
+  "docx": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261029\\report\\files\\QPathformer_v0.7_Report_Edition_1.docx",
+    "bytes": 698067,
+    "sha256": "f2144ed93098717d44140ceee988f4a7ccd005806544d305c59de1cc1dd15b73"
+  },
+  "original_body_nodes_byte_identical": true,
+  "original_paragraphs": 2438,
+  "original_tables": 58,
+  "media": [
+    {
+      "path": "word/media/image1.png",
+      "bytes": 133297,
+      "sha256": "812835fadb470bdd2346c922f7d662970f7de9a44964a73c246700529a93eebc"
+    },
+    {
+      "path": "word/media/image2.png",
+      "bytes": 187354,
+      "sha256": "34550dd89c03e5203938a78dffad9273003ef7963a46485070d223842dfc0dbf"
+    },
+    {
+      "path": "word/media/image3.png",
+      "bytes": 176941,
+      "sha256": "38aeaf7d64afd26e93784a014458bf8e79733d6ce86316e81baae5a1141d8efa"
+    },
+    {
+      "path": "word/media/image4.png",
+      "bytes": 186999,
+      "sha256": "0b17e12eb99055ea138e0f21fddd1fe1a2189a74133c3068cd17413beb80783a"
+    }
+  ],
+  "changed_ooxml_parts": [
+    "word/document.xml",
+    "docProps/core.xml"
+  ],
+  "omitted_scientific_content": [],
+  "edition_changes": [
+    "Appended explicit edition/attribution/scoped adopted rights note",
+    "Corrected author/title/subject/affiliation metadata"
+  ],
+  "new_grants_adopted": true,
+  "disclosure_review": {
+    "redactions": [],
+    "retained_context": [
+      "Processor",
+      "AMD Ryzen AI 9 HX 370; 12 physical cores, 24 logical processors",
+      "Memory",
+      "67,772,469,248 Windows-reported physical-memory bytes, approximately 63.12 GiB",
+      "ETEL schedules complete registered fits in isolated processes. Persistent claims, process creation identities, immutable attempt directories and committed hashes support restart reconciliation and prevent duplicate completed jobs. Its logical groups of 64 are bookkeeping; they do not represent 64 active processors, model banks or a measured 64-fold speedup.",
+      "All 608 worker environment receipts confirm one effective BLAS thread and no GPU use. Each stage reached five owned workers. The largest individual worker peak working set was 61.76 MiB; this is not a measurement of simultaneous total machine memory. Training used cached inputs and features where the frozen implementation permits them; deployment timing separately measures complete raw-input calls.",
+      "The columns have nested scopes and must not be added together. Inner wall and CPU cover the instrumented timing or replay section. Process CPU includes imports, release verification and hash checks as well as the inner work. For timing sessions it is sampled before final process exit; for the independent audit it was read from the retained Windows leaf-process handle after exit. It excludes the shell and Python environment redirector. Outer wall spans the invocation, including startup and preflight. CPU measures processor time; wall measures elapsed time.",
+      "The largest individual worker peak was 61.76 MiB. This is not simultaneous system memory, and individual peaks must not be added. ETEL's logical groups of 64 (and peak ready capacity of 192) are bookkeeping, not active cores or a 64x/192x speedup. There is no matched serial-run estimate of parallel speedup.",
+      "python -B reproducibility/verify_package.py --package \"C:\\Q2\\Improvement_Study_v0.7\" --replay-scores"
+    ],
+    "owner_review": "Retained historical local paths, host and resource/usage details remain visible for owner publication review. No credential was deliberately included."
+  }
+}

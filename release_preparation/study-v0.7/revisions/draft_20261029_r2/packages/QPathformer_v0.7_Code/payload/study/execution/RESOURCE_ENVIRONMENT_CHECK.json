@@ -1,0 +1,11 @@
+{
+  "python": "3.12.14",
+  "interpreter": "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+  "numpy_version": "2.5.4",
+  "numpy_file": "C:\\Q2\\Implementation_v0.1\\.venv\\Lib\\site-packages\\numpy\\__init__.py",
+  "openblas_dll": "C:\\Q2\\Implementation_v0.1\\.venv\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+  "openblas_dll_sha256": "ed4f167a5330424524f45258e7ca2c8d7f03c0cba1f30ee4985553ac1f88ecf8",
+  "openblas_config": "OpenBLAS 0.3.34.106.0  USE64BITINT DYNAMIC_ARCH NO_AFFINITY SkylakeX MAX_THREADS=24",
+  "effective_blas_threads": 1,
+  "gpu_used": false
+}
