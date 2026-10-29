@@ -1,0 +1,15 @@
+{
+  "note": "Catalog identity references are historical build-time observations. Both catalog byte identities are retained; use the digest to select the snapshot. Original content grants are the adopted scope records, not this convenience index.",
+  "snapshots": [
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\draft_batch_20261029\\history\\ADOPTED_SCOPE_CATALOG_initial.json",
+      "bytes": 143493,
+      "sha256": "c2469e6bd04fe24fcf99568e0e56aadca3ee1e476f0c17f937c9f04e768286f0"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\draft_batch_20261029\\ADOPTED_SCOPE_CATALOG.json",
+      "bytes": 193887,
+      "sha256": "59dd27a0f4b1f857ed62d68a18d2fcfbac44415957c8c15e1d65ecfadf9d9fa5"
+    }
+  ]
+}

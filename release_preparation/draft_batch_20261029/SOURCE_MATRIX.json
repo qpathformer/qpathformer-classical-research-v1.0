@@ -1,0 +1,269 @@
+{
+  "repository_edition": "v1.0",
+  "studies": [
+    {
+      "study_version": "v0.2",
+      "source": "C:\\Q2\\Improvement_Study_v0.2",
+      "source_manifest": {
+        "path": "C:\\Q2\\Improvement_Study_v0.2\\DELIVERY_MANIFEST.json",
+        "bytes": 768526,
+        "sha256": "6a23544293294135d228a05949aad45ce2fa15769b8a2207fa30573b9f01b78c"
+      },
+      "reports": [
+        {
+          "path": "C:\\Q2\\Improvement_Study_v0.2\\docs\\QPATH-RPT-003_Improvement_Study_and_Baseline_Comparison_v0.2.docx",
+          "bytes": 581560,
+          "sha256": "fb6a575707c3e2952d418bf20d3b3fcfff1929edf05c4a9f1a1d53b94abb9172"
+        }
+      ],
+      "expected_build": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029",
+      "status": "SOURCE_CONFIRMED_PREPARATION_IN_PROGRESS",
+      "etel": false,
+      "report_subject": "Improvement and baseline comparison",
+      "scientific_scope": "Quantum schedule and classical DBpedia14 text work",
+      "proposed_code_roots": "quantum; classical; analysis; governance",
+      "limitations": "No ETEL; task-specific dependencies and original benchmark boundaries must be retained.",
+      "known_licensing": "Same scoped scheme adopted by owner conditionally on matching completed release terms; precise final memberships and any genuine exceptions remain to verify. Existing grants and notices preserved.",
+      "proposed_selection": "Reviewed PDF and Word report editions; study overview and reproduction boundaries; curated source/config/protocol files. Exclude raw datasets, checkpoints, environments, credentials and full archives.",
+      "verification_needs": [
+        "Original selected source size and SHA-256 against delivery evidence",
+        "Report body, figures and tables preservation plus visual all-page QA",
+        "Exact inherited grant/partial-expression mapping and final adopted scope records",
+        "ZIP path/membership/manifest/checksum/seal checks",
+        "Fresh actual Code ZIP offline startup in compatible local runtime",
+        "Authenticated download identity check for all six draft assets"
+      ]
+    },
+    {
+      "study_version": "v0.3",
+      "source": "C:\\Q2\\Improvement_Study_v0.3",
+      "source_manifest": {
+        "path": "C:\\Q2\\Improvement_Study_v0.3\\DELIVERY_MANIFEST.json",
+        "bytes": 1076752,
+        "sha256": "8c954d7f886ef63f5140aa4b726cdd50cad17474cf3dbd7b604029ff3bb7f816"
+      },
+      "reports": [
+        {
+          "path": "C:\\Q2\\Improvement_Study_v0.3\\docs\\QPATH-RPT-004_Shallow_Circuits_and_Routing_Study_v0.3.docx",
+          "bytes": 760951,
+          "sha256": "52ff262ec7e7c0685ec330032e959837ec8f1794ed223024775f21fbf773d838"
+        }
+      ],
+      "expected_build": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.3\\draft_20261029",
+      "status": "SOURCE_CONFIRMED_PREPARATION_IN_PROGRESS",
+      "etel": false,
+      "report_subject": "Shallow circuits and routing",
+      "scientific_scope": "Synthetic shallow circuit and routing comparisons with numerical recovery protocol",
+      "proposed_code_roots": "quantum; analysis; governance",
+      "limitations": "No ETEL; recovery and historical recommendations remain part of the scientific record.",
+      "known_licensing": "Same scoped scheme adopted by owner conditionally on matching completed release terms; precise final memberships and any genuine exceptions remain to verify. Existing grants and notices preserved.",
+      "proposed_selection": "Reviewed PDF and Word report editions; study overview and reproduction boundaries; curated source/config/protocol files. Exclude raw datasets, checkpoints, environments, credentials and full archives.",
+      "verification_needs": [
+        "Original selected source size and SHA-256 against delivery evidence",
+        "Report body, figures and tables preservation plus visual all-page QA",
+        "Exact inherited grant/partial-expression mapping and final adopted scope records",
+        "ZIP path/membership/manifest/checksum/seal checks",
+        "Fresh actual Code ZIP offline startup in compatible local runtime",
+        "Authenticated download identity check for all six draft assets"
+      ]
+    },
+    {
+      "study_version": "v0.4",
+      "source": "C:\\Q2\\Improvement_Study_v0.4",
+      "source_manifest": {
+        "path": "C:\\Q2\\Improvement_Study_v0.4\\DELIVERY_MANIFEST.json",
+        "bytes": 4529463,
+        "sha256": "5d823ea5605670bb069e6874ddd74b4f495e3f3ff58cb91a1afcda29a367aca8"
+      },
+      "reports": [
+        {
+          "path": "C:\\Q2\\Improvement_Study_v0.4\\docs\\QPATH-RPT-005_Routing_and_Circuit_Contribution_Study_v0.4.docx",
+          "bytes": 833603,
+          "sha256": "54ffcb4182d61471865ac457aa4da8647aa309f339709334252ba7dbf0e48a52"
+        }
+      ],
+      "expected_build": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029",
+      "status": "SOURCE_CONFIRMED_PREPARATION_IN_PROGRESS",
+      "etel": false,
+      "report_subject": "Routing and circuit contribution",
+      "scientific_scope": "Matched routing and circuit-family comparisons",
+      "proposed_code_roots": "quantum; analysis; governance",
+      "limitations": "No ETEL; do not generalize matched comparisons beyond studied tasks and arms.",
+      "known_licensing": "Same scoped scheme adopted by owner conditionally on matching completed release terms; precise final memberships and any genuine exceptions remain to verify. Existing grants and notices preserved.",
+      "proposed_selection": "Reviewed PDF and Word report editions; study overview and reproduction boundaries; curated source/config/protocol files. Exclude raw datasets, checkpoints, environments, credentials and full archives.",
+      "verification_needs": [
+        "Original selected source size and SHA-256 against delivery evidence",
+        "Report body, figures and tables preservation plus visual all-page QA",
+        "Exact inherited grant/partial-expression mapping and final adopted scope records",
+        "ZIP path/membership/manifest/checksum/seal checks",
+        "Fresh actual Code ZIP offline startup in compatible local runtime",
+        "Authenticated download identity check for all six draft assets"
+      ]
+    },
+    {
+      "study_version": "v0.5",
+      "source": "C:\\Q2\\Improvement_Study_v0.5",
+      "source_manifest": {
+        "path": "C:\\Q2\\Improvement_Study_v0.5\\DELIVERY_MANIFEST.json",
+        "bytes": 7420512,
+        "sha256": "c0be8e4cc5126ae3027b3e8b55d869fb5a0e89b0dd64b609baea21cb23ce3e5e"
+      },
+      "reports": [
+        {
+          "path": "C:\\Q2\\Improvement_Study_v0.5\\docs\\QPATH-RPT-006_Flexible_Readouts_and_Classical_Controls_v0.5.docx",
+          "bytes": 675200,
+          "sha256": "b08a039280e478710eeae7faa521fd37a41224bfd81100391ba8880f15992fb9"
+        }
+      ],
+      "expected_build": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261029",
+      "status": "SOURCE_CONFIRMED_PREPARATION_IN_PROGRESS",
+      "etel": false,
+      "report_subject": "Flexible readouts and classical controls",
+      "scientific_scope": "Eleven arms on circle and ellipse; 66 development and 165 confirmation fits",
+      "proposed_code_roots": "quantum; analysis; governance",
+      "limitations": "No ETEL; NumPy/SciPy numerical core and optional Qiskit/Aer readiness; inherited circuit kernel matches v0.9.5 grant.",
+      "known_licensing": "Same scoped scheme adopted by owner conditionally on matching completed release terms; precise final memberships and any genuine exceptions remain to verify. Existing grants and notices preserved.",
+      "proposed_selection": "Reviewed PDF and Word report editions; study overview and reproduction boundaries; curated source/config/protocol files. Exclude raw datasets, checkpoints, environments, credentials and full archives.",
+      "verification_needs": [
+        "Original selected source size and SHA-256 against delivery evidence",
+        "Report body, figures and tables preservation plus visual all-page QA",
+        "Exact inherited grant/partial-expression mapping and final adopted scope records",
+        "ZIP path/membership/manifest/checksum/seal checks",
+        "Fresh actual Code ZIP offline startup in compatible local runtime",
+        "Authenticated download identity check for all six draft assets"
+      ]
+    },
+    {
+      "study_version": "v0.6",
+      "source": "C:\\Q2\\Improvement_Study_v0.6",
+      "source_manifest": {
+        "path": "C:\\Q2\\Improvement_Study_v0.6\\DELIVERY_MANIFEST.json",
+        "bytes": 5077038,
+        "sha256": "e55dd7b6a449654c99cd6c65bbae2d559c24098f5db1748643164a8db8ac949e"
+      },
+      "reports": [
+        {
+          "path": "C:\\Q2\\Improvement_Study_v0.6\\docs\\QPATH-RPT-007_Harder_Tasks_and_Faster_Inference_v0.6.docx",
+          "bytes": 867873,
+          "sha256": "e26164a4e9378ec3b1a2a26cc0cf6d47421550493ca3fb5fab6b868c0138c012"
+        }
+      ],
+      "expected_build": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029",
+      "status": "SOURCE_CONFIRMED_PREPARATION_IN_PROGRESS",
+      "etel": false,
+      "report_subject": "Harder tasks and faster inference",
+      "scientific_scope": "Six arms across four harder task families; 48 development and 120 confirmation fits; separate equivalent classical coefficient conversion",
+      "proposed_code_roots": "quantum; analysis; governance",
+      "limitations": "No ETEL; local conversion and timing do not establish hardware performance; inherited kernel grant retained.",
+      "known_licensing": "Same scoped scheme adopted by owner conditionally on matching completed release terms; precise final memberships and any genuine exceptions remain to verify. Existing grants and notices preserved.",
+      "proposed_selection": "Reviewed PDF and Word report editions; study overview and reproduction boundaries; curated source/config/protocol files. Exclude raw datasets, checkpoints, environments, credentials and full archives.",
+      "verification_needs": [
+        "Original selected source size and SHA-256 against delivery evidence",
+        "Report body, figures and tables preservation plus visual all-page QA",
+        "Exact inherited grant/partial-expression mapping and final adopted scope records",
+        "ZIP path/membership/manifest/checksum/seal checks",
+        "Fresh actual Code ZIP offline startup in compatible local runtime",
+        "Authenticated download identity check for all six draft assets"
+      ]
+    },
+    {
+      "study_version": "v0.7",
+      "source": "C:\\Q2\\Improvement_Study_v0.7",
+      "source_manifest": {
+        "path": "C:\\Q2\\Improvement_Study_v0.7\\DELIVERY_MANIFEST.json",
+        "bytes": 13147346,
+        "sha256": "da1407baac8405cbc66ab53f321c970da688e31ae25de1ce0df527687f769ce5"
+      },
+      "reports": [
+        {
+          "path": "C:\\Q2\\Improvement_Study_v0.7\\docs\\QPATH_RPT008_v0.7_Internal_Study_Report.docx",
+          "bytes": 697132,
+          "sha256": "3b2c31ec5f56cd6c6207d2a1f04820b1433dd938e08f4e906ad1d6a945038bc1"
+        }
+      ],
+      "expected_build": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261029",
+      "status": "SOURCE_CONFIRMED_PREPARATION_IN_PROGRESS",
+      "etel": true,
+      "report_subject": "Internal study with ETEL",
+      "scientific_scope": "Study-specific scientific implementation and ETEL integration",
+      "proposed_code_roots": "quantum; execution; analysis; governance; reproducibility",
+      "limitations": "ETEL supplied; original absolute paths and archived execution are not a relocatable scheduler.",
+      "known_licensing": "Same scoped scheme adopted by owner conditionally on matching completed release terms; precise final memberships and any genuine exceptions remain to verify. Existing grants and notices preserved.",
+      "proposed_selection": "Reviewed PDF and Word report editions; study overview and reproduction boundaries; curated source/config/protocol files. Exclude raw datasets, checkpoints, environments, credentials and full archives.",
+      "verification_needs": [
+        "Original selected source size and SHA-256 against delivery evidence",
+        "Report body, figures and tables preservation plus visual all-page QA",
+        "Exact inherited grant/partial-expression mapping and final adopted scope records",
+        "ZIP path/membership/manifest/checksum/seal checks",
+        "Fresh actual Code ZIP offline startup in compatible local runtime",
+        "Authenticated download identity check for all six draft assets"
+      ]
+    },
+    {
+      "study_version": "v0.8",
+      "source": "C:\\Q2\\Improvement_Study_v0.8",
+      "source_manifest": {
+        "path": "C:\\Q2\\Improvement_Study_v0.8\\DELIVERY_MANIFEST.json",
+        "bytes": 17786032,
+        "sha256": "ec82f031f7be98474bc3953b1d628304a3e30158d8dc9ca6f6406a3733ee81c3"
+      },
+      "reports": [
+        {
+          "path": "C:\\Q2\\Improvement_Study_v0.8\\docs\\QPATH_RPT009_v0.8_Internal_Study_Report.docx",
+          "bytes": 890193,
+          "sha256": "499c25c86dba1a81486cd38edca25ba4b9741499d8f2a5a3e3145645ac2caa95"
+        }
+      ],
+      "expected_build": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261029",
+      "status": "SOURCE_CONFIRMED_PREPARATION_IN_PROGRESS",
+      "etel": true,
+      "report_subject": "Internal study with ETEL priority sampling",
+      "scientific_scope": "Ten arms; checkerboard, spiral, noisy annulus and rare disk; 40 engineering, 80 development, 640 confirmation fits",
+      "proposed_code_roots": "quantum; execution; analysis; governance",
+      "limitations": "ETEL supplied; logical 64-slot bookkeeping is not 64 physical workers. Four clean fits demonstrate same-environment reproduction.",
+      "known_licensing": "Same scoped scheme adopted by owner conditionally on matching completed release terms; precise final memberships and any genuine exceptions remain to verify. Existing grants and notices preserved.",
+      "proposed_selection": "Reviewed PDF and Word report editions; study overview and reproduction boundaries; curated source/config/protocol files. Exclude raw datasets, checkpoints, environments, credentials and full archives.",
+      "verification_needs": [
+        "Original selected source size and SHA-256 against delivery evidence",
+        "Report body, figures and tables preservation plus visual all-page QA",
+        "Exact inherited grant/partial-expression mapping and final adopted scope records",
+        "ZIP path/membership/manifest/checksum/seal checks",
+        "Fresh actual Code ZIP offline startup in compatible local runtime",
+        "Authenticated download identity check for all six draft assets"
+      ]
+    },
+    {
+      "study_version": "v0.9",
+      "source": "C:\\Q2\\Improvement_Study_v0.9",
+      "source_manifest": {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\DELIVERY_MANIFEST.json",
+        "bytes": 26168604,
+        "sha256": "d40528f3688a5d7d45cbaf2e7878c1ef227ceec1ab5be42d23cd33d921c30a61"
+      },
+      "reports": [
+        {
+          "path": "C:\\Q2\\Improvement_Study_v0.9\\docs\\QPATH_RPT010_v0.9_Internal_Study_Report.docx",
+          "bytes": 1113738,
+          "sha256": "6f35101e9d3fda4581c2ef7102d0b330c89cd3bacc1771cf0c0e21b5db556ad8"
+        }
+      ],
+      "expected_build": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029",
+      "status": "SOURCE_CONFIRMED_PREPARATION_IN_PROGRESS",
+      "etel": true,
+      "report_subject": "Plan B internal study",
+      "scientific_scope": "Synthetic and Banknote study with ETEL, conversion and clean retraining evidence",
+      "proposed_code_roots": "evidence/quantum; evidence/execution; evidence/analysis; evidence/governance",
+      "limitations": "ETEL supplied; stale top-level READ_ME pre-study notice conflicts with final report. Banknote one fixed grouped split; five optimizer seeds are not independent population replication.",
+      "known_licensing": "Same scoped scheme adopted by owner conditionally on matching completed release terms; precise final memberships and any genuine exceptions remain to verify. Existing grants and notices preserved.",
+      "proposed_selection": "Reviewed PDF and Word report editions; study overview and reproduction boundaries; curated source/config/protocol files. Exclude raw datasets, checkpoints, environments, credentials and full archives.",
+      "verification_needs": [
+        "Original selected source size and SHA-256 against delivery evidence",
+        "Report body, figures and tables preservation plus visual all-page QA",
+        "Exact inherited grant/partial-expression mapping and final adopted scope records",
+        "ZIP path/membership/manifest/checksum/seal checks",
+        "Fresh actual Code ZIP offline startup in compatible local runtime",
+        "Authenticated download identity check for all six draft assets"
+      ]
+    }
+  ]
+}

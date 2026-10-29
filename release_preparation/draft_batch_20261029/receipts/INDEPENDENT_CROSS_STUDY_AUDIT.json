@@ -1,0 +1,416 @@
+[
+  {
+    "study": "v0.2",
+    "build": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r3",
+    "issues": [],
+    "packages": [
+      {
+        "name": "QPathformer_v0.2_Code.zip",
+        "files": 71,
+        "source_instances": 68,
+        "scopes": [
+          {
+            "path": "CODE_LICENSE_SCOPE.json",
+            "files": 42
+          },
+          {
+            "path": "GUIDANCE_LICENSE_SCOPE.json",
+            "files": 7
+          }
+        ]
+      },
+      {
+        "name": "QPathformer_v0.2_Documentation.zip",
+        "files": 19,
+        "source_instances": 16,
+        "scopes": [
+          {
+            "path": "GUIDANCE_LICENSE_SCOPE.json",
+            "files": 12
+          }
+        ]
+      },
+      {
+        "name": "QPathformer_v0.2_Study.zip",
+        "files": 18,
+        "source_instances": 15,
+        "scopes": [
+          {
+            "path": "GUIDANCE_LICENSE_SCOPE.json",
+            "files": 4
+          },
+          {
+            "path": "REPORT_LICENSE_SCOPE.json",
+            "files": 2
+          }
+        ]
+      }
+    ],
+    "inherited": {
+      "exact_unique_files": 9,
+      "shared_expression_records": 2,
+      "shared_blocks_verified": 17,
+      "known_kernels": []
+    },
+    "pdf_metadata": {
+      "/Producer": "Microsoft Word; metadata prepared with pypdf",
+      "/Creator": "Microsoft Word",
+      "/CreationDate": "D:20261029200152+11'00'",
+      "/ModDate": "D:20261029200152+11'00'",
+      "/Title": "Q-Pathformer Study v0.2 Improvement Study and Baseline Comparison",
+      "/Author": "Anthony Siljeg",
+      "/Subject": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative. Preserved scientific report. Controlled original report prose, table presentation and original figures: CC BY 4.0, adopted 29 October 2026; other material retains separate terms.",
+      "/Keywords": "Q-Pathformer; study v0.2; report edition 1; CC BY 4.0",
+      "/Copyright": "Copyright 2026 Anthony Siljeg. Controlled original report prose, table presentation and original figures licensed under CC BY 4.0. https://creativecommons.org/licenses/by/4.0/ Other material retains separate terms."
+    },
+    "startup": "PASS_ACTUAL_FINAL_ZIP_AND_SEAL_BOUND",
+    "status": "PASS_INDEPENDENT_FINAL_AUDIT"
+  },
+  {
+    "study": "v0.3",
+    "build": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.3\\draft_20261029_r2",
+    "issues": [],
+    "packages": [
+      {
+        "name": "QPathformer_v0.3_Code.zip",
+        "files": 75,
+        "source_instances": 72,
+        "scopes": [
+          {
+            "path": "CODE_LICENSE_SCOPE.json",
+            "files": 49
+          },
+          {
+            "path": "GUIDANCE_LICENSE_SCOPE.json",
+            "files": 7
+          }
+        ]
+      },
+      {
+        "name": "QPathformer_v0.3_Documentation.zip",
+        "files": 19,
+        "source_instances": 16,
+        "scopes": [
+          {
+            "path": "GUIDANCE_LICENSE_SCOPE.json",
+            "files": 12
+          }
+        ]
+      },
+      {
+        "name": "QPathformer_v0.3_Study.zip",
+        "files": 18,
+        "source_instances": 15,
+        "scopes": [
+          {
+            "path": "GUIDANCE_LICENSE_SCOPE.json",
+            "files": 4
+          },
+          {
+            "path": "REPORT_LICENSE_SCOPE.json",
+            "files": 2
+          }
+        ]
+      }
+    ],
+    "inherited": {
+      "exact_unique_files": 4,
+      "shared_expression_records": 2,
+      "shared_blocks_verified": 3,
+      "known_kernels": []
+    },
+    "pdf_metadata": {
+      "/Producer": "Microsoft Word; metadata prepared with pypdf",
+      "/Creator": "Microsoft Word",
+      "/CreationDate": "D:20261029200348+11'00'",
+      "/ModDate": "D:20261029200348+11'00'",
+      "/Title": "Q-Pathformer Study v0.3 Shallow Circuits and Routing",
+      "/Author": "Anthony Siljeg",
+      "/Subject": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative. Preserved scientific report. Controlled original report prose, table presentation and original figures: CC BY 4.0, adopted 29 October 2026; other material retains separate terms.",
+      "/Keywords": "Q-Pathformer; study v0.3; report edition 1; CC BY 4.0",
+      "/Copyright": "Copyright 2026 Anthony Siljeg. Controlled original report prose, table presentation and original figures licensed under CC BY 4.0. https://creativecommons.org/licenses/by/4.0/ Other material retains separate terms."
+    },
+    "startup": "PASS_ACTUAL_FINAL_ZIP_AND_SEAL_BOUND",
+    "status": "PASS_INDEPENDENT_FINAL_AUDIT"
+  },
+  {
+    "study": "v0.4",
+    "build": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2",
+    "issues": [],
+    "packages": [
+      {
+        "name": "QPathformer_v0.4_Code.zip",
+        "files": 75,
+        "source_instances": 72,
+        "scopes": [
+          {
+            "path": "CODE_LICENSE_SCOPE.json",
+            "files": 50
+          },
+          {
+            "path": "GUIDANCE_LICENSE_SCOPE.json",
+            "files": 7
+          }
+        ]
+      },
+      {
+        "name": "QPathformer_v0.4_Documentation.zip",
+        "files": 19,
+        "source_instances": 16,
+        "scopes": [
+          {
+            "path": "GUIDANCE_LICENSE_SCOPE.json",
+            "files": 12
+          }
+        ]
+      },
+      {
+        "name": "QPathformer_v0.4_Study.zip",
+        "files": 18,
+        "source_instances": 15,
+        "scopes": [
+          {
+            "path": "GUIDANCE_LICENSE_SCOPE.json",
+            "files": 4
+          },
+          {
+            "path": "REPORT_LICENSE_SCOPE.json",
+            "files": 2
+          }
+        ]
+      }
+    ],
+    "inherited": {
+      "exact_unique_files": 0,
+      "shared_expression_records": 2,
+      "shared_blocks_verified": 3,
+      "known_kernels": []
+    },
+    "pdf_metadata": {
+      "/Producer": "Microsoft Word; metadata prepared with pypdf",
+      "/Creator": "Microsoft Word",
+      "/CreationDate": "D:20261029200201+11'00'",
+      "/ModDate": "D:20261029200201+11'00'",
+      "/Title": "Q-Pathformer Study v0.4 Routing and Circuit Contribution",
+      "/Author": "Anthony Siljeg",
+      "/Subject": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative. Preserved scientific report. Controlled original report prose, table presentation and original figures: CC BY 4.0, adopted 29 October 2026; other material retains separate terms.",
+      "/Keywords": "Q-Pathformer; study v0.4; report edition 1; CC BY 4.0",
+      "/Copyright": "Copyright 2026 Anthony Siljeg. Controlled original report prose, table presentation and original figures licensed under CC BY 4.0. https://creativecommons.org/licenses/by/4.0/ Other material retains separate terms."
+    },
+    "startup": "PASS_ACTUAL_FINAL_ZIP_AND_SEAL_BOUND",
+    "status": "PASS_INDEPENDENT_FINAL_AUDIT"
+  },
+  {
+    "study": "v0.7",
+    "build": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261029_r2",
+    "issues": [],
+    "packages": [
+      {
+        "name": "QPathformer_v0.7_Code.zip",
+        "files": 75,
+        "source_instances": 61,
+        "scopes": [
+          {
+            "path": "CODE_LICENSE_SCOPE.json",
+            "files": 52
+          },
+          {
+            "path": "GUIDANCE_LICENSE_SCOPE.json",
+            "files": 5
+          }
+        ]
+      },
+      {
+        "name": "QPathformer_v0.7_Documentation.zip",
+        "files": 20,
+        "source_instances": 9,
+        "scopes": [
+          {
+            "path": "GUIDANCE_LICENSE_SCOPE.json",
+            "files": 13
+          }
+        ]
+      },
+      {
+        "name": "QPathformer_v0.7_Study.zip",
+        "files": 17,
+        "source_instances": 8,
+        "scopes": [
+          {
+            "path": "GUIDANCE_LICENSE_SCOPE.json",
+            "files": 4
+          },
+          {
+            "path": "REPORT_LICENSE_SCOPE.json",
+            "files": 2
+          }
+        ]
+      }
+    ],
+    "inherited": {
+      "exact_unique_files": 5,
+      "shared_expression_records": 3,
+      "shared_blocks_verified": 9,
+      "known_kernels": [
+        "payload/study/execution/vendor/etel/__init__.py",
+        "payload/study/execution/vendor/etel/core.py",
+        "payload/study/quantum/circuits.py"
+      ]
+    },
+    "pdf_metadata": {
+      "/Producer": "Microsoft® Word for Microsoft 365",
+      "/Creator": "Microsoft® Word for Microsoft 365",
+      "/CreationDate": "D:20261029200305+11'00'",
+      "/ModDate": "D:20261029200305+11'00'",
+      "/Title": "Q-Pathformer study v0.7 Routing Capacity and Classical Deployment",
+      "/Author": "Anthony Siljeg",
+      "/Subject": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative; report edition 1; controlled original report content licensed under CC BY 4.0",
+      "/Keywords": "Q-Pathformer; v0.7; CC BY 4.0; historical study; report edition 1",
+      "/Copyright": "Copyright 2026 Anthony Siljeg. Controlled original report content: CC BY 4.0. Other materials retain separate terms."
+    },
+    "startup": "PASS_ACTUAL_FINAL_ZIP_AND_SEAL_BOUND",
+    "status": "PASS_INDEPENDENT_FINAL_AUDIT"
+  },
+  {
+    "study": "v0.8",
+    "build": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261029_r2",
+    "issues": [],
+    "packages": [
+      {
+        "name": "QPathformer_v0.8_Code.zip",
+        "files": 107,
+        "source_instances": 93,
+        "scopes": [
+          {
+            "path": "CODE_LICENSE_SCOPE.json",
+            "files": 85
+          },
+          {
+            "path": "GUIDANCE_LICENSE_SCOPE.json",
+            "files": 5
+          }
+        ]
+      },
+      {
+        "name": "QPathformer_v0.8_Documentation.zip",
+        "files": 19,
+        "source_instances": 8,
+        "scopes": [
+          {
+            "path": "GUIDANCE_LICENSE_SCOPE.json",
+            "files": 12
+          }
+        ]
+      },
+      {
+        "name": "QPathformer_v0.8_Study.zip",
+        "files": 17,
+        "source_instances": 8,
+        "scopes": [
+          {
+            "path": "GUIDANCE_LICENSE_SCOPE.json",
+            "files": 4
+          },
+          {
+            "path": "REPORT_LICENSE_SCOPE.json",
+            "files": 2
+          }
+        ]
+      }
+    ],
+    "inherited": {
+      "exact_unique_files": 5,
+      "shared_expression_records": 3,
+      "shared_blocks_verified": 9,
+      "known_kernels": [
+        "payload/study/execution/vendor/etel/__init__.py",
+        "payload/study/execution/vendor/etel/core.py",
+        "payload/study/quantum/circuits.py"
+      ]
+    },
+    "pdf_metadata": {
+      "/Producer": "Microsoft® Word for Microsoft 365",
+      "/Creator": "Microsoft® Word for Microsoft 365",
+      "/CreationDate": "D:20261029200312+11'00'",
+      "/ModDate": "D:20261029200312+11'00'",
+      "/Title": "Q-Pathformer study v0.8 Priority Training and Routed Models",
+      "/Author": "Anthony Siljeg",
+      "/Subject": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative; report edition 1; controlled original report content licensed under CC BY 4.0",
+      "/Keywords": "Q-Pathformer; v0.8; CC BY 4.0; historical study; report edition 1",
+      "/Copyright": "Copyright 2026 Anthony Siljeg. Controlled original report content: CC BY 4.0. Other materials retain separate terms."
+    },
+    "startup": "PASS_ACTUAL_FINAL_ZIP_AND_SEAL_BOUND",
+    "status": "PASS_INDEPENDENT_FINAL_AUDIT"
+  },
+  {
+    "study": "v0.9",
+    "build": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2",
+    "issues": [],
+    "packages": [
+      {
+        "name": "QPathformer_v0.9_Code.zip",
+        "files": 79,
+        "source_instances": 65,
+        "scopes": [
+          {
+            "path": "CODE_LICENSE_SCOPE.json",
+            "files": 57
+          },
+          {
+            "path": "GUIDANCE_LICENSE_SCOPE.json",
+            "files": 5
+          }
+        ]
+      },
+      {
+        "name": "QPathformer_v0.9_Documentation.zip",
+        "files": 20,
+        "source_instances": 9,
+        "scopes": [
+          {
+            "path": "GUIDANCE_LICENSE_SCOPE.json",
+            "files": 13
+          }
+        ]
+      },
+      {
+        "name": "QPathformer_v0.9_Study.zip",
+        "files": 17,
+        "source_instances": 8,
+        "scopes": [
+          {
+            "path": "GUIDANCE_LICENSE_SCOPE.json",
+            "files": 4
+          },
+          {
+            "path": "REPORT_LICENSE_SCOPE.json",
+            "files": 2
+          }
+        ]
+      }
+    ],
+    "inherited": {
+      "exact_unique_files": 8,
+      "shared_expression_records": 1,
+      "shared_blocks_verified": 1,
+      "known_kernels": [
+        "payload/study/execution/vendor/etel/__init__.py",
+        "payload/study/execution/vendor/etel/core.py",
+        "payload/study/quantum/circuits.py"
+      ]
+    },
+    "pdf_metadata": {
+      "/Producer": "Microsoft® Word for Microsoft 365",
+      "/Creator": "Microsoft® Word for Microsoft 365",
+      "/CreationDate": "D:20261029200317+11'00'",
+      "/ModDate": "D:20261029200317+11'00'",
+      "/Title": "Q-Pathformer study v0.9 Learned Routing and Classical Controls",
+      "/Author": "Anthony Siljeg",
+      "/Subject": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative; report edition 1; controlled original report content licensed under CC BY 4.0",
+      "/Keywords": "Q-Pathformer; v0.9; CC BY 4.0; historical study; report edition 1",
+      "/Copyright": "Copyright 2026 Anthony Siljeg. Controlled original report content: CC BY 4.0. Other materials retain separate terms."
+    },
+    "startup": "PASS_ACTUAL_FINAL_ZIP_AND_SEAL_BOUND",
+    "status": "PASS_INDEPENDENT_FINAL_AUDIT"
+  }
+]

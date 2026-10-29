@@ -1,3 +1,7 @@
+# Superseded preparation record
+
+The final corrected v0.5 draft is indexed in revisions/draft_20261029_r02. This earlier preparation record and its original asset identities are historical; it is not the current download set.
+
 # Study v0.5 review records
 
 The Study, Documentation and Code downloads are prepared for a GitHub draft in the official private repository. Repository edition v1.0 is distinct from this study version. Main and all three previously published releases remain unchanged.
