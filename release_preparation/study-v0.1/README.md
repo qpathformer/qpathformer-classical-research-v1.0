@@ -19,3 +19,7 @@ These proposals are unadopted. Existing grants remain in force for their earlier
 Startup checked imports, four CLI help paths, 15 selected non-training tests and one local circuit compilation/matrix comparison. It did not train, score the official study, sample shots, install dependencies or submit hardware jobs. Code selection and dependencies are recorded under code/. Each sealed ZIP contains its complete human-readable rights statement and scope proposals.
 
 After owner review, any content or license changes require refreshed package identities and seals before final release approval. The historical staging repository remains private and unchanged.
+
+## Final-read editorial review
+
+The [editorial review record](DRAFT_REVIEW_CHECK.json) confirms fresh authenticated downloads of all six existing assets and their unchanged seals, verifies the external Windows startup binding, and records the fixed evidence links used in the updated release notes. The changes affect the release presentation only. The release remains a draft, the repository remains private, and no new license grant has been adopted. The original draft-upload record remains historical evidence.

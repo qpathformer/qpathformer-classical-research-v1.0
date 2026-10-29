@@ -1,0 +1,123 @@
+{
+  "schema": "qpath-draft-editorial-review-1",
+  "status": "PASS_FINAL_READ_PREPARATION",
+  "checked_at_utc": "2026-10-29T08:08:20.263409+00:00",
+  "repository": "qpathformer/qpathformer-classical-research-v1.0",
+  "private": true,
+  "release_id": 427572374,
+  "study_version": "v0.1",
+  "repository_edition": "v1.0",
+  "release_remains_draft": true,
+  "original_draft_target_commit": "054173da1d55ec2127593709d77b290f2f33b4a8",
+  "evidence_commit": "dd21b848be5e9adac371379a0deb1f70e9307357",
+  "source_notes": {
+    "path": "C:\\Anthony Siljeg\\CPU-QPU git repo prep\\v6 final staging\\study-v0.1_release_review_and_publish_notes.md",
+    "bytes": 26444,
+    "sha256": "74cc9f7c2210c5873726c013bd0083c8baee6bdadb679acd5b75fbc25cd58888"
+  },
+  "release_body": {
+    "bytes": 5495,
+    "sha256": "91b743306b49da77f946c83f4f2776691edb915acc5c8b67c7b96d55fc9d47b6"
+  },
+  "assets_downloaded_and_verified": [
+    {
+      "id": 687740906,
+      "name": "QPathformer_v0.1_Code.seal.json",
+      "bytes": 1632,
+      "sha256": "ada3ffe88d829cfd92830bb38ca50e261c865de0a031cc064f52f086296701bc"
+    },
+    {
+      "id": 687740904,
+      "name": "QPathformer_v0.1_Code.zip",
+      "bytes": 137378,
+      "sha256": "973302ece8e0d57a2531fed15e54b99e322a8ed982650d738ab1e5462ae84835"
+    },
+    {
+      "id": 687740907,
+      "name": "QPathformer_v0.1_Documentation.seal.json",
+      "bytes": 1666,
+      "sha256": "55e0c20b498146b040642a40eb36eab223c07edabf818bb0f594e2fb1140275a"
+    },
+    {
+      "id": 687740903,
+      "name": "QPathformer_v0.1_Documentation.zip",
+      "bytes": 30709,
+      "sha256": "3f88b8f0344a0747eaf9fa99e44deabc06f3b0efe0a8f5a35ae9464ca0dea763"
+    },
+    {
+      "id": 687740905,
+      "name": "QPathformer_v0.1_Study.seal.json",
+      "bytes": 1636,
+      "sha256": "02702f2ce56282dd423792d73e50eed7cbf52093ff246771e2b99c64add0391d"
+    },
+    {
+      "id": 687740924,
+      "name": "QPathformer_v0.1_Study.zip",
+      "bytes": 1277538,
+      "sha256": "01146977627b8dd6cec5c0072c015b3b86d0e673166f3c9d884860da69039054"
+    }
+  ],
+  "pinned_evidence_files": [
+    {
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/dd21b848be5e9adac371379a0deb1f70e9307357/release_preparation/study-v0.1/documentation/release_notes/study-v0.1.md",
+      "sha256": "185ef95cef4f7bf9e794febe8085f64f3058bb173bcebc54c2bf54b9ebe41c60",
+      "bytes": 5271
+    },
+    {
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/dd21b848be5e9adac371379a0deb1f70e9307357/release_preparation/study-v0.1/README.md#rights-decisions-for-review",
+      "sha256": "7b833caf3fef9dcfbeca292a6727e51b52fd476bcb3988de23e4f53bd582d334",
+      "bytes": 2560
+    },
+    {
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/dd21b848be5e9adac371379a0deb1f70e9307357/release_preparation/study-v0.1/QPathformer_v0.1_Code.startup.json",
+      "sha256": "7dc26eddec58de79ef4ce0eb27bf5a20c99fea4558b86d83b864380922227932",
+      "bytes": 27587
+    },
+    {
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/dd21b848be5e9adac371379a0deb1f70e9307357/release_preparation/study-v0.1/FRESH_PACKAGE_VERIFICATION.json",
+      "sha256": "560a8753ec933bbac8145b8d9a49323e7936d4bf18ac4c787dad8e66acb19b5d",
+      "bytes": 3603
+    },
+    {
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/dd21b848be5e9adac371379a0deb1f70e9307357/release_preparation/study-v0.1/DRAFT_RELEASE.json",
+      "sha256": "3b9f5570747ba1e060e5668327fe4e34b4d04eb1119280f4280ed874b5756554",
+      "bytes": 4061
+    },
+    {
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/dd21b848be5e9adac371379a0deb1f70e9307357/release_preparation/study-v0.1/FROZEN_SOURCE_VERIFICATION.json",
+      "sha256": "fc35b54bcb68b3303b59d72cf7ef3d7e628f47a277ecd07e283bf0b032417b2e",
+      "bytes": 828
+    }
+  ],
+  "original_upload_record": {
+    "bytes": 4061,
+    "sha256": "3b9f5570747ba1e060e5668327fe4e34b4d04eb1119280f4280ed874b5756554"
+  },
+  "startup_binding": {
+    "bytes": 3603,
+    "sha256": "560a8753ec933bbac8145b8d9a49323e7936d4bf18ac4c787dad8e66acb19b5d"
+  },
+  "startup_receipt": {
+    "bytes": 27587,
+    "sha256": "7dc26eddec58de79ef4ce0eb27bf5a20c99fea4558b86d83b864380922227932"
+  },
+  "verification": "Fresh authenticated downloads match all six original assets; ZIP inventories and seals pass. Existing exact-byte Windows startup evidence verified; startup was not rerun because package bytes did not change.",
+  "markdown_render": "PASS_GITHUB_GFM_STRUCTURE",
+  "package_rebuilt": false,
+  "new_license_grants_adopted": false,
+  "changes": [
+    "Define historical local IBM readiness",
+    "Separate training/simulator study results from package startup",
+    "Clarify paired text results and matching boundary",
+    "Simplify package descriptions and inventory detail",
+    "Pin supporting evidence to a verified commit"
+  ],
+  "later_publication_requirements": [
+    "Owner final review",
+    "Record actual rights decision; rebuild affected packages only if their content or rights change",
+    "Publish only on explicit instruction, using make_latest=false",
+    "Record actual publication and fixed tag target separately; retain original draft record",
+    "Repository visibility changes require separate owner instruction"
+  ],
+  "record_boundary": "Editorial preparation and fresh evidence review, outside all sealed packages. This is not a publication or license-adoption record."
+}
