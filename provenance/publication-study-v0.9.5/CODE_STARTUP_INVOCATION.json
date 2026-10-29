@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "started_at_utc": "2026-10-29T06:49:06.534784+00:00",
+  "finished_at_utc": "2026-10-29T06:49:09.977215+00:00",
+  "returncode": 0,
+  "command": [
+    "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+    "-B",
+    "tools/startup_check.py",
+    "--output",
+    "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9.5\\final_20261029\\receipts\\QPathformer_v0.9.5_Code.startup.json"
+  ],
+  "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9.5\\final_20261029\\qa\\fresh_extraction\\QPathformer_v0.9.5_Code\\payload\\QPathformer_study-v0.9.5_Code_ETEL_Edition_1",
+  "stdout": "runtime_versions: PASS\r\nlauncher_startup: PASS\r\nworker_startup: PASS\r\ndata_generator_startup: PASS\r\nauthor_scorer_startup: PASS\r\nindependent_scorer_startup: PASS\r\ntrainer_import_and_six_recipes: PASS\r\netel_three_task_dispatch: PASS\r\nfive_retained_policy_tests: PASS\r\nfour_retained_data_tests: PASS\r\n{\"status\": \"PASS\", \"receipt\": \"C:\\\\Q2\\\\Release_Preparation\\\\QPathformer_Classical_Research\\\\study-v0.9.5\\\\final_20261029\\\\receipts\\\\QPathformer_v0.9.5_Code.startup.json\", \"failures\": []}\r\n",
+  "stderr": "",
+  "temporary_execution_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9.5\\final_20261029\\qa\\temp"
+}

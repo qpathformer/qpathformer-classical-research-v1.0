@@ -2,7 +2,7 @@
 
 [Main README](../README.md) · [Research guide](RESEARCH_GUIDE.md) · [QPU preparation plan](QPU_RELEASE_PLAN.md)
 
-This private **v1.0 distribution** describes completed classical studies through **v0.9.5**. Further classical work is not yet final; completed and reviewed results are planned for a later **v2.0 distribution**. The distribution version identifies a collection of materials; it does not rename the completed experiments.
+Repository edition **v1.0** describes completed classical studies through **v0.9.5**, beginning with release **study-v0.9.5**. Further completed study results will be added as versioned releases in this repository after review. The repository edition identifies the collection; it does not rename the completed experiments.
 
 ## Completed classical findings
 

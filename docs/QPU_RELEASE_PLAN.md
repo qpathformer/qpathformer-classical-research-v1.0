@@ -2,7 +2,7 @@
 
 [Main README](../README.md) · [Research direction](RESEARCH_ROADMAP.md) · [Reproduction boundaries](REPRODUCIBILITY.md) · [Identifier map](../NOTICE.md)
 
-**Planning summary updated 29 October 2026.** This document summarizes the retained local preparation evidence for the v1.0 collection. It is not an adopted physical-run protocol. No new preparation capsule, physical-device qualification or QPU result is created by this documentation revision.
+**Planning summary updated 29 October 2026.** This document summarizes the retained local preparation evidence for repository edition v1.0. It is not an adopted physical-run protocol. No new preparation capsule, physical-device qualification or QPU result is created by this documentation revision.
 
 ## What already exists
 
@@ -49,7 +49,7 @@ A candidate must preserve the original prediction rule: input preprocessing, exp
 
 Current-device qualification, the submission/result adapter and the physical-run protocol remain to be completed. The protocol must distinguish shot counts, QPU usage, queue time and end-to-end elapsed time; any calibration, mitigation or repeated measurements belong in the declared budget. Raw results, circuit/configuration hashes, layouts, timestamps, software versions and analysis provenance must remain linked to the run.
 
-Keep future QPU records separate from the classical studies and the v1.0 collection or future v2.0 distribution. Link any new capsule to its exact source artifacts, preserve the old evidence and label each achieved stage accurately. A repository distribution version does not imply that a new QPU series has run.
+Keep future QPU records separate from the classical studies and their versioned releases in this repository. Link any new capsule to its exact source artifacts, preserve the old evidence and label each achieved stage accurately. A repository edition or study-release identifier does not imply that a new QPU series has run.
 
 ## Evidence and provenance
 

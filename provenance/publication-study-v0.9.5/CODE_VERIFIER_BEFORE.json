@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "started_at_utc": "2026-10-29T06:49:06.311894+00:00",
+  "finished_at_utc": "2026-10-29T06:49:06.534268+00:00",
+  "returncode": 0,
+  "command": [
+    "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+    "-B",
+    "tools/verify_package.py"
+  ],
+  "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9.5\\final_20261029\\qa\\fresh_extraction\\QPathformer_v0.9.5_Code\\payload\\QPathformer_study-v0.9.5_Code_ETEL_Edition_1",
+  "stdout": "{\r\n  \"status\": \"PASS\",\r\n  \"files\": 64,\r\n  \"manifest_entries\": 62,\r\n  \"checksum_entries\": 63,\r\n  \"python_sources_parsed\": 38,\r\n  \"study_code_executed\": false\r\n}\r\n",
+  "stderr": "",
+  "temporary_execution_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9.5\\final_20261029\\qa\\temp"
+}

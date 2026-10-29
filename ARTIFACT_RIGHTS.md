@@ -1,6 +1,6 @@
 # Collection contents and rights
 
-The official private v1.0 distribution separates Study, Documentation and Code. Each ZIP has a matching external seal and its own exact inventory.
+The study-v0.9.5 release separates Study, Documentation and Code within repository edition v1.0. Each ZIP has a matching external seal and its own exact inventory.
 
 | Package | Included | Boundary |
 | --- | --- | --- |
@@ -12,4 +12,4 @@ The report's specified original content uses CC BY 4.0. The 38 listed Python fil
 
 Trained model checkpoints, datasets, runtime trees, complete operational archives and other unpublished materials remain separately retained. Reproduction requirements belong to the particular study and environment. Integrity and startup checks establish only their recorded scope, not scientific replication or physical-QPU performance.
 
-Historical source labels and paths inside unchanged payloads remain historical facts. Current package names describe distribution v1.0; they do not renumber the study, ETEL source or report edition. “Public report edition” identifies the report's editorial version, while this repository remains private.
+Historical source labels and paths inside unchanged payloads remain historical facts. Current package names identify study v0.9.5 within repository edition v1.0; they do not renumber the study, ETEL source or report edition. “Public report edition” identifies the report's editorial version; repository access is a separate setting.

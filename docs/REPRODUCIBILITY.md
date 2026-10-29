@@ -1,6 +1,6 @@
 # Reproducibility and package verification
 
-The official v1.0 collection is distributed through a private repository. "Public report edition" identifies an editorial edition; it does not make the repository public.
+Repository edition v1.0 begins with release study-v0.9.5. "Public report edition" identifies an editorial edition; repository access is a separate setting. Access is currently private while further releases are prepared.
 
 The three companion packages separate Study, Documentation and Code. The Study package preserves the final v0.9.5 report PDF and Word edition. The Code package preserves the complete selected original code package: 36 study Python files, two review tools, its quickstart and integrity records. This Documentation package provides project explanations, task/concept illustrations and the unchanged QPATH-ARCH-001 PDF with source provenance. Generated data, trained checkpoints, full runtime trees and the complete reproduction archive are not included. The [code](../CODE_LICENSE_SCOPE.json), [report](../REPORT_LICENSE_SCOPE.json) and [documentation](../DOCUMENTATION_RIGHTS.md) scopes remain distinct.
 
@@ -12,7 +12,7 @@ The retained delivery receipt was read and hashed during the original preparatio
 
 Each new ZIP has an outer manifest, checksums and external seal. The unchanged Study and Code payload trees retain their own original internal records. Older external seals and receipts describe the original ZIPs, not the new wrappers. The current outer seal verifies the downloaded wrapper; fully verifying the older compressed bytes requires the retained original ZIP. See the [verification guide](../VERIFY.md).
 
-The original code startup/regression receipts remain historical. The separate [v1.0 startup receipt](https://github.com/qpathformer/qpathformer-classical-research/blob/main/provenance/publication-v1.0/QPathformer_v1.0_Code.startup.json) and [package verification record](https://github.com/qpathformer/qpathformer-classical-research/blob/main/provenance/publication-v1.0/FRESH_PACKAGE_VERIFICATION.json) identify the exact new Code ZIP, its seal, environment, commands, outcome and bounded checks. Neither package integrity nor startup checks establish official study reproduction or fresh-install equivalence.
+The original code startup/regression receipts remain historical. The separate [study-v0.9.5 startup receipt](https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/main/provenance/publication-study-v0.9.5/QPathformer_v0.9.5_Code.startup.json) and [package verification record](https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/main/provenance/publication-study-v0.9.5/FRESH_PACKAGE_VERIFICATION.json) identify the exact new Code ZIP, its seal, environment, commands, outcome and bounded checks. Neither package integrity nor startup checks establish official study reproduction or fresh-install equivalence.
 
 ## Configuration and storage planning
 

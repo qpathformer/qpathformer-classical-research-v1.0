@@ -4,8 +4,8 @@
 
 | Identifier | Meaning |
 | --- | --- |
-| Repository/distribution **v1.0** | This first official private collection. |
-| Planned distribution **v2.0** | Future completed and reviewed classical work; it is not yet final. |
+| Repository edition **v1.0** | The collection of classical research materials, organized as study releases. |
+| Release **study-v0.9.5** | The first study release; its packages identify study v0.9.5. |
 | Classical study **v0.1** | Completed initial benchmark and local QPU-preparation checks, distinct from the small prototype capsule. |
 | Classical study **v0.9.5** | Completed ETEL training-allocation study in the Study package. |
 | **Q-Path Multiplier - Elastic Task Execution Layer (ETEL) v0.1** | Confirmed implemented component name and display version. |

@@ -1,0 +1,29 @@
+{
+  "schema": "qpath-repository-identity-mapping-2",
+  "recorded_at_utc": "2026-10-29T06:53:42.225496+00:00",
+  "repository_edition": "v1.0",
+  "release_tag": "study-v0.9.5",
+  "distribution_repository": {
+    "id": 1438032349,
+    "previous_name": "qpathformer/qpathformer-classical-research",
+    "current_name": "qpathformer/qpathformer-classical-research-v1.0",
+    "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0",
+    "private": true,
+    "preserved_base_commit": "b98b614295d4ea74eb45cd177004e752c73e0be1",
+    "renamed_not_recreated": true
+  },
+  "historical_source_repository": {
+    "id": 1436694826,
+    "recorded_original_name": "qpathformer/qpathformer-classical-research",
+    "current_name": "qpathformer/qpathformer-classical-research-staging",
+    "private": true,
+    "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+    "study_tag": "study-v0.9.5",
+    "study_release_id": 426359002
+  },
+  "historical_url_resolution": "Records identifying repository ID 1436694826 resolve to qpathformer-classical-research-staging. Records identifying repository ID 1438032349 resolve to qpathformer-classical-research-v1.0. The shared historical name alone is insufficient to distinguish these repositories; use repository ID and recorded commit/release.",
+  "prior_distribution_record": "../publication-v1.0/REPOSITORY_MAPPING.json in the repository is preserved unchanged as the earlier migration event.",
+  "release_identity": "Repository edition v1.0 is distinct from study/run versions. The first study release is study-v0.9.5; prior v1.0 packaging assets remain historical evidence.",
+  "visibility": "Private now. No public visibility change is authorized or performed by this publication.",
+  "checkout": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9.5\\final_20261029\\checkout"
+}

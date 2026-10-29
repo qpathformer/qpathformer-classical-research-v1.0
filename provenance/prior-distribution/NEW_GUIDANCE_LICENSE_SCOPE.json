@@ -1,0 +1,135 @@
+{
+  "schema": "qpath-new-guidance-license-scope-1",
+  "status": "ADOPTED",
+  "distribution": "v1.0",
+  "adopted_on": "2026-10-29",
+  "licensor": "Anthony Siljeg",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "owner_confirmation": {
+    "question_id": "call_5e61bef512ea4681b6bd5a3100fc346b",
+    "question_index": 0,
+    "question": "For the new original wrapper and support prose listed in the reviewed v1.0 packs, do you confirm authority and adopt CC BY 4.0 as Anthony Siljeg, with your existing founder/company attribution, including the final status and link corrections? The existing report, code and source-documentation grants stay unchanged; architecture, data, models and archives remain outside this new grant. This decision is needed because your earlier documentation approval explicitly excluded future wrapper files.",
+    "answer": "Yes — adopt CC BY 4.0 for the listed new prose"
+  },
+  "scope": "Only controlled new original explanatory prose in the listed files, including final status and link corrections. Existing licensed source content and applicable adaptations retain their earlier grants.",
+  "exclusions": "No additional grant for architecture documents, software, report artifacts as whole files, datasets, models, complete archives, third-party material, canonical legal texts or machine-readable integrity/provenance records. Existing code, report and source-documentation grants remain unchanged.",
+  "attribution_note": "Company and founder details are attribution, not an ownership transfer. No blanket repository or package grant. Publisher hashes identify editions, not restrictions on licensed adaptations.",
+  "files": [
+    {
+      "path": "ARTIFACT_RIGHTS.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 2014,
+      "sha256": "dac6acec2c8c6dc77ac1668da756b0c5d2238b1e0729fc5da7e3764aa0bb7c7a"
+    },
+    {
+      "path": "CITATION.cff",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 780,
+      "sha256": "414d45102b9f44bad94ac434f12a5fc55343fb19a87a2a989482801cb16dcb6f"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 2190,
+      "sha256": "c7ecb10fcff304071b36731a14d9e5e87c4450adeff3bde1b8b0fe725f463096"
+    },
+    {
+      "path": "CONTRIBUTORS.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 584,
+      "sha256": "0ca6c91ee3c0190d6840381dfe6412524b96678099f27e3b4fa75b85afdea878"
+    },
+    {
+      "path": "DOCUMENTATION_RIGHTS.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 3367,
+      "sha256": "897fff2e7a8c7a79ff9a316d6d7d67a6651ce379de032f7d28469ae88baf5cb3"
+    },
+    {
+      "path": "LICENSE",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 1510,
+      "sha256": "d1fb7425ac1321eb612277cb2e4bdf937e7874a66a397a020ca4dc32695b27ed"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 3310,
+      "sha256": "58a3910fa8ff27d43ff4a256ec4cdc631dc4632de8612f477050de813e886275"
+    },
+    {
+      "path": "NOTICE.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 2046,
+      "sha256": "9828b76dd4bed46f5ffdae1359afe093b3a65ca450293786936cb42843ee47c4"
+    },
+    {
+      "path": "README.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 11729,
+      "sha256": "8bd893ad3839885998b395b4bb52eed3115b0e241e6305fa97ec436fecd2cd07"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 2031,
+      "sha256": "da650f0bb9b93f419623ed7435a3438127a640ecdd22bb3b5b0497c8882a4bd7"
+    },
+    {
+      "path": "VERIFY.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 3116,
+      "sha256": "4bfd41fda8192248337549aa775026a765ae852ef7485e6b6d62aeccdaea0652"
+    },
+    {
+      "path": "assets/ILLUSTRATIONS.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 1319,
+      "sha256": "fc061c02e130087b8eea8d3ae9dca10483e101995dc260de2e295b612911a7f4"
+    },
+    {
+      "path": "docs/DISTRIBUTION_GUIDE.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 3072,
+      "sha256": "658f8921f484506c3815e058f5d33f2cbbdd3c4fcf47ef6b11fec27f0ed44150"
+    },
+    {
+      "path": "docs/QPU_RELEASE_PLAN.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 7893,
+      "sha256": "dfaa1179b857c912963558e5f46739d195433bc32b1ef9bf3c4dc93c22a9e93d"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 4779,
+      "sha256": "161abb0a7c18b16a425f6ee2bf957405fd1eb2918c001231736c39a9dccd97a6"
+    },
+    {
+      "path": "docs/RESEARCH_GUIDE.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 4723,
+      "sha256": "9c35935ea18af693e771a16fbd37b37b17d967672acc4d402cd0fd5c8701beb5"
+    },
+    {
+      "path": "docs/RESEARCH_ROADMAP.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 3382,
+      "sha256": "89abd5a9b83eb90c86a712a258ba3239cf4362f0ce813866e84955bb1e0581ab"
+    },
+    {
+      "path": "docs/THREE_STATE_DESIGN.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 1451,
+      "sha256": "ac58b285297108646a61890f49f2c4d99d47848a89249654c832a98f29c1d4a9"
+    },
+    {
+      "path": "release_notes/study-v0.9.5.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 5179,
+      "sha256": "22dadefd852a0e14be898539e70c193e7fbdd1743f4a9f165edfa4b3eaa7d9f7"
+    }
+  ]
+}

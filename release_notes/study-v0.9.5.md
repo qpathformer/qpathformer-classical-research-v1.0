@@ -1,6 +1,6 @@
 # Q-Pathformer v0.9.5 — ETEL Training Allocation Study
 
-**Completed classical study: v0.9.5.** This page summarizes the study included in the private v1.0 distribution. The companion Study package contains the report edition; the Code package contains the selected implementation. Models and the full reproduction archive remain separately retained.
+**Completed classical study: v0.9.5.** This page summarizes release study-v0.9.5 within repository edition v1.0. The companion Study package contains the report edition; the Code package contains the selected implementation. Models and the full reproduction archive remain separately retained.
 
 The study compared fixed allocation, capped successive halving and ETEL suitability allocation over the same six recipes: fixed-soft circuit routing (C_S), learned-soft circuit routing (C_L) and the global trigonometric model G121, each at two learning rates. Allocation policies controlled training; they were not additional predictor families.
 

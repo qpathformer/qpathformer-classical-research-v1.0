@@ -1,6 +1,6 @@
 # License scope
 
-The v1.0 collection contains separately scoped material. Private access describes who can obtain the packages from this private repository; the recorded licenses describe reuse of their identified content.
+Repository edition v1.0 contains separately scoped material. Release study-v0.9.5 supplies the current Study, Documentation and Code packages. Repository access determines who can obtain the packages from this location; the recorded licenses describe reuse of their identified content.
 
 | Material | Terms and evidence |
 | --- | --- |

@@ -2,7 +2,9 @@
 
 ### Quantum emulation on classical hardware and preparation for QPU testing
 
-> **Official private distribution v1.0.** This collection brings together the completed study, documentation and selected code. Completed studies retain their original identifiers. Downloads require repository access.
+> **Repository edition v1.0.** This repository brings together completed studies, documentation and selected code. Each release retains its study identifier.
+
+Repository access is currently private while further releases are prepared.
 
 Q-Pathformer studies how small learning systems make predictions, how examples are routed to specialist models, and where a limited training budget is most useful. The work compares quantum circuits emulated on classical computers with conventional and trigonometric models, recording improvements, negative findings and the cost of learning.
 
@@ -16,13 +18,13 @@ Start with the study to understand the findings, use the documentation to explor
 
 | Part | What it provides | Where to start |
 | --- | --- | --- |
-| **Study** | Research questions, methods, findings and limitations | [Study summary](release_notes/study-v0.9.5.md); report PDF and Word edition in `QPathformer_v1.0_Study.zip` |
-| **Documentation** | Project overview, research guide, illustrations and reproduction boundaries | [Research guide](docs/RESEARCH_GUIDE.md); this tree in `QPathformer_v1.0_Documentation.zip` |
-| **Code** | Selected training, routing, allocation and ETEL sources, with package-specific startup instructions | `QPathformer_v1.0_Code.zip`; open its `START_HERE.md` |
+| **Study** | Research questions, methods, findings and limitations | [Study summary](release_notes/study-v0.9.5.md); report PDF and Word edition in `QPathformer_v0.9.5_Study.zip` |
+| **Documentation** | Project overview, research guide, illustrations and reproduction boundaries | [Research guide](docs/RESEARCH_GUIDE.md); this tree in `QPathformer_v0.9.5_Documentation.zip` |
+| **Code** | Selected training, routing, allocation and ETEL sources, with package-specific startup instructions | `QPathformer_v0.9.5_Code.zip`; open its `START_HERE.md` |
 
-[Open the v1.0 release and downloads](https://github.com/qpathformer/qpathformer-classical-research/releases/tag/v1.0).
+[Open the study-v0.9.5 release and downloads](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/study-v0.9.5).
 
-Each ZIP has a matching `.seal.json` integrity record. Extract each ZIP once and follow its START_HERE instructions. The named Code package supplies the implementation; this documentation tree contains guides and rights records. “Public report edition” names the editorial edition, while this repository remains private.
+Each ZIP has a matching `.seal.json` integrity record. Extract each ZIP once and follow its START_HERE instructions. The named Code package supplies the implementation; this documentation tree contains guides and rights records. “Public report edition” names the editorial edition; repository access is a separate setting.
 
 **Licensing:** the selected Python implementation uses **Q-Pathformer Platform License 1.0**. Specified original report content and identified source documentation content use separate **CC BY 4.0** grants. Identified new wrapper and support prose also uses CC BY 4.0 under its separately recorded grant. QPATH-ARCH-001 retains its original notices. See [license scope](LICENSE_SCOPE.md).
 
@@ -95,13 +97,13 @@ In v0.9.5, none of eight registered comparisons established the required 0.01 na
 | v0.9 | Tested learning the router. Gains were selective and strong baseline counterexamples remained. |
 | v0.9.5 | Tested adaptive training allocation. The ETEL suitability policy did not establish the stipulated gain; halving used less mean CPU on all four tasks. |
 
-Tasks, controls, populations, metrics and budgets change across the series. These results do not form a single version-to-version leaderboard. Earlier studies are context here. This v1.0 distribution brings together the v0.9.5 report, selected implementation and project documentation as separately scoped packages.
+Tasks, controls, populations, metrics and budgets change across the series. These results do not form a single version-to-version leaderboard. Earlier studies are context here. The study-v0.9.5 release brings together the v0.9.5 report, selected implementation and project documentation as separately scoped packages within repository edition v1.0.
 
 ## Additional runs and reproducibility
 
 Further classical runs will investigate routing, allocation, traceability and retrieval. **UGCCMT — Unit, Group, Colour, Code, Measure, Train** is a proposed provenance structure. See the [broader Q-Pathformer architecture below](#q-pathformer-a-broader-model-for-future-quantum-systems) for context.
 
-This work is not yet final. Once completed and reviewed, results are planned for a later private repository distribution, **v2.0**, with their protocols, comparisons and reproducibility records.
+Further completed study results will be added as versioned releases in this repository after review, with their protocols, comparisons and reproducibility records.
 
 The code package provides its own quickstart and bounded startup checks. Full study reproduction requires the separately retained frozen artifacts and a compatible environment. See [configuration, storage and reproduction limits](docs/REPRODUCIBILITY.md) and [artifact contents and rights](ARTIFACT_RIGHTS.md).
 
