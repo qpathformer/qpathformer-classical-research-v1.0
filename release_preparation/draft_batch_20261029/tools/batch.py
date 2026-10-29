@@ -152,7 +152,7 @@ def adopt_authorization():
     print('Updated owner licensing authorization recorded before sealing')
 
 def selected_build(n):
-    revisions={2:'draft_20261029_r4',3:'draft_20261029_r3',4:'draft_20261029_r2',5:'draft_20261029_r02',6:'draft_20261029_r02',7:'draft_20261029_r2',8:'draft_20261029_r2',9:'draft_20261029_r2'}
+    revisions={2:'draft_20261029_r4',3:'draft_20261029_r3',4:'draft_20261029_r3',5:'draft_20261029_r02',6:'draft_20261029_r02',7:'draft_20261029_r2',8:'draft_20261029_r2',9:'draft_20261029_r2'}
     return BASE/f'study-v0.{n}'/revisions.get(n,'draft_20261029')
 def bytes_info(b):return dict(bytes=len(b),sha256=hashlib.sha256(b).hexdigest())
 def verify_package(zp,sp):
