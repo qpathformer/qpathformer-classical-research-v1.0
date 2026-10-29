@@ -1,0 +1,97 @@
+{
+  "schema": "qpath-independent-publication-preflight-1",
+  "status": "PASS",
+  "checked_at_utc": "2026-10-29T11:06:36.246797+00:00",
+  "repository": {
+    "id": 1438032349,
+    "name": "qpathformer/qpathformer-classical-research-v1.0",
+    "private": true,
+    "visibility": "private"
+  },
+  "release_id": 427659592,
+  "tag": "study-v0.4",
+  "draft": true,
+  "published_at": null,
+  "target_commit": "4b3f08eaa14e166c0781d7921f6b157aba48644c",
+  "target_tree_sha": "bc73d14a1e1d7a3989c498474486c6b42b6e6923",
+  "latest": "study-v0.9.5",
+  "main_unchanged": "7c05ea9712d4b21a3b16fd1258f2731972e344c2",
+  "other_releases_unchanged": true,
+  "existing_tags_unchanged": true,
+  "publication_tag_absent": true,
+  "assets": [
+    {
+      "id": 688264593,
+      "name": "QPathformer_v0.4_Code.seal.json",
+      "bytes": 1366,
+      "sha256": "84dadbef12bfa5a989048235fd476561765924d66bd030a756c6e80fe7de9da2",
+      "authenticated_download_verified": true
+    },
+    {
+      "id": 688264816,
+      "name": "QPathformer_v0.4_Code.zip",
+      "bytes": 228843,
+      "sha256": "f1e4cd43174f7bf1183d7d6b2a8e274eddfe0d7806d378586cffd09b6990c29e",
+      "authenticated_download_verified": true
+    },
+    {
+      "id": 688265026,
+      "name": "QPathformer_v0.4_Documentation.seal.json",
+      "bytes": 1436,
+      "sha256": "448e7879c9e4d350e5e79081c18c7ca0e245b871df0933d3b8d0030c4011a912",
+      "authenticated_download_verified": true
+    },
+    {
+      "id": 688265246,
+      "name": "QPathformer_v0.4_Documentation.zip",
+      "bytes": 38523,
+      "sha256": "0f4df9d5855668c413d470834a84f9e5e3ea067d37f5fdce1aa0dfd5a0376a16",
+      "authenticated_download_verified": true
+    },
+    {
+      "id": 688265481,
+      "name": "QPathformer_v0.4_Study.seal.json",
+      "bytes": 1373,
+      "sha256": "7ec9faa593ae355d255c844b7521f45119e4c29d82af7e171bdac75e14a1da3d",
+      "authenticated_download_verified": true
+    },
+    {
+      "id": 688265788,
+      "name": "QPathformer_v0.4_Study.zip",
+      "bytes": 1791984,
+      "sha256": "a2ba6edce95c8ae85259b61db85ab30ad525ee7280a897a7a45348ce33f31beb",
+      "authenticated_download_verified": true
+    }
+  ],
+  "packages": [
+    {
+      "package": "QPathformer_v0.4_Study",
+      "files": 18
+    },
+    {
+      "package": "QPathformer_v0.4_Documentation",
+      "files": 19
+    },
+    {
+      "package": "QPathformer_v0.4_Code",
+      "files": 75
+    }
+  ],
+  "source_files_verified_at_target": 50,
+  "scientific_python_files_unchanged": 48,
+  "independent_audit": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r3\\receipts\\INDEPENDENT_SUCCESSOR_AUDIT.json",
+    "bytes": 8907,
+    "sha256": "72cacd3efc9281d6309f16635931ea6e1fe24e0139afb62c87343562f2ba5516"
+  },
+  "fresh_startup_binding": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r3\\receipts\\FRESH_PACKAGE_VERIFICATION.json",
+    "bytes": 4244,
+    "sha256": "7bb0f2e759898e6ae7ab8acba907164a7e9c976c8003b1186411498328db4ea7"
+  },
+  "genuine_startup_checks": 3,
+  "prediction_methods": 9,
+  "numpy_version": "2.5.4",
+  "blockers": [],
+  "scope": "Read-only remote publication preflight and authenticated downloads. No new training, experiments, tests, remote mutations or Q2 writes. Publication body and transition belong to parent."
+}

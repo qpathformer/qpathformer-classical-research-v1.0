@@ -1,6 +1,6 @@
 {
   "schema": "qpath-eight-study-draft-review-index-1",
-  "status": "V02_V03_PUBLISHED_SIX_PRIVATE_DRAFTS_REMAIN",
+  "status": "V02_V03_V04_PUBLISHED_FIVE_PRIVATE_DRAFTS_REMAIN",
   "repository": {
     "id": 1438032349,
     "name": "qpathformer/qpathformer-classical-research-v1.0",
@@ -15,7 +15,7 @@
     427529591
   ],
   "latest": "study-v0.9.5",
-  "draft_count": 6,
+  "draft_count": 5,
   "asset_count": 48,
   "sealed_packages": 24,
   "report_pages_visually_reviewed": 275,
@@ -296,11 +296,10 @@
     {
       "study_version": "v0.4",
       "title": "Q-Pathformer Study v0.4 — Routing and Circuit Contribution",
-      "draft_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-04301b17eba660def6fe",
       "release_id": 427659592,
       "tag_name": "study-v0.4",
       "target_commit": "4b3f08eaa14e166c0781d7921f6b157aba48644c",
-      "draft": true,
+      "draft": false,
       "private": true,
       "local_pack_folder": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r3",
       "local_assets": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r3\\dist",
@@ -422,7 +421,12 @@
       },
       "etel": false,
       "licensing_decisions_remaining": [],
-      "revision_note": "r3 helper, quickstart and current guidance corrections; report/scientific/historical bytes unchanged."
+      "revision_note": "r3 helper, quickstart and current guidance corrections; report/scientific/historical bytes unchanged.",
+      "publication_status": "published",
+      "release_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/study-v0.4",
+      "published_at": "2026-10-29T11:07:22Z",
+      "publication_record_path": "release_preparation/study-v0.4/publication_20261029_r3/PUBLICATION_RECEIPT.json",
+      "historical_draft_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-04301b17eba660def6fe"
     },
     {
       "study_version": "v0.5",
@@ -1086,8 +1090,8 @@
     "Startup used compatible existing local environments. No clean-room installation, full training, official scoring, shot sampling or QPU jobs were performed.",
     "Retained full-archive logical byte totals are distinct from ZIP sizes and do not define hardware minima."
   ],
-  "superseded_evidence": "Earlier sealed builds remain under each study folder; revision receipts bind their identities. The first v0.5 draft assets were authenticated-downloaded and preserved locally before same-draft replacement, with SUPERSEDED_REMOTE_ASSETS.json retaining old and new identities. v0.2 publication is separately recorded; its historical draft records and prior index remain preserved. v0.3 publication is separately recorded; its historical draft records and prior index remain preserved.",
-  "completed_at_utc": "2026-10-29T11:02:05.879874+00:00",
-  "latest_revision_note": "v0.4 r3 corrections are verified in the private draft. v0.2 and v0.3 remain published; v0.9.5 remains Latest; all other selections are unchanged.",
-  "published_from_batch_count": 2
+  "superseded_evidence": "Earlier sealed builds remain under each study folder; revision receipts bind their identities. The first v0.5 draft assets were authenticated-downloaded and preserved locally before same-draft replacement, with SUPERSEDED_REMOTE_ASSETS.json retaining old and new identities. v0.2 publication is separately recorded; its historical draft records and prior index remain preserved. v0.3 publication is separately recorded; its historical draft records and prior index remain preserved. v0.4 publication is separately recorded; its historical draft records and prior index remain preserved.",
+  "completed_at_utc": "2026-10-29T11:07:33.718281+00:00",
+  "latest_revision_note": "v0.2, v0.3 and v0.4 are published in the private repository; v0.5–v0.9 remain drafts and v0.9.5 remains Latest.",
+  "published_from_batch_count": 3
 }

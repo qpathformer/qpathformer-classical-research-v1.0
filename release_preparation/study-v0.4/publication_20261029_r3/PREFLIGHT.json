@@ -1,0 +1,88 @@
+{
+  "status": "PASS_READY_TO_PUBLISH",
+  "checked_at_utc": "2026-10-29T11:07:15.236360+00:00",
+  "release_id": 427659592,
+  "target_commit": "4b3f08eaa14e166c0781d7921f6b157aba48644c",
+  "assets": {
+    "QPathformer_v0.4_Code.seal.json": {
+      "id": 688264593,
+      "bytes": 1366,
+      "sha256": "84dadbef12bfa5a989048235fd476561765924d66bd030a756c6e80fe7de9da2",
+      "state": "uploaded"
+    },
+    "QPathformer_v0.4_Code.zip": {
+      "id": 688264816,
+      "bytes": 228843,
+      "sha256": "f1e4cd43174f7bf1183d7d6b2a8e274eddfe0d7806d378586cffd09b6990c29e",
+      "state": "uploaded"
+    },
+    "QPathformer_v0.4_Documentation.seal.json": {
+      "id": 688265026,
+      "bytes": 1436,
+      "sha256": "448e7879c9e4d350e5e79081c18c7ca0e245b871df0933d3b8d0030c4011a912",
+      "state": "uploaded"
+    },
+    "QPathformer_v0.4_Documentation.zip": {
+      "id": 688265246,
+      "bytes": 38523,
+      "sha256": "0f4df9d5855668c413d470834a84f9e5e3ea067d37f5fdce1aa0dfd5a0376a16",
+      "state": "uploaded"
+    },
+    "QPathformer_v0.4_Study.seal.json": {
+      "id": 688265481,
+      "bytes": 1373,
+      "sha256": "7ec9faa593ae355d255c844b7521f45119e4c29d82af7e171bdac75e14a1da3d",
+      "state": "uploaded"
+    },
+    "QPathformer_v0.4_Study.zip": {
+      "id": 688265788,
+      "bytes": 1791984,
+      "sha256": "a2ba6edce95c8ae85259b61db85ab30ad525ee7280a897a7a45348ce33f31beb",
+      "state": "uploaded"
+    }
+  },
+  "evidence_links": [
+    {
+      "commit": "4b3f08eaa14e166c0781d7921f6b157aba48644c",
+      "path": "release_preparation/study-v0.4/revisions/draft_20261029_r3/PACKAGE_INDEX.json",
+      "sha256": "07f4215f72c957910a9f6df9bb5f167af68b3b4b4051e0a5792e2c3c8ca1eefc"
+    },
+    {
+      "commit": "4b3f08eaa14e166c0781d7921f6b157aba48644c",
+      "path": "release_preparation/study-v0.4/revisions/draft_20261029_r3/receipts/FRESH_PACKAGE_VERIFICATION.json",
+      "sha256": "7bb0f2e759898e6ae7ab8acba907164a7e9c976c8003b1186411498328db4ea7"
+    },
+    {
+      "commit": "4b3f08eaa14e166c0781d7921f6b157aba48644c",
+      "path": "release_preparation/study-v0.4/revisions/draft_20261029_r3/receipts/ROOT_PACKAGE_VERIFICATION.json",
+      "sha256": "50dc75593b8798acaffede66b2c766c3641d4fd3b68f4571ee0d4cc3a661a7ea"
+    },
+    {
+      "commit": "4b3f08eaa14e166c0781d7921f6b157aba48644c",
+      "path": "release_preparation/study-v0.4/revisions/draft_20261029_r3/report/REPORT_REVIEW.json",
+      "sha256": "0ced9e6f3f9cae13dba98f7014da97513b26c831e35ba35bf59bd3d8d81fa222"
+    },
+    {
+      "commit": "4b3f08eaa14e166c0781d7921f6b157aba48644c",
+      "path": "release_preparation/study-v0.4/revisions/draft_20261029_r3/receipts/SOURCE_INVENTORY.json",
+      "sha256": "2a13f5f4245780b509a4d540cb7060e404155cb184b0b92d1f5575ab72afcdd0"
+    },
+    {
+      "commit": "4b3f08eaa14e166c0781d7921f6b157aba48644c",
+      "path": "release_preparation/study-v0.4/revisions/draft_20261029_r3/OWNER_LICENSE_AUTHORIZATION.json",
+      "sha256": "079679582d015f1f0422edb31da07bbbf867a0eff1a57e2a61e3dafe2477845b"
+    },
+    {
+      "commit": "fe90c4d68569ce23d21f9b0209d22ecb6bded490",
+      "path": "release_preparation/study-v0.4/revisions/draft_20261029_r3/DRAFT_RELEASE.json",
+      "sha256": "0da12cc0ed82e068197df9f2f6dcb531274068fd093c8cf5380ef29bcb16f141"
+    }
+  ],
+  "repository_private": true,
+  "latest": "study-v0.9.5",
+  "independent_review": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\publication_20261029_r3\\INDEPENDENT_PUBLICATION_REVIEW.json",
+    "bytes": 3448,
+    "sha256": "55f6e1a36b77ed254e24b2f7d6e7536f4c89dc67d4542148ed1cfd4a067ca8a4"
+  }
+}
