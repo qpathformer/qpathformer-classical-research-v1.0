@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "started_at_utc": "2026-10-29T08:27:40.351613+00:00",
+  "finished_at_utc": "2026-10-29T08:27:40.554079+00:00",
+  "command": [
+    "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+    "-E",
+    "-B",
+    "tools/verify_package.py"
+  ],
+  "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\qa\\fresh_extraction\\QPathformer_v0.1_Code",
+  "returncode": 0,
+  "stdout": "{\r\n  \"status\": \"PASS\",\r\n  \"package_files\": 52,\r\n  \"manifest_entries\": 50,\r\n  \"checksum_entries\": 51,\r\n  \"python_files_parsed\": 24,\r\n  \"study_code_imported_or_executed\": false\r\n}\r\n",
+  "stderr": ""
+}

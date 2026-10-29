@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "started_at_utc": "2026-10-29T08:27:40.554595+00:00",
+  "finished_at_utc": "2026-10-29T08:27:48.987032+00:00",
+  "command": [
+    "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+    "-E",
+    "-B",
+    "tools/startup_check.py",
+    "--output",
+    "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\receipts\\QPathformer_v0.1_Code.startup.json",
+    "--work-root",
+    "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\qa\\temp"
+  ],
+  "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\qa\\fresh_extraction\\QPathformer_v0.1_Code",
+  "returncode": 0,
+  "stdout": "runtime_imports_and_versions: PASS\r\nquantum_runner_help: PASS\r\noffline_capsule_help: PASS\r\nclassical_benchmark_help: PASS\r\ntrained_readiness_help: PASS\r\nfive_quantum_unit_tests: PASS\r\nthree_classical_forward_guard_tests: PASS\r\nthree_policy_tests: PASS\r\nfour_readiness_unit_tests: PASS\r\none_local_circuit_compile_matrix_check: PASS\r\n{\"status\": \"PASS\", \"receipt\": \"C:\\\\Q2\\\\Release_Preparation\\\\QPathformer_Classical_Research\\\\study-v0.1\\\\final_20261029\\\\receipts\\\\QPathformer_v0.1_Code.startup.json\", \"failures\": []}\r\n",
+  "stderr": ""
+}

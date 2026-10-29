@@ -8,7 +8,7 @@ Repository access is currently private while further releases are prepared.
 
 Q-Pathformer studies how small learning systems make predictions, how examples are routed to specialist models, and where a limited training budget is most useful. The work compares quantum circuits emulated on classical computers with conventional and trigonometric models, recording improvements, negative findings and the cost of learning.
 
-Ten completed studies span **v0.1–v0.9.5**. This collection includes the [v0.9.5 study summary](release_notes/study-v0.9.5.md), project guides and illustrations. The companion Study and Code packages provide the final report edition and selected implementation. Trained models and full reproduction archives remain separately retained. Physical QPU experiments will be documented separately.
+Ten completed studies span **v0.1–v0.9.5**. This collection includes the [v0.9.5 study summary](release_notes/study-v0.9.5.md), the [v0.1 local benchmark](release_records/study-v0.1/packages/QPathformer_v0.1_Documentation/payload/project/release_notes/study-v0.1.md), project guides and illustrations. The companion Study and Code packages provide the final report edition and selected implementation. Trained models and full reproduction archives remain separately retained. Physical QPU experiments will be documented separately.
 
 ## How this collection works
 
@@ -19,10 +19,17 @@ Start with the study to understand the findings, use the documentation to explor
 | Part | What it provides | Where to start |
 | --- | --- | --- |
 | **Study** | Research questions, methods, findings and limitations | [Study summary](release_notes/study-v0.9.5.md); report PDF and Word edition in `QPathformer_v0.9.5_Study.zip` |
-| **Documentation** | Project overview, research guide, illustrations and reproduction boundaries | [Research guide](docs/RESEARCH_GUIDE.md); this tree in `QPathformer_v0.9.5_Documentation.zip` |
+| **Documentation** | Project overview, research guide, illustrations and reproduction boundaries | [Research guide](docs/RESEARCH_GUIDE.md); the sealed v0.9.5 documentation edition in `QPathformer_v0.9.5_Documentation.zip` |
 | **Code** | Selected training, routing, allocation and ETEL sources, with package-specific startup instructions | `QPathformer_v0.9.5_Code.zip`; open its `START_HERE.md` |
 
 [Open the study-v0.9.5 release and downloads](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/study-v0.9.5).
+
+| Study release | Available packages | Scope |
+| --- | --- | --- |
+| [v0.9.5 — ETEL Training Allocation](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/study-v0.9.5) | Study · Documentation · Code | Latest study release; selected ETEL implementation. |
+| [v0.1 — Local Benchmark and QPU Readiness](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/study-v0.1) | Study · Documentation · Code | Earlier radial and text benchmarks; local readiness checks; no ETEL component. |
+
+The v0.1 downloads have their own [adopted scopes and verification records](release_records/study-v0.1/README.md). Its separately retained archive is approximately 9.18 GB of logical content; see its [reproduction boundaries](release_records/study-v0.1/packages/QPathformer_v0.1_Documentation/payload/project/docs/REPRODUCIBILITY.md). This is separate from the v0.9.5 archive boundary.
 
 Each ZIP has a matching `.seal.json` integrity record. Extract each ZIP once and follow its START_HERE instructions. The named Code package supplies the implementation; this documentation tree contains guides and rights records. “Public report edition” names the editorial edition; repository access is a separate setting.
 
@@ -36,7 +43,7 @@ Each ZIP has a matching `.seal.json` integrity record. Extract each ZIP once and
 
 The classical research has produced training and evaluation software, fitted circuit and classical models, routing and readout components, and records supporting the reported comparisons. Selected fitted circuit predictors also have equivalent classical implementations for inference. The repository explains this work; its release downloads provide the study report and selected implementation. Trained models and the full experiment archives are retained separately.
 
-The implementation includes **Q-Path Multiplier - Elastic Task Execution Layer (ETEL) v0.1**. ETEL coordinates bounded tasks and workers, records execution state to support recovery, and accounts for resources. The selected code package includes the study's ETEL core and execution adapter.
+The v0.9.5 implementation includes **Q-Path Multiplier - Elastic Task Execution Layer (ETEL) v0.1**. ETEL coordinates bounded tasks and workers, records execution state to support recovery, and accounts for resources. The selected code package includes the study's ETEL core and execution adapter.
 
 The studies examine both execution workflows and policies for deciding which training jobs continue. Findings about an allocation policy apply to that policy; the execution and recovery functions have their own evidence.
 

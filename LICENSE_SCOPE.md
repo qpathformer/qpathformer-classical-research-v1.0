@@ -1,11 +1,14 @@
 # License scope
 
-Repository edition v1.0 contains separately scoped material. Release study-v0.9.5 supplies the current Study, Documentation and Code packages. Repository access determines who can obtain the packages from this location; the recorded licenses describe reuse of their identified content.
+Repository edition v1.0 contains separately scoped material. Releases study-v0.9.5 and study-v0.1 supply separately identified Study, Documentation and Code packages; v0.9.5 remains the latest study release. Repository access determines who can obtain the packages from this location; the recorded licenses describe reuse of their identified content.
 
 | Material | Terms and evidence |
 | --- | --- |
-| Selected implementation and review tools | **Q-Pathformer Platform License 1.0** for the 38 Python files identified in [CODE_LICENSE_SCOPE.json](CODE_LICENSE_SCOPE.json). The [canonical license](QPATHFORMER-PLATFORM-1.0.txt) is unchanged. |
+| v0.9.5 selected implementation and review tools | **Q-Pathformer Platform License 1.0** for the 38 Python files identified in [CODE_LICENSE_SCOPE.json](CODE_LICENSE_SCOPE.json). The [canonical license](QPATHFORMER-PLATFORM-1.0.txt) is unchanged. |
 | Final v0.9.5 report edition | **CC BY 4.0** for the specified original prose, table presentation and seven result figures identified in [REPORT_LICENSE_SCOPE.json](REPORT_LICENSE_SCOPE.json). |
+| Final v0.1 report edition | **CC BY 4.0** for controlled original prose, table presentation and three figures in its [exact report scope](release_records/study-v0.1/scopes/Study_REPORT_LICENSE_SCOPE.json). |
+| v0.1 selected implementation and helpers | **Q-Pathformer Platform License 1.0** for its separate [24-file Python selection](release_records/study-v0.1/scopes/Code_CODE_LICENSE_SCOPE.json). |
+| v0.1 selected explanatory prose | **CC BY 4.0** for the exact Study, Documentation and Code guidance lists linked from the [v0.1 rights records](release_records/study-v0.1/README.md#licensed-content-and-boundaries), adopted on 29 October 2026. |
 | Original source documentation content | The adopted **CC BY 4.0** source grant is preserved in [its exact record](provenance/source-edition/DOCUMENTATION_LICENSE_SCOPE.json). See [documentation rights](DOCUMENTATION_RIGHTS.md) for retained/adapted content and the distinction from new material. |
 | Newly authored wrapper and support prose | **CC BY 4.0**, adopted by Anthony Siljeg on 29 October 2026 for the identified original content. The [new guidance scope](NEW_GUIDANCE_LICENSE_SCOPE.json) identifies project guidance; each companion package records its outer guidance separately. This grant does not expand the earlier grants. |
 | QPATH-ARCH-001 | Retained unchanged with its embedded notices and [source provenance](docs/architecture/README.md). It is excluded as a licensed document from these grants. |

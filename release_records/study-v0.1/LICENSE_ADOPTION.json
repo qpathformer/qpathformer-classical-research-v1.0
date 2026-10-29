@@ -1,0 +1,71 @@
+{
+  "schema": "qpath-v01-license-adoption-1",
+  "status": "ADOPTED",
+  "adopted_on": "2026-10-29",
+  "timezone": "Australia/Sydney",
+  "licensor": "Anthony Siljeg",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "owner_instruction": "Perfect - the draft looks good. Lets finalise the v0.1 licensing and publish the release, keeping the repo private and v0.9.5 as the latest release.",
+  "owner_confirmation": "yes, adopted",
+  "decision_context": "The reviewed v0.1 scopes identify CC BY 4.0 for controlled original report content and selected explanatory prose, and unchanged Q-Pathformer Platform License 1.0 for 24 listed Python files. The owner instructed finalization and publication, then explicitly confirmed adoption.",
+  "reviewed_scope_proposals": [
+    {
+      "package": "QPathformer_v0.1_Study",
+      "path": "GUIDANCE_SCOPE_PROPOSAL.json",
+      "bytes": 1270,
+      "sha256": "4bde685e8465cc813297e1b175a781cd5ede89ae20cdf4b65f8a83a399d5a668",
+      "reviewed_files": 4
+    },
+    {
+      "package": "QPathformer_v0.1_Study",
+      "path": "REPORT_LICENSE_SCOPE_PROPOSAL.json",
+      "bytes": 2133,
+      "sha256": "90e38246d9087bbc75322d07a734ddd24f8d9264a0267bc10d381c9c85b339fa",
+      "reviewed_files": 2
+    },
+    {
+      "package": "QPathformer_v0.1_Documentation",
+      "path": "GUIDANCE_SCOPE_PROPOSAL.json",
+      "bytes": 1950,
+      "sha256": "929fbe448fabb35395c8d8e286a41c25cd917799476e8ea6f1baa9aeaa6a66b9",
+      "reviewed_files": 8
+    },
+    {
+      "package": "QPathformer_v0.1_Code",
+      "path": "CODE_LICENSE_SCOPE_PROPOSAL.json",
+      "bytes": 6477,
+      "sha256": "6ac1b2fe07635a063abc0a167572e47acdf969532452ec2fd4f8576be8b76be3",
+      "reviewed_files": 24
+    },
+    {
+      "package": "QPathformer_v0.1_Code",
+      "path": "GUIDANCE_SCOPE_PROPOSAL.json",
+      "bytes": 1568,
+      "sha256": "4c1db4be6d4941930865dfca853ee4b285c2207545a141b57d929c7666e28236",
+      "reviewed_files": 6
+    }
+  ],
+  "adopted_terms": {
+    "report": "CC-BY-4.0: controlled original prose, table presentation and three report figures",
+    "guidance": "CC-BY-4.0: controlled original explanatory prose in the same 18 listed file instances, with final license/status/link treatment",
+    "python": "Q-Pathformer Platform License 1.0: the same 24 listed Python files, unchanged"
+  },
+  "exclusions": [
+    "Third-party material and dependencies",
+    "Datasets and AG News news content",
+    "Model checkpoints",
+    "Full experiment archives",
+    "Architecture documents",
+    "Surrounding support/provenance records as whole files",
+    "Future additions outside the identified selections"
+  ],
+  "attribution_note": "Anthony Siljeg is the licensor. Founder/company/initiative details are attribution and do not transfer ownership.",
+  "previous_grants": "Existing grants and already-licensed expression retain their applicable permissions. No earlier grant is replaced or narrowed.",
+  "edition_identity_note": "Hashes identify the delivered editions and original reviewed selections; licensed extracts and adaptations do not have to retain the supplied filenames, formats or digests.",
+  "access_note": "The owner instructed private repository access. This access setting is separate from the adopted content licenses.",
+  "record_boundary": "An adoption record, not a whole-repository grant or a publication-event receipt.",
+  "repository_edition": "v1.0",
+  "study_version": "v0.1",
+  "release_tag": "study-v0.1",
+  "release_state": "FINAL_SEALED_RELEASE_EDITION"
+}

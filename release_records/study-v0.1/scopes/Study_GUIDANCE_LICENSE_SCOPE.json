@@ -1,0 +1,62 @@
+{
+  "schema": "qpath-guidance-license-scope-1",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "files": [
+    {
+      "path": "START_HERE.md",
+      "bytes": 1568,
+      "sha256": "729d6837b1b80184e1897335bd59702a52c800cc2fc6bfaefe2bf4e0d528872b",
+      "reviewed_identity": {
+        "bytes": 1204,
+        "sha256": "aafbcff7d1a4ccb8fdbf004ab4fa3861b5597c1fbda19f80d811826ae7dc8fd0"
+      },
+      "relation": "final_licensed_edition_of_reviewed_guidance"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 1639,
+      "sha256": "339c3f4001e381bd66b9479f675c37f7928be8cd1506ec92422bfd93eb7879a6",
+      "reviewed_identity": {
+        "bytes": 1367,
+        "sha256": "cf9eeee0d3cbf1f2f3fd6bc955ead1810d3f2d940c12ddfadd3ac6e56f897e06"
+      },
+      "relation": "final_licensed_edition_of_reviewed_guidance"
+    },
+    {
+      "path": "VERIFY.md",
+      "bytes": 1705,
+      "sha256": "4e26403827f713f5d4f1f425b3a0b201247f0f345205007995c326ee8c414602",
+      "reviewed_identity": {
+        "bytes": 1615,
+        "sha256": "e6f66668a38cfc08122ed059259696897c6abecf6bd08299bc06e5cf4b1b688f"
+      },
+      "relation": "final_licensed_edition_of_reviewed_guidance"
+    },
+    {
+      "path": "provenance/README.md",
+      "bytes": 1473,
+      "sha256": "96c89eeba38f392589160bf967429b390f25c82d21a3475b0bdb6599bc828e1a",
+      "reviewed_identity": {
+        "bytes": 913,
+        "sha256": "443f8107f5c7c340c2446e94de53e644031421486ee69a15fbfd1bf5b5f54eb8"
+      },
+      "relation": "final_licensed_edition_of_reviewed_guidance"
+    }
+  ],
+  "repository_edition": "v1.0",
+  "study_version": "v0.1",
+  "release_tag": "study-v0.1",
+  "status": "ADOPTED",
+  "licensor": "Anthony Siljeg",
+  "license": "CC-BY-4.0",
+  "adopted_on": "2026-10-29",
+  "timezone": "Australia/Sydney",
+  "adoption_record": "LICENSE_ADOPTION.json",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "release_state": "FINAL_SEALED_RELEASE_EDITION",
+  "scope": "Only controlled original explanatory prose in the exact reviewed selection, with final license/status/link treatment. Existing grants and permissions in reused expression remain applicable. No grant covers all surrounding material.",
+  "reviewed_scope_identity": {
+    "bytes": 1270,
+    "sha256": "4bde685e8465cc813297e1b175a781cd5ede89ae20cdf4b65f8a83a399d5a668"
+  }
+}

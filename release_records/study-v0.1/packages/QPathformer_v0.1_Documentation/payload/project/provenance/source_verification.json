@@ -1,0 +1,18 @@
+{
+  "status": "PASS_FULL_FROZEN_SOURCE_HASH_AUDIT",
+  "source_root": "C:\\Q2\\Full_Local_Benchmark_v0.1",
+  "manifest": {
+    "path": "DELIVERY_MANIFEST.json",
+    "bytes": 418598,
+    "sha256": "03bcfc043585696c1288d926fba882c9cc5be8c36f87681c38bb2f6fa77465c3"
+  },
+  "verified_payload_files": 2081,
+  "payload_logical_bytes": 9179407633,
+  "manifest_inclusive_logical_bytes": 9179826231,
+  "unique_file_objects_hashed": 2036,
+  "started_at_utc": "2026-10-29T07:09:41.520091+00:00",
+  "completed_at_utc": "2026-10-29T07:09:51.292383+00:00",
+  "scope": "Exact source membership, sizes and every manifest SHA-256; repeated hardlinks share one cached content hash after file-identity/size/mtime matching. Read-only audit, no scientific rerun.",
+  "source_files_changed": false,
+  "raw_data_distributed": false
+}

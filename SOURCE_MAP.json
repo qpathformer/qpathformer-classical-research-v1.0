@@ -13,10 +13,14 @@
         "sha256": "4b6aee3e9705960ee1d00b334b3ecb14953e9d21207e1d0e129f8dc0798522d8"
       },
       "current_identity": {
+        "bytes": 2934,
+        "sha256": "47a718d5f7eea6a768fc324a77be55e7f832631f69eaabddaa6f39daf7fe7634"
+      },
+      "relation": "adapted_source_file",
+      "previous_repository_identity": {
         "bytes": 2059,
         "sha256": "5f2c796f04986da06d994b4bc845128839b6c1e5f8d6defbcdacb261a4634fa9"
-      },
-      "relation": "adapted_source_file"
+      }
     },
     {
       "path": "CITATION.cff",
@@ -97,10 +101,14 @@
         "sha256": "2af58d6a409b39a95f0195837ac26a52af7087bb1eade6fa222dd5ad25b2c536"
       },
       "current_identity": {
+        "bytes": 1892,
+        "sha256": "ec84a6c5aedc9b5f573c555e621931e4b5fe80246b196de0178d320ae2d96b4a"
+      },
+      "relation": "adapted_source_file",
+      "previous_repository_identity": {
         "bytes": 1504,
         "sha256": "e16cffe5ca241883efdb827356b6a814ad6c345a6da72673fb18fad36e0c3000"
-      },
-      "relation": "adapted_source_file"
+      }
     },
     {
       "path": "LICENSES/CC-BY-4.0.txt",
@@ -125,10 +133,14 @@
         "sha256": "3acbce6469774f45a5383dec3850894e2a14a11560c77046ad8aed02390e4a70"
       },
       "current_identity": {
+        "bytes": 4114,
+        "sha256": "ff4b22e1f3d29a4a7c848117d315802607de53bdcf1e54e99268ea7aca55b3ac"
+      },
+      "relation": "adapted_source_file",
+      "previous_repository_identity": {
         "bytes": 3390,
         "sha256": "103cd4fdf70ef63b3e103f964f2d3955cb4c04c79b4a9a664138801143adb242"
-      },
-      "relation": "adapted_source_file"
+      }
     },
     {
       "path": "NOTICE.md",
@@ -167,10 +179,14 @@
         "sha256": "9190bf6ac210660a242ceca16d599f9c9a8a547e6c26f878f2e613bdc348d176"
       },
       "current_identity": {
+        "bytes": 12887,
+        "sha256": "5a3f22f58460cdc0c2fdadc824c9c00e43464d10cdecf9a037c9ddeec589ac93"
+      },
+      "relation": "adapted_source_file",
+      "previous_repository_identity": {
         "bytes": 11777,
         "sha256": "1866c89911a11eace85f32c7bb5ebd210dc6b84f2cc3cb84c01f4a093b1720a2"
-      },
-      "relation": "adapted_source_file"
+      }
     },
     {
       "path": "REPORT_LICENSE_SCOPE.json",
@@ -209,10 +225,14 @@
         "sha256": "7d863d80730ab11c7d5bb5ed681f328cd403f366a4bf9ef125e84cca79afe365"
       },
       "current_identity": {
+        "bytes": 3644,
+        "sha256": "b5f5a6bda026ec23ba3051553e898635af74661205c83f035797c271c86ff99d"
+      },
+      "relation": "adapted_source_file",
+      "previous_repository_identity": {
         "bytes": 3222,
         "sha256": "2ca914b51f512c8097b8a09aa89d561eef2ecac88a0bc3fccdb752dda909187b"
-      },
-      "relation": "adapted_source_file"
+      }
     },
     {
       "path": "assets/ILLUSTRATIONS.md",
@@ -547,18 +567,26 @@
     {
       "path": "NEW_GUIDANCE_LICENSE_SCOPE.json",
       "current_identity": {
+        "bytes": 11676,
+        "sha256": "6f257d8afcc7261396167427172c2f35d01b1199c0fc8f446359239f17fe8b41"
+      },
+      "relation": "new_distribution_scope_record",
+      "previous_repository_identity": {
         "bytes": 10529,
         "sha256": "74aee9fd3d055d77b4cd74b4936a96c5b04760743cffdcb725b3a9aa87759e30"
-      },
-      "relation": "new_distribution_scope_record"
+      }
     },
     {
       "path": "DOCUMENTATION_LICENSE_SCOPE.json",
       "current_identity": {
+        "bytes": 12398,
+        "sha256": "1e010d74a4d2bbe2611222e86e2a46e308c2bde2c4c11c802f736e355feee507"
+      },
+      "relation": "new_distribution_scope_record",
+      "previous_repository_identity": {
         "bytes": 12327,
         "sha256": "cbcef207a6b35760c9118c42562fd250fec30b1b78c04babef3dc978e69b5a1a"
-      },
-      "relation": "new_distribution_scope_record"
+      }
     },
     {
       "path": "provenance/prior-distribution/NEW_GUIDANCE_LICENSE_SCOPE.json",
@@ -578,5 +606,7 @@
   "repository_edition": "v1.0",
   "study_version": "v0.9.5",
   "release_tag": "study-v0.9.5",
-  "editorial_update": "Repository edition remains v1.0; the release and package identities now use study v0.9.5. The recorded scientific findings, payloads and original content grants are unchanged."
+  "editorial_update": "Repository edition remains v1.0; the release and package identities now use study v0.9.5. The recorded scientific findings, payloads and original content grants are unchanged.",
+  "additional_release_records": "release_records/study-v0.1/",
+  "edition_mapping_note": "This map retains the v0.9.5 documentation source lineage and updates current navigation identities. The new v0.1 package records have their own inventories and adopted scopes; prior navigation records are preserved in provenance/navigation-before-study-v0.1/."
 }

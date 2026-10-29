@@ -16,8 +16,8 @@
       "source_bytes": 12086,
       "source_sha256": "9190bf6ac210660a242ceca16d599f9c9a8a547e6c26f878f2e613bdc348d176",
       "current_identity": {
-        "bytes": 11777,
-        "sha256": "1866c89911a11eace85f32c7bb5ebd210dc6b84f2cc3cb84c01f4a093b1720a2"
+        "bytes": 12887,
+        "sha256": "5a3f22f58460cdc0c2fdadc824c9c00e43464d10cdecf9a037c9ddeec589ac93"
       },
       "relation": "adapted",
       "license": "CC-BY-4.0 for source content and applicable adaptations; controlled new original additions in the separate new-guidance scope are also licensed under CC-BY-4.0."
@@ -245,5 +245,6 @@
   "new_guidance_scope": "NEW_GUIDANCE_LICENSE_SCOPE.json",
   "repository_edition": "v1.0",
   "study_version": "v0.9.5",
-  "release_tag": "study-v0.9.5"
+  "release_tag": "study-v0.9.5",
+  "additional_release_scopes": "release_records/study-v0.1/README.md"
 }

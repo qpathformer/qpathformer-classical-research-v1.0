@@ -1,0 +1,1480 @@
+{
+  "schema": "qpath-v01-selected-code-dependencies-1",
+  "status": "STATIC_REVIEW_NOT_FRESH_INSTALL",
+  "python_context": "Recorded Windows Python 3.12.14; target startup uses an existing compatible environment, without installing packages.",
+  "ast_python_files": 24,
+  "ast_import_occurrences": [
+    {
+      "path": "payload/study/quantum/code/qpath/capsule.py",
+      "line": 2,
+      "module": "__future__",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/capsule.py",
+      "line": 4,
+      "module": "argparse",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/capsule.py",
+      "line": 5,
+      "module": "csv",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/capsule.py",
+      "line": 6,
+      "module": "datetime",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/capsule.py",
+      "line": 7,
+      "module": "hashlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/capsule.py",
+      "line": 8,
+      "module": "importlib.metadata",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/capsule.py",
+      "line": 9,
+      "module": "json",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/capsule.py",
+      "line": 10,
+      "module": "pathlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/capsule.py",
+      "line": 11,
+      "module": "platform",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/capsule.py",
+      "line": 12,
+      "module": "time",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/capsule.py",
+      "line": 14,
+      "module": "numpy",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/capsule.py",
+      "line": 16,
+      "module": ".",
+      "classification": "package_local"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/capsule.py",
+      "line": 17,
+      "module": ".ibm",
+      "classification": "package_local"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/capsule.py",
+      "line": 66,
+      "module": "qiskit",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical.py",
+      "line": 6,
+      "module": "__future__",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical.py",
+      "line": 8,
+      "module": "dataclasses",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical.py",
+      "line": 9,
+      "module": "hashlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical.py",
+      "line": 10,
+      "module": "json",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical.py",
+      "line": 11,
+      "module": "pathlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical.py",
+      "line": 12,
+      "module": "typing",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical.py",
+      "line": 14,
+      "module": "numpy",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical.py",
+      "line": 15,
+      "module": "torch",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical.py",
+      "line": 16,
+      "module": "torch",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical.py",
+      "line": 17,
+      "module": "torch.nn",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical.py",
+      "line": 19,
+      "module": ".policies",
+      "classification": "package_local"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical.py",
+      "line": 59,
+      "module": "tokenizers",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical.py",
+      "line": 94,
+      "module": "tokenizers",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical_runner.py",
+      "line": 6,
+      "module": "__future__",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical_runner.py",
+      "line": 8,
+      "module": "argparse",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical_runner.py",
+      "line": 9,
+      "module": "copy",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical_runner.py",
+      "line": 10,
+      "module": "dataclasses",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical_runner.py",
+      "line": 11,
+      "module": "hashlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical_runner.py",
+      "line": 12,
+      "module": "importlib.metadata",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical_runner.py",
+      "line": 13,
+      "module": "json",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical_runner.py",
+      "line": 14,
+      "module": "platform",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical_runner.py",
+      "line": 15,
+      "module": "pathlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical_runner.py",
+      "line": 16,
+      "module": "random",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical_runner.py",
+      "line": 17,
+      "module": "sys",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical_runner.py",
+      "line": 18,
+      "module": "time",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical_runner.py",
+      "line": 19,
+      "module": "datetime",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical_runner.py",
+      "line": 21,
+      "module": "numpy",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical_runner.py",
+      "line": 22,
+      "module": "torch",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical_runner.py",
+      "line": 23,
+      "module": "torch.nn",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical_runner.py",
+      "line": 25,
+      "module": ".classical",
+      "classification": "package_local"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical_runner.py",
+      "line": 27,
+      "module": ".policies",
+      "classification": "package_local"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/data.py",
+      "line": 2,
+      "module": "__future__",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/data.py",
+      "line": 4,
+      "module": "hashlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/data.py",
+      "line": 5,
+      "module": "numpy",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/ibm.py",
+      "line": 6,
+      "module": "__future__",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/ibm.py",
+      "line": 8,
+      "module": "dataclasses",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/ibm.py",
+      "line": 9,
+      "module": "math",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/ibm.py",
+      "line": 10,
+      "module": "typing",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/ibm.py",
+      "line": 12,
+      "module": "numpy",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/ibm.py",
+      "line": 24,
+      "module": "qiskit",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/ibm.py",
+      "line": 50,
+      "module": "qiskit",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/ibm.py",
+      "line": 90,
+      "module": "qiskit.quantum_info",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/ibm.py",
+      "line": 115,
+      "module": "qiskit_aer",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/offline.py",
+      "line": 2,
+      "module": "argparse",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/offline.py",
+      "line": 3,
+      "module": "os",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/offline.py",
+      "line": 4,
+      "module": "runpy",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/offline.py",
+      "line": 5,
+      "module": "socket",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/offline.py",
+      "line": 6,
+      "module": "sys",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/policies.py",
+      "line": 6,
+      "module": "__future__",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/policies.py",
+      "line": 8,
+      "module": "copy",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/policies.py",
+      "line": 9,
+      "module": "dataclasses",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/policies.py",
+      "line": 10,
+      "module": "fractions",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/policies.py",
+      "line": 11,
+      "module": "hashlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/policies.py",
+      "line": 12,
+      "module": "math",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/policies.py",
+      "line": 13,
+      "module": "random",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/policies.py",
+      "line": 14,
+      "module": "unicodedata",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/policies.py",
+      "line": 15,
+      "module": "typing",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/quantum.py",
+      "line": 6,
+      "module": "__future__",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/quantum.py",
+      "line": 8,
+      "module": "numpy",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/quantum_runner.py",
+      "line": 13,
+      "module": "__future__",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/quantum_runner.py",
+      "line": 15,
+      "module": "argparse",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/quantum_runner.py",
+      "line": 16,
+      "module": "csv",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/quantum_runner.py",
+      "line": 17,
+      "module": "hashlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/quantum_runner.py",
+      "line": 18,
+      "module": "json",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/quantum_runner.py",
+      "line": 19,
+      "module": "os",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/quantum_runner.py",
+      "line": 20,
+      "module": "platform",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/quantum_runner.py",
+      "line": 21,
+      "module": "sys",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/quantum_runner.py",
+      "line": 22,
+      "module": "time",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/quantum_runner.py",
+      "line": 23,
+      "module": "traceback",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/quantum_runner.py",
+      "line": 24,
+      "module": "datetime",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/quantum_runner.py",
+      "line": 25,
+      "module": "pathlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/quantum_runner.py",
+      "line": 27,
+      "module": "numpy",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/quantum_runner.py",
+      "line": 29,
+      "module": ".",
+      "classification": "package_local"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/quantum_runner.py",
+      "line": 30,
+      "module": ".data",
+      "classification": "package_local"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/quantum_runner.py",
+      "line": 31,
+      "module": ".reference",
+      "classification": "package_local"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/reference.py",
+      "line": 2,
+      "module": "__future__",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/reference.py",
+      "line": 4,
+      "module": "numpy",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/reference.py",
+      "line": 45,
+      "module": ".",
+      "classification": "package_local"
+    },
+    {
+      "path": "payload/study/quantum/code/tests/test_quantum.py",
+      "line": 2,
+      "module": "unittest",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/quantum/code/tests/test_quantum.py",
+      "line": 4,
+      "module": "numpy",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/quantum/code/tests/test_quantum.py",
+      "line": 6,
+      "module": "qpath",
+      "classification": "package_local"
+    },
+    {
+      "path": "payload/study/quantum/code/tests/test_quantum.py",
+      "line": 7,
+      "module": "qpath.data",
+      "classification": "package_local"
+    },
+    {
+      "path": "payload/study/quantum/code/tests/test_quantum.py",
+      "line": 8,
+      "module": "qpath.quantum_runner",
+      "classification": "package_local"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "line": 7,
+      "module": "__future__",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "line": 8,
+      "module": "argparse",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "line": 9,
+      "module": "copy",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "line": 10,
+      "module": "dataclasses",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "line": 11,
+      "module": "datetime",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "line": 12,
+      "module": "hashlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "line": 13,
+      "module": "importlib.metadata",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "line": 14,
+      "module": "json",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "line": 15,
+      "module": "os",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "line": 16,
+      "module": "pathlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "line": 17,
+      "module": "platform",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "line": 18,
+      "module": "random",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "line": 19,
+      "module": "socket",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "line": 20,
+      "module": "sys",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "line": 21,
+      "module": "time",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "line": 29,
+      "module": "numpy",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "line": 30,
+      "module": "psutil",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "line": 31,
+      "module": "torch",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "line": 32,
+      "module": "torch.nn",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "line": 33,
+      "module": "qpath.classical",
+      "classification": "package_local"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "line": 35,
+      "module": "qpath.policies",
+      "classification": "package_local"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "line": 444,
+      "module": "prepare_agnews",
+      "classification": "package_local"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "line": 579,
+      "module": "ctypes",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/prepare_agnews.py",
+      "line": 2,
+      "module": "csv",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/prepare_agnews.py",
+      "line": 3,
+      "module": "collections",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/prepare_agnews.py",
+      "line": 4,
+      "module": "hashlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/prepare_agnews.py",
+      "line": 5,
+      "module": "json",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/prepare_agnews.py",
+      "line": 6,
+      "module": "pathlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/prepare_agnews.py",
+      "line": 7,
+      "module": "tarfile",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/prepare_agnews.py",
+      "line": 8,
+      "module": "time",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/prepare_agnews.py",
+      "line": 10,
+      "module": "numpy",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/classical/prepare_agnews.py",
+      "line": 11,
+      "module": "qpath.classical",
+      "classification": "package_local"
+    },
+    {
+      "path": "payload/study/classical/prepare_agnews.py",
+      "line": 12,
+      "module": "qpath.policies",
+      "classification": "package_local"
+    },
+    {
+      "path": "payload/study/classical/test_benchmark.py",
+      "line": 2,
+      "module": "dataclasses",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/test_benchmark.py",
+      "line": 3,
+      "module": "json",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/test_benchmark.py",
+      "line": 4,
+      "module": "pathlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/test_benchmark.py",
+      "line": 5,
+      "module": "tempfile",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/test_benchmark.py",
+      "line": 6,
+      "module": "unittest",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/test_benchmark.py",
+      "line": 7,
+      "module": "numpy",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/classical/test_benchmark.py",
+      "line": 8,
+      "module": "torch",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/classical/test_benchmark.py",
+      "line": 9,
+      "module": "benchmark",
+      "classification": "package_local"
+    },
+    {
+      "path": "payload/study/classical/test_benchmark.py",
+      "line": 10,
+      "module": "qpath.classical",
+      "classification": "package_local"
+    },
+    {
+      "path": "payload/study/classical/qpath/classical.py",
+      "line": 6,
+      "module": "__future__",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/qpath/classical.py",
+      "line": 8,
+      "module": "dataclasses",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/qpath/classical.py",
+      "line": 9,
+      "module": "hashlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/qpath/classical.py",
+      "line": 10,
+      "module": "json",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/qpath/classical.py",
+      "line": 11,
+      "module": "pathlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/qpath/classical.py",
+      "line": 12,
+      "module": "typing",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/qpath/classical.py",
+      "line": 14,
+      "module": "numpy",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/classical/qpath/classical.py",
+      "line": 15,
+      "module": "torch",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/classical/qpath/classical.py",
+      "line": 16,
+      "module": "torch",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/classical/qpath/classical.py",
+      "line": 17,
+      "module": "torch.nn",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/classical/qpath/classical.py",
+      "line": 19,
+      "module": ".policies",
+      "classification": "package_local"
+    },
+    {
+      "path": "payload/study/classical/qpath/classical.py",
+      "line": 59,
+      "module": "tokenizers",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/classical/qpath/classical.py",
+      "line": 98,
+      "module": "tokenizers",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/classical/qpath/policies.py",
+      "line": 6,
+      "module": "__future__",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/qpath/policies.py",
+      "line": 8,
+      "module": "copy",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/qpath/policies.py",
+      "line": 9,
+      "module": "dataclasses",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/qpath/policies.py",
+      "line": 10,
+      "module": "fractions",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/qpath/policies.py",
+      "line": 11,
+      "module": "hashlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/qpath/policies.py",
+      "line": 12,
+      "module": "math",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/qpath/policies.py",
+      "line": 13,
+      "module": "random",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/qpath/policies.py",
+      "line": 14,
+      "module": "unicodedata",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/qpath/policies.py",
+      "line": 15,
+      "module": "typing",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/tests/test_classical.py",
+      "line": 2,
+      "module": "copy",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/tests/test_classical.py",
+      "line": 3,
+      "module": "dataclasses",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/tests/test_classical.py",
+      "line": 4,
+      "module": "inspect",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/tests/test_classical.py",
+      "line": 5,
+      "module": "hashlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/tests/test_classical.py",
+      "line": 6,
+      "module": "json",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/tests/test_classical.py",
+      "line": 7,
+      "module": "pathlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/tests/test_classical.py",
+      "line": 8,
+      "module": "tempfile",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/tests/test_classical.py",
+      "line": 9,
+      "module": "unittest",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/tests/test_classical.py",
+      "line": 11,
+      "module": "torch",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/classical/tests/test_classical.py",
+      "line": 13,
+      "module": "qpath.classical",
+      "classification": "package_local"
+    },
+    {
+      "path": "payload/study/classical/tests/test_policies.py",
+      "line": 2,
+      "module": "copy",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/tests/test_policies.py",
+      "line": 3,
+      "module": "random",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/tests/test_policies.py",
+      "line": 4,
+      "module": "unittest",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/classical/tests/test_policies.py",
+      "line": 6,
+      "module": "qpath.policies",
+      "classification": "package_local"
+    },
+    {
+      "path": "payload/study/ibm_readiness/evaluate_readiness.py",
+      "line": 2,
+      "module": "__future__",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/ibm_readiness/evaluate_readiness.py",
+      "line": 4,
+      "module": "argparse",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/ibm_readiness/evaluate_readiness.py",
+      "line": 5,
+      "module": "csv",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/ibm_readiness/evaluate_readiness.py",
+      "line": 6,
+      "module": "datetime",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/ibm_readiness/evaluate_readiness.py",
+      "line": 7,
+      "module": "hashlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/ibm_readiness/evaluate_readiness.py",
+      "line": 8,
+      "module": "importlib.metadata",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/ibm_readiness/evaluate_readiness.py",
+      "line": 9,
+      "module": "json",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/ibm_readiness/evaluate_readiness.py",
+      "line": 10,
+      "module": "os",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/ibm_readiness/evaluate_readiness.py",
+      "line": 11,
+      "module": "pathlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/ibm_readiness/evaluate_readiness.py",
+      "line": 12,
+      "module": "socket",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/ibm_readiness/evaluate_readiness.py",
+      "line": 13,
+      "module": "sys",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/ibm_readiness/evaluate_readiness.py",
+      "line": 14,
+      "module": "time",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/ibm_readiness/evaluate_readiness.py",
+      "line": 16,
+      "module": "numpy",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/ibm_readiness/evaluate_readiness.py",
+      "line": 94,
+      "module": "qiskit_aer.noise",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/ibm_readiness/evaluate_readiness.py",
+      "line": 161,
+      "module": "qpath",
+      "classification": "package_local"
+    },
+    {
+      "path": "payload/study/ibm_readiness/evaluate_readiness.py",
+      "line": 162,
+      "module": "qiskit_aer",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/ibm_readiness/evaluate_readiness.py",
+      "line": 163,
+      "module": "qiskit",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/ibm_readiness/evaluate_readiness.py",
+      "line": 240,
+      "module": "qiskit",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/ibm_readiness/test_readiness.py",
+      "line": 1,
+      "module": "sys",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/ibm_readiness/test_readiness.py",
+      "line": 2,
+      "module": "unittest",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/ibm_readiness/test_readiness.py",
+      "line": 3,
+      "module": "pathlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "payload/study/ibm_readiness/test_readiness.py",
+      "line": 5,
+      "module": "numpy",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/ibm_readiness/test_readiness.py",
+      "line": 6,
+      "module": "qiskit",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/ibm_readiness/test_readiness.py",
+      "line": 7,
+      "module": "qiskit_aer",
+      "classification": "external"
+    },
+    {
+      "path": "payload/study/ibm_readiness/test_readiness.py",
+      "line": 9,
+      "module": "evaluate_readiness",
+      "classification": "package_local"
+    },
+    {
+      "path": "tools/startup_check.py",
+      "line": 2,
+      "module": "__future__",
+      "classification": "stdlib"
+    },
+    {
+      "path": "tools/startup_check.py",
+      "line": 4,
+      "module": "argparse",
+      "classification": "stdlib"
+    },
+    {
+      "path": "tools/startup_check.py",
+      "line": 5,
+      "module": "datetime",
+      "classification": "stdlib"
+    },
+    {
+      "path": "tools/startup_check.py",
+      "line": 6,
+      "module": "hashlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "tools/startup_check.py",
+      "line": 7,
+      "module": "json",
+      "classification": "stdlib"
+    },
+    {
+      "path": "tools/startup_check.py",
+      "line": 8,
+      "module": "os",
+      "classification": "stdlib"
+    },
+    {
+      "path": "tools/startup_check.py",
+      "line": 9,
+      "module": "pathlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "tools/startup_check.py",
+      "line": 10,
+      "module": "platform",
+      "classification": "stdlib"
+    },
+    {
+      "path": "tools/startup_check.py",
+      "line": 11,
+      "module": "shutil",
+      "classification": "stdlib"
+    },
+    {
+      "path": "tools/startup_check.py",
+      "line": 12,
+      "module": "subprocess",
+      "classification": "stdlib"
+    },
+    {
+      "path": "tools/startup_check.py",
+      "line": 13,
+      "module": "sys",
+      "classification": "stdlib"
+    },
+    {
+      "path": "tools/startup_check.py",
+      "line": 14,
+      "module": "tempfile",
+      "classification": "stdlib"
+    },
+    {
+      "path": "tools/startup_check.py",
+      "line": 15,
+      "module": "time",
+      "classification": "stdlib"
+    },
+    {
+      "path": "tools/startup_check.py",
+      "line": 17,
+      "module": "verify_package",
+      "classification": "package_local"
+    },
+    {
+      "path": "tools/verify_package.py",
+      "line": 2,
+      "module": "__future__",
+      "classification": "stdlib"
+    },
+    {
+      "path": "tools/verify_package.py",
+      "line": 4,
+      "module": "ast",
+      "classification": "stdlib"
+    },
+    {
+      "path": "tools/verify_package.py",
+      "line": 5,
+      "module": "hashlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "tools/verify_package.py",
+      "line": 6,
+      "module": "json",
+      "classification": "stdlib"
+    },
+    {
+      "path": "tools/verify_package.py",
+      "line": 7,
+      "module": "os",
+      "classification": "stdlib"
+    },
+    {
+      "path": "tools/verify_package.py",
+      "line": 8,
+      "module": "pathlib",
+      "classification": "stdlib"
+    },
+    {
+      "path": "tools/verify_package.py",
+      "line": 9,
+      "module": "stat",
+      "classification": "stdlib"
+    },
+    {
+      "path": "tools/verify_package.py",
+      "line": 10,
+      "module": "sys",
+      "classification": "stdlib"
+    }
+  ],
+  "external_import_roots": [
+    "numpy",
+    "psutil",
+    "qiskit",
+    "qiskit_aer",
+    "tokenizers",
+    "torch"
+  ],
+  "external_import_occurrence_counts": {
+    "numpy": 15,
+    "psutil": 1,
+    "qiskit": 7,
+    "qiskit_aer": 4,
+    "tokenizers": 4,
+    "torch": 12
+  },
+  "distribution_names": {
+    "numpy": "numpy",
+    "torch": "torch",
+    "tokenizers": "tokenizers",
+    "qiskit": "qiskit",
+    "qiskit_aer": "qiskit-aer",
+    "psutil": "psutil"
+  },
+  "startup_additional_import_check": [
+    "scipy"
+  ],
+  "recorded_locks": [
+    {
+      "path": "payload/study/quantum/code/requirements-lock.txt",
+      "sha256": "30cdabc0798d5c16575d2b40e5de4d245e2f8cddd5629727cfa352a8e36b0996",
+      "recorded_lines": [
+        "--extra-index-url https://download.pytorch.org/whl/cpu",
+        "anyio==4.15.1",
+        "click==8.5.0",
+        "colorama==0.4.6",
+        "dill==0.4.1",
+        "filelock==4.2.1",
+        "fsspec==2026.9.0",
+        "h11==0.16.0",
+        "hf-xet==1.7.0",
+        "httpcore2==2.13.1",
+        "httpx2==2.13.1",
+        "huggingface_hub==2.2.0",
+        "idna==3.20",
+        "Jinja2==3.1.6",
+        "MarkupSafe==3.0.3",
+        "mpmath==1.3.0",
+        "networkx==3.6.1",
+        "numpy==2.5.4",
+        "packaging==26.3",
+        "psutil==7.2.2",
+        "python-dateutil==2.9.0.post0",
+        "PyYAML==6.0.3",
+        "qiskit==2.6.0",
+        "qiskit-aer==0.17.2",
+        "rustworkx==0.18.1",
+        "scipy==1.18.1",
+        "setuptools==78.1.0",
+        "six==1.17.0",
+        "stevedore==5.9.1",
+        "sympy==1.14.0",
+        "tokenizers==0.23.3",
+        "torch==2.14.1+cpu",
+        "tqdm==4.70.1",
+        "truststore==0.10.5",
+        "typing_extensions==4.16.0"
+      ]
+    },
+    {
+      "path": "payload/study/classical/requirements-cuda-lock.txt",
+      "sha256": "bc934b9be9239b99f87cf42c50b69967da1fa8ac50050359ba449a81edf67cd9",
+      "recorded_lines": [
+        "anyio==4.15.1",
+        "click==8.5.0",
+        "colorama==0.4.6",
+        "filelock==3.32.3",
+        "fsspec==2026.7.0",
+        "h11==0.16.0",
+        "hf-xet==1.7.0",
+        "httpcore2==2.13.1",
+        "httpx2==2.13.1",
+        "huggingface_hub==2.2.0",
+        "idna==3.20",
+        "Jinja2==3.1.6",
+        "MarkupSafe==3.0.3",
+        "mpmath==1.3.0",
+        "networkx==3.6.1",
+        "numpy==2.5.4",
+        "packaging==26.3",
+        "psutil==7.2.2",
+        "PyYAML==6.0.3",
+        "setuptools==78.1.0",
+        "sympy==1.14.0",
+        "tokenizers==0.23.3",
+        "torch==2.11.0+cu128",
+        "tqdm==4.70.1",
+        "truststore==0.10.5",
+        "typing_extensions==4.16.0"
+      ]
+    },
+    {
+      "path": "payload/study/quantum/code/requirements-quantum-lock.txt",
+      "sha256": "e5e9b15f3aa95f3add2882ff16753a027336ca2adc1d8faa286c5d5a5bfb0907",
+      "recorded_lines": [
+        "dill==0.4.1",
+        "numpy==2.5.4",
+        "psutil==7.2.2",
+        "python-dateutil==2.9.0.post0",
+        "qiskit==2.6.0",
+        "qiskit-aer==0.17.2",
+        "rustworkx==0.18.1",
+        "scipy==1.18.1",
+        "six==1.17.0",
+        "stevedore==5.9.1",
+        "typing_extensions==4.16.0"
+      ]
+    }
+  ],
+  "cpu_recorded_versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "torch": "2.14.1+cpu",
+    "tokenizers": "0.23.3",
+    "qiskit": "2.6.0",
+    "qiskit-aer": "0.17.2"
+  },
+  "text_study_recorded_versions": {
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5090 Laptop GPU"
+  },
+  "not_included": [
+    "Installed dependencies or native libraries",
+    "AG News data",
+    "physical IBM backend service or credentials"
+  ],
+  "licensing": "Referenced requirements retain upstream terms; listing imports/versions is not redistribution or a blanket dependency license.",
+  "dynamic_import_limit": "AST includes imports inside functions. It does not recursively audit third-party packages or infer all dynamic/native dependencies.",
+  "startup_scope": "No fresh installation, training, CUDA execution, official scoring, simulated sampling, or provider connection."
+}

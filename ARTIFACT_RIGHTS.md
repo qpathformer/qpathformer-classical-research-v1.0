@@ -13,3 +13,9 @@ The report's specified original content uses CC BY 4.0. The 38 listed Python fil
 Trained model checkpoints, datasets, runtime trees, complete operational archives and other unpublished materials remain separately retained. Reproduction requirements belong to the particular study and environment. Integrity and startup checks establish only their recorded scope, not scientific replication or physical-QPU performance.
 
 Historical source labels and paths inside unchanged payloads remain historical facts. Current package names identify study v0.9.5 within repository edition v1.0; they do not renumber the study, ETEL source or report edition. “Public report edition” identifies the report's editorial version; repository access is a separate setting.
+
+## Study v0.1
+
+The v0.1 release has separate Study, Documentation and Code ZIPs and seals. Its Study package contains the final PDF and Word report editions, edition changes and scoped rights; its Documentation package contains the early benchmark guides and evidence; its Code package contains the selected circuit, classical text-routing and offline-readiness implementation with bounded startup tools. This selection has no ETEL component.
+
+The [v0.1 records](release_records/study-v0.1/README.md) identify adopted CC BY 4.0 scopes for original report content and selected prose, and Platform License 1.0 for 24 Python files. The separately retained v0.1 archive is approximately 9.18 GB of logical content. Its datasets, checkpoints, installed environments and full archive are excluded from the curated downloads. The v0.9.5 packages and grants above remain unchanged.

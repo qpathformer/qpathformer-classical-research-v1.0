@@ -1,0 +1,82 @@
+{
+  "schema": "qpath-guidance-license-scope-1",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "files": [
+    {
+      "path": "START_HERE.md",
+      "bytes": 1974,
+      "sha256": "31925cbbcf8b408358d32d86501dd863f22cb050356eb8ecd3b6d2015c4f0200",
+      "reviewed_identity": {
+        "bytes": 1659,
+        "sha256": "67033f122dda5b2750756c33a59370e72c92627130a38ec27126a4f1ed8d4c3c"
+      },
+      "relation": "final_licensed_edition_of_reviewed_guidance"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 1778,
+      "sha256": "58aa2b58b323bfd6c82df7f4477de4b9924c875faaa000997448e325282bbc83",
+      "reviewed_identity": {
+        "bytes": 1381,
+        "sha256": "7d7ce731fadb8abf0cdd6733f0736fc988937df5395000b18613bdacab43629d"
+      },
+      "relation": "final_licensed_edition_of_reviewed_guidance"
+    },
+    {
+      "path": "VERIFY.md",
+      "bytes": 1703,
+      "sha256": "8597fa7f1b282a3721834b99804574bf023a56a69a2f6f63b0581f2d39efef51",
+      "reviewed_identity": {
+        "bytes": 1613,
+        "sha256": "c6f697312b7bcffebabb76cf4fb5625ccba004b10f1697a2da5b54083a67e9b0"
+      },
+      "relation": "final_licensed_edition_of_reviewed_guidance"
+    },
+    {
+      "path": "provenance/README.md",
+      "bytes": 1473,
+      "sha256": "96c89eeba38f392589160bf967429b390f25c82d21a3475b0bdb6599bc828e1a",
+      "reviewed_identity": {
+        "bytes": 913,
+        "sha256": "443f8107f5c7c340c2446e94de53e644031421486ee69a15fbfd1bf5b5f54eb8"
+      },
+      "relation": "final_licensed_edition_of_reviewed_guidance"
+    },
+    {
+      "path": "QUICKSTART.md",
+      "bytes": 2897,
+      "sha256": "8075f9f6f78fb3bfbd28206a0cfebe94d1f1874c566427c6c7fb893184ab2d26",
+      "reviewed_identity": {
+        "bytes": 2679,
+        "sha256": "05d3f1972d8be31f6c9fbecf1ac2827ef5802e869a791e487a99ac8e1a8f3b4e"
+      },
+      "relation": "final_licensed_edition_of_reviewed_guidance"
+    },
+    {
+      "path": "DEPENDENCIES.md",
+      "bytes": 2271,
+      "sha256": "d6c93cca06596d0f32adf00079afd246b53af44e8bf9f8a0335b49934787ec8d",
+      "reviewed_identity": {
+        "bytes": 2276,
+        "sha256": "5cd7dae3a028fee3e9e68d65fa0ff3a481b189ad69a86ef1ee35eeaa0bba8480"
+      },
+      "relation": "final_licensed_edition_of_reviewed_guidance"
+    }
+  ],
+  "repository_edition": "v1.0",
+  "study_version": "v0.1",
+  "release_tag": "study-v0.1",
+  "status": "ADOPTED",
+  "licensor": "Anthony Siljeg",
+  "license": "CC-BY-4.0",
+  "adopted_on": "2026-10-29",
+  "timezone": "Australia/Sydney",
+  "adoption_record": "LICENSE_ADOPTION.json",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "release_state": "FINAL_SEALED_RELEASE_EDITION",
+  "scope": "Only controlled original explanatory prose in the exact reviewed selection, with final license/status/link treatment. Existing grants and permissions in reused expression remain applicable. No grant covers all surrounding material.",
+  "reviewed_scope_identity": {
+    "bytes": 1568,
+    "sha256": "4c1db4be6d4941930865dfca853ee4b285c2207545a141b57d929c7666e28236"
+  }
+}

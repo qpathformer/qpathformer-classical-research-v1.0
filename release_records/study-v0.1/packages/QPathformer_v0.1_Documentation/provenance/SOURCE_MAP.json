@@ -1,0 +1,154 @@
+{
+  "schema": "qpath-final-study-source-map-1",
+  "package_id": "QPathformer_v0.1_Documentation",
+  "actual_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029",
+  "actual_assembly_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\assembly\\QPathformer_v0.1_Documentation",
+  "content": "Documentation",
+  "reviewed_package": {
+    "zip": {
+      "bytes": 30709,
+      "sha256": "3f88b8f0344a0747eaf9fa99e44deabc06f3b0efe0a8f5a35ae9464ca0dea763"
+    },
+    "seal": {
+      "bytes": 1666,
+      "sha256": "55e0c20b498146b040642a40eb36eab223c07edabf818bb0f594e2fb1140275a"
+    }
+  },
+  "reviewed_source_map": {
+    "bytes": 2647,
+    "sha256": "572ee42f3e9aa889a72978cd00f5d64879e0097befea56cebe572497781a2eb8"
+  },
+  "license_adoption": "LICENSE_ADOPTION.json",
+  "guidance_scope": "GUIDANCE_LICENSE_SCOPE.json",
+  "files": [
+    {
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "bytes": 3933,
+      "sha256": "45baa07c5b5cd221082d4725ed61023720fde357f35654097d77cfbdf74f626b",
+      "reviewed_identity": null,
+      "relation": "final_license_status_or_report_edition_record"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 18615,
+      "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196",
+      "reviewed_identity": {
+        "bytes": 18615,
+        "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+      },
+      "relation": "unchanged_reviewed_bytes"
+    },
+    {
+      "path": "LICENSE_ADOPTION.json",
+      "bytes": 3586,
+      "sha256": "b06c731228c2f6111f878f7638ac1635b8a9488658390cacec0dbcb5f99c5413",
+      "reviewed_identity": null,
+      "relation": "final_license_status_or_report_edition_record"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 1570,
+      "sha256": "5be3600cbc7dfb646d9a200a5daa224f8b644e173d276fae650c98a629dbf23f",
+      "reviewed_identity": {
+        "bytes": 1327,
+        "sha256": "b84d3f75183035c80f7eed0c2750d46d25cf45933214316228a1f433e534f215"
+      },
+      "relation": "final_license_status_or_report_edition_record"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 1458,
+      "sha256": "1755f30f1cc3b6056c4cf2010ac4bcbe4ac1208aa3ed27c83a4e516f906b0232",
+      "reviewed_identity": {
+        "bytes": 1199,
+        "sha256": "5f612ea532ae33dd2922421078a04d3a0a1e892d521348b26db7a8d5912a4c7b"
+      },
+      "relation": "final_license_status_or_report_edition_record"
+    },
+    {
+      "path": "VERIFY.md",
+      "bytes": 1721,
+      "sha256": "ba634739199d9774392a1268f0149d25e9937beb6d856c22516999cfff905966",
+      "reviewed_identity": {
+        "bytes": 1631,
+        "sha256": "f0c09c9eadac8e4add8aef2aeccce96661a0af61421e18efe4174af273239bd5"
+      },
+      "relation": "final_license_status_or_report_edition_record"
+    },
+    {
+      "path": "payload/project/README.md",
+      "bytes": 5218,
+      "sha256": "b1c89e81a848f77f5da9b9063c719cdb2d519839bdba67aecccd6f59b12c6e95",
+      "reviewed_identity": {
+        "bytes": 4454,
+        "sha256": "b57bf3f852ec2965570833d78df409e6f756f7b948d347bd18f2f87402f9bae7"
+      },
+      "relation": "final_license_status_or_report_edition_record"
+    },
+    {
+      "path": "payload/project/RESEARCH_GUIDE.md",
+      "bytes": 5664,
+      "sha256": "a427349aa4e9637048c3e326fd87b000caccb10173ca7ab69b7d17012a53c30a",
+      "reviewed_identity": {
+        "bytes": 5537,
+        "sha256": "be4040c47f80356a608ebe28089d6067b9c243fa832ad4b2c8c628eeac3701bb"
+      },
+      "relation": "final_license_status_or_report_edition_record"
+    },
+    {
+      "path": "payload/project/docs/REPRODUCIBILITY.md",
+      "bytes": 6631,
+      "sha256": "44e21401e29d6f891af0162e7961815907947600d1d7c243bb36c8befaf2aa45",
+      "reviewed_identity": {
+        "bytes": 5959,
+        "sha256": "f8d338d1ffeaa1e73714b32e7948fce752746f9a9a54381febc54f8ddf8783a2"
+      },
+      "relation": "final_license_status_or_report_edition_record"
+    },
+    {
+      "path": "payload/project/provenance/SOURCES.json",
+      "bytes": 19164,
+      "sha256": "e8888a98120c5fd12542d1cec90b565381d3dc2f8e7d197f30cc9befdaaf77be",
+      "reviewed_identity": {
+        "bytes": 19164,
+        "sha256": "e8888a98120c5fd12542d1cec90b565381d3dc2f8e7d197f30cc9befdaaf77be"
+      },
+      "relation": "unchanged_reviewed_bytes"
+    },
+    {
+      "path": "payload/project/provenance/source_verification.json",
+      "bytes": 828,
+      "sha256": "fc35b54bcb68b3303b59d72cf7ef3d7e628f47a277ecd07e283bf0b032417b2e",
+      "reviewed_identity": {
+        "bytes": 828,
+        "sha256": "fc35b54bcb68b3303b59d72cf7ef3d7e628f47a277ecd07e283bf0b032417b2e"
+      },
+      "relation": "unchanged_reviewed_bytes"
+    },
+    {
+      "path": "payload/project/release_notes/study-v0.1.md",
+      "bytes": 5811,
+      "sha256": "6974195fb279017826711804c52038237be12255bc61605ba151f747643f1888",
+      "reviewed_identity": {
+        "bytes": 5271,
+        "sha256": "185ef95cef4f7bf9e794febe8085f64f3058bb173bcebc54c2bf54b9ebe41c60"
+      },
+      "relation": "final_license_status_or_report_edition_record"
+    },
+    {
+      "path": "provenance/README.md",
+      "bytes": 1473,
+      "sha256": "96c89eeba38f392589160bf967429b390f25c82d21a3475b0bdb6599bc828e1a",
+      "reviewed_identity": {
+        "bytes": 913,
+        "sha256": "443f8107f5c7c340c2446e94de53e644031421486ee69a15fbfd1bf5b5f54eb8"
+      },
+      "relation": "final_license_status_or_report_edition_record"
+    }
+  ],
+  "source_note": "Scientific source code, dependency inventory, canonical legal texts and original-archive evidence are unchanged. Report science, tables and figures are preserved; edition and rights metadata changes are disclosed.",
+  "repository_edition": "v1.0",
+  "study_version": "v0.1",
+  "release_tag": "study-v0.1",
+  "release_state": "FINAL_SEALED_RELEASE_EDITION"
+}

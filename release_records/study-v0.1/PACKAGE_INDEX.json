@@ -1,0 +1,47 @@
+{
+  "schema": "qpath-final-package-index-1",
+  "repository_edition": "v1.0",
+  "study_version": "v0.1",
+  "packages": [
+    {
+      "package": "QPathformer_v0.1_Study",
+      "zip": {
+        "path": "QPathformer_v0.1_Study.zip",
+        "bytes": 1284100,
+        "sha256": "31dd793005f4ac157c13ce084222717d3b48823e08f5dd9726ba8b2f5db9eef7"
+      },
+      "seal": {
+        "path": "QPathformer_v0.1_Study.seal.json",
+        "bytes": 1706,
+        "sha256": "6a01ed41e6fdaec7e135325805c0af710ecc5c20789fa20a43450100f5d92fa6"
+      }
+    },
+    {
+      "package": "QPathformer_v0.1_Code",
+      "zip": {
+        "path": "QPathformer_v0.1_Code.zip",
+        "bytes": 140242,
+        "sha256": "3f264e71879c0ef5461d0232d6a59e6f9de3c74cbc34997585646df426b96fd7"
+      },
+      "seal": {
+        "path": "QPathformer_v0.1_Code.seal.json",
+        "bytes": 1702,
+        "sha256": "f4b462dd5d546c637e0da94c5879ba553716cc164e836a3809c7927837f17f2b"
+      }
+    },
+    {
+      "package": "QPathformer_v0.1_Documentation",
+      "zip": {
+        "path": "QPathformer_v0.1_Documentation.zip",
+        "bytes": 35348,
+        "sha256": "065cd405c33682e148c9a8fbfbd4e32184589ff820c3179e32e761aa1a6ff180"
+      },
+      "seal": {
+        "path": "QPathformer_v0.1_Documentation.seal.json",
+        "bytes": 1736,
+        "sha256": "ad34c5f68a8a6f384ee33a2acae16be77cae7b3ac708430b7d00add0815ddebc"
+      }
+    }
+  ],
+  "boundary": "Final curated downloads. External startup and publication records are not inserted into sealed packages."
+}

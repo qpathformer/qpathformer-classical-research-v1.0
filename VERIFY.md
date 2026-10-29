@@ -1,4 +1,8 @@
-# Verify the study-v0.9.5 packages
+# Verify the study release packages
+
+For v0.1, use its [package identities and adopted scopes](release_records/study-v0.1/README.md), [final ZIP/seal/startup binding](release_records/study-v0.1/FRESH_PACKAGE_VERIFICATION.json) and [startup receipt](release_records/study-v0.1/QPathformer_v0.1_Code.startup.json). Its tools run from the outer Code package root. The layout-specific instructions below describe the preserved v0.9.5 packages.
+
+## Study v0.9.5
 
 Keep each ZIP beside its matching `.seal.json`. First compare the ZIP filename, byte size and SHA-256 with that seal. The seal identifies the expected outer root and the outer manifest/checksum identities. A SHA-256 seal is an integrity record, not a digital signature or a license grant.
 

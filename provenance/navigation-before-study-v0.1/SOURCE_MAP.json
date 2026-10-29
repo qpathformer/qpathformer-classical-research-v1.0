@@ -1,0 +1,582 @@
+{
+  "schema": "qpath-documentation-source-map-1",
+  "source_repository": "qpathformer/qpathformer-classical-research",
+  "source_repository_id": 1436694826,
+  "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+  "files": [
+    {
+      "path": "ARTIFACT_RIGHTS.md",
+      "source_path": "ARTIFACT_RIGHTS.md",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 5515,
+        "sha256": "4b6aee3e9705960ee1d00b334b3ecb14953e9d21207e1d0e129f8dc0798522d8"
+      },
+      "current_identity": {
+        "bytes": 2059,
+        "sha256": "5f2c796f04986da06d994b4bc845128839b6c1e5f8d6defbcdacb261a4634fa9"
+      },
+      "relation": "adapted_source_file"
+    },
+    {
+      "path": "CITATION.cff",
+      "source_path": "CITATION.cff",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 568,
+        "sha256": "7014f1bb8f1def602b26f975106233ac95b85d1e147758a9f36d4a61da160b57"
+      },
+      "current_identity": {
+        "bytes": 814,
+        "sha256": "15f1e5d0036d0e43148c4b2417666c42357cb5cc60e90ff64f9b551437409f53"
+      },
+      "relation": "adapted_source_file"
+    },
+    {
+      "path": "CODE_LICENSE_SCOPE.json",
+      "source_path": "CODE_LICENSE_SCOPE.json",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 9567,
+        "sha256": "02d5e60edbe02f42f94fa273b644cd5e597a2d67e2f9ee1fed913eacb45966d4"
+      },
+      "current_identity": {
+        "bytes": 9567,
+        "sha256": "02d5e60edbe02f42f94fa273b644cd5e597a2d67e2f9ee1fed913eacb45966d4"
+      },
+      "relation": "unchanged_source_file"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "source_path": "CONTRIBUTING.md",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 2205,
+        "sha256": "f11383db6dbf729a441a6a4666c0663bf11545f4fc03d3cfd4385d3e66ff8a75"
+      },
+      "current_identity": {
+        "bytes": 2190,
+        "sha256": "c7ecb10fcff304071b36731a14d9e5e87c4450adeff3bde1b8b0fe725f463096"
+      },
+      "relation": "adapted_source_file"
+    },
+    {
+      "path": "CONTRIBUTORS.md",
+      "source_path": "CONTRIBUTORS.md",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 520,
+        "sha256": "5105469988a3330de4195049a9bf38b908b7d9c598d130d47f10700314f837ea"
+      },
+      "current_identity": {
+        "bytes": 584,
+        "sha256": "0ca6c91ee3c0190d6840381dfe6412524b96678099f27e3b4fa75b85afdea878"
+      },
+      "relation": "adapted_source_file"
+    },
+    {
+      "path": "DOCUMENTATION_RIGHTS.md",
+      "source_path": "DOCUMENTATION_RIGHTS.md",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 3968,
+        "sha256": "70d8ec6bc8b70b83b31c8a2a95f3fd51e817a99bbd0074b8fadbe609ff3b9d08"
+      },
+      "current_identity": {
+        "bytes": 3397,
+        "sha256": "22a8304bde0b28be2604ed8f8e56bdfcc0b396f492050e8857a8d67a6a277b6c"
+      },
+      "relation": "adapted_source_file"
+    },
+    {
+      "path": "LICENSE",
+      "source_path": "LICENSE",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 2327,
+        "sha256": "2af58d6a409b39a95f0195837ac26a52af7087bb1eade6fa222dd5ad25b2c536"
+      },
+      "current_identity": {
+        "bytes": 1504,
+        "sha256": "e16cffe5ca241883efdb827356b6a814ad6c345a6da72673fb18fad36e0c3000"
+      },
+      "relation": "adapted_source_file"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "source_path": "LICENSES/CC-BY-4.0.txt",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 18615,
+        "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+      },
+      "current_identity": {
+        "bytes": 18615,
+        "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+      },
+      "relation": "unchanged_source_file"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "source_path": "LICENSE_SCOPE.md",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 5971,
+        "sha256": "3acbce6469774f45a5383dec3850894e2a14a11560c77046ad8aed02390e4a70"
+      },
+      "current_identity": {
+        "bytes": 3390,
+        "sha256": "103cd4fdf70ef63b3e103f964f2d3955cb4c04c79b4a9a664138801143adb242"
+      },
+      "relation": "adapted_source_file"
+    },
+    {
+      "path": "NOTICE.md",
+      "source_path": "NOTICE.md",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 3575,
+        "sha256": "20e498c60bba3562b54f0a36acba002ad144acf079ca4d0d28553626a8747408"
+      },
+      "current_identity": {
+        "bytes": 2067,
+        "sha256": "64ffe0885fd6adb9ccb20fc4837084e65a25fe5ed1c3100c988e78733b5ab3c3"
+      },
+      "relation": "adapted_source_file"
+    },
+    {
+      "path": "QPATHFORMER-PLATFORM-1.0.txt",
+      "source_path": "QPATHFORMER-PLATFORM-1.0.txt",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 1461,
+        "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+      },
+      "current_identity": {
+        "bytes": 1461,
+        "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+      },
+      "relation": "unchanged_source_file"
+    },
+    {
+      "path": "README.md",
+      "source_path": "README.md",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 12086,
+        "sha256": "9190bf6ac210660a242ceca16d599f9c9a8a547e6c26f878f2e613bdc348d176"
+      },
+      "current_identity": {
+        "bytes": 11777,
+        "sha256": "1866c89911a11eace85f32c7bb5ebd210dc6b84f2cc3cb84c01f4a093b1720a2"
+      },
+      "relation": "adapted_source_file"
+    },
+    {
+      "path": "REPORT_LICENSE_SCOPE.json",
+      "source_path": "REPORT_LICENSE_SCOPE.json",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 5560,
+        "sha256": "578586d178ce0cc5832a1fceae4edb00befc3d640375efdb8c4d586117ff2db3"
+      },
+      "current_identity": {
+        "bytes": 5560,
+        "sha256": "578586d178ce0cc5832a1fceae4edb00befc3d640375efdb8c4d586117ff2db3"
+      },
+      "relation": "unchanged_source_file"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "source_path": "THIRD_PARTY_NOTICES.md",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 3270,
+        "sha256": "06264ea1d2b437bdffcb445c5ddd78215b7ca68cd5e45bc4d5e8127e2df58921"
+      },
+      "current_identity": {
+        "bytes": 2031,
+        "sha256": "da650f0bb9b93f419623ed7435a3438127a640ecdd22bb3b5b0497c8882a4bd7"
+      },
+      "relation": "adapted_source_file"
+    },
+    {
+      "path": "VERIFY.md",
+      "source_path": "VERIFY.md",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 3148,
+        "sha256": "7d863d80730ab11c7d5bb5ed681f328cd403f366a4bf9ef125e84cca79afe365"
+      },
+      "current_identity": {
+        "bytes": 3222,
+        "sha256": "2ca914b51f512c8097b8a09aa89d561eef2ecac88a0bc3fccdb752dda909187b"
+      },
+      "relation": "adapted_source_file"
+    },
+    {
+      "path": "assets/ILLUSTRATIONS.md",
+      "source_path": "assets/ILLUSTRATIONS.md",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 1208,
+        "sha256": "42a94b11de8ab7140674dafa8d0f50561cc74e0004c0f4e01345a6d41fc8df92"
+      },
+      "current_identity": {
+        "bytes": 1319,
+        "sha256": "fc061c02e130087b8eea8d3ae9dca10483e101995dc260de2e295b612911a7f4"
+      },
+      "relation": "adapted_source_file"
+    },
+    {
+      "path": "assets/annulus.png",
+      "source_path": "assets/annulus.png",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 99985,
+        "sha256": "3b3869749faf3d02a968795490d17dcb7575c0e92b1b268f81220d8ec923e75b"
+      },
+      "current_identity": {
+        "bytes": 99985,
+        "sha256": "3b3869749faf3d02a968795490d17dcb7575c0e92b1b268f81220d8ec923e75b"
+      },
+      "relation": "unchanged_source_file"
+    },
+    {
+      "path": "assets/annulus.svg",
+      "source_path": "assets/annulus.svg",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 507107,
+        "sha256": "3b70840df03b3394bdf85d29665420bbf366517caecdabcb5c40a266783faeac"
+      },
+      "current_identity": {
+        "bytes": 507107,
+        "sha256": "3b70840df03b3394bdf85d29665420bbf366517caecdabcb5c40a266783faeac"
+      },
+      "relation": "unchanged_source_file"
+    },
+    {
+      "path": "assets/benchmark-overview.png",
+      "source_path": "assets/benchmark-overview.png",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 253914,
+        "sha256": "429ad2ac2c00aab2c4fab1e63ec093d34ef0329520a8e264beca5e304f98793b"
+      },
+      "current_identity": {
+        "bytes": 253914,
+        "sha256": "429ad2ac2c00aab2c4fab1e63ec093d34ef0329520a8e264beca5e304f98793b"
+      },
+      "relation": "unchanged_source_file"
+    },
+    {
+      "path": "assets/benchmark-overview.svg",
+      "source_path": "assets/benchmark-overview.svg",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 2501283,
+        "sha256": "3c7e9080f0b498cd11011d46221d81fc229c557099198210b4771707327cfe40"
+      },
+      "current_identity": {
+        "bytes": 2501283,
+        "sha256": "3c7e9080f0b498cd11011d46221d81fc229c557099198210b4771707327cfe40"
+      },
+      "relation": "unchanged_source_file"
+    },
+    {
+      "path": "assets/checkerboard.png",
+      "source_path": "assets/checkerboard.png",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 56915,
+        "sha256": "065d3c9eaf407ebadae17df28e02f58717496daa8e5abfe0cb3ed481ad20c87a"
+      },
+      "current_identity": {
+        "bytes": 56915,
+        "sha256": "065d3c9eaf407ebadae17df28e02f58717496daa8e5abfe0cb3ed481ad20c87a"
+      },
+      "relation": "unchanged_source_file"
+    },
+    {
+      "path": "assets/checkerboard.svg",
+      "source_path": "assets/checkerboard.svg",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 958115,
+        "sha256": "99b6fff5f517658f346bed45d8c880165a8d027042cc0d17acc535f1960f4116"
+      },
+      "current_identity": {
+        "bytes": 958115,
+        "sha256": "99b6fff5f517658f346bed45d8c880165a8d027042cc0d17acc535f1960f4116"
+      },
+      "relation": "unchanged_source_file"
+    },
+    {
+      "path": "assets/disk.png",
+      "source_path": "assets/disk.png",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 75956,
+        "sha256": "2c4c2103f34e377c37abc7c9018338d30ff2edcabaf66019cff857a2cee704bc"
+      },
+      "current_identity": {
+        "bytes": 75956,
+        "sha256": "2c4c2103f34e377c37abc7c9018338d30ff2edcabaf66019cff857a2cee704bc"
+      },
+      "relation": "unchanged_source_file"
+    },
+    {
+      "path": "assets/disk.svg",
+      "source_path": "assets/disk.svg",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 286568,
+        "sha256": "9bcbe6b95799ce9b32702c53c3486bf9c7649f15b9e03e512b5fcc74565564bf"
+      },
+      "current_identity": {
+        "bytes": 286568,
+        "sha256": "9bcbe6b95799ce9b32702c53c3486bf9c7649f15b9e03e512b5fcc74565564bf"
+      },
+      "relation": "unchanged_source_file"
+    },
+    {
+      "path": "assets/qpathformer-three-state.png",
+      "source_path": "assets/qpathformer-three-state.png",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 1369384,
+        "sha256": "2631f0809ee1898f79aebe0da1e5cfa0bd6bfc63ed206e29a673a949d2bdde00"
+      },
+      "current_identity": {
+        "bytes": 1369384,
+        "sha256": "2631f0809ee1898f79aebe0da1e5cfa0bd6bfc63ed206e29a673a949d2bdde00"
+      },
+      "relation": "unchanged_source_file"
+    },
+    {
+      "path": "assets/spiral.png",
+      "source_path": "assets/spiral.png",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 143487,
+        "sha256": "dd07aa56b9a1092d0c6839bb50381a9d73bb1850a3acee20831fc21928fcf34e"
+      },
+      "current_identity": {
+        "bytes": 143487,
+        "sha256": "dd07aa56b9a1092d0c6839bb50381a9d73bb1850a3acee20831fc21928fcf34e"
+      },
+      "relation": "unchanged_source_file"
+    },
+    {
+      "path": "assets/spiral.svg",
+      "source_path": "assets/spiral.svg",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 646613,
+        "sha256": "64bea555757c54d87a218df8bd4f52e59e80633486831c09c809750cc131d21b"
+      },
+      "current_identity": {
+        "bytes": 646613,
+        "sha256": "64bea555757c54d87a218df8bd4f52e59e80633486831c09c809750cc131d21b"
+      },
+      "relation": "unchanged_source_file"
+    },
+    {
+      "path": "docs/DISTRIBUTION_GUIDE.md",
+      "current_identity": {
+        "bytes": 3148,
+        "sha256": "6b6a9bf40d297a4b5b3a4c65ff949331c67137adb6c5f4a2ba8236a413d57498"
+      },
+      "relation": "new_distribution_guidance"
+    },
+    {
+      "path": "docs/QPU_RELEASE_PLAN.md",
+      "source_path": "docs/QPU_RELEASE_PLAN.md",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 7845,
+        "sha256": "f63f029a3988d220ec0015a1ebb846c230401f0460c1312d141726a117cf4fd2"
+      },
+      "current_identity": {
+        "bytes": 7908,
+        "sha256": "0bd90df7bc98cd553971552c483e96ee88c263c46a5a2fe4abd9860ef4e8a534"
+      },
+      "relation": "adapted_source_file"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "source_path": "docs/REPRODUCIBILITY.md",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 4690,
+        "sha256": "fd8e0eecefd7df7a930cd01d0f25c14ee54431daa4bf54e2446f5b33fb2ec87a"
+      },
+      "current_identity": {
+        "bytes": 4865,
+        "sha256": "9b07f4ea7bb63dd4e6377dd60ad1bbd59d14a590646bccb773536abe1e3aa063"
+      },
+      "relation": "adapted_source_file"
+    },
+    {
+      "path": "docs/RESEARCH_GUIDE.md",
+      "source_path": "docs/RESEARCH_GUIDE.md",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 4671,
+        "sha256": "f1035383f5ca3cfb2417c45f667779cf0e14a8b0c9645670672dedb6f6fd1ad5"
+      },
+      "current_identity": {
+        "bytes": 4723,
+        "sha256": "9c35935ea18af693e771a16fbd37b37b17d967672acc4d402cd0fd5c8701beb5"
+      },
+      "relation": "adapted_source_file"
+    },
+    {
+      "path": "docs/RESEARCH_ROADMAP.md",
+      "source_path": "docs/RESEARCH_ROADMAP.md",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 3351,
+        "sha256": "847c9d936b4deb5c524993309c6b785671f38b19b3a081fe24d27ff365822497"
+      },
+      "current_identity": {
+        "bytes": 3385,
+        "sha256": "4ad190a4c4f75a9c57f7c0a625004218c4676f18566a35edb699e3460884fcd1"
+      },
+      "relation": "adapted_source_file"
+    },
+    {
+      "path": "docs/THREE_STATE_DESIGN.md",
+      "source_path": "docs/THREE_STATE_DESIGN.md",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 1422,
+        "sha256": "8bab05f6ce8c2dc0e66fa4e7a8ce5e2282ffbcff30e8a65eb6bd5dc84a8c8e56"
+      },
+      "current_identity": {
+        "bytes": 1451,
+        "sha256": "ac58b285297108646a61890f49f2c4d99d47848a89249654c832a98f29c1d4a9"
+      },
+      "relation": "adapted_source_file"
+    },
+    {
+      "path": "docs/architecture/ORIGIN.json",
+      "source_path": "docs/architecture/ORIGIN.json",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 3669,
+        "sha256": "af4c1f6207d9a44c2c08331a6db33ffbbd626b743a024fd5bece56778e9f5818"
+      },
+      "current_identity": {
+        "bytes": 3669,
+        "sha256": "af4c1f6207d9a44c2c08331a6db33ffbbd626b743a024fd5bece56778e9f5818"
+      },
+      "relation": "unchanged_source_file"
+    },
+    {
+      "path": "docs/architecture/QPATH-ARCH-001.pdf",
+      "source_path": "docs/architecture/QPATH-ARCH-001.pdf",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 1747813,
+        "sha256": "a0404adeab6c1fd647b6f2b46020d200a6d86e5867e62ea226f1618e12b524d8"
+      },
+      "current_identity": {
+        "bytes": 1747813,
+        "sha256": "a0404adeab6c1fd647b6f2b46020d200a6d86e5867e62ea226f1618e12b524d8"
+      },
+      "relation": "unchanged_source_file"
+    },
+    {
+      "path": "docs/architecture/README.md",
+      "source_path": "docs/architecture/README.md",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 3727,
+        "sha256": "f21676c22d668ca3cb0a60223897af1d152bbf657b6100ae209b44dbd1b9dfe1"
+      },
+      "current_identity": {
+        "bytes": 3727,
+        "sha256": "f21676c22d668ca3cb0a60223897af1d152bbf657b6100ae209b44dbd1b9dfe1"
+      },
+      "relation": "unchanged_source_file"
+    },
+    {
+      "path": "provenance/research_sources.json",
+      "source_path": "provenance/research_sources.json",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 9869,
+        "sha256": "f298b09aaa5e3ec6f2b8b1d4c2a6466bfa9627a6ef86f6624d9b69b47bf59caa"
+      },
+      "current_identity": {
+        "bytes": 9869,
+        "sha256": "f298b09aaa5e3ec6f2b8b1d4c2a6466bfa9627a6ef86f6624d9b69b47bf59caa"
+      },
+      "relation": "unchanged_source_file"
+    },
+    {
+      "path": "provenance/visual_sources.json",
+      "source_path": "provenance/visual_sources.json",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 2648,
+        "sha256": "99500ea742828c4aef335e9a4b389005a0abd29f84efc4b43bd451ba1e9762d6"
+      },
+      "current_identity": {
+        "bytes": 2648,
+        "sha256": "99500ea742828c4aef335e9a4b389005a0abd29f84efc4b43bd451ba1e9762d6"
+      },
+      "relation": "unchanged_source_file"
+    },
+    {
+      "path": "release_notes/study-v0.9.5.md",
+      "source_path": "release_notes/study-v0.9.5.md",
+      "source_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+      "source_identity": {
+        "bytes": 5311,
+        "sha256": "8b2a98c0359bc89856a83904a8ea6ea3e6eb7b1afe9297aa6739ea24ceff1b67"
+      },
+      "current_identity": {
+        "bytes": 5179,
+        "sha256": "d610997c1ebd4517ca442d5b6eab3ee5fcdb38defa5afe828e6776c004d6b755"
+      },
+      "relation": "adapted_source_file"
+    },
+    {
+      "path": "NEW_GUIDANCE_LICENSE_SCOPE.json",
+      "current_identity": {
+        "bytes": 10529,
+        "sha256": "74aee9fd3d055d77b4cd74b4936a96c5b04760743cffdcb725b3a9aa87759e30"
+      },
+      "relation": "new_distribution_scope_record"
+    },
+    {
+      "path": "DOCUMENTATION_LICENSE_SCOPE.json",
+      "current_identity": {
+        "bytes": 12327,
+        "sha256": "cbcef207a6b35760c9118c42562fd250fec30b1b78c04babef3dc978e69b5a1a"
+      },
+      "relation": "new_distribution_scope_record"
+    },
+    {
+      "path": "provenance/prior-distribution/NEW_GUIDANCE_LICENSE_SCOPE.json",
+      "current_identity": {
+        "bytes": 6261,
+        "sha256": "2f191261b593bc69b6ff38e97c4367f7ce86db00eb6abf125e5b2b4306d3c66e"
+      },
+      "relation": "unchanged_prior_guidance_grant_record"
+    }
+  ],
+  "history": "Explicit selected export; no staging Git history imported. Dated source decisions and original source texts remain preserved evidence.",
+  "source_content_grant": "provenance/source-edition/DOCUMENTATION_LICENSE_SCOPE.json",
+  "original_source_paths_under": "provenance/source-edition/files for adapted/omitted source texts; unchanged sources remain at mapped current paths",
+  "source_record_date": "2026-10-29",
+  "new_guidance_grant": "NEW_GUIDANCE_LICENSE_SCOPE.json",
+  "historical_repository_resolution": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/main/provenance/publication-study-v0.9.5/REPOSITORY_MAPPING.json",
+  "repository_edition": "v1.0",
+  "study_version": "v0.9.5",
+  "release_tag": "study-v0.9.5",
+  "editorial_update": "Repository edition remains v1.0; the release and package identities now use study v0.9.5. The recorded scientific findings, payloads and original content grants are unchanged."
+}

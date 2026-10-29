@@ -19,13 +19,17 @@
     {
       "path": "ARTIFACT_RIGHTS.md",
       "classification": "new_original_additions_to_reviewed_project_guidance",
-      "bytes": 2059,
-      "sha256": "5f2c796f04986da06d994b4bc845128839b6c1e5f8d6defbcdacb261a4634fa9",
+      "bytes": 2934,
+      "sha256": "47a718d5f7eea6a768fc324a77be55e7f832631f69eaabddaa6f39daf7fe7634",
       "licensed_source_identity": {
         "bytes": 2014,
         "sha256": "dac6acec2c8c6dc77ac1668da756b0c5d2238b1e0729fc5da7e3764aa0bb7c7a"
       },
-      "relation": "editorial_adaptation"
+      "relation": "editorial_adaptation_with_v0.1_navigation",
+      "previous_repository_identity": {
+        "bytes": 2059,
+        "sha256": "5f2c796f04986da06d994b4bc845128839b6c1e5f8d6defbcdacb261a4634fa9"
+      }
     },
     {
       "path": "CITATION.cff",
@@ -74,24 +78,32 @@
     {
       "path": "LICENSE",
       "classification": "new_original_additions_to_reviewed_project_guidance",
-      "bytes": 1504,
-      "sha256": "e16cffe5ca241883efdb827356b6a814ad6c345a6da72673fb18fad36e0c3000",
+      "bytes": 1892,
+      "sha256": "ec84a6c5aedc9b5f573c555e621931e4b5fe80246b196de0178d320ae2d96b4a",
       "licensed_source_identity": {
         "bytes": 1510,
         "sha256": "d1fb7425ac1321eb612277cb2e4bdf937e7874a66a397a020ca4dc32695b27ed"
       },
-      "relation": "editorial_adaptation"
+      "relation": "editorial_adaptation_with_v0.1_navigation",
+      "previous_repository_identity": {
+        "bytes": 1504,
+        "sha256": "e16cffe5ca241883efdb827356b6a814ad6c345a6da72673fb18fad36e0c3000"
+      }
     },
     {
       "path": "LICENSE_SCOPE.md",
       "classification": "new_original_additions_to_reviewed_project_guidance",
-      "bytes": 3390,
-      "sha256": "103cd4fdf70ef63b3e103f964f2d3955cb4c04c79b4a9a664138801143adb242",
+      "bytes": 4114,
+      "sha256": "ff4b22e1f3d29a4a7c848117d315802607de53bdcf1e54e99268ea7aca55b3ac",
       "licensed_source_identity": {
         "bytes": 3310,
         "sha256": "58a3910fa8ff27d43ff4a256ec4cdc631dc4632de8612f477050de813e886275"
       },
-      "relation": "editorial_adaptation"
+      "relation": "editorial_adaptation_with_v0.1_navigation",
+      "previous_repository_identity": {
+        "bytes": 3390,
+        "sha256": "103cd4fdf70ef63b3e103f964f2d3955cb4c04c79b4a9a664138801143adb242"
+      }
     },
     {
       "path": "NOTICE.md",
@@ -107,13 +119,17 @@
     {
       "path": "README.md",
       "classification": "new_original_additions_to_reviewed_project_guidance",
-      "bytes": 11777,
-      "sha256": "1866c89911a11eace85f32c7bb5ebd210dc6b84f2cc3cb84c01f4a093b1720a2",
+      "bytes": 12887,
+      "sha256": "5a3f22f58460cdc0c2fdadc824c9c00e43464d10cdecf9a037c9ddeec589ac93",
       "licensed_source_identity": {
         "bytes": 11729,
         "sha256": "8bd893ad3839885998b395b4bb52eed3115b0e241e6305fa97ec436fecd2cd07"
       },
-      "relation": "editorial_adaptation"
+      "relation": "editorial_adaptation_with_v0.1_navigation",
+      "previous_repository_identity": {
+        "bytes": 11777,
+        "sha256": "1866c89911a11eace85f32c7bb5ebd210dc6b84f2cc3cb84c01f4a093b1720a2"
+      }
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -129,13 +145,17 @@
     {
       "path": "VERIFY.md",
       "classification": "new_original_additions_to_reviewed_project_guidance",
-      "bytes": 3222,
-      "sha256": "2ca914b51f512c8097b8a09aa89d561eef2ecac88a0bc3fccdb752dda909187b",
+      "bytes": 3644,
+      "sha256": "b5f5a6bda026ec23ba3051553e898635af74661205c83f035797c271c86ff99d",
       "licensed_source_identity": {
         "bytes": 3116,
         "sha256": "4bfd41fda8192248337549aa775026a765ae852ef7485e6b6d62aeccdaea0652"
       },
-      "relation": "editorial_adaptation"
+      "relation": "editorial_adaptation_with_v0.1_navigation",
+      "previous_repository_identity": {
+        "bytes": 3222,
+        "sha256": "2ca914b51f512c8097b8a09aa89d561eef2ecac88a0bc3fccdb752dda909187b"
+      }
     },
     {
       "path": "assets/ILLUSTRATIONS.md",
@@ -238,5 +258,6 @@
     "date": "2026-10-29",
     "basis": "Owner requested repository rename, study-version package and release naming, current access clarification and consistent links. Earlier content grant is retained; this does not record a new license adoption.",
     "source_files_preserved_in_prior_scope": true
-  }
+  },
+  "navigation_update": "The current navigation adds the separately adopted v0.1 scopes and reuses their licensed explanatory content. Earlier source-grant identities remain preserved; this does not expand any selection into a blanket repository license."
 }

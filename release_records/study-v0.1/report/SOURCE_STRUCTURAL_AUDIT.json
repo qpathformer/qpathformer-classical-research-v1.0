@@ -1,0 +1,30 @@
+{
+  "source": "C:\\Q2\\Full_Local_Benchmark_v0.1\\docs\\QPATH-RPT-002_Local_Benchmark_and_IBM_Readiness_Report_v0.1.docx",
+  "bytes": 517844,
+  "sha256": "d7ccacc971c8cf878a6c33cabd62efe869c9886c158f728e39288f387033a4e8",
+  "paragraph_count": 352,
+  "table_count": 15,
+  "media": [
+    {
+      "path": "word/media/image1.png",
+      "bytes": 135329,
+      "sha256": "bb88579adcc46ab2e26ceb203fe0bbd1cfe71fd01be89a92c469fa45f3fbb575"
+    },
+    {
+      "path": "word/media/image2.png",
+      "bytes": 79809,
+      "sha256": "3bda7a54958b7133bff2ebc8e31e048ac64995066d89a2fb335ee3c1bb8a24fa"
+    },
+    {
+      "path": "word/media/image3.png",
+      "bytes": 283217,
+      "sha256": "1ccda96e1f61b77166bb534db022d16aed8b06648248b96686f1171d1debde53"
+    }
+  ],
+  "core": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:dcmitype=\"http://purl.org/dc/dcmitype/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><dc:title>Q-Pathformer local benchmark and IBM readiness \u2014 internal report</dc:title><dc:subject>Internal local benchmark evidence and IBM hardware readiness</dc:subject><dc:creator>Prepared for Anthony Siljeg</dc:creator><cp:keywords>Q-Pathformer, internal research, local benchmark, IBM readiness</cp:keywords><dc:description>Internal comparison derived from preserved local experiment artifacts</dc:description><cp:lastModifiedBy>Codex</cp:lastModifiedBy><cp:revision>1</cp:revision><dcterms:created xsi:type=\"dcterms:W3CDTF\">2026-10-18T10:29:32Z</dcterms:created><dcterms:modified xsi:type=\"dcterms:W3CDTF\">2026-10-18T10:29:32Z</dcterms:modified><cp:category/></cp:coreProperties>",
+  "comments": [],
+  "tracked_insertions": 0,
+  "tracked_deletions": 0,
+  "hidden_runs": 0,
+  "external_relationships": []
+}

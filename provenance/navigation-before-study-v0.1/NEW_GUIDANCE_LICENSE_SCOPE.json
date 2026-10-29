@@ -1,0 +1,242 @@
+{
+  "schema": "qpath-new-guidance-license-scope-1",
+  "status": "ADOPTED_CONTENT_WITH_EDITORIAL_UPDATES",
+  "adopted_on": "2026-10-29",
+  "licensor": "Anthony Siljeg",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "owner_confirmation": {
+    "question_id": "call_5e61bef512ea4681b6bd5a3100fc346b",
+    "question_index": 0,
+    "question": "For the new original wrapper and support prose listed in the reviewed v1.0 packs, do you confirm authority and adopt CC BY 4.0 as Anthony Siljeg, with your existing founder/company attribution, including the final status and link corrections? The existing report, code and source-documentation grants stay unchanged; architecture, data, models and archives remain outside this new grant. This decision is needed because your earlier documentation approval explicitly excluded future wrapper files.",
+    "answer": "Yes — adopt CC BY 4.0 for the listed new prose"
+  },
+  "scope": "Only controlled new original explanatory prose in the listed files, including final status and link corrections. Existing licensed source content and applicable adaptations retain their earlier grants.",
+  "exclusions": "No additional grant for architecture documents, software, report artifacts as whole files, datasets, models, complete archives, third-party material, canonical legal texts or machine-readable integrity/provenance records. Existing code, report and source-documentation grants remain unchanged.",
+  "attribution_note": "Company and founder details are attribution, not an ownership transfer. No blanket repository or package grant. Publisher hashes identify editions, not restrictions on licensed adaptations.",
+  "files": [
+    {
+      "path": "ARTIFACT_RIGHTS.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 2059,
+      "sha256": "5f2c796f04986da06d994b4bc845128839b6c1e5f8d6defbcdacb261a4634fa9",
+      "licensed_source_identity": {
+        "bytes": 2014,
+        "sha256": "dac6acec2c8c6dc77ac1668da756b0c5d2238b1e0729fc5da7e3764aa0bb7c7a"
+      },
+      "relation": "editorial_adaptation"
+    },
+    {
+      "path": "CITATION.cff",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 814,
+      "sha256": "15f1e5d0036d0e43148c4b2417666c42357cb5cc60e90ff64f9b551437409f53",
+      "licensed_source_identity": {
+        "bytes": 780,
+        "sha256": "414d45102b9f44bad94ac434f12a5fc55343fb19a87a2a989482801cb16dcb6f"
+      },
+      "relation": "editorial_adaptation"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 2190,
+      "sha256": "c7ecb10fcff304071b36731a14d9e5e87c4450adeff3bde1b8b0fe725f463096",
+      "licensed_source_identity": {
+        "bytes": 2190,
+        "sha256": "c7ecb10fcff304071b36731a14d9e5e87c4450adeff3bde1b8b0fe725f463096"
+      },
+      "relation": "unchanged"
+    },
+    {
+      "path": "CONTRIBUTORS.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 584,
+      "sha256": "0ca6c91ee3c0190d6840381dfe6412524b96678099f27e3b4fa75b85afdea878",
+      "licensed_source_identity": {
+        "bytes": 584,
+        "sha256": "0ca6c91ee3c0190d6840381dfe6412524b96678099f27e3b4fa75b85afdea878"
+      },
+      "relation": "unchanged"
+    },
+    {
+      "path": "DOCUMENTATION_RIGHTS.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 3397,
+      "sha256": "22a8304bde0b28be2604ed8f8e56bdfcc0b396f492050e8857a8d67a6a277b6c",
+      "licensed_source_identity": {
+        "bytes": 3367,
+        "sha256": "897fff2e7a8c7a79ff9a316d6d7d67a6651ce379de032f7d28469ae88baf5cb3"
+      },
+      "relation": "editorial_adaptation"
+    },
+    {
+      "path": "LICENSE",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 1504,
+      "sha256": "e16cffe5ca241883efdb827356b6a814ad6c345a6da72673fb18fad36e0c3000",
+      "licensed_source_identity": {
+        "bytes": 1510,
+        "sha256": "d1fb7425ac1321eb612277cb2e4bdf937e7874a66a397a020ca4dc32695b27ed"
+      },
+      "relation": "editorial_adaptation"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 3390,
+      "sha256": "103cd4fdf70ef63b3e103f964f2d3955cb4c04c79b4a9a664138801143adb242",
+      "licensed_source_identity": {
+        "bytes": 3310,
+        "sha256": "58a3910fa8ff27d43ff4a256ec4cdc631dc4632de8612f477050de813e886275"
+      },
+      "relation": "editorial_adaptation"
+    },
+    {
+      "path": "NOTICE.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 2067,
+      "sha256": "64ffe0885fd6adb9ccb20fc4837084e65a25fe5ed1c3100c988e78733b5ab3c3",
+      "licensed_source_identity": {
+        "bytes": 2046,
+        "sha256": "9828b76dd4bed46f5ffdae1359afe093b3a65ca450293786936cb42843ee47c4"
+      },
+      "relation": "editorial_adaptation"
+    },
+    {
+      "path": "README.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 11777,
+      "sha256": "1866c89911a11eace85f32c7bb5ebd210dc6b84f2cc3cb84c01f4a093b1720a2",
+      "licensed_source_identity": {
+        "bytes": 11729,
+        "sha256": "8bd893ad3839885998b395b4bb52eed3115b0e241e6305fa97ec436fecd2cd07"
+      },
+      "relation": "editorial_adaptation"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 2031,
+      "sha256": "da650f0bb9b93f419623ed7435a3438127a640ecdd22bb3b5b0497c8882a4bd7",
+      "licensed_source_identity": {
+        "bytes": 2031,
+        "sha256": "da650f0bb9b93f419623ed7435a3438127a640ecdd22bb3b5b0497c8882a4bd7"
+      },
+      "relation": "unchanged"
+    },
+    {
+      "path": "VERIFY.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 3222,
+      "sha256": "2ca914b51f512c8097b8a09aa89d561eef2ecac88a0bc3fccdb752dda909187b",
+      "licensed_source_identity": {
+        "bytes": 3116,
+        "sha256": "4bfd41fda8192248337549aa775026a765ae852ef7485e6b6d62aeccdaea0652"
+      },
+      "relation": "editorial_adaptation"
+    },
+    {
+      "path": "assets/ILLUSTRATIONS.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 1319,
+      "sha256": "fc061c02e130087b8eea8d3ae9dca10483e101995dc260de2e295b612911a7f4",
+      "licensed_source_identity": {
+        "bytes": 1319,
+        "sha256": "fc061c02e130087b8eea8d3ae9dca10483e101995dc260de2e295b612911a7f4"
+      },
+      "relation": "unchanged"
+    },
+    {
+      "path": "docs/DISTRIBUTION_GUIDE.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 3148,
+      "sha256": "6b6a9bf40d297a4b5b3a4c65ff949331c67137adb6c5f4a2ba8236a413d57498",
+      "licensed_source_identity": {
+        "bytes": 3072,
+        "sha256": "658f8921f484506c3815e058f5d33f2cbbdd3c4fcf47ef6b11fec27f0ed44150"
+      },
+      "relation": "editorial_adaptation"
+    },
+    {
+      "path": "docs/QPU_RELEASE_PLAN.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 7908,
+      "sha256": "0bd90df7bc98cd553971552c483e96ee88c263c46a5a2fe4abd9860ef4e8a534",
+      "licensed_source_identity": {
+        "bytes": 7893,
+        "sha256": "dfaa1179b857c912963558e5f46739d195433bc32b1ef9bf3c4dc93c22a9e93d"
+      },
+      "relation": "editorial_adaptation"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 4865,
+      "sha256": "9b07f4ea7bb63dd4e6377dd60ad1bbd59d14a590646bccb773536abe1e3aa063",
+      "licensed_source_identity": {
+        "bytes": 4779,
+        "sha256": "161abb0a7c18b16a425f6ee2bf957405fd1eb2918c001231736c39a9dccd97a6"
+      },
+      "relation": "editorial_adaptation"
+    },
+    {
+      "path": "docs/RESEARCH_GUIDE.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 4723,
+      "sha256": "9c35935ea18af693e771a16fbd37b37b17d967672acc4d402cd0fd5c8701beb5",
+      "licensed_source_identity": {
+        "bytes": 4723,
+        "sha256": "9c35935ea18af693e771a16fbd37b37b17d967672acc4d402cd0fd5c8701beb5"
+      },
+      "relation": "unchanged"
+    },
+    {
+      "path": "docs/RESEARCH_ROADMAP.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 3385,
+      "sha256": "4ad190a4c4f75a9c57f7c0a625004218c4676f18566a35edb699e3460884fcd1",
+      "licensed_source_identity": {
+        "bytes": 3382,
+        "sha256": "89abd5a9b83eb90c86a712a258ba3239cf4362f0ce813866e84955bb1e0581ab"
+      },
+      "relation": "editorial_adaptation"
+    },
+    {
+      "path": "docs/THREE_STATE_DESIGN.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 1451,
+      "sha256": "ac58b285297108646a61890f49f2c4d99d47848a89249654c832a98f29c1d4a9",
+      "licensed_source_identity": {
+        "bytes": 1451,
+        "sha256": "ac58b285297108646a61890f49f2c4d99d47848a89249654c832a98f29c1d4a9"
+      },
+      "relation": "unchanged"
+    },
+    {
+      "path": "release_notes/study-v0.9.5.md",
+      "classification": "new_original_additions_to_reviewed_project_guidance",
+      "bytes": 5179,
+      "sha256": "d610997c1ebd4517ca442d5b6eab3ee5fcdb38defa5afe828e6776c004d6b755",
+      "licensed_source_identity": {
+        "bytes": 5179,
+        "sha256": "22dadefd852a0e14be898539e70c193e7fbdd1743f4a9f165edfa4b3eaa7d9f7"
+      },
+      "relation": "editorial_adaptation"
+    }
+  ],
+  "repository_edition": "v1.0",
+  "study_version": "v0.9.5",
+  "release_tag": "study-v0.9.5",
+  "source_grant": {
+    "path": "provenance/prior-distribution/NEW_GUIDANCE_LICENSE_SCOPE.json",
+    "bytes": 6261,
+    "sha256": "2f191261b593bc69b6ff38e97c4367f7ce86db00eb6abf125e5b2b4306d3c66e"
+  },
+  "editorial_update": {
+    "date": "2026-10-29",
+    "basis": "Owner requested repository rename, study-version package and release naming, current access clarification and consistent links. Earlier content grant is retained; this does not record a new license adoption.",
+    "source_files_preserved_in_prior_scope": true
+  }
+}

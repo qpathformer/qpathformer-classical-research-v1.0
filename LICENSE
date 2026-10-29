@@ -3,11 +3,11 @@ Q-Pathformer Classical Research v1.0 — scoped rights notice
 This repository collection has separate code, report and documentation
 content scopes. No single grant covers the whole repository or every ZIP file.
 
-CODE: The 38 Python files in CODE_LICENSE_SCOPE.json use the unchanged
+STUDY v0.9.5 CODE: The 38 Python files in CODE_LICENSE_SCOPE.json use the unchanged
 Q-Pathformer Platform License 1.0, supplied in QPATHFORMER-PLATFORM-1.0.txt.
 Those files are within the companion Code package's original payload tree.
 
-REPORT: Specified original report content in REPORT_LICENSE_SCOPE.json uses
+STUDY v0.9.5 REPORT: Specified original report content in REPORT_LICENSE_SCOPE.json uses
 CC BY 4.0. The report PDF and Word edition are in the companion Study package.
 
 DOCUMENTATION: Identified original source content retains the adopted CC BY 4.0
@@ -24,3 +24,9 @@ Alnotrea Pty Ltd is company affiliation, not an ownership-transfer statement.
 
 Read LICENSE_SCOPE.md, DOCUMENTATION_RIGHTS.md, ARTIFACT_RIGHTS.md and
 THIRD_PARTY_NOTICES.md for exact boundaries. Existing permissions remain.
+
+STUDY v0.1: The separate 24-file Python scope uses Platform License 1.0.
+Identified report content and the selected explanatory prose use CC BY 4.0,
+adopted by Anthony Siljeg on 29 October 2026. Exact scopes and exclusions
+are recorded in release_records/study-v0.1/README.md and its linked records.
+Earlier grants and canonical license texts remain unchanged.

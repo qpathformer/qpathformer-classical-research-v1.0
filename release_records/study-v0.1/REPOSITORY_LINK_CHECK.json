@@ -1,0 +1,25 @@
+{
+  "status": "PASS_CURRENT_REPOSITORY_LINKS",
+  "local_link_occurrences_checked": 164,
+  "unchanged_historical_snapshots": [
+    "provenance/source-edition/DOCUMENTATION_RIGHTS.md",
+    "provenance/source-edition/files/ARTIFACT_RIGHTS.md",
+    "provenance/source-edition/files/CONTRIBUTING.md",
+    "provenance/source-edition/files/CONTRIBUTORS.md",
+    "provenance/source-edition/files/DOCUMENTATION_RIGHTS.md",
+    "provenance/source-edition/files/LICENSE_SCOPE.md",
+    "provenance/source-edition/files/NOTICE.md",
+    "provenance/source-edition/files/README.md",
+    "provenance/source-edition/files/THIRD_PARTY_NOTICES.md",
+    "provenance/source-edition/files/VERIFY.md",
+    "provenance/source-edition/files/assets/ILLUSTRATIONS.md",
+    "provenance/source-edition/files/docs/DISTRIBUTION_PLAN.md",
+    "provenance/source-edition/files/docs/QPU_RELEASE_PLAN.md",
+    "provenance/source-edition/files/docs/REPRODUCIBILITY.md",
+    "provenance/source-edition/files/docs/RESEARCH_GUIDE.md",
+    "provenance/source-edition/files/docs/RESEARCH_ROADMAP.md",
+    "provenance/source-edition/files/docs/THREE_STATE_DESIGN.md",
+    "provenance/source-edition/files/release_notes/study-v0.9.5.md"
+  ],
+  "boundary": "Dated original source-document snapshots preserve their original relative links and are verified byte-unchanged; current navigation and all new release records are checked in their active locations."
+}

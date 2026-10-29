@@ -1,0 +1,117 @@
+{
+  "status": "FINAL_REPORT_EDITION",
+  "created_at_utc": "2026-10-29T08:25:07.170609+00:00",
+  "source": {
+    "path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\docs\\QPATH-RPT-002_Local_Benchmark_and_IBM_Readiness_Report_v0.1.docx",
+    "filename": "QPATH-RPT-002_Local_Benchmark_and_IBM_Readiness_Report_v0.1.docx",
+    "bytes": 517844,
+    "sha256": "d7ccacc971c8cf878a6c33cabd62efe869c9886c158f728e39288f387033a4e8"
+  },
+  "files": {
+    "docx": {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\report\\files\\QPATH_RPT002_v0.1_Public_Report_Edition_1.docx",
+      "filename": "QPATH_RPT002_v0.1_Public_Report_Edition_1.docx",
+      "bytes": 519020,
+      "sha256": "3c6e21e6490aaf19c0aa9841623ac705fb479ea3db97fca3bfa6c19ef21165e6"
+    },
+    "pdf": {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\report\\files\\QPATH_RPT002_v0.1_Public_Report_Edition_1.pdf",
+      "filename": "QPATH_RPT002_v0.1_Public_Report_Edition_1.pdf",
+      "bytes": 861876,
+      "sha256": "decac9d14909e1c5a71e5fd7aa86dbbf66c532d3b56ef6a7e58b84cfe8604a2b"
+    }
+  },
+  "final_docx": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\report\\files\\QPATH_RPT002_v0.1_Public_Report_Edition_1.docx",
+    "filename": "QPATH_RPT002_v0.1_Public_Report_Edition_1.docx",
+    "bytes": 519020,
+    "sha256": "3c6e21e6490aaf19c0aa9841623ac705fb479ea3db97fca3bfa6c19ef21165e6"
+  },
+  "final_pdf": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\report\\files\\QPATH_RPT002_v0.1_Public_Report_Edition_1.pdf",
+    "filename": "QPATH_RPT002_v0.1_Public_Report_Edition_1.pdf",
+    "bytes": 861876,
+    "sha256": "decac9d14909e1c5a71e5fd7aa86dbbf66c532d3b56ef6a7e58b84cfe8604a2b"
+  },
+  "changed_ooxml_parts": [
+    "docProps/core.xml",
+    "word/document.xml",
+    "word/footer1.xml",
+    "word/header1.xml"
+  ],
+  "original_paragraphs": 352,
+  "original_paragraph_changes": [
+    {
+      "zero_based_index": 2,
+      "before": "INTERNAL RESEARCH — NOT FOR PUBLICATION",
+      "after": "REPORT EDITION 1 | ORIGINAL STUDY 18 OCTOBER 2026"
+    }
+  ],
+  "original_tables_preserved": 15,
+  "original_figures_preserved": [
+    {
+      "path": "word/media/image1.png",
+      "bytes": 135329,
+      "sha256": "bb88579adcc46ab2e26ceb203fe0bbd1cfe71fd01be89a92c469fa45f3fbb575"
+    },
+    {
+      "path": "word/media/image2.png",
+      "bytes": 79809,
+      "sha256": "3bda7a54958b7133bff2ebc8e31e048ac64995066d89a2fb335ee3c1bb8a24fa"
+    },
+    {
+      "path": "word/media/image3.png",
+      "bytes": 283217,
+      "sha256": "1ccda96e1f61b77166bb534db022d16aed8b06648248b96686f1171d1debde53"
+    }
+  ],
+  "scientific_prose_results_and_tables_unchanged": true,
+  "original_pages": 12,
+  "final_pages": 13,
+  "omitted_scientific_content": [],
+  "appended_paragraphs": [
+    "Report edition and rights",
+    "Original study: 18 October 2026. Report edition 1 prepared: 29 October 2026.",
+    "Anthony Siljeg - Founder, Alnotrea Labs. Company affiliation: Alnotrea Pty Ltd. Project: Q-Pathformer Initiative.",
+    "This edition retains the completed v0.1 study, all 15 tables, all three figures, numerical findings, uncertainty statements, limitations and research recommendations. It changes the internal-use cover, header and footer labels, records author and license metadata, and adds this edition note. No scientific result has been recalculated or omitted.",
+    "The recommendation in section 10 to treat the original report as an internal decision record is retained as a historical recommendation made on 18 October 2026. Its call for a separately registered confirmation study, qualified baselines, cost accounting and technical review remains a limitation on broader claims. Preparing this report edition is not evidence that those proposed studies have been completed.",
+    "The original frozen report and full experiment archive remain separately retained. This report edition does not include the AG News source dataset, trained checkpoints, full runtime environments or the complete reproduction archive. Historical local and archive-relative paths identify the original evidence, rather than download locations for the present report.",
+    "Copyright 2026 Anthony Siljeg. The controlled original prose, table presentation and three figures in this report edition are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0), adopted on 29 October 2026. The license permits reuse and adaptation, including commercial use, with attribution, a license link and identification of changes, under its terms: https://creativecommons.org/licenses/by/4.0/.",
+    "This grant covers the identified report content only. Code, datasets, model weights, checkpoints, architecture documents, runtime environments, support files and full archives are outside this grant. Third-party material retains its own terms; existing grants remain unchanged. Anthony Siljeg is the licensor. The company name records affiliation, not a transfer of ownership.",
+    "Repository access and content licensing are separate. This license applies to the identified content regardless of repository visibility. This edition records no physical-QPU execution."
+  ],
+  "license": {
+    "status": "ADOPTED",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "licensor": "Anthony Siljeg",
+    "attribution": "Anthony Siljeg - Founder, Alnotrea Labs. Company affiliation: Alnotrea Pty Ltd. Q-Pathformer Initiative.",
+    "adoption_date": "2026-10-29",
+    "adoption_timezone": "Australia/Sydney",
+    "authority": "Explicit owner adoption in the current conversation",
+    "included": [
+      "Controlled original report prose",
+      "Controlled original table presentation",
+      "The three report figures identified by SHA-256"
+    ],
+    "excluded": [
+      "Code",
+      "Datasets",
+      "Model weights",
+      "Checkpoints",
+      "Architecture documents",
+      "Runtime environments",
+      "Support files",
+      "Full experiment archives",
+      "Third-party material not controlled by the licensor"
+    ],
+    "existing_grants_unchanged": true,
+    "company_affiliation_is_not_ownership_transfer": true
+  },
+  "changes": [
+    "Changed original cover/header/footer internal-use labels to report-edition labels",
+    "Updated author, affiliation and adopted-license metadata in DOCX and PDF",
+    "Added one edition/rights page preserving and explaining the historical section 10 recommendation",
+    "Finalized the reviewed edition note with the owner-adopted CC BY 4.0 grant for identified report content only"
+  ]
+}

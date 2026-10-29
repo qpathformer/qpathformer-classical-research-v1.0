@@ -1,0 +1,92 @@
+{
+  "status": "PASS_FRESH_EXTRACTION_AND_BOUNDED_STARTUP",
+  "checked_at_utc": "2026-10-29T08:27:49.214110+00:00",
+  "build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029",
+  "platform": {
+    "system": "Windows",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "sys_platform": "win32"
+  },
+  "packages": [
+    {
+      "package": "QPathformer_v0.1_Study",
+      "zip": {
+        "bytes": 1284100,
+        "sha256": "31dd793005f4ac157c13ce084222717d3b48823e08f5dd9726ba8b2f5db9eef7"
+      },
+      "seal": {
+        "bytes": 1706,
+        "sha256": "6a01ed41e6fdaec7e135325805c0af710ecc5c20789fa20a43450100f5d92fa6"
+      },
+      "fresh_extraction": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\qa\\fresh_extraction\\QPathformer_v0.1_Study",
+      "status": "PASS",
+      "files": 18,
+      "manifest_entries": 16,
+      "checksums": 17,
+      "extracted_bytes": 1444179
+    },
+    {
+      "package": "QPathformer_v0.1_Code",
+      "zip": {
+        "bytes": 140242,
+        "sha256": "3f264e71879c0ef5461d0232d6a59e6f9de3c74cbc34997585646df426b96fd7"
+      },
+      "seal": {
+        "bytes": 1702,
+        "sha256": "f4b462dd5d546c637e0da94c5879ba553716cc164e836a3809c7927837f17f2b"
+      },
+      "fresh_extraction": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\qa\\fresh_extraction\\QPathformer_v0.1_Code",
+      "status": "PASS",
+      "files": 52,
+      "manifest_entries": 50,
+      "checksums": 51,
+      "extracted_bytes": 439972
+    },
+    {
+      "package": "QPathformer_v0.1_Documentation",
+      "zip": {
+        "bytes": 35348,
+        "sha256": "065cd405c33682e148c9a8fbfbd4e32184589ff820c3179e32e761aa1a6ff180"
+      },
+      "seal": {
+        "bytes": 1736,
+        "sha256": "ad34c5f68a8a6f384ee33a2acae16be77cae7b3ac708430b7d00add0815ddebc"
+      },
+      "fresh_extraction": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\qa\\fresh_extraction\\QPathformer_v0.1_Documentation",
+      "status": "PASS",
+      "files": 16,
+      "manifest_entries": 14,
+      "checksums": 15,
+      "extracted_bytes": 85559
+    }
+  ],
+  "code_zip": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\dist\\QPathformer_v0.1_Code.zip",
+    "bytes": 140242,
+    "sha256": "3f264e71879c0ef5461d0232d6a59e6f9de3c74cbc34997585646df426b96fd7"
+  },
+  "code_seal": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\dist\\QPathformer_v0.1_Code.seal.json",
+    "bytes": 1702,
+    "sha256": "f4b462dd5d546c637e0da94c5879ba553716cc164e836a3809c7927837f17f2b"
+  },
+  "code_startup_receipt": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\receipts\\QPathformer_v0.1_Code.startup.json",
+    "bytes": 27564,
+    "sha256": "f9b0c6c74fd41725af6abaf3c8173a1b50bbf6ad237f52969794164156b25d98"
+  },
+  "receipt_outside_entire_package": true,
+  "package_bytes_unchanged": true,
+  "scope": "Imports, CLI help, 15 selected non-training unit tests, one local circuit compilation/matrix check.",
+  "not_verified": [
+    "Full scientific reproduction",
+    "Official prediction replay or test scoring",
+    "Training, optimizer updates or tokenizer fitting",
+    "CUDA execution",
+    "Complete test suites",
+    "Fresh dependency installation",
+    "Cross-machine portability",
+    "Full archive restore",
+    "IBM device compilation, calibration or QPU execution"
+  ]
+}

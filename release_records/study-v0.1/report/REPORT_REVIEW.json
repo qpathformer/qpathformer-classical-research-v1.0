@@ -1,0 +1,201 @@
+{
+  "status": "PASS_FINAL_REPORT",
+  "reviewed_at_utc": "2026-10-29T08:25:07.170609+00:00",
+  "scope": "Final edition integrity, adopted-license metadata, artifact structure, rendering and visual review; not a rerun of the scientific experiments.",
+  "source": {
+    "path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\docs\\QPATH-RPT-002_Local_Benchmark_and_IBM_Readiness_Report_v0.1.docx",
+    "filename": "QPATH-RPT-002_Local_Benchmark_and_IBM_Readiness_Report_v0.1.docx",
+    "bytes": 517844,
+    "sha256": "d7ccacc971c8cf878a6c33cabd62efe869c9886c158f728e39288f387033a4e8"
+  },
+  "files": {
+    "docx": {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\report\\files\\QPATH_RPT002_v0.1_Public_Report_Edition_1.docx",
+      "filename": "QPATH_RPT002_v0.1_Public_Report_Edition_1.docx",
+      "bytes": 519020,
+      "sha256": "3c6e21e6490aaf19c0aa9841623ac705fb479ea3db97fca3bfa6c19ef21165e6"
+    },
+    "pdf": {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\report\\files\\QPATH_RPT002_v0.1_Public_Report_Edition_1.pdf",
+      "filename": "QPATH_RPT002_v0.1_Public_Report_Edition_1.pdf",
+      "bytes": 861876,
+      "sha256": "decac9d14909e1c5a71e5fd7aa86dbbf66c532d3b56ef6a7e58b84cfe8604a2b"
+    }
+  },
+  "final_docx": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\report\\files\\QPATH_RPT002_v0.1_Public_Report_Edition_1.docx",
+    "filename": "QPATH_RPT002_v0.1_Public_Report_Edition_1.docx",
+    "bytes": 519020,
+    "sha256": "3c6e21e6490aaf19c0aa9841623ac705fb479ea3db97fca3bfa6c19ef21165e6"
+  },
+  "final_pdf": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\report\\files\\QPATH_RPT002_v0.1_Public_Report_Edition_1.pdf",
+    "filename": "QPATH_RPT002_v0.1_Public_Report_Edition_1.pdf",
+    "bytes": 861876,
+    "sha256": "decac9d14909e1c5a71e5fd7aa86dbbf66c532d3b56ef6a7e58b84cfe8604a2b"
+  },
+  "source_unchanged": true,
+  "review_predecessors_unchanged": true,
+  "original_paragraphs_preserved_except_cover_status": true,
+  "all_15_tables_unchanged": true,
+  "all_3_figures_unchanged": true,
+  "figures": [
+    {
+      "path": "word/media/image1.png",
+      "bytes": 135329,
+      "sha256": "bb88579adcc46ab2e26ceb203fe0bbd1cfe71fd01be89a92c469fa45f3fbb575"
+    },
+    {
+      "path": "word/media/image2.png",
+      "bytes": 79809,
+      "sha256": "3bda7a54958b7133bff2ebc8e31e048ac64995066d89a2fb335ee3c1bb8a24fa"
+    },
+    {
+      "path": "word/media/image3.png",
+      "bytes": 283217,
+      "sha256": "1ccda96e1f61b77166bb534db022d16aed8b06648248b96686f1171d1debde53"
+    }
+  ],
+  "original_page_count": 12,
+  "final_page_count": 13,
+  "original_page_body_text_comparison": [
+    {
+      "page": 1,
+      "body_text_equal": true
+    },
+    {
+      "page": 2,
+      "body_text_equal": true
+    },
+    {
+      "page": 3,
+      "body_text_equal": true
+    },
+    {
+      "page": 4,
+      "body_text_equal": true
+    },
+    {
+      "page": 5,
+      "body_text_equal": true
+    },
+    {
+      "page": 6,
+      "body_text_equal": true
+    },
+    {
+      "page": 7,
+      "body_text_equal": true
+    },
+    {
+      "page": 8,
+      "body_text_equal": true
+    },
+    {
+      "page": 9,
+      "body_text_equal": true
+    },
+    {
+      "page": 10,
+      "body_text_equal": true
+    },
+    {
+      "page": 11,
+      "body_text_equal": true
+    },
+    {
+      "page": 12,
+      "body_text_equal": true
+    }
+  ],
+  "rendered_pages_identical_to_review_predecessor": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "metadata_author": "Anthony Siljeg",
+  "metadata_affiliation": "Anthony Siljeg - Founder, Alnotrea Labs. Company affiliation: Alnotrea Pty Ltd. Q-Pathformer Initiative.",
+  "metadata_written_in_docx_pdf_and_xmp": true,
+  "pdf_metadata_step_preserved_all_page_text": true,
+  "structural_checks": {
+    "macros": [],
+    "embedded_objects": [],
+    "comments": [],
+    "tracked_insertions": 0,
+    "tracked_deletions": 0,
+    "hidden_runs": 0,
+    "external_relationships": []
+  },
+  "pdf_embedded_attachments": 0,
+  "rendering": {
+    "docx_to_pdf": "Microsoft Word for Microsoft 365, hidden read-only COM export; bundled LibreOffice unavailable on Windows",
+    "rasterizer": "Packaged documents 26.1026.10807 render_docx.py rasterize function using bundled Poppler, with conversion hook returning native Word PDF",
+    "dpi": 140,
+    "png_directory": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\report\\qa\\rendered"
+  },
+  "visual_review": {
+    "all_pages_reviewed": true,
+    "pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "status": "PASS",
+    "findings": "All 13 final page PNGs visually inspected. Tables, figures, captions, mathematical symbols, page furniture and edition/rights note are legible and fit their pages. No clipping, overlap or unexpected blank page."
+  },
+  "new_license_adopted": true,
+  "license": {
+    "status": "ADOPTED",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "licensor": "Anthony Siljeg",
+    "attribution": "Anthony Siljeg - Founder, Alnotrea Labs. Company affiliation: Alnotrea Pty Ltd. Q-Pathformer Initiative.",
+    "adoption_date": "2026-10-29",
+    "adoption_timezone": "Australia/Sydney",
+    "authority": "Explicit owner adoption in the current conversation",
+    "included": [
+      "Controlled original report prose",
+      "Controlled original table presentation",
+      "The three report figures identified by SHA-256"
+    ],
+    "excluded": [
+      "Code",
+      "Datasets",
+      "Model weights",
+      "Checkpoints",
+      "Architecture documents",
+      "Runtime environments",
+      "Support files",
+      "Full experiment archives",
+      "Third-party material not controlled by the licensor"
+    ],
+    "existing_grants_unchanged": true,
+    "company_affiliation_is_not_ownership_transfer": true
+  },
+  "active_review_status_removed_from_edition_and_metadata": true,
+  "historical_recommendations_preserved": true,
+  "supporting_records": [
+    "EDITION_CHANGES.md",
+    "EDITION_CHANGES.json",
+    "SOURCE_STRUCTURAL_AUDIT.json"
+  ]
+}
