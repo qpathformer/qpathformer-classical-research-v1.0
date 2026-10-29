@@ -1,0 +1,74 @@
+{
+  "status": "PASS_ALL_FINAL_PAGES_VISUALLY_REVIEWED",
+  "reviewed_at_utc": "2026-10-29T09:09:56.187245+00:00",
+  "docx": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261029_r02\\report\\QPathformer_v0.5_Report.docx",
+    "bytes": 675972,
+    "sha256": "51580cfc9f21a69a815f3887c0405c5b5b854aee37513b189e67aa29f7eadeea"
+  },
+  "pdf": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261029_r02\\report\\QPathformer_v0.5_Report.pdf",
+    "bytes": 1326651,
+    "sha256": "54df391f847ee29016cb371df874d99516c3ba87c8aeec8f632d54c3c6d59080"
+  },
+  "pages": 34,
+  "inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
+  ],
+  "visual_review": "Each final PNG individually displayed at native 96-DPI page resolution. All pages readable; no clipping, overlapping content, missing glyphs or broken table/figure placement observed. Original historical layout retained. Appended edition note inspected.",
+  "preservation_receipt": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261029_r02\\report\\REPORT_PRESERVATION.json",
+    "bytes": 3329,
+    "sha256": "2ed1684b59f7a9141df3d26d4bcd2a374924e3a8e767476be8e3ea0821f9d989"
+  },
+  "pdf_preservation_receipt": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261029_r02\\receipts\\PDF_PRESERVATION.json",
+    "bytes": 9665,
+    "sha256": "6a8efe277ad746a35130d4ae5eeb1fe81ce0542b831ddc357477623a16fb01e6"
+  },
+  "original_report_matches_delivery_manifest": true,
+  "disclosure_review": {
+    "credential_pattern_scan": "No matches for common GitHub/project-key/private-key patterns in OOXML",
+    "retained_items": [
+      "Historical local paths and internal-use labels",
+      "Original recommendations and full-archive references"
+    ],
+    "redactions": [],
+    "note": "Owner may review historical local-path labels before publication. No scientific content was removed."
+  },
+  "rendering": "Packaged render_docx.py attempted and missing Windows LibreOffice recorded. Native Word read-only PDF export succeeded; bundled Poppler rendered every final page.",
+  "metadata_correction": "Word export omitted PDF title/author. r02 adds correct title, attribution, subject and keywords; all final page PNG bytes match all previously individually inspected pages exactly."
+}

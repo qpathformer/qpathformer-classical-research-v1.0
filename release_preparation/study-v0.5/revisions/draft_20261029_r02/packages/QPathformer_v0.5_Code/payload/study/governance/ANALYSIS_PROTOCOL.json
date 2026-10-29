@@ -1,0 +1,169 @@
+{
+  "study_id": "QPATH-READOUT-v0.5",
+  "status": "REGISTERED_BEFORE_OFFICIAL_TRAINING",
+  "methods": [
+    "q2_kmeans",
+    "qscalar_kmeans",
+    "qmulti_kmeans",
+    "qfrozen_kmeans",
+    "mlp4relu_kmeans",
+    "mlp8relu_kmeans",
+    "mlp4tanh_kmeans",
+    "mlp8tanh_kmeans",
+    "trig_kmeans",
+    "trig_global",
+    "mlp_global"
+  ],
+  "population_order": [
+    "confirmation_circle_1",
+    "confirmation_circle_2",
+    "confirmation_ellipse"
+  ],
+  "training_seeds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005
+  ],
+  "primary_metric": "Common clipped BCE natural logs,clip[1e-7,1-1e-7]; lowerbetter; bounded comparison metric, not strictlyproper onraw[0,1].",
+  "primary_contrasts": [
+    [
+      "qscalar_kmeans",
+      "q2_kmeans"
+    ],
+    [
+      "qmulti_kmeans",
+      "qscalar_kmeans"
+    ],
+    [
+      "qmulti_kmeans",
+      "qfrozen_kmeans"
+    ],
+    [
+      "qmulti_kmeans",
+      "trig_kmeans"
+    ]
+  ],
+  "primary_family_size": 12,
+  "primary_direction": "First minus second perpairedseed/population. NegativeBCEfavorfirst.",
+  "practical_difference": 0.01,
+  "seed_uncertainty": {
+    "n": 5,
+    "df": 4,
+    "descriptive_confidence": 0.95,
+    "primary_confidence": 0.9958333333333333,
+    "formula": "meanpaired differences +/- t.ppf(1-alpha/2,4)*sampleSD/sqrt5",
+    "limits": "Eachpopulationseparate. Conditionalonthissplit/router/recipe/selection. Smalln,tassumptions; donotpool15seed/popcellsasindependenttasks."
+  },
+  "record_bootstrap": {
+    "replicates": 10000,
+    "rng": "NumPy2.5.4 PCG64",
+    "seeds": {
+      "confirmation_circle_1": 198501,
+      "confirmation_circle_2": 198502,
+      "confirmation_ellipse": 198503
+    },
+    "draws": "rng.multinomial(n,np.full(n,1.0/n),size=10000),saveuint16NPYandSHA256; samecountsforALLmethods/fiveseeds withinpopulation",
+    "metrics": [
+      "bce",
+      "macro_f1",
+      "accuracy",
+      "brier"
+    ],
+    "aggregation": "Recomputepercheckpointmetricforeachsample, then averagefivecheckpoints. BCE/Brierlinearrecordloss canaveragebeforeweighting;F1mustrecomputeconfusionspercheckpoint.",
+    "quantiles": "NumPylinear, primaryalpha=.05/12 separateadjustedpercentiles; descriptive2.5/97.5. Approximate bootstrap tails.",
+    "limits": "Conditionalfixedtrainedcheckpoints/testpopulation; not additionaltrainingreplications. Do not combinewithseedCI."
+  },
+  "secondary_contrasts": [
+    [
+      "qmulti_kmeans",
+      "q2_kmeans"
+    ],
+    [
+      "qfrozen_kmeans",
+      "qscalar_kmeans"
+    ],
+    [
+      "qmulti_kmeans",
+      "mlp4relu_kmeans"
+    ],
+    [
+      "qmulti_kmeans",
+      "mlp8relu_kmeans"
+    ],
+    [
+      "qmulti_kmeans",
+      "mlp4tanh_kmeans"
+    ],
+    [
+      "qmulti_kmeans",
+      "mlp8tanh_kmeans"
+    ],
+    [
+      "qmulti_kmeans",
+      "mlp_global"
+    ],
+    [
+      "qmulti_kmeans",
+      "trig_global"
+    ],
+    [
+      "mlp8relu_kmeans",
+      "mlp4relu_kmeans"
+    ],
+    [
+      "mlp8tanh_kmeans",
+      "mlp4tanh_kmeans"
+    ],
+    [
+      "mlp4tanh_kmeans",
+      "mlp4relu_kmeans"
+    ],
+    [
+      "mlp8tanh_kmeans",
+      "mlp8relu_kmeans"
+    ],
+    [
+      "trig_kmeans",
+      "trig_global"
+    ]
+  ],
+  "secondary_metrics": [
+    "bce",
+    "macro_f1",
+    "accuracy",
+    "brier"
+  ],
+  "secondary_units": "F1/accuracydeltaspercentagepoints;BCE/Brieroriginalunits;ordinary95intervalsdescriptive,nosecondarysuperiorityclaims.",
+  "probability_quality": {
+    "brier": "mean((rawp-y)^2)",
+    "reliability": "10 fixed equal-width bins with float64 edges np.linspace(0,1,11); [edge_i,edge_i+1) except final includes 1. Empty bins count 0 and means null, omit weighted ECE contribution. Per-seed bin counts, mean probability and mean label.",
+    "ece": "sum(n_bin/n)*abs(meanp_bin-meanlabel_bin),descriptiveonly; neitherstrictlypropernorstandalonecalibrationproof. No fittedposthoccalibration.",
+    "native_loss": "Record native unbounded stablelogitBCE for all logitarms, clippedlegacy loss forrawanchor; reportnative/clippedcapsandwrongextremelogits, neverpretendobjectivesidentical."
+  },
+  "numerical": {
+    "canonical_threshold": 0.5,
+    "rule": "class1 iff p>=.5",
+    "probability_abs_tolerance": 2E-12,
+    "independent_aggregate_bce_abs_tolerance": 1E-08,
+    "canonical_saved_probability_metric_abs_tolerance": 2E-12,
+    "band": 7.105427357601002E-15,
+    "band_policy": "Anyindependentclassdifference musthaveBOTHrawprobabilitieswithinbandaround.5;otherwiseFAIL. Retaincanonicalmetrics, rawreferenceclasses,ambiguitycounts andall0/all1/label-assistedincorrect/correctextrema asdiagnostics only.",
+    "independent_native_logit_abs_tolerance": 1E-09,
+    "independent_native_aggregate_loss_abs_tolerance": 1E-08,
+    "native_policy": "Independent native logits and stable native loss must meet these absolute limits in addition to unchanged probability, canonical metric and class-band gates. No tolerance relaxation after outcomes."
+  },
+  "milestones": {
+    "threshold": 0.97,
+    "cadence_updates": 75,
+    "confirmation_checks": 3,
+    "all_runs_full_budget": true,
+    "first": "FirstloggedvalidationF1>=.97",
+    "confirmed": "Earliestthirdconsecutivequalifyingcheck;alsoreportsequencefirst.150updatesafteritsownsequencefirst.",
+    "nonreachers": "Explicitcountsandcensored15000horizon;conditionalmediansonlyamongreached;no actualearlysavings or earlycheckpointtestscore."
+  },
+  "resources": "Separateallocated/trainable/frozenparameters,bankexposure,train/val/diagnostic/inferencecost,cachecreation/storage,corestateevolutions,shiftcoreevolutions,Pauliobservablecalculations,headwork,MLP/trigcountsandlogicalmeasurementsettings. CPUhostconcurrency,notquantumdevicecost.",
+  "gate": "Data preparation may use labels for declared stratification. No test model predictions or scores before all165Bendpoints are committed, independently audited, and root releases hash-bound evaluation.",
+  "failure_policy": "Keepallpartialandfailedoutputs, nooverwrite/droppingarms,budgetsorsourcechangesafterfreeze. Documentrecoveries withindependentreview."
+}
