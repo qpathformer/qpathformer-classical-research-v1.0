@@ -1,0 +1,76 @@
+{
+  "status": "LICENSED_PRESERVATION_EDITION_PREPARED",
+  "source": {
+    "path": "C:\\Q2\\Improvement_Study_v0.9\\docs\\QPATH_RPT010_v0.9_Internal_Study_Report.docx",
+    "bytes": 1113738,
+    "sha256": "6f35101e9d3fda4581c2ef7102d0b330c89cd3bacc1771cf0c0e21b5db556ad8"
+  },
+  "docx": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029\\report\\files\\QPathformer_v0.9_Report_Edition_1.docx",
+    "bytes": 1114685,
+    "sha256": "6dd007d63937e67518b1fe312cdeb5b28596d06689f03c992be087a18d862244"
+  },
+  "original_body_nodes_byte_identical": true,
+  "original_paragraphs": 2277,
+  "original_tables": 37,
+  "media": [
+    {
+      "path": "word/media/image1.png",
+      "bytes": 171279,
+      "sha256": "600e4534f5a115504448b7866af54e44a1e0cca9a56c517817522b0736f13a15"
+    },
+    {
+      "path": "word/media/image2.png",
+      "bytes": 218669,
+      "sha256": "b295de20a359c4fcbcbd004ce44e354359ee6a8e00cf4a3205605653b76c8279"
+    },
+    {
+      "path": "word/media/image3.png",
+      "bytes": 216028,
+      "sha256": "ab1fc96e7a3ffceaf8aad02cc5b41719b0677cfd18e8ce8b01d4f9377d1f073c"
+    },
+    {
+      "path": "word/media/image4.png",
+      "bytes": 214893,
+      "sha256": "d3f6d8994ed7556044ab147563c23be48be92c9703d572a08bf8575b158c9d47"
+    },
+    {
+      "path": "word/media/image5.png",
+      "bytes": 215377,
+      "sha256": "9cab5e208303132910e7556fe9672cf53797189a677c4abe8646ea2a560629ed"
+    },
+    {
+      "path": "word/media/image6.png",
+      "bytes": 226887,
+      "sha256": "dcd00b8b014c654dca18a697ef923c1ebd30ad3f2b9ad83c92600e397a5cf30c"
+    }
+  ],
+  "changed_ooxml_parts": [
+    "word/document.xml",
+    "docProps/core.xml"
+  ],
+  "omitted_scientific_content": [],
+  "edition_changes": [
+    "Appended explicit edition/attribution/scoped adopted rights note",
+    "Corrected author/title/subject/affiliation metadata"
+  ],
+  "new_grants_adopted": true,
+  "disclosure_review": {
+    "redactions": [],
+    "retained_context": [
+      "Q-Pathformer v0.9 Plan B asks whether learning how inputs are shared among small experts improves prediction beyond fixed geometric routing, and whether any benefit exceeds an equally sized output correction. This is a local classical study of five-bank predictors containing two-qubit circuit emulation or freely learned trigonometric experts. It examines a limited mechanism within the proposed architecture. It does not evaluate large quantum states, language modeling, semantic memory or the complete architectural design. Physical quantum execution and a matched hardware comparison remain future v1.1 work; no quantum advantage claim follows from this experiment. The aim is useful classical implementation and a transparent future comparison, with unfavorable results retained alongside strengths and unresolved questions.",
+      "The recorded host uses an AMD Ryzen AI 9 HX 370 processor with 12 physical cores and 24 logical processors. Its recorded physical memory is 67,772,469,248 bytes. Computation uses the preserved local Python 3.12.14 environment with NumPy 2.5.4, SciPy 1.18.1 and float64 arithmetic. The OpenBLAS build identifies version 0.3.34.106.0; the effective worker thread count is one, independently of the library's larger compiled maximum. No GPU is used. Two-qubit amplitudes and readouts are calculated on this classical CPU. These measurements describe this host and software configuration; they are not quantum-device resource measurements or portable performance guarantees.",
+      "The native resource inventory covers all 756 engineering, development and confirmation workers through their retained samples. Stage wall is the first registered worker start to the last finish, including intervening gaps. Summed training elapsed time is occupancy, not parallel stage wall. Training CPU is nested inside broader worker CPU and must not be added to it. Native lifetime peak memory is measured through the post-verification sample, not final exit or training alone.",
+      "The approximately 30,000-credit major checkpoint and its saved resume instructions are retained. The user subsequently authorized completion with cumulative accounting. Other preserved operational corrections include identifying already-present native memory counters and stopping an inert fixture preflight that unintentionally entered a full endpoint scan; neither caused a training recipe change.",
+      "The initial approximately 30,000-credit target was a major-checkpoint safeguard. A recoverable checkpoint was saved and completion was explicitly authorized later without a new numeric ceiling. Final report assembly, packaging and delivery activity must be included in the append-only cumulative receipt after the report cutoff.",
+      "Input tokens",
+      "Cached input tokens",
+      "Uncached input tokens",
+      "Output tokens",
+      "Input plus output tokens",
+      "Standard credit equivalent",
+      "Operational 6x credit proxy"
+    ],
+    "owner_review": "Retained historical local paths, host and resource/usage details remain visible for owner publication review. No credential was deliberately included."
+  }
+}

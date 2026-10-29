@@ -1,0 +1,12 @@
+{
+  "reason": "Correct inherited scope-map resolution: v0.9.5 adopted source identities reside under assembly payloads when catalog repository path does not exist. Exact inherited permissions remain in force. Original scientific/source/report bytes unchanged.",
+  "prior_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029",
+  "prior_package_index": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029\\receipts\\PACKAGE_INDEX.json",
+    "bytes": 3935,
+    "sha256": "94ba5cf348ead8c9d215cc5705963a31eece223e4a517190c96ccfbd48fcaecb"
+  },
+  "prior_sealed_assets_preserved": true,
+  "new_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2",
+  "no_report_reexport_required": "PDF/DOCX bytes identical; existing all-page visual review remains bound to those exact bytes."
+}

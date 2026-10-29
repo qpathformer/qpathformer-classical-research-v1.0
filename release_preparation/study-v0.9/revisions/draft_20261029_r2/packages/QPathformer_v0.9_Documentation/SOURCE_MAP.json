@@ -1,0 +1,204 @@
+{
+  "schema": "qpath-source-map-1",
+  "study_version": "v0.9",
+  "actual_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2",
+  "source_archive_root": "C:\\Q2\\Improvement_Study_v0.9",
+  "source_delivery_manifest": {
+    "path": "C:\\Q2\\Improvement_Study_v0.9\\DELIVERY_MANIFEST.json",
+    "bytes": 26168604,
+    "sha256": "d40528f3688a5d7d45cbaf2e7878c1ef227ceec1ab5be42d23cd33d921c30a61"
+  },
+  "files": [
+    {
+      "path": "source/evidence/analysis/author/README_EVALUATION.txt",
+      "source_path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\author\\README_EVALUATION.txt",
+      "source_identity": {
+        "bytes": 7209,
+        "sha256": "5c59786efcc67babb4ddff04950e664bd4c4a88313431fa87a4718520ea451f9"
+      },
+      "output_identity": {
+        "bytes": 7209,
+        "sha256": "5c59786efcc67babb4ddff04950e664bd4c4a88313431fa87a4718520ea451f9"
+      },
+      "transformation": "original source copied without modification"
+    },
+    {
+      "path": "source/evidence/analysis/deployment/README_DERIVED.txt",
+      "source_path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\deployment\\README_DERIVED.txt",
+      "source_identity": {
+        "bytes": 3623,
+        "sha256": "8f73ddaff9130227ada90e1cd17c755f4ed03f7165f46bb4bcf6840a48ea14d7"
+      },
+      "output_identity": {
+        "bytes": 3623,
+        "sha256": "8f73ddaff9130227ada90e1cd17c755f4ed03f7165f46bb4bcf6840a48ea14d7"
+      },
+      "transformation": "original source copied without modification"
+    },
+    {
+      "path": "source/evidence/analysis/independent_audit/README_INDEPENDENT_ANALYSIS.txt",
+      "source_path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\README_INDEPENDENT_ANALYSIS.txt",
+      "source_identity": {
+        "bytes": 3283,
+        "sha256": "dac3f0d1298898f6e92a066324c29b1fc258511bfc662f5f154e41918ed4d643"
+      },
+      "output_identity": {
+        "bytes": 3283,
+        "sha256": "dac3f0d1298898f6e92a066324c29b1fc258511bfc662f5f154e41918ed4d643"
+      },
+      "transformation": "original source copied without modification"
+    },
+    {
+      "path": "source/evidence/analysis/independent_audit/README_INDEPENDENT_AUDIT.txt",
+      "source_path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\README_INDEPENDENT_AUDIT.txt",
+      "source_identity": {
+        "bytes": 2479,
+        "sha256": "c2890d5a671fd3fab4f9cf616c25aa15be2de2fdd5077dcaebfef9ad9b8a17cf"
+      },
+      "output_identity": {
+        "bytes": 2479,
+        "sha256": "c2890d5a671fd3fab4f9cf616c25aa15be2de2fdd5077dcaebfef9ad9b8a17cf"
+      },
+      "transformation": "original source copied without modification"
+    },
+    {
+      "path": "source/evidence/analysis/independent_audit/README_RESOURCE_ACCOUNTING.txt",
+      "source_path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\README_RESOURCE_ACCOUNTING.txt",
+      "source_identity": {
+        "bytes": 2458,
+        "sha256": "7c1f5db018ddcd6384e6e92797a276d275fe464482346d3c0dcc05c465581efd"
+      },
+      "output_identity": {
+        "bytes": 2458,
+        "sha256": "7c1f5db018ddcd6384e6e92797a276d275fe464482346d3c0dcc05c465581efd"
+      },
+      "transformation": "original source copied without modification"
+    },
+    {
+      "path": "source/evidence/execution/README_EXECUTION.txt",
+      "source_path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\README_EXECUTION.txt",
+      "source_identity": {
+        "bytes": 7579,
+        "sha256": "5fd278a24066e6fa49059db1c5be0f2fb0c935a72abb91443964fc58581a2b78"
+      },
+      "output_identity": {
+        "bytes": 7579,
+        "sha256": "5fd278a24066e6fa49059db1c5be0f2fb0c935a72abb91443964fc58581a2b78"
+      },
+      "transformation": "original source copied without modification"
+    },
+    {
+      "path": "source/REPRODUCIBILITY.txt",
+      "source_path": "C:\\Q2\\Improvement_Study_v0.9\\REPRODUCIBILITY.txt",
+      "source_identity": {
+        "bytes": 3612,
+        "sha256": "40e3b66f851254c68c6a7f23d871857f26fd25bd908635c9c3b0043ae293968f"
+      },
+      "output_identity": {
+        "bytes": 3612,
+        "sha256": "40e3b66f851254c68c6a7f23d871857f26fd25bd908635c9c3b0043ae293968f"
+      },
+      "transformation": "original source copied without modification"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "source_path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\assembly\\QPathformer_v0.1_Code\\LICENSES\\CC-BY-4.0.txt",
+      "source_identity": {
+        "bytes": 18615,
+        "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+      },
+      "output_identity": {
+        "bytes": 18615,
+        "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+      },
+      "transformation": "Canonical unchanged legal text"
+    },
+    {
+      "path": "LICENSES/QPATHFORMER-PLATFORM-1.0.txt",
+      "source_path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\assembly\\QPathformer_v0.1_Code\\QPATHFORMER-PLATFORM-1.0.txt",
+      "source_identity": {
+        "bytes": 1461,
+        "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+      },
+      "output_identity": {
+        "bytes": 1461,
+        "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+      },
+      "transformation": "Canonical unchanged legal text"
+    },
+    {
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "source_path": null,
+      "transformation": "New scoped release wrapper, inventory or licensing record prepared under authorized release task",
+      "output_identity": {
+        "bytes": 3278,
+        "sha256": "288e7a54a6900fc5029181357e08ca1a79b13c20ff254a664d82671179c3e345"
+      }
+    },
+    {
+      "path": "LICENSE_ADOPTION.json",
+      "source_path": null,
+      "transformation": "New scoped release wrapper, inventory or licensing record prepared under authorized release task",
+      "output_identity": {
+        "bytes": 1430,
+        "sha256": "33c0cef53ec7826ac78c27922cbdb55a59b4d03160c4fbb72725bba69f77266e"
+      }
+    },
+    {
+      "path": "OVERVIEW.md",
+      "source_path": null,
+      "transformation": "New scoped release wrapper, inventory or licensing record prepared under authorized release task",
+      "output_identity": {
+        "bytes": 2256,
+        "sha256": "cdf89d5734f869ec1d48cc7249c6476b5d48d6561312415243e23d4d87cb8238"
+      }
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "source_path": null,
+      "transformation": "New scoped release wrapper, inventory or licensing record prepared under authorized release task",
+      "output_identity": {
+        "bytes": 1131,
+        "sha256": "1a96d757f78a63bf1cd120ede80919769b3a69a8165bb09ceab3304f731d9c53"
+      }
+    },
+    {
+      "path": "REPRODUCTION_BOUNDARIES.md",
+      "source_path": null,
+      "transformation": "New scoped release wrapper, inventory or licensing record prepared under authorized release task",
+      "output_identity": {
+        "bytes": 1518,
+        "sha256": "94aabeaf6a077a2b494ea0fc4d861c7ce5263c3b274983dd674227fa353c3787"
+      }
+    },
+    {
+      "path": "RIGHTS.md",
+      "source_path": null,
+      "transformation": "New scoped release wrapper, inventory or licensing record prepared under authorized release task",
+      "output_identity": {
+        "bytes": 1535,
+        "sha256": "bf3ed815017cd7decb07930aa33b3ca051243926f1d88a06fa8c499780f1d8b9"
+      }
+    },
+    {
+      "path": "START_HERE.md",
+      "source_path": null,
+      "transformation": "New scoped release wrapper, inventory or licensing record prepared under authorized release task",
+      "output_identity": {
+        "bytes": 1416,
+        "sha256": "66daff02c10040e6cfcde066ac47dd14247fa4015ff4adee5d4fdcc0bd5abc90"
+      }
+    },
+    {
+      "path": "VERIFY.md",
+      "source_path": null,
+      "transformation": "New scoped release wrapper, inventory or licensing record prepared under authorized release task",
+      "output_identity": {
+        "bytes": 964,
+        "sha256": "432b08f6f7823a9c17e9e16a2b1db4c63661e041d1f59f5eada01bdec344e6e8"
+      }
+    }
+  ],
+  "map_boundary": "This map inventories every other currently assembled regular file. MANIFEST.json and CHECKSUMS.sha256 subsequently bind it and the complete package inventory.",
+  "selected_source_identity_verification": "Each selected original source matched its retained delivery manifest; this does not claim rehashing the full multi-gigabyte archive."
+}

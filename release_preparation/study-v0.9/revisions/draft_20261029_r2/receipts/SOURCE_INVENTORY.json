@@ -1,0 +1,510 @@
+{
+  "study_version": "v0.9",
+  "source_root": "C:\\Q2\\Improvement_Study_v0.9",
+  "scientific_root": "C:\\Q2\\Improvement_Study_v0.9\\evidence",
+  "report": {
+    "path": "C:\\Q2\\Improvement_Study_v0.9\\docs\\QPATH_RPT010_v0.9_Internal_Study_Report.docx",
+    "relative_path": "docs/QPATH_RPT010_v0.9_Internal_Study_Report.docx",
+    "bytes": 1113738,
+    "sha256": "6f35101e9d3fda4581c2ef7102d0b330c89cd3bacc1771cf0c0e21b5db556ad8"
+  },
+  "code_selection": [
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\author\\evaluate_v09.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\author\\metrics_v09.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\author\\release_gate_v09.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\author\\test_author_v09.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\deployment\\compiler.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\deployment\\producer.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\deployment\\support.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\deployment\\tests\\test_deployment.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\deployment\\timing.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\audit_endpoints_v09.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\qualify_analysis_v09.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\qualify_independent_audit.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\qualify_paired_warmup.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\qualify_resource_accounting_v09.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\reference_v09.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\replay_analysis_v09.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\resource_accounting_v09.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\review_analysis_science_v01.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\review_author_evaluator.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\review_B_closure_v09.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\review_derived_auditor_v09.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\review_resources_science_v01.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\review_root_helpers.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\statistics_v09.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\test_analysis_v09.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\test_endpoints_v09.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\test_reference_v09.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\test_resource_accounting_v09.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\reproduction\\compare.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\reproduction\\run.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\reproduction\\worker.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\bind_stage.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\durable.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\launcher.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\prepare_readiness.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\process_identity.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\resource_probe.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\tests\\synthetic_trainer.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\tests\\test_execution.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\vendor\\etel\\__init__.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\vendor\\etel\\core.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\VENDOR_PROVENANCE.json",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\worker.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\governance\\ANALYSIS_PROTOCOL.json",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\governance\\RUN_MATRIX.json",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\governance\\STUDY_PLAN.json",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\audit_stage_v09.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\circuits.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\models.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\prepare_data.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\reference_v03.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\routers.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\study.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\tests\\audit_generated_data_independent.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\tests\\review_data_independent.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\tests\\run_paired_warmup_fixture.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\tests\\run_trainer_fixture.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\tests\\test_routers_data.py",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\tests\\test_v09_science.py"
+  ],
+  "guidance_selection": [
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\author\\README_EVALUATION.txt",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\deployment\\README_DERIVED.txt",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\README_INDEPENDENT_ANALYSIS.txt",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\README_INDEPENDENT_AUDIT.txt",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\README_RESOURCE_ACCOUNTING.txt",
+    "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\README_EXECUTION.txt",
+    "C:\\Q2\\Improvement_Study_v0.9\\REPRODUCIBILITY.txt"
+  ],
+  "findings": "Learned circuit routing won five, lost three and was inconclusive in four of twelve primary BCE contrasts; three wins exceeded the 0.01 practical reference throughout their adjusted intervals. G121 remained much better on checkerboard and spiral. MLP4 led the descriptive Banknote check. Exact conversion preserved 276 circuit predictors and 1,380 expert cores.",
+  "models_tasks": "Plan B compares hard geometric routing, fixed soft mixtures, learned soft mixtures, parameter-count-matched residual controls and G121. Four synthetic families use eight confirmation populations and two paired optimizer seeds. Banknote Authentication is a secondary fixed grouped split with five optimizer seeds and additional MLP2, MLP4 and LR2 controls.",
+  "limits": "48 engineering, 72 development, 636 confirmation and four clean retraining fits. Banknote is one fixed split, not five independent datasets. Shared diagnostic numerical primitives, small-sample t assumptions, mixture costs, local timing and absent physical hardware constrain claims. The original top-level READ_ME.txt is a stale preparation notice; final report and acceptance records govern completion.",
+  "retained_archive_payload_bytes": 34582760206,
+  "archive_size_note": "Logical payload bytes declared by retained delivery manifest, excluding manifest and any reserved sidecars; neither download ZIP size nor minimum memory requirement.",
+  "delivery_manifest": {
+    "path": "C:\\Q2\\Improvement_Study_v0.9\\DELIVERY_MANIFEST.json",
+    "bytes": 26168604,
+    "sha256": "d40528f3688a5d7d45cbaf2e7878c1ef227ceec1ab5be42d23cd33d921c30a61"
+  },
+  "selected_source_verification": {
+    "status": "PASS_SELECTED_FILES_MATCH_DELIVERY_MANIFEST",
+    "files": [
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\docs\\QPATH_RPT010_v0.9_Internal_Study_Report.docx",
+        "relative_path": "docs/QPATH_RPT010_v0.9_Internal_Study_Report.docx",
+        "bytes": 1113738,
+        "sha256": "6f35101e9d3fda4581c2ef7102d0b330c89cd3bacc1771cf0c0e21b5db556ad8"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\author\\evaluate_v09.py",
+        "relative_path": "evidence/analysis/author/evaluate_v09.py",
+        "bytes": 24305,
+        "sha256": "7d76d2f853d1eebf1e21498392d7c1924e9c0ae3c7d18019b219b7c974d4d562"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\author\\metrics_v09.py",
+        "relative_path": "evidence/analysis/author/metrics_v09.py",
+        "bytes": 9294,
+        "sha256": "d76c7d1c20be551969ae5f4ce54d0ecd55d4c51f7184ed32d145e203f2277403"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\author\\release_gate_v09.py",
+        "relative_path": "evidence/analysis/author/release_gate_v09.py",
+        "bytes": 10522,
+        "sha256": "3584865701cd63ba1d3d1ff46734d685a3383472cfebfe0b841181ff8264d20d"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\author\\test_author_v09.py",
+        "relative_path": "evidence/analysis/author/test_author_v09.py",
+        "bytes": 16095,
+        "sha256": "6a8243f434904878b7b4e4d24fecd03fb752cbee938d4ee0ace90dad0e1c0751"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\deployment\\compiler.py",
+        "relative_path": "evidence/analysis/deployment/compiler.py",
+        "bytes": 4204,
+        "sha256": "832eb38767b324989fda0f15fc6ac706548f8747551b4a5e45791f2ed687f2ac"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\deployment\\producer.py",
+        "relative_path": "evidence/analysis/deployment/producer.py",
+        "bytes": 4208,
+        "sha256": "450c5c6fddee6190a4ddf857047a66551464a3d7e33f814989176781a007fbd5"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\deployment\\support.py",
+        "relative_path": "evidence/analysis/deployment/support.py",
+        "bytes": 8598,
+        "sha256": "2c338038d42f9a2011d43fac3869d2fb4818af2cdffa1695b0b932909dc4ba83"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\deployment\\tests\\test_deployment.py",
+        "relative_path": "evidence/analysis/deployment/tests/test_deployment.py",
+        "bytes": 6011,
+        "sha256": "059513ec2b9cca7c1f431df4715fb37d452e0ba33c48ef8e3cbc156dd9affa9e"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\deployment\\timing.py",
+        "relative_path": "evidence/analysis/deployment/timing.py",
+        "bytes": 6392,
+        "sha256": "89aa8e2a22b340aa8a69eaeb4beb5ba8146a34844aee1c63d4f007b3dc953ce9"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\audit_endpoints_v09.py",
+        "relative_path": "evidence/analysis/independent_audit/audit_endpoints_v09.py",
+        "bytes": 25353,
+        "sha256": "f310b23f6b5638de0d69a5e0a5dfe0352f015da7bca1a4f83fe80bfb05b36f00"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\qualify_analysis_v09.py",
+        "relative_path": "evidence/analysis/independent_audit/qualify_analysis_v09.py",
+        "bytes": 4737,
+        "sha256": "05406e4882ef3318e1557f864b3dbdd852e88556dbc9ba16c0d409f4d193d0e6"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\qualify_independent_audit.py",
+        "relative_path": "evidence/analysis/independent_audit/qualify_independent_audit.py",
+        "bytes": 4041,
+        "sha256": "56c686c74a3bb065a8b9f69fd365f21f903613284cf8c9d88c4247bd263a11cd"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\qualify_paired_warmup.py",
+        "relative_path": "evidence/analysis/independent_audit/qualify_paired_warmup.py",
+        "bytes": 2083,
+        "sha256": "396cae3f2b9055b983f9867367072e2a2a9415016b7b265722c80a3e020cc77c"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\qualify_resource_accounting_v09.py",
+        "relative_path": "evidence/analysis/independent_audit/qualify_resource_accounting_v09.py",
+        "bytes": 2794,
+        "sha256": "4af677ee35da39e350fecc7efcbae99578854810a8df96e24247e92bd0b0a41f"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\reference_v09.py",
+        "relative_path": "evidence/analysis/independent_audit/reference_v09.py",
+        "bytes": 9372,
+        "sha256": "4bef1e4985016c5def67ec7f0820e8414ca22baedc398b295c1460d9e37d1da7"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\replay_analysis_v09.py",
+        "relative_path": "evidence/analysis/independent_audit/replay_analysis_v09.py",
+        "bytes": 25674,
+        "sha256": "1994c2f9f229b82cbdc6b9ba0c650ad166af8183e5dc416014fddd568bc247a7"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\resource_accounting_v09.py",
+        "relative_path": "evidence/analysis/independent_audit/resource_accounting_v09.py",
+        "bytes": 14900,
+        "sha256": "969799de9afb4567ebed7127ce36a1ab8b730b333a4f17205f6fb79a9ebfbab9"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\review_analysis_science_v01.py",
+        "relative_path": "evidence/analysis/independent_audit/review_analysis_science_v01.py",
+        "bytes": 10337,
+        "sha256": "b693abbce837cc58a7366b141ff3ddffdff54c9c2c210680e1eaff8a2227383a"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\review_author_evaluator.py",
+        "relative_path": "evidence/analysis/independent_audit/review_author_evaluator.py",
+        "bytes": 3004,
+        "sha256": "d05b3332bc4655c935b3a1e79582d04b311fa88e56d7e50fc18440663e1ef04b"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\review_B_closure_v09.py",
+        "relative_path": "evidence/analysis/independent_audit/review_B_closure_v09.py",
+        "bytes": 9997,
+        "sha256": "b5f89868d93fbb813767a964402825c2aca4b30e687ce4e81f9a3d03c7647089"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\review_derived_auditor_v09.py",
+        "relative_path": "evidence/analysis/independent_audit/review_derived_auditor_v09.py",
+        "bytes": 5840,
+        "sha256": "031ee5c1269bbb5e5ef655de8306a6bab241caa92ae974a9db53d9875458a320"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\review_resources_science_v01.py",
+        "relative_path": "evidence/analysis/independent_audit/review_resources_science_v01.py",
+        "bytes": 6644,
+        "sha256": "b0f5aaa336e8c8d503fd7e687bbcdb3a8c1377fa0cb343741e70a531d7a3a207"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\review_root_helpers.py",
+        "relative_path": "evidence/analysis/independent_audit/review_root_helpers.py",
+        "bytes": 4949,
+        "sha256": "1825241146de8b1db593c797393886ccd0c80d138e70d4b02ab4de24867e7213"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\statistics_v09.py",
+        "relative_path": "evidence/analysis/independent_audit/statistics_v09.py",
+        "bytes": 8516,
+        "sha256": "b691d2c336d3850d770ed2c7faf3f6182992a0694e07bf1da06d0c559c62aa12"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\test_analysis_v09.py",
+        "relative_path": "evidence/analysis/independent_audit/test_analysis_v09.py",
+        "bytes": 9077,
+        "sha256": "8b564d06773a3479408940a16cd6fad6738d4366e90e2cb23b321bec0383578c"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\test_endpoints_v09.py",
+        "relative_path": "evidence/analysis/independent_audit/test_endpoints_v09.py",
+        "bytes": 5178,
+        "sha256": "fb95c35272d081f24b2b3338db907c05cf5ae907447cf72b88196f3fbc29c8b4"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\test_reference_v09.py",
+        "relative_path": "evidence/analysis/independent_audit/test_reference_v09.py",
+        "bytes": 3692,
+        "sha256": "cd16f7e18f1249f66c0ff495faf2ca0f3c0e147765095a6e23c0791ebfb7775d"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\test_resource_accounting_v09.py",
+        "relative_path": "evidence/analysis/independent_audit/test_resource_accounting_v09.py",
+        "bytes": 8420,
+        "sha256": "712a1fd6a58e261b6089c079337107b5bf360c9fe192886ca9472067e8f81d7d"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\reproduction\\compare.py",
+        "relative_path": "evidence/analysis/reproduction/compare.py",
+        "bytes": 3296,
+        "sha256": "9ddc3529404a157ce501806727b5634a277ceb5f60abbcd26c49642237fb7b95"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\reproduction\\run.py",
+        "relative_path": "evidence/analysis/reproduction/run.py",
+        "bytes": 8320,
+        "sha256": "f35f6484292cc03ac4aa9b396091dbedee689a553c9fd204646bad2ca61c8bdc"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\reproduction\\worker.py",
+        "relative_path": "evidence/analysis/reproduction/worker.py",
+        "bytes": 1257,
+        "sha256": "63122f5691c7b0acbe58c5b778997e476144ebfcfd09220c8579793bdcc2b1a2"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\bind_stage.py",
+        "relative_path": "evidence/execution/bind_stage.py",
+        "bytes": 2920,
+        "sha256": "081713f245efe19cce59bbb76780b3e6de5ab4e82e216f8845b9fd8699a97229"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\durable.py",
+        "relative_path": "evidence/execution/durable.py",
+        "bytes": 38607,
+        "sha256": "6fd99605dcd18f3980a6a326793d149964da72636cdefc066dcb1564af1221e6"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\launcher.py",
+        "relative_path": "evidence/execution/launcher.py",
+        "bytes": 2870,
+        "sha256": "30515410c831b6e76266b1a3461481a8dc04427614baf1204f7832b02861d6dd"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\prepare_readiness.py",
+        "relative_path": "evidence/execution/prepare_readiness.py",
+        "bytes": 4932,
+        "sha256": "919f7c359a98e2c705261c5f37a6a6750c48bb7c50b6e264308e7768c485733a"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\process_identity.py",
+        "relative_path": "evidence/execution/process_identity.py",
+        "bytes": 3188,
+        "sha256": "a8289729e9cdc26b5b4465357428d9c66782915d4e95c2b0db942e8d94661d02"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\resource_probe.py",
+        "relative_path": "evidence/execution/resource_probe.py",
+        "bytes": 3066,
+        "sha256": "03a1dfc50002d882df95821bdaa012c50d2b18af81c04e0458a079194206c7e6"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\tests\\synthetic_trainer.py",
+        "relative_path": "evidence/execution/tests/synthetic_trainer.py",
+        "bytes": 2166,
+        "sha256": "2a7eb1afa87d0bb1044248997d9939628d5aa875e2604327f0a7e075e0bc6df0"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\tests\\test_execution.py",
+        "relative_path": "evidence/execution/tests/test_execution.py",
+        "bytes": 26379,
+        "sha256": "e9d915b79ff1ec7c44e67ccace8b2cfae03f480a117511ffe9647fc838098da4"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\vendor\\etel\\__init__.py",
+        "relative_path": "evidence/execution/vendor/etel/__init__.py",
+        "bytes": 99,
+        "sha256": "fbe055aebc49a5a846aa43d17a7654de44a6ebb61a11ead668bb38ad2dcf235a"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\vendor\\etel\\core.py",
+        "relative_path": "evidence/execution/vendor/etel/core.py",
+        "bytes": 12042,
+        "sha256": "621979dd1d8d595d5a53a097e3a2ee4e904cd3ad6053abed17f11b0f88dcd063"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\VENDOR_PROVENANCE.json",
+        "relative_path": "evidence/execution/VENDOR_PROVENANCE.json",
+        "bytes": 879,
+        "sha256": "7c60ddbf244d0e9a5ad3c9b12eaeed594081072d5f768185a3409be5c674c44e"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\worker.py",
+        "relative_path": "evidence/execution/worker.py",
+        "bytes": 6217,
+        "sha256": "bf97e7f8316f38e3dd6b62252faf1abb7314042cc6552df3e56a8c1936c743d1"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\governance\\ANALYSIS_PROTOCOL.json",
+        "relative_path": "evidence/governance/ANALYSIS_PROTOCOL.json",
+        "bytes": 4483,
+        "sha256": "0fc572d743a9266c8c9f928032e1b234d8c70d50f94b2151bd846ef0b25b76e8"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\governance\\RUN_MATRIX.json",
+        "relative_path": "evidence/governance/RUN_MATRIX.json",
+        "bytes": 1234945,
+        "sha256": "10a8816ab2a351aca2c4f4836291b8cc2d77f47454df1edc49858c1af9b60d5e"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\governance\\STUDY_PLAN.json",
+        "relative_path": "evidence/governance/STUDY_PLAN.json",
+        "bytes": 7898,
+        "sha256": "82d33b6704d25d08b146d8e0a47f4e4d7ad5bd4447c85f4e18fd78b24fbe0c2b"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\audit_stage_v09.py",
+        "relative_path": "evidence/quantum/audit_stage_v09.py",
+        "bytes": 15345,
+        "sha256": "63cf6516fd5dd852a772c129701b5246305b19bb37769a9affc239840dd9d3df"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\circuits.py",
+        "relative_path": "evidence/quantum/circuits.py",
+        "bytes": 5505,
+        "sha256": "2ac3d12903899f8baf9e226e53e0fe5178f9ab700e83a6e929d212cc6e8da90e"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\models.py",
+        "relative_path": "evidence/quantum/models.py",
+        "bytes": 13910,
+        "sha256": "bc0c5658474b4c3bf57f87627fc1a7dea33125d5f32910c6507f206b598f86a6"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\prepare_data.py",
+        "relative_path": "evidence/quantum/prepare_data.py",
+        "bytes": 37450,
+        "sha256": "096dcd6c4550280dc8fe7bcefda5032b3c931292a4af406ce40a797c8981380a"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\reference_v03.py",
+        "relative_path": "evidence/quantum/reference_v03.py",
+        "bytes": 1251,
+        "sha256": "6740c96737c3f46f53967c579543bc5d0b4b8aac2f9305dd21b6b51d2a725071"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\routers.py",
+        "relative_path": "evidence/quantum/routers.py",
+        "bytes": 9787,
+        "sha256": "5d27f6fbbe6e013f9d9dd5d7b56ef3a15ce65728762ed6a991b7f35963795ee5"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\study.py",
+        "relative_path": "evidence/quantum/study.py",
+        "bytes": 20824,
+        "sha256": "92c25d1501fd4b1413729a7a705eb2ee55ca94d14f0b01dd35db31d301b006f7"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\tests\\audit_generated_data_independent.py",
+        "relative_path": "evidence/quantum/tests/audit_generated_data_independent.py",
+        "bytes": 14527,
+        "sha256": "9b0ffb7e8ca866fff508b36da626f69dd2fb2044f4a6dd87a6e4fc6a0b4e1c6b"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\tests\\review_data_independent.py",
+        "relative_path": "evidence/quantum/tests/review_data_independent.py",
+        "bytes": 7070,
+        "sha256": "62d52133e57cdc18ec10701f5cd41285c1eed88cbf0323fa2a9c5610ef6ea963"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\tests\\run_paired_warmup_fixture.py",
+        "relative_path": "evidence/quantum/tests/run_paired_warmup_fixture.py",
+        "bytes": 6997,
+        "sha256": "c12f90306657b15aa9106c0d1e7a781020c2cb9b4de6106efb841504f715a338"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\tests\\run_trainer_fixture.py",
+        "relative_path": "evidence/quantum/tests/run_trainer_fixture.py",
+        "bytes": 6913,
+        "sha256": "1172e82e135217aa92810176d418d5d7e6ec245fcb630a7e4389d3890314c5fa"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\tests\\test_routers_data.py",
+        "relative_path": "evidence/quantum/tests/test_routers_data.py",
+        "bytes": 6615,
+        "sha256": "acbe56ff3a16fd670665c25734880b318c3c2771dc9aa99a307b4e010fb9315c"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\tests\\test_v09_science.py",
+        "relative_path": "evidence/quantum/tests/test_v09_science.py",
+        "bytes": 6978,
+        "sha256": "5b08e16e912997331041521c6c11efade1cd31e3f7b59c63cd1e76dde65ba17a"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\author\\README_EVALUATION.txt",
+        "relative_path": "evidence/analysis/author/README_EVALUATION.txt",
+        "bytes": 7209,
+        "sha256": "5c59786efcc67babb4ddff04950e664bd4c4a88313431fa87a4718520ea451f9"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\deployment\\README_DERIVED.txt",
+        "relative_path": "evidence/analysis/deployment/README_DERIVED.txt",
+        "bytes": 3623,
+        "sha256": "8f73ddaff9130227ada90e1cd17c755f4ed03f7165f46bb4bcf6840a48ea14d7"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\README_INDEPENDENT_ANALYSIS.txt",
+        "relative_path": "evidence/analysis/independent_audit/README_INDEPENDENT_ANALYSIS.txt",
+        "bytes": 3283,
+        "sha256": "dac3f0d1298898f6e92a066324c29b1fc258511bfc662f5f154e41918ed4d643"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\README_INDEPENDENT_AUDIT.txt",
+        "relative_path": "evidence/analysis/independent_audit/README_INDEPENDENT_AUDIT.txt",
+        "bytes": 2479,
+        "sha256": "c2890d5a671fd3fab4f9cf616c25aa15be2de2fdd5077dcaebfef9ad9b8a17cf"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\README_RESOURCE_ACCOUNTING.txt",
+        "relative_path": "evidence/analysis/independent_audit/README_RESOURCE_ACCOUNTING.txt",
+        "bytes": 2458,
+        "sha256": "7c1f5db018ddcd6384e6e92797a276d275fe464482346d3c0dcc05c465581efd"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\README_EXECUTION.txt",
+        "relative_path": "evidence/execution/README_EXECUTION.txt",
+        "bytes": 7579,
+        "sha256": "5fd278a24066e6fa49059db1c5be0f2fb0c935a72abb91443964fc58581a2b78"
+      },
+      {
+        "path": "C:\\Q2\\Improvement_Study_v0.9\\REPRODUCIBILITY.txt",
+        "relative_path": "REPRODUCIBILITY.txt",
+        "bytes": 3612,
+        "sha256": "40e3b66f851254c68c6a7f23d871857f26fd25bd908635c9c3b0043ae293968f"
+      }
+    ]
+  },
+  "dependencies": "Python 3.12.14, NumPy 2.5.4, SciPy 1.18.1 and recorded OpenBLAS/thread configuration; Windows-specific ETEL process/resource integration. Bundled environment excluded.",
+  "licensing": "Owner adopted the same scoped v0.1/v0.9.5 scheme on 29 October 2026. Exact report, prose and selected Python scope records will identify memberships; inherited identities and expression remain licensed.",
+  "verification_needs": [
+    "Report body/media preservation and every-page visual review",
+    "Safe exact package membership and hashes",
+    "Fresh final Code ZIP bounded offline startup",
+    "Authenticated GitHub download comparison by parent"
+  ],
+  "gaps": [
+    "Full scientific repetition requires excluded data, checkpoints and original-root authorization/protocol bindings",
+    "No portable whole-study reproduction or physical-QPU result claimed"
+  ]
+}

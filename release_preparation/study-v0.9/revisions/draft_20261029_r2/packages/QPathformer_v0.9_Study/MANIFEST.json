@@ -1,0 +1,82 @@
+{
+  "schema": "qpath-package-manifest-1",
+  "package": "QPathformer_v0.9_Study",
+  "study_version": "v0.9",
+  "files": [
+    {
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "bytes": 1641,
+      "sha256": "76ffe68a91d2636a5ecf24e2c867b34a50780ed5f0604a3c376fe8ce0705de15"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 18615,
+      "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+    },
+    {
+      "path": "LICENSES/QPATHFORMER-PLATFORM-1.0.txt",
+      "bytes": 1461,
+      "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+    },
+    {
+      "path": "LICENSE_ADOPTION.json",
+      "bytes": 1590,
+      "sha256": "702eebcf01ce8b261d86ac57d5436accde32dfdde1e4e757113a50231da3885b"
+    },
+    {
+      "path": "REPORT_LICENSE_SCOPE.json",
+      "bytes": 2625,
+      "sha256": "f60f6fe5f293b3fdf90e85051c8f81331b7c042ba0712d48833ffa3de5779162"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 1535,
+      "sha256": "bf3ed815017cd7decb07930aa33b3ca051243926f1d88a06fa8c499780f1d8b9"
+    },
+    {
+      "path": "SOURCE_MAP.json",
+      "bytes": 7548,
+      "sha256": "15b65377a143e1d679fee444300df2b5bebb76a4f7ca722a48449832dd8424c4"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 1461,
+      "sha256": "e141389bc4a448ea448d36cc764f15824c87d5615eacfb52e8baf0080cda213a"
+    },
+    {
+      "path": "VERIFY.md",
+      "bytes": 948,
+      "sha256": "94285d067635c1c19c5ed549dfcba3bf5c15a81e312722e87f3555e79bb574df"
+    },
+    {
+      "path": "provenance/EDITION_CHANGES.json",
+      "bytes": 5152,
+      "sha256": "eb2ed807f04f1c07fd5e64d9368bfa693655439412cf7b78011ec1c1c7c2e594"
+    },
+    {
+      "path": "provenance/EDITION_CHANGES.md",
+      "bytes": 643,
+      "sha256": "2ee5a86b70f5db8528c3c6319f28e8b40bc9b847ab09a41d8662106b63a56d47"
+    },
+    {
+      "path": "provenance/RENDER.json",
+      "bytes": 5494,
+      "sha256": "c195285a5004ca67994cf00fb86455a91252af901d0d3f2f6bf576e9372577c1"
+    },
+    {
+      "path": "provenance/VISUAL_REVIEW.json",
+      "bytes": 12910,
+      "sha256": "974a7cc02d83525d039d29e90dba598cbb49908685984edadf750c9205a90f16"
+    },
+    {
+      "path": "reports/QPathformer_v0.9_Report_Edition_1.docx",
+      "bytes": 1114685,
+      "sha256": "6dd007d63937e67518b1fe312cdeb5b28596d06689f03c992be087a18d862244"
+    },
+    {
+      "path": "reports/QPathformer_v0.9_Report_Edition_1.pdf",
+      "bytes": 2177249,
+      "sha256": "13098d61dd1737f5f8646a3e56f8f85789aaabf909b954c0fc75db9ca2cd38ec"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "command": [
+      "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\qa\\fresh_extraction\\QPathformer_v0.9_Code\\tools\\verify_package.py"
+    ],
+    "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\qa\\fresh_extraction\\QPathformer_v0.9_Code",
+    "returncode": 0,
+    "stdout": "{\"status\": \"PASS\", \"files\": 79, \"root\": \"C:\\\\Q2\\\\Release_Preparation\\\\QPathformer_Classical_Research\\\\study-v0.9\\\\draft_20261029_r2\\\\qa\\\\fresh_extraction\\\\QPathformer_v0.9_Code\", \"scope\": \"Exact inventory, manifest and checksums; integrity record, not digital signature\"}\r\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\qa\\fresh_extraction\\QPathformer_v0.9_Code\\tools\\startup_check.py"
+    ],
+    "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\qa\\fresh_extraction\\QPathformer_v0.9_Code",
+    "returncode": 0,
+    "stdout": "{\r\n  \"status\": \"PASS\",\r\n  \"scope\": \"Imports of scientific modules; tiny in-memory 2-input circuit expectation and sigmoid checks; three CLI help paths.\",\r\n  \"python\": \"3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]\",\r\n  \"numpy\": \"2.5.4\",\r\n  \"scipy\": \"1.18.1\",\r\n  \"commands\": [\r\n    {\r\n      \"command\": [\r\n        \"C:\\\\Q2\\\\Implementation_v0.1\\\\.venv\\\\Scripts\\\\python.exe\",\r\n        \"-B\",\r\n        \"C:\\\\Q2\\\\Release_Preparation\\\\QPathformer_Classical_Research\\\\study-v0.9\\\\draft_20261029_r2\\\\qa\\\\fresh_extraction\\\\QPathformer_v0.9_Code\\\\payload\\\\study\\\\quantum\\\\study.py\",\r\n        \"--help\"\r\n      ],\r\n      \"returncode\": 0,\r\n      \"stdout\": \"usage: study.py [-h] --job-id JOB_ID --authorization AUTHORIZATION --output\\n                OUTPUT\\n\\nInternal v0.9 Plan B trainer. Full fits only after a root hash-bound release.\\nNo test loader, no outcome-dependent stopping, no in-place resume. Interrupted\\nattempts remain evidence; reviewed same-recipe recovery uses a fresh\\ndirectory.\\n\\noptions:\\n  -h, --help            show this help message and exit\\n  --job-id JOB_ID\\n  --authorization AUTHORIZATION\\n  --output OUTPUT\\n\",\r\n      \"stderr\": \"\"\r\n    },\r\n    {\r\n      \"command\": [\r\n        \"C:\\\\Q2\\\\Implementation_v0.1\\\\.venv\\\\Scripts\\\\python.exe\",\r\n        \"-B\",\r\n        \"C:\\\\Q2\\\\Release_Preparation\\\\QPathformer_Classical_Research\\\\study-v0.9\\\\draft_20261029_r2\\\\qa\\\\fresh_extraction\\\\QPathformer_v0.9_Code\\\\payload\\\\study\\\\execution\\\\launcher.py\",\r\n        \"--help\"\r\n      ],\r\n      \"returncode\": 0,\r\n      \"stdout\": \"usage: launcher.py [-h] {run,status,drain,resume,cancel,recover} ...\\n\\nRoot-gated command line for Q-Path Multiplier (ETEL); no implicit approval.\\n\\npositional arguments:\\n  {run,status,drain,resume,cancel,recover}\\n    drain               Finish active fits and admit no new fits\\n    resume              Clear drain after root usage review; does not launch\\n\\noptions:\\n  -h, --help            show this help message and exit\\n\",\r\n      \"stderr\": \"\"\r\n    },\r\n    {\r\n      \"command\": [\r\n        \"C:\\\\Q2\\\\Implementation_v0.1\\\\.venv\\\\Scripts\\\\python.exe\",\r\n        \"-B\",\r\n        \"C:\\\\Q2\\\\Release_Preparation\\\\QPathformer_Classical_Research\\\\study-v0.9\\\\draft_20261029_r2\\\\qa\\\\fresh_extraction\\\\QPathformer_v0.9_Code\\\\payload\\\\study\\\\execution\\\\bind_stage.py\",\r\n        \"--help\"\r\n      ],\r\n      \"returncode\": 0,\r\n      \"stdout\": \"usage: bind_stage.py [-h] --root ROOT --stage {engineering,A,B} --interpreter\\n                     INTERPRETER --authorization AUTHORIZATION --max-parallel\\n                     MAX_PARALLEL --deadline-seconds DEADLINE_SECONDS\\n                     --environment ENVIRONMENT --output OUTPUT\\n\\nPrepare immutable execution manifest; never approve or launch it.\\n\\noptions:\\n  -h, --help            show this help message and exit\\n  --root ROOT\\n  --stage {engineering,A,B}\\n  --interpreter INTERPRETER\\n  --authorization AUTHORIZATION\\n  --max-parallel MAX_PARALLEL\\n  --deadline-seconds DEADLINE_SECONDS\\n  --environment ENVIRONMENT\\n  --output OUTPUT\\n\",\r\n      \"stderr\": \"\"\r\n    }\r\n  ],\r\n  \"not_verified\": [\r\n    \"No training\",\r\n    \"No official scoring\",\r\n    \"No shot sampling\",\r\n    \"No QPU or cloud jobs\",\r\n    \"No full reproduction\",\r\n    \"No dependency installation\",\r\n    \"No original archive verification by this startup helper\"\r\n  ]\r\n}\r\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\qa\\fresh_extraction\\QPathformer_v0.9_Code\\tools\\verify_package.py"
+    ],
+    "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\qa\\fresh_extraction\\QPathformer_v0.9_Code",
+    "returncode": 0,
+    "stdout": "{\"status\": \"PASS\", \"files\": 79, \"root\": \"C:\\\\Q2\\\\Release_Preparation\\\\QPathformer_Classical_Research\\\\study-v0.9\\\\draft_20261029_r2\\\\qa\\\\fresh_extraction\\\\QPathformer_v0.9_Code\", \"scope\": \"Exact inventory, manifest and checksums; integrity record, not digital signature\"}\r\n",
+    "stderr": ""
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "scope": "Imports of scientific modules; tiny in-memory 2-input circuit expectation and sigmoid checks; three CLI help paths.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "commands": [
+    {
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\qa\\fresh_extraction\\QPathformer_v0.9_Code\\payload\\study\\quantum\\study.py",
+        "--help"
+      ],
+      "returncode": 0,
+      "stdout": "usage: study.py [-h] --job-id JOB_ID --authorization AUTHORIZATION --output\n                OUTPUT\n\nInternal v0.9 Plan B trainer. Full fits only after a root hash-bound release.\nNo test loader, no outcome-dependent stopping, no in-place resume. Interrupted\nattempts remain evidence; reviewed same-recipe recovery uses a fresh\ndirectory.\n\noptions:\n  -h, --help            show this help message and exit\n  --job-id JOB_ID\n  --authorization AUTHORIZATION\n  --output OUTPUT\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\qa\\fresh_extraction\\QPathformer_v0.9_Code\\payload\\study\\execution\\launcher.py",
+        "--help"
+      ],
+      "returncode": 0,
+      "stdout": "usage: launcher.py [-h] {run,status,drain,resume,cancel,recover} ...\n\nRoot-gated command line for Q-Path Multiplier (ETEL); no implicit approval.\n\npositional arguments:\n  {run,status,drain,resume,cancel,recover}\n    drain               Finish active fits and admit no new fits\n    resume              Clear drain after root usage review; does not launch\n\noptions:\n  -h, --help            show this help message and exit\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\qa\\fresh_extraction\\QPathformer_v0.9_Code\\payload\\study\\execution\\bind_stage.py",
+        "--help"
+      ],
+      "returncode": 0,
+      "stdout": "usage: bind_stage.py [-h] --root ROOT --stage {engineering,A,B} --interpreter\n                     INTERPRETER --authorization AUTHORIZATION --max-parallel\n                     MAX_PARALLEL --deadline-seconds DEADLINE_SECONDS\n                     --environment ENVIRONMENT --output OUTPUT\n\nPrepare immutable execution manifest; never approve or launch it.\n\noptions:\n  -h, --help            show this help message and exit\n  --root ROOT\n  --stage {engineering,A,B}\n  --interpreter INTERPRETER\n  --authorization AUTHORIZATION\n  --max-parallel MAX_PARALLEL\n  --deadline-seconds DEADLINE_SECONDS\n  --environment ENVIRONMENT\n  --output OUTPUT\n",
+      "stderr": ""
+    }
+  ],
+  "not_verified": [
+    "No training",
+    "No official scoring",
+    "No shot sampling",
+    "No QPU or cloud jobs",
+    "No full reproduction",
+    "No dependency installation",
+    "No original archive verification by this startup helper"
+  ]
+}

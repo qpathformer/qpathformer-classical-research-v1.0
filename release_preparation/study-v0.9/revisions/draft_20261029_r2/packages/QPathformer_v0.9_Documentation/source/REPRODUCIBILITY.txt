@@ -1,0 +1,54 @@
+Q-Pathformer v0.9 Plan B reproducibility evidence
+Internal research package. Physical quantum testing is reserved for a separate v1.1 study.
+
+Start with docs/QPATH_RPT010_v0.9_Internal_Study_Report.docx. The final report
+describes the measured findings and their limits. Existing plan documents are
+retained unchanged and are not the findings report.
+
+evidence/ preserves the working study tree, including quantum sources and data,
+execution adapters and attempt histories, frozen protocols, stage releases,
+source/data reviews, checkpoints, raw curves and samplers, scoring and independent
+replays, conversion and clean retraining evidence, all timing trials, failed
+attempts, repair qualifications, report source/content, native Word export and
+page QA. PACKAGE_SOURCE_MAP.json explains every omission or transformation.
+The execution SQLite database is a transactionally consistent standalone backup;
+all committed history is retained. Caches and packaging coordination outputs are
+excluded. The root package authorization is copied separately.
+
+DELIVERY_MANIFEST.json enumerates every payload by relative path, byte size and
+SHA256. Verify it before interpreting evidence. ROOT_DELIVERY_VERIFICATION.json
+and INDEPENDENT_DELIVERY_VERIFICATION.json are append-only receipts bound to the
+same manifest hash. FINAL_USAGE_RECEIPT.json may record later packaging/accounting
+costs than the report's explicit usage cutoff. FINAL_DELIVERY_SEAL.json, when
+present, binds the immutable manifest and final receipts. The payload manifest
+does not hash itself or these explicitly reserved receipts.
+
+Runtime and re-execution
+Use the recorded CPU float64 Python 3.12.14, NumPy 2.5.4 and SciPy 1.18.1
+environment, with the recorded OpenBLAS DLL/configuration and all six thread
+settings at one. Read evidence/governance/STUDY_PLAN.json, RUN_MATRIX.json,
+ANALYSIS_PROTOCOL.json and evidence/execution/README_EXECUTION.txt. ETEL runs a
+whole registered fit per isolated CPU process, at most five workers. Read each
+phase's README before invoking an entry point. Completed archived work must not
+be launched again in place. Failed work requires documented fresh-attempt recovery.
+
+The package is a reproducible evidence archive, not a relocatable live scheduler.
+Historical absolute paths and hash-bound releases remain exactly as recorded;
+do not edit them to make the archive execute. For reproduction on another machine,
+create a separate working copy, record the new root/environment mapping and fresh
+authorization, and use the preserved source/data/matrix without changing recipes.
+The actual Python environment and native Word installation are not bundled.
+Environment/provenance records identify versions; reproduce those dependencies in
+a separate environment. No credential, cloud service or IBM hardware is needed.
+
+The four registered clean retrains demonstrate same-environment implementation
+reproducibility; they are not four independent statistical replications. Timing
+trials and optimizer seeds do not increase the independent population count.
+Banknote uses one fixed grouped split and five optimization seeds. Do not pool it
+with synthetic populations or claim direct improvement from historical raw F1.
+
+Usage records distinguish cumulative input/cached/uncached/output tokens and the
+reasoning subset, token-derived credit estimates and observed account debit.
+Token estimates are not actual account charges. Weekly resets do not reset study
+totals. The initial approximate 30000-credit checkpoint and subsequently authorized
+continuations are retained in governance; consult the final measured cutoffs.
