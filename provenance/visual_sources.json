@@ -1,0 +1,62 @@
+{
+  "source_archive": {
+    "path": "Release_Preparation/QPathformer_Classical_Research/20261028_final/review_inputs/v3.zip",
+    "bytes": 19149754,
+    "sha256": "430e5a23de41702bbcb7a84b29b73fb56a2259e05d6744c6dad8ceb165222186"
+  },
+  "extracted_source_record": {
+    "snapshot_date": "2026-10-27",
+    "sources": [
+      {
+        "source_name": "README(20261027-080435).md",
+        "package_path": "codex_review/user_revision/README_20261027.md",
+        "role": "Supplied revised README, preserved",
+        "bytes": 11339,
+        "sha256": "0fa3ec150b907a4efbe29f692c05377d55bbab059c40fc4fc16e59e3604d67c9"
+      },
+      {
+        "source_name": "QPATH-ARCH-001 - Q-Pathformer - Multi-state Machine Learning & LLM Training (1).pdf",
+        "package_path": "architecture/QPATH-ARCH-001.pdf",
+        "role": "Original architecture, page 3 defines the nested states",
+        "bytes": 1747813,
+        "sha256": "a0404adeab6c1fd647b6f2b46020d200a6d86e5867e62ea226f1618e12b524d8"
+      },
+      {
+        "source_name": "Q-Pathformer_Architecture_Update_Research_Proposal_v0.3.docx",
+        "package_path": "architecture/QPATH-ARCH-002_v0.3.docx",
+        "role": "Later conceptual software responsibilities",
+        "bytes": 655043,
+        "sha256": "e26f297ab55c637b72e059730f2d40d3c04b7625be71a7f3bd1efa28ccf2418f"
+      },
+      {
+        "source_name": "Screenshot 2026-10-27 185627.png",
+        "package_path": "architecture/three-state-reference.png",
+        "role": "Supplied graphic reference",
+        "bytes": 282546,
+        "sha256": "cf41b59200efd0b90970afbdd270001508d66b5d9409e4404aa3e019e670f75a"
+      },
+      {
+        "source_name": "exec-95fe3ce5-633c-4320-9439-62c7270912cc.png",
+        "package_path": "assets/qpathformer-three-state.png",
+        "role": "Built-in image generation output",
+        "bytes": 1369384,
+        "sha256": "2631f0809ee1898f79aebe0da1e5cfa0bd6bfc63ed206e29a673a949d2bdde00"
+      }
+    ],
+    "benchmark_illustrations": "Existing PNG/SVG assets retained unchanged; no image-generation reconstruction of task boundaries."
+  },
+  "architecture_documents_included": true,
+  "conceptual_image_status": "Generated image; originality/rights confirmation required before CC adoption.",
+  "current_architecture_inclusion": {
+    "included": [
+      "docs/architecture/QPATH-ARCH-001.pdf"
+    ],
+    "excluded": [
+      "later architecture proposal DOCX",
+      "reference sketch"
+    ],
+    "provenance": "docs/architecture/ORIGIN.json",
+    "source_commit": "4a90edcf84b39f743324c89e4e256e09d3413dbd",
+    "sha256": "a0404adeab6c1fd647b6f2b46020d200a6d86e5867e62ea226f1618e12b524d8"
+  }
+}

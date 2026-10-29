@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Cite the specific study and artifact used. Version 1.0 identifies this collection, not a new experiment."
+title: "Q-Pathformer Classical Research: v1.0 collection"
+version: "1.0"
+repository-code: "https://github.com/qpathformer/qpathformer-classical-research"
+url: "https://github.com/qpathformer/qpathformer-classical-research/releases/tag/v1.0"
+authors:
+  - family-names: Siljeg
+    given-names: Anthony
+    affiliation: "Founder, Alnotrea Labs; company affiliation: Alnotrea Pty Ltd; Q-Pathformer Initiative"
+preferred-citation:
+  type: generic
+  title: "Q-Pathformer Classical Research: v1.0 collection"
+  authors:
+    - family-names: Siljeg
+      given-names: Anthony
+      affiliation: "Alnotrea Labs; Alnotrea Pty Ltd; Q-Pathformer Initiative"

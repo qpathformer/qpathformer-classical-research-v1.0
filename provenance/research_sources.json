@@ -1,0 +1,223 @@
+{
+  "source_root": "C:\\Q2",
+  "verification_date": "2026-10-28",
+  "scope": "File identities and recorded report/receipt contents only; not a new scientific replay or full archive rehash.",
+  "files": [
+    {
+      "path": "Improvement_Study_v0.9.5/docs/QPATH_RPT011_v0.9.5_Internal_Study_Report.docx",
+      "bytes": 1819409,
+      "sha256": "7bcdd92e85cdd982774f280c92421a6b633387ab17efed69cc40c7b28a1af9f3",
+      "role": "report_docx",
+      "included_as_payload": false,
+      "verification": "live source bytes matched recorded expected identity"
+    },
+    {
+      "path": "Improvement_Study_v0.9.5/evidence/report_work/final_report/build_v02/QPATH_RPT011_native.pdf",
+      "bytes": 1777600,
+      "sha256": "e656ad212bd07baa7f263bf385ff976f9b6d4deef08650d70f5fdbea5da8ef31",
+      "role": "report_pdf",
+      "included_as_payload": false,
+      "verification": "live source bytes matched recorded expected identity"
+    },
+    {
+      "path": "Improvement_Study_v0.9.5/evidence/scientific/README_SCIENTIFIC.txt",
+      "bytes": 5482,
+      "sha256": "6b45f348aafa7cb4255586dbea8e7f4167c730e01b201f64831d640c14cb5351",
+      "role": "scientific_readme",
+      "included_as_payload": false,
+      "verification": "live source bytes matched recorded expected identity"
+    },
+    {
+      "path": "Improvement_Study_v0.9.5/RESTORE_README.txt",
+      "bytes": 4376,
+      "sha256": "f269d424136a18c8fc957268c87bfc86cd3b35929792dbd0a8b45c973ed3942b",
+      "role": "restore_readme",
+      "included_as_payload": false,
+      "verification": "live source bytes matched recorded expected identity"
+    },
+    {
+      "path": "Improvement_Study_v0.9.5/Improvement_Study_v0.9.5_Delivery_Receipts/package/ROOT_VERIFICATION.json",
+      "bytes": 2925,
+      "sha256": "7af2921e16a80196fb5e678c02b63a4034ea1feb13a045f5f850551356d093f5",
+      "role": "archive_size_receipt",
+      "included_as_payload": false,
+      "verification": "live source bytes matched recorded expected identity"
+    },
+    {
+      "path": "Improvement_Study_v0.9.5/evidence/execution/vendor/etel/__init__.py",
+      "bytes": 99,
+      "sha256": "fbe055aebc49a5a846aa43d17a7654de44a6ebb61a11ead668bb38ad2dcf235a",
+      "role": "etel_source_version",
+      "included_as_payload": false,
+      "verification": "live source bytes matched recorded expected identity"
+    },
+    {
+      "path": "Improvement_Study_v0.9.5/evidence/execution/vendor/etel/core.py",
+      "bytes": 12042,
+      "sha256": "621979dd1d8d595d5a53a097e3a2ee4e904cd3ad6053abed17f11b0f88dcd063",
+      "role": "etel_source_core",
+      "included_as_payload": false,
+      "verification": "live source bytes matched recorded expected identity"
+    },
+    {
+      "path": "Full_Local_Benchmark_v0.1/docs/QPATH-RPT-002_Local_Benchmark_and_IBM_Readiness_Report_v0.1.docx",
+      "bytes": 517844,
+      "sha256": "d7ccacc971c8cf878a6c33cabd62efe869c9886c158f728e39288f387033a4e8",
+      "role": "historical_report_context",
+      "study": "v0.1",
+      "included_as_payload": false,
+      "verification": "live source matched v3 SOURCES.csv identity"
+    },
+    {
+      "path": "Improvement_Study_v0.2/docs/QPATH-RPT-003_Improvement_Study_and_Baseline_Comparison_v0.2.docx",
+      "bytes": 581560,
+      "sha256": "fb6a575707c3e2952d418bf20d3b3fcfff1929edf05c4a9f1a1d53b94abb9172",
+      "role": "historical_report_context",
+      "study": "v0.2",
+      "included_as_payload": false,
+      "verification": "live source matched v3 SOURCES.csv identity"
+    },
+    {
+      "path": "Improvement_Study_v0.3/docs/QPATH-RPT-004_Shallow_Circuits_and_Routing_Study_v0.3.docx",
+      "bytes": 760951,
+      "sha256": "52ff262ec7e7c0685ec330032e959837ec8f1794ed223024775f21fbf773d838",
+      "role": "historical_report_context",
+      "study": "v0.3",
+      "included_as_payload": false,
+      "verification": "live source matched v3 SOURCES.csv identity"
+    },
+    {
+      "path": "Improvement_Study_v0.4/docs/QPATH-RPT-005_Routing_and_Circuit_Contribution_Study_v0.4.docx",
+      "bytes": 833603,
+      "sha256": "54ffcb4182d61471865ac457aa4da8647aa309f339709334252ba7dbf0e48a52",
+      "role": "historical_report_context",
+      "study": "v0.4",
+      "included_as_payload": false,
+      "verification": "live source matched v3 SOURCES.csv identity"
+    },
+    {
+      "path": "Improvement_Study_v0.5/docs/QPATH-RPT-006_Flexible_Readouts_and_Classical_Controls_v0.5.docx",
+      "bytes": 675200,
+      "sha256": "b08a039280e478710eeae7faa521fd37a41224bfd81100391ba8880f15992fb9",
+      "role": "historical_report_context",
+      "study": "v0.5",
+      "included_as_payload": false,
+      "verification": "live source matched v3 SOURCES.csv identity"
+    },
+    {
+      "path": "Improvement_Study_v0.6/docs/QPATH-RPT-007_Harder_Tasks_and_Faster_Inference_v0.6.docx",
+      "bytes": 867873,
+      "sha256": "e26164a4e9378ec3b1a2a26cc0cf6d47421550493ca3fb5fab6b868c0138c012",
+      "role": "historical_report_context",
+      "study": "v0.6",
+      "included_as_payload": false,
+      "verification": "live source matched v3 SOURCES.csv identity"
+    },
+    {
+      "path": "Improvement_Study_v0.7/docs/QPATH_RPT008_v0.7_Internal_Study_Report.docx",
+      "bytes": 697132,
+      "sha256": "3b2c31ec5f56cd6c6207d2a1f04820b1433dd938e08f4e906ad1d6a945038bc1",
+      "role": "historical_report_context",
+      "study": "v0.7",
+      "included_as_payload": false,
+      "verification": "live source matched v3 SOURCES.csv identity"
+    },
+    {
+      "path": "Improvement_Study_v0.8/docs/QPATH_RPT009_v0.8_Internal_Study_Report.docx",
+      "bytes": 890193,
+      "sha256": "499c25c86dba1a81486cd38edca25ba4b9741499d8f2a5a3e3145645ac2caa95",
+      "role": "historical_report_context",
+      "study": "v0.8",
+      "included_as_payload": false,
+      "verification": "live source matched v3 SOURCES.csv identity"
+    },
+    {
+      "path": "Improvement_Study_v0.9/docs/QPATH_RPT010_v0.9_Internal_Study_Report.docx",
+      "bytes": 1113738,
+      "sha256": "6f35101e9d3fda4581c2ef7102d0b330c89cd3bacc1771cf0c0e21b5db556ad8",
+      "role": "historical_report_context",
+      "study": "v0.9",
+      "included_as_payload": false,
+      "verification": "live source matched v3 SOURCES.csv identity"
+    },
+    {
+      "path": "Improvement_Study_v0.9/evidence/report_work/final_report/report_iteration_v03.pdf",
+      "bytes": 1691909,
+      "sha256": "9aa8d94cd9a02070ad350c82308896738ac2a8b02a6baa4db30b726998078fe3",
+      "role": "historical_report_context",
+      "study": "v0.9",
+      "included_as_payload": false,
+      "verification": "live source matched v3 SOURCES.csv identity"
+    },
+    {
+      "path": "v0.8_Review_and_v0.9_Alternative_Plan/QPATH_RPT009_v0.8_Internal_Study_Report_Revision01.docx",
+      "bytes": 898391,
+      "sha256": "3abf5c92f13b86467d9c9b11771a29547b9e3993bb2363f5e52b6cb272dbc8bf",
+      "role": "historical_report_context",
+      "study": "context",
+      "included_as_payload": false,
+      "verification": "live source matched v3 SOURCES.csv identity"
+    },
+    {
+      "path": "ETEL_Compatibility_v0.2.0/QPATH_ETEL_Compatibility_and_Research_Roadmap_v0.1.docx",
+      "bytes": 46330,
+      "sha256": "534fdc0c289b5d9967f345f7c9c19d2511b9a20037b19ad2e9fc0ca897ad8a29",
+      "role": "historical_report_context",
+      "study": "context",
+      "included_as_payload": false,
+      "verification": "live source matched v3 SOURCES.csv identity"
+    },
+    {
+      "path": "Sources/QPATH-ARCH-001 - Q-Pathformer - Multi-state Machine Learning & LLM Training (1).pdf",
+      "bytes": 1747813,
+      "sha256": "a0404adeab6c1fd647b6f2b46020d200a6d86e5867e62ea226f1618e12b524d8",
+      "role": "architecture_context",
+      "included_as_payload": true,
+      "verification": "live source matched v3 SOURCE_ADDITIONS identity",
+      "payload_path": "docs/architecture/QPATH-ARCH-001.pdf",
+      "current_copy_provenance": "docs/architecture/ORIGIN.json"
+    },
+    {
+      "path": "Q-Pathformer_Architecture_Update_Research_Proposal_v0.3.docx",
+      "bytes": 655043,
+      "sha256": "e26f297ab55c637b72e059730f2d40d3c04b7625be71a7f3bd1efa28ccf2418f",
+      "role": "architecture_context",
+      "included_as_payload": false,
+      "verification": "live source matched v3 SOURCE_ADDITIONS identity"
+    }
+  ],
+  "pdf_historical_rename": {
+    "original": "QPATH_RPT011_native.pdf",
+    "review_collection_name": "QPATH_RPT011_v0.9.5_Internal_Study_Report.pdf",
+    "bytes_changed": false
+  },
+  "accepted_payload_bytes": 117386480175,
+  "accepted_payload_boundary": "Recorded accepted payload excluding its manifest and later receipts; not current tree size, model size, RAM requirement or documentation ZIP size.",
+  "original_package_manifest_bytes": 1159611589,
+  "payload_plus_manifest_logical_bytes": 118546091764,
+  "size_accounting": {
+    "source_receipt": {
+      "path": "Improvement_Study_v0.9.5/Improvement_Study_v0.9.5_Delivery_Receipts/package/ROOT_VERIFICATION.json",
+      "bytes": 2925,
+      "sha256": "7af2921e16a80196fb5e678c02b63a4034ea1feb13a045f5f850551356d093f5"
+    },
+    "receipt_field_map": {
+      "accepted_payload_bytes": "package_bytes_excluding_manifest",
+      "original_package_manifest_bytes": "manifest.bytes"
+    },
+    "calculation": "payload_plus_manifest_logical_bytes = accepted_payload_bytes + original_package_manifest_bytes",
+    "original_manifest_identity": {
+      "path": "C:\\Q2\\Improvement_Study_v0.9.5\\PACKAGE_MANIFEST.json",
+      "bytes": 1159611589,
+      "sha256": "40fc4211c66d0a761d2f99d599b3faee83824b0d8867d24b0789c1e098e8ec0c"
+    },
+    "measurement_status": "Read from the historical receipt; no new full-archive rehash or on-disk size measurement.",
+    "excluded_from_combined_total": [
+      "later receipts",
+      "filesystem allocation overhead",
+      "compressed downloads",
+      "temporary extraction",
+      "new experiment outputs"
+    ]
+  }
+}

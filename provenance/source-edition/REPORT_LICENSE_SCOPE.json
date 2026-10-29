@@ -1,0 +1,91 @@
+{
+  "schema": "qpath-report-license-scope-1",
+  "status": "ADOPTED_CC_BY_4_0_REPORT_CONTENT",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "licensor": "Anthony Siljeg",
+  "affiliations": [
+    "Alnotrea Labs",
+    "Q-Pathformer Initiative"
+  ],
+  "licensed_material": "Original report prose, table presentation and seven study-result figures to the extent Anthony Siljeg has authority over the relevant rights.",
+  "original_publisher_report_files": [
+    {
+      "path": "reports/QPATH_RPT011_v0.9.5_Public_Report_Edition_1.pdf",
+      "bytes": 1957956,
+      "sha256": "51b754549f4ad1d18baea891c85511142391632ecb6959976a40b3b7ca2339be"
+    },
+    {
+      "path": "reports/QPATH_RPT011_v0.9.5_Public_Report_Edition_1.docx",
+      "bytes": 1629989,
+      "sha256": "de72e26e7095ee030329b656b7e09da700883b8610b4eeb255c4e4a3adc067f8"
+    }
+  ],
+  "file_identifier_purpose": "The listed paths and SHA-256 values identify the publisher's original report files. The license applies to the specified report content. These identifiers do not require downstream copies, extracts, translations or adaptations permitted by CC BY 4.0 to retain the original filename, format or hash.",
+  "historical_report_files": "Original internal and historical report files are not distributed or separately designated as licensed artifacts by this release. This exclusion does not restrict reuse under CC BY 4.0 of text, table presentation or figures licensed through the public report edition, including material also present in earlier reports. Material omitted from the public edition is not added to this grant merely because it appears in an earlier report.",
+  "exclusions": "Any specifically identified third-party material retains its stated terms. This report-content license does not license the separately held software, datasets, model artifacts, architecture documents or reproduction archive. It does not assert rights over scientific facts or ideas. Embedded font components retain their applicable terms; they are not part of the author's original report-content grant.",
+  "support_documents": "Not automatically included in this two-report content grant.",
+  "existing_18_file_documentation_proposal": "Separate and unadopted.",
+  "owner_decision": {
+    "schema": "qpath-owner-report-adoption-decision-1",
+    "decision_date": "2026-10-28",
+    "decision_timezone": "Australia/Sydney",
+    "recorded_at_utc": "2026-10-28T08:47:26.502228+00:00",
+    "decision_reference": "User reply to request_user_input_async call_16da844c864545c390de3759e9685766 question 0",
+    "question_presented": "Do you confirm that you control the report’s original prose, table presentation and seven figures, approve edition 1 with its disclosed omissions, and adopt CC BY 4.0—including commercial reuse and adaptations—for that report content only? The documentation ZIP, support files, code, datasets, models and architecture document remain outside this grant; the repository stays private.",
+    "actual_owner_instruction": "Yes — adopt CC BY 4.0",
+    "licensor": "Anthony Siljeg",
+    "authority_confirmed": true,
+    "report_edition_approved": true,
+    "cc_by_4_0_adopted": true,
+    "commercial_reuse_and_adaptations_approved": true,
+    "material_scope": "Controlled original report prose, table presentation and seven study-result figures in QPATH RPT011 study v0.9.5 public report edition 1.",
+    "candidate_review": "candidate/reports/QPATH_RPT011_v0.9.5_Public_Report_Edition_1.pdf",
+    "hashes_identify_publisher_files_not_reuse_restrictions": true,
+    "historical_shared_licensed_content_remains_reusable": true,
+    "excluded": "No automatic grant for documentation ZIP, supporting files, code, datasets, models or architecture documents; separate terms and licensed shared-content clarification preserved.",
+    "repository_visibility": "remain_private",
+    "publication_authorization": "Prior direct user request to resume publication after review; no additional publication confirmation required.",
+    "signature": "No signature fabricated; actual chat instruction recorded."
+  },
+  "embedded_figure_identities": [
+    {
+      "part": "word/media/rpt011_figure_1.png",
+      "bytes": 129102,
+      "sha256": "b6d7e94d939b9750d10dbc398d23c3fdd6017d69cf2be354406302dae9a54684"
+    },
+    {
+      "part": "word/media/rpt011_figure_2.png",
+      "bytes": 159829,
+      "sha256": "fc33715bba21fad32031f579fa6d9dc2771b5a9243d4dfc9b232be245fd19792"
+    },
+    {
+      "part": "word/media/rpt011_figure_3.png",
+      "bytes": 294649,
+      "sha256": "852d34360b9e7b028e695046a22db086eea1dcdf42ba7b4f6fb5154f41c25e4e"
+    },
+    {
+      "part": "word/media/rpt011_figure_4.png",
+      "bytes": 305384,
+      "sha256": "3a69547afc04c08f5d290eef64722726d32be6c36bd374d3ffa09a0cb1fddb8d"
+    },
+    {
+      "part": "word/media/rpt011_figure_5.png",
+      "bytes": 289988,
+      "sha256": "0c163035ce5de0ec843bcda06f476dd87defba3420bddfe4c57648ef82cb86a8"
+    },
+    {
+      "part": "word/media/rpt011_figure_6.png",
+      "bytes": 289455,
+      "sha256": "628d2679edb809f5851125dab3ef0f34ff338e884053bfdca09a207d861c952f"
+    },
+    {
+      "part": "word/media/rpt011_figure_7.png",
+      "bytes": 283328,
+      "sha256": "0a166bf0e1406fd98818203567d1a02f7df3a7246742aa3d3b1e6500f1a81b36"
+    }
+  ],
+  "build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\public_report_v0.9.5_CC_BY_20261028",
+  "preparation_date": "2026-10-28",
+  "publication_state": "READY_FOR_PRIVATE_RELEASE_ATTACHMENT"
+}

@@ -1,0 +1,247 @@
+{
+  "schema": "qpath-distribution-documentation-scope-1",
+  "distribution": "v1.0",
+  "status": "ADOPTED_SOURCE_AND_NEW_GUIDANCE_GRANTS",
+  "licensor": "Anthony Siljeg",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "source_grant": {
+    "path": "provenance/source-edition/DOCUMENTATION_LICENSE_SCOPE.json",
+    "commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+    "bytes": 12073,
+    "sha256": "795b173e18d563bb3c869453515c9d79100937ec59b9309cfd0bc976bd39b3f0"
+  },
+  "selected_source_content": [
+    {
+      "path": "README.md",
+      "source_path": "README.md",
+      "source_bytes": 12086,
+      "source_sha256": "9190bf6ac210660a242ceca16d599f9c9a8a547e6c26f878f2e613bdc348d176",
+      "current_identity": {
+        "bytes": 11729,
+        "sha256": "8bd893ad3839885998b395b4bb52eed3115b0e241e6305fa97ec436fecd2cd07"
+      },
+      "relation": "adapted",
+      "license": "CC-BY-4.0 for source content and applicable adaptations; controlled new original additions in the separate new-guidance scope are also licensed under CC-BY-4.0."
+    },
+    {
+      "path": "docs/RESEARCH_GUIDE.md",
+      "source_path": "docs/RESEARCH_GUIDE.md",
+      "source_bytes": 4671,
+      "source_sha256": "f1035383f5ca3cfb2417c45f667779cf0e14a8b0c9645670672dedb6f6fd1ad5",
+      "current_identity": {
+        "bytes": 4723,
+        "sha256": "9c35935ea18af693e771a16fbd37b37b17d967672acc4d402cd0fd5c8701beb5"
+      },
+      "relation": "adapted",
+      "license": "CC-BY-4.0 for source content and applicable adaptations; controlled new original additions in the separate new-guidance scope are also licensed under CC-BY-4.0."
+    },
+    {
+      "path": "docs/RESEARCH_ROADMAP.md",
+      "source_path": "docs/RESEARCH_ROADMAP.md",
+      "source_bytes": 3351,
+      "source_sha256": "847c9d936b4deb5c524993309c6b785671f38b19b3a081fe24d27ff365822497",
+      "current_identity": {
+        "bytes": 3382,
+        "sha256": "89abd5a9b83eb90c86a712a258ba3239cf4362f0ce813866e84955bb1e0581ab"
+      },
+      "relation": "adapted",
+      "license": "CC-BY-4.0 for source content and applicable adaptations; controlled new original additions in the separate new-guidance scope are also licensed under CC-BY-4.0."
+    },
+    {
+      "path": "docs/THREE_STATE_DESIGN.md",
+      "source_path": "docs/THREE_STATE_DESIGN.md",
+      "source_bytes": 1422,
+      "source_sha256": "8bab05f6ce8c2dc0e66fa4e7a8ce5e2282ffbcff30e8a65eb6bd5dc84a8c8e56",
+      "current_identity": {
+        "bytes": 1451,
+        "sha256": "ac58b285297108646a61890f49f2c4d99d47848a89249654c832a98f29c1d4a9"
+      },
+      "relation": "adapted",
+      "license": "CC-BY-4.0 for source content and applicable adaptations; controlled new original additions in the separate new-guidance scope are also licensed under CC-BY-4.0."
+    },
+    {
+      "path": "assets/ILLUSTRATIONS.md",
+      "source_path": "assets/ILLUSTRATIONS.md",
+      "source_bytes": 1208,
+      "source_sha256": "42a94b11de8ab7140674dafa8d0f50561cc74e0004c0f4e01345a6d41fc8df92",
+      "current_identity": {
+        "bytes": 1319,
+        "sha256": "fc061c02e130087b8eea8d3ae9dca10483e101995dc260de2e295b612911a7f4"
+      },
+      "relation": "adapted",
+      "license": "CC-BY-4.0 for source content and applicable adaptations; controlled new original additions in the separate new-guidance scope are also licensed under CC-BY-4.0."
+    },
+    {
+      "path": "assets/spiral.png",
+      "source_path": "assets/spiral.png",
+      "source_bytes": 143487,
+      "source_sha256": "dd07aa56b9a1092d0c6839bb50381a9d73bb1850a3acee20831fc21928fcf34e",
+      "current_identity": {
+        "bytes": 143487,
+        "sha256": "dd07aa56b9a1092d0c6839bb50381a9d73bb1850a3acee20831fc21928fcf34e"
+      },
+      "relation": "unchanged",
+      "license": "CC-BY-4.0 for source content and applicable adaptations; controlled new original additions in the separate new-guidance scope are also licensed under CC-BY-4.0."
+    },
+    {
+      "path": "assets/spiral.svg",
+      "source_path": "assets/spiral.svg",
+      "source_bytes": 646613,
+      "source_sha256": "64bea555757c54d87a218df8bd4f52e59e80633486831c09c809750cc131d21b",
+      "current_identity": {
+        "bytes": 646613,
+        "sha256": "64bea555757c54d87a218df8bd4f52e59e80633486831c09c809750cc131d21b"
+      },
+      "relation": "unchanged",
+      "license": "CC-BY-4.0 for source content and applicable adaptations; controlled new original additions in the separate new-guidance scope are also licensed under CC-BY-4.0."
+    },
+    {
+      "path": "assets/checkerboard.png",
+      "source_path": "assets/checkerboard.png",
+      "source_bytes": 56915,
+      "source_sha256": "065d3c9eaf407ebadae17df28e02f58717496daa8e5abfe0cb3ed481ad20c87a",
+      "current_identity": {
+        "bytes": 56915,
+        "sha256": "065d3c9eaf407ebadae17df28e02f58717496daa8e5abfe0cb3ed481ad20c87a"
+      },
+      "relation": "unchanged",
+      "license": "CC-BY-4.0 for source content and applicable adaptations; controlled new original additions in the separate new-guidance scope are also licensed under CC-BY-4.0."
+    },
+    {
+      "path": "assets/checkerboard.svg",
+      "source_path": "assets/checkerboard.svg",
+      "source_bytes": 958115,
+      "source_sha256": "99b6fff5f517658f346bed45d8c880165a8d027042cc0d17acc535f1960f4116",
+      "current_identity": {
+        "bytes": 958115,
+        "sha256": "99b6fff5f517658f346bed45d8c880165a8d027042cc0d17acc535f1960f4116"
+      },
+      "relation": "unchanged",
+      "license": "CC-BY-4.0 for source content and applicable adaptations; controlled new original additions in the separate new-guidance scope are also licensed under CC-BY-4.0."
+    },
+    {
+      "path": "assets/disk.png",
+      "source_path": "assets/disk.png",
+      "source_bytes": 75956,
+      "source_sha256": "2c4c2103f34e377c37abc7c9018338d30ff2edcabaf66019cff857a2cee704bc",
+      "current_identity": {
+        "bytes": 75956,
+        "sha256": "2c4c2103f34e377c37abc7c9018338d30ff2edcabaf66019cff857a2cee704bc"
+      },
+      "relation": "unchanged",
+      "license": "CC-BY-4.0 for source content and applicable adaptations; controlled new original additions in the separate new-guidance scope are also licensed under CC-BY-4.0."
+    },
+    {
+      "path": "assets/disk.svg",
+      "source_path": "assets/disk.svg",
+      "source_bytes": 286568,
+      "source_sha256": "9bcbe6b95799ce9b32702c53c3486bf9c7649f15b9e03e512b5fcc74565564bf",
+      "current_identity": {
+        "bytes": 286568,
+        "sha256": "9bcbe6b95799ce9b32702c53c3486bf9c7649f15b9e03e512b5fcc74565564bf"
+      },
+      "relation": "unchanged",
+      "license": "CC-BY-4.0 for source content and applicable adaptations; controlled new original additions in the separate new-guidance scope are also licensed under CC-BY-4.0."
+    },
+    {
+      "path": "assets/annulus.png",
+      "source_path": "assets/annulus.png",
+      "source_bytes": 99985,
+      "source_sha256": "3b3869749faf3d02a968795490d17dcb7575c0e92b1b268f81220d8ec923e75b",
+      "current_identity": {
+        "bytes": 99985,
+        "sha256": "3b3869749faf3d02a968795490d17dcb7575c0e92b1b268f81220d8ec923e75b"
+      },
+      "relation": "unchanged",
+      "license": "CC-BY-4.0 for source content and applicable adaptations; controlled new original additions in the separate new-guidance scope are also licensed under CC-BY-4.0."
+    },
+    {
+      "path": "assets/annulus.svg",
+      "source_path": "assets/annulus.svg",
+      "source_bytes": 507107,
+      "source_sha256": "3b70840df03b3394bdf85d29665420bbf366517caecdabcb5c40a266783faeac",
+      "current_identity": {
+        "bytes": 507107,
+        "sha256": "3b70840df03b3394bdf85d29665420bbf366517caecdabcb5c40a266783faeac"
+      },
+      "relation": "unchanged",
+      "license": "CC-BY-4.0 for source content and applicable adaptations; controlled new original additions in the separate new-guidance scope are also licensed under CC-BY-4.0."
+    },
+    {
+      "path": "assets/benchmark-overview.png",
+      "source_path": "assets/benchmark-overview.png",
+      "source_bytes": 253914,
+      "source_sha256": "429ad2ac2c00aab2c4fab1e63ec093d34ef0329520a8e264beca5e304f98793b",
+      "current_identity": {
+        "bytes": 253914,
+        "sha256": "429ad2ac2c00aab2c4fab1e63ec093d34ef0329520a8e264beca5e304f98793b"
+      },
+      "relation": "unchanged",
+      "license": "CC-BY-4.0 for source content and applicable adaptations; controlled new original additions in the separate new-guidance scope are also licensed under CC-BY-4.0."
+    },
+    {
+      "path": "assets/benchmark-overview.svg",
+      "source_path": "assets/benchmark-overview.svg",
+      "source_bytes": 2501283,
+      "source_sha256": "3c7e9080f0b498cd11011d46221d81fc229c557099198210b4771707327cfe40",
+      "current_identity": {
+        "bytes": 2501283,
+        "sha256": "3c7e9080f0b498cd11011d46221d81fc229c557099198210b4771707327cfe40"
+      },
+      "relation": "unchanged",
+      "license": "CC-BY-4.0 for source content and applicable adaptations; controlled new original additions in the separate new-guidance scope are also licensed under CC-BY-4.0."
+    },
+    {
+      "path": "assets/qpathformer-three-state.png",
+      "source_path": "assets/qpathformer-three-state.png",
+      "source_bytes": 1369384,
+      "source_sha256": "2631f0809ee1898f79aebe0da1e5cfa0bd6bfc63ed206e29a673a949d2bdde00",
+      "current_identity": {
+        "bytes": 1369384,
+        "sha256": "2631f0809ee1898f79aebe0da1e5cfa0bd6bfc63ed206e29a673a949d2bdde00"
+      },
+      "relation": "unchanged",
+      "license": "CC-BY-4.0 for source content and applicable adaptations; controlled new original additions in the separate new-guidance scope are also licensed under CC-BY-4.0."
+    },
+    {
+      "path": "release_notes/study-v0.9.5.md",
+      "source_path": "release_notes/study-v0.9.5.md",
+      "source_bytes": 5311,
+      "source_sha256": "8b2a98c0359bc89856a83904a8ea6ea3e6eb7b1afe9297aa6739ea24ceff1b67",
+      "current_identity": {
+        "bytes": 5179,
+        "sha256": "22dadefd852a0e14be898539e70c193e7fbdd1743f4a9f165edfa4b3eaa7d9f7"
+      },
+      "relation": "adapted",
+      "license": "CC-BY-4.0 for source content and applicable adaptations; controlled new original additions in the separate new-guidance scope are also licensed under CC-BY-4.0."
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "source_path": "docs/REPRODUCIBILITY.md",
+      "source_bytes": 4690,
+      "source_sha256": "fd8e0eecefd7df7a930cd01d0f25c14ee54431daa4bf54e2446f5b33fb2ec87a",
+      "current_identity": {
+        "bytes": 4779,
+        "sha256": "161abb0a7c18b16a425f6ee2bf957405fd1eb2918c001231736c39a9dccd97a6"
+      },
+      "relation": "adapted",
+      "license": "CC-BY-4.0 for source content and applicable adaptations; controlled new original additions in the separate new-guidance scope are also licensed under CC-BY-4.0."
+    },
+    {
+      "path": "docs/QPU_RELEASE_PLAN.md",
+      "source_path": "docs/QPU_RELEASE_PLAN.md",
+      "source_bytes": 7845,
+      "source_sha256": "f63f029a3988d220ec0015a1ebb846c230401f0460c1312d141726a117cf4fd2",
+      "current_identity": {
+        "bytes": 7893,
+        "sha256": "dfaa1179b857c912963558e5f46739d195433bc32b1ef9bf3c4dc93c22a9e93d"
+      },
+      "relation": "adapted",
+      "license": "CC-BY-4.0 for source content and applicable adaptations; controlled new original additions in the separate new-guidance scope are also licensed under CC-BY-4.0."
+    }
+  ],
+  "scope_note": "The original 20-file owner decision is preserved as source evidence. This distribution selects 19 of those paths and identifies adaptations; the staging migration plan is retained only as source evidence. The separate adopted new-guidance grant covers controlled new original prose in its exact listed files.",
+  "exclusions": "Architecture source documents, code/report artifacts and separately retained data/models/archives retain their separate terms. A content grant does not license every surrounding file; already-licensed content remains reusable wherever reproduced.",
+  "publication_state": "SEALED_FOR_PRIVATE_DISTRIBUTION",
+  "new_guidance_scope": "NEW_GUIDANCE_LICENSE_SCOPE.json"
+}

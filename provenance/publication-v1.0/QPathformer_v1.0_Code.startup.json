@@ -1,0 +1,214 @@
+{
+  "schema": "qpath-source-review-startup-1",
+  "status": "PASS",
+  "started_at_utc": "2026-10-29T06:20:34.877515+00:00",
+  "finished_at_utc": "2026-10-29T06:20:38.219235+00:00",
+  "interpreter": "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+  "package_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\v1.0\\final_20261029\\qa\\fresh_extraction\\QPathformer_v1.0_Code\\payload\\QPathformer_study-v0.9.5_Code_ETEL_Edition_1",
+  "parent_optimization": 0,
+  "child_pythonoptimize_removed": true,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "BLIS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "checks": [
+    {
+      "name": "runtime_versions",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-c",
+        "import json,platform,sys,numpy,scipy\nif sys.flags.optimize != 0: raise SystemExit(\"Child Python optimization must be zero\")\nprint(json.dumps(dict(python=platform.python_version(),numpy=numpy.__version__,scipy=scipy.__version__,optimize=sys.flags.optimize,assertions_enabled=__debug__)))"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\v1.0\\final_20261029\\qa\\temp\\qpath-code-review-jicjugu3\\study",
+      "returncode": 0,
+      "stdout": "{\"python\": \"3.12.14\", \"numpy\": \"2.5.4\", \"scipy\": \"1.18.1\", \"optimize\": 0, \"assertions_enabled\": true}\n",
+      "stderr": "",
+      "elapsed_seconds": 0.2059,
+      "status": "PASS"
+    },
+    {
+      "name": "launcher_startup",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "execution/launcher.py",
+        "--help"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\v1.0\\final_20261029\\qa\\temp\\qpath-code-review-jicjugu3\\study",
+      "returncode": 0,
+      "stdout": "usage: launcher.py [-h] {run,status,pause,clear-pause,recover} ...\n\npositional arguments:\n  {run,status,pause,clear-pause,recover}\n\noptions:\n  -h, --help            show this help message and exit\n",
+      "stderr": "",
+      "elapsed_seconds": 0.1741,
+      "status": "PASS"
+    },
+    {
+      "name": "worker_startup",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "execution/worker.py",
+        "--help"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\v1.0\\final_20261029\\qa\\temp\\qpath-code-review-jicjugu3\\study",
+      "returncode": 0,
+      "stdout": "usage: worker.py [-h] --request REQUEST\n\noptions:\n  -h, --help         show this help message and exit\n  --request REQUEST\n",
+      "stderr": "",
+      "elapsed_seconds": 0.165,
+      "status": "PASS"
+    },
+    {
+      "name": "data_generator_startup",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "data/prepare_data.py",
+        "--help"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\v1.0\\final_20261029\\qa\\temp\\qpath-code-review-jicjugu3\\study",
+      "returncode": 0,
+      "stdout": "usage: prepare_data.py [-h] --release RELEASE {preflight,generate}\n\npositional arguments:\n  {preflight,generate}\n\noptions:\n  -h, --help            show this help message and exit\n  --release RELEASE\n",
+      "stderr": "",
+      "elapsed_seconds": 0.1955,
+      "status": "PASS"
+    },
+    {
+      "name": "author_scorer_startup",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "analysis/author_v095/evaluate_v095.py",
+        "--help"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\v1.0\\final_20261029\\qa\\temp\\qpath-code-review-jicjugu3\\study",
+      "returncode": 0,
+      "stdout": "usage: evaluate_v095.py [-h] --authorization AUTHORIZATION --output OUTPUT\n\noptions:\n  -h, --help            show this help message and exit\n  --authorization AUTHORIZATION\n  --output OUTPUT\n",
+      "stderr": "",
+      "elapsed_seconds": 0.9804,
+      "status": "PASS"
+    },
+    {
+      "name": "independent_scorer_startup",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "analysis/independent_scoring_v095/replay.py",
+        "--help"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\v1.0\\final_20261029\\qa\\temp\\qpath-code-review-jicjugu3\\study",
+      "returncode": 0,
+      "stdout": "usage: replay.py [-h] --authorization AUTHORIZATION --output OUTPUT\n\noptions:\n  -h, --help            show this help message and exit\n  --authorization AUTHORIZATION\n  --output OUTPUT\n",
+      "stderr": "",
+      "elapsed_seconds": 0.2215,
+      "status": "PASS"
+    },
+    {
+      "name": "trainer_import_and_six_recipes",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-c",
+        "from scientific import trainer\nif len(trainer.RECIPES)!=6: raise SystemExit(\"Expected six recipes\")\nprint(sorted(trainer.RECIPES))"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\v1.0\\final_20261029\\qa\\temp\\qpath-code-review-jicjugu3\\study",
+      "returncode": 0,
+      "stdout": "['C_L_lr050', 'C_L_lr100', 'C_S_lr050', 'C_S_lr100', 'G121_lr050', 'G121_lr100']\n",
+      "stderr": "",
+      "elapsed_seconds": 0.5591,
+      "status": "PASS"
+    },
+    {
+      "name": "etel_three_task_dispatch",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-c",
+        "import json; from etel.core import Config,Task,run_tasks\nr=run_tasks([Task(\"startup-\"+str(i),{\"value\":i}) for i in range(3)],lambda task:{\"value\":task.payload[\"value\"]+1},Config(max_parallel_tasks=2))\nif r[\"summary\"][\"succeeded\"]!=3 or r[\"summary\"][\"failed\"]!=0: raise SystemExit(\"ETEL dispatch failed\")\nif [x[\"output\"][\"value\"] for x in r[\"results\"]]!=[1,2,3]: raise SystemExit(\"ETEL output mismatch\")\nprint(json.dumps(r[\"summary\"]))"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\v1.0\\final_20261029\\qa\\temp\\qpath-code-review-jicjugu3\\study\\execution\\vendor",
+      "returncode": 0,
+      "stdout": "{\"submitted\": 3, \"succeeded\": 3, \"failed\": 0, \"peak_in_flight\": 2, \"peak_running\": 1, \"max_parallel_tasks\": 2, \"final_capacity\": 64, \"peak_ready_capacity\": 64}\n",
+      "stderr": "",
+      "elapsed_seconds": 0.1409,
+      "status": "PASS"
+    },
+    {
+      "name": "five_retained_policy_tests",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "tests.test_execution.PolicyTests.test_vendor_core_unchanged",
+        "tests.test_execution.PolicyTests.test_floor_all_before_allocating",
+        "tests.test_execution.PolicyTests.test_fixed_progress_and_tail",
+        "tests.test_execution.PolicyTests.test_halving_exact_equal_rungs",
+        "tests.test_execution.PolicyTests.test_etel_fourth_probe_and_reserve"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\v1.0\\final_20261029\\qa\\temp\\qpath-code-review-jicjugu3\\study\\execution",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.021s\n\nOK\n",
+      "elapsed_seconds": 0.2216,
+      "status": "PASS"
+    },
+    {
+      "name": "four_retained_data_tests",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_data.DataTests.test_four_task_labels_and_strict_annulus_boundary",
+        "test_data.DataTests.test_exact_coordinate_exclusion_continues_original_stream",
+        "test_data.DataTests.test_loader_rejects_hidden_and_traversal_before_io",
+        "test_data.DataTests.test_root_release_required_before_io_or_generation"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\v1.0\\final_20261029\\qa\\temp\\qpath-code-review-jicjugu3\\study\\data\\tests",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.148s\n\nOK\n",
+      "elapsed_seconds": 0.4252,
+      "status": "PASS"
+    }
+  ],
+  "retained_test_methods": 9,
+  "package_bytes_unchanged": true,
+  "failures": [],
+  "scope": "CLI startup, trainer imports, three trivial ETEL task dispatches and nine retained constructed tests only.",
+  "not_verified": [
+    "Official study execution",
+    "Scientific training results",
+    "Full durability/crash/recovery suite",
+    "Fresh dependency installation",
+    "Cross-machine portability",
+    "Full archive restoration",
+    "QPU execution"
+  ],
+  "official_training_or_scoring_started": false,
+  "original_study_modified": false
+}

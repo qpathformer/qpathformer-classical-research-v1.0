@@ -1,0 +1,37 @@
+Q-Pathformer Classical Research — scoped license notice
+
+Updated 28 October 2026. This repository has separate code, report and
+documentation scopes; no single license applies to every neighbouring file.
+
+CODE: The 38 Python files listed in CODE_LICENSE_SCOPE.json are licensed by
+Anthony Siljeg under the Q-Pathformer Platform License 1.0
+(LicenseRef-QPATHFORMER-PLATFORM-1.0). The unchanged text is in
+QPATHFORMER-PLATFORM-1.0.txt. The selected code is distributed through a separate
+study-v0.9.5 release attachment; scope paths identify files within that package,
+not implementation files in this Git tree. This is source available under the
+Platform license, not a claim of OSI open-source licensing.
+
+REPORT: The original prose, table presentation and seven study-result figures
+identified in REPORT_LICENSE_SCOPE.json are licensed by Anthony Siljeg under
+Creative Commons Attribution 4.0 International (CC BY 4.0), to the extent he
+holds authority to license those rights. The PDF and Word public report
+edition 1 are separate release assets. LICENSES/CC-BY-4.0.txt is the reference
+legal text. This report grant does not license the code or supporting files.
+
+DOCUMENTATION: The new CC BY 4.0 selection and actual owner adoption status are
+recorded in DOCUMENTATION_LICENSE_SCOPE.json. DOCUMENTATION_RIGHTS.md explains
+the original content, attribution, generated-image provenance and exclusions.
+Anthony Siljeg remains the licensor; Alnotrea Pty Ltd is company affiliation.
+The old 18-file proposal in cc_scope_proposal.json and CC_BY_SCOPE_PROPOSAL.md
+is preserved unchanged as a historical proposal at the 28 October revision.
+No whole-repository or whole-ZIP grant is made. Already-licensed content retains
+its grant where it also appears in other documents or historical snapshots.
+
+QPATH-ARCH-001 retains its original notices and is outside these grants.
+Datasets, models, checkpoints, dependency/runtime bundles, full reproduction
+archives and other excluded material retain their applicable terms. Supporting
+Markdown/JSON files and historical READMEs are not automatically covered by
+the code or report grants. No blanket archive license is given.
+
+Read LICENSE_SCOPE.md, ARTIFACT_RIGHTS.md and THIRD_PARTY_NOTICES.md for the
+boundaries and source records. Existing permissions and notices remain applicable.

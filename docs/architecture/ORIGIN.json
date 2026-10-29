@@ -1,0 +1,53 @@
+{
+  "source_repository": "qpathformer/qpathformer-enterprise-v1.0-release",
+  "source_commit": "4a90edcf84b39f743324c89e4e256e09d3413dbd",
+  "source_path": "docs/architecture/QPATH-ARCH-001 - Q-Pathformer - Multi-state Machine Learning & LLM Training.pdf",
+  "source_blob_sha1": "f5106a685e1bd42f1931bd82a479fc7723b752ac",
+  "bytes": 1747813,
+  "sha256": "a0404adeab6c1fd647b6f2b46020d200a6d86e5867e62ea226f1618e12b524d8",
+  "source_permalink": "https://github.com/qpathformer/qpathformer-enterprise-v1.0-release/blob/4a90edcf84b39f743324c89e4e256e09d3413dbd/docs/architecture/QPATH-ARCH-001%20-%20Q-Pathformer%20-%20Multi-state%20Machine%20Learning%20%26%20LLM%20Training.pdf",
+  "retrieved_from": "GitHub Git blob API via authenticated gh CLI",
+  "retrieval_date": "2026-10-28",
+  "original_file_unchanged": true,
+  "repository_path": "docs/architecture/QPATH-ARCH-001.pdf",
+  "document_id": "QPATH-ARCH-001",
+  "title": "Q-Pathformer - Multi-state Machine Learning & LLM Training",
+  "author": "Anthony Siljeg",
+  "affiliation_on_title_page": "Founder of Alnotrea Labs",
+  "publication": {
+    "original_date": "2024-12-05",
+    "platform": "LinkedIn",
+    "evidence": "The source PDF, page 1, records first publication on LinkedIn on December 5, 2024. The owner corroborated this date.",
+    "verification_level": "document statement and owner confirmation; original LinkedIn post not independently retrieved",
+    "original_post_url": null
+  },
+  "pdf_metadata_dates": {
+    "creation": "2026-03-10T19:30:51+10:00",
+    "modification": "2026-03-10T19:50:36+10:00",
+    "meaning": "Dates of this retained PDF edition; not the original publication date."
+  },
+  "github_file_history": {
+    "first_commit_in_source_repository": "0fa94ecf47d698a894bc868545f110570d0dec50",
+    "commit_timestamp_utc": "2026-04-18T13:42:22Z",
+    "commit_url": "https://github.com/qpathformer/qpathformer-enterprise-v1.0-release/commit/0fa94ecf47d698a894bc868545f110570d0dec50",
+    "meaning": "Addition of the PDF to this GitHub repository, not original LinkedIn publication."
+  },
+  "rights": {
+    "embedded_copyright": "© 2026 Anthony Siljeg",
+    "embedded_rights_status": "All rights reserved.",
+    "embedded_scope_summary": "Informational and educational; non-normative; no compliance, certification or deployment-readiness claim; human judgment remains authoritative.",
+    "all_original_notices_preserved": true,
+    "cc_by_proposal_scope": "excluded",
+    "new_license_adopted": false,
+    "source_repository_check": {
+      "source_root_license_url": "https://github.com/qpathformer/qpathformer-enterprise-v1.0-release/blob/4a90edcf84b39f743324c89e4e256e09d3413dbd/LICENSE",
+      "root_notice": "References QPATHFORMER-PLATFORM-1.0; its grant text addresses platform source code.",
+      "source_release_url": "https://github.com/qpathformer/qpathformer-enterprise-v1.0-release/releases/tag/v1.0-qpathformer-enterprise",
+      "release_cc_by_scope": "Release notes explicitly identify APOD-TR-007 through APOD-TR-009 as CC BY 4.0; they do not identify QPATH-ARCH-001 as CC BY.",
+      "finding": "No document-specific CC BY grant found in the inspected current/introduction-commit repository notices, release notes or complete PDF metadata. This is not a claim about uninspected publications.",
+      "decision": "Preserve existing notices; do not add QPATH-ARCH-001 to the proposed CC BY scope."
+    }
+  },
+  "scope": "Historical conceptual architecture. Does not establish implementation of the entire architecture, physical-QPU validation or a complete quantum LLM.",
+  "transformation": "Filename shortened to QPATH-ARCH-001.pdf; PDF bytes and metadata unchanged."
+}

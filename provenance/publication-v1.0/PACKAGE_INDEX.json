@@ -1,0 +1,46 @@
+{
+  "schema": "qpath-package-index-1",
+  "distribution": "v1.0",
+  "packages": [
+    {
+      "package": "QPathformer_v1.0_Study",
+      "zip": {
+        "path": "QPathformer_v1.0_Study.zip",
+        "bytes": 3274610,
+        "sha256": "9645300977802c09b42d03209497e4c6bb5e21d5541a1b46c03057dd366a419b"
+      },
+      "seal": {
+        "path": "QPathformer_v1.0_Study.seal.json",
+        "bytes": 1563,
+        "sha256": "50074878dded898c6864d18b1542a356968f4d02f9a43687b56d2eca7d5a2f8d"
+      }
+    },
+    {
+      "package": "QPathformer_v1.0_Code",
+      "zip": {
+        "path": "QPathformer_v1.0_Code.zip",
+        "bytes": 233689,
+        "sha256": "266f69e9b71dd5596e13925d91eda99a06c65e803038a35ee21be48d129e1c83"
+      },
+      "seal": {
+        "path": "QPathformer_v1.0_Code.seal.json",
+        "bytes": 1561,
+        "sha256": "91fe1bc0ec126698d157b7a5b87221b32f57235d63476a523dcecf75c9e2c56d"
+      }
+    },
+    {
+      "package": "QPathformer_v1.0_Documentation",
+      "zip": {
+        "path": "QPathformer_v1.0_Documentation.zip",
+        "bytes": 4824365,
+        "sha256": "14635820caad3fe531af3b44a5b36bf7f07faec23338caa5f15562ef3df20ae0"
+      },
+      "seal": {
+        "path": "QPathformer_v1.0_Documentation.seal.json",
+        "bytes": 1597,
+        "sha256": "727ff2e025f8623f0fe40ead8c5e07a25fbfb715d139685d6847c9c0a1a9872b"
+      }
+    }
+  ],
+  "sealed_documentation_snapshot": "The Documentation ZIP contains the selected project documents and original provenance. This publication-v1.0 directory is external post-seal evidence added to the Git repository; it is not inside the sealed Documentation ZIP."
+}

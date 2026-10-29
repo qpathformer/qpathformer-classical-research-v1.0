@@ -1,0 +1,214 @@
+{
+  "schema": "qpath-documentation-license-scope-1",
+  "status": "ADOPTED_CC_BY_4_0_DOCUMENTATION_CONTENT",
+  "edition": 1,
+  "prepared_date": "2026-10-29",
+  "licensor": "Anthony Siljeg",
+  "author_role": "Founder, Alnotrea Labs",
+  "company_affiliation": "Alnotrea Pty Ltd",
+  "project": "Q-Pathformer Initiative",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "owner_adoption": {
+    "status": "OWNER_ADOPTED",
+    "decision_date": "2026-10-29",
+    "decision_timezone": "Australia/Sydney",
+    "recorded_at_utc": "2026-10-29T05:04:14.582394+00:00",
+    "licensor": "Anthony Siljeg",
+    "question_call": "call_2b2d29d139f14d06bb8c6583bf320f09",
+    "question_index": 0,
+    "question": "Do you confirm authority to license the original prose and illustrations in the reviewed 20-file documentation selection—including controlled reference expression in the generated three-state image—and adopt CC BY 4.0 as Anthony Siljeg? This permits redistribution, commercial reuse and adaptations with attribution. Your company/founder/initiative attribution is included. Architecture documents, code/report artifacts, datasets, models, full archives, policy/provenance records and future wrapper files remain outside this new grant; existing code/report grants stay unchanged and both repositories remain private.",
+    "answer": "Yes—adopt CC BY 4.0 for the reviewed 20-file documentation content.",
+    "review_zip_sha256": "85d5d85894d39bfa1125dfae20dc32db3394ad872c630b0ba93add83e58ad1b7",
+    "review_scope_sha256": "d90267d33429eeac4b1539d2d376882f50e3795308bd1c0dbbab5a627d88ff0f",
+    "selected_files": 20
+  },
+  "attribution_choice": {
+    "question_call": "call_af6290a586c84b8cbfee71f387d1753c",
+    "answer": "Yes—keep Anthony as licensor and add those attribution details.",
+    "scope": "Attribution/licensor choice only; not license adoption."
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 12086,
+      "sha256": "9190bf6ac210660a242ceca16d599f9c9a8a547e6c26f878f2e613bdc348d176",
+      "content_scope": "Original prose or illustration content only, to the extent rights are held or controlled; exclusions and shared-content rules in DOCUMENTATION_RIGHTS.md."
+    },
+    {
+      "path": "docs/RESEARCH_GUIDE.md",
+      "bytes": 4671,
+      "sha256": "f1035383f5ca3cfb2417c45f667779cf0e14a8b0c9645670672dedb6f6fd1ad5",
+      "content_scope": "Original prose or illustration content only, to the extent rights are held or controlled; exclusions and shared-content rules in DOCUMENTATION_RIGHTS.md."
+    },
+    {
+      "path": "docs/RESEARCH_ROADMAP.md",
+      "bytes": 3351,
+      "sha256": "847c9d936b4deb5c524993309c6b785671f38b19b3a081fe24d27ff365822497",
+      "content_scope": "Original prose or illustration content only, to the extent rights are held or controlled; exclusions and shared-content rules in DOCUMENTATION_RIGHTS.md."
+    },
+    {
+      "path": "docs/THREE_STATE_DESIGN.md",
+      "bytes": 1422,
+      "sha256": "8bab05f6ce8c2dc0e66fa4e7a8ce5e2282ffbcff30e8a65eb6bd5dc84a8c8e56",
+      "content_scope": "Original prose or illustration content only, to the extent rights are held or controlled; exclusions and shared-content rules in DOCUMENTATION_RIGHTS.md."
+    },
+    {
+      "path": "assets/ILLUSTRATIONS.md",
+      "bytes": 1208,
+      "sha256": "42a94b11de8ab7140674dafa8d0f50561cc74e0004c0f4e01345a6d41fc8df92",
+      "content_scope": "Original prose or illustration content only, to the extent rights are held or controlled; exclusions and shared-content rules in DOCUMENTATION_RIGHTS.md."
+    },
+    {
+      "path": "assets/spiral.png",
+      "bytes": 143487,
+      "sha256": "dd07aa56b9a1092d0c6839bb50381a9d73bb1850a3acee20831fc21928fcf34e",
+      "content_scope": "Original prose or illustration content only, to the extent rights are held or controlled; exclusions and shared-content rules in DOCUMENTATION_RIGHTS.md."
+    },
+    {
+      "path": "assets/spiral.svg",
+      "bytes": 646613,
+      "sha256": "64bea555757c54d87a218df8bd4f52e59e80633486831c09c809750cc131d21b",
+      "content_scope": "Original prose or illustration content only, to the extent rights are held or controlled; exclusions and shared-content rules in DOCUMENTATION_RIGHTS.md."
+    },
+    {
+      "path": "assets/checkerboard.png",
+      "bytes": 56915,
+      "sha256": "065d3c9eaf407ebadae17df28e02f58717496daa8e5abfe0cb3ed481ad20c87a",
+      "content_scope": "Original prose or illustration content only, to the extent rights are held or controlled; exclusions and shared-content rules in DOCUMENTATION_RIGHTS.md."
+    },
+    {
+      "path": "assets/checkerboard.svg",
+      "bytes": 958115,
+      "sha256": "99b6fff5f517658f346bed45d8c880165a8d027042cc0d17acc535f1960f4116",
+      "content_scope": "Original prose or illustration content only, to the extent rights are held or controlled; exclusions and shared-content rules in DOCUMENTATION_RIGHTS.md."
+    },
+    {
+      "path": "assets/disk.png",
+      "bytes": 75956,
+      "sha256": "2c4c2103f34e377c37abc7c9018338d30ff2edcabaf66019cff857a2cee704bc",
+      "content_scope": "Original prose or illustration content only, to the extent rights are held or controlled; exclusions and shared-content rules in DOCUMENTATION_RIGHTS.md."
+    },
+    {
+      "path": "assets/disk.svg",
+      "bytes": 286568,
+      "sha256": "9bcbe6b95799ce9b32702c53c3486bf9c7649f15b9e03e512b5fcc74565564bf",
+      "content_scope": "Original prose or illustration content only, to the extent rights are held or controlled; exclusions and shared-content rules in DOCUMENTATION_RIGHTS.md."
+    },
+    {
+      "path": "assets/annulus.png",
+      "bytes": 99985,
+      "sha256": "3b3869749faf3d02a968795490d17dcb7575c0e92b1b268f81220d8ec923e75b",
+      "content_scope": "Original prose or illustration content only, to the extent rights are held or controlled; exclusions and shared-content rules in DOCUMENTATION_RIGHTS.md."
+    },
+    {
+      "path": "assets/annulus.svg",
+      "bytes": 507107,
+      "sha256": "3b70840df03b3394bdf85d29665420bbf366517caecdabcb5c40a266783faeac",
+      "content_scope": "Original prose or illustration content only, to the extent rights are held or controlled; exclusions and shared-content rules in DOCUMENTATION_RIGHTS.md."
+    },
+    {
+      "path": "assets/benchmark-overview.png",
+      "bytes": 253914,
+      "sha256": "429ad2ac2c00aab2c4fab1e63ec093d34ef0329520a8e264beca5e304f98793b",
+      "content_scope": "Original prose or illustration content only, to the extent rights are held or controlled; exclusions and shared-content rules in DOCUMENTATION_RIGHTS.md."
+    },
+    {
+      "path": "assets/benchmark-overview.svg",
+      "bytes": 2501283,
+      "sha256": "3c7e9080f0b498cd11011d46221d81fc229c557099198210b4771707327cfe40",
+      "content_scope": "Original prose or illustration content only, to the extent rights are held or controlled; exclusions and shared-content rules in DOCUMENTATION_RIGHTS.md."
+    },
+    {
+      "path": "assets/qpathformer-three-state.png",
+      "bytes": 1369384,
+      "sha256": "2631f0809ee1898f79aebe0da1e5cfa0bd6bfc63ed206e29a673a949d2bdde00",
+      "content_scope": "Original prose or illustration content only, to the extent rights are held or controlled; exclusions and shared-content rules in DOCUMENTATION_RIGHTS.md."
+    },
+    {
+      "path": "release_notes/study-v0.9.5.md",
+      "bytes": 5311,
+      "sha256": "8b2a98c0359bc89856a83904a8ea6ea3e6eb7b1afe9297aa6739ea24ceff1b67",
+      "content_scope": "Original prose or illustration content only, to the extent rights are held or controlled; exclusions and shared-content rules in DOCUMENTATION_RIGHTS.md."
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "bytes": 4690,
+      "sha256": "fd8e0eecefd7df7a930cd01d0f25c14ee54431daa4bf54e2446f5b33fb2ec87a",
+      "content_scope": "Original prose or illustration content only, to the extent rights are held or controlled; exclusions and shared-content rules in DOCUMENTATION_RIGHTS.md."
+    },
+    {
+      "path": "docs/QPU_RELEASE_PLAN.md",
+      "bytes": 7845,
+      "sha256": "f63f029a3988d220ec0015a1ebb846c230401f0460c1312d141726a117cf4fd2",
+      "content_scope": "Original prose or illustration content only, to the extent rights are held or controlled; exclusions and shared-content rules in DOCUMENTATION_RIGHTS.md."
+    },
+    {
+      "path": "docs/DISTRIBUTION_PLAN.md",
+      "bytes": 7144,
+      "sha256": "5b3bde3d003b34d22c7775e1668dd2621566d1430dd965cbd37d510e21bd3aeb",
+      "content_scope": "Original prose or illustration content only, to the extent rights are held or controlled; exclusions and shared-content rules in DOCUMENTATION_RIGHTS.md."
+    }
+  ],
+  "exclusions": [
+    "Architecture source documents including QPATH-ARCH-001",
+    "Implementation code and report artifacts, which retain separate adopted grants",
+    "Datasets, models, checkpoints, exported predictors, dependencies and full experiment archives",
+    "Historical operational READMEs, policy/legal texts and machine-readable scope/provenance/integrity records",
+    "Captured release bodies and future wrapper files not explicitly selected"
+  ],
+  "content_continuity": "Licensed content remains reusable when reproduced in historical snapshots or other files; exclusions do not restrict expression actually licensed through selected prose/images. Whole containing files or archives are not thereby licensed.",
+  "generated_image": "Preserve visual_sources.json as historical provenance. License only controlled expression and rights actually held, including controlled reference material incorporated in the selected PNG; no assertion that every generated element has copyright.",
+  "hash_purpose": "Identify publisher editions, not restrictions on recipient adaptations or formats.",
+  "historical_proposal": {
+    "path": "cc_scope_proposal.json",
+    "commit": "461ea2383f0e333247ddfe664e187265a444b931",
+    "status": "Unchanged historical proposal, not silently adopted"
+  },
+  "separate_grants": [
+    "CODE_LICENSE_SCOPE.json",
+    "REPORT_LICENSE_SCOPE.json"
+  ],
+  "adopted_date": "2026-10-29",
+  "editorial_updates": [
+    {
+      "date": "2026-10-29",
+      "timezone": "Australia/Sydney",
+      "type": "USER_REQUESTED_EDITORIAL_UPDATE_EXISTING_SELECTION",
+      "previous_scope_commit": "689f16a6b7d09332a77dd08133f8e5f948269f1a",
+      "previous_scope_sha256": "7f4263abd09765faa8da664d75030a1733c989cd58cdbf81581fec0e5f6a197c",
+      "authorization": "Owner requested the final Additional runs and reproducibility revision, future distribution v2.0, and omission of unfinished run numbers.",
+      "purpose": "Record current file identities for the requested edits to existing licensed documentation; no new files, changed license terms or new owner-adoption decision.",
+      "changed_files": [
+        {
+          "path": "README.md",
+          "previous_bytes": 12368,
+          "previous_sha256": "0bbec408bc757ee1035beb59f307de2f07d5afc41231c10444f41036e35b5cb5",
+          "bytes": 12086,
+          "sha256": "9190bf6ac210660a242ceca16d599f9c9a8a547e6c26f878f2e613bdc348d176"
+        },
+        {
+          "path": "docs/RESEARCH_ROADMAP.md",
+          "previous_bytes": 3351,
+          "previous_sha256": "0153aacfc79f298183f502d42347ff4fe1cbf54b02d08a770e9eace604a7ba4d",
+          "bytes": 3351,
+          "sha256": "847c9d936b4deb5c524993309c6b785671f38b19b3a081fe24d27ff365822497"
+        },
+        {
+          "path": "docs/QPU_RELEASE_PLAN.md",
+          "previous_bytes": 7845,
+          "previous_sha256": "a3dde171acaaa3ef2f74f0ea1f0915b599698e5f469da7216ea7e1b076739d72",
+          "bytes": 7845,
+          "sha256": "f63f029a3988d220ec0015a1ebb846c230401f0460c1312d141726a117cf4fd2"
+        },
+        {
+          "path": "docs/DISTRIBUTION_PLAN.md",
+          "previous_bytes": 7144,
+          "previous_sha256": "20c38333e94482e70e440f08ca7de822d0ab08dd4e7e1bd08e91944752cd5eb7",
+          "bytes": 7144,
+          "sha256": "5b3bde3d003b34d22c7775e1668dd2621566d1430dd965cbd37d510e21bd3aeb"
+        }
+      ]
+    }
+  ]
+}

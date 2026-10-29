@@ -1,0 +1,81 @@
+{
+  "status": "PASS_FRESH_EXTRACTION_AND_BOUNDED_STARTUP",
+  "checked_at_utc": "2026-10-29T06:20:38.521715+00:00",
+  "build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\v1.0\\final_20261029",
+  "platform": {
+    "system": "Windows",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "sys_platform": "win32"
+  },
+  "packages": [
+    {
+      "package": "QPathformer_v1.0_Study",
+      "zip": {
+        "bytes": 3274610,
+        "sha256": "9645300977802c09b42d03209497e4c6bb5e21d5541a1b46c03057dd366a419b"
+      },
+      "seal": {
+        "bytes": 1563,
+        "sha256": "50074878dded898c6864d18b1542a356968f4d02f9a43687b56d2eca7d5a2f8d"
+      },
+      "fresh_extraction": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\v1.0\\final_20261029\\qa\\fresh_extraction\\QPathformer_v1.0_Study",
+      "status": "PASS",
+      "files": 21,
+      "manifest_entries": 19,
+      "checksums": 20,
+      "extracted_bytes": 3647762
+    },
+    {
+      "package": "QPathformer_v1.0_Code",
+      "zip": {
+        "bytes": 233689,
+        "sha256": "266f69e9b71dd5596e13925d91eda99a06c65e803038a35ee21be48d129e1c83"
+      },
+      "seal": {
+        "bytes": 1561,
+        "sha256": "91fe1bc0ec126698d157b7a5b87221b32f57235d63476a523dcecf75c9e2c56d"
+      },
+      "fresh_extraction": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\v1.0\\final_20261029\\qa\\fresh_extraction\\QPathformer_v1.0_Code",
+      "status": "PASS",
+      "files": 77,
+      "manifest_entries": 75,
+      "checksums": 76,
+      "extracted_bytes": 662626
+    },
+    {
+      "package": "QPathformer_v1.0_Documentation",
+      "zip": {
+        "bytes": 4824365,
+        "sha256": "14635820caad3fe531af3b44a5b36bf7f07faec23338caa5f15562ef3df20ae0"
+      },
+      "seal": {
+        "bytes": 1597,
+        "sha256": "727ff2e025f8623f0fe40ead8c5e07a25fbfb715d139685d6847c9c0a1a9872b"
+      },
+      "fresh_extraction": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\v1.0\\final_20261029\\qa\\fresh_extraction\\QPathformer_v1.0_Documentation",
+      "status": "PASS",
+      "files": 73,
+      "manifest_entries": 71,
+      "checksums": 72,
+      "extracted_bytes": 8964868
+    }
+  ],
+  "code_startup_receipt": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\v1.0\\final_20261029\\receipts\\QPathformer_v1.0_Code.startup.json",
+    "bytes": 9647,
+    "sha256": "37cb926851d65f1ff0b93945c61d5fae840b8dd31fb33fc98c3dff8f5de3413c"
+  },
+  "code_zip": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\v1.0\\final_20261029\\dist\\QPathformer_v1.0_Code.zip",
+    "bytes": 233689,
+    "sha256": "266f69e9b71dd5596e13925d91eda99a06c65e803038a35ee21be48d129e1c83"
+  },
+  "code_seal": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\v1.0\\final_20261029\\dist\\QPathformer_v1.0_Code.seal.json",
+    "bytes": 1561,
+    "sha256": "91fe1bc0ec126698d157b7a5b87221b32f57235d63476a523dcecf75c9e2c56d"
+  },
+  "scope": "Original package verifier before and after startup; bounded runtime/CLI/import/ETEL/retained-test checks; no full study, retraining, dependency installation or physical-QPU run.",
+  "original_payload_and_outer_package_unchanged": true,
+  "receipt_outside_sealed_packages": true
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "qpath-repository-identity-mapping-1",
+  "recorded_at_utc": "2026-10-29T06:24:58.339810+00:00",
+  "status": "PRIVATE_REPOSITORIES_CREATED",
+  "historical_repository": {
+    "id": 1436694826,
+    "recorded_name": "qpathformer/qpathformer-classical-research",
+    "current_name": "qpathformer/qpathformer-classical-research-staging",
+    "current_url": "https://github.com/qpathformer/qpathformer-classical-research-staging",
+    "private": true,
+    "retained_main_commit": "a7f209841a36686aa883ad6d6cc854e9c3b66dd0",
+    "retained_study_tag": "study-v0.9.5",
+    "retained_tag_commit": "f9f4723e31b4944ccea16541cb0efc4c74cda841",
+    "retained_release_id": 426359002,
+    "current_release_url": "https://github.com/qpathformer/qpathformer-classical-research-staging/releases/tag/study-v0.9.5"
+  },
+  "distribution_repository": {
+    "id": 1438032349,
+    "name": "qpathformer/qpathformer-classical-research",
+    "url": "https://github.com/qpathformer/qpathformer-classical-research",
+    "private": true,
+    "distribution": "v1.0",
+    "release_tag": "v1.0"
+  },
+  "historical_url_rule": "Original repository URLs in preserved payloads and source-edition records identify repository ID 1436694826. Resolve that source material under qpathformer-classical-research-staging using the recorded commit, tag or release identity. Reuse of the old name means rename redirects must not be relied upon.",
+  "history_policy": "New repository starts with a parentless curated-content commit. Existing scientific identifiers and source provenance remain; staging Git history is not imported.",
+  "source_assets": "Original study tag, release body and all 19 assets preserved; this distribution supplies three new ZIP/seal pairs.",
+  "local_source_checkout": "C:\\Q2\\Repositories\\qpathformer-classical-research",
+  "local_source_remote": "https://github.com/qpathformer/qpathformer-classical-research-staging.git",
+  "new_checkout": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\v1.0\\final_20261029\\repository",
+  "source_artifacts_private": true
+}
