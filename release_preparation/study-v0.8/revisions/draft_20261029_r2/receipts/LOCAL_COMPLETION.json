@@ -1,0 +1,97 @@
+{
+  "status": "READY_FOR_PRIVATE_DRAFT_UPLOAD",
+  "study_version": "v0.8",
+  "build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261029_r2",
+  "packages": [
+    {
+      "package": "QPathformer_v0.8_Code",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261029_r2\\dist\\QPathformer_v0.8_Code.zip",
+        "bytes": 381497,
+        "sha256": "d280df33db278d9b80779635e4ebfa7abc4ae07edeee6f0203c62ea47f2041d0"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261029_r2\\dist\\QPathformer_v0.8_Code.seal.json",
+        "bytes": 1288,
+        "sha256": "5b443e4d72476460817de0cff848d11cf8219fbfc5b85e7790194bc63ac3d1c6"
+      },
+      "verification": {
+        "status": "PASS",
+        "files": 107,
+        "root": "QPathformer_v0.8_Code"
+      }
+    },
+    {
+      "package": "QPathformer_v0.8_Documentation",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261029_r2\\dist\\QPathformer_v0.8_Documentation.zip",
+        "bytes": 39852,
+        "sha256": "a2c6902df294c725696ba0ee215871e6f43e796afe30329ceb6935624dc9b9cd"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261029_r2\\dist\\QPathformer_v0.8_Documentation.seal.json",
+        "bytes": 1356,
+        "sha256": "6650b4424401cf233d5b0766adbfed117b4c63b517826daffacf5557470a9769"
+      },
+      "verification": {
+        "status": "PASS",
+        "files": 19,
+        "root": "QPathformer_v0.8_Documentation"
+      }
+    },
+    {
+      "package": "QPathformer_v0.8_Study",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261029_r2\\dist\\QPathformer_v0.8_Study.zip",
+        "bytes": 2129826,
+        "sha256": "d76bbd7c9c794e3615e7e5e05907145c71ee625a54b33580f63e714cd0b2fa87"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261029_r2\\dist\\QPathformer_v0.8_Study.seal.json",
+        "bytes": 1294,
+        "sha256": "2a2f64d73639d655614d34437cb8d98ba77f7d693c7c6cea592a236dfb2311e6"
+      },
+      "verification": {
+        "status": "PASS",
+        "files": 17,
+        "root": "QPathformer_v0.8_Study"
+      }
+    }
+  ],
+  "report_pages_reviewed": 45,
+  "report_original_tables": 57,
+  "report_original_figures": 2,
+  "selected_python_files_including_helpers": 85,
+  "inherited_exact_file_matches": 5,
+  "inherited_shared_expression_file_matches": 3,
+  "guidance_scopes": [
+    {
+      "package": "QPathformer_v0.8_Study",
+      "files": 4,
+      "scope": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261029_r2\\assembly\\QPathformer_v0.8_Study\\GUIDANCE_LICENSE_SCOPE.json"
+    },
+    {
+      "package": "QPathformer_v0.8_Documentation",
+      "files": 12,
+      "scope": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261029_r2\\assembly\\QPathformer_v0.8_Documentation\\GUIDANCE_LICENSE_SCOPE.json"
+    },
+    {
+      "package": "QPathformer_v0.8_Code",
+      "files": 5,
+      "scope": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261029_r2\\assembly\\QPathformer_v0.8_Code\\GUIDANCE_LICENSE_SCOPE.json"
+    }
+  ],
+  "new_license_grants_adopted": true,
+  "remaining_license_decisions": [],
+  "disclosure_review": [
+    "Historical evidence paths, recorded host details and original operational/resource accounting retained; no redactions made"
+  ],
+  "verification_limits": [
+    "Selected source identities matched original manifest; entire full archive was not rehashed in this preparation",
+    "Fresh Code startup is bounded imports/tiny numerical checks/CLI help, not full reproduction",
+    "Original datasets/checkpoints/ledgers excluded; whole-study reproduction needs separately retained evidence and fresh root/environment/authorizations",
+    "No physical QPU results or current-device qualification claimed"
+  ],
+  "github_upload": "PENDING_PARENT",
+  "completed_at_utc": "2026-10-29T09:11:38.360667+00:00"
+}

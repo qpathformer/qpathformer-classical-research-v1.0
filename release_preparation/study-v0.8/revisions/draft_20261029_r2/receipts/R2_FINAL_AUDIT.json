@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "assets": [
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261029_r2\\dist\\QPathformer_v0.8_Code.zip",
+      "bytes": 381497,
+      "sha256": "d280df33db278d9b80779635e4ebfa7abc4ae07edeee6f0203c62ea47f2041d0"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261029_r2\\dist\\QPathformer_v0.8_Code.seal.json",
+      "bytes": 1288,
+      "sha256": "5b443e4d72476460817de0cff848d11cf8219fbfc5b85e7790194bc63ac3d1c6"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261029_r2\\dist\\QPathformer_v0.8_Documentation.zip",
+      "bytes": 39852,
+      "sha256": "a2c6902df294c725696ba0ee215871e6f43e796afe30329ceb6935624dc9b9cd"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261029_r2\\dist\\QPathformer_v0.8_Documentation.seal.json",
+      "bytes": 1356,
+      "sha256": "6650b4424401cf233d5b0766adbfed117b4c63b517826daffacf5557470a9769"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261029_r2\\dist\\QPathformer_v0.8_Study.zip",
+      "bytes": 2129826,
+      "sha256": "d76bbd7c9c794e3615e7e5e05907145c71ee625a54b33580f63e714cd0b2fa87"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261029_r2\\dist\\QPathformer_v0.8_Study.seal.json",
+      "bytes": 1294,
+      "sha256": "2a2f64d73639d655614d34437cb8d98ba77f7d693c7c6cea592a236dfb2311e6"
+    }
+  ],
+  "source_maps": "All output and declared source identities verified",
+  "adopted_scopes": "All listed identities verified",
+  "inherited_exact_files": 5,
+  "inherited_shared_files": 3,
+  "inherited_verified_blocks": 9,
+  "report_review_copied_without_change": true,
+  "checked_at_utc": "2026-10-29T09:15:23.858971+00:00"
+}
