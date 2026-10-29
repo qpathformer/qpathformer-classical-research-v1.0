@@ -1,0 +1,81 @@
+{
+  "schema": "qpath-report-review-1",
+  "status": "PASS_ALL_PAGES_VISUALLY_REVIEWED",
+  "reviewed_at_utc": "2026-10-29T09:05:50.585597+00:00",
+  "study_version": "v0.4",
+  "report_files": [
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029\\report\\files\\QPathformer_v0.4_Report.docx",
+      "bytes": 834465,
+      "sha256": "2e4cccb07f7753dc80fda7b410ce6b68f8b67737148591647d6fdf2eb9209d5f"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029\\report\\files\\QPathformer_v0.4_Report.pdf",
+      "bytes": 1345176,
+      "sha256": "471cec4475e5c2a9d26591054fbee9dc19e9554c010ba272f8bba6abeef3a45f"
+    }
+  ],
+  "pages": 40,
+  "original_pages": 39,
+  "visual_review": {
+    "method": "Every final page PNG opened with view_image at full rendered page resolution, including tables, figures, footers and appended note. Not a contact-sheet or text-only check.",
+    "pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "outcome": "Readable text and figures; no clipped content, broken glyphs, overlapping tables or stray blank pages. Historical layout and internal labels retained.",
+    "corrections": "None required"
+  },
+  "preservation": {
+    "original_body_elements": 185,
+    "original_body_canonical_xml_unchanged": true,
+    "media_count": 4,
+    "media_byte_identical": true,
+    "scientific_content_edits": 0
+  },
+  "render_record": {
+    "path": "RENDER_RECORD.json",
+    "bytes": 10932,
+    "sha256": "c103a4622f2e10a2b171a94cbbe35431591e4b3f631edb7bcb3bb4e96854c027"
+  },
+  "renderer_fallback": "Direct render_docx attempt found bundled LibreOffice unavailable (soffice.exe missing). Native Word read-only export supplied the exact final PDF to the standard render_docx rasterizer. No system LibreOffice used.",
+  "disclosure_review": "Report preserves historical internal labels, environment descriptions, evidence paths and recommendations. No scientific content redacted. No credentials or personal contact details identified in the report visual review. Public-disclosure review remains separate from this private draft preparation."
+}

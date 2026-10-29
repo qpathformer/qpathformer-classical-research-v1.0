@@ -1,0 +1,149 @@
+{
+  "study_id": "QPATH-ROUTING-v0.4",
+  "status": "REGISTERED_SPECIFICATION_BEFORE_OFFICIAL_TRAINING_NOT_LAUNCH_APPROVAL",
+  "working_root": "C:\\Anthony Siljeg\\Q2_improvement_study_v04",
+  "delivery_root": "C:\\Q2\\Improvement_Study_v0.4",
+  "authorization": "User approved the proposed v0.4 local routing/circuit attribution study and internal report. Preserve completed v0.3 and sealed Baseline3. No new text benchmark, cloud jobs, hardware, publication or external messages.",
+  "question": "Does a two-layer circuit contribute value beyond the same classical spatial router, compared with compact MLP and full low-frequency trigonometric controls?",
+  "methods": [
+    "q2_global",
+    "q2_hash",
+    "q2_kmeans",
+    "mlp_global",
+    "mlp_hash",
+    "mlp_kmeans",
+    "trig_global",
+    "trig_hash",
+    "trig_kmeans"
+  ],
+  "models": {
+    "quantum": "Existing v0.3 two-qubit depth-two feature-reuploading circuit and fixed readout, 8 angles per bank. Global1bank8angles; routed5banks40angles. No depth allocation metadata.",
+    "mlp": "All models receive raw x0,x1 only. Global one hidden ReLU layer width32 with biases,129 parameters. Each routed bank width2 with biases,9 parameters; five banks45. New global architecture differs from v0.3 width16 with6inputs; do not call it exact v0.3 MLP replication. Near-matched routed angle/parameter count is not exact functional capacity.",
+    "trig": "Sigmoid linear logit on complete25-dimensional tensor basis phi(x0) outer phi(x1), phi(t)=[1,cos(pi*t),sin(pi*t),cos(2*pi*t),sin(2*pi*t)]. No separate intercept beyondconstant basis. Global25weights;routed125. All start atzero. Larger classical feature envelope, not a parameter-matched model; no claim exact circuit probability reproduction throughsigmoid.",
+    "routing": "One immutable train-only kmeans5 policy shared across all three model families. Same hash router across families, salted canonicalcoordinate hash with train-onlycuts matching kmeans trainingoccupancies. Rawcoordinates only, no labels/taskgeometry/recordID/splitinformation. Kmeansadds10centroidcoordinates. Route policy frozen before any training."
+  },
+  "data": {
+    "distribution": "Independent uniform[-1,1]^2; each population8000records stratified bylabel only into4800train,1600validation,1600sealedtest. No balancing by outcome aftertraining.",
+    "tasks": {
+      "circle": "label1 iff x0*x0+x1*x1 < 2/pi",
+      "ellipse": "Rotate coordinates45degrees:u=(x0+x1)/sqrt2,v=(-x0+x1)/sqrt2; a=sqrt(2/pi)*sqrt(1.5),b=sqrt(2/pi)/sqrt(1.5); label1 iff (u/a)^2+(v/b)^2<1. Ellipse liesinside square and area2. Samefeaturedistribution, changedboundary; not real-world transfer."
+    },
+    "populations": {
+      "engineering_circle": [
+        430017,
+        430023,
+        430029
+      ],
+      "engineering_ellipse": [
+        440017,
+        440023,
+        440029
+      ],
+      "development_circle": [
+        530017,
+        530023,
+        530029
+      ],
+      "development_ellipse": [
+        540017,
+        540023,
+        540029
+      ],
+      "confirmation_circle_1": [
+        630017,
+        630023,
+        630029
+      ],
+      "confirmation_circle_2": [
+        640017,
+        640023,
+        640029
+      ],
+      "confirmation_ellipse": [
+        650017,
+        650023,
+        650029
+      ]
+    },
+    "seeds_meaning": "Feature RNG, independent label-free permuted record-ID metadata RNG, binary-label-stratified split RNG. Signed-zero-normalized exact coordinate exclusions. IDs feature_seed*1000000+permuted_index. Largest-remainder split counts4800/1600/1600. Kmeans seed feature_seed+70000.",
+    "novelty": "Reject exact signed-zero-normalized float64coordinate duplicates against all v0.1/v0.2/v0.3 quantum populations and everyv0.4population. Document allhistoricalsourcehashes. Does not mean out-of-distribution.",
+    "seal_sha256": "e5c650ececca5f59703078ea3ff4b03fb39192cee00153853b739f365b8ece60"
+  },
+  "training": {
+    "rounds": 200,
+    "batch_size": 64,
+    "updates": 15000,
+    "optimizer": "Adam",
+    "learning_rate": 0.01,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "epsilon": 1e-08,
+    "weight_decay": 0,
+    "selection": "Minimum fullvalidation clippedBCE, earliestexacttie; all200roundscharged. No earlystopping.",
+    "loss_clip": [
+      1e-07,
+      0.9999999
+    ],
+    "pairing": "Same shuffle/record order and equivalent bank initialization acrosshash/kmeans withinfamily andtrainingseed; familydifferentinitializationexplicit. Globalreferences separatecapacity. Oneactivebankperrecord. Preserve originalv03 circuit recipe.",
+    "evidence": "Save all200roundparameterstates and fullvalidationprobabilities as wellasloss/F1/resourceledgers, selectedandfinalcheckpoints. Independentendpointauditregeneratesallvalidationrounds/checksselection, not only selectedoutcome. Explicitlimits: not full rerunof everyAdamupdate.",
+    "initialization": "q2 PCG64 SeedSequence([seed,1]),uniform[-.1,.1]master[5,4,2,2],first2layers/globalbank0; MLP PCG64 SeedSequence([seed,4,width]),perbank Xavier input/outputweights,zerobiases; trigzero. Hash/kmeanssamefamily initialization identical. Adam updates allcoordinates; inactivebank rawgradientzero but prior momentum can moveparameters."
+  },
+  "stages": {
+    "A": {
+      "populations": [
+        "development_circle",
+        "development_ellipse"
+      ],
+      "seeds": [
+        701,
+        702,
+        703
+      ],
+      "runs": 54
+    },
+    "B": {
+      "populations": [
+        "confirmation_circle_1",
+        "confirmation_circle_2",
+        "confirmation_ellipse"
+      ],
+      "seeds": [
+        801,
+        802,
+        803,
+        804,
+        805
+      ],
+      "runs": 135
+    },
+    "selection": "All9arms continue; no outcome-basedarmfilter. All54Aendpoints independentlyverifiedbeforerootBfreeze. All135Bendpoints independentlyverifiedbefore anytestmodeloutcomes."
+  },
+  "primary": {
+    "metric": "Clipped BCE, natural log units/record; lowerbetter",
+    "contrasts": [
+      [
+        "q2_kmeans",
+        "q2_hash"
+      ],
+      [
+        "q2_kmeans",
+        "mlp_kmeans"
+      ],
+      [
+        "q2_kmeans",
+        "trig_kmeans"
+      ]
+    ],
+    "family_size": 9,
+    "note": "Threecontrasts on eachofthreeconfirmationpopulations, family9. Report eachpopulation separately; no pooling15seed/populationendpointsasindependenttaskreplicates.",
+    "practical_difference": 0.01,
+    "uncertainty": "Withinpopulation pairedfive-seed t interval df4, Bonferroni confidence1-.05/9. Separateconditionalpairedrecordbootstrap5000replicates with samefamily-adjustedpercentiles, sharedindices acrossallmethods/checkpoints. No equivalenceclaim."
+  },
+  "secondary": "MacroF1,accuracy,predictionquality, route-by-family interactions, global/routedgains, bankoccupancy andper-bankexposure. Ordinary95intervals descriptive. Crosspopulationaverages descriptive only.",
+  "milestones": "Descriptive validationfirstcrossing97% and threeconsecutivechecks;75updates/cadence, confirmation150updatesafterqualifyingfirstcheck. Keepnonreachers; no test outcomes at milestones,no actualearlystoppingsavings.",
+  "numerical": "Canonical p>=0.5. Independent probabilities absolute2e-12; independent aggregate clippedBCE absolute1e-8; saved canonical metric recalculation2e-12. Any independent class disagreement requires BOTH probabilities within32float64eps of0.5. Preserve raw reference classes, canonical metrics and diagnostic extrema. See ANALYSIS_PROTOCOL.json; fixed before official training following engineering saturation fixtures.",
+  "readiness": "AfterselectedBcheckpointscommit: localmatrix/Aerconsistencyfixtures withlabel-independentvalidationIDs for q2_global/q2_hash/q2_kmeans acrossall3populations5seeds. Finite-shotnoise-free sensitivity and fixedlocaldepolarizing/readouterrorscenarios afterseparateregisteredcapsule, nohardwareorbackendcredentials.",
+  "completion": "All189runs, validationaudits, one authorizedtestevaluation, independentprediction/statisticsreplay, localreadiness/noiseassessment, finalWordreportQPATH-RPT-005 andallpageQA, unchangedbaselinechecks, reproduciblesource/data/logs/checkpoints/analyses andverifieddelivery. Traininglaunchisnotcompletion."
+}

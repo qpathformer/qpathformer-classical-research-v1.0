@@ -1,0 +1,225 @@
+{
+  "schema": "qpath-independent-successor-audit-1",
+  "status": "PASS",
+  "checked_at_utc": "2026-10-29T11:00:09.995496+00:00",
+  "study_version": "v0.4",
+  "actual_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r3",
+  "packages": [
+    {
+      "package": "QPathformer_v0.4_Code",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r3\\dist\\QPathformer_v0.4_Code.zip",
+        "bytes": 228843,
+        "sha256": "f1e4cd43174f7bf1183d7d6b2a8e274eddfe0d7806d378586cffd09b6990c29e"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r3\\dist\\QPathformer_v0.4_Code.seal.json",
+        "bytes": 1366,
+        "sha256": "84dadbef12bfa5a989048235fd476561765924d66bd030a756c6e80fe7de9da2"
+      },
+      "files": 75,
+      "actual_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r3"
+    },
+    {
+      "package": "QPathformer_v0.4_Documentation",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r3\\dist\\QPathformer_v0.4_Documentation.zip",
+        "bytes": 38523,
+        "sha256": "0f4df9d5855668c413d470834a84f9e5e3ea067d37f5fdce1aa0dfd5a0376a16"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r3\\dist\\QPathformer_v0.4_Documentation.seal.json",
+        "bytes": 1436,
+        "sha256": "448e7879c9e4d350e5e79081c18c7ca0e245b871df0933d3b8d0030c4011a912"
+      },
+      "files": 19,
+      "actual_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r3"
+    },
+    {
+      "package": "QPathformer_v0.4_Study",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r3\\dist\\QPathformer_v0.4_Study.zip",
+        "bytes": 1791984,
+        "sha256": "a2ba6edce95c8ae85259b61db85ab30ad525ee7280a897a7a45348ce33f31beb"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r3\\dist\\QPathformer_v0.4_Study.seal.json",
+        "bytes": 1373,
+        "sha256": "7ec9faa593ae355d255c844b7521f45119e4c29d82af7e171bdac75e14a1da3d"
+      },
+      "files": 18,
+      "actual_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r3"
+    }
+  ],
+  "scopes": [
+    {
+      "package": "Code",
+      "path": "CODE_LICENSE_SCOPE.json",
+      "files": 50,
+      "bytes": 10361,
+      "sha256": "d3990f360e9539ca7786971713001b1e22e357050f4f21d66a34f287042bf995"
+    },
+    {
+      "package": "Code",
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "files": 7,
+      "bytes": 1824,
+      "sha256": "b7534e63f531d0b8a810a488004428023ef90958a0e01167c404035464b81e7c"
+    },
+    {
+      "package": "Documentation",
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "files": 12,
+      "bytes": 2732,
+      "sha256": "2b911bbb3a2baf7e21a7247e62a835c45ae9c44798b130d42693f64fe5fc284b"
+    },
+    {
+      "package": "Study",
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "files": 4,
+      "bytes": 1351,
+      "sha256": "3b3c4b3582ec18ae2ec9050e7f671b192c36973f81944a3c5e8eb16744803bcb"
+    },
+    {
+      "package": "Study",
+      "path": "REPORT_LICENSE_SCOPE.json",
+      "files": 2,
+      "bytes": 1875,
+      "sha256": "274d69399631e0388529334d3bb3c423ee659c05fe5226fb6c0e08fc2957f0e1"
+    }
+  ],
+  "source_map_entries_checked": 103,
+  "scientific_payload_files_unchanged": 54,
+  "scientific_python_files_unchanged": 48,
+  "original_selected_files_checked": 57,
+  "original_report_preservation": {
+    "original_report": {
+      "path": "C:\\Q2\\Improvement_Study_v0.4\\docs\\QPATH-RPT-005_Routing_and_Circuit_Contribution_Study_v0.4.docx",
+      "bytes": 833603,
+      "sha256": "54ffcb4182d61471865ac457aa4da8647aa309f339709334252ba7dbf0e48a52"
+    },
+    "body_elements_preserved": 185,
+    "tables_preserved": 31,
+    "figures_preserved": 4
+  },
+  "historical_records_and_report_bytes_unchanged": true,
+  "reports_unchanged": [
+    {
+      "path": "reports/QPathformer_v0.4_Report.docx",
+      "bytes": 834465,
+      "sha256": "2e4cccb07f7753dc80fda7b410ce6b68f8b67737148591647d6fdf2eb9209d5f"
+    },
+    {
+      "path": "reports/QPathformer_v0.4_Report.pdf",
+      "bytes": 1345176,
+      "sha256": "471cec4475e5c2a9d26591054fbee9dc19e9554c010ba272f8bba6abeef3a45f"
+    }
+  ],
+  "canonical_license_texts_and_adoption_records_unchanged": true,
+  "helper_sources_match_tested_staging": true,
+  "helper_regression_binding": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r3\\receipts\\HELPER_TEST_RESULTS.json",
+    "bytes": 6813,
+    "sha256": "3900eca6057ea3b1a5aa3da47b3ebcede0048b2acffc1f21dcc1b38acbb41006"
+  },
+  "helper_probes_passed": 26,
+  "powershell_regression_binding": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r3\\receipts\\POWERSHELL_TEST_RESULTS.json",
+    "bytes": 13385,
+    "sha256": "cfb7c580bb8ad1d242ec08b8110bede89cd56a8a896adb3972fcdaa3da080560"
+  },
+  "powershell_probes_passed": 4,
+  "powershell_version": "7.6.9",
+  "startup_binding": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r3\\receipts\\FRESH_PACKAGE_VERIFICATION.json",
+    "bytes": 4244,
+    "sha256": "7bb0f2e759898e6ae7ab8acba907164a7e9c976c8003b1186411498328db4ea7"
+  },
+  "startup_fingerprint_matches_sealed_code": true,
+  "genuine_startup_checks": 3,
+  "parsed_python_files": 50,
+  "prediction_methods_checked": 9,
+  "numpy_version": "2.5.4",
+  "changed_package_files": {
+    "Code": [
+      "CHECKSUMS.sha256",
+      "CODE_LICENSE_SCOPE.json",
+      "DEPENDENCIES.md",
+      "DEPENDENCY_INVENTORY.json",
+      "GUIDANCE_LICENSE_SCOPE.json",
+      "INHERITED_LICENSE_MAP.json",
+      "MANIFEST.json",
+      "QUICKSTART.md",
+      "SOURCE_MAP.json",
+      "START_HERE.md",
+      "tools/startup_check.py",
+      "tools/verify_package.py"
+    ],
+    "Documentation": [
+      "CHECKSUMS.sha256",
+      "GUIDANCE_LICENSE_SCOPE.json",
+      "MANIFEST.json",
+      "RELEASE_NOTES.md",
+      "RESEARCH_GUIDE.md",
+      "SOURCE_MAP.json",
+      "START_HERE.md"
+    ],
+    "Study": [
+      "CHECKSUMS.sha256",
+      "GUIDANCE_LICENSE_SCOPE.json",
+      "MANIFEST.json",
+      "SOURCE_MAP.json",
+      "START_HERE.md"
+    ]
+  },
+  "prior_sealed_evidence_preserved": true,
+  "review_boundary": "Independent byte/inventory/scope/source/provenance audit; source report body, tables and media compared structurally. Actual numerical startup and PowerShell regression results are separately bound evidence. No training, scoring, shots, QPU work, full archive replay or new report rendering performed.",
+  "helper_and_scientific_lineage": {
+    "shared_scientific_records": 2,
+    "shared_scientific_blocks": 3,
+    "helper_lineage": [
+      {
+        "path": "tools/verify_package.py",
+        "current": {
+          "bytes": 5925,
+          "sha256": "b58cadbc82203234ab928d82a749e8c41bf1a856d3274af8245c6875593d126f"
+        },
+        "source": {
+          "bytes": 5925,
+          "sha256": "b58cadbc82203234ab928d82a749e8c41bf1a856d3274af8245c6875593d126f"
+        },
+        "scope": {
+          "bytes": 9999,
+          "sha256": "812e941a69a761e6e0205197f7a6ac7bfb8dfcdd6053f0460a26a48a6d843b9f"
+        },
+        "relation": "Byte-identical reuse"
+      },
+      {
+        "path": "tools/startup_check.py",
+        "current": {
+          "bytes": 6831,
+          "sha256": "889e868d545218c7adf1ec0b606629f0af5be9dd8ca1cf8771621c6cfad55946"
+        },
+        "source": {
+          "bytes": 6808,
+          "sha256": "64534c122c17433f4a87a28237425ad20d037fe950785715d34bdafb5e3c6b88"
+        },
+        "scope": {
+          "bytes": 9999,
+          "sha256": "812e941a69a761e6e0205197f7a6ac7bfb8dfcdd6053f0460a26a48a6d843b9f"
+        },
+        "relation": "Adaptation of the tested v0.3 package helper for the three v0.4 checks"
+      }
+    ],
+    "report_inheritance_matches": 0
+  },
+  "active_local_markdown_links_checked": 37,
+  "code_selection_source_files": 54,
+  "dependency_module_file_pairs": 373,
+  "all_three_packages_rebuilt": true,
+  "preliminary_audit_binding": {
+    "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_audit\\PRELIMINARY_R2_CHECKS.json",
+    "bytes": 7301,
+    "sha256": "e8988f21884f853137fd4b51f36c067a278514b87e421e73140a9e40fee2d8e5"
+  }
+}

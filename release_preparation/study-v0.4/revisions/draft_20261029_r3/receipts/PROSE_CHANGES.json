@@ -1,0 +1,191 @@
+{
+  "status": "STAGED_FOR_ROOT_REBUILD",
+  "created_utc": "2026-10-29T10:58:37.808297+00:00",
+  "scope": "Current explanatory prose only; original reports, scientific sources, protocols, historical records, licence texts and adoption decisions unchanged.",
+  "source_notes": {
+    "path": "C:\\Anthony Siljeg\\CPU-QPU git repo prep\\v6 final staging\\study-v0.4_release_review_and_codex_notes.md",
+    "bytes": 27337,
+    "sha256": "c0718eaf28c427c3745251b8cd21c493d8baf8e3288cadebc0220339c91b4046"
+  },
+  "release_title": "Q-Pathformer Study v0.4 — Routing and Circuit Contribution",
+  "release_body": {
+    "original": {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\RELEASE_NOTES.md",
+      "bytes": 3017,
+      "sha256": "739c1221581a76417caedfc4522c0ddddcd7b35a8a212aeabd46a00e8fd6f697"
+    },
+    "new": {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_prose\\RELEASE_BODY.md",
+      "bytes": 6846,
+      "sha256": "35200cf6dd2694028d85b05725ee8fec871979596cf0ed41c7a237a074ef9f6a"
+    },
+    "note": "Title stored separately. Relative final evidence links must be bound by root to the final reviewed revision. No final startup PASS is asserted before that evidence exists."
+  },
+  "changed_package_files": [
+    {
+      "package": "QPathformer_v0.4_Study",
+      "relative_path": "START_HERE.md",
+      "staged_path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_prose\\QPathformer_v0.4_Study\\START_HERE.md",
+      "original_archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\dist\\QPathformer_v0.4_Study.zip",
+      "original_member": "QPathformer_v0.4_Study/START_HERE.md",
+      "original_bytes": 1502,
+      "original_sha256": "0d3bea7eafcc27ab9237078908307f49974b0165903b09a7eeb25342c0e122ba",
+      "new_bytes": 2794,
+      "new_sha256": "ecd71ccd8f120016f4c2803c16a5da51cda749b8c0502fea7eacd8d3d9fadd5c",
+      "scope_action": "Refresh this controlled guidance file identity in existing adopted scope and package inventories; do not alter licence texts or adoption.",
+      "relative_links_checked": true
+    },
+    {
+      "package": "QPathformer_v0.4_Documentation",
+      "relative_path": "RELEASE_NOTES.md",
+      "staged_path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_prose\\QPathformer_v0.4_Documentation\\RELEASE_NOTES.md",
+      "original_archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\dist\\QPathformer_v0.4_Documentation.zip",
+      "original_member": "QPathformer_v0.4_Documentation/RELEASE_NOTES.md",
+      "original_bytes": 1401,
+      "original_sha256": "85bf9e747580bf26d1565283e15d9dde0770e9346143efd180fc13e1062a29d0",
+      "new_bytes": 3100,
+      "new_sha256": "db3dd6c9f16c014d4a1a155a8c7489ddd6c76dd9aa3b3518394973b38fd80114",
+      "scope_action": "Refresh this controlled guidance file identity in existing adopted scope and package inventories; do not alter licence texts or adoption.",
+      "relative_links_checked": true
+    },
+    {
+      "package": "QPathformer_v0.4_Documentation",
+      "relative_path": "RESEARCH_GUIDE.md",
+      "staged_path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_prose\\QPathformer_v0.4_Documentation\\RESEARCH_GUIDE.md",
+      "original_archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\dist\\QPathformer_v0.4_Documentation.zip",
+      "original_member": "QPathformer_v0.4_Documentation/RESEARCH_GUIDE.md",
+      "original_bytes": 1873,
+      "original_sha256": "be1d37d39d62bb4147a68f071da8a89488fc7b363837279fb320bbd7df8892b8",
+      "new_bytes": 7252,
+      "new_sha256": "ef82c0b1ee06f7a79d2aa8d80d555fdbe9042837307fb94deb950b98767b8ffe",
+      "scope_action": "Refresh this controlled guidance file identity in existing adopted scope and package inventories; do not alter licence texts or adoption.",
+      "relative_links_checked": true
+    },
+    {
+      "package": "QPathformer_v0.4_Documentation",
+      "relative_path": "START_HERE.md",
+      "staged_path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_prose\\QPathformer_v0.4_Documentation\\START_HERE.md",
+      "original_archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\dist\\QPathformer_v0.4_Documentation.zip",
+      "original_member": "QPathformer_v0.4_Documentation/START_HERE.md",
+      "original_bytes": 685,
+      "original_sha256": "9fa55b9dd00fea2c6efa03c78d1dbc77d449c06d3a0ed26ee900c16b3780250f",
+      "new_bytes": 1603,
+      "new_sha256": "08012904fc33ee47c01733a89d04e44eef742d63d46c2db9183bcef909840880",
+      "scope_action": "Refresh this controlled guidance file identity in existing adopted scope and package inventories; do not alter licence texts or adoption.",
+      "relative_links_checked": true
+    },
+    {
+      "package": "QPathformer_v0.4_Code",
+      "relative_path": "START_HERE.md",
+      "staged_path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_prose\\QPathformer_v0.4_Code\\START_HERE.md",
+      "original_archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\dist\\QPathformer_v0.4_Code.zip",
+      "original_member": "QPathformer_v0.4_Code/START_HERE.md",
+      "original_bytes": 1036,
+      "original_sha256": "b3981df32ab05a2b26fc3bec44bc88a3f10bac21df791ebcc8450b2bc108ee4d",
+      "new_bytes": 1786,
+      "new_sha256": "23828482a24b08759900046f52bbee9f0d307b7de3800d4aa2f0a0dab7e3c452",
+      "scope_action": "Refresh this controlled guidance file identity in existing adopted scope and package inventories; do not alter licence texts or adoption.",
+      "relative_links_checked": true
+    }
+  ],
+  "package_rebuild_required": [
+    "QPathformer_v0.4_Study",
+    "QPathformer_v0.4_Documentation",
+    "QPathformer_v0.4_Code"
+  ],
+  "preserved_payloads": [
+    {
+      "archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\dist\\QPathformer_v0.4_Study.zip",
+      "member": "QPathformer_v0.4_Study/LICENSES/CC-BY-4.0.txt",
+      "bytes": 18615,
+      "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196",
+      "action": "Preserve unchanged; this agent did not stage a replacement."
+    },
+    {
+      "archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\dist\\QPathformer_v0.4_Study.zip",
+      "member": "QPathformer_v0.4_Study/LICENSES/QPATHFORMER-PLATFORM-1.0.txt",
+      "bytes": 1461,
+      "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057",
+      "action": "Preserve unchanged; this agent did not stage a replacement."
+    },
+    {
+      "archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\dist\\QPathformer_v0.4_Study.zip",
+      "member": "QPathformer_v0.4_Study/LICENSE_ADOPTION.json",
+      "bytes": 1621,
+      "sha256": "fcb9c864d087b959237e05e59c962794a1093ec9fe643fc94bff7d48dc0310e2",
+      "action": "Preserve unchanged; this agent did not stage a replacement."
+    },
+    {
+      "archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\dist\\QPathformer_v0.4_Study.zip",
+      "member": "QPathformer_v0.4_Study/provenance/EDITION_CHANGES.json",
+      "bytes": 1720,
+      "sha256": "af55982a6ac502128d15add923bf3e742b4d2cc86a38c3d7becce8a46aa02ebc",
+      "action": "Preserve unchanged; this agent did not stage a replacement."
+    },
+    {
+      "archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\dist\\QPathformer_v0.4_Study.zip",
+      "member": "QPathformer_v0.4_Study/provenance/EDITION_CHANGES.md",
+      "bytes": 814,
+      "sha256": "460fb7f936075035893e75c9c31542ae2a67b40e4d171d58e23373ccb5d7c9ec",
+      "action": "Preserve unchanged; this agent did not stage a replacement."
+    },
+    {
+      "archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\dist\\QPathformer_v0.4_Study.zip",
+      "member": "QPathformer_v0.4_Study/reports/QPathformer_v0.4_Report.docx",
+      "bytes": 834465,
+      "sha256": "2e4cccb07f7753dc80fda7b410ce6b68f8b67737148591647d6fdf2eb9209d5f",
+      "action": "Preserve unchanged; this agent did not stage a replacement."
+    },
+    {
+      "archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\dist\\QPathformer_v0.4_Study.zip",
+      "member": "QPathformer_v0.4_Study/reports/QPathformer_v0.4_Report.pdf",
+      "bytes": 1345176,
+      "sha256": "471cec4475e5c2a9d26591054fbee9dc19e9554c010ba272f8bba6abeef3a45f",
+      "action": "Preserve unchanged; this agent did not stage a replacement."
+    },
+    {
+      "archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\dist\\QPathformer_v0.4_Documentation.zip",
+      "member": "QPathformer_v0.4_Documentation/LICENSES/CC-BY-4.0.txt",
+      "bytes": 18615,
+      "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196",
+      "action": "Preserve unchanged; this agent did not stage a replacement."
+    },
+    {
+      "archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\dist\\QPathformer_v0.4_Documentation.zip",
+      "member": "QPathformer_v0.4_Documentation/LICENSES/QPATHFORMER-PLATFORM-1.0.txt",
+      "bytes": 1461,
+      "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057",
+      "action": "Preserve unchanged; this agent did not stage a replacement."
+    },
+    {
+      "archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\dist\\QPathformer_v0.4_Documentation.zip",
+      "member": "QPathformer_v0.4_Documentation/LICENSE_ADOPTION.json",
+      "bytes": 1621,
+      "sha256": "fcb9c864d087b959237e05e59c962794a1093ec9fe643fc94bff7d48dc0310e2",
+      "action": "Preserve unchanged; this agent did not stage a replacement."
+    },
+    {
+      "archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\dist\\QPathformer_v0.4_Code.zip",
+      "member": "QPathformer_v0.4_Code/LICENSES/CC-BY-4.0.txt",
+      "bytes": 18615,
+      "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196",
+      "action": "Preserve unchanged; this agent did not stage a replacement."
+    },
+    {
+      "archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\dist\\QPathformer_v0.4_Code.zip",
+      "member": "QPathformer_v0.4_Code/LICENSES/QPATHFORMER-PLATFORM-1.0.txt",
+      "bytes": 1461,
+      "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057",
+      "action": "Preserve unchanged; this agent did not stage a replacement."
+    },
+    {
+      "archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\dist\\QPathformer_v0.4_Code.zip",
+      "member": "QPathformer_v0.4_Code/LICENSE_ADOPTION.json",
+      "bytes": 1621,
+      "sha256": "fcb9c864d087b959237e05e59c962794a1093ec9fe643fc94bff7d48dc0310e2",
+      "action": "Preserve unchanged; this agent did not stage a replacement."
+    }
+  ],
+  "publication_instruction": "Keep the repository private and v0.4 a draft; v0.9.5 remains Latest. Root must verify live state.",
+  "no_experiments_run": true
+}

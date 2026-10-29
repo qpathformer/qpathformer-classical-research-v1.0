@@ -1,0 +1,49 @@
+{
+  "status": "PASS_LOCAL_MARKDOWN_TARGETS",
+  "links": [
+    {
+      "source": "RIGHTS.md",
+      "target": "GUIDANCE_LICENSE_SCOPE.json"
+    },
+    {
+      "source": "RIGHTS.md",
+      "target": "LICENSE_ADOPTION.json"
+    },
+    {
+      "source": "RIGHTS.md",
+      "target": "LICENSES/CC-BY-4.0.txt"
+    },
+    {
+      "source": "RIGHTS.md",
+      "target": "LICENSES/QPATHFORMER-PLATFORM-1.0.txt"
+    },
+    {
+      "source": "START_HERE.md",
+      "target": "reports/QPathformer_v0.4_Report.pdf"
+    },
+    {
+      "source": "START_HERE.md",
+      "target": "reports/QPathformer_v0.4_Report.docx"
+    },
+    {
+      "source": "START_HERE.md",
+      "target": "provenance/EDITION_CHANGES.md"
+    },
+    {
+      "source": "START_HERE.md",
+      "target": "REPORT_LICENSE_SCOPE.json"
+    },
+    {
+      "source": "START_HERE.md",
+      "target": "INHERITED_REPORT_EXPRESSION.json"
+    },
+    {
+      "source": "START_HERE.md",
+      "target": "RIGHTS.md"
+    },
+    {
+      "source": "START_HERE.md",
+      "target": "VERIFY.md"
+    }
+  ]
+}

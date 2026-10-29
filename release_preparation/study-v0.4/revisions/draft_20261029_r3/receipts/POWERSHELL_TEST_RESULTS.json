@@ -1,0 +1,197 @@
+{
+  "status": "PASS_POWERSHELL_QUICKSTART_CHECKS",
+  "recorded_at_utc": "2026-10-29T10:55:28.197770+00:00",
+  "powershell": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+  "powershell_version": "7.6.9",
+  "invocation": [
+    "C:\\Users\\Alnotrea\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\test_powershell.py"
+  ],
+  "harness_python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "python_runtime": "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+  "source_package": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\qa\\fresh_extraction\\QPathformer_v0.4_Code",
+  "source_package_unchanged": true,
+  "source_package_fingerprint_sha256": "091ddaf6ceb8d87ca0f5a13a6f48c466777be7aa5f3f933d7c232f9e772ec6d5",
+  "literal_quickstart_block_sha256": "776b4e2f868edbf7d13b706f21d6526a70ffb399713b0b10ed3cc5be63cb1226",
+  "tested_files": [
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\verify_package.py",
+      "bytes": 5925,
+      "sha256": "b58cadbc82203234ab928d82a749e8c41bf1a856d3274af8245c6875593d126f"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\startup_check.py",
+      "bytes": 6831,
+      "sha256": "889e868d545218c7adf1ec0b606629f0af5be9dd8ca1cf8771621c6cfad55946"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\QUICKSTART.md",
+      "bytes": 1854,
+      "sha256": "8e922866a5e4e25a9271439ae8fdc47ccca20ba434608dd1613619ebf237c988"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\test_helpers.py",
+      "bytes": 15005,
+      "sha256": "5237bbcb4e341cc495043730a59538dafb499b082f45ce8a842f86c18131cffe"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\test_powershell.py",
+      "bytes": 5579,
+      "sha256": "5cb821cdd33cf59f11b4ef3e0a9cbdc1fda50aab9bbcb668a6e5490e15681ff7"
+    }
+  ],
+  "probes": [
+    {
+      "probe": "invalid_missing",
+      "status": "PASS",
+      "command": [
+        "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+        "-NoLogo",
+        "-NoProfile",
+        "-NonInteractive",
+        "-File",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\powershell-probes-xwztb0ce\\invalid_missing\\quickstart.ps1"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\powershell-probes-xwztb0ce\\invalid_missing\\QPathformer_v0.4_Code\\tools\\verify_package.py\", line 141, in <module>\n    main()\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\powershell-probes-xwztb0ce\\invalid_missing\\QPathformer_v0.4_Code\\tools\\verify_package.py\", line 137, in main\n    print(json.dumps(verify()))\n                     ^^^^^^^^\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\powershell-probes-xwztb0ce\\invalid_missing\\QPathformer_v0.4_Code\\tools\\verify_package.py\", line 112, in verify\n    raise ValueError(\"Manifest membership differs\")\nValueError: Manifest membership differs\nException: C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\powershell-probes-xwztb0ce\\invalid_missing\\quickstart.ps1:8\nLine |\n   8 |          throw \"Package verification failed; startup was not run.\"\n     |          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | Package verification failed; startup was not run.\n",
+      "startup_receipt_created": false,
+      "package_bytes_unchanged": true,
+      "classification": "ACTUAL_POWERSHELL_STOP_BEFORE_STARTUP"
+    },
+    {
+      "probe": "invalid_changed_same_size",
+      "status": "PASS",
+      "command": [
+        "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+        "-NoLogo",
+        "-NoProfile",
+        "-NonInteractive",
+        "-File",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\powershell-probes-xwztb0ce\\invalid_changed_same_size\\quickstart.ps1"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\powershell-probes-xwztb0ce\\invalid_changed_same_size\\QPathformer_v0.4_Code\\tools\\verify_package.py\", line 141, in <module>\n    main()\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\powershell-probes-xwztb0ce\\invalid_changed_same_size\\QPathformer_v0.4_Code\\tools\\verify_package.py\", line 137, in main\n    print(json.dumps(verify()))\n                     ^^^^^^^^\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\powershell-probes-xwztb0ce\\invalid_changed_same_size\\QPathformer_v0.4_Code\\tools\\verify_package.py\", line 128, in verify\n    raise ValueError(\"Manifest differs: \" + name)\nValueError: Manifest differs: START_HERE.md\nException: C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\powershell-probes-xwztb0ce\\invalid_changed_same_size\\quickstart.ps1:8\nLine |\n   8 |          throw \"Package verification failed; startup was not run.\"\n     |          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | Package verification failed; startup was not run.\n",
+      "startup_receipt_created": false,
+      "package_bytes_unchanged": true,
+      "classification": "ACTUAL_POWERSHELL_STOP_BEFORE_STARTUP"
+    },
+    {
+      "probe": "invalid_unexpected",
+      "status": "PASS",
+      "command": [
+        "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+        "-NoLogo",
+        "-NoProfile",
+        "-NonInteractive",
+        "-File",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\powershell-probes-xwztb0ce\\invalid_unexpected\\quickstart.ps1"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\powershell-probes-xwztb0ce\\invalid_unexpected\\QPathformer_v0.4_Code\\tools\\verify_package.py\", line 141, in <module>\n    main()\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\powershell-probes-xwztb0ce\\invalid_unexpected\\QPathformer_v0.4_Code\\tools\\verify_package.py\", line 137, in main\n    print(json.dumps(verify()))\n                     ^^^^^^^^\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\powershell-probes-xwztb0ce\\invalid_unexpected\\QPathformer_v0.4_Code\\tools\\verify_package.py\", line 112, in verify\n    raise ValueError(\"Manifest membership differs\")\nValueError: Manifest membership differs\nException: C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\powershell-probes-xwztb0ce\\invalid_unexpected\\quickstart.ps1:8\nLine |\n   8 |          throw \"Package verification failed; startup was not run.\"\n     |          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | Package verification failed; startup was not run.\n",
+      "startup_receipt_created": false,
+      "package_bytes_unchanged": true,
+      "classification": "ACTUAL_POWERSHELL_STOP_BEFORE_STARTUP"
+    },
+    {
+      "probe": "valid",
+      "status": "PASS",
+      "command": [
+        "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+        "-NoLogo",
+        "-NoProfile",
+        "-NonInteractive",
+        "-File",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\powershell-probes-xwztb0ce\\valid\\quickstart.ps1"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"files\": 75, \"package_fingerprint_sha256\": \"d4647d6962b1dd158c135a84af3055ef14c56f2478be9833c5e4020c4a5e399e\"}\n{\"status\": \"PASS\", \"checks\": 3}\n",
+      "stderr": "",
+      "startup_receipt_created": true,
+      "package_bytes_unchanged": true,
+      "classification": "GENUINE_BOUNDED_STARTUP_ON_UNSEALED_DISPOSABLE_HELPER_FIXTURE_NOT_FINAL_ZIP",
+      "startup_result": {
+        "status": "PASS",
+        "recorded_at_utc": "2026-10-29T10:55:27.754244+00:00",
+        "python": "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+        "platform": "Windows-11-10.0.26300-SP0",
+        "parsed_python_files": 50,
+        "numpy_version": "2.5.4",
+        "prediction_methods_checked": 9,
+        "integrity_before": {
+          "status": "PASS",
+          "files": 75,
+          "package_fingerprint_sha256": "d4647d6962b1dd158c135a84af3055ef14c56f2478be9833c5e4020c4a5e399e"
+        },
+        "integrity_after": {
+          "status": "PASS",
+          "files": 75,
+          "package_fingerprint_sha256": "d4647d6962b1dd158c135a84af3055ef14c56f2478be9833c5e4020c4a5e399e"
+        },
+        "package_bytes_unchanged": true,
+        "checks": [
+          {
+            "label": "numeric imports and in-memory predictions",
+            "command": [
+              "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+              "-B",
+              "-c",
+              "import json, numpy as np; import study as s; import models\nx=np.array([[0.,0.],[.1,-.3],[-.6,.7],[.9,.9]]); d=np.array([1,2,3,4]); route=np.array([0,1,2,3]); counts={}\nfor method in models.METHODS:\n m=models.Model(method,902); p=m.predict(x,None if m.routing==\"global\" else route); assert p.shape==(4,) and np.isfinite(p).all() and ((p>=0)&(p<=1)).all(); counts[method]=len(m.parameters)\nprint(json.dumps({\"model_parameter_counts\":counts,\"finite_in_memory_predictions\":True,\"numpy_version\":np.__version__}))"
+            ],
+            "cwd": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\powershell-probes-xwztb0ce\\valid\\QPathformer_v0.4_Code\\payload\\study\\quantum",
+            "status": "PASS",
+            "returncode": 0,
+            "stdout": "{\"model_parameter_counts\": {\"q2_global\": 8, \"q2_hash\": 40, \"q2_kmeans\": 40, \"mlp_global\": 129, \"mlp_hash\": 45, \"mlp_kmeans\": 45, \"trig_global\": 25, \"trig_hash\": 125, \"trig_kmeans\": 125}, \"finite_in_memory_predictions\": true, \"numpy_version\": \"2.5.4\"}\n",
+            "stderr": ""
+          },
+          {
+            "label": "training CLI argument help",
+            "command": [
+              "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+              "-B",
+              "study.py",
+              "--help"
+            ],
+            "cwd": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\powershell-probes-xwztb0ce\\valid\\QPathformer_v0.4_Code\\payload\\study\\quantum",
+            "status": "PASS",
+            "returncode": 0,
+            "stdout": "usage: study.py [-h] [--stage {A,B}] --population POPULATION --method\n                {q2_global,q2_hash,q2_kmeans,mlp_global,mlp_hash,mlp_kmeans,trig_global,trig_hash,trig_kmeans}\n                --seed SEED [--engineering] [--rounds ROUNDS]\n                [--train-limit TRAIN_LIMIT] --output OUTPUT\n\nInternal v0.4 trainer. Official full runs require external root freeze.\nTraining cannot load a test payload. All round parameters and validation\nprobabilities are flushed before that round's ledger entry. Failed runs retain\npartial arrays and current state; sampler state is not resumable\nautomatically.\n\noptions:\n  -h, --help            show this help message and exit\n  --stage {A,B}\n  --population POPULATION\n  --method {q2_global,q2_hash,q2_kmeans,mlp_global,mlp_hash,mlp_kmeans,trig_global,trig_hash,trig_kmeans}\n  --seed SEED\n  --engineering\n  --rounds ROUNDS\n  --train-limit TRAIN_LIMIT\n  --output OUTPUT\n",
+            "stderr": ""
+          },
+          {
+            "label": "full-matrix agreement invariant",
+            "command": [
+              "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+              "-B",
+              "-m",
+              "unittest",
+              "test_models.ModelTests.test_full_matrix_agreement"
+            ],
+            "cwd": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\powershell-probes-xwztb0ce\\valid\\QPathformer_v0.4_Code\\payload\\study\\quantum\\tests",
+            "status": "PASS",
+            "returncode": 0,
+            "stdout": "",
+            "stderr": ".\n----------------------------------------------------------------------\nRan 1 test in 0.176s\n\nOK\n"
+          }
+        ],
+        "errors": [],
+        "scope": "Exact package integrity before and after startup; all selected Python parsed; v0.4 imports and deterministic in-memory predictions for the nine model/routing combinations, CLI help and the full-matrix agreement invariant. No official input files used.",
+        "not_verified": [
+          "Clean-room dependency installation",
+          "Full training or official scoring",
+          "Datasets and selected checkpoints",
+          "Full-archive relocation",
+          "Shot sampling or noise experiments",
+          "Hardware or QPU execution"
+        ]
+      }
+    }
+  ],
+  "boundary": "Three actual invalid-fixture shell checks and one genuine bounded startup on an unsealed disposable fixture. This does not substitute for final sealed-ZIP startup or scientific replication.",
+  "final_zip_startup_still_required": true
+}

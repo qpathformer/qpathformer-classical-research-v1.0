@@ -1,0 +1,332 @@
+{
+  "status": "PASS_SOURCE_GROUNDED_PROSE_REVIEW",
+  "created_utc": "2026-10-29T10:58:37.808297+00:00",
+  "scope": "Read-only review of retained report/protocol/result JSON and staged prose. Not an independent experiment rerun or final-asset startup receipt.",
+  "sources": {
+    "report_work/report_content.json": {
+      "path": "C:\\Q2\\Improvement_Study_v0.4\\report_work\\report_content.json",
+      "bytes": 93072,
+      "sha256": "eed8042e9fccda0ea4c1650a1f1a7bad6d451f52b1d21f103bd416f598fb2862"
+    },
+    "governance/ANALYSIS_PROTOCOL.json": {
+      "path": "C:\\Q2\\Improvement_Study_v0.4\\governance\\ANALYSIS_PROTOCOL.json",
+      "bytes": 6520,
+      "sha256": "c6318f6fab2ff5130984efc55b84b8ce04f7a15cafd3870113af331f1603c034"
+    },
+    "governance/LOCAL_READINESS_PROTOCOL.json": {
+      "path": "C:\\Q2\\Improvement_Study_v0.4\\governance\\LOCAL_READINESS_PROTOCOL.json",
+      "bytes": 4193,
+      "sha256": "b29d34f6ae9b64d27c378c71e515e2079cfe17c5c427c98d449c33da43eedc80"
+    },
+    "quantum/confirmation_evaluation/summary.json": {
+      "path": "C:\\Q2\\Improvement_Study_v0.4\\quantum\\confirmation_evaluation\\summary.json",
+      "bytes": 324265,
+      "sha256": "8bd4816cb55666768c98e22534a6a36284fa3b0bd9f54d5cda8f8b4ae48b2884"
+    },
+    "analysis/independent_replay/confirmation_replay/summary.json": {
+      "path": "C:\\Q2\\Improvement_Study_v0.4\\analysis\\independent_replay\\confirmation_replay\\summary.json",
+      "bytes": 327756,
+      "sha256": "ee15a2d78af098e2777c89a19ff02b4a38e5dac6e172e6b56755b0bd5e2a4de6"
+    },
+    "analysis/classical_review/confirmation_readiness_audit/summary.json": {
+      "path": "C:\\Q2\\Improvement_Study_v0.4\\analysis\\classical_review\\confirmation_readiness_audit\\summary.json",
+      "bytes": 2926445,
+      "sha256": "8017bd781d541abea73b59acde13e1da8c0dc3f27d2cec64384affd7e7b14cdf"
+    },
+    "quantum/confirmation_evaluation/confirmation_circle_1/statistics/population_summary.json": {
+      "path": "C:\\Q2\\Improvement_Study_v0.4\\quantum\\confirmation_evaluation\\confirmation_circle_1\\statistics\\population_summary.json",
+      "bytes": 49136,
+      "sha256": "6f675bb2a628ea622f90fe68a4c0eb98de085ceede1186e947bf877874f03ff2"
+    },
+    "quantum/confirmation_evaluation/confirmation_circle_2/statistics/population_summary.json": {
+      "path": "C:\\Q2\\Improvement_Study_v0.4\\quantum\\confirmation_evaluation\\confirmation_circle_2\\statistics\\population_summary.json",
+      "bytes": 49076,
+      "sha256": "8106177cf08caf975ea27e0f391359ccb3bd1432c1583aa22c607376c6036343"
+    },
+    "quantum/confirmation_evaluation/confirmation_ellipse/statistics/population_summary.json": {
+      "path": "C:\\Q2\\Improvement_Study_v0.4\\quantum\\confirmation_evaluation\\confirmation_ellipse\\statistics\\population_summary.json",
+      "bytes": 48698,
+      "sha256": "b1aeba676681f62dc6e6f082e814435f2691c420170036bb0cffc2bd24adb979"
+    }
+  },
+  "population_checks": [
+    {
+      "population": "confirmation_circle_1",
+      "status": "PASS",
+      "source": "quantum/confirmation_evaluation/confirmation_circle_1/statistics/population_summary.json",
+      "q2_kmeans": {
+        "mean_test_bce": 0.17688738745095303,
+        "mean_macro_f1": 0.983245194971478,
+        "display_bce": "0.17689",
+        "display_macro_f1": "98.32%"
+      },
+      "controls": {
+        "mlp_global": {
+          "mean_bce": 0.01545585225056537,
+          "mean_macro_f1": 0.9938749741697712
+        },
+        "trig_global": {
+          "mean_bce": 0.013484939938723597,
+          "mean_macro_f1": 0.9957499720700946
+        },
+        "trig_kmeans": {
+          "mean_bce": 0.01031079182117447,
+          "mean_macro_f1": 0.9974999972656189
+        }
+      },
+      "q2_minus_mlp_kmeans_adjusted_seed_interval": {
+        "mean": -0.09025868937051278,
+        "sample_sd": 0.09650146908559117,
+        "n": 5,
+        "confidence": 0.9944444444444445,
+        "lower": -0.32488441508719534,
+        "upper": 0.14436703634616976
+      },
+      "q2_minus_hash_adjusted_seed_interval": {
+        "mean": -0.10837844322693975,
+        "sample_sd": 0.0005389062445220957,
+        "n": 5,
+        "confidence": 0.9944444444444445,
+        "lower": -0.10968869549472754,
+        "upper": -0.10706819095915196
+      },
+      "q2_minus_hash_adjusted_record_interval": [
+        -0.12426966471414828,
+        -0.09320730662367896
+      ],
+      "q2_minus_trig_adjusted_seed_interval": {
+        "mean": 0.16657659562977853,
+        "sample_sd": 0.0002380092240311978,
+        "n": 5,
+        "confidence": 0.9944444444444445,
+        "lower": 0.16599791960085658,
+        "upper": 0.16715527165870048
+      },
+      "q2_minus_trig_adjusted_record_interval": [
+        0.1546910075349492,
+        0.1789560268998819
+      ],
+      "anchors": [
+        "aggregate.q2_kmeans",
+        "aggregate.mlp_global",
+        "aggregate.trig_global",
+        "aggregate.trig_kmeans",
+        "contrasts[*].metrics.bce"
+      ]
+    },
+    {
+      "population": "confirmation_circle_2",
+      "status": "PASS",
+      "source": "quantum/confirmation_evaluation/confirmation_circle_2/statistics/population_summary.json",
+      "q2_kmeans": {
+        "mean_test_bce": 0.18279638867627318,
+        "mean_macro_f1": 0.9716093391378099,
+        "display_bce": "0.18280",
+        "display_macro_f1": "97.16%"
+      },
+      "controls": {
+        "mlp_global": {
+          "mean_bce": 0.021978367362729297,
+          "mean_macro_f1": 0.9911248321730077
+        },
+        "trig_global": {
+          "mean_bce": 0.01557932985501694,
+          "mean_macro_f1": 0.9967499424794017
+        },
+        "trig_kmeans": {
+          "mean_bce": 0.0131862953516486,
+          "mean_macro_f1": 0.9964999376941538
+        }
+      },
+      "q2_minus_mlp_kmeans_adjusted_seed_interval": {
+        "mean": -0.09748388089680766,
+        "sample_sd": 0.12494496339918883,
+        "n": 5,
+        "confidence": 0.9944444444444445,
+        "lower": -0.40126477656563997,
+        "upper": 0.20629701477202467
+      },
+      "q2_minus_hash_adjusted_seed_interval": {
+        "mean": -0.10103150062407149,
+        "sample_sd": 0.0008616714331631003,
+        "n": 5,
+        "confidence": 0.9944444444444445,
+        "lower": -0.10312649759407526,
+        "upper": -0.09893650365406771
+      },
+      "q2_minus_hash_adjusted_record_interval": [
+        -0.11510022763382799,
+        -0.08750065655583866
+      ],
+      "q2_minus_trig_adjusted_seed_interval": {
+        "mean": 0.16961009332462462,
+        "sample_sd": 0.0001709862193760552,
+        "n": 5,
+        "confidence": 0.9944444444444445,
+        "lower": 0.1691943715103476,
+        "upper": 0.17002581513890164
+      },
+      "q2_minus_trig_adjusted_record_interval": [
+        0.1567381098566988,
+        0.18208296302678542
+      ],
+      "anchors": [
+        "aggregate.q2_kmeans",
+        "aggregate.mlp_global",
+        "aggregate.trig_global",
+        "aggregate.trig_kmeans",
+        "contrasts[*].metrics.bce"
+      ]
+    },
+    {
+      "population": "confirmation_ellipse",
+      "status": "PASS",
+      "source": "quantum/confirmation_evaluation/confirmation_ellipse/statistics/population_summary.json",
+      "q2_kmeans": {
+        "mean_test_bce": 0.21206587450104591,
+        "mean_macro_f1": 0.9440919469086575,
+        "display_bce": "0.21207",
+        "display_macro_f1": "94.41%"
+      },
+      "controls": {
+        "mlp_global": {
+          "mean_bce": 0.01988038864589574,
+          "mean_macro_f1": 0.9916222710068006
+        },
+        "trig_global": {
+          "mean_bce": 0.01528247607376891,
+          "mean_macro_f1": 0.9956237537955144
+        },
+        "trig_kmeans": {
+          "mean_bce": 0.012743123369196422,
+          "mean_macro_f1": 0.9956237537955144
+        }
+      },
+      "q2_minus_mlp_kmeans_adjusted_seed_interval": {
+        "mean": -0.009920179000233897,
+        "sample_sd": 0.088611668215287,
+        "n": 5,
+        "confidence": 0.9944444444444445,
+        "lower": -0.22536329255053203,
+        "upper": 0.20552293455006423
+      },
+      "q2_minus_hash_adjusted_seed_interval": {
+        "mean": -0.14453056968764288,
+        "sample_sd": 0.025083654510709295,
+        "n": 5,
+        "confidence": 0.9944444444444445,
+        "lower": -0.20551690180225363,
+        "upper": -0.08354423757303214
+      },
+      "q2_minus_hash_adjusted_record_interval": [
+        -0.16370955554308286,
+        -0.12447537643340688
+      ],
+      "q2_minus_trig_adjusted_seed_interval": {
+        "mean": 0.19932275113184947,
+        "sample_sd": 0.0006004586896539446,
+        "n": 5,
+        "confidence": 0.9944444444444445,
+        "lower": 0.19786284531737955,
+        "upper": 0.2007826569463194
+      },
+      "q2_minus_trig_adjusted_record_interval": [
+        0.18404432986718186,
+        0.21533739666826862
+      ],
+      "anchors": [
+        "aggregate.q2_kmeans",
+        "aggregate.mlp_global",
+        "aggregate.trig_global",
+        "aggregate.trig_kmeans",
+        "contrasts[*].metrics.bce"
+      ]
+    }
+  ],
+  "report_anchors": {
+    "design_and_bank_count": "report_work/report_content.json: blocks[17], blocks[19], blocks[20]",
+    "parameter_counts": "report_work/report_content.json: blocks[22], blocks[23], blocks[24]",
+    "trig_not_probability_emulator": "report_work/report_content.json: blocks[25]",
+    "run_count": "report_work/report_content.json: blocks[29]",
+    "per_endpoint_budget": "report_work/report_content.json: blocks[40]",
+    "audit_limit": "report_work/report_content.json: blocks[43], blocks[164]",
+    "uncertainty": "report_work/report_content.json: blocks[46], blocks[47], blocks[79], blocks[162]",
+    "milestones": "report_work/report_content.json: blocks[49], blocks[82], blocks[105]",
+    "readiness": "report_work/report_content.json: blocks[85], blocks[86], blocks[163]",
+    "historical_recommendations": "report_work/report_content.json: blocks[165] onward; unchanged"
+  },
+  "registered_uncertainty": {
+    "n_seeds": 5,
+    "t_df": 4,
+    "primary_family_size": 9,
+    "adjusted_confidence": 0.9944444444444445,
+    "record_bootstrap_resamples": 5000,
+    "sources_not_pooled": true
+  },
+  "readiness_counters": {
+    "status": "PASS",
+    "selected_checkpoints_checked": 45,
+    "circuit_count": 1440,
+    "measured_aer_circuit_experiments": 720,
+    "actual_simulated_measurement_shots": 737280,
+    "represented_binomial_trials": 199065600,
+    "density_scenario_circuit_evaluations": 4320,
+    "finite_shot_array_count": 1350,
+    "formula_checks": [
+      "45 * 32 = 1440 checkpoint-fixture cases",
+      "45 * 8 * 2 = 720 measured experiments",
+      "720 * 1024 = 737280 simulated Aer shots",
+      "45 * 32 * 3 * 5 * (1024 + 8192) = 199065600 represented binomial trials"
+    ]
+  },
+  "replay_counters": {
+    "endpoint_count": 135,
+    "checkpoint_record_predictions": 216000,
+    "independent_test_cases_not_claimed": true
+  },
+  "licensing_wording": {
+    "identical_original_adoption_sha256": "fcb9c864d087b959237e05e59c962794a1093ec9fe643fc94bff7d48dc0310e2",
+    "publisher_review_clarified_in": "QPathformer_v0.4_Study/START_HERE.md",
+    "new_adoption_gate": false,
+    "licence_text_changes": false,
+    "specific_report_inheritance_not_claimed": true
+  },
+  "staged_outputs": [
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_prose\\RELEASE_BODY.md",
+      "bytes": 6846,
+      "sha256": "35200cf6dd2694028d85b05725ee8fec871979596cf0ed41c7a237a074ef9f6a"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_prose\\QPathformer_v0.4_Study\\START_HERE.md",
+      "bytes": 2794,
+      "sha256": "ecd71ccd8f120016f4c2803c16a5da51cda749b8c0502fea7eacd8d3d9fadd5c"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_prose\\QPathformer_v0.4_Documentation\\RELEASE_NOTES.md",
+      "bytes": 3100,
+      "sha256": "db3dd6c9f16c014d4a1a155a8c7489ddd6c76dd9aa3b3518394973b38fd80114"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_prose\\QPathformer_v0.4_Documentation\\RESEARCH_GUIDE.md",
+      "bytes": 7252,
+      "sha256": "ef82c0b1ee06f7a79d2aa8d80d555fdbe9042837307fb94deb950b98767b8ffe"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_prose\\QPathformer_v0.4_Documentation\\START_HERE.md",
+      "bytes": 1603,
+      "sha256": "08012904fc33ee47c01733a89d04e44eef742d63d46c2db9183bcef909840880"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_prose\\QPathformer_v0.4_Code\\START_HERE.md",
+      "bytes": 1786,
+      "sha256": "23828482a24b08759900046f52bbee9f0d307b7de3800d4aa2f0a0dab7e3c452"
+    }
+  ],
+  "remaining_root_actions": [
+    "Rebuild affected packages and refresh scoped-file identities, inventories and seals.",
+    "Run genuine final Code ZIP verification/startup and bind final evidence links.",
+    "Verify repository is private, v0.4 remains draft and v0.9.5 remains Latest."
+  ],
+  "no_experiments_run": true
+}

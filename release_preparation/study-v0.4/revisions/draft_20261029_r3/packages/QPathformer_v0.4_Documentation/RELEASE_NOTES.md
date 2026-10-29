@@ -1,0 +1,15 @@
+# Study v0.4 release notes
+
+This edition packages the completed historical routing and circuit contribution study into Study, Documentation and Code downloads. The report body, figures, tables and original scientific conclusions are preserved. Its dated edition note, author/affiliation metadata and historical records remain intact. Current guidance clarifies the study, adopted licence scopes and reproduction boundaries; affected package inventories and seals are refreshed.
+
+The two-qubit, depth-two circuit model (Q2), a raw-coordinate ReLU MLP and a 25-feature trigonometric sigmoid-logit model were each evaluated globally, with coordinate-hash routing and with training-only k-means routing. All 54 development and 135 confirmation endpoints completed 200 rounds and 15,000 optimizer updates per endpoint. Confirmation used five training seeds per model/population combination across two independent circle populations and a rotated ellipse.
+
+Binary cross-entropy (BCE; lower is better) was primary. Q2 k-means mean BCE was 0.17689 on circle population 1, 0.18280 on circle population 2 and 0.21207 on the rotated ellipse. Corresponding secondary mean macro-F1 values were 98.32%, 97.16% and 94.41%. Spatial routing improved Q2 over hash routing, while global MLP and global trigonometric controls achieved lower mean BCE and higher mean macro-F1 on every confirmation population. Routed trigonometric models also had lower BCE than routed Q2 throughout. Q2 versus the small routed MLP remains unresolved across training seeds; adjusted paired-seed BCE intervals include zero on all three populations.
+
+Five seeds, synthetic tasks, fixed routers and unequal capacities do not establish a circuit-specific benefit, equivalence, quantum advantage, speed or real-world generalization. Seed intervals and conditional record bootstraps answer different questions. Historical local readiness covered all 45 circuit checkpoints and 737,280 simulated Aer measurement shots. Separate conditional binomial diagnostics are detailed in the [research guide](RESEARCH_GUIDE.md); no physical shots or hardware jobs are reported, and illustrative noise is not device calibration.
+
+The selected original scientific Python files remain unchanged. Updated package helpers and current startup guidance describe bounded in-memory checks, training CLI help and the selected full-matrix agreement invariant. These release-packaging checks do not rerun training, historical scientific replay, shot sampling or QPU jobs, and do not establish a clean installation or every optional dependency.
+
+The adopted CC BY 4.0 and Platform License 1.0 scopes remain separate. The publisher's public release remains subject to owner review; this does not limit reuse permitted under the adopted CC BY 4.0 grant. Refer to each package's scope records and [rights guidance](RIGHTS.md).
+
+This packaging adds no experiment results or completion claims for later studies. Original future-study recommendations remain historical recommendations. No ETEL implementation is supplied. Repository edition v1.0 is separate from study v0.4.

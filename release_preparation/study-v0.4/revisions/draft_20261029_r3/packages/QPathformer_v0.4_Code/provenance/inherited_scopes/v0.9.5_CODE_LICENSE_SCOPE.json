@@ -1,0 +1,233 @@
+{
+  "schema": "qpath-code-license-scope-1",
+  "status": "ADOPTED_PLATFORM_1_0_SCOPED_CODE",
+  "scope_file_count": 38,
+  "groups": {
+    "inherited_numerical_kernels": [
+      {
+        "path": "study/scientific/v09_kernels/models.py",
+        "bytes": 13910,
+        "sha256": "bc0c5658474b4c3bf57f87627fc1a7dea33125d5f32910c6507f206b598f86a6"
+      },
+      {
+        "path": "study/scientific/v09_kernels/circuits.py",
+        "bytes": 5505,
+        "sha256": "2ac3d12903899f8baf9e226e53e0fe5178f9ab700e83a6e929d212cc6e8da90e"
+      }
+    ],
+    "incorporated_etel_core": [
+      {
+        "path": "study/execution/vendor/etel/__init__.py",
+        "bytes": 99,
+        "sha256": "fbe055aebc49a5a846aa43d17a7654de44a6ebb61a11ead668bb38ad2dcf235a"
+      },
+      {
+        "path": "study/execution/vendor/etel/core.py",
+        "bytes": 12042,
+        "sha256": "621979dd1d8d595d5a53a097e3a2ee4e904cd3ad6053abed17f11b0f88dcd063"
+      }
+    ],
+    "new_review_tooling": [
+      {
+        "path": "tools/startup_check.py",
+        "bytes": 6758,
+        "sha256": "bb705b9accf231b0dbf4da26e89ca813ff536a367dcb7d56eb0045a26e16ab04"
+      },
+      {
+        "path": "tools/verify_package.py",
+        "bytes": 2523,
+        "sha256": "7230b367fb2a9c0b34a688a6b1979b2737bd81965ffc3ad25d8d00fd0dba8977"
+      }
+    ],
+    "project_implementation_and_retained_tests": [
+      {
+        "path": "study/execution/common.py",
+        "bytes": 5891,
+        "sha256": "01ef71d7e41f65cd5f2834d8d43efe64fdbbfcb5a14a8a5551d286698cb2eae9"
+      },
+      {
+        "path": "study/execution/controller.py",
+        "bytes": 13228,
+        "sha256": "c6eb9dc45e140df6b7773a6703b8d8e1d36c437fba4dd3503872cd80f4fbb2c5"
+      },
+      {
+        "path": "study/execution/durable.py",
+        "bytes": 24294,
+        "sha256": "3dda5364bebc29788c6ded4ea68864d252f45caa26623238fad125acb0f9f6b7"
+      },
+      {
+        "path": "study/execution/launcher.py",
+        "bytes": 12440,
+        "sha256": "30e05151fade06421f871a509a7e82c786fca19e63f730831d5932556bc083be"
+      },
+      {
+        "path": "study/execution/process_identity.py",
+        "bytes": 3188,
+        "sha256": "a8289729e9cdc26b5b4465357428d9c66782915d4e95c2b0db942e8d94661d02"
+      },
+      {
+        "path": "study/execution/resource_probe.py",
+        "bytes": 3066,
+        "sha256": "03a1dfc50002d882df95821bdaa012c50d2b18af81c04e0458a079194206c7e6"
+      },
+      {
+        "path": "study/execution/runtime.py",
+        "bytes": 3039,
+        "sha256": "a1f6d4e59754aad49c808d96d1e60ebc64442125a1b77adef49c2e3974e44af8"
+      },
+      {
+        "path": "study/execution/worker.py",
+        "bytes": 16117,
+        "sha256": "7fc8f4b06cdaf95b565a86700144bd9afc95010335f9f52a8d776f2ff7237a62"
+      },
+      {
+        "path": "study/scientific/trainer.py",
+        "bytes": 22010,
+        "sha256": "95c3a543d1a1959e68604c92eb8134e78636814a63a3dea1eaf67416f4aabe71"
+      },
+      {
+        "path": "study/data/access.py",
+        "bytes": 3523,
+        "sha256": "dd022e9efc8af13a304cabc15888edd218c628260c04b41fc83bfa5336c87bc3"
+      },
+      {
+        "path": "study/data/common.py",
+        "bytes": 1515,
+        "sha256": "316296d43cd9df9f66a21cc94ef7465c3f0e73299794a4e864c78789c39719ef"
+      },
+      {
+        "path": "study/data/routers.py",
+        "bytes": 9787,
+        "sha256": "5d27f6fbbe6e013f9d9dd5d7b56ef3a15ce65728762ed6a991b7f35963795ee5"
+      },
+      {
+        "path": "study/data/prepare_data.py",
+        "bytes": 17160,
+        "sha256": "8f12bcea0a70272bde51849d4b158b5beccdacbfd1e55b3a8cf444456a2d27c9"
+      },
+      {
+        "path": "study/data/register_protocols.py",
+        "bytes": 19280,
+        "sha256": "ade4ffe0aa7a90b01865a327ae6c37e1b89cdf7e9d886f0f55e541ca81bcbddd"
+      },
+      {
+        "path": "study/data/audit_generated.py",
+        "bytes": 7866,
+        "sha256": "78fca59adca2028ffd238caaf962f5cd1c051707b8e419e25399b317645b84b0"
+      },
+      {
+        "path": "study/data/tests/test_data.py",
+        "bytes": 8231,
+        "sha256": "17894e57d688693e661b7f28f070dc8d3fdd1807003f530edcb9b4d46e36dc33"
+      },
+      {
+        "path": "study/analysis/author_v095/evaluate_v095.py",
+        "bytes": 34346,
+        "sha256": "4234f6398cad432a1bb713d1c4f885a4082021a6307c90f0ad87cdead159a423"
+      },
+      {
+        "path": "study/analysis/author_v095/release_gate_v095.py",
+        "bytes": 17435,
+        "sha256": "8dc2d2348e5d3a754a8b6ceea75a4b6ef1b7f35942fe8b3c9770c7b6992bfc05"
+      },
+      {
+        "path": "study/analysis/author_v095/statistics_v095.py",
+        "bytes": 7731,
+        "sha256": "2234b502c19c23a0aeb3b1f209bf6208bb11610a836f76919ef9f0873683b738"
+      },
+      {
+        "path": "study/analysis/independent_scoring_v095/gate_and_io.py",
+        "bytes": 16052,
+        "sha256": "4e0a91fc760ab2ee005017568cddee460be5851472f8a9ea04fdd1fc6bb98266"
+      },
+      {
+        "path": "study/analysis/independent_scoring_v095/metrics_statistics.py",
+        "bytes": 9603,
+        "sha256": "d24ea4b8860627462c0478dbb2d8e5e57c19fcd2a59634bb0439722bb270d080"
+      },
+      {
+        "path": "study/analysis/independent_scoring_v095/model_replay.py",
+        "bytes": 12036,
+        "sha256": "a1ff9612d9daa5e23b1fcafb4338a074e0f3d9abfcefd00784bca8d085016cac"
+      },
+      {
+        "path": "study/analysis/independent_scoring_v095/numerical.py",
+        "bytes": 16352,
+        "sha256": "d17339e374a412b751b6f6d188d50ef4083c11533d85751494b5c4fe2d26b811"
+      },
+      {
+        "path": "study/analysis/independent_scoring_v095/oracle_reference.py",
+        "bytes": 9372,
+        "sha256": "4bef1e4985016c5def67ec7f0820e8414ca22baedc398b295c1460d9e37d1da7"
+      },
+      {
+        "path": "study/analysis/independent_scoring_v095/replay.py",
+        "bytes": 7641,
+        "sha256": "910bf5bd7cc8b5ed1358ddac017c4fdd12a7c9cf6d5bbdda399a0d516d272efd"
+      },
+      {
+        "path": "study/analysis/independent_scoring_v095/resources_references.py",
+        "bytes": 12805,
+        "sha256": "92b9603dea7acff736daec24a6d23524655d0e6eb0e8f5f573b48afb43a92eb2"
+      },
+      {
+        "path": "study/analysis/independent_scoring_v095/review_io.py",
+        "bytes": 1695,
+        "sha256": "188fdf9e16d567a31c0b1f64b2ee70632972100591062827f3770c9226068956"
+      },
+      {
+        "path": "study/analysis/independent_scoring_v095/transport.py",
+        "bytes": 12253,
+        "sha256": "26991919248c0993ce93a3404560ed2200d8c52455a060522d4d0fa26377f417"
+      },
+      {
+        "path": "study/execution/tests/__init__.py",
+        "bytes": 43,
+        "sha256": "1ae98b1c24fc4a83a6d05a45011bf301e87f9f9817160a2e3de11e7f999400e3"
+      },
+      {
+        "path": "study/execution/tests/fixture_trainer.py",
+        "bytes": 3624,
+        "sha256": "da8474469641b9591f5c50b53ad7ee2e5b97460af91ca401b25d09e3ef6a7f5a"
+      },
+      {
+        "path": "study/execution/tests/test_execution.py",
+        "bytes": 16834,
+        "sha256": "3d3bbac4855efe2c4f0b53c84d4dbddb719e433129f3891300ba1ca397c68cb2"
+      },
+      {
+        "path": "study/scientific/qualify_trainer.py",
+        "bytes": 14698,
+        "sha256": "db133d51fdf3a6631af07989f54d3396f355be24c819187dc97fa66d54d36f88"
+      }
+    ]
+  },
+  "reference_license": {
+    "path": "LICENSES/QPATHFORMER-PLATFORM-1.0.txt",
+    "bytes": 1461,
+    "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+  },
+  "report_cc_by_grant_applies_to_this_selection": false,
+  "supporting_documents": "Other included documents and third-party dependencies retain their stated terms; no automatic grant.",
+  "existing_terms": "Existing permissions and notices remain applicable; this proposal does not withdraw them.",
+  "publication_status": "PREPARED_FOR_AUTHORIZED_PRIVATE_RELEASE_ATTACHMENT",
+  "license": "LicenseRef-QPATHFORMER-PLATFORM-1.0",
+  "licensor": "Anthony Siljeg",
+  "owner_decision": {
+    "schema": "qpath-code-owner-adoption-1",
+    "decision_date": "2026-10-28",
+    "decision_timezone": "Australia/Sydney",
+    "recorded_at_utc": "2026-10-28T09:47:43.776770+00:00",
+    "decision_reference": "User reply to request_user_input_async call_701506624fc345fc848442e1256a6d4a question 0",
+    "question_presented": "For the revised 38-file code selection, do you confirm that you control the implementation, inherited kernels, ETEL core and two review tools, and adopt the unchanged Q-Pathformer Platform License 1.0 for those Python files? This applies its research/internal-use permissions and commercial/production and derivative-distribution restrictions. Supporting documents retain their existing terms; the repository stays private.",
+    "actual_owner_instruction": "Yes — adopt Platform License 1.0 for the 38 Python files",
+    "licensor": "Anthony Siljeg",
+    "authority_confirmed": true,
+    "platform_1_0_adopted": true,
+    "scope_python_files": 38,
+    "supporting_documents_automatically_licensed": false,
+    "repository_visibility": "remain_private",
+    "signature": "Actual chat instruction recorded; no signature or contributor agreement fabricated."
+  },
+  "file_identifiers": "Paths and hashes identify the publisher original licensed source selection. Permitted uses and derivative/distribution conditions are governed by Platform 1.0; identifiers are not additional license conditions."
+}

@@ -1,0 +1,61 @@
+{
+  "status": "PASS_LOCAL_MARKDOWN_TARGETS",
+  "links": [
+    {
+      "source": "RELEASE_NOTES.md",
+      "target": "RESEARCH_GUIDE.md"
+    },
+    {
+      "source": "RELEASE_NOTES.md",
+      "target": "RIGHTS.md"
+    },
+    {
+      "source": "RESEARCH_GUIDE.md",
+      "target": "historical/README.txt"
+    },
+    {
+      "source": "RESEARCH_GUIDE.md",
+      "target": "historical/REPRODUCTION_GUIDE.txt"
+    },
+    {
+      "source": "RIGHTS.md",
+      "target": "GUIDANCE_LICENSE_SCOPE.json"
+    },
+    {
+      "source": "RIGHTS.md",
+      "target": "LICENSE_ADOPTION.json"
+    },
+    {
+      "source": "RIGHTS.md",
+      "target": "LICENSES/CC-BY-4.0.txt"
+    },
+    {
+      "source": "RIGHTS.md",
+      "target": "LICENSES/QPATHFORMER-PLATFORM-1.0.txt"
+    },
+    {
+      "source": "START_HERE.md",
+      "target": "RESEARCH_GUIDE.md"
+    },
+    {
+      "source": "START_HERE.md",
+      "target": "REPRODUCIBILITY.md"
+    },
+    {
+      "source": "START_HERE.md",
+      "target": "RELEASE_NOTES.md"
+    },
+    {
+      "source": "START_HERE.md",
+      "target": "historical/REPRODUCTION_GUIDE.txt"
+    },
+    {
+      "source": "START_HERE.md",
+      "target": "RIGHTS.md"
+    },
+    {
+      "source": "START_HERE.md",
+      "target": "VERIFY.md"
+    }
+  ]
+}

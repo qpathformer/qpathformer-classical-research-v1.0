@@ -1,0 +1,93 @@
+{
+  "status": "PASS_LOCAL_SUCCESSOR_READY_FOR_PRIVATE_DRAFT_UPDATE",
+  "addressed": [
+    "Exclusive receipt creation and truthful timeout/failure handling",
+    "Strict manifest/checksum path validation before mapping",
+    "Pre/post startup integrity and package fingerprint",
+    "v0.4-specific three checks and guarded PowerShell quickstart",
+    "Primary BCE, Q2 definition, named populations, classical controls and seed uncertainty",
+    "Historical readiness separated from packaging checks",
+    "Current publisher review clarified without changing historical records or adopted grants",
+    "Helper import inventory completed"
+  ],
+  "deferred": [
+    {
+      "item": "Historical Word keywords/timestamp cleanup",
+      "reason": "No presentation error was found; preserve the report bytes and historical metadata."
+    }
+  ],
+  "assets": [
+    {
+      "name": "QPathformer_v0.4_Code.seal.json",
+      "previous": {
+        "bytes": 1366,
+        "sha256": "03bd49549266c0f6eac77628061a2b83ac1ed6de2b9aa5c7a476c4aa59dcf5e0"
+      },
+      "current": {
+        "bytes": 1366,
+        "sha256": "84dadbef12bfa5a989048235fd476561765924d66bd030a756c6e80fe7de9da2"
+      }
+    },
+    {
+      "name": "QPathformer_v0.4_Code.zip",
+      "previous": {
+        "bytes": 224507,
+        "sha256": "94c2cbe8c79bd09640f2bdb44f1e2d96318d8192e08cb4c9abf7b3f6a9b03912"
+      },
+      "current": {
+        "bytes": 228843,
+        "sha256": "f1e4cd43174f7bf1183d7d6b2a8e274eddfe0d7806d378586cffd09b6990c29e"
+      }
+    },
+    {
+      "name": "QPathformer_v0.4_Documentation.seal.json",
+      "previous": {
+        "bytes": 1429,
+        "sha256": "4c497dcc9833bf43ca8f374efb4c2a5cb7d80f1679613ea62ca740fb97a30a13"
+      },
+      "current": {
+        "bytes": 1436,
+        "sha256": "448e7879c9e4d350e5e79081c18c7ca0e245b871df0933d3b8d0030c4011a912"
+      }
+    },
+    {
+      "name": "QPathformer_v0.4_Documentation.zip",
+      "previous": {
+        "bytes": 34928,
+        "sha256": "c9501ddd0f9bdca31dbcf069ec37261f6abcac9dab9642d1ab00e7ef7e126a7e"
+      },
+      "current": {
+        "bytes": 38523,
+        "sha256": "0f4df9d5855668c413d470834a84f9e5e3ea067d37f5fdce1aa0dfd5a0376a16"
+      }
+    },
+    {
+      "name": "QPathformer_v0.4_Study.seal.json",
+      "previous": {
+        "bytes": 1367,
+        "sha256": "87bda71531713e97617e8045f723df4a02216652a42902913b54e51900ca77b6"
+      },
+      "current": {
+        "bytes": 1373,
+        "sha256": "7ec9faa593ae355d255c844b7521f45119e4c29d82af7e171bdac75e14a1da3d"
+      }
+    },
+    {
+      "name": "QPathformer_v0.4_Study.zip",
+      "previous": {
+        "bytes": 1791206,
+        "sha256": "772483cd5575998473a6383959d39fa6edc89ae143d3770a8feee174a63d249b"
+      },
+      "current": {
+        "bytes": 1791984,
+        "sha256": "a2ba6edce95c8ae85259b61db85ab30ad525ee7280a897a7a45348ce33f31beb"
+      }
+    }
+  ],
+  "startup_binding": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r3\\receipts\\FRESH_PACKAGE_VERIFICATION.json",
+    "bytes": 4244,
+    "sha256": "7bb0f2e759898e6ae7ab8acba907164a7e9c976c8003b1186411498328db4ea7"
+  },
+  "publication_authorized": false
+}

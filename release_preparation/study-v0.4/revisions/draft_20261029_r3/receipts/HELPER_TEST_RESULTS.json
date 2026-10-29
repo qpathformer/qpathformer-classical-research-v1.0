@@ -1,0 +1,185 @@
+{
+  "status": "PASS_HELPER_REGRESSION_PROBES",
+  "recorded_at_utc": "2026-10-29T10:55:18.612722+00:00",
+  "classification": "Actual validator checks and mocked startup control-flow checks only; not genuine numerical startup evidence",
+  "invocation": [
+    "C:\\Users\\Alnotrea\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\test_helpers.py"
+  ],
+  "python_runtime": "C:\\Users\\Alnotrea\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "source_package": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r2\\qa\\fresh_extraction\\QPathformer_v0.4_Code",
+  "source_package_before": {
+    "status": "PASS",
+    "files": 75,
+    "package_fingerprint_sha256": "a93ecad8e641586e28fb55f1933d7ebfe9c307e1cad688b2571f63e910618a09"
+  },
+  "source_package_after": {
+    "status": "PASS",
+    "files": 75,
+    "package_fingerprint_sha256": "a93ecad8e641586e28fb55f1933d7ebfe9c307e1cad688b2571f63e910618a09"
+  },
+  "retained_scientific_python_files": 48,
+  "source_package_unchanged": true,
+  "tested_files": [
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\verify_package.py",
+      "bytes": 5925,
+      "sha256": "b58cadbc82203234ab928d82a749e8c41bf1a856d3274af8245c6875593d126f"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\startup_check.py",
+      "bytes": 6831,
+      "sha256": "889e868d545218c7adf1ec0b606629f0af5be9dd8ca1cf8771621c6cfad55946"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\QUICKSTART.md",
+      "bytes": 1854,
+      "sha256": "8e922866a5e4e25a9271439ae8fdc47ccca20ba434608dd1613619ebf237c988"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\test_helpers.py",
+      "bytes": 15005,
+      "sha256": "5237bbcb4e341cc495043730a59538dafb499b082f45ce8a842f86c18131cffe"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v04_r3_helpers\\test_powershell.py",
+      "bytes": 5579,
+      "sha256": "5cb821cdd33cf59f11b4ef3e0a9cbdc1fda50aab9bbcb668a6e5490e15681ff7"
+    }
+  ],
+  "probes": [
+    {
+      "probe": "unchanged_r2_package",
+      "status": "PASS",
+      "files": 75
+    },
+    {
+      "probe": "revised_helpers_in_valid_disposable_inventory",
+      "status": "PASS"
+    },
+    {
+      "probe": "duplicate_checksum_path",
+      "status": "PASS",
+      "rejected_with": "ValueError: Checksums has duplicate or case-colliding paths: CODE_LICENSE_SCOPE.json"
+    },
+    {
+      "probe": "conflicting_duplicate_checksum_path",
+      "status": "PASS",
+      "rejected_with": "ValueError: Checksums has duplicate or case-colliding paths: CODE_LICENSE_SCOPE.json"
+    },
+    {
+      "probe": "duplicate_manifest_path",
+      "status": "PASS",
+      "rejected_with": "ValueError: Manifest has duplicate or case-colliding paths: CODE_LICENSE_SCOPE.json"
+    },
+    {
+      "probe": "conflicting_duplicate_manifest_path",
+      "status": "PASS",
+      "rejected_with": "ValueError: Manifest has duplicate or case-colliding paths: CODE_LICENSE_SCOPE.json"
+    },
+    {
+      "probe": "manifest_case_collision",
+      "status": "PASS",
+      "rejected_with": "ValueError: Manifest has duplicate or case-colliding paths: code_license_scope.json"
+    },
+    {
+      "probe": "unsafe_manifest_path",
+      "status": "PASS",
+      "rejected_with": "ValueError: Unsafe package path: '../escape.py'"
+    },
+    {
+      "probe": "malformed_manifest_size",
+      "status": "PASS",
+      "rejected_with": "ValueError: Invalid manifest size: CODE_LICENSE_SCOPE.json"
+    },
+    {
+      "probe": "changed_source",
+      "status": "PASS",
+      "rejected_with": "ValueError: Manifest differs: payload/study/quantum/study.py"
+    },
+    {
+      "probe": "changed_same_size_guidance",
+      "status": "PASS",
+      "rejected_with": "ValueError: Manifest differs: START_HERE.md"
+    },
+    {
+      "probe": "missing_file",
+      "status": "PASS",
+      "rejected_with": "ValueError: Manifest membership differs"
+    },
+    {
+      "probe": "extra_file",
+      "status": "PASS",
+      "rejected_with": "ValueError: Manifest membership differs"
+    },
+    {
+      "probe": "extra_empty_directory",
+      "status": "PASS",
+      "rejected_with": "ValueError: Unexpected empty directory in package"
+    },
+    {
+      "probe": "directory_reparse_point",
+      "status": "PASS",
+      "rejected_with": "Link or reparse point in package: linked"
+    },
+    {
+      "probe": "mock_unchanged_control_flow",
+      "status": "PASS",
+      "classification": "MOCKED_CONTROL_FLOW_ONLY_NOT_STARTUP_VERIFICATION"
+    },
+    {
+      "probe": "preexisting_receipt_preserved",
+      "status": "PASS",
+      "classification": "MOCKED_CONTROL_FLOW_ONLY_NOT_STARTUP_VERIFICATION"
+    },
+    {
+      "probe": "inside_package_receipt_rejected",
+      "status": "PASS",
+      "classification": "MOCKED_CONTROL_FLOW_ONLY_NOT_STARTUP_VERIFICATION"
+    },
+    {
+      "probe": "receipt_reserved_before_child_checks",
+      "status": "PASS",
+      "classification": "MOCKED_CONTROL_FLOW_ONLY_NOT_STARTUP_VERIFICATION"
+    },
+    {
+      "probe": "foreign_receipt_content_preserved",
+      "status": "PASS",
+      "classification": "MOCKED_CONTROL_FLOW_ONLY_NOT_STARTUP_VERIFICATION"
+    },
+    {
+      "probe": "prestartup_integrity_failure_stops_checks",
+      "status": "PASS",
+      "classification": "MOCKED_CONTROL_FLOW_ONLY_NOT_STARTUP_VERIFICATION"
+    },
+    {
+      "probe": "midstartup_integrity_failure",
+      "status": "PASS",
+      "classification": "MOCKED_CONTROL_FLOW_ONLY_NOT_STARTUP_VERIFICATION"
+    },
+    {
+      "probe": "rebound_inventories_do_not_hide_midstartup_change",
+      "status": "PASS",
+      "classification": "MOCKED_CONTROL_FLOW_ONLY_NOT_STARTUP_VERIFICATION"
+    },
+    {
+      "probe": "child_timeout_recorded_as_failure",
+      "status": "PASS",
+      "classification": "MOCKED_CONTROL_FLOW_ONLY_NOT_STARTUP_VERIFICATION"
+    },
+    {
+      "probe": "child_nonzero_recorded_as_failure",
+      "status": "PASS",
+      "classification": "MOCKED_CONTROL_FLOW_ONLY_NOT_STARTUP_VERIFICATION"
+    },
+    {
+      "probe": "child_launch_error_recorded_as_failure",
+      "status": "PASS",
+      "classification": "MOCKED_CONTROL_FLOW_ONLY_NOT_STARTUP_VERIFICATION"
+    }
+  ],
+  "genuine_startup_required_after_final_sealing": true
+}
