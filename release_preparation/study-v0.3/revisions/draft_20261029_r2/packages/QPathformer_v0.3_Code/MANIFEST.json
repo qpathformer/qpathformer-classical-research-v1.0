@@ -1,0 +1,375 @@
+{
+  "schema": "qpath-package-manifest-1",
+  "package": "QPathformer_v0.3_Code",
+  "files": [
+    {
+      "path": "CODE_LICENSE_SCOPE.json",
+      "bytes": 9736,
+      "sha256": "8bfb959a2f9324cb4e744b1acdf28e38d392286c2e44b0010c6e922022a54fe5"
+    },
+    {
+      "path": "DEPENDENCIES.md",
+      "bytes": 622,
+      "sha256": "237df778ee701e1e75a7157cbc92646789fb780b544625038ff27ca30b49f5c3"
+    },
+    {
+      "path": "DEPENDENCY_INVENTORY.json",
+      "bytes": 20948,
+      "sha256": "6908ed9fd4e64bb2bcbce8210d5db59b537c98a324c8bbe4e43f82ce7bc719ea"
+    },
+    {
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "bytes": 1769,
+      "sha256": "9ddb9a5f1e10cdc4e1120505b6e8367112821de877d422aaa14f16d24be50857"
+    },
+    {
+      "path": "INHERITED_LICENSE_MAP.json",
+      "bytes": 7267,
+      "sha256": "2d7a6af4ea3c5a9d356c4dc12b2111b003cbd973ccdc8a7b8b17d43dd7e49ec6"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 18615,
+      "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+    },
+    {
+      "path": "LICENSES/QPATHFORMER-PLATFORM-1.0.txt",
+      "bytes": 1461,
+      "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+    },
+    {
+      "path": "LICENSE_ADOPTION.json",
+      "bytes": 1621,
+      "sha256": "477b81043a278fefb669a2f8d9363b3dbe016bee42dc608896c99ff72f3729ea"
+    },
+    {
+      "path": "QUICKSTART.md",
+      "bytes": 1206,
+      "sha256": "2647f689ae5bb6419164398e6f05616d913439b4e88b2c33e8bd8cbdaf09db1f"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 1559,
+      "sha256": "cf7c27f63e086489e5ed69767f5e6b59f91ec004a0980117a3c6319128216700"
+    },
+    {
+      "path": "SOURCE_MAP.json",
+      "bytes": 36191,
+      "sha256": "713212b2c49d7994269818efb64b506a20f4ccd3f8896eb5fbe3ad43ea8f514c"
+    },
+    {
+      "path": "SOURCE_SELECTION.json",
+      "bytes": 15918,
+      "sha256": "ecc6d04510fbde57b7487f30022d723f057317bcede1be16166177d0b99afe60"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 889,
+      "sha256": "9fed654d6e0442d9b59e62cf50032d046dcdeba93f153f28b50c17d5e1cefd2f"
+    },
+    {
+      "path": "VERIFY.md",
+      "bytes": 887,
+      "sha256": "eef38a54bdfda37d343527c3b55ed795018746fed371b34b7cb0088c9b9a95b6"
+    },
+    {
+      "path": "historical/README.txt",
+      "bytes": 2542,
+      "sha256": "aace3af3a96f87b7994c8cef4d54457962cf7b38c8ca30ff3eaef603ffa25f79"
+    },
+    {
+      "path": "historical/REPRODUCTION_GUIDE.txt",
+      "bytes": 6426,
+      "sha256": "bdee14eb5f27b90c1aaccffdcb65c2e3fa01630ded54cbad83f4bbe08c59028c"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/analytic_circuit_checks.py",
+      "bytes": 10278,
+      "sha256": "6cb3a9b5f56d3822c87a5b1882cea1154636948313dd1be36e835045ddf3a7dd"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/audit_data_v03.py",
+      "bytes": 9828,
+      "sha256": "1d85815ac47c8213dabcafc625d61f8280205f3024dc9f9efc97af3635fa2deb"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/audit_endpoints_v03.py",
+      "bytes": 27512,
+      "sha256": "5e18adb9fe4f415c25399cfd7f3ae95a66a43ff0ced61d2563ee1e63b51ff2a2"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/audit_model_v03.py",
+      "bytes": 12982,
+      "sha256": "2a353e12c265bac4329cd8f9da2ad363d9258e2a1a81088473a590fc5e07da64"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/crosscheck_numerical_recovery.py",
+      "bytes": 4244,
+      "sha256": "1eddf9baee8769960db87d8911d5e3413f68028b01b12a0173da926fd187b8cc"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/test_endpoint_auditor.py",
+      "bytes": 7299,
+      "sha256": "dde6414e224018373404e4928e7cc649c2182e34a1aae5f0d3d452a25ea94393"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/comparison.py",
+      "bytes": 4368,
+      "sha256": "3ba83fe7bfb52d4fe7a8d7a214528a0b35f1fb547ea53badb2deb934e2969354"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/matrix_reference.py",
+      "bytes": 6563,
+      "sha256": "372d9e62c89bf68dbe6e68016b1922e4fa1cfb570861580c83a3d781dd9558c2"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/preflight.py",
+      "bytes": 4542,
+      "sha256": "21c41e351b681310b7a403d317636e85b5f78f61d896967511d94737aab862bc"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/readout_reference.py",
+      "bytes": 3720,
+      "sha256": "9f92bc83fa4401bd456c68510ea91a4fd87515bdde430ed238d230c4b8a8ec6f"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/register_ready.py",
+      "bytes": 8548,
+      "sha256": "6e68a8bde8987a1d23e9b15ec1f24aa893fd5da3bb9940ade0899fdd373e6f84"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/register_tolerances.py",
+      "bytes": 3434,
+      "sha256": "d55c4ca272e84990b1a64a1f061a5879b292ed8b6689aca4718566700de21a58"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/replay_and_analyse.py",
+      "bytes": 36787,
+      "sha256": "8dbf7b96192a0a8338b93071236d7b3031df9b333b5494ed8df6d039153c44ae"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/statistics_reference.py",
+      "bytes": 7399,
+      "sha256": "6acbd3e10202a1968602e0b800021fd9c6ac90c7c6f37b7e6c3a8aae2ee27f9e"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/test_full_adapter.py",
+      "bytes": 10803,
+      "sha256": "63fd3850bdc462b7e2fd973f998b8cbabdad5735a7e8478fd22238dbd624a67e"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/test_gate.py",
+      "bytes": 10761,
+      "sha256": "6042c59068dbc7ee2bf49dac5b6ae16479cdd35dc54a5788ed37031c51366a24"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/test_reference.py",
+      "bytes": 7741,
+      "sha256": "001c20df49f9c71137e46070371471ffca8f22d569471a41e0ae2081349c2f7e"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/test_threshold.py",
+      "bytes": 3027,
+      "sha256": "0c2b0b278f16c838dd7d9e4cc77457c840aa84f2765665e2d4e5a6e7ef0ec2dd"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/threshold_comparison.py",
+      "bytes": 8862,
+      "sha256": "556c113f983756b76bfc3e6530248048bd172f579fd8468c3f61fcdbe44f4837"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/threshold_reference.py",
+      "bytes": 5303,
+      "sha256": "39bb4bd187758ada3024eeadef5e7f8c413d501690d3fc9f85a33f9b193aaa67"
+    },
+    {
+      "path": "payload/study/analysis/learning_resource_analysis.py",
+      "bytes": 11060,
+      "sha256": "930f542536daa99647f4344ad674f689c02105a52de4e9594e4362f23668cbd6"
+    },
+    {
+      "path": "payload/study/governance/ANALYSIS_PROTOCOL.json",
+      "bytes": 3281,
+      "sha256": "7401f1ab9f805eed0a1cd97a86e1aab9be3c27746e0a529a991efdaf9e1766f5"
+    },
+    {
+      "path": "payload/study/governance/NUMERICAL_RECOVERY_PROTOCOL_01.json",
+      "bytes": 6956,
+      "sha256": "049f4a627fda5fa08c739cc53375aa104e28d223bb78d525841d0f01d7931e0e"
+    },
+    {
+      "path": "payload/study/governance/RUNTIME.json",
+      "bytes": 618,
+      "sha256": "177d1423fcc4be2f80ca73cad9149dc136b32e3dada5f1dcee281ada8f0f5e13"
+    },
+    {
+      "path": "payload/study/governance/STUDY_PLAN.json",
+      "bytes": 7149,
+      "sha256": "0d69bb7e187c73290f8b1a0431c1b1204cf2933df3cb3fababdd7e7edf936007"
+    },
+    {
+      "path": "payload/study/governance/approve_stage_a.py",
+      "bytes": 2752,
+      "sha256": "b76e4d77da005c4e9b1b1413e000f6512c7ecd310ad7cf1abb8468490a0f0ec4"
+    },
+    {
+      "path": "payload/study/governance/approve_stage_b.py",
+      "bytes": 4674,
+      "sha256": "ee8eb31929cb8b5c35c53e516665a5df63e2e213012908154f1b4242a0f533e2"
+    },
+    {
+      "path": "payload/study/governance/freeze_stage.py",
+      "bytes": 2455,
+      "sha256": "4819577a27bb3d03835a8942d8b6a16a2fba93b855484ca76e901be4cb61ba2f"
+    },
+    {
+      "path": "payload/study/governance/release_confirmation.py",
+      "bytes": 9655,
+      "sha256": "de26f2b50b49d2a56542c22e8610ef4e6d4f60ee537edd1260f824e06e7781c3"
+    },
+    {
+      "path": "payload/study/governance/requirements-observed.txt",
+      "bytes": 585,
+      "sha256": "c4e7087b10bcfd02e22b7a3924c9bcafe0f51b1c07c663f33ab28ee8635fbfe5"
+    },
+    {
+      "path": "payload/study/quantum/READINESS_PROTOCOL.json",
+      "bytes": 2909,
+      "sha256": "5e9089393b7a0b0a1db6751e9119ac3335507e2552004edc8d02e76bb5a1068d"
+    },
+    {
+      "path": "payload/study/quantum/audit_stage.py",
+      "bytes": 10394,
+      "sha256": "df802690d0bb18471afb7b9c3eb259c99f29b567388a48c5a7e837bdf5ea6a0e"
+    },
+    {
+      "path": "payload/study/quantum/circuits.py",
+      "bytes": 3984,
+      "sha256": "bd8665361a928fd193f5ac4f00db1bf82e5fa68d595ae5843e9bbb2780debe26"
+    },
+    {
+      "path": "payload/study/quantum/evaluate_confirmation.py",
+      "bytes": 21158,
+      "sha256": "1da421fcc26976d6dacc55d8566dde632f31d07c61b951c7bdbcc04ad0d37ada"
+    },
+    {
+      "path": "payload/study/quantum/evaluation_checks/test_evaluation.py",
+      "bytes": 14418,
+      "sha256": "342009533b7f25e8583d494d7d36f4f69a74ac60d633e5c972983ac762e92ed1"
+    },
+    {
+      "path": "payload/study/quantum/evaluation_stats.py",
+      "bytes": 4200,
+      "sha256": "23a31123a8648bf23756db8a32cab17fdf9bee3918fe3e2fe9209d948a11744c"
+    },
+    {
+      "path": "payload/study/quantum/ibm_local_v03.py",
+      "bytes": 1762,
+      "sha256": "1ff0cf6f803f954dfbd4d82b773daab4db632722784bb6c75a33550978d86547"
+    },
+    {
+      "path": "payload/study/quantum/launch_stage.py",
+      "bytes": 3366,
+      "sha256": "d0e7c05edb92290e3e2b63b1b64672302b802ad9440c59b5b38ff6061c15d5e5"
+    },
+    {
+      "path": "payload/study/quantum/local_readiness.py",
+      "bytes": 12753,
+      "sha256": "f23d8f7b423c9d9e652feaf28eab7552f31e4a7154c540c3787fd8845afca7ec"
+    },
+    {
+      "path": "payload/study/quantum/numerical_verification.py",
+      "bytes": 5113,
+      "sha256": "73e2291c1d7eaceeb4d071ab0982b8c54bcb69caea0befadbf16445130bb93ce"
+    },
+    {
+      "path": "payload/study/quantum/pilot.py",
+      "bytes": 1808,
+      "sha256": "02c4940144b117a2501970a9509138d4ea58cebe42fb7247fe5f86a4682b2fdf"
+    },
+    {
+      "path": "payload/study/quantum/prepare_data.py",
+      "bytes": 11672,
+      "sha256": "d841d0d2e90f534bdb725845aab8678ee6c92cb62ef425be02ea1908408b9cd5"
+    },
+    {
+      "path": "payload/study/quantum/qstudy.py",
+      "bytes": 23929,
+      "sha256": "d4253ef2c917c298c10bb797bde0ebb2fb6631be6bcc487c21231083326ac557"
+    },
+    {
+      "path": "payload/study/quantum/reference_v03.py",
+      "bytes": 1251,
+      "sha256": "6740c96737c3f46f53967c579543bc5d0b4b8aac2f9305dd21b6b51d2a725071"
+    },
+    {
+      "path": "payload/study/quantum/register_evaluation.py",
+      "bytes": 5148,
+      "sha256": "063a21452635f7ce0747b923069135c7b03f11513b7aafeff8d3b142ce25b64f"
+    },
+    {
+      "path": "payload/study/quantum/replay.py",
+      "bytes": 2321,
+      "sha256": "8fdc2f85c543bd6238008512f283d5b121f35496d2e3bb59b727b797d99f96f6"
+    },
+    {
+      "path": "payload/study/quantum/routers.py",
+      "bytes": 8349,
+      "sha256": "0b62c0bcca42ab93551dab88e0e20828158f8a3d529253db6f0c1a5cf67a2c68"
+    },
+    {
+      "path": "payload/study/quantum/tests/test_models.py",
+      "bytes": 7294,
+      "sha256": "e90f479c1eed4444662b560dd6a1234aa7c32d49ed7a716533cd770ae93238cf"
+    },
+    {
+      "path": "payload/study/quantum/tests/test_routers_data.py",
+      "bytes": 4784,
+      "sha256": "a911aebd09550d391fe284f4136e8d50876f52959e0b05eb6e5029ed813eb824"
+    },
+    {
+      "path": "payload/study/quantum/vendor/qpath/__init__.py",
+      "bytes": 85,
+      "sha256": "05824d3c944b73dd461a8aaabd287cdb1618b70f9d2232d3ebf418d4ca08d14d"
+    },
+    {
+      "path": "payload/study/quantum/vendor/qpath/data.py",
+      "bytes": 3078,
+      "sha256": "b827e92b2e9c0b861c12eecc8eb539cb6703490d1354aed6065dfedfeabf2ab1"
+    },
+    {
+      "path": "payload/study/quantum/vendor/qpath/quantum.py",
+      "bytes": 5179,
+      "sha256": "0b1fd34a3c6ef3d739450ed6c553580d3e8dd5da36494c60e725aed58557f619"
+    },
+    {
+      "path": "payload/study/quantum/vendor/qpath/reference.py",
+      "bytes": 3705,
+      "sha256": "6148eecb303e81767c5a2718d3e076dd939e65a60506a8b89a86542815900e10"
+    },
+    {
+      "path": "provenance/inherited_scopes/v0.1_CODE_LICENSE_SCOPE.json",
+      "bytes": 6678,
+      "sha256": "e4fbd5efbe5505ee2349eed036c7463befce83c2e261d0f478f1dd5552867dc1"
+    },
+    {
+      "path": "provenance/inherited_scopes/v0.9.5_CODE_LICENSE_SCOPE.json",
+      "bytes": 9567,
+      "sha256": "02d5e60edbe02f42f94fa273b644cd5e597a2d67e2f9ee1fed913eacb45966d4"
+    },
+    {
+      "path": "tools/startup_check.py",
+      "bytes": 3512,
+      "sha256": "79fa16c6491ee29c91387f40241dbcd180fba5489db758ff0a8444e96eb7bf51"
+    },
+    {
+      "path": "tools/verify_package.py",
+      "bytes": 1128,
+      "sha256": "d1ee04bfd12eed979d3f8f3f05bfccea8c82f3cba54c8bbe07ab39dd0993ebbb"
+    }
+  ],
+  "excluded": [
+    "MANIFEST.json",
+    "CHECKSUMS.sha256"
+  ]
+}

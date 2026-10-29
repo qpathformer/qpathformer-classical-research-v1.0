@@ -1,0 +1,131 @@
+{
+  "study_id": "QPATH-QMECH-v0.3",
+  "status": "FROZEN_BEFORE_STAGE_A",
+  "authorization": "User explicitly requested a new local v0.3 study and internal Word report in C:\\Q2, preserving sealed v0.2 and using fresh data. User selected quantum mechanisms only. No text training, hardware, cloud jobs, publication or external messages.",
+  "working_root": "C:\\Anthony Siljeg\\Q2_improvement_study_v03",
+  "delivery_root": "C:\\Q2\\Improvement_Study_v0.3",
+  "baseline_root": "C:\\Q2\\Improvement_Study_v0.2",
+  "baseline_integrity_before": "governance/baseline_v02_before.json; PASS all3639payloads against originalmanifest6a23544293294135d228a05949aad45ce2fa15769b8a2207fa30573b9f01b78c",
+  "question": "Can shallow circuit readout or encoding changes improve the original architecture, and does input-derived routing help beyond an unstructured allocation with the same circuit-bank budget?",
+  "task": "Same synthetic uniform-square circle classification mechanism; new disjoint engineering, development and confirmation populations. This is not a new-domain generalization test.",
+  "methods": [
+    "scheduled",
+    "min_depth2",
+    "untied_assigned",
+    "fixed1",
+    "fixed2",
+    "fixed4",
+    "encoding1",
+    "readout1",
+    "hash40",
+    "kmeans40",
+    "ensemble40",
+    "mlp41",
+    "mlp129"
+  ],
+  "method_definitions": {
+    "scheduled": "Original shared16-angle prefix, random allocation-class depths4,4,3,3,2,2,1,1",
+    "min_depth2": "Same shared16-angle bank; raise originaldepth1records todepth2, increasing executed work without increasing allocated angles",
+    "untied_assigned": "Original v0.2 improved anchor: independent1/2/3/4depthbanks,40angles total, originaldepthassignments",
+    "fixed1": "One depth1 circuit,4angles",
+    "fixed2": "One depth2 circuit,8angles",
+    "fixed4": "One depth4 circuit,16angles",
+    "encoding1": "Depth1,4angles; add fixedRZ(pi*x[q]/2) afterfeatureRY(pi*x[q]) and beforetrainableRY/RZ for eachqubit; two additional encoding gates",
+    "readout1": "Depth1 plus trainable finalRY readout angle initialized atpi/2;5angles, samegatecountasfixed1",
+    "hash40": "Five independentdepth2banks,40angles; onebank perrecord selected by a fixed saltedhash of canonicalfloat64coordinates, with train-onlycuts matching kmeans trainingbankcounts",
+    "kmeans40": "Samefive depth2banks andinitialization; nearestcentroid routing using immutable train-onlykmeans5 on rawx0,x1; onebankperrecord",
+    "ensemble40": "Samefive distinct depth2initialbanks; everyrecord usesallfive; jointly optimizeBCE of meanprobability, not meanBCE. Five times forwardcircuits and bankvisits.",
+    "mlp41": "Retained6-input5-hiddenReLU1-outputMLP,41parameters; x0,x1 plus originalrandomdepthonehot",
+    "mlp129": "Retained6-input16-hiddenReLU1-outputMLP,129parameters; sameavailableinputinformation"
+  },
+  "initialization": "PCG64 SeedSequence([training_seed,1]) draws five independent 4-layer banks. Bank0 prefixes initialize fixed/shared models; untied1..4copies thoseprefixes. Firsttwo layers ofeachofsamefivebanks initialize hash40,kmeans40,ensemble40. Distinctbanks prevent ensemble symmetrycollapse. MLP details frozenwithsource.",
+  "data": {
+    "development": {
+      "seeds": [
+        130017,
+        130023,
+        130029
+      ],
+      "counts": [
+        4800,
+        1600,
+        1600
+      ]
+    },
+    "confirmation": {
+      "seeds": [
+        230017,
+        230023,
+        230029
+      ],
+      "counts": [
+        4800,
+        1600,
+        1600
+      ]
+    },
+    "engineering": {
+      "seeds": [
+        330017,
+        330023,
+        330029
+      ],
+      "counts": [
+        4800,
+        1600,
+        1600
+      ]
+    },
+    "novelty": "Reject exactcoordinate matches against allv0.1/v0.2quantumpopulations and acrossv0.3populations before deterministic stratifiedsplitting. Normalize signedzero. No near-duplicate or out-of-distribution claim.",
+    "router": "Trainingcoordinates only. Deterministickmeans++20restarts, fixediteration/tie/emptyclusterrules, lexicalcentroidordering. Hashcuts match onlytrainingcounts; never rebalancevalidation/test. Routercode,policies,fitcosts andhashes are frozen beforetraining. Neitherrouter useslabels,radius,targetrule,recordID orsplitmembership."
+  },
+  "training": {
+    "rounds": 200,
+    "global_updates": 15000,
+    "batch_size": 64,
+    "optimizer": "Adam",
+    "learning_rate": 0.01,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "epsilon": 1e-08,
+    "weight_decay": 0,
+    "pairing": "Same global shuffledrecordorder pertrainingseed across ordinaryarms; ensemble presents eachbatch toallfivebanks",
+    "checkpoint": "MinimumfullvalidationclippedBCE over200rounds, earliestexacttie; fullhorizoncharged"
+  },
+  "stages": {
+    "A": {
+      "training_seeds": [
+        501,
+        502,
+        503
+      ],
+      "runs": 39
+    },
+    "B": {
+      "training_seeds": [
+        601,
+        602,
+        603,
+        604,
+        605
+      ],
+      "runs": 65
+    },
+    "selection": "No candidatefilter. Everyregisteredarm continues from development to freshconfirmation regardlessofdevelopmentranking. Sourceandbudgetsfreeze beforeA; rootverifiesall39Aendpoints beforeBapproval."
+  },
+  "engineering": "Short all13arm timingpilot on independentengineeringtrain/validation only. Check independentmatrices, allnewgradients, analyticdepth1identity, bankpairing, routeinvariance, counters and endpointguards beforeofficialfreeze.",
+  "release": "Separate officialtest evaluator mayloadconfirmationtest only afterall65Bendpoints independentlyverified andcommitted, root-issuedrelease. Preserve access event beforeloading. No modeltest outcomes forengineering/development.",
+  "scope_limits": [
+    "Originalcircuits alreadyreuploadfeatures eachlayer",
+    "Allocatedangles do not equal independentfunctionalcapacity",
+    "Hash-versusonebank changes specialization and perbankexposure",
+    "Ensemble matchesparametercount butchangesmixturefunction,exposure,andcompute",
+    "Kmeansrouter itself is a classical nonlinearfeaturepartition anditscostmustbereported",
+    "Five trainingseeds ononecirclepopulation do not establishgeneralization,quantumadvantage,orhardwareefficiency"
+  ],
+  "report": "QPATH-RPT-004_Shallow_Circuits_and_Routing_Study_v0.3.docx; actualfindings, allarms, samefresh-taskcomparisons, historicalv0.2context, uncertainty,cost,diagnostics,limitations,nextsteps; nativeWordexport andall-pagevisualQA",
+  "completion": "All104registeredruns, independentevaluationreplay, localreadiness, finalWordreport, v0.2afterhashcheck, verifieddeliverymanifest required. Traininglaunchisnotcompletion.",
+  "inference_cost_fixture": "Lowest 1,024 validation record IDs; one warmup and three timed repeats. Inputs already loaded. Uncached hash/kmeans routing included and separately timed. Model load and router fitting excluded; fixed fit/cache preparation costs separately charged. Concurrent CPU timings are descriptive and method order is cyclic by seed index, not fully counterbalanced."
+}

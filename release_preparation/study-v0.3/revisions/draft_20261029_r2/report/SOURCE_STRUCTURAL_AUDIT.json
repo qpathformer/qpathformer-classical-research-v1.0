@@ -1,0 +1,48 @@
+{
+  "status": "PASS_STRUCTURAL_PRESERVATION",
+  "source": {
+    "path": "C:\\Q2\\Improvement_Study_v0.3\\docs\\QPATH-RPT-004_Shallow_Circuits_and_Routing_Study_v0.3.docx",
+    "bytes": 760951,
+    "sha256": "52ff262ec7e7c0685ec330032e959837ec8f1794ed223024775f21fbf773d838"
+  },
+  "edition": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.3\\draft_20261029\\report\\files\\QPathformer_v0.3_Report.docx",
+    "bytes": 761878,
+    "sha256": "3ad4d61c8d06911ee7618139970c810d454f8e05f5a6fb8057237fc1ceebdcb3"
+  },
+  "original_body_elements": 146,
+  "original_body_canonical_xml_unchanged": true,
+  "original_tables": 13,
+  "media": [
+    {
+      "path": "word/media/image1.png",
+      "bytes": 257280,
+      "sha256": "25f708037892e6a3a3a95d6a0e48804d26e757ff72a8264ef6f1cd1b72eb99f4"
+    },
+    {
+      "path": "word/media/image2.png",
+      "bytes": 134867,
+      "sha256": "604a25e4217d03e736e5650826fe5569dedbbebe95f8b9eb38f42edbed408374"
+    },
+    {
+      "path": "word/media/image3.png",
+      "bytes": 80936,
+      "sha256": "e0123c2d3928af2218b3bebe1d124b0726ec2ab026c81f40cfa898f9b1443644"
+    },
+    {
+      "path": "word/media/image4.png",
+      "bytes": 290197,
+      "sha256": "e9ab3c6f2d652721d815cbba3187e891491622c951f24767e7b1089bbc7bf526"
+    }
+  ],
+  "media_byte_identical": true,
+  "changes": [
+    "word/document.xml",
+    "docProps/core.xml",
+    "docProps/app.xml"
+  ],
+  "scientific_content_edits": 0,
+  "appended_edition_note": true,
+  "disclosure_review": "Historical local paths, host/environment descriptions and internal labels remain in the source report. No scientific content redacted. Private owner review required before public distribution.",
+  "appended_note_pagination": "Page-break-before on appended note title avoids adding an empty page after a full historical final page."
+}

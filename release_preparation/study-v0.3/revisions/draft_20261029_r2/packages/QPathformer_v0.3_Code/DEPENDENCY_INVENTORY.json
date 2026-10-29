@@ -1,0 +1,434 @@
+{
+  "schema": "qpath-dependency-inventory-1",
+  "study_version": "v0.3",
+  "direct_import_inventory": {
+    "__future__": [
+      "payload/study/analysis/classical_review/analytic_circuit_checks.py",
+      "payload/study/analysis/classical_review/audit_model_v03.py",
+      "payload/study/quantum/prepare_data.py",
+      "payload/study/quantum/qstudy.py",
+      "payload/study/quantum/routers.py",
+      "payload/study/quantum/vendor/qpath/data.py",
+      "payload/study/quantum/vendor/qpath/quantum.py",
+      "payload/study/quantum/vendor/qpath/reference.py"
+    ],
+    "analytic_circuit_checks": [
+      "payload/study/analysis/classical_review/audit_model_v03.py"
+    ],
+    "argparse": [
+      "payload/study/analysis/classical_review/analytic_circuit_checks.py",
+      "payload/study/analysis/classical_review/audit_data_v03.py",
+      "payload/study/analysis/classical_review/audit_endpoints_v03.py",
+      "payload/study/analysis/classical_review/audit_model_v03.py",
+      "payload/study/analysis/independent_replay/preflight.py",
+      "payload/study/analysis/independent_replay/replay_and_analyse.py",
+      "payload/study/analysis/learning_resource_analysis.py",
+      "payload/study/governance/approve_stage_b.py",
+      "payload/study/governance/freeze_stage.py",
+      "payload/study/governance/release_confirmation.py",
+      "payload/study/quantum/audit_stage.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/launch_stage.py",
+      "payload/study/quantum/local_readiness.py",
+      "payload/study/quantum/pilot.py",
+      "payload/study/quantum/qstudy.py"
+    ],
+    "audit_endpoints_v03": [
+      "payload/study/analysis/classical_review/crosscheck_numerical_recovery.py",
+      "payload/study/analysis/classical_review/test_endpoint_auditor.py"
+    ],
+    "audit_stage": [
+      "payload/study/quantum/evaluation_checks/test_evaluation.py"
+    ],
+    "bisect": [
+      "payload/study/analysis/classical_review/audit_data_v03.py",
+      "payload/study/quantum/routers.py"
+    ],
+    "circuits": [
+      "payload/study/quantum/qstudy.py",
+      "payload/study/quantum/tests/test_models.py"
+    ],
+    "comparison": [
+      "payload/study/analysis/independent_replay/replay_and_analyse.py",
+      "payload/study/analysis/independent_replay/test_reference.py",
+      "payload/study/analysis/independent_replay/threshold_comparison.py"
+    ],
+    "contextlib": [
+      "payload/study/analysis/independent_replay/test_full_adapter.py",
+      "payload/study/quantum/evaluation_checks/test_evaluation.py"
+    ],
+    "csv": [
+      "payload/study/analysis/classical_review/audit_endpoints_v03.py",
+      "payload/study/analysis/independent_replay/replay_and_analyse.py",
+      "payload/study/analysis/learning_resource_analysis.py",
+      "payload/study/quantum/audit_stage.py",
+      "payload/study/quantum/evaluation_checks/test_evaluation.py",
+      "payload/study/quantum/qstudy.py"
+    ],
+    "datetime": [
+      "payload/study/analysis/classical_review/analytic_circuit_checks.py",
+      "payload/study/analysis/classical_review/audit_data_v03.py",
+      "payload/study/analysis/classical_review/audit_endpoints_v03.py",
+      "payload/study/analysis/classical_review/audit_model_v03.py",
+      "payload/study/analysis/classical_review/crosscheck_numerical_recovery.py",
+      "payload/study/analysis/independent_replay/preflight.py",
+      "payload/study/analysis/independent_replay/register_ready.py",
+      "payload/study/analysis/independent_replay/register_tolerances.py",
+      "payload/study/analysis/independent_replay/replay_and_analyse.py",
+      "payload/study/analysis/learning_resource_analysis.py",
+      "payload/study/governance/freeze_stage.py",
+      "payload/study/governance/release_confirmation.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/prepare_data.py",
+      "payload/study/quantum/qstudy.py"
+    ],
+    "evaluate_confirmation": [
+      "payload/study/analysis/independent_replay/test_full_adapter.py",
+      "payload/study/governance/release_confirmation.py",
+      "payload/study/quantum/evaluation_checks/test_evaluation.py",
+      "payload/study/quantum/register_evaluation.py"
+    ],
+    "evaluation_stats": [
+      "payload/study/analysis/independent_replay/test_full_adapter.py",
+      "payload/study/analysis/independent_replay/test_reference.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/evaluation_checks/test_evaluation.py"
+    ],
+    "hashlib": [
+      "payload/study/analysis/classical_review/analytic_circuit_checks.py",
+      "payload/study/analysis/classical_review/audit_data_v03.py",
+      "payload/study/analysis/classical_review/audit_endpoints_v03.py",
+      "payload/study/analysis/classical_review/audit_model_v03.py",
+      "payload/study/analysis/classical_review/crosscheck_numerical_recovery.py",
+      "payload/study/analysis/independent_replay/matrix_reference.py",
+      "payload/study/analysis/independent_replay/preflight.py",
+      "payload/study/analysis/independent_replay/register_ready.py",
+      "payload/study/analysis/independent_replay/register_tolerances.py",
+      "payload/study/analysis/independent_replay/replay_and_analyse.py",
+      "payload/study/analysis/learning_resource_analysis.py",
+      "payload/study/governance/freeze_stage.py",
+      "payload/study/quantum/numerical_verification.py",
+      "payload/study/quantum/prepare_data.py",
+      "payload/study/quantum/qstudy.py",
+      "payload/study/quantum/routers.py",
+      "payload/study/quantum/vendor/qpath/data.py"
+    ],
+    "ibm_local_v03": [
+      "payload/study/quantum/local_readiness.py"
+    ],
+    "importlib": [
+      "payload/study/analysis/classical_review/analytic_circuit_checks.py",
+      "payload/study/analysis/classical_review/audit_model_v03.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/local_readiness.py"
+    ],
+    "io": [
+      "payload/study/analysis/independent_replay/test_full_adapter.py",
+      "payload/study/quantum/evaluation_checks/test_evaluation.py"
+    ],
+    "itertools": [
+      "payload/study/analysis/classical_review/test_endpoint_auditor.py"
+    ],
+    "json": [
+      "payload/study/analysis/classical_review/analytic_circuit_checks.py",
+      "payload/study/analysis/classical_review/audit_data_v03.py",
+      "payload/study/analysis/classical_review/audit_endpoints_v03.py",
+      "payload/study/analysis/classical_review/audit_model_v03.py",
+      "payload/study/analysis/classical_review/crosscheck_numerical_recovery.py",
+      "payload/study/analysis/classical_review/test_endpoint_auditor.py",
+      "payload/study/analysis/independent_replay/preflight.py",
+      "payload/study/analysis/independent_replay/register_ready.py",
+      "payload/study/analysis/independent_replay/register_tolerances.py",
+      "payload/study/analysis/independent_replay/replay_and_analyse.py",
+      "payload/study/analysis/independent_replay/test_full_adapter.py",
+      "payload/study/analysis/independent_replay/test_gate.py",
+      "payload/study/analysis/independent_replay/test_reference.py",
+      "payload/study/analysis/learning_resource_analysis.py",
+      "payload/study/governance/approve_stage_a.py",
+      "payload/study/governance/approve_stage_b.py",
+      "payload/study/governance/freeze_stage.py",
+      "payload/study/governance/release_confirmation.py",
+      "payload/study/quantum/audit_stage.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/evaluation_checks/test_evaluation.py",
+      "payload/study/quantum/local_readiness.py",
+      "payload/study/quantum/prepare_data.py",
+      "payload/study/quantum/qstudy.py",
+      "payload/study/quantum/register_evaluation.py",
+      "payload/study/quantum/tests/test_routers_data.py"
+    ],
+    "math": [
+      "payload/study/analysis/independent_replay/matrix_reference.py",
+      "payload/study/analysis/independent_replay/statistics_reference.py"
+    ],
+    "matrix_reference": [
+      "payload/study/analysis/independent_replay/preflight.py",
+      "payload/study/analysis/independent_replay/readout_reference.py",
+      "payload/study/analysis/independent_replay/replay_and_analyse.py",
+      "payload/study/analysis/independent_replay/test_reference.py"
+    ],
+    "numerical_verification": [
+      "payload/study/analysis/classical_review/crosscheck_numerical_recovery.py",
+      "payload/study/analysis/independent_replay/test_full_adapter.py",
+      "payload/study/quantum/audit_stage.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/evaluation_checks/test_evaluation.py",
+      "payload/study/quantum/register_evaluation.py"
+    ],
+    "numpy": [
+      "payload/study/analysis/classical_review/analytic_circuit_checks.py",
+      "payload/study/analysis/classical_review/audit_data_v03.py",
+      "payload/study/analysis/classical_review/audit_endpoints_v03.py",
+      "payload/study/analysis/classical_review/audit_model_v03.py",
+      "payload/study/analysis/classical_review/crosscheck_numerical_recovery.py",
+      "payload/study/analysis/classical_review/test_endpoint_auditor.py",
+      "payload/study/analysis/independent_replay/comparison.py",
+      "payload/study/analysis/independent_replay/matrix_reference.py",
+      "payload/study/analysis/independent_replay/preflight.py",
+      "payload/study/analysis/independent_replay/readout_reference.py",
+      "payload/study/analysis/independent_replay/replay_and_analyse.py",
+      "payload/study/analysis/independent_replay/statistics_reference.py",
+      "payload/study/analysis/independent_replay/test_full_adapter.py",
+      "payload/study/analysis/independent_replay/test_reference.py",
+      "payload/study/analysis/independent_replay/test_threshold.py",
+      "payload/study/analysis/independent_replay/threshold_comparison.py",
+      "payload/study/analysis/independent_replay/threshold_reference.py",
+      "payload/study/governance/release_confirmation.py",
+      "payload/study/quantum/audit_stage.py",
+      "payload/study/quantum/circuits.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/evaluation_checks/test_evaluation.py",
+      "payload/study/quantum/evaluation_stats.py",
+      "payload/study/quantum/ibm_local_v03.py",
+      "payload/study/quantum/local_readiness.py",
+      "payload/study/quantum/numerical_verification.py",
+      "payload/study/quantum/prepare_data.py",
+      "payload/study/quantum/qstudy.py",
+      "payload/study/quantum/reference_v03.py",
+      "payload/study/quantum/replay.py",
+      "payload/study/quantum/routers.py",
+      "payload/study/quantum/tests/test_models.py",
+      "payload/study/quantum/tests/test_routers_data.py",
+      "payload/study/quantum/vendor/qpath/data.py",
+      "payload/study/quantum/vendor/qpath/quantum.py",
+      "payload/study/quantum/vendor/qpath/reference.py"
+    ],
+    "os": [
+      "payload/study/analysis/independent_replay/replay_and_analyse.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/launch_stage.py",
+      "payload/study/quantum/pilot.py",
+      "payload/study/quantum/qstudy.py"
+    ],
+    "pathlib": [
+      "payload/study/analysis/classical_review/analytic_circuit_checks.py",
+      "payload/study/analysis/classical_review/audit_data_v03.py",
+      "payload/study/analysis/classical_review/audit_endpoints_v03.py",
+      "payload/study/analysis/classical_review/audit_model_v03.py",
+      "payload/study/analysis/classical_review/crosscheck_numerical_recovery.py",
+      "payload/study/analysis/classical_review/test_endpoint_auditor.py",
+      "payload/study/analysis/independent_replay/preflight.py",
+      "payload/study/analysis/independent_replay/register_ready.py",
+      "payload/study/analysis/independent_replay/register_tolerances.py",
+      "payload/study/analysis/independent_replay/replay_and_analyse.py",
+      "payload/study/analysis/independent_replay/test_full_adapter.py",
+      "payload/study/analysis/independent_replay/test_gate.py",
+      "payload/study/analysis/independent_replay/test_reference.py",
+      "payload/study/analysis/learning_resource_analysis.py",
+      "payload/study/governance/approve_stage_a.py",
+      "payload/study/governance/approve_stage_b.py",
+      "payload/study/governance/freeze_stage.py",
+      "payload/study/governance/release_confirmation.py",
+      "payload/study/quantum/audit_stage.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/evaluation_checks/test_evaluation.py",
+      "payload/study/quantum/launch_stage.py",
+      "payload/study/quantum/local_readiness.py",
+      "payload/study/quantum/numerical_verification.py",
+      "payload/study/quantum/pilot.py",
+      "payload/study/quantum/prepare_data.py",
+      "payload/study/quantum/qstudy.py",
+      "payload/study/quantum/register_evaluation.py",
+      "payload/study/quantum/tests/test_models.py"
+    ],
+    "platform": [
+      "payload/study/analysis/independent_replay/replay_and_analyse.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/local_readiness.py",
+      "payload/study/quantum/qstudy.py"
+    ],
+    "prepare_data": [
+      "payload/study/quantum/tests/test_routers_data.py"
+    ],
+    "qiskit": [
+      "payload/study/quantum/ibm_local_v03.py",
+      "payload/study/quantum/local_readiness.py"
+    ],
+    "qiskit_aer": [
+      "payload/study/quantum/local_readiness.py"
+    ],
+    "qpath": [
+      "payload/study/quantum/qstudy.py"
+    ],
+    "qstudy": [
+      "payload/study/analysis/independent_replay/preflight.py",
+      "payload/study/analysis/independent_replay/test_full_adapter.py",
+      "payload/study/governance/approve_stage_a.py",
+      "payload/study/governance/approve_stage_b.py",
+      "payload/study/governance/freeze_stage.py",
+      "payload/study/governance/release_confirmation.py",
+      "payload/study/quantum/audit_stage.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/evaluation_checks/test_evaluation.py",
+      "payload/study/quantum/launch_stage.py",
+      "payload/study/quantum/local_readiness.py",
+      "payload/study/quantum/pilot.py",
+      "payload/study/quantum/register_evaluation.py",
+      "payload/study/quantum/tests/test_models.py"
+    ],
+    "readout_reference": [
+      "payload/study/analysis/independent_replay/replay_and_analyse.py",
+      "payload/study/analysis/independent_replay/test_reference.py"
+    ],
+    "reference_v03": [
+      "payload/study/quantum/local_readiness.py",
+      "payload/study/quantum/qstudy.py",
+      "payload/study/quantum/replay.py",
+      "payload/study/quantum/tests/test_models.py"
+    ],
+    "replay": [
+      "payload/study/analysis/independent_replay/test_full_adapter.py",
+      "payload/study/quantum/audit_stage.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/evaluation_checks/test_evaluation.py",
+      "payload/study/quantum/numerical_verification.py"
+    ],
+    "replay_and_analyse": [
+      "payload/study/analysis/independent_replay/test_full_adapter.py",
+      "payload/study/analysis/independent_replay/test_gate.py"
+    ],
+    "routers": [
+      "payload/study/quantum/prepare_data.py",
+      "payload/study/quantum/qstudy.py",
+      "payload/study/quantum/tests/test_routers_data.py"
+    ],
+    "scipy": [
+      "payload/study/analysis/independent_replay/test_reference.py",
+      "payload/study/quantum/evaluation_stats.py"
+    ],
+    "shutil": [
+      "payload/study/analysis/classical_review/test_endpoint_auditor.py",
+      "payload/study/analysis/independent_replay/test_full_adapter.py",
+      "payload/study/quantum/qstudy.py"
+    ],
+    "statistics": [
+      "payload/study/analysis/learning_resource_analysis.py"
+    ],
+    "statistics_reference": [
+      "payload/study/analysis/independent_replay/comparison.py",
+      "payload/study/analysis/independent_replay/preflight.py",
+      "payload/study/analysis/independent_replay/readout_reference.py",
+      "payload/study/analysis/independent_replay/replay_and_analyse.py",
+      "payload/study/analysis/independent_replay/test_reference.py",
+      "payload/study/analysis/independent_replay/test_threshold.py",
+      "payload/study/analysis/independent_replay/threshold_comparison.py",
+      "payload/study/analysis/independent_replay/threshold_reference.py"
+    ],
+    "struct": [
+      "payload/study/analysis/independent_replay/matrix_reference.py"
+    ],
+    "subprocess": [
+      "payload/study/analysis/classical_review/test_endpoint_auditor.py",
+      "payload/study/quantum/launch_stage.py"
+    ],
+    "sys": [
+      "payload/study/analysis/classical_review/audit_data_v03.py",
+      "payload/study/analysis/classical_review/audit_endpoints_v03.py",
+      "payload/study/analysis/classical_review/audit_model_v03.py",
+      "payload/study/analysis/classical_review/crosscheck_numerical_recovery.py",
+      "payload/study/analysis/classical_review/test_endpoint_auditor.py",
+      "payload/study/analysis/independent_replay/preflight.py",
+      "payload/study/analysis/independent_replay/replay_and_analyse.py",
+      "payload/study/analysis/independent_replay/test_full_adapter.py",
+      "payload/study/analysis/independent_replay/test_reference.py",
+      "payload/study/governance/approve_stage_a.py",
+      "payload/study/governance/approve_stage_b.py",
+      "payload/study/governance/freeze_stage.py",
+      "payload/study/governance/release_confirmation.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/evaluation_checks/test_evaluation.py",
+      "payload/study/quantum/launch_stage.py",
+      "payload/study/quantum/local_readiness.py",
+      "payload/study/quantum/qstudy.py",
+      "payload/study/quantum/tests/test_models.py"
+    ],
+    "tempfile": [
+      "payload/study/analysis/classical_review/test_endpoint_auditor.py",
+      "payload/study/analysis/independent_replay/test_full_adapter.py",
+      "payload/study/analysis/independent_replay/test_gate.py",
+      "payload/study/quantum/evaluation_checks/test_evaluation.py",
+      "payload/study/quantum/tests/test_models.py"
+    ],
+    "test_gate": [
+      "payload/study/analysis/independent_replay/test_full_adapter.py"
+    ],
+    "threshold_comparison": [
+      "payload/study/analysis/independent_replay/replay_and_analyse.py"
+    ],
+    "threshold_reference": [
+      "payload/study/analysis/independent_replay/replay_and_analyse.py",
+      "payload/study/analysis/independent_replay/test_threshold.py",
+      "payload/study/analysis/independent_replay/threshold_comparison.py"
+    ],
+    "time": [
+      "payload/study/analysis/independent_replay/replay_and_analyse.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/launch_stage.py",
+      "payload/study/quantum/local_readiness.py",
+      "payload/study/quantum/pilot.py",
+      "payload/study/quantum/prepare_data.py",
+      "payload/study/quantum/qstudy.py"
+    ],
+    "traceback": [
+      "payload/study/analysis/classical_review/audit_data_v03.py",
+      "payload/study/analysis/classical_review/audit_endpoints_v03.py",
+      "payload/study/analysis/classical_review/audit_model_v03.py",
+      "payload/study/analysis/independent_replay/replay_and_analyse.py",
+      "payload/study/quantum/audit_stage.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/local_readiness.py",
+      "payload/study/quantum/qstudy.py"
+    ],
+    "unittest": [
+      "payload/study/analysis/classical_review/test_endpoint_auditor.py",
+      "payload/study/analysis/independent_replay/test_full_adapter.py",
+      "payload/study/analysis/independent_replay/test_gate.py",
+      "payload/study/analysis/independent_replay/test_reference.py",
+      "payload/study/analysis/independent_replay/test_threshold.py",
+      "payload/study/quantum/evaluation_checks/test_evaluation.py",
+      "payload/study/quantum/tests/test_models.py",
+      "payload/study/quantum/tests/test_routers_data.py"
+    ],
+    "uuid": [
+      "payload/study/governance/release_confirmation.py"
+    ]
+  },
+  "numeric_recorded_versions": {
+    "Python": "3.12.14",
+    "NumPy": "2.5.4",
+    "SciPy": "1.18.1",
+    "Qiskit": "2.6.0",
+    "Qiskit Aer": "0.17.2"
+  },
+  "classical_recorded_torch": null,
+  "observed_locks": [
+    {
+      "path": "payload/study/governance/requirements-observed.txt",
+      "source_absolute_path": "C:\\Q2\\Improvement_Study_v0.3\\governance\\requirements-observed.txt",
+      "bytes": 585,
+      "sha256": "c4e7087b10bcfd02e22b7a3924c9bcafe0f51b1c07c663f33ab28ee8635fbfe5"
+    }
+  ],
+  "dependency_terms": "Third-party dependencies retain their separate licenses and are not included or relicensed. Observed locks contain unrelated packages and are not minimum requirements.",
+  "installation_verified": false
+}

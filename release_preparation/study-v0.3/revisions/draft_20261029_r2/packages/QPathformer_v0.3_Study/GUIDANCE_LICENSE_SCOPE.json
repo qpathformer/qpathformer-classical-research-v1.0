@@ -1,0 +1,39 @@
+{
+  "schema": "qpath-guidance-license-scope-1",
+  "status": "ADOPTED",
+  "license": "CC-BY-4.0",
+  "licensor": "Anthony Siljeg",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "adoption_record": "LICENSE_ADOPTION.json",
+  "scope": "Controlled original explanatory prose in the exact listed file instances. This is not a grant for external works quoted or referenced, datasets, software or surrounding factual/operational records as whole packages.",
+  "files": [
+    {
+      "path": "RIGHTS.md",
+      "bytes": 1560,
+      "sha256": "b867f8beaca5a4fd06d58c6781c96c8957bceb05f409378695be67d222817597"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 1321,
+      "sha256": "563e94afe58a2e76f8d40148afb60ff1b4f3f54169583b99f40fdd21d516b361"
+    },
+    {
+      "path": "VERIFY.md",
+      "bytes": 889,
+      "sha256": "25013541777153935d8db1048f492d3485a33c1cb6a8ad2319010367702fd61e"
+    },
+    {
+      "path": "provenance/EDITION_CHANGES.md",
+      "bytes": 814,
+      "sha256": "460fb7f936075035893e75c9c31542ae2a67b40e4d171d58e23373ccb5d7c9ec"
+    }
+  ],
+  "exclusions": [
+    "Third-party expression",
+    "Source code",
+    "Datasets",
+    "Model artifacts",
+    "Architecture documents",
+    "Full archives"
+  ]
+}
