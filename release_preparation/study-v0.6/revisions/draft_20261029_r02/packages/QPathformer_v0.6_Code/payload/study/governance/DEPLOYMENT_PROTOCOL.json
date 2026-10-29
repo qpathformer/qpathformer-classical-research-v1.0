@@ -1,0 +1,46 @@
+{
+  "study_id": "QPATH-GENERALIZATION-v0.6",
+  "status": "REGISTERED_BEFORE_OFFICIAL_TRAINING",
+  "scope": "All40 selected Scalar/Multi B checkpoints; alternate same-model deployment. All120 selected checkpoints provide inference-cost controls. No new optimization or checkpoint selection.",
+  "basis": [
+    "1",
+    "cos(pi*x)",
+    "sin(pi*x)",
+    "cos(2*pi*x)",
+    "sin(2*pi*x)"
+  ],
+  "construction": "For each forced bank, evaluate logit on x_j=-1+2j/5, j=0..4, tensor grid. B[j,:]=basis(x_j), D=diag(1/5,2/5,2/5,2/5,2/5), C=D@B.T@Z@B@D. The bias is included in Z. Never route grid points or fit regression.",
+  "independent_reference": "Laurent-polynomial propagation of half-angle gate amplitudes and Pauli expectation conjugate products; convert to same real tensor basis independently of the construction grid.",
+  "tolerances": {
+    "coefficient_atol": 1e-10,
+    "coefficient_rtol": 1e-12,
+    "logit_atol": 1e-09,
+    "probability_atol": 2e-12,
+    "class_ambiguity_band": 2e-12
+  },
+  "parity": "Every bank; all validation rows; all test rows only after root release; fixed off-grid and router-boundary fixtures. Record maxima, every class difference and canonical probabilities; allow class differences only if both probabilities are within the declared band around0.5. Never replace canonical scoring.",
+  "benchmark": {
+    "inputs": "Lowest1024 numeric validation IDs per population, raw float64 coordinates; labels excluded.",
+    "batch_sizes": [
+      1,
+      32,
+      1024
+    ],
+    "batch1": "First128 ordered validation fixture rows, one call per row in each trial.",
+    "batch32": "All1024 rows partitioned into32 contiguous batches.",
+    "batch1024": "One1024-row batch repeated32 times per trial.",
+    "warmup_trials": 2,
+    "timed_trials": 15,
+    "order": "Deterministic rotation of methods by seed/population/trial; reverse every odd trial; circuit/compiled order alternates within circuit method. Same input work per representation.",
+    "clock": "perf_counter_ns; collect complete trial durations and outputs/checksums; medians and interquartile ranges per checkpoint then summaries across five seeds. No quantum-device time inference.",
+    "isolation": "No live training, audits, compilation or other benchmark workers; one process and one BLAS thread. Background OS activity remains a limitation.",
+    "scope": "Hot in-memory raw-input inference. Do not include model loading in prediction latency; measure load and compilation separately and report artifacts bytes. The15 timing trials are technical repeats, not additional training seeds."
+  },
+  "gate": "Production and independent implementations plus preflight tests frozen before official inference run. Run once after root test release and all training is quiescent. Preserve every failure.",
+  "coefficient_diagnostic": "Save per-bank coefficient-L1 discrepancy versus independent Laurent reference. Since every feature is bounded by1, this bounds the difference between the two coefficient polynomials for all real inputs; one quarter bounds sigmoid differences, excluding floating-point evaluation error. Finite fixture tests alone do not establish every-input numerical equality.",
+  "fixed_parity_fixtures": {
+    "offgrid": "128 points from NumPy PCG64 SeedSequence([690621]), uniform[-1,1]^2; identical coordinates for every model/population.",
+    "router_boundary": "For each pair of frozen training centroids, intersect its equal-distance line with the input box and all nearest-centroid halfspaces. For each positive-length Voronoi edge, use its midpoint and offsets -1e-10,0,+1e-10 along the normalized centroid-pair difference. Save coordinates, centroid pair, offsets and actual routes. No labels or held-out fitting.",
+    "forced_bank": "In addition, all128 off-grid points are evaluated under each of the five forced banks; no routing for these per-bank parity checks."
+  }
+}

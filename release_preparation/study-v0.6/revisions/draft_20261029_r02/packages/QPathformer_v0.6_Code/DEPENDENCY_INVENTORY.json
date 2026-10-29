@@ -1,0 +1,110 @@
+{
+  "direct_numeric": [
+    "numpy",
+    "scipy"
+  ],
+  "optional_scientific": [
+    "qiskit",
+    "qiskit_aer",
+    "psutil",
+    "matplotlib"
+  ],
+  "observed_import_roots": [
+    "__future__",
+    "argparse",
+    "ast",
+    "audit_confirmation_deployment_v06",
+    "audit_confirmation_readiness_v06",
+    "audit_endpoints_v06",
+    "audit_stage",
+    "bisect",
+    "builtins",
+    "circuits",
+    "contextlib",
+    "copy",
+    "csv",
+    "datetime",
+    "deployment_benchmark",
+    "deployment_compiler",
+    "deployment_reference_v06",
+    "device_snapshot",
+    "evaluate_confirmation",
+    "evidence_io",
+    "hashlib",
+    "importlib",
+    "inspect",
+    "io",
+    "json",
+    "laurent_reference_v06",
+    "local_readiness",
+    "math",
+    "models",
+    "numpy",
+    "official_comparison",
+    "os",
+    "path_mapping",
+    "pathlib",
+    "platform",
+    "prediction_reference",
+    "prepare_data",
+    "qiskit",
+    "qiskit_aer",
+    "qiskit_ibm_runtime",
+    "re",
+    "readout_reference_v06",
+    "reference_v03",
+    "reference_v06",
+    "release_gate",
+    "replay_and_analyse",
+    "routers",
+    "scipy",
+    "shutil",
+    "snapshot_execution",
+    "statistics",
+    "statistics_reference",
+    "statistics_v06",
+    "study",
+    "subprocess",
+    "synthetic_fixture",
+    "sys",
+    "tempfile",
+    "test_integrity",
+    "threshold_reference",
+    "time",
+    "traceback",
+    "types",
+    "unittest",
+    "uuid",
+    "verification"
+  ],
+  "historical_requirement_files": [
+    {
+      "path": "payload/study/governance/numeric_replay_requirements.txt",
+      "bytes": 258,
+      "sha256": "a1a9d7f981cecc86198a5564b341d7378881dac35b402c5817b021f75d7d38b1"
+    },
+    {
+      "path": "payload/study/governance/numeric_requirements_observed.txt",
+      "bytes": 598,
+      "sha256": "f9ed4051fe538785ac6465a624b2d517c4bdda1eaf91c18490887a0db053808d"
+    },
+    {
+      "path": "payload/study/governance/plotting_replay_requirements.txt",
+      "bytes": 295,
+      "sha256": "e2bae301a23532ff9590268d7d63e378be4374a1998fabce2a23016ac9e3ef7d"
+    },
+    {
+      "path": "payload/study/governance/scientific_plot_requirements_lock.txt",
+      "bytes": 878,
+      "sha256": "8975fdfa7eff0dd815f7ab3f9b31df60048ef86961955b9095ae5e49e9c76082"
+    },
+    {
+      "path": "payload/study/governance/simulator_requirements_lock.txt",
+      "bytes": 801,
+      "sha256": "7255bc0697e54ec529a0e79c14456d5696fd2ddba8b8deb72fb98bc06a0e415e"
+    }
+  ],
+  "boundary": "Historical inventories are observations, not wheel-hash locks or minimum hardware requirements. Dependencies retain their own licenses and are not included.",
+  "verified_runtime": "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+  "etel": false
+}

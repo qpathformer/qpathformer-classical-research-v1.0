@@ -1,0 +1,116 @@
+{
+  "schema": "qpath-package-manifest-1",
+  "package": "QPathformer_v0.6_Documentation",
+  "files": [
+    {
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "bytes": 1868,
+      "sha256": "295647c1230b7c5613b6734ec52d1d7101b1839358e800f7daff537c4961ff4a"
+    },
+    {
+      "path": "LICENSE_ADOPTION.json",
+      "bytes": 1526,
+      "sha256": "9271eba3e35779c48ee7abd5c66b9aef40215a3892f1a5e2968b64db2b0ce534"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 18615,
+      "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+    },
+    {
+      "path": "provenance/SOURCE_MAP.json",
+      "bytes": 8268,
+      "sha256": "f154c8b0320005bf7a6dc4dda6e14d6a192da2f5cbf414d809dbb4bb3a931d4f"
+    },
+    {
+      "path": "QPATHFORMER-PLATFORM-1.0.txt",
+      "bytes": 1461,
+      "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 525,
+      "sha256": "e7294fb39908425e5d5b6c598b9d1eacf2d6a3b3d86667f625f7079f61419c95"
+    },
+    {
+      "path": "RESEARCH_GUIDE.md",
+      "bytes": 2342,
+      "sha256": "9b0b9f598afdc02ded489de231e1f9bcf93f2ef5597504374af1b4e0a679e80a"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 1092,
+      "sha256": "fe73c673f2c2538bcf467fa078f51084c26945d4540a9d1856619f7402fc90d3"
+    },
+    {
+      "path": "source_guidance/governance/ANALYSIS_PROTOCOL.json",
+      "bytes": 6852,
+      "sha256": "904bb7972de661bb7dcc501a9e55ff18675893064f0434e6fff0309add48d5f0"
+    },
+    {
+      "path": "source_guidance/governance/DEPLOYMENT_PROTOCOL.json",
+      "bytes": 3943,
+      "sha256": "ee9b3daacb706fbe2741251ec4242fdea2456e9d18ae151aac60462730a2ee56"
+    },
+    {
+      "path": "source_guidance/governance/LOCAL_READINESS_PROTOCOL.json",
+      "bytes": 6210,
+      "sha256": "cb7c1243f1ea1591e68083a6bb55c8e1c2362a86f9a622ae1e15143d90eb8637"
+    },
+    {
+      "path": "source_guidance/governance/numeric_replay_requirements.txt",
+      "bytes": 258,
+      "sha256": "a1a9d7f981cecc86198a5564b341d7378881dac35b402c5817b021f75d7d38b1"
+    },
+    {
+      "path": "source_guidance/governance/numeric_requirements_observed.txt",
+      "bytes": 598,
+      "sha256": "f9ed4051fe538785ac6465a624b2d517c4bdda1eaf91c18490887a0db053808d"
+    },
+    {
+      "path": "source_guidance/governance/plotting_replay_requirements.txt",
+      "bytes": 295,
+      "sha256": "e2bae301a23532ff9590268d7d63e378be4374a1998fabce2a23016ac9e3ef7d"
+    },
+    {
+      "path": "source_guidance/governance/REPRODUCTION_TECHNICAL_NOTES.txt",
+      "bytes": 15837,
+      "sha256": "741209eb2bb90be6f4905df7bfc6332e0be889e097f9bf0a6835d7499e204938"
+    },
+    {
+      "path": "source_guidance/governance/scientific_plot_requirements_lock.txt",
+      "bytes": 878,
+      "sha256": "8975fdfa7eff0dd815f7ab3f9b31df60048ef86961955b9095ae5e49e9c76082"
+    },
+    {
+      "path": "source_guidance/governance/simulator_requirements_lock.txt",
+      "bytes": 801,
+      "sha256": "7255bc0697e54ec529a0e79c14456d5696fd2ddba8b8deb72fb98bc06a0e415e"
+    },
+    {
+      "path": "source_guidance/governance/STUDY_PLAN.json",
+      "bytes": 6937,
+      "sha256": "4552a6de4b72cf860ab3e6712f33539de404687c95b36e053ead44627579864f"
+    },
+    {
+      "path": "source_guidance/README.txt",
+      "bytes": 3121,
+      "sha256": "aa88cd1e85bd3607c9146aac20b3cca22763ce77412a053bdeac6aad5d560443"
+    },
+    {
+      "path": "source_guidance/REPRODUCTION_GUIDE.txt",
+      "bytes": 16363,
+      "sha256": "de12ce1144056e7f5dfea54a1a8ebf1f3a57f0deb331024181667d31c201704c"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 1140,
+      "sha256": "743a5590d64864a4a5fbd686c1a6d22d2b16c17d3506397e2354d2fa68947b69"
+    },
+    {
+      "path": "VERIFY.md",
+      "bytes": 625,
+      "sha256": "f721c391a965641b181706a2d1afdcc6af034b141b28722d6ac3371b228b0ce2"
+    }
+  ]
+}

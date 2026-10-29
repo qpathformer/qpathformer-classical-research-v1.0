@@ -1,0 +1,195 @@
+{
+  "status": "PASS_ORIGINAL_PAGE_TEXT_AND_REVIEWED_PIXELS_PRESERVED",
+  "source_pdf": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\original_report.pdf",
+    "bytes": 1226585,
+    "sha256": "45ec8b031ea153b127c907fc553ad5bd146d8e6584a3c7efd1616663d610a77a"
+  },
+  "final_pdf": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\report\\QPathformer_v0.6_Report.pdf",
+    "bytes": 1463490,
+    "sha256": "e25614ebe1be5a9edf9d3efba0aacf9eaab406ce210fe09fd3ad3c3f55015647"
+  },
+  "original_pages": 34,
+  "final_pages": 35,
+  "every_original_page_text_exact": true,
+  "every_final_page_pixel_identical_to_visually_reviewed_predecessor": true,
+  "predecessor_build": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029",
+  "rendered_pages": [
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-01.png",
+      "bytes": 120915,
+      "sha256": "141dd37bc8f1acfcbb19d0e0732f067e0f906bf1da9a151be3f66f10661b9c78"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-02.png",
+      "bytes": 97019,
+      "sha256": "d04ef404c2fd622e8108a8fe59e6b9ad5af5e890bc853a168bdb5c1743b13a0d"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-03.png",
+      "bytes": 152354,
+      "sha256": "d30c7ead8290c0a406d1ce455f50bab3f64e682b2e8c8ba0e3324e1618200710"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-04.png",
+      "bytes": 143823,
+      "sha256": "00ba975218a44b9be4cc0f085b84bf1f4f81110e0f6d891a74a8d5fd4b90b036"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-05.png",
+      "bytes": 145530,
+      "sha256": "b6f2c4b520650cc8717b99a9ee646dc9ea3aaf24d710a46a3741ce103cf3b13d"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-06.png",
+      "bytes": 144478,
+      "sha256": "dedec1404b7b482e04881f6a566200c74d813ed49c106dd9a0212c4804f2b409"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-07.png",
+      "bytes": 112692,
+      "sha256": "246f92275ef89996d83a1408d69210a88beeedf8bfe1451e90607adcb374c0be"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-08.png",
+      "bytes": 108913,
+      "sha256": "747c29297cae561a0ff93a85ba30273cf5366d764f12f6a815500c30d610c642"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-09.png",
+      "bytes": 139074,
+      "sha256": "45176a3ae25503ddaf715b497f45ccc59584c43d8cabfb608c5691138e06d184"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-10.png",
+      "bytes": 103779,
+      "sha256": "dfd745ab63ffa87e7725dc126652fe4d2369af76309a9f9998be1643d6fc4445"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-11.png",
+      "bytes": 144813,
+      "sha256": "1084ee2a8107665379360b62e1032f3bb6db1abefe28bac748dff93dd05a09b4"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-12.png",
+      "bytes": 105842,
+      "sha256": "0ff83547230f8310a784274d454fd8cdcf88fe7de2b05271fa4372f75b46b71c"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-13.png",
+      "bytes": 180211,
+      "sha256": "0968320b52d14f906cb66a9ead12423679af1005f80e1fcec21a1d31c1320b1e"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-14.png",
+      "bytes": 261168,
+      "sha256": "56da0013390eaaae4f63fa5604a44601d30408ffbe33ab083a7f39a6fdc3f030"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-15.png",
+      "bytes": 145332,
+      "sha256": "c0d89e6f63ddd77f47961a484e84d57e7b13bda01457ad172b4cfd4ff2a3451c"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-16.png",
+      "bytes": 165677,
+      "sha256": "4f579d1a5970d60363d23af494d9019ea24ac78596264af6e555d250581d175e"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-17.png",
+      "bytes": 166908,
+      "sha256": "8de05a5eb339bb35614ac6680c145e2663f82285c4bf6278f3c5944c351605a2"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-18.png",
+      "bytes": 137182,
+      "sha256": "fbb42450ab8dfad1fd06a92138b7b06070c2c289bb40b999ec77bf1f0655aa95"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-19.png",
+      "bytes": 186484,
+      "sha256": "9b0f8b055379319a36795dcb17f05ef3595b845cfcbd86ab2d13bb793f3e63e4"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-20.png",
+      "bytes": 234036,
+      "sha256": "fcbbbd99fdbac201066f68e79c26cafab82cefd5bbf191d58a8fe1993989fec2"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-21.png",
+      "bytes": 155799,
+      "sha256": "4f9daeea88af27ff600e447b69f918a8cb13e863651862f053cc7337b0487035"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-22.png",
+      "bytes": 201615,
+      "sha256": "a88e2a10692779f5d82d9c4762c9f571068fa8b1bd330096755e56e31d79589a"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-23.png",
+      "bytes": 102609,
+      "sha256": "b982dd0c32866f8321fb53609b3669f0b128d285ab596f4619293b7df34c84e1"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-24.png",
+      "bytes": 102005,
+      "sha256": "767f0fc9940ffa87687a2dba7a377cbc837f41170be21c8bb74a52e44a0386d9"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-25.png",
+      "bytes": 125904,
+      "sha256": "0371c3960f6f6dbd07634ec4c6c9fc0cf9f0dd8b98eb68ece5a0dfb344f2ff67"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-26.png",
+      "bytes": 126124,
+      "sha256": "bc03a6da6743e36f8589e3217caa03b30232981e47a36eec0bd40f8e3d1619ac"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-27.png",
+      "bytes": 142961,
+      "sha256": "3edc53250dda1d6085dacec2617293ed15452585b545260f791d56873b1dad2b"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-28.png",
+      "bytes": 144883,
+      "sha256": "572fde11aca7a2a7030c6b5da3c2a9e97ab9590f1439db591626e017215bd96e"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-29.png",
+      "bytes": 157703,
+      "sha256": "db9899448868509098f731c6115ed96cf6f41754222da82f3874763f614d4e79"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-30.png",
+      "bytes": 156448,
+      "sha256": "552ad502ebb6e31d75cfe69615f5e9263cdf561135dbf5c7a4078bf56d00ab55"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-31.png",
+      "bytes": 157147,
+      "sha256": "ec74c25a337e080b761a9457db5e4e86e9d33d7622d7cee9fac4bcaacc9fa560"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-32.png",
+      "bytes": 139010,
+      "sha256": "496bfefcb104d085601e157740421f71dd2ef924e5cb9008089a7902fccd99a9"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-33.png",
+      "bytes": 168798,
+      "sha256": "7408121f3491f5f924bba541b3a0433965e8b11ae152f9bc7ccc7680dc98dcbf"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-34.png",
+      "bytes": 167775,
+      "sha256": "818f9bb57dc113d12b72d1788e40aa497507ff4370b11577425b752f00b8faf1"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\final_pages\\page-35.png",
+      "bytes": 124082,
+      "sha256": "3c69e517a6a439cb2d81f83a04a8bd251187ab5a668abc853434c3eeb062a326"
+    }
+  ]
+}

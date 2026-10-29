@@ -1,0 +1,7 @@
+# Direct numeric/runtime dependencies recorded for v0.6; install only in a new environment.
+# Full observed distributions are numeric_requirements_observed.txt, not a wheel-hash lock.
+numpy==2.5.4
+scipy==1.18.1
+qiskit==2.6.0
+qiskit-aer==0.17.2
+psutil==7.2.2

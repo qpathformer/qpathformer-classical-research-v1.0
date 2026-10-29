@@ -1,0 +1,55 @@
+{
+  "status": "ADOPTED",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "files": [
+    {
+      "path": "reports/QPathformer_v0.6_Report.docx",
+      "bytes": 868690,
+      "sha256": "55db1c2b47569435e461b6756019c5767b81b0aca933e74b7b7c86da63d095b0"
+    },
+    {
+      "path": "reports/QPathformer_v0.6_Report.pdf",
+      "bytes": 1463490,
+      "sha256": "e25614ebe1be5a9edf9d3efba0aacf9eaab406ce210fe09fd3ad3c3f55015647"
+    }
+  ],
+  "original_report": {
+    "path": "C:\\Q2\\Improvement_Study_v0.6\\docs\\QPATH-RPT-007_Harder_Tasks_and_Faster_Inference_v0.6.docx",
+    "bytes": 867873,
+    "sha256": "e26164a4e9378ec3b1a2a26cc0cf6d47421550493ca3fb5fab6b868c0138c012",
+    "figures": 3,
+    "tables": 39
+  },
+  "included_original_content": "Controlled original report prose, table presentation and all report figures; original scientific results preserved. New edition note included.",
+  "figure_media": [
+    {
+      "part": "word/media/image1.png",
+      "bytes": 127953,
+      "sha256": "1715dc933696bd8a5fb80f0a3c14d9a8d87167d5439bdf3bf880b0a2a7239f5f"
+    },
+    {
+      "part": "word/media/image2.png",
+      "bytes": 169685,
+      "sha256": "03725027f0731a54d93232defc37e4a01fb5c91ddaeb61928996796aff2390f9"
+    },
+    {
+      "part": "word/media/image3.png",
+      "bytes": 525365,
+      "sha256": "fdee93f60cbe31741bc096e058e8f487cd6aeb045e576598a38417cbee9932e2"
+    }
+  ],
+  "figure_count": 3,
+  "exclusions": [
+    "Third-party cited expression",
+    "Architecture documents outside this report",
+    "Datasets",
+    "Model artifacts",
+    "Full archives"
+  ],
+  "inherited_grants": "Any already-licensed expression retains its grant. Newly selected controlled original content is covered by the separately scoped adopted grant. No blanket grant applies to excluded material.",
+  "license": "CC-BY-4.0",
+  "licensor": "Anthony Siljeg",
+  "adopted_on": "2026-10-29",
+  "timezone": "Australia/Sydney",
+  "adoption_record": "LICENSE_ADOPTION.json"
+}

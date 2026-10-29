@@ -1,0 +1,216 @@
+{
+  "study_version": "v0.6",
+  "actual_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02",
+  "source_root": "C:\\Q2\\Improvement_Study_v0.6",
+  "original_report": {
+    "path": "C:\\Q2\\Improvement_Study_v0.6\\docs\\QPATH-RPT-007_Harder_Tasks_and_Faster_Inference_v0.6.docx",
+    "bytes": 867873,
+    "sha256": "e26164a4e9378ec3b1a2a26cc0cf6d47421550493ca3fb5fab6b868c0138c012",
+    "figures": 3,
+    "tables": 39
+  },
+  "source_delivery_manifest": {
+    "path": "C:\\Q2\\Improvement_Study_v0.6\\DELIVERY_MANIFEST.json",
+    "bytes": 5077038,
+    "sha256": "e55dd7b6a449654c99cd6c65bbae2d559c24098f5db1748643164a8db8ac949e"
+  },
+  "files": [
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\assembly\\QPathformer_v0.1_Code\\LICENSES\\CC-BY-4.0.txt",
+      "source_identity": {
+        "bytes": 18615,
+        "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+      },
+      "output_identity": {
+        "bytes": 18615,
+        "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+      },
+      "classification": "canonical_unchanged_license"
+    },
+    {
+      "path": "QPATHFORMER-PLATFORM-1.0.txt",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\assembly\\QPathformer_v0.1_Code\\QPATHFORMER-PLATFORM-1.0.txt",
+      "source_identity": {
+        "bytes": 1461,
+        "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+      },
+      "output_identity": {
+        "bytes": 1461,
+        "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+      },
+      "classification": "canonical_unchanged_license"
+    },
+    {
+      "path": "source_guidance/README.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\README.txt",
+      "source_identity": {
+        "bytes": 3121,
+        "sha256": "aa88cd1e85bd3607c9146aac20b3cca22763ce77412a053bdeac6aad5d560443"
+      },
+      "output_identity": {
+        "bytes": 3121,
+        "sha256": "aa88cd1e85bd3607c9146aac20b3cca22763ce77412a053bdeac6aad5d560443"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "source_guidance/REPRODUCTION_GUIDE.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\REPRODUCTION_GUIDE.txt",
+      "source_identity": {
+        "bytes": 16363,
+        "sha256": "de12ce1144056e7f5dfea54a1a8ebf1f3a57f0deb331024181667d31c201704c"
+      },
+      "output_identity": {
+        "bytes": 16363,
+        "sha256": "de12ce1144056e7f5dfea54a1a8ebf1f3a57f0deb331024181667d31c201704c"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "source_guidance/governance/STUDY_PLAN.json",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\STUDY_PLAN.json",
+      "source_identity": {
+        "bytes": 6937,
+        "sha256": "4552a6de4b72cf860ab3e6712f33539de404687c95b36e053ead44627579864f"
+      },
+      "output_identity": {
+        "bytes": 6937,
+        "sha256": "4552a6de4b72cf860ab3e6712f33539de404687c95b36e053ead44627579864f"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "source_guidance/governance/ANALYSIS_PROTOCOL.json",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\ANALYSIS_PROTOCOL.json",
+      "source_identity": {
+        "bytes": 6852,
+        "sha256": "904bb7972de661bb7dcc501a9e55ff18675893064f0434e6fff0309add48d5f0"
+      },
+      "output_identity": {
+        "bytes": 6852,
+        "sha256": "904bb7972de661bb7dcc501a9e55ff18675893064f0434e6fff0309add48d5f0"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "source_guidance/governance/LOCAL_READINESS_PROTOCOL.json",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\LOCAL_READINESS_PROTOCOL.json",
+      "source_identity": {
+        "bytes": 6210,
+        "sha256": "cb7c1243f1ea1591e68083a6bb55c8e1c2362a86f9a622ae1e15143d90eb8637"
+      },
+      "output_identity": {
+        "bytes": 6210,
+        "sha256": "cb7c1243f1ea1591e68083a6bb55c8e1c2362a86f9a622ae1e15143d90eb8637"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "source_guidance/governance/DEPLOYMENT_PROTOCOL.json",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\DEPLOYMENT_PROTOCOL.json",
+      "source_identity": {
+        "bytes": 3943,
+        "sha256": "ee9b3daacb706fbe2741251ec4242fdea2456e9d18ae151aac60462730a2ee56"
+      },
+      "output_identity": {
+        "bytes": 3943,
+        "sha256": "ee9b3daacb706fbe2741251ec4242fdea2456e9d18ae151aac60462730a2ee56"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "source_guidance/governance/REPRODUCTION_TECHNICAL_NOTES.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\REPRODUCTION_TECHNICAL_NOTES.txt",
+      "source_identity": {
+        "bytes": 15837,
+        "sha256": "741209eb2bb90be6f4905df7bfc6332e0be889e097f9bf0a6835d7499e204938"
+      },
+      "output_identity": {
+        "bytes": 15837,
+        "sha256": "741209eb2bb90be6f4905df7bfc6332e0be889e097f9bf0a6835d7499e204938"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "source_guidance/governance/numeric_replay_requirements.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\numeric_replay_requirements.txt",
+      "source_identity": {
+        "bytes": 258,
+        "sha256": "a1a9d7f981cecc86198a5564b341d7378881dac35b402c5817b021f75d7d38b1"
+      },
+      "output_identity": {
+        "bytes": 258,
+        "sha256": "a1a9d7f981cecc86198a5564b341d7378881dac35b402c5817b021f75d7d38b1"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "source_guidance/governance/numeric_requirements_observed.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\numeric_requirements_observed.txt",
+      "source_identity": {
+        "bytes": 598,
+        "sha256": "f9ed4051fe538785ac6465a624b2d517c4bdda1eaf91c18490887a0db053808d"
+      },
+      "output_identity": {
+        "bytes": 598,
+        "sha256": "f9ed4051fe538785ac6465a624b2d517c4bdda1eaf91c18490887a0db053808d"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "source_guidance/governance/simulator_requirements_lock.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\simulator_requirements_lock.txt",
+      "source_identity": {
+        "bytes": 801,
+        "sha256": "7255bc0697e54ec529a0e79c14456d5696fd2ddba8b8deb72fb98bc06a0e415e"
+      },
+      "output_identity": {
+        "bytes": 801,
+        "sha256": "7255bc0697e54ec529a0e79c14456d5696fd2ddba8b8deb72fb98bc06a0e415e"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "source_guidance/governance/scientific_plot_requirements_lock.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\scientific_plot_requirements_lock.txt",
+      "source_identity": {
+        "bytes": 878,
+        "sha256": "8975fdfa7eff0dd815f7ab3f9b31df60048ef86961955b9095ae5e49e9c76082"
+      },
+      "output_identity": {
+        "bytes": 878,
+        "sha256": "8975fdfa7eff0dd815f7ab3f9b31df60048ef86961955b9095ae5e49e9c76082"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "source_guidance/governance/plotting_replay_requirements.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\plotting_replay_requirements.txt",
+      "source_identity": {
+        "bytes": 295,
+        "sha256": "e2bae301a23532ff9590268d7d63e378be4374a1998fabce2a23016ac9e3ef7d"
+      },
+      "output_identity": {
+        "bytes": 295,
+        "sha256": "e2bae301a23532ff9590268d7d63e378be4374a1998fabce2a23016ac9e3ef7d"
+      },
+      "classification": "unchanged_source"
+    }
+  ],
+  "generated_files": [
+    "GUIDANCE_LICENSE_SCOPE.json",
+    "LICENSE_ADOPTION.json",
+    "RELEASE_NOTES.md",
+    "RESEARCH_GUIDE.md",
+    "RIGHTS.md",
+    "START_HERE.md",
+    "VERIFY.md"
+  ],
+  "retained_full_archive": {
+    "logical_payload_bytes": 2229408138,
+    "files": 20859,
+    "not_included": true
+  },
+  "size_note": "Retained archive size is distinct from curated ZIP size and hardware minimums."
+}

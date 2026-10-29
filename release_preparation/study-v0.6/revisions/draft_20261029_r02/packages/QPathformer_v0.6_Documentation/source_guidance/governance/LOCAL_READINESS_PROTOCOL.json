@@ -1,0 +1,116 @@
+{
+  "study_id": "QPATH-GENERALIZATION-v0.6",
+  "status": "REGISTERED_BEFORE_OFFICIAL_TRAINING",
+  "scope": "Local circuits, compiled parity, illustrative logical noise and one archived IBM snapshot only. No service/account/credentials/cloud job/device access. Snapshot is not current calibration.",
+  "gate": "All120 B endpoints committed, independently audited, root hash-bound evaluation release before actual selected-checkpoint capsule. Synthetic preflight fixtures are separate.",
+  "populations": [
+    "confirmation_checkerboard",
+    "confirmation_spiral",
+    "confirmation_annulus",
+    "confirmation_disks"
+  ],
+  "training_seeds": [
+    1201,
+    1202,
+    1203,
+    1204,
+    1205
+  ],
+  "methods": [
+    "qscalar_kmeans",
+    "qmulti_kmeans"
+  ],
+  "fixtures": {
+    "n_per_population": 32,
+    "selection": "Lowest numeric validation record IDs in ascending order, same input rows for every seed/method; labels not used."
+  },
+  "observables": [
+    "X0",
+    "X1",
+    "Z0",
+    "Z1",
+    "Z0Z1"
+  ],
+  "measurement": {
+    "scalar": [
+      "XX"
+    ],
+    "multi": [
+      "XX",
+      "ZZ"
+    ],
+    "X_basis_rotation": "RY(-pi/2) on each of the two logical qubits, followed by Z measurement. XX jointly estimates X0,X1; ZZ jointly estimates Z0,Z1,Z0Z1.",
+    "cost": "Scalar consumes one setting and Multi two; common XX rotates both qubits even though Scalar uses X0 only. Charge actual circuits, not minimum gate counts."
+  },
+  "ideal": {
+    "probability_atol": 2e-12,
+    "moment_atol": 2e-12,
+    "scope": "All40 selected checkpoints and32 fixtures, full5 moments before heads; original logical, compiled ideal, production and independent matrix references; preserve raw class differences and declared ambiguity rules."
+  },
+  "compile": {
+    "backend": "retained FakeManilaV2 snapshot from IBM Runtime0.50.0",
+    "snapshot_manifest_sha256": "b2fbb7c060dc7a800dd11330726d324ef307adffe7f232af2f0170015a748d8d",
+    "snapshot_properties_date": "2024-05-27 15:27:23-03:00",
+    "snapshot_payloads": {
+      "conf_manila.json": {
+        "sha256": "f73e604ae003fb189cfdb35f7bafa818707cb8b80ff590fb07aa0ae032b636d9",
+        "size_bytes": 8177
+      },
+      "props_manila.json": {
+        "sha256": "5c1e0fe721a8e2fc00584007740db1b3d14cdf0c03cd033369187d4d4e2b1c24",
+        "size_bytes": 13390
+      }
+    },
+    "initial_layout": [
+      0,
+      1
+    ],
+    "optimization_level": 1,
+    "seed_transpiler": 690017,
+    "routing_method": "none",
+    "scope": "Every required XX/ZZ setting and fixture, full five-qubit target width retained. Save measured native QASM, ideal parity, physical/logical/classical mapping, gates/CX/depth/width. No layout, pair or device search."
+  },
+  "noise_scenarios": [
+    {
+      "name": "ideal",
+      "semantics": "Exact logical and compiled native circuits; no noise."
+    },
+    {
+      "name": "illustrative_mild",
+      "one_qubit_depolarizing": 0.001,
+      "cx_depolarizing": 0.01,
+      "symmetric_readout_flip": 0.01,
+      "semantics": "v0.5 logical-gate model: after each logical RY/RZ including encoding/readout rotations, and after CX. Applied to original two-qubit logical circuits, never stacked on snapshot noise."
+    },
+    {
+      "name": "archived_manila",
+      "semantics": "Aer NoiseModel.from_backend(retained backend) with default documented gate_error/readout_error/thermal_relaxation enabled; compile to retained target. Save full serialized noise model and exact readout matrices. No refresh or live calibration. No extra mitigation."
+    }
+  ],
+  "snapshot_density": "Remove final measurements from the saved compiled circuit. Simulate native gates with snapshot quantum channels, marginalize measured physical qubits in recorded classical-bit order, then apply asymmetric independent readout matrices extracted from serialized noise model. Reject unsupported correlated readout. Idle wires remain in recorded width; no extra idle/delay noise invented.",
+  "finite_shot": {
+    "shots_per_setting": [
+      1024,
+      8192
+    ],
+    "replicates": 5,
+    "sampling": "Joint four-outcome multinomial per setting; reuse joint counts for observables in that setting. Do not sample moments independently.",
+    "rng": "NumPy PCG64 SeedSequence([690101,population_index,training_seed,method_index,scenario_index,shots,replicate_index,setting_index]); indices zero based in registered orders.",
+    "head": "Apply fixed saved sigmoid head once to noisy estimated moments; record bias/variance and class disagreements. Plug-in nonlinear-head output is generally biased.",
+    "cost": "Scalar total N shots per input/repeat; Multi2N. Save every count vector and predictor output; separate represented multinomial trials from actual Aer shots."
+  },
+  "aer_measured_smoke": {
+    "records_per_checkpoint": 8,
+    "selection": "First8 of32 registered validation IDs",
+    "shots_per_setting": 1024,
+    "scenarios": [
+      "ideal",
+      "archived_manila"
+    ],
+    "seed_simulator": 690103,
+    "scope": "Run actual saved measured native circuits with ideal/full snapshot NoiseModel. Retain counts and compare with density-plus-readout expectations. Standardized residuals descriptive, no stochastic winner or accuracy gate."
+  },
+  "independent_audit": "Independently reconstruct ideal moments/heads and logical mild channels; verify snapshot identity, QASM/mapping and saved native quantum/readout channel tables; independently replay density channel application and joint-count generation/head application. Record exactly which compilation/Aer executions were not separately rerun.",
+  "outputs": "Checkpoint/input identities, original and compiled ideal parity, exact density distributions/noise serialization, every joint draw/head prediction, measured-Aer counts, resource totals, aggregate and maximum errors. Fixture labels are not primary generalization outcomes.",
+  "limits": "Historical2024 snapshot, approximate noise, no crosstalk/calibration drift/device queue/real hardware validation.32 reused validation fixtures per population, five training seeds. No selection based on noise outcomes."
+}
