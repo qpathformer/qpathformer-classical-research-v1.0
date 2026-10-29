@@ -1,0 +1,100 @@
+{
+  "schema": "qpath-study-publication-1",
+  "status": "PUBLISHED_PRIVATE",
+  "repository_edition": "v1.0",
+  "study_version": "v0.9.5",
+  "recorded_at_utc": "2026-10-29T06:56:24.949914+00:00",
+  "repository": {
+    "id": 1438032349,
+    "name": "qpathformer/qpathformer-classical-research-v1.0",
+    "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0",
+    "private": true,
+    "visibility": "private",
+    "renamed_not_recreated": true
+  },
+  "release": {
+    "id": 427547832,
+    "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/study-v0.9.5",
+    "tag": "study-v0.9.5",
+    "commit": "96d35cee01a721d12a92e3b2809302ee1d5fa97b",
+    "draft": false,
+    "prerelease": false,
+    "published_at": "2026-10-29T06:56:16Z"
+  },
+  "assets": [
+    {
+      "name": "QPathformer_v0.9.5_Code.seal.json",
+      "id": 687656113,
+      "bytes": 1657,
+      "sha256": "dd4dfe631cbfa470124a5926ba96905c64df4cfce53e3330eecbc05c6eff4a06",
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/download/study-v0.9.5/QPathformer_v0.9.5_Code.seal.json"
+    },
+    {
+      "name": "QPathformer_v0.9.5_Code.zip",
+      "id": 687656111,
+      "bytes": 236660,
+      "sha256": "3e2a50c5c76dd382fa8d7456a28404c2f9882fe202bb62ddb9a4d63d690ea30f",
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/download/study-v0.9.5/QPathformer_v0.9.5_Code.zip"
+    },
+    {
+      "name": "QPathformer_v0.9.5_Documentation.seal.json",
+      "id": 687656115,
+      "bytes": 1693,
+      "sha256": "67d42c6aa673a21e3d468a1aa148c0d63bca63f72785f66d58919394239daeac",
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/download/study-v0.9.5/QPathformer_v0.9.5_Documentation.seal.json"
+    },
+    {
+      "name": "QPathformer_v0.9.5_Documentation.zip",
+      "id": 687656110,
+      "bytes": 4833354,
+      "sha256": "719c9017d18f73f4e72e5d7434994a51da6668571976dba637561504ae662743",
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/download/study-v0.9.5/QPathformer_v0.9.5_Documentation.zip"
+    },
+    {
+      "name": "QPathformer_v0.9.5_Study.seal.json",
+      "id": 687656112,
+      "bytes": 1659,
+      "sha256": "e7aba775c27f06691fe7cb585d18fbd028e5853de3aaabc43169783c607fd6d3",
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/download/study-v0.9.5/QPathformer_v0.9.5_Study.seal.json"
+    },
+    {
+      "name": "QPathformer_v0.9.5_Study.zip",
+      "id": 687656143,
+      "bytes": 3277359,
+      "sha256": "5bf6edb3b0c0351c0787f106bbb78a3730b5e332e4540cb078ec02c9fd3e73fb",
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/download/study-v0.9.5/QPathformer_v0.9.5_Study.zip"
+    }
+  ],
+  "download_verification": "All six assets downloaded from GitHub and compared to final local bytes; all three downloaded ZIP/seal pairs and internal inventories passed.",
+  "build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9.5\\final_20261029",
+  "startup_binding": {
+    "path": "FRESH_PACKAGE_VERIFICATION.json",
+    "bytes": 3350,
+    "sha256": "ca83457346bd630cc1c91469f7b4631d194f29145e4cd10bbba01a30e2621c22"
+  },
+  "startup_receipt": {
+    "path": "QPathformer_v0.9.5_Code.startup.json",
+    "bytes": 9737,
+    "sha256": "b39bd7fdd4e67dc159814a7b7f89bc5dc006c92f6a6a0c0cbeaa3767e3896b45"
+  },
+  "startup_scope": "Original package verifier before and after startup; bounded runtime/CLI/import/ETEL/retained-test checks; no full study, retraining, dependency installation or physical-QPU run.",
+  "license_scope": "Existing scoped report, Python, source-documentation and new-guidance grants retained. Naming/link/access-status edits map current files to the original licensed source identities; no new license adoption is asserted.",
+  "scientific_payloads_unchanged": true,
+  "prior_distribution": {
+    "release_id": 427529591,
+    "tag": "v1.0",
+    "title": "Repository packaging record v1.0 (superseded)",
+    "assets_and_tag_unchanged": true,
+    "publication_record_preserved": true,
+    "presentation_changed_to_superseded": true,
+    "body_before_sha256": "805e673785e23715515a7ca8e63674ab21514cf1bc2187ead82d7a0310a5bbe6",
+    "body_after_sha256": "67007cecc994cedc9e9127dceb2fd7c810ec5a406b141e62f613bb1b8abcfcd9"
+  },
+  "historical_staging": {
+    "id": 1436694826,
+    "name": "qpathformer/qpathformer-classical-research-staging",
+    "private": true
+  },
+  "access_boundary": "Private publication only. Public readiness and a future visibility decision are separate; making this repository public would expose retained releases and reachable Git history as well as current material.",
+  "publication_record_boundary": "External post-publication record, added after the study tag. It is outside all sealed ZIPs and does not rewrite their preparation event."
+}
