@@ -1,0 +1,90 @@
+{
+  "schema": "qpath-study-publication-1",
+  "status": "PUBLISHED_PRIVATE",
+  "repository": {
+    "name": "qpathformer/qpathformer-classical-research-v1.0",
+    "id": 1438032349,
+    "private_at_publication": true
+  },
+  "repository_edition": "v1.0",
+  "study_version": "v0.1",
+  "title": "Q-Pathformer Study v0.1 — Local Benchmark and QPU Readiness",
+  "release": {
+    "id": 427572374,
+    "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/study-v0.1",
+    "tag": "study-v0.1",
+    "target_commit": "62c5bd3eb1d8de4a66ce98701a4e5e39e06a48a8",
+    "published_at": "2026-10-29T08:39:28Z",
+    "draft": false,
+    "prerelease": false,
+    "make_latest": false
+  },
+  "recorded_at_utc": "2026-10-29T08:39:32.653190+00:00",
+  "assets": [
+    {
+      "id": 687899795,
+      "name": "QPathformer_v0.1_Code.seal.json",
+      "bytes": 1702,
+      "sha256": "f4b462dd5d546c637e0da94c5879ba553716cc164e836a3809c7927837f17f2b",
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/download/untagged-bfa4d79f1f1f737e1b3b/QPathformer_v0.1_Code.seal.json"
+    },
+    {
+      "id": 687899792,
+      "name": "QPathformer_v0.1_Code.zip",
+      "bytes": 140242,
+      "sha256": "3f264e71879c0ef5461d0232d6a59e6f9de3c74cbc34997585646df426b96fd7",
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/download/untagged-bfa4d79f1f1f737e1b3b/QPathformer_v0.1_Code.zip"
+    },
+    {
+      "id": 687899793,
+      "name": "QPathformer_v0.1_Documentation.seal.json",
+      "bytes": 1736,
+      "sha256": "ad34c5f68a8a6f384ee33a2acae16be77cae7b3ac708430b7d00add0815ddebc",
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/download/untagged-bfa4d79f1f1f737e1b3b/QPathformer_v0.1_Documentation.seal.json"
+    },
+    {
+      "id": 687899796,
+      "name": "QPathformer_v0.1_Documentation.zip",
+      "bytes": 35348,
+      "sha256": "065cd405c33682e148c9a8fbfbd4e32184589ff820c3179e32e761aa1a6ff180",
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/download/untagged-bfa4d79f1f1f737e1b3b/QPathformer_v0.1_Documentation.zip"
+    },
+    {
+      "id": 687899794,
+      "name": "QPathformer_v0.1_Study.seal.json",
+      "bytes": 1706,
+      "sha256": "6a01ed41e6fdaec7e135325805c0af710ecc5c20789fa20a43450100f5d92fa6",
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/download/untagged-bfa4d79f1f1f737e1b3b/QPathformer_v0.1_Study.seal.json"
+    },
+    {
+      "id": 687899852,
+      "name": "QPathformer_v0.1_Study.zip",
+      "bytes": 1284100,
+      "sha256": "31dd793005f4ac157c13ce084222717d3b48823e08f5dd9726ba8b2f5db9eef7",
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/download/untagged-bfa4d79f1f1f737e1b3b/QPathformer_v0.1_Study.zip"
+    }
+  ],
+  "startup_binding": {
+    "path": "release_records/study-v0.1/FRESH_PACKAGE_VERIFICATION.json",
+    "bytes": 3589,
+    "sha256": "660ffeb284c54149fa5abc05d0bb812c98584fa5e20c721cf37f0d755d4b00e7"
+  },
+  "startup_receipt": {
+    "path": "release_records/study-v0.1/QPathformer_v0.1_Code.startup.json",
+    "bytes": 27564,
+    "sha256": "f9b0c6c74fd41725af6abaf3c8173a1b50bbf6ad237f52969794164156b25d98"
+  },
+  "adoption_record": {
+    "path": "release_records/study-v0.1/LICENSE_ADOPTION.json",
+    "bytes": 3586,
+    "sha256": "b06c731228c2f6111f878f7638ac1635b8a9488658390cacec0dbcb5f99c5413"
+  },
+  "body_at_initial_publication": {
+    "sha256": "f6cc8535e504c21326008ae2869fefb153dcc4a5e1666e915df524ed3e53dd93",
+    "note": "A link to this publication record is added after its commit; it does not change the asset identities or scientific/licensing content."
+  },
+  "previous_releases_preserved": true,
+  "latest_release": "study-v0.9.5",
+  "verification": "All six final assets downloaded and byte-verified before publication. All three internal inventories and seals pass. Fresh Windows startup passed on the actual final Code package; source code unchanged.",
+  "boundary": "Actual publication event. Repository remains private by owner instruction; this visibility state is separate from adopted content licenses. Earlier review ZIPs and draft records retain their historical identities."
+}
