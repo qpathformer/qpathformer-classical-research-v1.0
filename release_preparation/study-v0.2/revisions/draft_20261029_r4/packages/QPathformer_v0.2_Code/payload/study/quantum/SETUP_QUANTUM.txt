@@ -1,0 +1,55 @@
+LOCAL QUANTUM REPRODUCTION ENVIRONMENT
+INTERNAL — NOT FOR PUBLICATION
+
+The observed study interpreter is Python 3.12.14 at:
+C:\Q2\Implementation_v0.1\.venv\Scripts\python.exe
+
+requirements-cpu-lock.txt is a complete observed pip freeze, not a minimal
+dependency specification. It includes unrelated Torch CPU, tokenization and
+Hugging Face packages that were present in the shared environment. The quantum
+trainer does not use Torch, GPU training or an external service.
+
+requirements-training-minimal.txt pins NumPy alone for the training, data,
+independent matrix replay and standard-library unittest code.
+
+requirements-quantum-minimal.txt pins the 11-package declared base dependency
+closure needed to add local Qiskit/Aer readiness. NumPy, SciPy, Qiskit and Aer
+are direct packages; the other pins satisfy their base runtime dependencies.
+Optional visualization, documentation, testing and cloud-provider extras are
+excluded. QASM3 EXPORT used here is supported by Qiskit itself; this workflow
+does not import QASM3 and does not require qiskit-qasm3-import.
+
+No new environment was installed or modified while preparing these files.
+The minimal closure was checked against installed package metadata, rather
+than validated by a fresh clean-room installation. Exact observed metadata and
+versions are retained in DEPENDENCY_AUDIT.json.
+
+For a later offline reproduction, first prepare a local wheelhouse containing
+the exact compatible Windows/Python 3.12 binary wheels and their pinned
+dependencies. The following are illustrative PowerShell commands to execute
+from a NEW study copy. Replace the wheelhouse placeholder with its real path.
+Do not execute them against the running study or the preserved v0.1 environment.
+
+  & 'C:\Q2\Implementation_v0.1\.venv\Scripts\python.exe' -m venv .venv_quantum_repro
+  & '.\.venv_quantum_repro\Scripts\python.exe' -m pip install --no-index --find-links 'C:\path\to\local-wheelhouse' --only-binary=:all: --disable-pip-version-check -r requirements-quantum-minimal.txt
+  & '.\.venv_quantum_repro\Scripts\python.exe' -m pip check
+  & '.\.venv_quantum_repro\Scripts\python.exe' -m unittest discover -s tests -v
+
+These setup commands were NOT executed during the study. --no-index prevents
+package-index access; the wheelhouse must already exist. No IBM account, API
+token, qiskit-ibm-runtime installation or network connection is needed for the
+local readiness code. Creating a Python environment is not permission to run
+a new experiment: preserve completed folders and follow the separate stage
+freeze and one-time test release workflow documented in README.txt.
+
+The static plot helper additionally requires matplotlib and its dependencies.
+Plotting is intentionally separate from the CPU training environment; use the
+report plotting environment and its separately captured lock. It reads only
+completed released summary values and does not perform model inference.
+
+Record the actual interpreter/package versions and machine details for any
+reproduction. Matching source, seeds and dependencies supports reproducibility;
+different hardware or numerical libraries need not produce byte-identical
+floating-point artifacts. Reproduction should compare preserved predictions
+and metrics within the declared numerical tolerance, not silently replace the
+original evidence.

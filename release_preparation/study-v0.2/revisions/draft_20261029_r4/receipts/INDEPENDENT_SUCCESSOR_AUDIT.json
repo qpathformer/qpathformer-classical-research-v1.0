@@ -1,0 +1,155 @@
+{
+  "schema": "qpath-independent-successor-audit-1",
+  "status": "PASS",
+  "checked_at_utc": "2026-10-29T10:15:51.839247+00:00",
+  "study_version": "v0.2",
+  "actual_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r4",
+  "packages": [
+    {
+      "package": "QPathformer_v0.2_Code",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r4\\dist\\QPathformer_v0.2_Code.zip",
+        "bytes": 206580,
+        "sha256": "a73fffc11ba9928074462963065ef1cc5466c834e6fd8c2580dabd40e1a2ec56"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r4\\dist\\QPathformer_v0.2_Code.seal.json",
+        "bytes": 1366,
+        "sha256": "d1fd7ad591daedbf7f64bb2522c5fe946807a0c105bd3e7cdb18dbd563a06ec1"
+      },
+      "files": 71,
+      "actual_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r4"
+    },
+    {
+      "package": "QPathformer_v0.2_Documentation",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r4\\dist\\QPathformer_v0.2_Documentation.zip",
+        "bytes": 37003,
+        "sha256": "f047146f4fb4cae5cdfd196a824772c43e4461f951cccc64de6f1cfec883c2dc"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r4\\dist\\QPathformer_v0.2_Documentation.seal.json",
+        "bytes": 1436,
+        "sha256": "c6f42a80faadf948d12134f044e72b1c96db9a55f37ef6ad61c6da54796628e0"
+      },
+      "files": 19,
+      "actual_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r4"
+    },
+    {
+      "package": "QPathformer_v0.2_Study",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r4\\dist\\QPathformer_v0.2_Study.zip",
+        "bytes": 1394953,
+        "sha256": "6567321e68e2898cea95c3c0ef9544083c6371156d29b3f69f249a36323050b5"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r4\\dist\\QPathformer_v0.2_Study.seal.json",
+        "bytes": 1373,
+        "sha256": "dc9ed6a06b6e6a5894b3eeb0cdae69c1fa3b9409507c3b6f8c0800e4a4ec0565"
+      },
+      "files": 18,
+      "actual_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r4"
+    }
+  ],
+  "scopes": [
+    {
+      "package": "Code",
+      "path": "CODE_LICENSE_SCOPE.json",
+      "files": 42,
+      "bytes": 8458,
+      "sha256": "de61e25ef7dea4cc89d5ad26e580dd7940cb6e5445a78ad46a7052cd07119bc1"
+    },
+    {
+      "package": "Code",
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "files": 7,
+      "bytes": 1830,
+      "sha256": "8754b3f84be3275cf801ce5c506a8529a7b3b7ee5bbcbc7aa08280ff0658992a"
+    },
+    {
+      "package": "Documentation",
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "files": 12,
+      "bytes": 2728,
+      "sha256": "0a7741c7f50de1344da06edbc53dba9e1441a80983df4ed00f55bbb668726a99"
+    },
+    {
+      "package": "Study",
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "files": 4,
+      "bytes": 1351,
+      "sha256": "d0de2176969a87465bf2bf7324dc2d940c97f709b7a83dba0596cdea1481f4b5"
+    },
+    {
+      "package": "Study",
+      "path": "REPORT_LICENSE_SCOPE.json",
+      "files": 2,
+      "bytes": 1932,
+      "sha256": "8102d822b79f9c976c4aeaaa4e34705d87933aabf267cc6a2a262d7030a6b909"
+    }
+  ],
+  "source_map_entries_checked": 99,
+  "scientific_payload_files_unchanged": 50,
+  "scientific_python_files_unchanged": 40,
+  "reports_unchanged": [
+    {
+      "path": "reports/QPathformer_v0.2_Report.docx",
+      "bytes": 582429,
+      "sha256": "bdc94fdbf1de187ac54be14e4ee61da5959e7438220648764dfa6fbad6158b17"
+    },
+    {
+      "path": "reports/QPathformer_v0.2_Report.pdf",
+      "bytes": 935726,
+      "sha256": "a50ab850d1e59509d46a65eab2167d8b2617e81d4fc22f78eb487a9607e49c60"
+    }
+  ],
+  "canonical_license_texts_and_adoption_records_unchanged": true,
+  "helper_sources_match_tested_staging": true,
+  "helper_regression_binding": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r4\\receipts\\HELPER_TEST_RESULTS.json",
+    "bytes": 4742,
+    "sha256": "8b080044ad98c858a189f34170b11113cf4c11761f66445692c27dfb2e5f8caf"
+  },
+  "startup_binding": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r4\\receipts\\FRESH_PACKAGE_VERIFICATION.json",
+    "bytes": 4252,
+    "sha256": "1930b0676e74946b1b329dcd947ec4b5416929d8248d9ecf6a342fbc4ff52ebf"
+  },
+  "startup_fingerprint_matches_sealed_code": true,
+  "genuine_startup_checks": 4,
+  "changed_package_files": {
+    "Code": [
+      "CHECKSUMS.sha256",
+      "CODE_LICENSE_SCOPE.json",
+      "DEPENDENCIES.md",
+      "DEPENDENCY_INVENTORY.json",
+      "GUIDANCE_LICENSE_SCOPE.json",
+      "MANIFEST.json",
+      "QUICKSTART.md",
+      "SOURCE_MAP.json",
+      "START_HERE.md",
+      "tools/startup_check.py",
+      "tools/verify_package.py"
+    ],
+    "Documentation": [
+      "CHECKSUMS.sha256",
+      "GUIDANCE_LICENSE_SCOPE.json",
+      "MANIFEST.json",
+      "RELEASE_NOTES.md",
+      "RESEARCH_GUIDE.md",
+      "SOURCE_MAP.json",
+      "START_HERE.md"
+    ],
+    "Study": [
+      "CHECKSUMS.sha256",
+      "GUIDANCE_LICENSE_SCOPE.json",
+      "MANIFEST.json",
+      "REPORT_LICENSE_SCOPE.json",
+      "SOURCE_MAP.json",
+      "START_HERE.md",
+      "provenance/EDITION_CHANGES.md"
+    ]
+  },
+  "prior_sealed_evidence_preserved": true,
+  "review_boundary": "Independent byte/inventory/scope/provenance/summary audit. Genuine numerical startup is evidenced by the actual final invocation and receipt; this audit does not rerun training, scoring, physical QPU jobs or report rendering."
+}

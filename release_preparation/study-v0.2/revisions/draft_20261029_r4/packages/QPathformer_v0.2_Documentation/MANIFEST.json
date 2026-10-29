@@ -1,0 +1,95 @@
+{
+  "schema": "qpath-package-manifest-1",
+  "package": "QPathformer_v0.2_Documentation",
+  "files": [
+    {
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "bytes": 2728,
+      "sha256": "0a7741c7f50de1344da06edbc53dba9e1441a80983df4ed00f55bbb668726a99"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 18615,
+      "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+    },
+    {
+      "path": "LICENSES/QPATHFORMER-PLATFORM-1.0.txt",
+      "bytes": 1461,
+      "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+    },
+    {
+      "path": "LICENSE_ADOPTION.json",
+      "bytes": 1621,
+      "sha256": "b127b4d330b1e024db98fed3a1083c42cfef9b2ee4f16e5d1ef4b33a72932266"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 1946,
+      "sha256": "605a76b4470bcfd6b9955ac1a6710c765cac586cf4fc5509ccb411bea0b447f6"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "bytes": 1091,
+      "sha256": "d8109a57fb6c2eb16c58ab180249cf6ab314e5830535d3a757207ba76178d34d"
+    },
+    {
+      "path": "RESEARCH_GUIDE.md",
+      "bytes": 3363,
+      "sha256": "8d19329018ff23a1eb747926ec5a34609e7505464a5134ef92e7f5bc9dd30362"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 1568,
+      "sha256": "9b8eeae8f3da20b4edb789786779f21091b31accb0edeb6806a5ed3916e7b34b"
+    },
+    {
+      "path": "SOURCE_MAP.json",
+      "bytes": 10123,
+      "sha256": "0771ac2e3d8e492e0b6447a5289aa92355c1a1e32875329875116a852b6119bc"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 697,
+      "sha256": "2b1e611a5f831fc0ab8602f89470c2a489c16f2e923fbc3a718c20aea9d6be64"
+    },
+    {
+      "path": "VERIFY.md",
+      "bytes": 905,
+      "sha256": "51cd4e600402c26995c2d57a5762d13313f9ba2d961839e9f9ade4506f1f24cb"
+    },
+    {
+      "path": "historical/REPRODUCE_INTERNAL.txt",
+      "bytes": 15287,
+      "sha256": "57fbfa664a8c47feace706f72af3d119255ac70ba95254faecb8c1f36606fb46"
+    },
+    {
+      "path": "historical/RUN_STATUS.txt",
+      "bytes": 1301,
+      "sha256": "981dd4347fb1254bdfcf88970754e6cafb1c080f863a70d482ec375c8e670c3e"
+    },
+    {
+      "path": "historical/classical/data_work/DATA_PROTOCOL.json",
+      "bytes": 1366,
+      "sha256": "c39861c7e9f661ec1e71f700a5e10e7aacb068b87cd644db910c0f567b2c00a4"
+    },
+    {
+      "path": "historical/governance/ANALYSIS_PROTOCOL.json",
+      "bytes": 5611,
+      "sha256": "9b409934d07e8eb7a6380a02fe93780cab3323401d595c846da1b2ce7ba1e414"
+    },
+    {
+      "path": "historical/quantum/PROPOSED_PROTOCOL.json",
+      "bytes": 9767,
+      "sha256": "6638b90e5cfe1c26b5faa7751659263c14c67ca5e314712798ca0d03c95b2ede"
+    },
+    {
+      "path": "historical/quantum/READINESS_PROTOCOL.json",
+      "bytes": 2099,
+      "sha256": "abbd9f58aaae80416e0ac349ce8b1bd4f4ccfab915f1baa5cb332b1ca6ee4a6f"
+    }
+  ],
+  "excluded": [
+    "MANIFEST.json",
+    "CHECKSUMS.sha256"
+  ]
+}

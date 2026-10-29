@@ -1,0 +1,90 @@
+{
+  "schema": "qpath-package-manifest-1",
+  "package": "QPathformer_v0.2_Study",
+  "files": [
+    {
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "bytes": 1351,
+      "sha256": "d0de2176969a87465bf2bf7324dc2d940c97f709b7a83dba0596cdea1481f4b5"
+    },
+    {
+      "path": "INHERITED_REPORT_EXPRESSION.json",
+      "bytes": 376,
+      "sha256": "c03840284bb4d0168e8938e43bb85d8df60745f5974f44768d2b2361601a30b6"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 18615,
+      "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+    },
+    {
+      "path": "LICENSES/QPATHFORMER-PLATFORM-1.0.txt",
+      "bytes": 1461,
+      "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+    },
+    {
+      "path": "LICENSE_ADOPTION.json",
+      "bytes": 1621,
+      "sha256": "b127b4d330b1e024db98fed3a1083c42cfef9b2ee4f16e5d1ef4b33a72932266"
+    },
+    {
+      "path": "REPORT_LICENSE_SCOPE.json",
+      "bytes": 1932,
+      "sha256": "8102d822b79f9c976c4aeaaa4e34705d87933aabf267cc6a2a262d7030a6b909"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 1560,
+      "sha256": "b867f8beaca5a4fd06d58c6781c96c8957bceb05f409378695be67d222817597"
+    },
+    {
+      "path": "SOURCE_MAP.json",
+      "bytes": 9962,
+      "sha256": "6827ae4994373e13aef812fedbf2e3b8816620ae2d39a217ec66a1dd5b864ab7"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 1824,
+      "sha256": "a45ecfd782c1f7dc6fe4cf9591b9048bb2a3346e1e384db3b09a7f6f71a05446"
+    },
+    {
+      "path": "VERIFY.md",
+      "bytes": 889,
+      "sha256": "89c768b60ef4c4e4ebe7af42cc4bd3dfd837c2b5e1cc66eece03ec0dcb30ce18"
+    },
+    {
+      "path": "provenance/EDITION_CHANGES.json",
+      "bytes": 1725,
+      "sha256": "140a4fd06e39c2101e0f829a491e2010bcc6f4bd37658b7cd614ef710193d4bb"
+    },
+    {
+      "path": "provenance/EDITION_CHANGES.md",
+      "bytes": 881,
+      "sha256": "0f4b31147f2ee58eb86e98a17b582a2bb2e47706cf1b5cc65b1daaba3bca8a89"
+    },
+    {
+      "path": "provenance/REPORT_REVIEW.json",
+      "bytes": 2306,
+      "sha256": "246b6f3a0b1fd6bc3af6923e967a92ece7915c7ef14633a358c7d9d22aaa1e7b"
+    },
+    {
+      "path": "provenance/SOURCE_STRUCTURAL_AUDIT.json",
+      "bytes": 1725,
+      "sha256": "140a4fd06e39c2101e0f829a491e2010bcc6f4bd37658b7cd614ef710193d4bb"
+    },
+    {
+      "path": "reports/QPathformer_v0.2_Report.docx",
+      "bytes": 582429,
+      "sha256": "bdc94fdbf1de187ac54be14e4ee61da5959e7438220648764dfa6fbad6158b17"
+    },
+    {
+      "path": "reports/QPathformer_v0.2_Report.pdf",
+      "bytes": 935726,
+      "sha256": "a50ab850d1e59509d46a65eab2167d8b2617e81d4fc22f78eb487a9607e49c60"
+    }
+  ],
+  "excluded": [
+    "MANIFEST.json",
+    "CHECKSUMS.sha256"
+  ]
+}

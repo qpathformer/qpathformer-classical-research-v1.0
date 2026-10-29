@@ -1,0 +1,9 @@
+# Study v0.2 release notes
+
+This edition packages the completed historical improvement study and baseline comparison study into Study, Documentation and Code downloads. The report body, figures, tables and original scientific conclusions are preserved. A dated edition note, author/affiliation metadata, scoped licenses, source maps and integrity inventories are added.
+
+Hash18 text macro-F1 was 97.659%, compared with 97.642% for current content routing and 97.602% for shared adapters. The primary mean gain was 0.01694 percentage points and its paired 95% interval crossed zero. In the separate circuit task, untied assigned circuits reached 81.44% macro-F1, the original shared-parameter schedule 71.83%, fixed depth four 93.32%, and the matched-information MLP129 99.04%. The primary circuit contrast was binary cross-entropy (untied assigned minus shared schedule): -0.14441, with paired seed t95 interval [-0.15434, -0.13449]; lower is better. F1 is a secondary outcome.
+
+The text result does not establish a resolved primary improvement. Giving each circuit depth its own parameter bank improved the selected comparison with the original shared-parameter schedule, while increasing allocated angles from 16 to 40. The fixed four-layer circuit and matched-information MLP129 still performed better. This comparison does not isolate a benefit caused solely by scheduling or removal of gradient interference. The text experiment used a classical GPU; the quantum circuits were simulated locally. No physical-QPU execution or quantum advantage is reported. Historical path bindings and exact NumPy replay guards limit relocation. The text and circuit experiments are separate models on separate tasks; their F1 values are not a cross-task ranking or evidence of an integrated quantum text model.
+
+This packaging adds no experiment results and does not extend the study to unfinished runs. Repository edition v1.0 is separate from study v0.2.

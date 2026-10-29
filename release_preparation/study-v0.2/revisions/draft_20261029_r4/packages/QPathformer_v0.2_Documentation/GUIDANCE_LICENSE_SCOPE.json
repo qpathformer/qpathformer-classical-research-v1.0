@@ -1,0 +1,79 @@
+{
+  "schema": "qpath-guidance-license-scope-1",
+  "status": "ADOPTED",
+  "license": "CC-BY-4.0",
+  "licensor": "Anthony Siljeg",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "adoption_record": "LICENSE_ADOPTION.json",
+  "scope": "Controlled original explanatory prose in the exact listed file instances. This is not a grant for external works quoted or referenced, datasets, software or surrounding factual/operational records as whole packages.",
+  "files": [
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 1946,
+      "sha256": "605a76b4470bcfd6b9955ac1a6710c765cac586cf4fc5509ccb411bea0b447f6"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "bytes": 1091,
+      "sha256": "d8109a57fb6c2eb16c58ab180249cf6ab314e5830535d3a757207ba76178d34d"
+    },
+    {
+      "path": "RESEARCH_GUIDE.md",
+      "bytes": 3363,
+      "sha256": "8d19329018ff23a1eb747926ec5a34609e7505464a5134ef92e7f5bc9dd30362"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 1568,
+      "sha256": "9b8eeae8f3da20b4edb789786779f21091b31accb0edeb6806a5ed3916e7b34b"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 697,
+      "sha256": "2b1e611a5f831fc0ab8602f89470c2a489c16f2e923fbc3a718c20aea9d6be64"
+    },
+    {
+      "path": "VERIFY.md",
+      "bytes": 905,
+      "sha256": "51cd4e600402c26995c2d57a5762d13313f9ba2d961839e9f9ade4506f1f24cb"
+    },
+    {
+      "path": "historical/REPRODUCE_INTERNAL.txt",
+      "bytes": 15287,
+      "sha256": "57fbfa664a8c47feace706f72af3d119255ac70ba95254faecb8c1f36606fb46"
+    },
+    {
+      "path": "historical/RUN_STATUS.txt",
+      "bytes": 1301,
+      "sha256": "981dd4347fb1254bdfcf88970754e6cafb1c080f863a70d482ec375c8e670c3e"
+    },
+    {
+      "path": "historical/classical/data_work/DATA_PROTOCOL.json",
+      "bytes": 1366,
+      "sha256": "c39861c7e9f661ec1e71f700a5e10e7aacb068b87cd644db910c0f567b2c00a4"
+    },
+    {
+      "path": "historical/governance/ANALYSIS_PROTOCOL.json",
+      "bytes": 5611,
+      "sha256": "9b409934d07e8eb7a6380a02fe93780cab3323401d595c846da1b2ce7ba1e414"
+    },
+    {
+      "path": "historical/quantum/PROPOSED_PROTOCOL.json",
+      "bytes": 9767,
+      "sha256": "6638b90e5cfe1c26b5faa7751659263c14c67ca5e314712798ca0d03c95b2ede"
+    },
+    {
+      "path": "historical/quantum/READINESS_PROTOCOL.json",
+      "bytes": 2099,
+      "sha256": "abbd9f58aaae80416e0ac349ce8b1bd4f4ccfab915f1baa5cb332b1ca6ee4a6f"
+    }
+  ],
+  "exclusions": [
+    "Third-party expression",
+    "Source code",
+    "Datasets",
+    "Model artifacts",
+    "Architecture documents",
+    "Full archives"
+  ]
+}

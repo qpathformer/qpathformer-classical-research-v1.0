@@ -1,0 +1,271 @@
+Q PATHFORMER v0.2 INTERNAL REPRODUCTION GUIDE
+Final scientific/report snapshot: all registered experiments, independent analyses,
+baseline preservation and 15-page Word visual QA are complete. Actual package
+verification is recorded separately in the two root-level verification JSON files.
+
+1. Preserve the evidence
+
+Use this package for internal review only. Do not train, recreate data, issue
+another release or repeat a completed evaluation inside the preserved study.
+Keep failed attempts, access events, original outputs and notices. A future
+reproduction needs a separate writable copy and new output names. A new model
+decision also needs newly registered data/holdout discipline; reproducing an
+old result does not make its test set fresh again.
+
+After root creates the final DELIVERY_MANIFEST.json, this PowerShell command
+checks every registered file's size and SHA256 without changing it:
+
+  $QpfStudy = 'C:\Q2\Improvement_Study_v0.2'
+  $QpfPwsh = 'C:\Program Files\PowerShell\7\pwsh.exe'
+  & $QpfPwsh -NoProfile -File (Join-Path $QpfStudy 'governance\Verify_Delivery.ps1') -PackageRoot $QpfStudy
+
+The hardened verifier requires PowerShell 7.5 or later for -DateKind String and
+System.Text.Json; the explicit executable above was tested as version 7.6.6.
+Use a quiescent package with Word closed so transient owner files cannot enter
+or change the inventory. It prints JSON and returns a failing exit code on
+mismatch. It hashes payload bytes, including any sealed files in
+the inventory, without parsing records or running a model. It rejects missing
+or unregistered files, empty/malformed manifests and reparse points. Only the
+manifest and explicitly named verification-result JSON files are excluded.
+It is not a digital signature or an atomic filesystem snapshot. Before delivery,
+the same command can target a study copy only if its final manifest already
+exists. Do not infer a PASS from this guide; retain the actual verifier output
+and manifest identity.
+
+2. Evidence index
+
+governance/
+  ANALYSIS_PROTOCOL.json: registered contrasts, uncertainty and release rules.
+  HOST_ENVIRONMENT.json: CPU, memory, GPU, driver and Windows inventory.
+  baseline_before.json and baseline_after.json: v0.1 preservation.
+  Approval/release source and review records: exact study decisions and hashes.
+  CONTINUATION_STATUS.json / RUN_STATUS_CURRENT.txt: operational state, not
+  substitutes for completed endpoint and analysis artifacts.
+
+quantum/
+  qstudy.py, vendor/qpath/, tests/: training, independent matrices and tests.
+  data/DATA_SEAL.json: synthetic generation seeds, populations and array hashes.
+  STAGE_A_FREEZE.json, STAGE_A_SELECTION.json, STAGE_B_FREEZE.json: decisions.
+  stage_A/ and stage_B/: seed/method configs, ledgers, selected and last
+  checkpoints, record orders, gradients, environment/work counters and logs.
+  CONFIRMATION_ENDPOINT_LOCK.json / EVALUATION_RELEASE.json: one-time gate.
+  confirmation_evaluation/: access event, 40 prediction CSVs, binomial count
+  arrays, bootstrap draws, summary and manifest.
+  local_readiness_results/: QASM, validation fixtures, Aer counts and hashes.
+  report_data/, figures_presentation_v02/: report tables and verified figures.
+  RESOURCE_DEFINITIONS.json: exact training, timing and shot-count boundaries.
+
+classical/
+  study.py, engine.py, qpath/, tests/: frozen text training/evaluation sources.
+  data_work/: preparation/audit source, DATA_PROTOCOL.json and DATA_AUDIT.json.
+  data/manifest.json, tokenizer provenance and TEST_SEAL.json: frozen inputs.
+  data/source/: author archive, source files and original notices.
+  protocol_stage_*_frozen.json / selection_frozen.json: registered decisions.
+  results/stage_*/seed_*/: common warmup, arm checkpoints, commits, status,
+  ledgers, validation snapshots, routing evidence and any incidents.
+  execution_segments.jsonl: physical execution wall time, separate from
+  repeated per-arm preparation/warmup charges.
+  evaluation_release.json / confirmation_evaluation/: all 15 endpoints evaluated
+  after complete Stage B and root release; independent replay PASS.
+
+analysis/quantum_independent/ and analysis/classical_independent/
+  Independent source/output reviews, audit/replay scripts and analysis results.
+  Inspect PASS status and bound source/release hashes, not filenames alone.
+  Quantum AUDIT_EXECUTION_NOTE.json retains the NumPy-version audit issue.
+
+reproduction_inputs/SOURCE_COPY_MANIFEST.json
+  Verified copies of original AG News train/test CSVs and notices used for
+  exact-overlap exclusion, plus the unchanged Word report template. The
+  manifest maps original absolute paths to preserved copies and hashes.
+  These copies do not rewrite frozen paths or prove relocated reproduction.
+
+report_work/
+  artifact.md / template_inventory.json: retained-template contract.
+  Content blocks, assembled report_content.json, build_report.py and
+  figure sources: document inputs and construction. Final DOCX and QA records
+  are final; FINAL_VISUAL_QA.json binds the 15-page report hash.
+  docs/ holds the identical final report copy for convenient review.
+  DOCS_ENVIRONMENT.json, PLOT_ENVIRONMENT.json and
+  NATIVE_AUTHORING_ENVIRONMENT.json: Python/package, Word, Node, Poppler,
+  renderer and font provenance. Installed-file inventories are not complete
+  redistributable runtimes or proof of a clean-room installation.
+
+3. Use the correct runtime
+
+The recorded host used these existing interpreters; substitute only a verified
+matching environment in a future copy. No installation is performed by this
+guide. Observed locks include unrelated packages and are not all minimal.
+
+  $QpfQuantum = 'C:\Q2\Implementation_v0.1\.venv\Scripts\python.exe'
+  $QpfCuda = 'C:\Anthony Siljeg\Q2_full_benchmark_v01\classical\.venv_cuda\Scripts\python.exe'
+  $QpfPlot = 'C:\Anthony Siljeg\Q2_full_benchmark_v01\report_work\.venv_plot\Scripts\python.exe'
+  $QpfDocs = 'C:\Users\Alnotrea\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
+
+Quantum: Python 3.12.14, NumPy 2.5.4; local readiness additionally used SciPy
+1.18.1, Qiskit 2.6.0 and Aer 0.17.2. See quantum/requirements-cpu-lock.txt,
+requirements-training-minimal.txt, requirements-quantum-minimal.txt,
+DEPENDENCY_AUDIT.json and SETUP_QUANTUM.txt. The minimal dependency lists were
+checked against installed metadata, not a new clean-room installation.
+
+Exact seeded binomial count replay REQUIRES the recorded NumPy 2.5.4. The
+separate plotting environment has NumPy 2.3.5 and Matplotlib 3.11.2; it is
+suitable for static summary figures, not exact quantum RNG replay. The first
+independent audit attempt with NumPy 2.3.5 is preserved; the recorded quantum
+environment reproduced the saved counts exactly without changing study data.
+
+Text: use classical/requirements-cuda-lock.txt and per-run metadata; the
+recorded runtime used PyTorch 2.11.0+cu128 on the RTX 5090 Laptop GPU. Plot/docs
+locks are report_work/requirements-plot-observed.txt and
+requirements-docs-observed.txt. Matching seeds and packages does not guarantee
+identical floating-point results or timing on a different GPU/driver/host.
+Do not use Python -O: some historical structural/approval checks use assert.
+
+4. Relocation and fresh-copy rules
+
+Most experiment paths resolve from the source file location, but exceptions
+matter. Text data preparation/auditing reference the original AG News path;
+the report builder references the original template; native rendering uses
+recorded absolute runtime/renderer paths. Text release output_directorynew is
+absolute. Copying a package does not redirect that release to the copy.
+
+Use the original execution tree for an authorized replay, or a separately
+reviewed path mapping/versioned adapter. Preserve original source and release
+bytes; changing them invalidates their hashes. Approval helpers and several
+independent audits pin this study's exact hashes and are not generic new-study
+registrars. A newly generated data manifest may contain different timestamps
+and provenance even when its arrays match. Re-register those identities and
+review gates in a new study rather than copying an old approval into it.
+
+No clean-room installation or relocated full replay has been demonstrated.
+The commands below are supported entry points checked statically, not a batch
+to paste into this live/preserved workspace. Set $QpfStudy to the reviewed NEW
+study copy before using them. Required outputs must be absent; do not delete
+old outputs to bypass guards. No download, install or hardware step is needed
+to inspect existing evidence.
+
+5. Recorded quantum workflow in a new registered study
+
+From the new quantum directory, after the data/source protocol is reviewed:
+
+  & $QpfQuantum -m unittest discover -s tests -v
+  & $QpfQuantum prepare_study.py
+
+prepare_study.py is only for a new absent data/ directory. It generates sealed
+partitions; it is not needed when inspecting preserved inputs. After separate
+root approval of the fresh Stage A freeze:
+
+  & $QpfQuantum launch_stage.py --stage A
+  & $QpfQuantum watch_stage_a.py
+  & $QpfQuantum propose_stage_b.py
+
+Run one watcher only. It performs the endpoint audit and selection after all
+registered runs finish; do not also invoke those child operations manually.
+After separate approval of the conditional Stage B freeze:
+
+  & $QpfQuantum launch_stage.py --stage B
+  & $QpfQuantum watch_stage_b.py
+
+That watcher performs evaluate_confirmation.py --prepare and local_readiness.py
+using train/validation evidence only. After root reviews the actual completed
+lock/readiness and issues a new one-time release:
+
+  & $QpfQuantum evaluate_confirmation.py --evaluate
+  & $QpfQuantum summarize_quantum.py
+
+These commands intentionally refuse existing outcome folders. Quantum training
+checkpoints omit sampler RNG state and are not resumable; failures need a
+preserved incident and reviewed fresh retry, never silent replacement.
+
+6. Recorded text workflow in a new registered study
+
+Use preserved source archive/notices, and review the original AG News path
+mapping first. Data preparation/audit entry points are data_work/prepare_dbpedia.py
+and data_work/audit_data.py (no CLI options); they are unnecessary for ordinary
+evidence inspection. They reconstruct or inspect source records including
+declared test sampling, so they are not pre-release model-evaluation commands.
+
+From the new classical directory, after data/source review:
+
+  & $QpfCuda -m unittest discover -s tests -v
+  & $QpfCuda study.py preflight
+  & $QpfCuda study.py freeze --stage stage_a
+  & $QpfCuda study.py train --stage stage_a
+  & $QpfCuda verify_training.py stage_a
+  & $QpfCuda study.py select
+
+Selection follows the author's structural Stage A verification. Next run the
+matching independent audit entry point,
+analysis/classical_independent/audit_stage_a.py, with no options; it has exact
+study bindings and one-time output guards. It reads selection_frozen.json and
+independently reconstructs selection. Root must review the registered approval,
+selection and independent Stage A audit before freezing confirmation:
+
+  & $QpfCuda study.py freeze --stage stage_b
+
+After separate root approval of the actual Stage B freeze:
+
+  & $QpfCuda study.py train --stage stage_b
+  & $QpfCuda verify_training.py stage_b
+
+Then run the reviewed audit_stage_b.py only after all 15 registered runs/endpoints
+across three arms, five warmups and execution segments have finished. Root
+reviews both completion audits and may
+manually invoke the separately bound governance/release_classical_test.py
+--root-reviewed. It creates a release only; it does not start evaluation.
+
+  & $QpfCuda evaluate_sealed.py --release evaluation_release.json
+
+Never use --seeds to present a partial subset as the full registered study.
+Text checkpoints preserve optimizer/RNG/committed state and incidents; follow
+the runner's documented recovery policy rather than manually replacing files.
+
+7. Independent review and figures without repeating official evaluation
+
+After all original text evaluations are complete and root release is valid,
+the supported independent replay command is:
+
+  & $QpfCuda "$QpfStudy\analysis\classical_independent\replay_and_analyse.py" --release "$QpfStudy\classical\evaluation_release.json" --output "$QpfStudy\analysis\classical_independent\results_recheck_01"
+
+The output directory must be new. This command reads released test data and
+runs GPU inference, so do not run it during official GPU training. It is an
+independent replay, not another official evaluation or model-selection step.
+The same script supports --self-test for its synthetic mathematical fixtures.
+
+For quantum, audit_outputs.py has NO output flag and writes beside itself.
+In a reviewed copy, place the unchanged script in a NEW immediate child of
+analysis/ (for example analysis/quantum_recheck_01/) and invoke:
+
+  & $QpfQuantum "$QpfStudy\analysis\quantum_recheck_01\audit_outputs.py"
+
+Keeping this directory depth preserves its ROOT calculation. Retain the
+original audit directory and source hash. The script requires the original
+released evidence identities, reads released labels/probabilities, reproduces
+counts/statistics, and never runs a model. Do not run it before release or use
+the plot interpreter for it.
+
+Static figure commands use completed verified summaries and NEW destinations:
+
+  & $QpfPlot "$QpfStudy\quantum\plot_confirmation.py" --output "$QpfStudy\quantum\figures_recheck_01"
+  & $QpfPlot "$QpfStudy\analysis\classical_independent\make_report_figure.py" --summary "$QpfStudy\analysis\classical_independent\results_recheck_01\summary.json" --output-prefix "$QpfStudy\report_work\figures\classical_recheck_01"
+
+The original quantum plotter can emit missing Arial footer symbols; the
+separately preserved render_figures_presentation_v02.py replaces those symbols
+with plain words and writes its own fixed new folder. Use it only where that
+output is absent. Do not edit the frozen plotter to repair presentation.
+
+8. Word report reproduction
+
+Report authoring is separate from model reproduction. Use the retained template
+copy and artifact.md, a reviewed final report_content.json, the documented
+bundled Python/Node and native Word environment. Root owns the required one-time
+document-operation marker before the first DOCX authoring command. The exact
+builder entry point is build_report.py with no CLI options; export_word.ps1
+takes -InputDocx and -OutputPdf; render_report.py has no CLI options and expects
+its fixed report_work/qa/report.pdf and report DOCX paths. Run only in a new
+reviewed authoring copy, because these tools have fixed output locations.
+
+Native Word export and packaged rasterization must be followed by visual
+inspection of EVERY page. Environment inventories and successful code execution
+alone do not verify layout. QA intermediates are not substitutes for the final
+Word document or its delivery manifest. FINAL_VISUAL_QA.json and baseline_after.json record completed checks.
+Actual delivery-verification facts are in the final package root records.

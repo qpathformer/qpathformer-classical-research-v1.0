@@ -1,0 +1,54 @@
+{
+  "study": "QPATH quantum v0.2 local circuit readiness",
+  "registered_utc": "2026-10-18T11:14:22.486704+00:00",
+  "status": "REGISTERED BEFORE CONFIRMATION OUTCOMES",
+  "source_hashes": {
+    "local_readiness.py": "85c20c2001ac63030ee038f83c7c827acc38493c2cd9f472de61280f33cd66cb",
+    "ibm_local.py": "eb58b72c8f615dacf1f3681f9a7287bb5da97b59ff4833c198ecc9a8a369bb0d"
+  },
+  "vendor_builder": "Exact read-only copy of v0.1 ibm.py; logical q0 first, physical endianness and input/output layouts resolved",
+  "checkpoint_scope": "All five validation-selected checkpoints of the single Stage A selected mechanism after all Stage B endpoints complete",
+  "fixture": "Minimum record ID within each C1..C8 among confirmation validation rows; never use labels or predictions for selection",
+  "compilation": {
+    "basis": [
+      "ry",
+      "rz",
+      "cx"
+    ],
+    "optimization_level": 1,
+    "seed_transpiler": 331,
+    "initial_layout": [
+      0,
+      1
+    ],
+    "hardware_backend": null
+  },
+  "exact_checks": "Independent reference matrices vs production NumPy, Qiskit source and compiled operators; Aer exact marginal; tolerance1e-10",
+  "sampling": {
+    "budgets": [
+      1024,
+      4096
+    ],
+    "shot_seeds": [
+      701,
+      702,
+      703,
+      704,
+      705
+    ],
+    "check": "Union-bound Hoeffding family alpha0.01 across40circuits*2budgets*5seeds; prespecified diagnostics, no exclusion"
+  },
+  "exports": [
+    "QASM3 compiled measured circuits",
+    "fixture IDs and features",
+    "counts and seeds",
+    "mappings and resources",
+    "source/checkpoint/data hashes",
+    "exact package versions"
+  ],
+  "physical_shots": 0,
+  "hardware_jobs": 0,
+  "test_population_read": false,
+  "distinction": "Actual local Aer fixture executions are distinct from full-test binomial sampling from exact probabilities; neither is hardware evidence",
+  "engineering_preflight": "Three initialized candidate models on eight engineering validation fixtures each; unrelated data/seed901; no official outcome or ranking used"
+}

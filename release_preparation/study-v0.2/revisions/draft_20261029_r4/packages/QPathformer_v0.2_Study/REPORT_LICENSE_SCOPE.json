@@ -1,0 +1,56 @@
+{
+  "schema": "qpath-report-license-scope-1",
+  "status": "ADOPTED",
+  "license": "CC-BY-4.0",
+  "licensor": "Anthony Siljeg",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "adoption_record": "LICENSE_ADOPTION.json",
+  "scope": "Controlled original report prose, table presentation and original report figures only; existing inherited grants remain applicable.",
+  "files": [
+    {
+      "path": "reports/QPathformer_v0.2_Report.docx",
+      "bytes": 582429,
+      "sha256": "bdc94fdbf1de187ac54be14e4ee61da5959e7438220648764dfa6fbad6158b17"
+    },
+    {
+      "path": "reports/QPathformer_v0.2_Report.pdf",
+      "bytes": 935726,
+      "sha256": "a50ab850d1e59509d46a65eab2167d8b2617e81d4fc22f78eb487a9607e49c60"
+    }
+  ],
+  "embedded_figures": [
+    {
+      "path": "word/media/image1.png",
+      "bytes": 145170,
+      "sha256": "750f7ae07c1971c976df3d71622ed4a133a4ed9809fb7197405bce2bdca91b41"
+    },
+    {
+      "path": "word/media/image2.png",
+      "bytes": 246568,
+      "sha256": "99715525daebd339152b89dd971440a9656b154eaa0ea9d71988c21ab5eb63d9"
+    },
+    {
+      "path": "word/media/image3.png",
+      "bytes": 110696,
+      "sha256": "68dd0815da4676535a41d041b95570829a9641a2ff733671ef06acb402efca22"
+    },
+    {
+      "path": "word/media/image4.png",
+      "bytes": 66015,
+      "sha256": "140c40110fdc03b2c93a891c833b5b04a24aaafbb5ba79c54ab3b20e2e81b933"
+    }
+  ],
+  "source_report": {
+    "path": "C:\\Q2\\Improvement_Study_v0.2\\docs\\QPATH-RPT-003_Improvement_Study_and_Baseline_Comparison_v0.2.docx",
+    "bytes": 581560,
+    "sha256": "fb6a575707c3e2952d418bf20d3b3fcfff1929edf05c4a9f1a1d53b94abb9172"
+  },
+  "exclusions": [
+    "Third-party expression",
+    "Datasets",
+    "Code",
+    "Model artifacts",
+    "Architecture documents",
+    "Complete archives"
+  ]
+}

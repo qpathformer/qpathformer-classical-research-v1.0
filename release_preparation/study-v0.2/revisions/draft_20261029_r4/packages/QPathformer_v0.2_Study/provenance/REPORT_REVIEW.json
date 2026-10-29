@@ -1,0 +1,57 @@
+{
+  "schema": "qpath-report-review-1",
+  "status": "PASS_ALL_PAGES_VISUALLY_REVIEWED",
+  "reviewed_at_utc": "2026-10-29T09:05:50.439848+00:00",
+  "study_version": "v0.2",
+  "report_files": [
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r2\\report\\files\\QPathformer_v0.2_Report.docx",
+      "bytes": 582429,
+      "sha256": "bdc94fdbf1de187ac54be14e4ee61da5959e7438220648764dfa6fbad6158b17"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r2\\report\\files\\QPathformer_v0.2_Report.pdf",
+      "bytes": 935726,
+      "sha256": "a50ab850d1e59509d46a65eab2167d8b2617e81d4fc22f78eb487a9607e49c60"
+    }
+  ],
+  "pages": 16,
+  "original_pages": 15,
+  "visual_review": {
+    "method": "Every final page PNG opened with view_image at full rendered page resolution, including tables, figures, footers and appended note. Not a contact-sheet or text-only check.",
+    "pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "outcome": "Readable text and figures; no clipped content, broken glyphs, overlapping tables or stray blank pages. Historical layout and internal labels retained.",
+    "corrections": "None required"
+  },
+  "preservation": {
+    "original_body_elements": 133,
+    "original_body_canonical_xml_unchanged": true,
+    "media_count": 4,
+    "media_byte_identical": true,
+    "scientific_content_edits": 0
+  },
+  "render_record": {
+    "path": "RENDER_RECORD.json",
+    "bytes": 4721,
+    "sha256": "afe7327db8fa07dedb3a5bcec50873df5d5582935601eb9548ab66e6064151ef"
+  },
+  "renderer_fallback": "Direct render_docx attempt found bundled LibreOffice unavailable (soffice.exe missing). Native Word read-only export supplied the exact final PDF to the standard render_docx rasterizer. No system LibreOffice used.",
+  "disclosure_review": "Report preserves historical internal labels, environment descriptions, evidence paths and recommendations. No scientific content redacted. No credentials or personal contact details identified in the report visual review. Public-disclosure review remains separate from this private draft preparation."
+}

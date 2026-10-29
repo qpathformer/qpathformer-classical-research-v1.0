@@ -1,0 +1,473 @@
+{
+  "schema": "qpath-dependency-inventory-1",
+  "study_version": "v0.2",
+  "direct_import_inventory": {
+    "__future__": [
+      "payload/study/analysis/classical_independent/replay_and_analyse.py",
+      "payload/study/classical/data_work/prepare_dbpedia.py",
+      "payload/study/classical/engine.py",
+      "payload/study/classical/evaluate_sealed.py",
+      "payload/study/classical/qpath/classical.py",
+      "payload/study/classical/qpath/policies.py",
+      "payload/study/classical/study.py",
+      "payload/study/quantum/ibm_local.py",
+      "payload/study/quantum/qstudy.py",
+      "payload/study/quantum/vendor/qpath/data.py",
+      "payload/study/quantum/vendor/qpath/quantum.py",
+      "payload/study/quantum/vendor/qpath/reference.py"
+    ],
+    "argparse": [
+      "payload/study/analysis/classical_independent/replay_and_analyse.py",
+      "payload/study/classical/engine.py",
+      "payload/study/classical/evaluate_sealed.py",
+      "payload/study/classical/study.py",
+      "payload/study/classical/verify_training.py",
+      "payload/study/governance/release_classical_test.py",
+      "payload/study/governance/release_quantum_test.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/launch_stage.py",
+      "payload/study/quantum/local_readiness.py",
+      "payload/study/quantum/preflight.py",
+      "payload/study/quantum/qstudy.py",
+      "payload/study/quantum/select_candidate.py",
+      "tools/startup_check.py"
+    ],
+    "ast": [
+      "tools/startup_check.py"
+    ],
+    "collections": [
+      "payload/study/analysis/classical_independent/audit_stage_a.py",
+      "payload/study/analysis/classical_independent/audit_stage_b.py",
+      "payload/study/analysis/classical_independent/replay_and_analyse.py",
+      "payload/study/classical/data_work/audit_data.py",
+      "payload/study/classical/data_work/prepare_dbpedia.py"
+    ],
+    "contextlib": [
+      "payload/study/classical/tests/test_v02.py"
+    ],
+    "copy": [
+      "payload/study/classical/engine.py",
+      "payload/study/classical/qpath/classical.py",
+      "payload/study/classical/qpath/policies.py",
+      "payload/study/classical/study.py",
+      "payload/study/classical/tests/test_classical.py",
+      "payload/study/classical/tests/test_policies.py",
+      "payload/study/classical/tests/test_v02.py",
+      "payload/study/governance/approve_classical_stage_b.py"
+    ],
+    "csv": [
+      "payload/study/analysis/classical_independent/replay_and_analyse.py",
+      "payload/study/analysis/quantum_independent/audit_outputs.py",
+      "payload/study/classical/data_work/audit_data.py",
+      "payload/study/classical/data_work/prepare_dbpedia.py",
+      "payload/study/quantum/audit_stage_a.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/local_readiness.py",
+      "payload/study/quantum/qstudy.py"
+    ],
+    "ctypes": [
+      "payload/study/classical/study.py"
+    ],
+    "dataclasses": [
+      "payload/study/classical/engine.py",
+      "payload/study/classical/qpath/classical.py",
+      "payload/study/classical/qpath/policies.py",
+      "payload/study/classical/study.py",
+      "payload/study/classical/tests/test_classical.py",
+      "payload/study/classical/tests/test_v02.py",
+      "payload/study/quantum/ibm_local.py"
+    ],
+    "datetime": [
+      "payload/study/analysis/classical_independent/audit_stage_a.py",
+      "payload/study/analysis/classical_independent/audit_stage_b.py",
+      "payload/study/analysis/classical_independent/replay_and_analyse.py",
+      "payload/study/analysis/quantum_independent/audit_outputs.py",
+      "payload/study/classical/data_work/audit_data.py",
+      "payload/study/classical/data_work/prepare_dbpedia.py",
+      "payload/study/classical/engine.py",
+      "payload/study/governance/approve_classical_stage_a.py",
+      "payload/study/governance/approve_classical_stage_b.py",
+      "payload/study/governance/approve_quantum_stage_a.py",
+      "payload/study/governance/approve_quantum_stage_b.py",
+      "payload/study/governance/release_classical_test.py",
+      "payload/study/governance/release_quantum_test.py",
+      "payload/study/quantum/qstudy.py",
+      "tools/startup_check.py"
+    ],
+    "engine": [
+      "payload/study/classical/evaluate_sealed.py",
+      "payload/study/classical/study.py",
+      "payload/study/classical/tests/test_v02.py"
+    ],
+    "evaluate_confirmation": [
+      "payload/study/quantum/audit_stage_a.py",
+      "payload/study/quantum/local_readiness.py",
+      "payload/study/quantum/tests/test_evaluation.py"
+    ],
+    "fractions": [
+      "payload/study/analysis/classical_independent/audit_stage_a.py",
+      "payload/study/analysis/classical_independent/audit_stage_b.py",
+      "payload/study/classical/qpath/policies.py"
+    ],
+    "hashlib": [
+      "payload/study/analysis/classical_independent/audit_stage_a.py",
+      "payload/study/analysis/classical_independent/audit_stage_b.py",
+      "payload/study/analysis/classical_independent/replay_and_analyse.py",
+      "payload/study/analysis/quantum_independent/audit_outputs.py",
+      "payload/study/classical/data_work/audit_data.py",
+      "payload/study/classical/data_work/prepare_dbpedia.py",
+      "payload/study/classical/engine.py",
+      "payload/study/classical/qpath/classical.py",
+      "payload/study/classical/qpath/policies.py",
+      "payload/study/classical/study.py",
+      "payload/study/classical/tests/test_classical.py",
+      "payload/study/classical/verify_training.py",
+      "payload/study/governance/approve_classical_stage_a.py",
+      "payload/study/governance/approve_classical_stage_b.py",
+      "payload/study/governance/approve_quantum_stage_a.py",
+      "payload/study/governance/approve_quantum_stage_b.py",
+      "payload/study/governance/release_classical_test.py",
+      "payload/study/governance/release_quantum_test.py",
+      "payload/study/quantum/qstudy.py",
+      "payload/study/quantum/vendor/qpath/data.py",
+      "tools/verify_package.py"
+    ],
+    "ibm_local": [
+      "payload/study/quantum/local_readiness.py"
+    ],
+    "importlib": [
+      "payload/study/classical/engine.py",
+      "payload/study/quantum/local_readiness.py"
+    ],
+    "inspect": [
+      "payload/study/classical/tests/test_classical.py"
+    ],
+    "io": [
+      "payload/study/classical/tests/test_v02.py"
+    ],
+    "json": [
+      "payload/study/analysis/classical_independent/audit_stage_a.py",
+      "payload/study/analysis/classical_independent/audit_stage_b.py",
+      "payload/study/analysis/classical_independent/replay_and_analyse.py",
+      "payload/study/analysis/quantum_independent/audit_outputs.py",
+      "payload/study/classical/data_work/audit_data.py",
+      "payload/study/classical/data_work/prepare_dbpedia.py",
+      "payload/study/classical/engine.py",
+      "payload/study/classical/evaluate_sealed.py",
+      "payload/study/classical/qpath/classical.py",
+      "payload/study/classical/study.py",
+      "payload/study/classical/tests/test_classical.py",
+      "payload/study/classical/tests/test_v02.py",
+      "payload/study/classical/verify_training.py",
+      "payload/study/governance/approve_classical_stage_a.py",
+      "payload/study/governance/approve_classical_stage_b.py",
+      "payload/study/governance/approve_quantum_stage_a.py",
+      "payload/study/governance/approve_quantum_stage_b.py",
+      "payload/study/governance/release_classical_test.py",
+      "payload/study/governance/release_quantum_test.py",
+      "payload/study/quantum/audit_stage_a.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/preflight.py",
+      "payload/study/quantum/prepare_study.py",
+      "payload/study/quantum/qstudy.py",
+      "payload/study/quantum/watch_stage_a.py",
+      "payload/study/quantum/watch_stage_b.py",
+      "tools/startup_check.py",
+      "tools/verify_package.py"
+    ],
+    "math": [
+      "payload/study/analysis/classical_independent/audit_stage_a.py",
+      "payload/study/analysis/classical_independent/audit_stage_b.py",
+      "payload/study/analysis/classical_independent/replay_and_analyse.py",
+      "payload/study/analysis/quantum_independent/audit_outputs.py",
+      "payload/study/classical/qpath/policies.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/ibm_local.py",
+      "payload/study/quantum/local_readiness.py",
+      "payload/study/quantum/qstudy.py",
+      "payload/study/quantum/tests/test_evaluation.py"
+    ],
+    "numpy": [
+      "payload/study/analysis/classical_independent/audit_stage_a.py",
+      "payload/study/analysis/classical_independent/audit_stage_b.py",
+      "payload/study/analysis/classical_independent/replay_and_analyse.py",
+      "payload/study/analysis/quantum_independent/audit_outputs.py",
+      "payload/study/classical/data_work/audit_data.py",
+      "payload/study/classical/data_work/prepare_dbpedia.py",
+      "payload/study/classical/engine.py",
+      "payload/study/classical/evaluate_sealed.py",
+      "payload/study/classical/qpath/classical.py",
+      "payload/study/classical/study.py",
+      "payload/study/classical/tests/test_v02.py",
+      "payload/study/quantum/audit_stage_a.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/ibm_local.py",
+      "payload/study/quantum/local_readiness.py",
+      "payload/study/quantum/prepare_study.py",
+      "payload/study/quantum/qstudy.py",
+      "payload/study/quantum/tests/test_evaluation.py",
+      "payload/study/quantum/tests/test_v02.py",
+      "payload/study/quantum/vendor/qpath/data.py",
+      "payload/study/quantum/vendor/qpath/quantum.py",
+      "payload/study/quantum/vendor/qpath/reference.py"
+    ],
+    "os": [
+      "payload/study/analysis/classical_independent/replay_and_analyse.py",
+      "payload/study/classical/engine.py",
+      "payload/study/classical/study.py",
+      "payload/study/quantum/audit_stage_a.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/launch_stage.py",
+      "payload/study/quantum/local_readiness.py",
+      "payload/study/quantum/preflight.py",
+      "payload/study/quantum/qstudy.py",
+      "payload/study/quantum/watch_stage_a.py",
+      "payload/study/quantum/watch_stage_b.py",
+      "tools/startup_check.py",
+      "tools/verify_package.py"
+    ],
+    "pathlib": [
+      "payload/study/analysis/classical_independent/audit_stage_a.py",
+      "payload/study/analysis/classical_independent/audit_stage_b.py",
+      "payload/study/analysis/classical_independent/replay_and_analyse.py",
+      "payload/study/analysis/quantum_independent/audit_outputs.py",
+      "payload/study/classical/data_work/audit_data.py",
+      "payload/study/classical/data_work/prepare_dbpedia.py",
+      "payload/study/classical/engine.py",
+      "payload/study/classical/evaluate_sealed.py",
+      "payload/study/classical/qpath/classical.py",
+      "payload/study/classical/study.py",
+      "payload/study/classical/tests/test_classical.py",
+      "payload/study/classical/tests/test_v02.py",
+      "payload/study/classical/verify_training.py",
+      "payload/study/governance/approve_classical_stage_a.py",
+      "payload/study/governance/approve_classical_stage_b.py",
+      "payload/study/governance/approve_quantum_stage_a.py",
+      "payload/study/governance/approve_quantum_stage_b.py",
+      "payload/study/governance/release_classical_test.py",
+      "payload/study/governance/release_quantum_test.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/launch_stage.py",
+      "payload/study/quantum/local_readiness.py",
+      "payload/study/quantum/preflight.py",
+      "payload/study/quantum/prepare_study.py",
+      "payload/study/quantum/qstudy.py",
+      "payload/study/quantum/tests/test_evaluation.py",
+      "payload/study/quantum/tests/test_v02.py",
+      "payload/study/quantum/watch_stage_a.py",
+      "tools/startup_check.py",
+      "tools/verify_package.py"
+    ],
+    "platform": [
+      "payload/study/classical/engine.py",
+      "payload/study/quantum/preflight.py",
+      "payload/study/quantum/qstudy.py",
+      "tools/startup_check.py"
+    ],
+    "prepare_study": [
+      "payload/study/quantum/tests/test_v02.py"
+    ],
+    "psutil": [
+      "payload/study/classical/engine.py"
+    ],
+    "qiskit": [
+      "payload/study/quantum/ibm_local.py",
+      "payload/study/quantum/local_readiness.py"
+    ],
+    "qiskit_aer": [
+      "payload/study/quantum/ibm_local.py",
+      "payload/study/quantum/local_readiness.py"
+    ],
+    "qpath": [
+      "payload/study/analysis/classical_independent/replay_and_analyse.py",
+      "payload/study/classical/data_work/prepare_dbpedia.py",
+      "payload/study/classical/engine.py",
+      "payload/study/classical/study.py",
+      "payload/study/classical/tests/test_classical.py",
+      "payload/study/classical/tests/test_policies.py",
+      "payload/study/classical/tests/test_v02.py",
+      "payload/study/quantum/prepare_study.py",
+      "payload/study/quantum/qstudy.py"
+    ],
+    "qstudy": [
+      "payload/study/quantum/audit_stage_a.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/launch_stage.py",
+      "payload/study/quantum/local_readiness.py",
+      "payload/study/quantum/preflight.py",
+      "payload/study/quantum/prepare_study.py",
+      "payload/study/quantum/propose_stage_b.py",
+      "payload/study/quantum/select_candidate.py",
+      "payload/study/quantum/tests/test_evaluation.py",
+      "payload/study/quantum/tests/test_v02.py",
+      "payload/study/quantum/watch_stage_a.py",
+      "payload/study/quantum/watch_stage_b.py"
+    ],
+    "random": [
+      "payload/study/classical/engine.py",
+      "payload/study/classical/qpath/policies.py",
+      "payload/study/classical/tests/test_policies.py"
+    ],
+    "re": [
+      "payload/study/classical/engine.py",
+      "tools/verify_package.py"
+    ],
+    "socket": [
+      "payload/study/analysis/classical_independent/replay_and_analyse.py",
+      "payload/study/classical/engine.py"
+    ],
+    "stat": [
+      "tools/verify_package.py"
+    ],
+    "statistics": [
+      "payload/study/governance/approve_classical_stage_b.py",
+      "payload/study/governance/approve_quantum_stage_b.py",
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/select_candidate.py"
+    ],
+    "study": [
+      "payload/study/classical/evaluate_sealed.py",
+      "payload/study/classical/tests/test_v02.py",
+      "payload/study/governance/approve_classical_stage_b.py"
+    ],
+    "subprocess": [
+      "payload/study/quantum/launch_stage.py",
+      "payload/study/quantum/preflight.py",
+      "payload/study/quantum/watch_stage_a.py",
+      "payload/study/quantum/watch_stage_b.py",
+      "tools/startup_check.py"
+    ],
+    "sys": [
+      "payload/study/analysis/classical_independent/replay_and_analyse.py",
+      "payload/study/analysis/quantum_independent/audit_outputs.py",
+      "payload/study/classical/data_work/prepare_dbpedia.py",
+      "payload/study/classical/engine.py",
+      "payload/study/governance/approve_classical_stage_b.py",
+      "payload/study/quantum/launch_stage.py",
+      "payload/study/quantum/local_readiness.py",
+      "payload/study/quantum/preflight.py",
+      "payload/study/quantum/qstudy.py",
+      "payload/study/quantum/tests/test_evaluation.py",
+      "payload/study/quantum/tests/test_v02.py",
+      "payload/study/quantum/watch_stage_a.py",
+      "payload/study/quantum/watch_stage_b.py",
+      "tools/startup_check.py"
+    ],
+    "tarfile": [
+      "payload/study/classical/data_work/prepare_dbpedia.py"
+    ],
+    "tempfile": [
+      "payload/study/classical/tests/test_classical.py",
+      "payload/study/classical/tests/test_v02.py",
+      "payload/study/quantum/tests/test_evaluation.py",
+      "payload/study/quantum/tests/test_v02.py"
+    ],
+    "time": [
+      "payload/study/analysis/classical_independent/audit_stage_a.py",
+      "payload/study/analysis/classical_independent/audit_stage_b.py",
+      "payload/study/analysis/classical_independent/replay_and_analyse.py",
+      "payload/study/analysis/quantum_independent/audit_outputs.py",
+      "payload/study/classical/data_work/audit_data.py",
+      "payload/study/classical/data_work/prepare_dbpedia.py",
+      "payload/study/classical/engine.py",
+      "payload/study/classical/evaluate_sealed.py",
+      "payload/study/classical/study.py",
+      "payload/study/quantum/launch_stage.py",
+      "payload/study/quantum/preflight.py",
+      "payload/study/quantum/qstudy.py",
+      "payload/study/quantum/watch_stage_a.py",
+      "payload/study/quantum/watch_stage_b.py"
+    ],
+    "tokenizers": [
+      "payload/study/analysis/classical_independent/replay_and_analyse.py",
+      "payload/study/classical/data_work/audit_data.py",
+      "payload/study/classical/qpath/classical.py"
+    ],
+    "torch": [
+      "payload/study/analysis/classical_independent/audit_stage_a.py",
+      "payload/study/analysis/classical_independent/audit_stage_b.py",
+      "payload/study/analysis/classical_independent/replay_and_analyse.py",
+      "payload/study/classical/engine.py",
+      "payload/study/classical/evaluate_sealed.py",
+      "payload/study/classical/qpath/classical.py",
+      "payload/study/classical/study.py",
+      "payload/study/classical/tests/test_classical.py",
+      "payload/study/classical/tests/test_v02.py"
+    ],
+    "traceback": [
+      "payload/study/quantum/evaluate_confirmation.py",
+      "payload/study/quantum/local_readiness.py",
+      "payload/study/quantum/qstudy.py",
+      "payload/study/quantum/watch_stage_a.py",
+      "payload/study/quantum/watch_stage_b.py"
+    ],
+    "typing": [
+      "payload/study/classical/qpath/classical.py",
+      "payload/study/classical/qpath/policies.py",
+      "payload/study/quantum/ibm_local.py"
+    ],
+    "unicodedata": [
+      "payload/study/analysis/classical_independent/audit_stage_a.py",
+      "payload/study/analysis/classical_independent/audit_stage_b.py",
+      "payload/study/analysis/classical_independent/replay_and_analyse.py",
+      "payload/study/classical/data_work/audit_data.py",
+      "payload/study/classical/data_work/prepare_dbpedia.py",
+      "payload/study/classical/qpath/policies.py"
+    ],
+    "unittest": [
+      "payload/study/classical/tests/test_classical.py",
+      "payload/study/classical/tests/test_policies.py",
+      "payload/study/classical/tests/test_v02.py",
+      "payload/study/quantum/tests/test_evaluation.py",
+      "payload/study/quantum/tests/test_v02.py"
+    ],
+    "uuid": [
+      "payload/study/governance/release_classical_test.py",
+      "payload/study/governance/release_quantum_test.py"
+    ],
+    "verify_package": [
+      "tools/startup_check.py"
+    ]
+  },
+  "numeric_recorded_versions": {
+    "Python": "3.12.14",
+    "NumPy": "2.5.4",
+    "SciPy": "1.18.1",
+    "Qiskit": "2.6.0",
+    "Qiskit Aer": "0.17.2"
+  },
+  "classical_recorded_torch": "2.11.0+cu128",
+  "observed_locks": [
+    {
+      "path": "payload/study/classical/requirements-cuda-lock.txt",
+      "source_absolute_path": "C:\\Q2\\Improvement_Study_v0.2\\classical\\requirements-cuda-lock.txt",
+      "bytes": 445,
+      "sha256": "bc934b9be9239b99f87cf42c50b69967da1fa8ac50050359ba449a81edf67cd9"
+    },
+    {
+      "path": "payload/study/quantum/requirements-cpu-lock.txt",
+      "source_absolute_path": "C:\\Q2\\Improvement_Study_v0.2\\quantum\\requirements-cpu-lock.txt",
+      "bytes": 585,
+      "sha256": "c4e7087b10bcfd02e22b7a3924c9bcafe0f51b1c07c663f33ab28ee8635fbfe5"
+    },
+    {
+      "path": "payload/study/quantum/requirements-quantum-minimal.txt",
+      "source_absolute_path": "C:\\Q2\\Improvement_Study_v0.2\\quantum\\requirements-quantum-minimal.txt",
+      "bytes": 418,
+      "sha256": "da1b6e18ee0819fad13b4071241fb20be822fde9ec9e37295c1a9b940b117632"
+    },
+    {
+      "path": "payload/study/quantum/requirements-training-minimal.txt",
+      "source_absolute_path": "C:\\Q2\\Improvement_Study_v0.2\\quantum\\requirements-training-minimal.txt",
+      "bytes": 188,
+      "sha256": "3d0351fc82e93f544c7f6cfd2a6222e610427ab607a518e6a3ee22906bed2a31"
+    }
+  ],
+  "dependency_terms": "Third-party dependencies retain their separate licenses and are not included or relicensed. Observed locks contain unrelated packages and are not minimum requirements.",
+  "installation_verified": false,
+  "inventory_scope": {
+    "scientific_python_files": 40,
+    "package_helpers": 2,
+    "granularity": "Syntactic top-level import roots; local modules and the standard library are included, not asserted third-party dependencies."
+  }
+}
