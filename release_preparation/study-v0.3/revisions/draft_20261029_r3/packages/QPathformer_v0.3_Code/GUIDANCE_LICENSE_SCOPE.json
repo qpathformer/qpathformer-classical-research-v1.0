@@ -1,0 +1,54 @@
+{
+  "schema": "qpath-guidance-license-scope-1",
+  "status": "ADOPTED",
+  "license": "CC-BY-4.0",
+  "licensor": "Anthony Siljeg",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "adoption_record": "LICENSE_ADOPTION.json",
+  "scope": "Controlled original explanatory prose in the exact listed file instances. This is not a grant for external works quoted or referenced, datasets, software or surrounding factual/operational records as whole packages.",
+  "files": [
+    {
+      "path": "DEPENDENCIES.md",
+      "bytes": 941,
+      "sha256": "d6f5c192a566b05f17848883700e305c7271b61f132d0ddda8dfc1bfb3b9d6dc"
+    },
+    {
+      "path": "QUICKSTART.md",
+      "bytes": 1832,
+      "sha256": "6b772d52789e93c40285d6526e9e60f5cda6a3a2b2c397f29df27fdda134d0fa"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 1559,
+      "sha256": "cf7c27f63e086489e5ed69767f5e6b59f91ec004a0980117a3c6319128216700"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 889,
+      "sha256": "9fed654d6e0442d9b59e62cf50032d046dcdeba93f153f28b50c17d5e1cefd2f"
+    },
+    {
+      "path": "VERIFY.md",
+      "bytes": 887,
+      "sha256": "eef38a54bdfda37d343527c3b55ed795018746fed371b34b7cb0088c9b9a95b6"
+    },
+    {
+      "path": "historical/README.txt",
+      "bytes": 2542,
+      "sha256": "aace3af3a96f87b7994c8cef4d54457962cf7b38c8ca30ff3eaef603ffa25f79"
+    },
+    {
+      "path": "historical/REPRODUCTION_GUIDE.txt",
+      "bytes": 6426,
+      "sha256": "bdee14eb5f27b90c1aaccffdcb65c2e3fa01630ded54cbad83f4bbe08c59028c"
+    }
+  ],
+  "exclusions": [
+    "Third-party expression",
+    "Source code",
+    "Datasets",
+    "Model artifacts",
+    "Architecture documents",
+    "Full archives"
+  ]
+}

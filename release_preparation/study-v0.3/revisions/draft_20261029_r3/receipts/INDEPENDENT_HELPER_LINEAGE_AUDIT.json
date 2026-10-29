@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-29T10:38:33.779684+00:00",
+  "study_version": "v0.3",
+  "code_zip": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.3\\draft_20261029_r3\\dist\\QPathformer_v0.3_Code.zip",
+    "bytes": 206271,
+    "sha256": "5733039548ea0e3995522327cd6d307b362ea5a09aff58927b74bc9a8f5f49df"
+  },
+  "helper_lineage": [
+    {
+      "path": "tools/verify_package.py",
+      "current": {
+        "bytes": 5925,
+        "sha256": "b58cadbc82203234ab928d82a749e8c41bf1a856d3274af8245c6875593d126f"
+      },
+      "adopted_source": {
+        "bytes": 5925,
+        "sha256": "b58cadbc82203234ab928d82a749e8c41bf1a856d3274af8245c6875593d126f"
+      },
+      "adopted_scope": {
+        "bytes": 8458,
+        "sha256": "de61e25ef7dea4cc89d5ad26e580dd7940cb6e5445a78ad46a7052cd07119bc1"
+      },
+      "relation_verified": "EXACT_ADOPTED_IDENTITY_MATCH"
+    },
+    {
+      "path": "tools/startup_check.py",
+      "current": {
+        "bytes": 6808,
+        "sha256": "64534c122c17433f4a87a28237425ad20d037fe950785715d34bdafb5e3c6b88"
+      },
+      "adopted_source": {
+        "bytes": 6921,
+        "sha256": "f0d91b563d0c164647fb7b00828be6f70a21e20fb14bfcfcfc2ba650641d961d"
+      },
+      "adopted_scope": {
+        "bytes": 8458,
+        "sha256": "de61e25ef7dea4cc89d5ad26e580dd7940cb6e5445a78ad46a7052cd07119bc1"
+      },
+      "relation_verified": "ADAPTATION_WITH_RETAINED_COMMON_RECEIPT_AND_INTEGRITY_LOGIC"
+    }
+  ],
+  "all_six_predecessor_assets_unchanged_from_preliminary_check": true,
+  "preliminary_binding": {
+    "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v03_r3_audit\\PRELIMINARY_R2_CHECKS.json",
+    "bytes": 2801,
+    "sha256": "7761402b5002d5f487ffb98d3146380d5a9c775da2bb531741043d26bb1f5427"
+  },
+  "boundary": "Direct file identity, adopted scope membership and shared implementation evidence; this is not an independent ownership or enforceability assessment."
+}

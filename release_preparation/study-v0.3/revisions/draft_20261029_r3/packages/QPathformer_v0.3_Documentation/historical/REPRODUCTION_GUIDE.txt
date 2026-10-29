@@ -1,0 +1,110 @@
+Q Pathformer version 03 reproduction guide
+Internal local simulator study
+
+Preserve the delivered study as an evidence package. Its manifests, checkpoints,
+predictions, protocols and original failure records are part of the result.
+Do not launch training or create new outputs inside a sealed package.
+
+Verify the delivered bytes
+
+Close the report in Word first so its temporary owner file is gone. From
+PowerShell 7, run the read-only verifier:
+& 'C:\Q2\Improvement_Study_v0.3\governance\Verify_Delivery.ps1' -PackageRoot 'C:\Q2\Improvement_Study_v0.3'
+
+This checks the full declared file inventory, sizes and SHA256 digests. The two
+named delivery verification records and manifest itself are explicit metadata
+exclusions; they do not recursively hash themselves. Retain the original manifest
+separately if an external seal or tamper-evidence requirement applies.
+
+Runtime
+
+Training and numeric replay used the existing local Python environment at
+C:\Q2\Implementation_v0.1\.venv\Scripts\python.exe. It was used read only.
+Python was 3.12.14, NumPy 2.5.4, SciPy 1.18.1, Qiskit 2.6.0 and Aer 0.17.2.
+See governance/RUNTIME.json and requirements-observed.txt for the recorded
+environment and full observed inventory. An environment is not bundled here.
+Do not treat the complete inventory as a minimum dependency specification.
+Exact NumPy 2.5.4 is required by the registered integer-count replay guard.
+Word authoring and figures used separate documented bundled/report runtimes.
+
+Independent prediction and analysis replay
+
+First verify the original package. Make a complete ordinary copy into a new
+local working directory with enough free space; retain every relative path.
+Run the copied analysis/independent_replay/replay_and_analyse.py using the numeric
+runtime above. Its arguments are:
+  --release <copy>\quantum\EVALUATION_RELEASE.json
+  --output <copy>\analysis\independent_replay\new_replay_attempt
+
+The output must be absent and inside the copied independent_replay directory.
+The replay verifies the root release, complete official evaluation inventory,
+source hashes, all endpoints and their selected checkpoints before loading test
+data. It independently recomputes probabilities, canonical class metrics,
+threshold sensitivity, paired statistics, bootstrap results and all shot counts.
+It never retrains or chooses another checkpoint. Retain any failed attempt.
+The copy's original delivery manifest will report the new output as extra files;
+that is expected for a working reproduction. The original package stays intact.
+
+Repeat training as a new experiment
+
+Training is not a one-command rerun inside this sealed folder. The recorded
+launch commands are quantum/launch_stage.py --stage A and --stage B. The launcher
+requires approved freezes and refuses existing stage directories. Each stage
+creates seed subprocesses with one BLAS thread and records complete 200-round
+ledgers, 15000 updates, selected and final checkpoints, and process exits.
+
+For a new training reproduction, create a separate experiment directory and
+register its scope, population choices, source identities and approval records.
+Use the delivered source and saved populations if reproducing these exact
+conditions, or explicitly register new populations for a replication study.
+Do not silently remove existing runs, alter hard-coded guard expectations or
+reuse this study's releases as approval for a different experiment. Source
+changes require new reviewed registrations. Historical absolute paths identify
+this original execution; do not rewrite sealed records to disguise a new run.
+
+The completed workflow is recorded in governance/STUDY_PLAN.json, both stage
+freezes, endpoint audits, EVALUATION_RELEASE.json and the evaluation/replay
+commits. All thirteen methods continue from development to confirmation.
+Weak development results never remove an arm. Confirmation test scoring follows
+all 65 full endpoints and independent checks. Keep new test outcomes sealed
+until the equivalent gates have passed.
+
+Numerical verification amendment
+
+The strict development audit failure is preserved. Before confirmation, the
+verification-only recovery protocol introduced an explicit near-0.5 diagnostic
+band. It did not change training, probabilities, threshold, budgets or BCE
+selection. PASS under that protocol means canonical metric reproducibility plus
+independent probability/BCE agreement with all class differences explained by
+the band. It does not mean exact agreement between floating point classifiers.
+Read governance/NUMERICAL_RECOVERY_PROTOCOL_01.json and the report sensitivity
+section before using a flagged F1 result. All original verification files remain
+under governance/recovery_01/originals.
+
+Local circuit checks
+
+quantum/local_readiness.py --output <new directory> checks committed validation
+fixtures against independent matrices and local Aer measurements. The --engineering
+option uses engineering fixtures only; omit it for committed confirmation checks.
+Use a separate working copy for any repeat. The RY/RZ/CX basis is a simulator
+basis, not a physical IBM backend specification. No credentials, cloud submission,
+hardware execution, calibration or noise model is included or authorized.
+
+Evidence locations
+
+quantum/data                         Fresh populations and fixed train-only routers
+quantum/stage_A and stage_B           Full training logs, ledgers and checkpoints
+quantum/confirmation_evaluation       Released predictions and registered analysis
+analysis/independent_replay           Independent implementation and replay evidence
+analysis/classical_review             Independent scientific and endpoint reviews
+analysis/learning_resources_A and B   Validation milestones and resource supplement
+analysis/v02_steps_context            Read-only historical classical text milestones
+governance                           Frozen protocols, integrity checks and recovery
+report_work                          Report text, figures, authoring sources and QA record
+docs                                 Final internal Word report
+
+Rendering intermediates and Python environments are omitted from delivery.
+Preserved failure logs and recovery records are included. Copy exclusions are
+listed in governance/DELIVERY_COPY_RECORD.json. No quantum advantage, hardware
+readiness, new-domain generalization or publication claim follows from this
+single synthetic task and five confirmation training seeds.

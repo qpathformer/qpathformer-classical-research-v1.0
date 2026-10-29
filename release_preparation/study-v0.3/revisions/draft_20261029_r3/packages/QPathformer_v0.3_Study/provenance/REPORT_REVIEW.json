@@ -1,0 +1,63 @@
+{
+  "schema": "qpath-report-review-1",
+  "status": "PASS_ALL_PAGES_VISUALLY_REVIEWED",
+  "reviewed_at_utc": "2026-10-29T09:05:50.491739+00:00",
+  "study_version": "v0.3",
+  "report_files": [
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.3\\draft_20261029\\report\\files\\QPathformer_v0.3_Report.docx",
+      "bytes": 761878,
+      "sha256": "3ad4d61c8d06911ee7618139970c810d454f8e05f5a6fb8057237fc1ceebdcb3"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.3\\draft_20261029\\report\\files\\QPathformer_v0.3_Report.pdf",
+      "bytes": 1141917,
+      "sha256": "ce937b06eafaf1d4da602e1f968df9f0f49a7226ee0f73799d5c03da5754f91b"
+    }
+  ],
+  "pages": 22,
+  "original_pages": 21,
+  "visual_review": {
+    "method": "Every final page PNG opened with view_image at full rendered page resolution, including tables, figures, footers and appended note. Not a contact-sheet or text-only check.",
+    "pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "outcome": "Readable text and figures; no clipped content, broken glyphs, overlapping tables or stray blank pages. Historical layout and internal labels retained.",
+    "corrections": "v0.3 appended note page-break formatting corrected to remove one blank page; final 22-page render reviewed."
+  },
+  "preservation": {
+    "original_body_elements": 146,
+    "original_body_canonical_xml_unchanged": true,
+    "media_count": 4,
+    "media_byte_identical": true,
+    "scientific_content_edits": 0
+  },
+  "render_record": {
+    "path": "RENDER_RECORD.json",
+    "bytes": 6276,
+    "sha256": "8f7c87b974bb962862cfa25337b0cdf6e22a579fed5d77d49d97f8dc37252e46"
+  },
+  "renderer_fallback": "Direct render_docx attempt found bundled LibreOffice unavailable (soffice.exe missing). Native Word read-only export supplied the exact final PDF to the standard render_docx rasterizer. No system LibreOffice used.",
+  "disclosure_review": "Report preserves historical internal labels, environment descriptions, evidence paths and recommendations. No scientific content redacted. No credentials or personal contact details identified in the report visual review. Public-disclosure review remains separate from this private draft preparation."
+}

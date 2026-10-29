@@ -1,0 +1,14 @@
+{
+  "recorded_utc": "2026-10-18T18:34:47.680009+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+  "executable_sha256": "4d40c6ec33e3581761879b5614c6d2f21f8b5ec34acaf8d3d524bb5a362087ac",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "qiskit": "2.6.0",
+    "qiskit-aer": "0.17.2"
+  },
+  "scope": "Existing local CPU simulator runtime, no installation or hardware/provider service. Study seed subprocesses use one BLAS thread."
+}

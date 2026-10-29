@@ -1,0 +1,147 @@
+{
+  "status": "PASS_SCIENTIFIC_SUMMARY_CHECK",
+  "scope": "Read existing primary protocol, report composition source, evaluation summaries and historical independent-replay/readiness receipts; no training, scoring, replay execution or package mutation.",
+  "reviewed_note": "C:\\Anthony Siljeg\\CPU-QPU git repo prep\\v6 final staging\\QPathformer_v0.3_Codex_Review_20261029.md",
+  "sources": [
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.3\\report_work\\report_content.json",
+      "bytes": 61494,
+      "sha256": "578e9f34fa0b2860d2e91e164609398cd907fc215a8bf3c8e8f3b7d4eb1d9b27"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.3\\governance\\ANALYSIS_PROTOCOL.json",
+      "bytes": 3281,
+      "sha256": "7401f1ab9f805eed0a1cd97a86e1aab9be3c27746e0a529a991efdaf9e1766f5"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.3\\governance\\NUMERICAL_RECOVERY_PROTOCOL_01.json",
+      "bytes": 6956,
+      "sha256": "049f4a627fda5fa08c739cc53375aa104e28d223bb78d525841d0f01d7931e0e"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.3\\quantum\\confirmation_evaluation\\summary.json",
+      "bytes": 162342,
+      "sha256": "d49f69c70847cb997c94862185ce0a072cfbe4252289d0b48167643d5de7fe3c"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.3\\analysis\\independent_replay\\confirmation_replay\\summary.json",
+      "bytes": 1260796,
+      "sha256": "3b731ae292dc2209478af699d29d9c22de8f81b046ea226c8d27910649e7dde5"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.3\\analysis\\independent_replay\\confirmation_replay\\readout_summary.json",
+      "bytes": 19511,
+      "sha256": "3ed3da41ad9d4fbf67f1615338f586f1f8c81b493489b5b665a01717f8b9e3c8"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.3\\quantum\\local_readiness_B\\report.json",
+      "bytes": 159888,
+      "sha256": "2245ce703822f2b10adb8b30e4cc11b4c84d95f5bdf30e9fedc947bad476b48b"
+    }
+  ],
+  "findings": [
+    {
+      "id": "R01",
+      "assessment": "Agree",
+      "source": "governance/ANALYSIS_PROTOCOL.json",
+      "line": 4,
+      "detail": "BCE primary; macro-F1 and accuracy secondary. Seed and conditional-record intervals must remain separate."
+    },
+    {
+      "id": "R01_numbers",
+      "assessment": "Agree",
+      "source": "report_work/report_content.json",
+      "line": 585,
+      "detail": "Quoted means, primary paired effect, both adjusted intervals and secondary F1 effect match saved confirmation evaluation."
+    },
+    {
+      "id": "R02_counts",
+      "assessment": "Agree",
+      "source": "report_work/report_content.json",
+      "line": 34,
+      "detail": "104 registered runs =39 development+65 confirmation. Thirteen arms, five confirmation seeds,1600 common held-out test records."
+    },
+    {
+      "id": "R02_replay",
+      "assessment": "Agree",
+      "source": "report_work/report_content.json",
+      "line": 1420,
+      "detail": "Historical replay65endpoints and104000checkpoint-recordpredictions; same1600records reused."
+    },
+    {
+      "id": "R02_shots",
+      "assessment": "Agree",
+      "source": "report_work/report_content.json",
+      "line": 1285,
+      "detail": "Aer150circuits/3840000simulatedmeasurements is separate from150savedidealbinomialarrays."
+    },
+    {
+      "id": "R02_recovery",
+      "assessment": "Agree",
+      "source": "report_work/report_content.json",
+      "line": 421,
+      "detail": "Development threshold failure preserved; verification-only amendment before confirmation; no confirmation ambiguity does not mean zero errors or uncertainty."
+    },
+    {
+      "id": "classical_controls",
+      "assessment": "Retain qualification",
+      "source": "report_work/report_content.json",
+      "line": 1201,
+      "detail": "BothMLP41andMLP129have better meanBCE than kmeans40; MLP129 also highest meanF1. No simulation speed advantage."
+    },
+    {
+      "id": "package_reuse",
+      "assessment": "Follow",
+      "detail": "Draft release body only; Study and Documentation package bytes and seals left untouched. Do not modernize report metadata solely for this revision."
+    }
+  ],
+  "verified_values": {
+    "mean_metrics": {
+      "kmeans40": {
+        "bce": 0.18969516212578713,
+        "macro_f1": 0.9742437725118638
+      },
+      "hash40": {
+        "bce": 0.28974022020132956,
+        "macro_f1": 0.9010047053852167
+      },
+      "fixed4": {
+        "bce": 0.2672922199771278,
+        "macro_f1": 0.9406058123318953
+      },
+      "mlp41": {
+        "bce": 0.07670323848929345,
+        "macro_f1": 0.9642473788706912
+      },
+      "mlp129": {
+        "bce": 0.0274501640200407,
+        "macro_f1": 0.9869989511183384
+      }
+    },
+    "paired_bce": -0.10004505807554247,
+    "seed_interval": [
+      -0.12322097234673529,
+      -0.07686914380434964
+    ],
+    "conditional_record_interval": [
+      -0.11393088202505713,
+      -0.08730499122629175
+    ],
+    "secondary_f1_percentage_points": 7.323906712664711,
+    "historical_replay_endpoints": 65,
+    "historical_prediction_records": 104000,
+    "common_test_records": 1600,
+    "saved_binomial_arrays": 150,
+    "aer_circuits": 150,
+    "aer_simulated_measurement_shots": 3840000
+  },
+  "remaining_conditions": [
+    "Use the drafted packaging PASS claim only after verifying the successor final Code receipt and its exact ZIP/seal binding.",
+    "Root must resolve current private GitHub asset sizes and receipt links; this science subtask did not perform remote checks."
+  ],
+  "drafted_body": {
+    "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v03_r3_prose\\RELEASE_BODY.md",
+    "bytes": 6201,
+    "sha256": "f26e60970fb4dd7927e81be6ef5382dd836e8dc1931833009d63f6ae390a33e9"
+  }
+}

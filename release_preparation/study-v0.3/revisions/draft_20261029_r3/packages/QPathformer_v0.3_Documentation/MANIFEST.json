@@ -1,0 +1,95 @@
+{
+  "schema": "qpath-package-manifest-1",
+  "package": "QPathformer_v0.3_Documentation",
+  "files": [
+    {
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "bytes": 2648,
+      "sha256": "f52e1e85afc8abf7c73253323c55aed39be690dde4266362bbc66809986749f9"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 18615,
+      "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+    },
+    {
+      "path": "LICENSES/QPATHFORMER-PLATFORM-1.0.txt",
+      "bytes": 1461,
+      "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+    },
+    {
+      "path": "LICENSE_ADOPTION.json",
+      "bytes": 1621,
+      "sha256": "477b81043a278fefb669a2f8d9363b3dbe016bee42dc608896c99ff72f3729ea"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 1290,
+      "sha256": "e5ea91f42ee6be5abe3088f6a9f11933698f91d75151d51e64a05c6fc0a2e5e3"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "bytes": 1088,
+      "sha256": "7fbe0386a2ed816729cd0444191b7bc38902c6a2984263741f5489ccfde55d5c"
+    },
+    {
+      "path": "RESEARCH_GUIDE.md",
+      "bytes": 1619,
+      "sha256": "00cd9d78910c2ab5db408d1bc1880a1963e30a4589006dd7df536d423285671f"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 1568,
+      "sha256": "9b8eeae8f3da20b4edb789786779f21091b31accb0edeb6806a5ed3916e7b34b"
+    },
+    {
+      "path": "SOURCE_MAP.json",
+      "bytes": 9016,
+      "sha256": "b69bceafd17ecae18b8739d97a97dedf8daf38ac01a0be0a9ae79a55ac65d5cc"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 538,
+      "sha256": "2a3003be1a5d32d202602a7de4ee8f0cb5864bc81dd9e018e1c9b81af8062d16"
+    },
+    {
+      "path": "VERIFY.md",
+      "bytes": 905,
+      "sha256": "fdd8c9109e7b2561ef5256cd1dd8c11792d0df0b1d0249b8b365deffb5990692"
+    },
+    {
+      "path": "historical/README.txt",
+      "bytes": 2542,
+      "sha256": "aace3af3a96f87b7994c8cef4d54457962cf7b38c8ca30ff3eaef603ffa25f79"
+    },
+    {
+      "path": "historical/REPRODUCTION_GUIDE.txt",
+      "bytes": 6426,
+      "sha256": "bdee14eb5f27b90c1aaccffdcb65c2e3fa01630ded54cbad83f4bbe08c59028c"
+    },
+    {
+      "path": "historical/governance/ANALYSIS_PROTOCOL.json",
+      "bytes": 3281,
+      "sha256": "7401f1ab9f805eed0a1cd97a86e1aab9be3c27746e0a529a991efdaf9e1766f5"
+    },
+    {
+      "path": "historical/governance/NUMERICAL_RECOVERY_PROTOCOL_01.json",
+      "bytes": 6956,
+      "sha256": "049f4a627fda5fa08c739cc53375aa104e28d223bb78d525841d0f01d7931e0e"
+    },
+    {
+      "path": "historical/governance/STUDY_PLAN.json",
+      "bytes": 7149,
+      "sha256": "0d69bb7e187c73290f8b1a0431c1b1204cf2933df3cb3fababdd7e7edf936007"
+    },
+    {
+      "path": "historical/quantum/READINESS_PROTOCOL.json",
+      "bytes": 2909,
+      "sha256": "5e9089393b7a0b0a1db6751e9119ac3335507e2552004edc8d02e76bb5a1068d"
+    }
+  ],
+  "excluded": [
+    "MANIFEST.json",
+    "CHECKSUMS.sha256"
+  ]
+}

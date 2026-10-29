@@ -1,0 +1,76 @@
+{
+  "status": "PASS_CURRENT_R2_EXTERNAL_AND_SOURCE_CHECKS",
+  "checked_at_utc": "2026-10-29T10:32:26.949654+00:00",
+  "review_notes": {
+    "path": "C:\\Anthony Siljeg\\CPU-QPU git repo prep\\v6 final staging\\QPathformer_v0.3_Codex_Review_20261029.md",
+    "bytes": 21685,
+    "sha256": "cb5985ba930e4d0ec5e982354e1242c25828ae61b2e1dd797172e48c00869f9b"
+  },
+  "release_id": 427658431,
+  "target_commit": "dbcfe6cb00fdfd439f174059666c2dfb5fec71f1",
+  "draft": true,
+  "repository_private": true,
+  "latest": "study-v0.9.5",
+  "v02_published": true,
+  "assets": [
+    {
+      "name": "QPathformer_v0.3_Code.seal.json",
+      "id": 687999668,
+      "matches_local": true,
+      "matches_review_notes": true,
+      "bytes": 1366,
+      "sha256": "cb8f240b8883f3c4aaa5c7ec6977964cc8accbbd4a348c436291ff2961f62422"
+    },
+    {
+      "name": "QPathformer_v0.3_Code.zip",
+      "id": 687999867,
+      "matches_local": true,
+      "matches_review_notes": true,
+      "bytes": 202363,
+      "sha256": "a3f830709d73f02347f9eca3f7ac93bfe1d2b5c7264033e5bcfb50307d7ee535"
+    },
+    {
+      "name": "QPathformer_v0.3_Documentation.seal.json",
+      "id": 688000107,
+      "matches_local": true,
+      "matches_review_notes": true,
+      "bytes": 1429,
+      "sha256": "7f9b0cc08dcc18364a553ffdff7353a7cf1f322ba5b427bc950fc6b8d1cdd9e0"
+    },
+    {
+      "name": "QPathformer_v0.3_Documentation.zip",
+      "id": 688000306,
+      "matches_local": true,
+      "matches_review_notes": true,
+      "bytes": 33759,
+      "sha256": "e7b9bfd9ef535113c33c3438c75d7d11c12fca09b143d53ae32cd268b8ed38a5"
+    },
+    {
+      "name": "QPathformer_v0.3_Study.seal.json",
+      "id": 688000438,
+      "matches_local": true,
+      "matches_review_notes": true,
+      "bytes": 1367,
+      "sha256": "369cc3e7135fe4e6de150bcaa262ae6e8b927b0ee3d1fc811d6f891308e15607"
+    },
+    {
+      "name": "QPathformer_v0.3_Study.zip",
+      "id": 688000625,
+      "matches_local": true,
+      "matches_review_notes": true,
+      "bytes": 1703511,
+      "sha256": "f2a27d4e8c24754cade334fbd0121c698f2f368b4d55be83ecac2ede33a6fa98"
+    }
+  ],
+  "both_indices_agree": true,
+  "fresh_startup_binding_verified": true,
+  "startup_status": "PASS",
+  "startup_checks": 3,
+  "upload_receipt_verified": true,
+  "source_inventory_selected_files_checked": 56,
+  "source_report_and_delivery_manifest_verified": true,
+  "source_map_entries_verified_against_actual_sources": 103,
+  "actual_body_contains_copied_footer": false,
+  "actual_body_contains_pasted_human_readable_sizes": false,
+  "boundary": "Selected original files, original report, delivery-manifest file and mapped source records were checked; this is not a rehash or reproduction of the full operational archive."
+}

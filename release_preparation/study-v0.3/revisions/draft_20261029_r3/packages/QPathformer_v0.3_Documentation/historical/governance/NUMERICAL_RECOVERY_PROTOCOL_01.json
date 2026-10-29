@@ -1,0 +1,67 @@
+{
+  "study_id": "QPATH-QMECH-v0.3",
+  "status": "ROOT_APPROVED_VERIFICATION_AMENDMENT_BEFORE_STAGE_B",
+  "authority": "Root documents recovery within the user's authorized complete local study. This amends verification and diagnostic reporting only; it is not the original pre-development registration.",
+  "trigger": "All39 development endpoints completed. The strict author endpoint audit failed on seed502 untied_assigned round196: independent probabilities agree at about1e-15 and BCE at about1e-16, but a depth1 branch is numerically indistinguishable from probability0.5. Different matrix implementations produce different hard-threshold decisions. The failed audit and every original verification source/registration remain preserved.",
+  "preserved_originals": {
+    "manifest": "governance/recovery_01/ORIGINALS_MANIFEST.json",
+    "manifest_sha256": "af0589d0e84b6ec8353d7d86374b2bb9c7b0d9e718849ddeb37cfefb1f911fde",
+    "original_failed_lock_sha256": "62badae3d687a82c5ade77cfaa6ba18b1db77b54be253dd20dd6cf3c197b0ef4",
+    "author_diagnosis_sha256": "f19f8b4a0906c35bc809307eb2de26e6fe98a524bf5e85df0f7f8ce2f7ff3edc",
+    "independent_diagnosis_sha256": "da9ad6c765ce57cfff06f8cb5a8abf2522072aeeddc45a0943695fc7f953fce2",
+    "high_precision_diagnosis_sha256": "36840150a5d201d36002411d40bff07ae919910bbb5d2dd455c052fdd78a1351"
+  },
+  "unchanged": [
+    "All frozen training sources, data and router policies, method matrix, seeds, budgets, orders, optimizer, validation BCE selection and all completed artifacts",
+    "Original STUDY_PLAN.json and ANALYSIS_PROTOCOL.json",
+    "Canonical stored production probabilities and threshold p>=0.5",
+    "Primary BCE comparisons, clipping, bootstrap inputs and seed uncertainty",
+    "Exact saved-record identities, labels, routes, canonical confusion/F1/accuracy and shot-count replay",
+    "No test inference before all65 B endpoints and both amended full audits pass and root releases evaluation"
+  ],
+  "probability_checks": {
+    "maximum_absolute_error": 2E-12,
+    "note": "Retains the independent replay tolerance and tightens the previous author tolerance1e-10. No probability discrepancy is waived.",
+    "author_bce_maximum_absolute_error": 1E-10,
+    "independent_bce_maximum_absolute_error": 1E-09,
+    "bce_note": "Existing BCE tolerances retained. Independent BCE remains compared directly with canonical BCE."
+  },
+  "threshold_band": {
+    "center": 0.5,
+    "epsilon_multiple": 32,
+    "float64_epsilon": 2.220446049250313E-16,
+    "absolute_half_width": 7.105427357601002E-15,
+    "inclusive": true,
+    "interpretation": "A fixed engineering resolution convention derived from float64 epsilon, chosen before confirmation. It is not a formal numerical error bound, a statistical confidence interval, or a new prediction threshold. It is narrower than the allowed probability verification tolerance.",
+    "disagreement_rule": "Every independent versus canonical class disagreement must have BOTH probabilities within this band. Any disagreement outside the band remains FAIL. Record every disagreement with recordID, allocationdepth, label, both probabilities and both class decisions.",
+    "required_counts": "Canonical near-band count, reference near-band count, union count, exact class agreement boolean, total disagreements and outside-band disagreements, by endpoint and relevant depth/route slices.",
+    "canonical_metric_rule": "Exactly reconstruct confusion, macroF1 and accuracy from the saved production float probabilities at p>=0.5 and compare with recorded result/ledger/test report. Do not replace canonical probabilities or classifications with reference values.",
+    "reference_metric_rule": "Retain raw independent matrix confusion, F1 and accuracy separately. Report their differences; do not claim exact classifier agreement when differences exist."
+  },
+  "supplementary_sensitivity": {
+    "mask": "Canonical saved probability within the fixed inclusive band. This mask is label-independent. Reference-only and union near-band counts are separate diagnostics.",
+    "conventions": [
+      "Assign every canonical band-ambiguous record to class0, holding all other canonical decisions fixed",
+      "Assign every canonical band-ambiguous record to class1, holding all other canonical decisions fixed"
+    ],
+    "extrema": [
+      "Label-assisted pessimistic assignment: classify every canonical band-ambiguous record incorrectly",
+      "Label-assisted optimistic assignment: classify every canonical band-ambiguous record correctly"
+    ],
+    "metrics": "Confusion, macroF1 and accuracy only. No BCE is assigned to these hypothetical class vectors.",
+    "limits": "Conventions are not extrema. Pessimistic/optimistic values are numerical-sensitivity extrema for this explicitly defined ambiguity set, not attainable trained models or statistical uncertainty bounds. They use labels for diagnosis only, never for routing, training, selection or canonical prediction. Preserve all four cases; do not select a favorable convention."
+  },
+  "implementation_and_release": [
+    "Preserve original verification files byte for byte under recovery_01/originals before editing; keep the strict failed endpoint lock visibly named as a failed attempt",
+    "Revise only author verification/evaluation helpers and their tests, independent endpoint auditor, independent replay adapter/tolerance registration and associated root release metadata",
+    "Independently implement the sensitivity logic in the separate replay code; no importing the official helper into independent model/metric code",
+    "Use existing per-endpoint report payloads and summary fields; preserve the135-payload official commit inventory and all150 shot arrays",
+    "Test inside-band flagging, outside-band rejection even when probability tolerance passes, exact canonical metric reconstruction, all four sensitivity cases and complete synthetic evaluator/replay paths",
+    "Complete and peer-review revised registration and READY before B launch. Re-audit all39 development endpoints; weak or ambiguous development outcomes still proceed with all13 arms",
+    "After65 full confirmation endpoints, repeat both complete audits. Root release must bind the amended registry, READY and this protocol. No automatic test release"
+  ],
+  "reporting": "Disclose the actual development audit failure, exact numerical cause, preservation, pre-B amendment, all confirmation ambiguity counts and raw reference classification differences. PASS under amended verification means canonical metric reproducibility plus independent probability/BCE agreement and no unexplained threshold disagreements; it does not mean exact classifier replay. Canonical F1 for flagged endpoints must be qualified with sensitivity results.",
+  "test_outcomes_accessed": false,
+  "stage_B_started": false,
+  "created_utc": "2026-10-18T19:12:44.4992325Z"
+}

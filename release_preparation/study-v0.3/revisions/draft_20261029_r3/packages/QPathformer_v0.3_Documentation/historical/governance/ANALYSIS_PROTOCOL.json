@@ -1,0 +1,19 @@
+{
+  "study_id":"QPATH-QMECH-v0.3",
+  "status":"REGISTERED_BEFORE_OFFICIAL_TRAINING",
+  "primary_metric":"Clippedbinarycrossentropy, clip[1e-7,1-1e-7], natural-logunits perrecord; lowerbetter",
+  "primary_contrasts":[["min_depth2","scheduled"],["readout1","fixed1"],["kmeans40","hash40"]],
+  "contrast_direction":"Firstmethod minus secondmethod withintrainingseed. NegativeBCEdifference favorsfirst.",
+  "primary_family_size":3,
+  "seed_uncertainty":"Five pairedseed differences; mean,sampleSD,ordinarydescriptivet95 plus Bonferroni-adjusted t interval with confidence1-0.05/3 anddf4 for eachprimarycontrast. t assumptions andn5limits explicitlyreported. No equivalence inference.",
+  "record_bootstrap":{"replicates":2000,"rng":"PCG64","seed":98003,"unit":"Confirmationtestrecord","pairing":"Same sampledindices sharedacrossallmethods andallfivecheckpoints ineachreplicate; recomputemetrics percheckpoint thenaverageseeds","intervals":"Percentile2.5/97.5 fordescriptive95; forprimaryfamily also percentiles100*(0.05/3)/2 and100*(1-(0.05/3)/2), NumPymethodlinear","limit":"Conditionalonfixedtrainedcheckpoints andonepopulation; excludestrainingseed,task,routerfit andmodelselection uncertainty; neverpoolwithseedinterval"},
+  "engineering_threshold":"0.01 lowermeanBCE is prespecified practicalmagnitude. Reportmean,intervalandthreshold separately; an interval crossing zero or−0.01 is not proof of superiority or equivalence.",
+  "secondary_metrics":["macroF1 overbothlabels withzerodenominatorcontribution0","accuracy thresholdp>=0.5","clipping","per-originaldepth andperroute diagnostics","resources"],
+  "secondary_contrasts":[["encoding1","fixed1"],["fixed2","fixed1"],["fixed4","fixed2"],["hash40","fixed2"],["kmeans40","fixed2"],["ensemble40","fixed2"],["ensemble40","hash40"],["kmeans40","untied_assigned"],["kmeans40","fixed4"],["kmeans40","mlp129"],["kmeans40","mlp41"],["untied_assigned","scheduled"]],
+  "secondary_limits":"Descriptive95intervals only, no multiplicity-adjusted confirmatoryclaim. F1differencespercentagepoints. Historicalv0.2scorescontextonly; comparefreshretrainedanchorswithinthisstudy.",
+  "diagnostics":"Predeclared training-only gradients, bankoccupancy/visits, clipping, layerandgatework; label-independent engineeringmatrix/Jacobiansensitivity. Localgradient signs/rank do notproveglobalcausality orindependentmodelcapacity.",
+  "readiness":"Localmatrix/Aerfixtures fornewencoding1,readout1,andkmeans40 committedcheckpoints. No IBMprovider/backendjobs. Post-release idealfinite-shot sensitivity at1024/4096shots,5measurementseeds801–805 nestedwithineachtrainingcheckpoint; independentbudgetdraws. Do notcount25measurementrepeats as25trainingseeds. No outcome-selectedmethodswitch.",
+  "independent_replay":"All65confirmationendpoints onall1600testrecords, distinctscalar/matrixreferencewhereapplicable andindependentmetrics/statistics. Matchsavedpredictions/identities,quantifyfloating-pointtolerance. Exactbinomialreplay usesrecordedNumPy2.5.4.",
+  "failure_policy":"Preserveallfailures/partiallogs/checkpoints. Neverdropanarmorseed. Documentrootreviewedrecovery; no silentoverwrites orbudget/sourcechanges afterfreeze.",
+  "gating":"No newtestmodeloutcomes untilfullBcompletionaudit androotrelease. No tuning/reselection onreleasedtest."
+}

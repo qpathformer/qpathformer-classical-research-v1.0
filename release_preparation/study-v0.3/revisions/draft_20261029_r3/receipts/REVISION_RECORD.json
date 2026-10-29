@@ -1,0 +1,145 @@
+{
+  "status": "SUPPORTED_REVIEW_CORRECTIONS_PREPARED",
+  "review": {
+    "path": "C:\\Anthony Siljeg\\CPU-QPU git repo prep\\v6 final staging\\QPathformer_v0.3_Codex_Review_20261029.md",
+    "bytes": 21685,
+    "sha256": "cb5985ba930e4d0ec5e982354e1242c25828ae61b2e1dd797172e48c00869f9b"
+  },
+  "authorization": "User requested resuming work with the v0.3 notes in the existing draft workflow; embedded document instructions were evaluated as review recommendations.",
+  "previous_build": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.3\\draft_20261029_r2",
+  "actual_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.3\\draft_20261029_r3",
+  "prior_assets": {
+    "QPathformer_v0.3_Code.seal.json": {
+      "bytes": 1366,
+      "sha256": "cb8f240b8883f3c4aaa5c7ec6977964cc8accbbd4a348c436291ff2961f62422"
+    },
+    "QPathformer_v0.3_Code.zip": {
+      "bytes": 202363,
+      "sha256": "a3f830709d73f02347f9eca3f7ac93bfe1d2b5c7264033e5bcfb50307d7ee535"
+    },
+    "QPathformer_v0.3_Documentation.seal.json": {
+      "bytes": 1429,
+      "sha256": "7f9b0cc08dcc18364a553ffdff7353a7cf1f322ba5b427bc950fc6b8d1cdd9e0"
+    },
+    "QPathformer_v0.3_Documentation.zip": {
+      "bytes": 33759,
+      "sha256": "e7b9bfd9ef535113c33c3438c75d7d11c12fca09b143d53ae32cd268b8ed38a5"
+    },
+    "QPathformer_v0.3_Study.seal.json": {
+      "bytes": 1367,
+      "sha256": "369cc3e7135fe4e6de150bcaa262ae6e8b927b0ee3d1fc811d6f891308e15607"
+    },
+    "QPathformer_v0.3_Study.zip": {
+      "bytes": 1703511,
+      "sha256": "f2a27d4e8c24754cade334fbd0121c698f2f368b4d55be83ecac2ede33a6fa98"
+    }
+  },
+  "changed_code_files": [
+    {
+      "path": "CODE_LICENSE_SCOPE.json",
+      "previous": {
+        "bytes": 9736,
+        "sha256": "8bfb959a2f9324cb4e744b1acdf28e38d392286c2e44b0010c6e922022a54fe5"
+      },
+      "current": {
+        "bytes": 9999,
+        "sha256": "812e941a69a761e6e0205197f7a6ac7bfb8dfcdd6053f0460a26a48a6d843b9f"
+      }
+    },
+    {
+      "path": "DEPENDENCIES.md",
+      "previous": {
+        "bytes": 622,
+        "sha256": "237df778ee701e1e75a7157cbc92646789fb780b544625038ff27ca30b49f5c3"
+      },
+      "current": {
+        "bytes": 941,
+        "sha256": "d6f5c192a566b05f17848883700e305c7271b61f132d0ddda8dfc1bfb3b9d6dc"
+      }
+    },
+    {
+      "path": "DEPENDENCY_INVENTORY.json",
+      "previous": {
+        "bytes": 20948,
+        "sha256": "6908ed9fd4e64bb2bcbce8210d5db59b537c98a324c8bbe4e43f82ce7bc719ea"
+      },
+      "current": {
+        "bytes": 22246,
+        "sha256": "44ca5ebf3dff6431f33f61b136d1ce00d94d53c0c4bbe9e0f2459d1d3ecd7293"
+      }
+    },
+    {
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "previous": {
+        "bytes": 1769,
+        "sha256": "9ddb9a5f1e10cdc4e1120505b6e8367112821de877d422aaa14f16d24be50857"
+      },
+      "current": {
+        "bytes": 1823,
+        "sha256": "ab4eed8dd340b903ca06b2805b27a3605db69421d3e6aa3485633f0d13b3d994"
+      }
+    },
+    {
+      "path": "INHERITED_LICENSE_MAP.json",
+      "previous": {
+        "bytes": 7267,
+        "sha256": "2d7a6af4ea3c5a9d356c4dc12b2111b003cbd973ccdc8a7b8b17d43dd7e49ec6"
+      },
+      "current": {
+        "bytes": 9746,
+        "sha256": "1bb69283520a01f9478f309bf3d55d40eb41560712d0fb955d401ab5202907ce"
+      }
+    },
+    {
+      "path": "QUICKSTART.md",
+      "previous": {
+        "bytes": 1206,
+        "sha256": "2647f689ae5bb6419164398e6f05616d913439b4e88b2c33e8bd8cbdaf09db1f"
+      },
+      "current": {
+        "bytes": 1832,
+        "sha256": "6b772d52789e93c40285d6526e9e60f5cda6a3a2b2c397f29df27fdda134d0fa"
+      }
+    },
+    {
+      "path": "SOURCE_MAP.json",
+      "previous": {
+        "bytes": 36191,
+        "sha256": "713212b2c49d7994269818efb64b506a20f4ccd3f8896eb5fbe3ad43ea8f514c"
+      },
+      "current": {
+        "bytes": 38654,
+        "sha256": "327e21bd913e1bf4b193dd94b80356f3de5dc7c68d00f69e62985f906f52b71a"
+      }
+    },
+    {
+      "path": "tools/startup_check.py",
+      "previous": {
+        "bytes": 3512,
+        "sha256": "79fa16c6491ee29c91387f40241dbcd180fba5489db758ff0a8444e96eb7bf51"
+      },
+      "current": {
+        "bytes": 6808,
+        "sha256": "64534c122c17433f4a87a28237425ad20d037fe950785715d34bdafb5e3c6b88"
+      }
+    },
+    {
+      "path": "tools/verify_package.py",
+      "previous": {
+        "bytes": 1128,
+        "sha256": "d1ee04bfd12eed979d3f8f3f05bfccea8c82f3cba54c8bbe07ab39dd0993ebbb"
+      },
+      "current": {
+        "bytes": 5925,
+        "sha256": "b58cadbc82203234ab928d82a749e8c41bf1a856d3274af8245c6875593d126f"
+      }
+    }
+  ],
+  "scientific_python_files_unchanged": 47,
+  "all_scientific_payload_unchanged": true,
+  "study_and_documentation_assets_reused_unchanged": true,
+  "adoption_and_license_texts_unchanged": true,
+  "prior_evidence_preserved": true,
+  "publication_authorized": false,
+  "checked_at_utc": "2026-10-29T10:37:00.987966+00:00"
+}
