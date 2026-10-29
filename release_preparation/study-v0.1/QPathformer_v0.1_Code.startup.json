@@ -1,0 +1,260 @@
+{
+  "schema": "qpath-v01-bounded-startup-1",
+  "status": "PASS",
+  "started_at_utc": "2026-10-29T07:24:10.528908+00:00",
+  "package_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\staging_20261029\\qa\\fresh_extraction\\QPathformer_v0.1_Code",
+  "interpreter": "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+  "platform": {
+    "system": "Windows",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "sys_platform": "win32"
+  },
+  "parent_optimization": 0,
+  "child_flags": [
+    "-E",
+    "-B",
+    "-X",
+    "utf8"
+  ],
+  "temporary_work_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\staging_20261029\\qa\\temp",
+  "checks": [
+    {
+      "name": "runtime_imports_and_versions",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-E",
+        "-B",
+        "-X",
+        "utf8",
+        "-c",
+        "\nimport json, os, runpy, socket, sys\nif sys.flags.optimize != 0:\n    raise RuntimeError(\"Child optimization must be disabled\")\ndef deny(*args, **kwargs):\n    raise RuntimeError(\"Bounded startup: outbound Python socket access is disabled\")\nsocket.socket.connect = deny\nsocket.socket.connect_ex = deny\nsocket.socket.sendto = deny\nsocket.create_connection = deny\nsocket.getaddrinfo = deny\nsocket.gethostbyname = deny\nsocket.gethostbyname_ex = deny\nspec = json.loads(sys.argv[1])\nsys.path.insert(0, os.getcwd())\nif spec[\"mode\"] == \"code\":\n    exec(compile(spec[\"code\"], \"<bounded-startup-check>\", \"exec\"), {\"__name__\": \"__main__\"})\nelif spec[\"mode\"] == \"module\":\n    sys.argv = [spec[\"entry\"], *spec.get(\"args\", [])]\n    runpy.run_module(spec[\"entry\"], run_name=\"__main__\")\nelif spec[\"mode\"] == \"script\":\n    sys.argv = [spec[\"entry\"], *spec.get(\"args\", [])]\n    runpy.run_path(spec[\"entry\"], run_name=\"__main__\")\nelse:\n    raise RuntimeError(\"Unknown bounded check mode\")\n",
+        "{\"mode\": \"code\", \"code\": \"import json, platform, sys, importlib.metadata\\nimport numpy, scipy, torch, tokenizers, qiskit, qiskit_aer\\nprint(json.dumps({'python': platform.python_version(), 'optimize': sys.flags.optimize, 'assertions_enabled': __debug__, 'packages': {name: importlib.metadata.version(name) for name in ['numpy','scipy','torch','tokenizers','qiskit','qiskit-aer']}}))\\n\"}"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\staging_20261029\\qa\\temp\\qpath-v01-startup-q9k_48mu\\study\\quantum\\code",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "{\"python\": \"3.12.14\", \"optimize\": 0, \"assertions_enabled\": true, \"packages\": {\"numpy\": \"2.5.4\", \"scipy\": \"1.18.1\", \"torch\": \"2.14.1+cpu\", \"tokenizers\": \"0.23.3\", \"qiskit\": \"2.6.0\", \"qiskit-aer\": \"0.17.2\"}}\n",
+      "stderr": "",
+      "elapsed_seconds": 7.312
+    },
+    {
+      "name": "quantum_runner_help",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-E",
+        "-B",
+        "-X",
+        "utf8",
+        "-c",
+        "\nimport json, os, runpy, socket, sys\nif sys.flags.optimize != 0:\n    raise RuntimeError(\"Child optimization must be disabled\")\ndef deny(*args, **kwargs):\n    raise RuntimeError(\"Bounded startup: outbound Python socket access is disabled\")\nsocket.socket.connect = deny\nsocket.socket.connect_ex = deny\nsocket.socket.sendto = deny\nsocket.create_connection = deny\nsocket.getaddrinfo = deny\nsocket.gethostbyname = deny\nsocket.gethostbyname_ex = deny\nspec = json.loads(sys.argv[1])\nsys.path.insert(0, os.getcwd())\nif spec[\"mode\"] == \"code\":\n    exec(compile(spec[\"code\"], \"<bounded-startup-check>\", \"exec\"), {\"__name__\": \"__main__\"})\nelif spec[\"mode\"] == \"module\":\n    sys.argv = [spec[\"entry\"], *spec.get(\"args\", [])]\n    runpy.run_module(spec[\"entry\"], run_name=\"__main__\")\nelif spec[\"mode\"] == \"script\":\n    sys.argv = [spec[\"entry\"], *spec.get(\"args\", [])]\n    runpy.run_path(spec[\"entry\"], run_name=\"__main__\")\nelse:\n    raise RuntimeError(\"Unknown bounded check mode\")\n",
+        "{\"mode\": \"module\", \"entry\": \"qpath.quantum_runner\", \"args\": [\"--help\"]}"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\staging_20261029\\qa\\temp\\qpath-v01-startup-q9k_48mu\\study\\quantum\\code",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "usage: qpath.quantum_runner [-h] --output OUTPUT [--preset {smoke,full}]\n                            [--epochs EPOCHS] [--train-limit TRAIN_LIMIT]\n                            [--seed SEED] [--evaluate-test]\n                            [--methods {scheduled_quantum,shuffled_quantum,fixed_quantum_1,fixed_quantum_2,fixed_quantum_3,fixed_quantum_4,matched_mlp,shuffled_matched_mlp,richer_mlp} [{scheduled_quantum,shuffled_quantum,fixed_quantum_1,fixed_quantum_2,fixed_quantum_3,fixed_quantum_4,matched_mlp,shuffled_matched_mlp,richer_mlp} ...]]\n\nInternal NumPy training runner. Default: reduced local engineering smoke.\npython -m qpath.quantum_runner --output runs/local_quantum --epochs 3 --train-\nlimit 256 python -m qpath.quantum_runner --preset full --output runs/dev101\n--seed 101 The full preset is a development run: it reports validation\ndiagnostics and does not evaluate the frozen test population. After externally\nfreezing the study protocol, --evaluate-test is available only with full and\nseed 201..205. That explicit test access is a final candidate evaluation, not\na completed final programme or paper result. It must not be used to tune\nsettings. Every invocation owns a new output directory and preserves errors\nand artifacts.\n\noptions:\n  -h, --help            show this help message and exit\n  --output OUTPUT\n  --preset {smoke,full}\n  --epochs EPOCHS\n  --train-limit TRAIN_LIMIT\n  --seed SEED\n  --evaluate-test       Explicit frozen-test evaluation after protocol\n                        registration; requires full and seed 201..205. Never\n                        use for tuning.\n  --methods {scheduled_quantum,shuffled_quantum,fixed_quantum_1,fixed_quantum_2,fixed_quantum_3,fixed_quantum_4,matched_mlp,shuffled_matched_mlp,richer_mlp} [{scheduled_quantum,shuffled_quantum,fixed_quantum_1,fixed_quantum_2,fixed_quantum_3,fixed_quantum_4,matched_mlp,shuffled_matched_mlp,richer_mlp} ...]\n",
+      "stderr": "",
+      "elapsed_seconds": 0.219
+    },
+    {
+      "name": "offline_capsule_help",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-E",
+        "-B",
+        "-X",
+        "utf8",
+        "-c",
+        "\nimport json, os, runpy, socket, sys\nif sys.flags.optimize != 0:\n    raise RuntimeError(\"Child optimization must be disabled\")\ndef deny(*args, **kwargs):\n    raise RuntimeError(\"Bounded startup: outbound Python socket access is disabled\")\nsocket.socket.connect = deny\nsocket.socket.connect_ex = deny\nsocket.socket.sendto = deny\nsocket.create_connection = deny\nsocket.getaddrinfo = deny\nsocket.gethostbyname = deny\nsocket.gethostbyname_ex = deny\nspec = json.loads(sys.argv[1])\nsys.path.insert(0, os.getcwd())\nif spec[\"mode\"] == \"code\":\n    exec(compile(spec[\"code\"], \"<bounded-startup-check>\", \"exec\"), {\"__name__\": \"__main__\"})\nelif spec[\"mode\"] == \"module\":\n    sys.argv = [spec[\"entry\"], *spec.get(\"args\", [])]\n    runpy.run_module(spec[\"entry\"], run_name=\"__main__\")\nelif spec[\"mode\"] == \"script\":\n    sys.argv = [spec[\"entry\"], *spec.get(\"args\", [])]\n    runpy.run_path(spec[\"entry\"], run_name=\"__main__\")\nelse:\n    raise RuntimeError(\"Unknown bounded check mode\")\n",
+        "{\"mode\": \"module\", \"entry\": \"qpath.capsule\", \"args\": [\"--help\"]}"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\staging_20261029\\qa\\temp\\qpath-v01-startup-q9k_48mu\\study\\quantum\\code",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "usage: qpath.capsule [-h] --output OUTPUT [--config CONFIG]\n\nExport and execute an entirely local, auditable IBM quantum test capsule.\n\noptions:\n  -h, --help       show this help message and exit\n  --output OUTPUT  New empty result directory\n  --config CONFIG\n",
+      "stderr": "",
+      "elapsed_seconds": 0.219
+    },
+    {
+      "name": "classical_benchmark_help",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-E",
+        "-B",
+        "-X",
+        "utf8",
+        "-c",
+        "\nimport json, os, runpy, socket, sys\nif sys.flags.optimize != 0:\n    raise RuntimeError(\"Child optimization must be disabled\")\ndef deny(*args, **kwargs):\n    raise RuntimeError(\"Bounded startup: outbound Python socket access is disabled\")\nsocket.socket.connect = deny\nsocket.socket.connect_ex = deny\nsocket.socket.sendto = deny\nsocket.create_connection = deny\nsocket.getaddrinfo = deny\nsocket.gethostbyname = deny\nsocket.gethostbyname_ex = deny\nspec = json.loads(sys.argv[1])\nsys.path.insert(0, os.getcwd())\nif spec[\"mode\"] == \"code\":\n    exec(compile(spec[\"code\"], \"<bounded-startup-check>\", \"exec\"), {\"__name__\": \"__main__\"})\nelif spec[\"mode\"] == \"module\":\n    sys.argv = [spec[\"entry\"], *spec.get(\"args\", [])]\n    runpy.run_module(spec[\"entry\"], run_name=\"__main__\")\nelif spec[\"mode\"] == \"script\":\n    sys.argv = [spec[\"entry\"], *spec.get(\"args\", [])]\n    runpy.run_path(spec[\"entry\"], run_name=\"__main__\")\nelse:\n    raise RuntimeError(\"Unknown bounded check mode\")\n",
+        "{\"mode\": \"script\", \"entry\": \"benchmark.py\", \"args\": [\"--help\"]}"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\staging_20261029\\qa\\temp\\qpath-v01-startup-q9k_48mu\\study\\classical",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "usage: benchmark.py [-h] [--preflight] [--freeze-only]\n                    [--seeds SEEDS [SEEDS ...]]\n\nInternal full-shape, fixed-update AG News comparison; local GPU execution\nonly. This runs the uniform shared-adapter and uniform content-routed methods.\nIt is not the semantic-priority factorial study or the development-qualified\nprimary efficiency comparison. The official test is scored only at frozen\ncheckpoints.\n\noptions:\n  -h, --help            show this help message and exit\n  --preflight\n  --freeze-only\n  --seeds SEEDS [SEEDS ...]\n",
+      "stderr": "",
+      "elapsed_seconds": 1.703
+    },
+    {
+      "name": "trained_readiness_help",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-E",
+        "-B",
+        "-X",
+        "utf8",
+        "-c",
+        "\nimport json, os, runpy, socket, sys\nif sys.flags.optimize != 0:\n    raise RuntimeError(\"Child optimization must be disabled\")\ndef deny(*args, **kwargs):\n    raise RuntimeError(\"Bounded startup: outbound Python socket access is disabled\")\nsocket.socket.connect = deny\nsocket.socket.connect_ex = deny\nsocket.socket.sendto = deny\nsocket.create_connection = deny\nsocket.getaddrinfo = deny\nsocket.gethostbyname = deny\nsocket.gethostbyname_ex = deny\nspec = json.loads(sys.argv[1])\nsys.path.insert(0, os.getcwd())\nif spec[\"mode\"] == \"code\":\n    exec(compile(spec[\"code\"], \"<bounded-startup-check>\", \"exec\"), {\"__name__\": \"__main__\"})\nelif spec[\"mode\"] == \"module\":\n    sys.argv = [spec[\"entry\"], *spec.get(\"args\", [])]\n    runpy.run_module(spec[\"entry\"], run_name=\"__main__\")\nelif spec[\"mode\"] == \"script\":\n    sys.argv = [spec[\"entry\"], *spec.get(\"args\", [])]\n    runpy.run_path(spec[\"entry\"], run_name=\"__main__\")\nelse:\n    raise RuntimeError(\"Unknown bounded check mode\")\n",
+        "{\"mode\": \"script\", \"entry\": \"evaluate_readiness.py\", \"args\": [\"--help\"]}"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\staging_20261029\\qa\\temp\\qpath-v01-startup-q9k_48mu\\study\\ibm_readiness",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "usage: evaluate_readiness.py [-h] [--freeze] [--protocol PROTOCOL]\n                             [--runs RUNS] [--package PACKAGE]\n                             [--output OUTPUT]\n\nInternal, offline audit of frozen trained circuits; no hardware submission.\n\noptions:\n  -h, --help           show this help message and exit\n  --freeze\n  --protocol PROTOCOL\n  --runs RUNS\n  --package PACKAGE\n  --output OUTPUT\n",
+      "stderr": "",
+      "elapsed_seconds": 0.219
+    },
+    {
+      "name": "five_quantum_unit_tests",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-E",
+        "-B",
+        "-X",
+        "utf8",
+        "-c",
+        "\nimport json, os, runpy, socket, sys\nif sys.flags.optimize != 0:\n    raise RuntimeError(\"Child optimization must be disabled\")\ndef deny(*args, **kwargs):\n    raise RuntimeError(\"Bounded startup: outbound Python socket access is disabled\")\nsocket.socket.connect = deny\nsocket.socket.connect_ex = deny\nsocket.socket.sendto = deny\nsocket.create_connection = deny\nsocket.getaddrinfo = deny\nsocket.gethostbyname = deny\nsocket.gethostbyname_ex = deny\nspec = json.loads(sys.argv[1])\nsys.path.insert(0, os.getcwd())\nif spec[\"mode\"] == \"code\":\n    exec(compile(spec[\"code\"], \"<bounded-startup-check>\", \"exec\"), {\"__name__\": \"__main__\"})\nelif spec[\"mode\"] == \"module\":\n    sys.argv = [spec[\"entry\"], *spec.get(\"args\", [])]\n    runpy.run_module(spec[\"entry\"], run_name=\"__main__\")\nelif spec[\"mode\"] == \"script\":\n    sys.argv = [spec[\"entry\"], *spec.get(\"args\", [])]\n    runpy.run_path(spec[\"entry\"], run_name=\"__main__\")\nelse:\n    raise RuntimeError(\"Unknown bounded check mode\")\n",
+        "{\"mode\": \"code\", \"code\": \"import sys, unittest\\nfrom pathlib import Path\\nsys.path.insert(0, str(Path.cwd() / 'tests'))\\nsuite = unittest.defaultTestLoader.loadTestsFromNames(['test_quantum.QuantumTests.test_parameter_shift_matches_finite_difference_of_loss', 'test_quantum.QuantumTests.test_inactive_prefix_gradient_is_zero', 'test_quantum.QuantumTests.test_global_phase_alignment_and_unitarity', 'test_quantum.QuantumTests.test_probability_threshold_tie_and_macro_f1', 'test_quantum.QuantumTests.test_invalid_depth_and_class_rejected'])\\nresult = unittest.TextTestRunner(verbosity=2).run(suite)\\nif result.testsRun != 5 or not result.wasSuccessful(): raise SystemExit(1)\\n\"}"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\staging_20261029\\qa\\temp\\qpath-v01-startup-q9k_48mu\\study\\quantum\\code",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_parameter_shift_matches_finite_difference_of_loss (test_quantum.QuantumTests.test_parameter_shift_matches_finite_difference_of_loss) ... ok\ntest_inactive_prefix_gradient_is_zero (test_quantum.QuantumTests.test_inactive_prefix_gradient_is_zero) ... ok\ntest_global_phase_alignment_and_unitarity (test_quantum.QuantumTests.test_global_phase_alignment_and_unitarity) ... ok\ntest_probability_threshold_tie_and_macro_f1 (test_quantum.QuantumTests.test_probability_threshold_tie_and_macro_f1) ... ok\ntest_invalid_depth_and_class_rejected (test_quantum.QuantumTests.test_invalid_depth_and_class_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.181s\n\nOK\n",
+      "elapsed_seconds": 0.453
+    },
+    {
+      "name": "three_classical_forward_guard_tests",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-E",
+        "-B",
+        "-X",
+        "utf8",
+        "-c",
+        "\nimport json, os, runpy, socket, sys\nif sys.flags.optimize != 0:\n    raise RuntimeError(\"Child optimization must be disabled\")\ndef deny(*args, **kwargs):\n    raise RuntimeError(\"Bounded startup: outbound Python socket access is disabled\")\nsocket.socket.connect = deny\nsocket.socket.connect_ex = deny\nsocket.socket.sendto = deny\nsocket.create_connection = deny\nsocket.getaddrinfo = deny\nsocket.gethostbyname = deny\nsocket.gethostbyname_ex = deny\nspec = json.loads(sys.argv[1])\nsys.path.insert(0, os.getcwd())\nif spec[\"mode\"] == \"code\":\n    exec(compile(spec[\"code\"], \"<bounded-startup-check>\", \"exec\"), {\"__name__\": \"__main__\"})\nelif spec[\"mode\"] == \"module\":\n    sys.argv = [spec[\"entry\"], *spec.get(\"args\", [])]\n    runpy.run_module(spec[\"entry\"], run_name=\"__main__\")\nelif spec[\"mode\"] == \"script\":\n    sys.argv = [spec[\"entry\"], *spec.get(\"args\", [])]\n    runpy.run_path(spec[\"entry\"], run_name=\"__main__\")\nelse:\n    raise RuntimeError(\"Unknown bounded check mode\")\n",
+        "{\"mode\": \"code\", \"code\": \"import sys, unittest\\nfrom pathlib import Path\\nsys.path.insert(0, str(Path.cwd() / 'tests'))\\nsuite = unittest.defaultTestLoader.loadTestsFromNames(['test_classical.ClassicalTests.test_raw_residual_and_router_copy', 'test_classical.ClassicalTests.test_cosine_ties_choose_first_and_padding_does_not_change_logits', 'test_classical.ClassicalTests.test_missing_saved_tokenizer_or_provenance_fails_closed'])\\nresult = unittest.TextTestRunner(verbosity=2).run(suite)\\nif result.testsRun != 3 or not result.wasSuccessful(): raise SystemExit(1)\\n\"}"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\staging_20261029\\qa\\temp\\qpath-v01-startup-q9k_48mu\\study\\classical",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_raw_residual_and_router_copy (test_classical.ClassicalTests.test_raw_residual_and_router_copy) ... ok\ntest_cosine_ties_choose_first_and_padding_does_not_change_logits (test_classical.ClassicalTests.test_cosine_ties_choose_first_and_padding_does_not_change_logits) ... ok\ntest_missing_saved_tokenizer_or_provenance_fails_closed (test_classical.ClassicalTests.test_missing_saved_tokenizer_or_provenance_fails_closed) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.041s\n\nOK\n",
+      "elapsed_seconds": 1.656
+    },
+    {
+      "name": "three_policy_tests",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-E",
+        "-B",
+        "-X",
+        "utf8",
+        "-c",
+        "\nimport json, os, runpy, socket, sys\nif sys.flags.optimize != 0:\n    raise RuntimeError(\"Child optimization must be disabled\")\ndef deny(*args, **kwargs):\n    raise RuntimeError(\"Bounded startup: outbound Python socket access is disabled\")\nsocket.socket.connect = deny\nsocket.socket.connect_ex = deny\nsocket.socket.sendto = deny\nsocket.create_connection = deny\nsocket.getaddrinfo = deny\nsocket.gethostbyname = deny\nsocket.gethostbyname_ex = deny\nspec = json.loads(sys.argv[1])\nsys.path.insert(0, os.getcwd())\nif spec[\"mode\"] == \"code\":\n    exec(compile(spec[\"code\"], \"<bounded-startup-check>\", \"exec\"), {\"__name__\": \"__main__\"})\nelif spec[\"mode\"] == \"module\":\n    sys.argv = [spec[\"entry\"], *spec.get(\"args\", [])]\n    runpy.run_module(spec[\"entry\"], run_name=\"__main__\")\nelif spec[\"mode\"] == \"script\":\n    sys.argv = [spec[\"entry\"], *spec.get(\"args\", [])]\n    runpy.run_path(spec[\"entry\"], run_name=\"__main__\")\nelse:\n    raise RuntimeError(\"Unknown bounded check mode\")\n",
+        "{\"mode\": \"code\", \"code\": \"import sys, unittest\\nfrom pathlib import Path\\nsys.path.insert(0, str(Path.cwd() / 'tests'))\\nsuite = unittest.defaultTestLoader.loadTestsFromNames(['test_policies.PriorityTests.test_complete_and_unknown_are_distinct', 'test_policies.StableRoutingTests.test_unicode_case_whitespace_identity', 'test_policies.SnapshotBudgetTests.test_invalid_charges_cannot_corrupt_the_episode_counter'])\\nresult = unittest.TextTestRunner(verbosity=2).run(suite)\\nif result.testsRun != 3 or not result.wasSuccessful(): raise SystemExit(1)\\n\"}"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\staging_20261029\\qa\\temp\\qpath-v01-startup-q9k_48mu\\study\\classical",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_complete_and_unknown_are_distinct (test_policies.PriorityTests.test_complete_and_unknown_are_distinct) ... ok\ntest_unicode_case_whitespace_identity (test_policies.StableRoutingTests.test_unicode_case_whitespace_identity) ... ok\ntest_invalid_charges_cannot_corrupt_the_episode_counter (test_policies.SnapshotBudgetTests.test_invalid_charges_cannot_corrupt_the_episode_counter) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nOK\n",
+      "elapsed_seconds": 0.187
+    },
+    {
+      "name": "four_readiness_unit_tests",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-E",
+        "-B",
+        "-X",
+        "utf8",
+        "-c",
+        "\nimport json, os, runpy, socket, sys\nif sys.flags.optimize != 0:\n    raise RuntimeError(\"Child optimization must be disabled\")\ndef deny(*args, **kwargs):\n    raise RuntimeError(\"Bounded startup: outbound Python socket access is disabled\")\nsocket.socket.connect = deny\nsocket.socket.connect_ex = deny\nsocket.socket.sendto = deny\nsocket.create_connection = deny\nsocket.getaddrinfo = deny\nsocket.gethostbyname = deny\nsocket.gethostbyname_ex = deny\nspec = json.loads(sys.argv[1])\nsys.path.insert(0, os.getcwd())\nif spec[\"mode\"] == \"code\":\n    exec(compile(spec[\"code\"], \"<bounded-startup-check>\", \"exec\"), {\"__name__\": \"__main__\"})\nelif spec[\"mode\"] == \"module\":\n    sys.argv = [spec[\"entry\"], *spec.get(\"args\", [])]\n    runpy.run_module(spec[\"entry\"], run_name=\"__main__\")\nelif spec[\"mode\"] == \"script\":\n    sys.argv = [spec[\"entry\"], *spec.get(\"args\", [])]\n    runpy.run_path(spec[\"entry\"], run_name=\"__main__\")\nelse:\n    raise RuntimeError(\"Unknown bounded check mode\")\n",
+        "{\"mode\": \"code\", \"code\": \"import sys, unittest\\nfrom pathlib import Path\\nsuite = unittest.defaultTestLoader.loadTestsFromNames(['test_readiness.ReadinessTests.test_fixture_uses_validation_membership_not_input_order', 'test_readiness.ReadinessTests.test_bank_padding_keeps_active_parameters', 'test_readiness.ReadinessTests.test_asymmetric_readout_direction', 'test_readiness.ReadinessTests.test_wilson_interval_interior_and_extremes'])\\nresult = unittest.TextTestRunner(verbosity=2).run(suite)\\nif result.testsRun != 4 or not result.wasSuccessful(): raise SystemExit(1)\\n\"}"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\staging_20261029\\qa\\temp\\qpath-v01-startup-q9k_48mu\\study\\ibm_readiness",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_fixture_uses_validation_membership_not_input_order (test_readiness.ReadinessTests.test_fixture_uses_validation_membership_not_input_order) ... ok\ntest_bank_padding_keeps_active_parameters (test_readiness.ReadinessTests.test_bank_padding_keeps_active_parameters) ... ok\ntest_asymmetric_readout_direction (test_readiness.ReadinessTests.test_asymmetric_readout_direction) ... ok\ntest_wilson_interval_interior_and_extremes (test_readiness.ReadinessTests.test_wilson_interval_interior_and_extremes) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.003s\n\nOK\n",
+      "elapsed_seconds": 0.75
+    },
+    {
+      "name": "one_local_circuit_compile_matrix_check",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-E",
+        "-B",
+        "-X",
+        "utf8",
+        "-c",
+        "\nimport json, os, runpy, socket, sys\nif sys.flags.optimize != 0:\n    raise RuntimeError(\"Child optimization must be disabled\")\ndef deny(*args, **kwargs):\n    raise RuntimeError(\"Bounded startup: outbound Python socket access is disabled\")\nsocket.socket.connect = deny\nsocket.socket.connect_ex = deny\nsocket.socket.sendto = deny\nsocket.create_connection = deny\nsocket.getaddrinfo = deny\nsocket.gethostbyname = deny\nsocket.gethostbyname_ex = deny\nspec = json.loads(sys.argv[1])\nsys.path.insert(0, os.getcwd())\nif spec[\"mode\"] == \"code\":\n    exec(compile(spec[\"code\"], \"<bounded-startup-check>\", \"exec\"), {\"__name__\": \"__main__\"})\nelif spec[\"mode\"] == \"module\":\n    sys.argv = [spec[\"entry\"], *spec.get(\"args\", [])]\n    runpy.run_module(spec[\"entry\"], run_name=\"__main__\")\nelif spec[\"mode\"] == \"script\":\n    sys.argv = [spec[\"entry\"], *spec.get(\"args\", [])]\n    runpy.run_path(spec[\"entry\"], run_name=\"__main__\")\nelse:\n    raise RuntimeError(\"Unknown bounded check mode\")\n",
+        "{\"mode\": \"code\", \"code\": \"import json, numpy as np\\nfrom qpath import reference, ibm\\nbank=np.arange(16,dtype=float).reshape(4,2,2)/32\\nx=[0.25,-0.5]\\ncircuit=ibm.build_circuit(x,bank,2)\\ncompiled=ibm.compile_local(circuit)\\nerror=ibm.aligned_error(reference.unitary(x,bank,2),ibm.logical_unitary(compiled))\\nif error>1e-10: raise RuntimeError('Local compiled/reference matrix mismatch')\\nprint(json.dumps({'circuits':1,'maximum_matrix_error':error,'physical_jobs':0,'shots':0}))\\n\"}"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\staging_20261029\\qa\\temp\\qpath-v01-startup-q9k_48mu\\study\\quantum\\code",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "{\"circuits\": 1, \"maximum_matrix_error\": 3.376611507232129e-16, \"physical_jobs\": 0, \"shots\": 0}\n",
+      "stderr": "",
+      "elapsed_seconds": 0.532
+    }
+  ],
+  "failures": [],
+  "verification_before": {
+    "status": "PASS",
+    "package_files": 51,
+    "manifest_entries": 49,
+    "checksum_entries": 50,
+    "python_files_parsed": 24,
+    "study_code_imported_or_executed": false
+  },
+  "scope": "Imports, CLI help, 15 selected non-training unit tests, one local circuit compilation/matrix check.",
+  "not_verified": [
+    "Full scientific reproduction",
+    "Official prediction replay or test scoring",
+    "Training, optimizer updates or tokenizer fitting",
+    "CUDA execution",
+    "Complete test suites",
+    "Fresh dependency installation",
+    "Cross-machine portability",
+    "Full archive restore",
+    "IBM device compilation, calibration or QPU execution"
+  ],
+  "official_training_or_scoring_started": false,
+  "optimizer_updates": 0,
+  "simulated_shots": 0,
+  "physical_shots": 0,
+  "hardware_jobs": 0,
+  "network_boundary": "Python outbound socket calls blocked in each child; no OS-level network sandbox is claimed.",
+  "original_classical_cli_thread_note": "Preserved benchmark.py sets OMP/OPENBLAS/MKL variables to 4 during CLI import.",
+  "retained_test_methods": 15,
+  "requested_thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "BLIS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "RAYON_NUM_THREADS": "1"
+  },
+  "verification_after": {
+    "status": "PASS",
+    "package_files": 51,
+    "manifest_entries": 49,
+    "checksum_entries": 50,
+    "python_files_parsed": 24,
+    "study_code_imported_or_executed": false
+  },
+  "package_bytes_unchanged": true,
+  "finished_at_utc": "2026-10-29T07:24:24.065411+00:00"
+}

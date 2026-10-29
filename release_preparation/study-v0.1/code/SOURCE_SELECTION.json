@@ -1,0 +1,676 @@
+{
+  "schema": "qpath-v01-code-source-selection-1",
+  "status": "PRIVATE_OWNER_REVIEW",
+  "created_at_utc": "2026-10-29T07:16:59.692966+00:00",
+  "scientific_study": "Full_Local_Benchmark_v0.1",
+  "earlier_implementation": "Implementation_v0.1",
+  "repository_edition": "v1.0",
+  "release_tag": "study-v0.1",
+  "source_files": 34,
+  "source_python_files": 22,
+  "new_review_python_files": 2,
+  "proposed_python_scope_count": 24,
+  "original_delivery_manifest": {
+    "path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\DELIVERY_MANIFEST.json",
+    "sha256": "03bcfc043585696c1288d926fba882c9cc5be8c36f87681c38bb2f6fa77465c3"
+  },
+  "previous_code_grant": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\v1.0\\final_20261029\\inputs\\release_assets\\CODE_LICENSE_SCOPE.json",
+    "sha256": "02d5e60edbe02f42f94fa273b644cd5e597a2d67e2f9ee1fed913eacb45966d4",
+    "files": 38
+  },
+  "previous_grant_exact_byte_match_count": 0,
+  "licensing": "Proposed exact 24-Python-file selection for owner review. No v0.1 adoption is inferred from the v0.9.5 38-file grant. Supporting documents are separately scoped.",
+  "files": [
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\quantum\\code\\qpath\\__init__.py",
+      "source_relative_path": "quantum/code/qpath/__init__.py",
+      "target_relative_path": "payload/study/quantum/code/qpath/__init__.py",
+      "bytes": 85,
+      "sha256": "05824d3c944b73dd461a8aaabd287cdb1618b70f9d2232d3ebf418d4ca08d14d",
+      "reason": "Preserve every file identified in the frozen quantum benchmark source set; includes inherited prototype modules.",
+      "classification": "frozen_study_python",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "original_quantum_protocol_match": true,
+      "implementation_v01_byte_identical": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\quantum\\code\\qpath\\capsule.py",
+      "source_relative_path": "quantum/code/qpath/capsule.py",
+      "target_relative_path": "payload/study/quantum/code/qpath/capsule.py",
+      "bytes": 14692,
+      "sha256": "1584dbeb71ce900f6bedf0c4b5b9d1f4423ef9abaec1864a9fe072bcfa0ba3f0",
+      "reason": "Preserve every file identified in the frozen quantum benchmark source set; includes inherited prototype modules.",
+      "classification": "frozen_study_python",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "original_quantum_protocol_match": true,
+      "implementation_v01_byte_identical": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\quantum\\code\\qpath\\classical.py",
+      "source_relative_path": "quantum/code/qpath/classical.py",
+      "target_relative_path": "payload/study/quantum/code/qpath/classical.py",
+      "bytes": 19754,
+      "sha256": "c7ce09321ef3b002495e8f4f73118b0b47cc02d6f54847b4f4caa530223be073",
+      "reason": "Preserve every file identified in the frozen quantum benchmark source set; includes inherited prototype modules.",
+      "classification": "frozen_study_python",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "original_quantum_protocol_match": true,
+      "implementation_v01_byte_identical": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\quantum\\code\\qpath\\classical_runner.py",
+      "source_relative_path": "quantum/code/qpath/classical_runner.py",
+      "target_relative_path": "payload/study/quantum/code/qpath/classical_runner.py",
+      "bytes": 17997,
+      "sha256": "b881539af3306555b245778b613f6083f32456ff0e17f13b00299d1a5a2cee0b",
+      "reason": "Preserve every file identified in the frozen quantum benchmark source set; includes inherited prototype modules.",
+      "classification": "frozen_study_python",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "original_quantum_protocol_match": true,
+      "implementation_v01_byte_identical": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\quantum\\code\\qpath\\data.py",
+      "source_relative_path": "quantum/code/qpath/data.py",
+      "target_relative_path": "payload/study/quantum/code/qpath/data.py",
+      "bytes": 3078,
+      "sha256": "b827e92b2e9c0b861c12eecc8eb539cb6703490d1354aed6065dfedfeabf2ab1",
+      "reason": "Preserve every file identified in the frozen quantum benchmark source set; includes inherited prototype modules.",
+      "classification": "frozen_study_python",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "original_quantum_protocol_match": true,
+      "implementation_v01_byte_identical": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\quantum\\code\\qpath\\ibm.py",
+      "source_relative_path": "quantum/code/qpath/ibm.py",
+      "target_relative_path": "payload/study/quantum/code/qpath/ibm.py",
+      "bytes": 6663,
+      "sha256": "eb58b72c8f615dacf1f3681f9a7287bb5da97b59ff4833c198ecc9a8a369bb0d",
+      "reason": "Preserve every file identified in the frozen quantum benchmark source set; includes inherited prototype modules.",
+      "classification": "frozen_study_python",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "original_quantum_protocol_match": true,
+      "implementation_v01_byte_identical": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\quantum\\code\\qpath\\offline.py",
+      "source_relative_path": "quantum/code/qpath/offline.py",
+      "target_relative_path": "payload/study/quantum/code/qpath/offline.py",
+      "bytes": 1079,
+      "sha256": "c57469a7936fd159ef1bf7ec8867f47dcb9c27a03f8c5445895c78cffba9bec0",
+      "reason": "Preserve every file identified in the frozen quantum benchmark source set; includes inherited prototype modules.",
+      "classification": "frozen_study_python",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "original_quantum_protocol_match": true,
+      "implementation_v01_byte_identical": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\quantum\\code\\qpath\\policies.py",
+      "source_relative_path": "quantum/code/qpath/policies.py",
+      "target_relative_path": "payload/study/quantum/code/qpath/policies.py",
+      "bytes": 12368,
+      "sha256": "f3418f4111285b2f2819b51a96ef23cf5b1b7b5fff9da7ee901dc47ba5695d78",
+      "reason": "Preserve every file identified in the frozen quantum benchmark source set; includes inherited prototype modules.",
+      "classification": "frozen_study_python",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "original_quantum_protocol_match": true,
+      "implementation_v01_byte_identical": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\quantum\\code\\qpath\\quantum.py",
+      "source_relative_path": "quantum/code/qpath/quantum.py",
+      "target_relative_path": "payload/study/quantum/code/qpath/quantum.py",
+      "bytes": 5179,
+      "sha256": "0b1fd34a3c6ef3d739450ed6c553580d3e8dd5da36494c60e725aed58557f619",
+      "reason": "Preserve every file identified in the frozen quantum benchmark source set; includes inherited prototype modules.",
+      "classification": "frozen_study_python",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "original_quantum_protocol_match": true,
+      "implementation_v01_byte_identical": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\quantum\\code\\qpath\\quantum_runner.py",
+      "source_relative_path": "quantum/code/qpath/quantum_runner.py",
+      "target_relative_path": "payload/study/quantum/code/qpath/quantum_runner.py",
+      "bytes": 23443,
+      "sha256": "4701d1f6ad3ad62914088e8354b94e5d77a2b10c2f52715a8841afb0acaabbf5",
+      "reason": "Preserve every file identified in the frozen quantum benchmark source set; includes inherited prototype modules.",
+      "classification": "frozen_study_python",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "original_quantum_protocol_match": true,
+      "implementation_v01_byte_identical": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\quantum\\code\\qpath\\reference.py",
+      "source_relative_path": "quantum/code/qpath/reference.py",
+      "target_relative_path": "payload/study/quantum/code/qpath/reference.py",
+      "bytes": 3705,
+      "sha256": "6148eecb303e81767c5a2718d3e076dd939e65a60506a8b89a86542815900e10",
+      "reason": "Preserve every file identified in the frozen quantum benchmark source set; includes inherited prototype modules.",
+      "classification": "frozen_study_python",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "original_quantum_protocol_match": true,
+      "implementation_v01_byte_identical": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\quantum\\code\\requirements-lock.txt",
+      "source_relative_path": "quantum/code/requirements-lock.txt",
+      "target_relative_path": "payload/study/quantum/code/requirements-lock.txt",
+      "bytes": 641,
+      "sha256": "30cdabc0798d5c16575d2b40e5de4d245e2f8cddd5629727cfa352a8e36b0996",
+      "reason": "Preserve every file identified in the frozen quantum benchmark source set; includes inherited prototype modules.",
+      "classification": "recorded_dependency_lock",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "original_quantum_protocol_match": true,
+      "implementation_v01_byte_identical": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Supporting source record; existing terms retained, no new grant inferred"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\quantum\\code\\tests\\test_quantum.py",
+      "source_relative_path": "quantum/code/tests/test_quantum.py",
+      "target_relative_path": "payload/study/quantum/code/tests/test_quantum.py",
+      "bytes": 5969,
+      "sha256": "d86c6995d86f29ce7d02ac84ffe5096983ff55df1addcc0506b0da50a7221aef",
+      "reason": "Preserve every file identified in the frozen quantum benchmark source set; includes inherited prototype modules.",
+      "classification": "frozen_study_python",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "original_quantum_protocol_match": true,
+      "implementation_v01_byte_identical": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\classical\\benchmark.py",
+      "source_relative_path": "classical/benchmark.py",
+      "target_relative_path": "payload/study/classical/benchmark.py",
+      "bytes": 35886,
+      "sha256": "cf5fcd3ef977e2c0f977f09b06256c3c8e5a933dac3d59966c032f6aa03e0cce",
+      "reason": "Retain the actual frozen text-study implementation and original tests; full benchmark/GPU tests require separately retained data and environment.",
+      "classification": "frozen_study_python",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\classical\\prepare_agnews.py",
+      "source_relative_path": "classical/prepare_agnews.py",
+      "target_relative_path": "payload/study/classical/prepare_agnews.py",
+      "bytes": 8444,
+      "sha256": "541be39a2f4b4b4a1db970e060065c6023156b91ea9258079e48dfe02d8b1a5b",
+      "reason": "Retain the actual frozen text-study implementation and original tests; full benchmark/GPU tests require separately retained data and environment.",
+      "classification": "frozen_study_python",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\classical\\test_benchmark.py",
+      "source_relative_path": "classical/test_benchmark.py",
+      "target_relative_path": "payload/study/classical/test_benchmark.py",
+      "bytes": 4342,
+      "sha256": "63671f70a1093ace6b6616c841bc5ba928b20db9235e00a6291a0e466de570fb",
+      "reason": "Retain the actual frozen text-study implementation and original tests; full benchmark/GPU tests require separately retained data and environment.",
+      "classification": "retained_study_test",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\classical\\qpath\\__init__.py",
+      "source_relative_path": "classical/qpath/__init__.py",
+      "target_relative_path": "payload/study/classical/qpath/__init__.py",
+      "bytes": 85,
+      "sha256": "05824d3c944b73dd461a8aaabd287cdb1618b70f9d2232d3ebf418d4ca08d14d",
+      "reason": "Retain the actual frozen text-study implementation and original tests; full benchmark/GPU tests require separately retained data and environment.",
+      "classification": "frozen_study_python",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\classical\\qpath\\classical.py",
+      "source_relative_path": "classical/qpath/classical.py",
+      "target_relative_path": "payload/study/classical/qpath/classical.py",
+      "bytes": 20392,
+      "sha256": "c56ce05f2ac021a436703a76514033aa723cd7d6a7d38d68bb58b237ef9926b6",
+      "reason": "Retain the actual frozen text-study implementation and original tests; full benchmark/GPU tests require separately retained data and environment.",
+      "classification": "frozen_study_python",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\classical\\qpath\\policies.py",
+      "source_relative_path": "classical/qpath/policies.py",
+      "target_relative_path": "payload/study/classical/qpath/policies.py",
+      "bytes": 12368,
+      "sha256": "f3418f4111285b2f2819b51a96ef23cf5b1b7b5fff9da7ee901dc47ba5695d78",
+      "reason": "Retain the actual frozen text-study implementation and original tests; full benchmark/GPU tests require separately retained data and environment.",
+      "classification": "frozen_study_python",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\classical\\tests\\test_classical.py",
+      "source_relative_path": "classical/tests/test_classical.py",
+      "target_relative_path": "payload/study/classical/tests/test_classical.py",
+      "bytes": 8815,
+      "sha256": "8894a4668f192081b15583efb576a6e5a262233277ed1cbe768df6e2641a5ef1",
+      "reason": "Retain the actual frozen text-study implementation and original tests; full benchmark/GPU tests require separately retained data and environment.",
+      "classification": "retained_study_test",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\classical\\tests\\test_policies.py",
+      "source_relative_path": "classical/tests/test_policies.py",
+      "target_relative_path": "payload/study/classical/tests/test_policies.py",
+      "bytes": 8504,
+      "sha256": "d9a7a81a940f326817e422be372719eb7d94044c8ea2e9b2313fb7a4149da5ea",
+      "reason": "Retain the actual frozen text-study implementation and original tests; full benchmark/GPU tests require separately retained data and environment.",
+      "classification": "retained_study_test",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\quantum\\README.txt",
+      "source_relative_path": "quantum/README.txt",
+      "target_relative_path": "payload/study/quantum/README.txt",
+      "bytes": 3948,
+      "sha256": "2e9b68526cc4852e91fb21977e7a7bb62a6b335bf89c16825f02f598692d5d80",
+      "reason": "Retain source protocol, dependency identity or historical reproduction boundaries; not evidence that omitted data/results are supplied.",
+      "classification": "source_protocol_or_support_record",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Supporting source record; existing terms retained, no new grant inferred"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\quantum\\PROTOCOL_FREEZE.json",
+      "source_relative_path": "quantum/PROTOCOL_FREEZE.json",
+      "target_relative_path": "payload/study/quantum/PROTOCOL_FREEZE.json",
+      "bytes": 9877,
+      "sha256": "9b092b370531215b05ae161dbfb10f32d8a5329d33823826b0b4569c36751e0e",
+      "reason": "Retain source protocol, dependency identity or historical reproduction boundaries; not evidence that omitted data/results are supplied.",
+      "classification": "source_protocol_or_support_record",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Supporting source record; existing terms retained, no new grant inferred"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\quantum\\PROTOCOL_FREEZE.sha256",
+      "source_relative_path": "quantum/PROTOCOL_FREEZE.sha256",
+      "target_relative_path": "payload/study/quantum/PROTOCOL_FREEZE.sha256",
+      "bytes": 88,
+      "sha256": "dab1ca481b9f0f3aae77540e0c5c808d457b426e892eccbb8c45e536397d91fa",
+      "reason": "Retain source protocol, dependency identity or historical reproduction boundaries; not evidence that omitted data/results are supplied.",
+      "classification": "source_protocol_or_support_record",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Supporting source record; existing terms retained, no new grant inferred"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\classical\\README.txt",
+      "source_relative_path": "classical/README.txt",
+      "target_relative_path": "payload/study/classical/README.txt",
+      "bytes": 4404,
+      "sha256": "94d3004b4e7611c29299ea9e759578cd4a14c990770680876897cd70748c8bce",
+      "reason": "Retain source protocol, dependency identity or historical reproduction boundaries; not evidence that omitted data/results are supplied.",
+      "classification": "source_protocol_or_support_record",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Supporting source record; existing terms retained, no new grant inferred"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\classical\\protocol_frozen.json",
+      "source_relative_path": "classical/protocol_frozen.json",
+      "target_relative_path": "payload/study/classical/protocol_frozen.json",
+      "bytes": 5360,
+      "sha256": "035130cb0dd5759fbc37d1ab0b32bd62aab57408f21539eb6dea5d6c28b8eaef",
+      "reason": "Retain source protocol, dependency identity or historical reproduction boundaries; not evidence that omitted data/results are supplied.",
+      "classification": "source_protocol_or_support_record",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Supporting source record; existing terms retained, no new grant inferred"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\classical\\protocol_freeze_event.json",
+      "source_relative_path": "classical/protocol_freeze_event.json",
+      "target_relative_path": "payload/study/classical/protocol_freeze_event.json",
+      "bytes": 146,
+      "sha256": "e905fe965d299f5171570473acff5cc076702a34204d6203f81e1a9eaec3a938",
+      "reason": "Retain source protocol, dependency identity or historical reproduction boundaries; not evidence that omitted data/results are supplied.",
+      "classification": "source_protocol_or_support_record",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Supporting source record; existing terms retained, no new grant inferred"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\classical\\requirements-cuda-lock.txt",
+      "source_relative_path": "classical/requirements-cuda-lock.txt",
+      "target_relative_path": "payload/study/classical/requirements-cuda-lock.txt",
+      "bytes": 445,
+      "sha256": "bc934b9be9239b99f87cf42c50b69967da1fa8ac50050359ba449a81edf67cd9",
+      "reason": "Retain source protocol, dependency identity or historical reproduction boundaries; not evidence that omitted data/results are supplied.",
+      "classification": "source_protocol_or_support_record",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Supporting source record; existing terms retained, no new grant inferred"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\ibm_readiness\\PROTOCOL_FREEZE.json",
+      "source_relative_path": "ibm_readiness/PROTOCOL_FREEZE.json",
+      "target_relative_path": "payload/study/ibm_readiness/PROTOCOL_FREEZE.json",
+      "bytes": 3292,
+      "sha256": "29de28047f690da89c7e3afc4822d0a0696ab93e1d8145a77bee9b719abcac82",
+      "reason": "Retain source protocol, dependency identity or historical reproduction boundaries; not evidence that omitted data/results are supplied.",
+      "classification": "source_protocol_or_support_record",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Supporting source record; existing terms retained, no new grant inferred"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\ibm_readiness\\PROTOCOL_FREEZE.sha256",
+      "source_relative_path": "ibm_readiness/PROTOCOL_FREEZE.sha256",
+      "target_relative_path": "payload/study/ibm_readiness/PROTOCOL_FREEZE.sha256",
+      "bytes": 66,
+      "sha256": "c4512e423af798b102abc3ba69ad482bc0f584458d29c3b84b1b2e567775c9a2",
+      "reason": "Retain source protocol, dependency identity or historical reproduction boundaries; not evidence that omitted data/results are supplied.",
+      "classification": "source_protocol_or_support_record",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Supporting source record; existing terms retained, no new grant inferred"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\ibm_readiness\\evaluate_readiness.py",
+      "source_relative_path": "ibm_readiness/evaluate_readiness.py",
+      "target_relative_path": "payload/study/ibm_readiness/evaluate_readiness.py",
+      "bytes": 23557,
+      "sha256": "27da1c8ff5b4008382b2a2b991e6ed5e97ee14cdd616447f8e4689b942a48a62",
+      "reason": "Offline trained-circuit readiness implementation and unit checks; no physical-backend submission implementation.",
+      "classification": "offline_readiness_python",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\ibm_readiness\\test_readiness.py",
+      "source_relative_path": "ibm_readiness/test_readiness.py",
+      "target_relative_path": "payload/study/ibm_readiness/test_readiness.py",
+      "bytes": 3120,
+      "sha256": "de446efe3de5d4e2dafd0380b0cb6f9bb932e73a419579dd68be5ac609334539",
+      "reason": "Offline trained-circuit readiness implementation and unit checks; no physical-backend submission implementation.",
+      "classification": "offline_readiness_python",
+      "transformation": "none; copy original bytes",
+      "original_delivery_manifest_match": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Implementation_v0.1\\configs\\ibm_local.json",
+      "source_relative_path": "configs/ibm_local.json",
+      "target_relative_path": "payload/study/quantum/code/configs/ibm_local.json",
+      "bytes": 676,
+      "sha256": "b080bdaf6d99b33875685fcb775b7a0aa0da5e2a01f30ef51d7cd3342ba86f12",
+      "reason": "Supplemental original prototype configuration needed by the frozen capsule module's default path; not part of the 13-file frozen quantum source set.",
+      "classification": "supplemental_original_implementation_support",
+      "transformation": "none; copy original bytes",
+      "original_implementation_manifest_match": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Supporting source record; existing terms retained, no new grant inferred"
+    },
+    {
+      "source_absolute_path": "C:\\Q2\\Implementation_v0.1\\requirements-quantum-lock.txt",
+      "source_relative_path": "requirements-quantum-lock.txt",
+      "target_relative_path": "payload/study/quantum/code/requirements-quantum-lock.txt",
+      "bytes": 199,
+      "sha256": "e5e9b15f3aa95f3add2882ff16753a027336ca2adc1d8faa286c5d5a5bfb0907",
+      "reason": "Supplemental original quantum-only dependency lock; does not replace the frozen full CPU lock or text-study CUDA lock.",
+      "classification": "supplemental_original_implementation_support",
+      "transformation": "none; copy original bytes",
+      "original_implementation_manifest_match": true,
+      "previous_v095_code_grant_exact_byte_matches": [],
+      "proposed_terms": "Supporting source record; existing terms retained, no new grant inferred"
+    }
+  ],
+  "new_review_tools": [
+    {
+      "source_absolute_path": "C:\\Anthony Siljeg\\CPU-QPU git repo prep\\study-v0.1 staging\\code\\tools\\startup_check.py",
+      "target_relative_path": "tools/startup_check.py",
+      "bytes": 11598,
+      "sha256": "31e31c7523365c460b4267b63f41a745006df741b9efbc17851e4cce886445b1",
+      "classification": "new_review_tool",
+      "reason": "New package-level verification or bounded startup tooling; separate from historical scientific sources.",
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    },
+    {
+      "source_absolute_path": "C:\\Anthony Siljeg\\CPU-QPU git repo prep\\study-v0.1 staging\\code\\tools\\verify_package.py",
+      "target_relative_path": "tools/verify_package.py",
+      "bytes": 3973,
+      "sha256": "a298e3f782ec2ca5e5e550ad17f37a8b2fbf390aa482a3377614f2000222d210",
+      "classification": "new_review_tool",
+      "reason": "New package-level verification or bounded startup tooling; separate from historical scientific sources.",
+      "proposed_terms": "Q-Pathformer Platform License 1.0; adoption not assumed"
+    }
+  ],
+  "proposed_python_scope": [
+    {
+      "path": "payload/study/quantum/code/qpath/__init__.py",
+      "bytes": 85,
+      "sha256": "05824d3c944b73dd461a8aaabd287cdb1618b70f9d2232d3ebf418d4ca08d14d",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/capsule.py",
+      "bytes": 14692,
+      "sha256": "1584dbeb71ce900f6bedf0c4b5b9d1f4423ef9abaec1864a9fe072bcfa0ba3f0",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical.py",
+      "bytes": 19754,
+      "sha256": "c7ce09321ef3b002495e8f4f73118b0b47cc02d6f54847b4f4caa530223be073",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical_runner.py",
+      "bytes": 17997,
+      "sha256": "b881539af3306555b245778b613f6083f32456ff0e17f13b00299d1a5a2cee0b",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/data.py",
+      "bytes": 3078,
+      "sha256": "b827e92b2e9c0b861c12eecc8eb539cb6703490d1354aed6065dfedfeabf2ab1",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/ibm.py",
+      "bytes": 6663,
+      "sha256": "eb58b72c8f615dacf1f3681f9a7287bb5da97b59ff4833c198ecc9a8a369bb0d",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/offline.py",
+      "bytes": 1079,
+      "sha256": "c57469a7936fd159ef1bf7ec8867f47dcb9c27a03f8c5445895c78cffba9bec0",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/policies.py",
+      "bytes": 12368,
+      "sha256": "f3418f4111285b2f2819b51a96ef23cf5b1b7b5fff9da7ee901dc47ba5695d78",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/quantum.py",
+      "bytes": 5179,
+      "sha256": "0b1fd34a3c6ef3d739450ed6c553580d3e8dd5da36494c60e725aed58557f619",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/quantum_runner.py",
+      "bytes": 23443,
+      "sha256": "4701d1f6ad3ad62914088e8354b94e5d77a2b10c2f52715a8841afb0acaabbf5",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/reference.py",
+      "bytes": 3705,
+      "sha256": "6148eecb303e81767c5a2718d3e076dd939e65a60506a8b89a86542815900e10",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/quantum/code/tests/test_quantum.py",
+      "bytes": 5969,
+      "sha256": "d86c6995d86f29ce7d02ac84ffe5096983ff55df1addcc0506b0da50a7221aef",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "bytes": 35886,
+      "sha256": "cf5fcd3ef977e2c0f977f09b06256c3c8e5a933dac3d59966c032f6aa03e0cce",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/classical/prepare_agnews.py",
+      "bytes": 8444,
+      "sha256": "541be39a2f4b4b4a1db970e060065c6023156b91ea9258079e48dfe02d8b1a5b",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/classical/test_benchmark.py",
+      "bytes": 4342,
+      "sha256": "63671f70a1093ace6b6616c841bc5ba928b20db9235e00a6291a0e466de570fb",
+      "classification": "retained_study_test"
+    },
+    {
+      "path": "payload/study/classical/qpath/__init__.py",
+      "bytes": 85,
+      "sha256": "05824d3c944b73dd461a8aaabd287cdb1618b70f9d2232d3ebf418d4ca08d14d",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/classical/qpath/classical.py",
+      "bytes": 20392,
+      "sha256": "c56ce05f2ac021a436703a76514033aa723cd7d6a7d38d68bb58b237ef9926b6",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/classical/qpath/policies.py",
+      "bytes": 12368,
+      "sha256": "f3418f4111285b2f2819b51a96ef23cf5b1b7b5fff9da7ee901dc47ba5695d78",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/classical/tests/test_classical.py",
+      "bytes": 8815,
+      "sha256": "8894a4668f192081b15583efb576a6e5a262233277ed1cbe768df6e2641a5ef1",
+      "classification": "retained_study_test"
+    },
+    {
+      "path": "payload/study/classical/tests/test_policies.py",
+      "bytes": 8504,
+      "sha256": "d9a7a81a940f326817e422be372719eb7d94044c8ea2e9b2313fb7a4149da5ea",
+      "classification": "retained_study_test"
+    },
+    {
+      "path": "payload/study/ibm_readiness/evaluate_readiness.py",
+      "bytes": 23557,
+      "sha256": "27da1c8ff5b4008382b2a2b991e6ed5e97ee14cdd616447f8e4689b942a48a62",
+      "classification": "offline_readiness_python"
+    },
+    {
+      "path": "payload/study/ibm_readiness/test_readiness.py",
+      "bytes": 3120,
+      "sha256": "de446efe3de5d4e2dafd0380b0cb6f9bb932e73a419579dd68be5ac609334539",
+      "classification": "offline_readiness_python"
+    },
+    {
+      "path": "tools/startup_check.py",
+      "bytes": 11598,
+      "sha256": "31e31c7523365c460b4267b63f41a745006df741b9efbc17851e4cce886445b1",
+      "classification": "new_review_tool"
+    },
+    {
+      "path": "tools/verify_package.py",
+      "bytes": 3973,
+      "sha256": "a298e3f782ec2ca5e5e550ad17f37a8b2fbf390aa482a3377614f2000222d210",
+      "classification": "new_review_tool"
+    }
+  ],
+  "excluded": [
+    "Virtual environments, installed packages, wheels and DLLs",
+    "datasets, tokenizer artifacts, results, checkpoints and logs",
+    "Original capsule ZIP and report DOCX files",
+    "Setup scripts that install dependencies",
+    "Full-study launchers and finalization helpers",
+    "Host/result-bound independent analysis and report/figure authoring scripts",
+    "Credentials and provider submission clients"
+  ],
+  "no_etel_component": true,
+  "limits": [
+    "Selected code, not a complete reproduction archive",
+    "Frozen benchmark tests requiring real data/CUDA are retained but excluded from startup",
+    "Historical source READMEs still describe the complete original archive and private context",
+    "CPU, quantum-only, CUDA and plotting contexts must not be silently conflated"
+  ]
+}

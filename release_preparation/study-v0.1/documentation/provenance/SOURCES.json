@@ -1,0 +1,373 @@
+{
+  "schema": "qpath-study-v0.1-documentation-source-index-1",
+  "prepared_on": "2026-10-29",
+  "status": "DRAFT_RELEASE_REVIEW_IN_OFFICIAL_PRIVATE_REPOSITORY",
+  "source_root": "C:\\Q2",
+  "study_version": "v0.1",
+  "intended_release_tag": "study-v0.1",
+  "repository_edition": "v1.0",
+  "intended_repository": "qpathformer/qpathformer-classical-research-v1.0",
+  "method": "Read original README/report-content/analysis evidence; verify listed source bytes and recorded identities. No original sources or repository changed; no training, package startup or QPU submission run.",
+  "rights": "Source identification is not a license grant. Existing grants retain their own scopes; no new v0.1 report/code/figure/prose adoption is recorded here.",
+  "files": [
+    {
+      "id": "S01",
+      "path": "Full_Local_Benchmark_v0.1/README.txt",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\README.txt",
+      "bytes": 7750,
+      "sha256": "c5ced95cebdbd8ffa00f8d00a01019d27ab57ead78bb9b5c905f80040e71e4df",
+      "role": "canonical benchmark entry and reproduction guidance",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S02",
+      "path": "Full_Local_Benchmark_v0.1/docs/QPATH-RPT-002_Local_Benchmark_and_IBM_Readiness_Report_v0.1.docx",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\docs\\QPATH-RPT-002_Local_Benchmark_and_IBM_Readiness_Report_v0.1.docx",
+      "bytes": 517844,
+      "sha256": "d7ccacc971c8cf878a6c33cabd62efe869c9886c158f728e39288f387033a4e8",
+      "role": "canonical final internal report; public edition requires separate review",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S03",
+      "path": "Full_Local_Benchmark_v0.1/analysis/report_content.json",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\analysis\\report_content.json",
+      "bytes": 35555,
+      "sha256": "2e482c894a929eb2c273f0828a2dda55d6442e21d07882b924d36bcad174a956",
+      "role": "retained report content and numerical interpretation",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S04",
+      "path": "Full_Local_Benchmark_v0.1/analysis/final_qa.json",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\analysis\\final_qa.json",
+      "bytes": 1830,
+      "sha256": "303921f8811757f4443187c25cf0ffb29dd00634d5bc2dd0d8c0f00b579fc8c1",
+      "role": "historical report identity and 12-page QA record",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S05",
+      "path": "Full_Local_Benchmark_v0.1/DELIVERY_MANIFEST.json",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\DELIVERY_MANIFEST.json",
+      "bytes": 418598,
+      "sha256": "03bcfc043585696c1288d926fba882c9cc5be8c36f87681c38bb2f6fa77465c3",
+      "role": "original delivery inventory and size accounting",
+      "copied_into_documentation_project": false
+    },
+    {
+      "id": "S06",
+      "path": "Full_Local_Benchmark_v0.1/quantum/README.txt",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\quantum\\README.txt",
+      "bytes": 3948,
+      "sha256": "2e9b68526cc4852e91fb21977e7a7bb62a6b335bf89c16825f02f598692d5d80",
+      "role": "synthetic methods, reproduction and inference boundary",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S07",
+      "path": "Full_Local_Benchmark_v0.1/quantum/PROTOCOL_FREEZE.json",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\quantum\\PROTOCOL_FREEZE.json",
+      "bytes": 9877,
+      "sha256": "9b092b370531215b05ae161dbfb10f32d8a5329d33823826b0b4569c36751e0e",
+      "role": "frozen synthetic protocol and source identities",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S08",
+      "path": "Full_Local_Benchmark_v0.1/quantum/analysis/quantum_benchmark_summary.json",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\quantum\\analysis\\quantum_benchmark_summary.json",
+      "bytes": 110962,
+      "sha256": "abc8c5573d2a2cd063d5d973cf084e4fdc133c7cc820623b0212c295bd55d310",
+      "role": "nine-method five-seed outcomes and paired contrasts",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S09",
+      "path": "Full_Local_Benchmark_v0.1/quantum/analysis/independent_verification.json",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\quantum\\analysis\\independent_verification.json",
+      "bytes": 12514,
+      "sha256": "5a9bedacf67797bf70bd8d302af602e0994e404ed069dcb150753b099b4ce752",
+      "role": "historical synthetic replay checks",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S10",
+      "path": "Full_Local_Benchmark_v0.1/quantum/code/requirements-lock.txt",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\quantum\\code\\requirements-lock.txt",
+      "bytes": 641,
+      "sha256": "30cdabc0798d5c16575d2b40e5de4d245e2f8cddd5629727cfa352a8e36b0996",
+      "role": "historical numerical/analysis environment",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S11",
+      "path": "Full_Local_Benchmark_v0.1/classical/README.txt",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\classical\\README.txt",
+      "bytes": 4404,
+      "sha256": "94d3004b4e7611c29299ea9e759578cd4a14c990770680876897cd70748c8bce",
+      "role": "AG News methods, restore boundaries and data notes",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S12",
+      "path": "Full_Local_Benchmark_v0.1/classical/protocol_frozen.json",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\classical\\protocol_frozen.json",
+      "bytes": 5360,
+      "sha256": "035130cb0dd5759fbc37d1ab0b32bd62aab57408f21539eb6dea5d6c28b8eaef",
+      "role": "frozen text study design",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S13",
+      "path": "Full_Local_Benchmark_v0.1/classical/results/comparison_aggregate.json",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\classical\\results\\comparison_aggregate.json",
+      "bytes": 14477,
+      "sha256": "745d6a01a89a67897bad6d20eacf838c00348cc4da4bf66d2ea83c1aed1b410a",
+      "role": "canonical final text comparison; supersedes runner status conclusion",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S14",
+      "path": "Full_Local_Benchmark_v0.1/analysis/classical_independent_analysis/summary.json",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\analysis\\classical_independent_analysis\\summary.json",
+      "bytes": 12528,
+      "sha256": "304deaabbedcec4f45012d48e2e4bdf2fcacccf2a4202156f31f32bbbc4ff2e9",
+      "role": "recomputed text outcomes, seed and conditional test uncertainty",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S15",
+      "path": "Full_Local_Benchmark_v0.1/classical/readiness/completion_audit.json",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\classical\\readiness\\completion_audit.json",
+      "bytes": 2511,
+      "sha256": "75c42bbbb4f30ab08d65893b74232c94276a1de91d07aa45babb02ad8282f366",
+      "role": "historical text execution completion checks",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S16",
+      "path": "Full_Local_Benchmark_v0.1/classical/requirements-cuda-lock.txt",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\classical\\requirements-cuda-lock.txt",
+      "bytes": 445,
+      "sha256": "bc934b9be9239b99f87cf42c50b69967da1fa8ac50050359ba449a81edf67cd9",
+      "role": "historical text environment",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S17",
+      "path": "Full_Local_Benchmark_v0.1/classical/data/official/readme.txt",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\classical\\data\\official\\readme.txt",
+      "bytes": 1795,
+      "sha256": "779c2e6bbf93dd810d9c7b318006daef7a4bfc34062002461d251dc10fb9f58c",
+      "role": "retained dataset provenance and access notices; no dataset copied",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S18",
+      "path": "Full_Local_Benchmark_v0.1/ibm_readiness/results_v01/summary.json",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\ibm_readiness\\results_v01\\summary.json",
+      "bytes": 3800,
+      "sha256": "254e0712a065fdfe93288ad1472d4076ce03a82fe404bef69eab8205e2f6b65e",
+      "role": "trained-readiness quantities, local profiles, zero physical execution",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S19",
+      "path": "Full_Local_Benchmark_v0.1/ibm_readiness/results_v01/protocol.json",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\ibm_readiness\\results_v01\\protocol.json",
+      "bytes": 3292,
+      "sha256": "29de28047f690da89c7e3afc4822d0a0696ab93e1d8145a77bee9b719abcac82",
+      "role": "fixture rule, compiler target, declared profiles and exclusions",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S20",
+      "path": "Full_Local_Benchmark_v0.1/analysis/figures/figure_1_quantum_test_f1.png",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\analysis\\figures\\figure_1_quantum_test_f1.png",
+      "bytes": 135329,
+      "sha256": "bb88579adcc46ab2e26ceb203fe0bbd1cfe71fd01be89a92c469fa45f3fbb575",
+      "role": "candidate figure 1: frozen outcomes",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S21",
+      "path": "Full_Local_Benchmark_v0.1/analysis/figures/figure_2_exploratory_depth_f1.png",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\analysis\\figures\\figure_2_exploratory_depth_f1.png",
+      "bytes": 79809,
+      "sha256": "3bda7a54958b7133bff2ebc8e31e048ac64995066d89a2fb335ee3c1bb8a24fa",
+      "role": "candidate figure 2: posthoc validation diagnostic",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S22",
+      "path": "Full_Local_Benchmark_v0.1/analysis/figures/classical_learning_and_routing.png",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\analysis\\figures\\classical_learning_and_routing.png",
+      "bytes": 283217,
+      "sha256": "1ccda96e1f61b77166bb534db022d16aed8b06648248b96686f1171d1debde53",
+      "role": "candidate figure 3: text learning/routing diagnostic",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S23",
+      "path": "Full_Local_Benchmark_v0.1/analysis/figures/figure_1_quantum_test_f1.pdf",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\analysis\\figures\\figure_1_quantum_test_f1.pdf",
+      "bytes": 48656,
+      "sha256": "cb0da6cc5e6e724b775425650fafb4589551ad94ce5e5e4d98f10078e1010080",
+      "role": "vector counterpart of candidate figure 1",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S24",
+      "path": "Full_Local_Benchmark_v0.1/analysis/figures/figure_2_exploratory_depth_f1.pdf",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\analysis\\figures\\figure_2_exploratory_depth_f1.pdf",
+      "bytes": 47413,
+      "sha256": "b1021a4095300fcebe88e8e3b818afa6df0edc5e6fa0bd6968ff1e0576e2adf2",
+      "role": "vector counterpart of candidate figure 2",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S25",
+      "path": "Full_Local_Benchmark_v0.1/analysis/figures/classical_learning_and_routing.pdf",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\analysis\\figures\\classical_learning_and_routing.pdf",
+      "bytes": 59011,
+      "sha256": "05d6436666e4677299a4358f29b51140c9858a4928df087a3fb8dda6ffe563d8",
+      "role": "vector counterpart of candidate figure 3",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S26",
+      "path": "Full_Local_Benchmark_v0.1/analysis/figures/figure_metadata.json",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\analysis\\figures\\figure_metadata.json",
+      "bytes": 2523,
+      "sha256": "b293238d02310c2343b84eabe373fb7625f02c1c5bdd22d6c440115e1028eff6",
+      "role": "quantum figure captions and provenance",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S27",
+      "path": "Full_Local_Benchmark_v0.1/analysis/figures/classical_figure_metadata.json",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\analysis\\figures\\classical_figure_metadata.json",
+      "bytes": 7415,
+      "sha256": "200ff7fd5c4f2ced572c9d83ad98ca5f75c7b27603d7473076e1f759de500352",
+      "role": "text figure caption and provenance",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S28",
+      "path": "Full_Local_Benchmark_v0.1/analysis/requirements-plot-lock.txt",
+      "absolute_path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\analysis\\requirements-plot-lock.txt",
+      "bytes": 323,
+      "sha256": "6c33f9c11b7c2a01799843fe84bd750bf7f606caa43903bdf95a6cca9f6dc776",
+      "role": "separate historical figure environment",
+      "copied_into_documentation_project": false,
+      "original_delivery_manifest_identity": "MATCH"
+    },
+    {
+      "id": "S29",
+      "path": "Implementation_v0.1/README.txt",
+      "absolute_path": "C:\\Q2\\Implementation_v0.1\\README.txt",
+      "bytes": 3645,
+      "sha256": "b812637c25c393378abfc35a6351206d54ddc459a5790b62514d0fd4dca27e2b",
+      "role": "prototype engineering scope distinct from full benchmark",
+      "copied_into_documentation_project": false
+    },
+    {
+      "id": "S30",
+      "path": "Implementation_v0.1/docs/IBM_CAPSULE_GUIDE.txt",
+      "absolute_path": "C:\\Q2\\Implementation_v0.1\\docs\\IBM_CAPSULE_GUIDE.txt",
+      "bytes": 5796,
+      "sha256": "ce8910385f2e9e85640f4b31bb84e50cc9a5ae4e7c89ebf8bf9bca3197ea2e38",
+      "role": "untrained capsule purpose, counts and portability limits",
+      "copied_into_documentation_project": false
+    },
+    {
+      "id": "S31",
+      "path": "Implementation_v0.1/docs/PROTOCOL_DEVIATIONS.txt",
+      "absolute_path": "C:\\Q2\\Implementation_v0.1\\docs\\PROTOCOL_DEVIATIONS.txt",
+      "bytes": 3862,
+      "sha256": "460dc285c4eaff2d708f60685492053938c24e6b66aba7bcc8be195a5f4810c2",
+      "role": "prototype limitations and three-epoch smoke boundary",
+      "copied_into_documentation_project": false
+    },
+    {
+      "id": "S32",
+      "path": "Implementation_v0.1/results/ibm_capsule_001/summary.json",
+      "absolute_path": "C:\\Q2\\Implementation_v0.1\\results\\ibm_capsule_001\\summary.json",
+      "bytes": 2449,
+      "sha256": "6c17fff9098eb82f9e42f8d5878f0185f961d6ec3a2c79bade83b80b1ec9765c",
+      "role": "earlier untrained capsule counts and zero physical execution",
+      "copied_into_documentation_project": false
+    },
+    {
+      "id": "S33",
+      "path": "Implementation_v0.1/MANIFEST_SHA256.json",
+      "absolute_path": "C:\\Q2\\Implementation_v0.1\\MANIFEST_SHA256.json",
+      "bytes": 3046,
+      "sha256": "b1902166cf9a1fe65894cf869fca2a67e77eab64e5ec07bd9f19617f7e757755",
+      "role": "prototype selected delivery identities; not a complete live-tree inventory",
+      "copied_into_documentation_project": false
+    },
+    {
+      "id": "S34",
+      "path": "Repositories/qpathformer-classical-research/provenance/research_sources.json",
+      "absolute_path": "C:\\Q2\\Repositories\\qpathformer-classical-research\\provenance\\research_sources.json",
+      "bytes": 9869,
+      "sha256": "f298b09aaa5e3ec6f2b8b1d4c2a6466bfa9627a6ef86f6624d9b69b47bf59caa",
+      "role": "existing repository historical report identity index",
+      "copied_into_documentation_project": false
+    }
+  ],
+  "archive_size_accounting": {
+    "method": "Read-only file membership and stat sizes; selected sources hashed separately. Unique-file logical bytes deduplicated by observed Windows (st_dev, st_ino), not disk allocation.",
+    "manifest_payload_files": 2081,
+    "manifest_payload_logical_bytes": 9179407633,
+    "manifest_self_bytes": 418598,
+    "current_tree_files": 2082,
+    "current_tree_logical_bytes": 9179826231,
+    "unique_file_ids": 2037,
+    "unique_file_logical_bytes": 5369883818,
+    "paths_with_multiple_hardlinks": 65,
+    "membership_matches_original_manifest": true,
+    "all_recorded_sizes_match": true,
+    "full_payload_rehash_performed_by_this_index_script": false,
+    "full_payload_rehash_receipt": "source_verification.json",
+    "limits": "No disk allocation, compressed-download, RAM or hardware-minimum claim. Installed prototype runtime is outside this benchmark boundary. The separate bound full-hash audit verified every manifest digest; this index script independently checks sizes/membership and selected hashes."
+  },
+  "full_source_hash_verification": {
+    "source_path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\staging_20261029\\receipts\\FROZEN_SOURCE_VERIFICATION.json",
+    "documentation_path": "provenance/source_verification.json",
+    "bytes": 828,
+    "sha256": "fc35b54bcb68b3303b59d72cf7ef3d7e628f47a277ecd07e283bf0b032417b2e",
+    "status": "PASS_FULL_FROZEN_SOURCE_HASH_AUDIT",
+    "verified_payload_files": 2081,
+    "unique_payload_file_objects_hashed": 2036
+  },
+  "report_pdf_status": "No full-report PDF is delivered under Full_Local_Benchmark_v0.1. README explicitly excludes QA PDFs/page renders. Three standalone figure PDFs are present. Historical QA PDF SHA256 is recorded in analysis/final_qa.json; no matching full-report PDF was established by this preparation."
+}

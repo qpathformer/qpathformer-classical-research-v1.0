@@ -1,0 +1,34 @@
+{
+  "schema": "qpath-guidance-scope-proposal-1",
+  "status": "FOR_OWNER_REVIEW_NOT_ADOPTED",
+  "proposed_licensor": "Anthony Siljeg",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "proposed_license": "CC-BY-4.0",
+  "files": [
+    {
+      "path": "START_HERE.md",
+      "bytes": 1204,
+      "sha256": "aafbcff7d1a4ccb8fdbf004ab4fa3861b5597c1fbda19f80d811826ae7dc8fd0"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 1367,
+      "sha256": "cf9eeee0d3cbf1f2f3fd6bc955ead1810d3f2d940c12ddfadd3ac6e56f897e06"
+    },
+    {
+      "path": "VERIFY.md",
+      "bytes": 1615,
+      "sha256": "e6f66668a38cfc08122ed059259696897c6abecf6bd08299bc06e5cf4b1b688f"
+    },
+    {
+      "path": "provenance/README.md",
+      "bytes": 913,
+      "sha256": "443f8107f5c7c340c2446e94de53e644031421486ee69a15fbfd1bf5b5f54eb8"
+    }
+  ],
+  "scope": "Only controlled original explanatory prose in this exact list is proposed. Existing grants and permissions in reused expression remain applicable. No new adoption or blanket file/archive license is asserted.",
+  "repository_edition": "v1.0",
+  "study_version": "v0.1",
+  "release_tag": "study-v0.1",
+  "release_state": "PRIVATE_DRAFT_RELEASE_REVIEW"
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "qpath-report-scope-proposal-1",
+  "status": "FOR_OWNER_REVIEW_NOT_ADOPTED",
+  "proposed_licensor": "Anthony Siljeg",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "proposed_license": "CC-BY-4.0",
+  "scope": "Controlled original report prose, table presentation and three report figures only. No grant is adopted by preparing or privately reviewing these candidate files.",
+  "files": [
+    {
+      "path": "reports/QPATH_RPT002_v0.1_Public_Report_Edition_1.docx",
+      "bytes": 518743,
+      "sha256": "8a5da83a89e5acedf3af5c890fdaf0d9aedd05fe901f8798d5632250cab0d84d"
+    },
+    {
+      "path": "reports/QPATH_RPT002_v0.1_Public_Report_Edition_1.pdf",
+      "bytes": 859479,
+      "sha256": "f122936e593df05fe946af1f5f07717fd739c6e57973917700994c22dddf837a"
+    }
+  ],
+  "embedded_figures": [
+    {
+      "path": "word/media/image1.png",
+      "bytes": 135329,
+      "sha256": "bb88579adcc46ab2e26ceb203fe0bbd1cfe71fd01be89a92c469fa45f3fbb575"
+    },
+    {
+      "path": "word/media/image2.png",
+      "bytes": 79809,
+      "sha256": "3bda7a54958b7133bff2ebc8e31e048ac64995066d89a2fb335ee3c1bb8a24fa"
+    },
+    {
+      "path": "word/media/image3.png",
+      "bytes": 283217,
+      "sha256": "1ccda96e1f61b77166bb534db022d16aed8b06648248b96686f1171d1debde53"
+    }
+  ],
+  "source_report": {
+    "path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\docs\\QPATH-RPT-002_Local_Benchmark_and_IBM_Readiness_Report_v0.1.docx",
+    "bytes": 517844,
+    "sha256": "d7ccacc971c8cf878a6c33cabd62efe869c9886c158f728e39288f387033a4e8"
+  },
+  "exclusions": [
+    "source datasets and AG News news content",
+    "software and dependencies",
+    "checkpoints and models",
+    "full reproduction archives",
+    "architecture documents",
+    "surrounding support/provenance files as a whole"
+  ],
+  "metadata": "Report and PDF metadata carry author/affiliation details; no CC grant is asserted in the candidate.",
+  "repository_edition": "v1.0",
+  "study_version": "v0.1",
+  "release_tag": "study-v0.1",
+  "release_state": "PRIVATE_DRAFT_RELEASE_REVIEW"
+}

@@ -1,0 +1,73 @@
+{
+  "status": "PRIVATE_REPORT_REVIEW_CANDIDATE",
+  "created_at_utc": "2026-10-29T07:21:45.325904+00:00",
+  "source": {
+    "path": "C:\\Q2\\Full_Local_Benchmark_v0.1\\docs\\QPATH-RPT-002_Local_Benchmark_and_IBM_Readiness_Report_v0.1.docx",
+    "bytes": 517844,
+    "sha256": "d7ccacc971c8cf878a6c33cabd62efe869c9886c158f728e39288f387033a4e8"
+  },
+  "candidate_docx": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\staging_20261029\\report\\candidate\\QPATH_RPT002_v0.1_Public_Report_Edition_1.docx",
+    "bytes": 518743,
+    "sha256": "8a5da83a89e5acedf3af5c890fdaf0d9aedd05fe901f8798d5632250cab0d84d"
+  },
+  "candidate_pdf": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\staging_20261029\\report\\candidate\\QPATH_RPT002_v0.1_Public_Report_Edition_1.pdf",
+    "bytes": 859479,
+    "sha256": "f122936e593df05fe946af1f5f07717fd739c6e57973917700994c22dddf837a"
+  },
+  "changed_ooxml_parts": [
+    "docProps/core.xml",
+    "word/document.xml",
+    "word/footer1.xml",
+    "word/header1.xml"
+  ],
+  "original_paragraphs": 352,
+  "original_paragraph_changes": [
+    {
+      "zero_based_index": 2,
+      "before": "INTERNAL RESEARCH — NOT FOR PUBLICATION",
+      "after": "REPORT EDITION 1 | ORIGINAL STUDY 18 OCTOBER 2026"
+    }
+  ],
+  "original_tables_preserved": 15,
+  "original_figures_preserved": [
+    {
+      "path": "word/media/image1.png",
+      "bytes": 135329,
+      "sha256": "bb88579adcc46ab2e26ceb203fe0bbd1cfe71fd01be89a92c469fa45f3fbb575"
+    },
+    {
+      "path": "word/media/image2.png",
+      "bytes": 79809,
+      "sha256": "3bda7a54958b7133bff2ebc8e31e048ac64995066d89a2fb335ee3c1bb8a24fa"
+    },
+    {
+      "path": "word/media/image3.png",
+      "bytes": 283217,
+      "sha256": "1ccda96e1f61b77166bb534db022d16aed8b06648248b96686f1171d1debde53"
+    }
+  ],
+  "scientific_prose_results_and_tables_unchanged": true,
+  "original_pages": 12,
+  "candidate_pages": 13,
+  "omitted_scientific_content": [],
+  "appended_paragraphs": [
+    "Report edition and rights",
+    "Original study: 18 October 2026. Report edition 1 prepared: 29 October 2026.",
+    "Anthony Siljeg - Founder, Alnotrea Labs. Company affiliation: Alnotrea Pty Ltd. Project: Q-Pathformer Initiative.",
+    "This edition retains the completed v0.1 study, all 15 tables, all three figures, the numerical findings, uncertainty statements, limitations and research recommendations. It changes the internal-use cover label, records the author and affiliation metadata, and adds this edition note. No scientific result has been recalculated or omitted.",
+    "The recommendation in section 10 to treat the original report as an internal decision record is retained as a historical recommendation made on 18 October 2026. Its call for a separately registered confirmation study, qualified baselines, cost accounting and technical review remains a limitation on broader claims. Preparing this report edition is not evidence that those proposed studies have been completed.",
+    "The original frozen report and full experiment archive remain separately retained. This report edition does not include the AG News source dataset, trained checkpoints, full runtime environments or the complete reproduction archive. Historical local and archive-relative paths identify the original evidence, rather than download locations for the present report.",
+    "No additional reuse license is granted by this editorial edition. Any adopted report-content license must be identified in the accompanying edition-specific rights record. The existing v0.9.5 grants do not automatically cover this v0.1 report. Third-party data and references retain their own applicable terms.",
+    "Repository visibility and content licensing are separate decisions. This candidate is retained for private review; no public repository publication or physical-QPU execution is recorded by this edition."
+  ],
+  "new_license_adopted": false,
+  "public_publication_recorded": false,
+  "changes": [
+    "Changed the cover internal-use label to identify report edition 1 and original study date",
+    "Changed running header/footer internal-use labels to report-edition labels",
+    "Updated author, affiliation and edition metadata in DOCX and PDF",
+    "Appended one edition/rights page, preserving and explaining the historical section 10 recommendation"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema": "qpath-guidance-scope-proposal-1",
+  "status": "FOR_OWNER_REVIEW_NOT_ADOPTED",
+  "proposed_licensor": "Anthony Siljeg",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "proposed_license": "CC-BY-4.0",
+  "files": [
+    {
+      "path": "START_HERE.md",
+      "bytes": 1199,
+      "sha256": "5f612ea532ae33dd2922421078a04d3a0a1e892d521348b26db7a8d5912a4c7b"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 1327,
+      "sha256": "b84d3f75183035c80f7eed0c2750d46d25cf45933214316228a1f433e534f215"
+    },
+    {
+      "path": "VERIFY.md",
+      "bytes": 1631,
+      "sha256": "f0c09c9eadac8e4add8aef2aeccce96661a0af61421e18efe4174af273239bd5"
+    },
+    {
+      "path": "provenance/README.md",
+      "bytes": 913,
+      "sha256": "443f8107f5c7c340c2446e94de53e644031421486ee69a15fbfd1bf5b5f54eb8"
+    },
+    {
+      "path": "payload/project/README.md",
+      "bytes": 4454,
+      "sha256": "b57bf3f852ec2965570833d78df409e6f756f7b948d347bd18f2f87402f9bae7"
+    },
+    {
+      "path": "payload/project/RESEARCH_GUIDE.md",
+      "bytes": 5537,
+      "sha256": "be4040c47f80356a608ebe28089d6067b9c243fa832ad4b2c8c628eeac3701bb"
+    },
+    {
+      "path": "payload/project/docs/REPRODUCIBILITY.md",
+      "bytes": 5959,
+      "sha256": "f8d338d1ffeaa1e73714b32e7948fce752746f9a9a54381febc54f8ddf8783a2"
+    },
+    {
+      "path": "payload/project/release_notes/study-v0.1.md",
+      "bytes": 5271,
+      "sha256": "185ef95cef4f7bf9e794febe8085f64f3058bb173bcebc54c2bf54b9ebe41c60"
+    }
+  ],
+  "scope": "Only controlled original explanatory prose in this exact list is proposed. Existing grants and permissions in reused expression remain applicable. No new adoption or blanket file/archive license is asserted.",
+  "repository_edition": "v1.0",
+  "study_version": "v0.1",
+  "release_tag": "study-v0.1",
+  "release_state": "PRIVATE_DRAFT_RELEASE_REVIEW"
+}

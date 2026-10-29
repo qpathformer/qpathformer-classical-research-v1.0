@@ -1,0 +1,167 @@
+{
+  "schema": "qpath-code-scope-proposal-1",
+  "status": "FOR_OWNER_REVIEW_NOT_ADOPTED",
+  "proposed_licensor": "Anthony Siljeg",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "proposed_license": "Q-Pathformer Platform License 1.0",
+  "license_text": {
+    "path": "QPATHFORMER-PLATFORM-1.0.txt",
+    "bytes": 1461,
+    "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+  },
+  "files": [
+    {
+      "path": "payload/study/quantum/code/qpath/__init__.py",
+      "bytes": 85,
+      "sha256": "05824d3c944b73dd461a8aaabd287cdb1618b70f9d2232d3ebf418d4ca08d14d",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/capsule.py",
+      "bytes": 14692,
+      "sha256": "1584dbeb71ce900f6bedf0c4b5b9d1f4423ef9abaec1864a9fe072bcfa0ba3f0",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical.py",
+      "bytes": 19754,
+      "sha256": "c7ce09321ef3b002495e8f4f73118b0b47cc02d6f54847b4f4caa530223be073",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/classical_runner.py",
+      "bytes": 17997,
+      "sha256": "b881539af3306555b245778b613f6083f32456ff0e17f13b00299d1a5a2cee0b",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/data.py",
+      "bytes": 3078,
+      "sha256": "b827e92b2e9c0b861c12eecc8eb539cb6703490d1354aed6065dfedfeabf2ab1",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/ibm.py",
+      "bytes": 6663,
+      "sha256": "eb58b72c8f615dacf1f3681f9a7287bb5da97b59ff4833c198ecc9a8a369bb0d",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/offline.py",
+      "bytes": 1079,
+      "sha256": "c57469a7936fd159ef1bf7ec8867f47dcb9c27a03f8c5445895c78cffba9bec0",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/policies.py",
+      "bytes": 12368,
+      "sha256": "f3418f4111285b2f2819b51a96ef23cf5b1b7b5fff9da7ee901dc47ba5695d78",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/quantum.py",
+      "bytes": 5179,
+      "sha256": "0b1fd34a3c6ef3d739450ed6c553580d3e8dd5da36494c60e725aed58557f619",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/quantum_runner.py",
+      "bytes": 23443,
+      "sha256": "4701d1f6ad3ad62914088e8354b94e5d77a2b10c2f52715a8841afb0acaabbf5",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/quantum/code/qpath/reference.py",
+      "bytes": 3705,
+      "sha256": "6148eecb303e81767c5a2718d3e076dd939e65a60506a8b89a86542815900e10",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/quantum/code/tests/test_quantum.py",
+      "bytes": 5969,
+      "sha256": "d86c6995d86f29ce7d02ac84ffe5096983ff55df1addcc0506b0da50a7221aef",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/classical/benchmark.py",
+      "bytes": 35886,
+      "sha256": "cf5fcd3ef977e2c0f977f09b06256c3c8e5a933dac3d59966c032f6aa03e0cce",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/classical/prepare_agnews.py",
+      "bytes": 8444,
+      "sha256": "541be39a2f4b4b4a1db970e060065c6023156b91ea9258079e48dfe02d8b1a5b",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/classical/test_benchmark.py",
+      "bytes": 4342,
+      "sha256": "63671f70a1093ace6b6616c841bc5ba928b20db9235e00a6291a0e466de570fb",
+      "classification": "retained_study_test"
+    },
+    {
+      "path": "payload/study/classical/qpath/__init__.py",
+      "bytes": 85,
+      "sha256": "05824d3c944b73dd461a8aaabd287cdb1618b70f9d2232d3ebf418d4ca08d14d",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/classical/qpath/classical.py",
+      "bytes": 20392,
+      "sha256": "c56ce05f2ac021a436703a76514033aa723cd7d6a7d38d68bb58b237ef9926b6",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/classical/qpath/policies.py",
+      "bytes": 12368,
+      "sha256": "f3418f4111285b2f2819b51a96ef23cf5b1b7b5fff9da7ee901dc47ba5695d78",
+      "classification": "frozen_study_python"
+    },
+    {
+      "path": "payload/study/classical/tests/test_classical.py",
+      "bytes": 8815,
+      "sha256": "8894a4668f192081b15583efb576a6e5a262233277ed1cbe768df6e2641a5ef1",
+      "classification": "retained_study_test"
+    },
+    {
+      "path": "payload/study/classical/tests/test_policies.py",
+      "bytes": 8504,
+      "sha256": "d9a7a81a940f326817e422be372719eb7d94044c8ea2e9b2313fb7a4149da5ea",
+      "classification": "retained_study_test"
+    },
+    {
+      "path": "payload/study/ibm_readiness/evaluate_readiness.py",
+      "bytes": 23557,
+      "sha256": "27da1c8ff5b4008382b2a2b991e6ed5e97ee14cdd616447f8e4689b942a48a62",
+      "classification": "offline_readiness_python"
+    },
+    {
+      "path": "payload/study/ibm_readiness/test_readiness.py",
+      "bytes": 3120,
+      "sha256": "de446efe3de5d4e2dafd0380b0cb6f9bb932e73a419579dd68be5ac609334539",
+      "classification": "offline_readiness_python"
+    },
+    {
+      "path": "tools/startup_check.py",
+      "bytes": 11598,
+      "sha256": "31e31c7523365c460b4267b63f41a745006df741b9efbc17851e4cce886445b1",
+      "classification": "new_review_tool"
+    },
+    {
+      "path": "tools/verify_package.py",
+      "bytes": 3973,
+      "sha256": "a298e3f782ec2ca5e5e550ad17f37a8b2fbf390aa482a3377614f2000222d210",
+      "classification": "new_review_tool"
+    }
+  ],
+  "source_python_files": 22,
+  "new_helper_files": 2,
+  "previous_grant_exact_byte_match_count": 0,
+  "scope": "Only the listed Python files are proposed. No new v0.1 adoption or whole-repository grant is asserted. Existing rights in any previously licensed expression remain applicable.",
+  "supporting_files": "Historical notices, configurations, requirements and protocols are not automatically covered by this proposed Python-file grant.",
+  "repository_edition": "v1.0",
+  "study_version": "v0.1",
+  "release_tag": "study-v0.1",
+  "release_state": "PRIVATE_DRAFT_RELEASE_REVIEW"
+}

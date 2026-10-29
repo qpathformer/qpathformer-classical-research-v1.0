@@ -1,0 +1,47 @@
+{
+  "status": "SEALED_PRIVATE_DRAFT_REVIEW",
+  "repository_edition": "v1.0",
+  "study_version": "v0.1",
+  "packages": [
+    {
+      "package": "QPathformer_v0.1_Study",
+      "zip": {
+        "path": "QPathformer_v0.1_Study.zip",
+        "bytes": 1277538,
+        "sha256": "01146977627b8dd6cec5c0072c015b3b86d0e673166f3c9d884860da69039054"
+      },
+      "seal": {
+        "path": "QPathformer_v0.1_Study.seal.json",
+        "bytes": 1636,
+        "sha256": "02702f2ce56282dd423792d73e50eed7cbf52093ff246771e2b99c64add0391d"
+      }
+    },
+    {
+      "package": "QPathformer_v0.1_Code",
+      "zip": {
+        "path": "QPathformer_v0.1_Code.zip",
+        "bytes": 137378,
+        "sha256": "973302ece8e0d57a2531fed15e54b99e322a8ed982650d738ab1e5462ae84835"
+      },
+      "seal": {
+        "path": "QPathformer_v0.1_Code.seal.json",
+        "bytes": 1632,
+        "sha256": "ada3ffe88d829cfd92830bb38ca50e261c865de0a031cc064f52f086296701bc"
+      }
+    },
+    {
+      "package": "QPathformer_v0.1_Documentation",
+      "zip": {
+        "path": "QPathformer_v0.1_Documentation.zip",
+        "bytes": 30709,
+        "sha256": "3f88b8f0344a0747eaf9fa99e44deabc06f3b0efe0a8f5a35ae9464ca0dea763"
+      },
+      "seal": {
+        "path": "QPathformer_v0.1_Documentation.seal.json",
+        "bytes": 1666,
+        "sha256": "55e0c20b498146b040642a40eb36eab223c07edabf818bb0f594e2fb1140275a"
+      }
+    }
+  ],
+  "record_boundary": "These review/receipt files are outside the sealed ZIPs. The complete candidate packages are draft release assets."
+}
