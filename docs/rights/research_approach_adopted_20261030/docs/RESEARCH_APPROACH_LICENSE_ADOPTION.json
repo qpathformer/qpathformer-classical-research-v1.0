@@ -1,0 +1,24 @@
+{
+  "schema": "qpath-document-licence-adoption-1",
+  "status": "ADOPTED",
+  "adopted_on": "2026-10-30",
+  "timezone": "Australia/Sydney",
+  "licensor": "Anthony Siljeg",
+  "owner_decision": "CC BY for the existing standalone research approach; retain its current content",
+  "scope": {
+    "path": "docs/RESEARCH_APPROACH_LICENSE_SCOPE.json",
+    "bytes": 1352,
+    "sha256": "20f2cb3b2a5453e47b73332aa8e776c930519dd32035bc9d56984f734f5f18a2"
+  },
+  "document": {
+    "path": "docs/RESEARCH_APPROACH.md",
+    "bytes": 5677,
+    "sha256": "e3f22600ed65bf28a301974a673cae0d1ff7097595eaed88bc9de740715b1ddb"
+  },
+  "before_notice_sha256": "01d3ed6dec96f1fb8747a5208deb634398a714034691b1e633b4b7fd074ae409",
+  "change": "Licence notice only; substantive research approach unchanged",
+  "previous_grants_preserved": true,
+  "does_not_authorize_publication": true,
+  "does_not_change_code_licences": true,
+  "does_not_license_main_paper": true
+}

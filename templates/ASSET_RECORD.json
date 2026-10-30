@@ -1,0 +1,47 @@
+{
+  "schema": "qpath-candidate-asset-1",
+  "status": "template-not-an-approval",
+  "asset_id": null,
+  "title": null,
+  "contributor": null,
+  "source_uri": null,
+  "parent_asset_ids": [],
+  "files": [
+    {
+      "path": null,
+      "bytes": null,
+      "sha256": null
+    }
+  ],
+  "proposed_classification": null,
+  "approved_classification": null,
+  "intended_use": null,
+  "rights": {
+    "licence": null,
+    "permission_evidence": null,
+    "upstream_sources": [],
+    "redistribution_scope": null
+  },
+  "reproducibility": {
+    "protocol": null,
+    "environment": null,
+    "run_ids": [],
+    "findings": null,
+    "limitations": null
+  },
+  "reviews": {
+    "rights": null,
+    "scientific": null,
+    "security": null,
+    "public_disclosure": null
+  },
+  "decision": {
+    "owner": null,
+    "outcome": null,
+    "reason": null,
+    "date": null,
+    "destination": null,
+    "merge_commit": null,
+    "next_review": null
+  }
+}

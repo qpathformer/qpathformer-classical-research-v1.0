@@ -1,0 +1,33 @@
+{
+  "schema": "qpath-document-rights-1",
+  "status": "ADOPTED",
+  "adopted_on": "2026-10-30",
+  "timezone": "Australia/Sydney",
+  "licensor": "Anthony Siljeg",
+  "licence": "CC-BY-4.0",
+  "scope": "Controlled original explanatory prose in the separately identified standalone Q-Pathformer Research Approach, including its licence notice, to the extent the licensor has authority to grant these rights",
+  "files": [
+    {
+      "path": "docs/RESEARCH_APPROACH.md",
+      "bytes": 5677,
+      "sha256": "e3f22600ed65bf28a301974a673cae0d1ff7097595eaed88bc9de740715b1ddb"
+    }
+  ],
+  "canonical_licence": {
+    "path": "LICENSES/CC-BY-4.0.txt",
+    "bytes": 18615,
+    "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+  },
+  "adoption_record": "docs/RESEARCH_APPROACH_LICENSE_ADOPTION.json",
+  "exclusions": [
+    "Main architecture paper as a document",
+    "Code and executable helpers",
+    "Adapters and model weights",
+    "Datasets and third-party expression",
+    "Restricted Lab assets and private audit records",
+    "Other surrounding files without separate adopted grants"
+  ],
+  "previous_grants_preserved": true,
+  "ownership_transfer": false,
+  "hash_note": "Publisher edition identity; permitted extracts translations and adaptations need not retain these bytes or filenames"
+}
