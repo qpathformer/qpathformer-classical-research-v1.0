@@ -1,0 +1,1117 @@
+{
+  "schema": "qpath-eight-study-draft-review-index-1",
+  "status": "V02_V03_V04_V05_V06_V07_V08_PUBLISHED_ONE_PRIVATE_DRAFT_REMAINS",
+  "repository": {
+    "id": 1438032349,
+    "name": "qpathformer/qpathformer-classical-research-v1.0",
+    "private": true,
+    "edition": "v1.0"
+  },
+  "branch": "prepare-studies-v0.2-v0.9-20261029",
+  "main_unchanged": "7c05ea9712d4b21a3b16fd1258f2731972e344c2",
+  "protected_release_ids_unchanged": [
+    427572374,
+    427547832,
+    427529591
+  ],
+  "latest": "study-v0.9.5",
+  "draft_count": 1,
+  "asset_count": 48,
+  "sealed_packages": 24,
+  "report_pages_visually_reviewed": 275,
+  "code_startup_passes": 8,
+  "owner_license_authorization": "OWNER_LICENSE_AUTHORIZATION.json",
+  "licensing_decisions_remaining": [],
+  "license_exceptions_identified": [],
+  "studies": [
+    {
+      "study_version": "v0.2",
+      "title": "Q-Pathformer Study v0.2 — Improvement Study and Baseline Comparison",
+      "release_id": 427657373,
+      "tag_name": "study-v0.2",
+      "target_commit": "f65722c17c54ff67dd018f5a299526d984fe9325",
+      "draft": false,
+      "private": true,
+      "local_pack_folder": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r4",
+      "local_assets": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r4\\dist",
+      "record_path": "release_preparation/study-v0.2/revisions/draft_20261029_r4",
+      "evidence_commit": "8a90e206e154c5e6dfc329d75ae0f8410e2ece6b",
+      "evidence_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/8a90e206e154c5e6dfc329d75ae0f8410e2ece6b/release_preparation/study-v0.2/revisions/draft_20261029_r4/README.md",
+      "receipt_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/8a90e206e154c5e6dfc329d75ae0f8410e2ece6b/release_preparation/study-v0.2/revisions/draft_20261029_r4/DRAFT_RELEASE.json",
+      "assets": [
+        {
+          "id": 688149913,
+          "name": "QPathformer_v0.2_Code.seal.json",
+          "bytes": 1366,
+          "sha256": "d1fd7ad591daedbf7f64bb2522c5fe946807a0c105bd3e7cdb18dbd563a06ec1",
+          "download_verified": true
+        },
+        {
+          "id": 688150108,
+          "name": "QPathformer_v0.2_Code.zip",
+          "bytes": 206580,
+          "sha256": "a73fffc11ba9928074462963065ef1cc5466c834e6fd8c2580dabd40e1a2ec56",
+          "download_verified": true
+        },
+        {
+          "id": 688150413,
+          "name": "QPathformer_v0.2_Documentation.seal.json",
+          "bytes": 1436,
+          "sha256": "c6f42a80faadf948d12134f044e72b1c96db9a55f37ef6ad61c6da54796628e0",
+          "download_verified": true
+        },
+        {
+          "id": 688150670,
+          "name": "QPathformer_v0.2_Documentation.zip",
+          "bytes": 37003,
+          "sha256": "f047146f4fb4cae5cdfd196a824772c43e4461f951cccc64de6f1cfec883c2dc",
+          "download_verified": true
+        },
+        {
+          "id": 688150871,
+          "name": "QPathformer_v0.2_Study.seal.json",
+          "bytes": 1373,
+          "sha256": "dc9ed6a06b6e6a5894b3eeb0cdae69c1fa3b9409507c3b6f8c0800e4a4ec0565",
+          "download_verified": true
+        },
+        {
+          "id": 688151099,
+          "name": "QPathformer_v0.2_Study.zip",
+          "bytes": 1394953,
+          "sha256": "6567321e68e2898cea95c3c0ef9544083c6371156d29b3f69f249a36323050b5",
+          "download_verified": true
+        }
+      ],
+      "counts": {
+        "prose_file_instances": 23,
+        "original_figures": 4,
+        "report_pages": 16,
+        "python_files": 42
+      },
+      "scopes": [
+        {
+          "package": "Study",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 4,
+          "identity": {
+            "bytes": 1351,
+            "sha256": "d0de2176969a87465bf2bf7324dc2d940c97f709b7a83dba0596cdea1481f4b5"
+          }
+        },
+        {
+          "package": "Study",
+          "path": "REPORT_LICENSE_SCOPE.json",
+          "files": 2,
+          "identity": {
+            "bytes": 1932,
+            "sha256": "8102d822b79f9c976c4aeaaa4e34705d87933aabf267cc6a2a262d7030a6b909"
+          }
+        },
+        {
+          "package": "Documentation",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 12,
+          "identity": {
+            "bytes": 2728,
+            "sha256": "0a7741c7f50de1344da06edbc53dba9e1441a80983df4ed00f55bbb668726a99"
+          }
+        },
+        {
+          "package": "Code",
+          "path": "CODE_LICENSE_SCOPE.json",
+          "files": 42,
+          "identity": {
+            "bytes": 8458,
+            "sha256": "de61e25ef7dea4cc89d5ad26e580dd7940cb6e5445a78ad46a7052cd07119bc1"
+          }
+        },
+        {
+          "package": "Code",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 7,
+          "identity": {
+            "bytes": 1830,
+            "sha256": "8754b3f84be3275cf801ce5c506a8529a7b3b7ee5bbcbc7aa08280ff0658992a"
+          }
+        }
+      ],
+      "pdf": {
+        "title": "Q-Pathformer Study v0.2 Improvement Study and Baseline Comparison",
+        "author": "Anthony Siljeg",
+        "pages": 16,
+        "path": "reports/QPathformer_v0.2_Report.pdf",
+        "bytes": 935726,
+        "sha256": "a50ab850d1e59509d46a65eab2167d8b2617e81d4fc22f78eb487a9607e49c60"
+      },
+      "startup_status": "PASS",
+      "startup_scope": "Exact package integrity before and after startup; all selected Python parsed; source-specific imports and deterministic in-memory predictions, CLI help and one explicit nontraining invariant; v0.2 additionally a CPU text forward. No official input files used.",
+      "startup_binding": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.2\\draft_20261029_r4\\receipts\\FRESH_PACKAGE_VERIFICATION.json",
+        "bytes": 4252,
+        "sha256": "1930b0676e74946b1b329dcd947ec4b5416929d8248d9ecf6a342fbc4ff52ebf"
+      },
+      "etel": false,
+      "licensing_decisions_remaining": [],
+      "publication_status": "published",
+      "release_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/study-v0.2",
+      "published_at": "2026-10-29T10:28:24Z",
+      "publication_record_path": "release_preparation/study-v0.2/publication_20261029_r4/PUBLICATION_RECEIPT.json",
+      "historical_draft_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-6fd628c7206d4a8f8732"
+    },
+    {
+      "study_version": "v0.3",
+      "title": "Q-Pathformer Study v0.3 — Shallow Circuits and Routing",
+      "release_id": 427658431,
+      "tag_name": "study-v0.3",
+      "target_commit": "efd01b4423e7bf3ca9340670d11b93152c10bd0f",
+      "draft": false,
+      "private": true,
+      "local_pack_folder": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.3\\draft_20261029_r3",
+      "local_assets": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.3\\draft_20261029_r3\\dist",
+      "record_path": "release_preparation/study-v0.3/revisions/draft_20261029_r3",
+      "evidence_commit": "c6acc74d678d8a5d954eda60b67d5d506dd042c4",
+      "evidence_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/c6acc74d678d8a5d954eda60b67d5d506dd042c4/release_preparation/study-v0.3/revisions/draft_20261029_r3/README.md",
+      "receipt_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/c6acc74d678d8a5d954eda60b67d5d506dd042c4/release_preparation/study-v0.3/revisions/draft_20261029_r3/DRAFT_RELEASE.json",
+      "assets": [
+        {
+          "id": 688205960,
+          "name": "QPathformer_v0.3_Code.seal.json",
+          "bytes": 1366,
+          "sha256": "318c3ab5e865be1da88b978edf7814a7b703b314143097bd5d6df80eca1ce404",
+          "download_verified": true
+        },
+        {
+          "id": 688206148,
+          "name": "QPathformer_v0.3_Code.zip",
+          "bytes": 206271,
+          "sha256": "5733039548ea0e3995522327cd6d307b362ea5a09aff58927b74bc9a8f5f49df",
+          "download_verified": true
+        },
+        {
+          "id": 688000107,
+          "name": "QPathformer_v0.3_Documentation.seal.json",
+          "bytes": 1429,
+          "sha256": "7f9b0cc08dcc18364a553ffdff7353a7cf1f322ba5b427bc950fc6b8d1cdd9e0",
+          "download_verified": true
+        },
+        {
+          "id": 688000306,
+          "name": "QPathformer_v0.3_Documentation.zip",
+          "bytes": 33759,
+          "sha256": "e7b9bfd9ef535113c33c3438c75d7d11c12fca09b143d53ae32cd268b8ed38a5",
+          "download_verified": true
+        },
+        {
+          "id": 688000438,
+          "name": "QPathformer_v0.3_Study.seal.json",
+          "bytes": 1367,
+          "sha256": "369cc3e7135fe4e6de150bcaa262ae6e8b927b0ee3d1fc811d6f891308e15607",
+          "download_verified": true
+        },
+        {
+          "id": 688000625,
+          "name": "QPathformer_v0.3_Study.zip",
+          "bytes": 1703511,
+          "sha256": "f2a27d4e8c24754cade334fbd0121c698f2f368b4d55be83ecac2ede33a6fa98",
+          "download_verified": true
+        }
+      ],
+      "counts": {
+        "prose_file_instances": 23,
+        "original_figures": 4,
+        "report_pages": 22,
+        "python_files": 49
+      },
+      "scopes": [
+        {
+          "package": "Study",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 4,
+          "identity": {
+            "bytes": 1312,
+            "sha256": "9e148b880212760368e23eb44efc73bbe4a724b1b70008f3652089cefdda6ec6"
+          }
+        },
+        {
+          "package": "Study",
+          "path": "REPORT_LICENSE_SCOPE.json",
+          "files": 2,
+          "identity": {
+            "bytes": 1870,
+            "sha256": "1fdc53eb39946f5149de02541477e420ef9d4e86ffaa9b6b5cff0fefbf1a9113"
+          }
+        },
+        {
+          "package": "Documentation",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 12,
+          "identity": {
+            "bytes": 2648,
+            "sha256": "f52e1e85afc8abf7c73253323c55aed39be690dde4266362bbc66809986749f9"
+          }
+        },
+        {
+          "package": "Code",
+          "path": "CODE_LICENSE_SCOPE.json",
+          "files": 49,
+          "identity": {
+            "bytes": 9999,
+            "sha256": "812e941a69a761e6e0205197f7a6ac7bfb8dfcdd6053f0460a26a48a6d843b9f"
+          }
+        },
+        {
+          "package": "Code",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 7,
+          "identity": {
+            "bytes": 1823,
+            "sha256": "ab4eed8dd340b903ca06b2805b27a3605db69421d3e6aa3485633f0d13b3d994"
+          }
+        }
+      ],
+      "pdf": {
+        "title": "Q-Pathformer Study v0.3 Shallow Circuits and Routing",
+        "author": "Anthony Siljeg",
+        "pages": 22,
+        "path": "reports/QPathformer_v0.3_Report.pdf",
+        "bytes": 1141917,
+        "sha256": "ce937b06eafaf1d4da602e1f968df9f0f49a7226ee0f73799d5c03da5754f91b"
+      },
+      "startup_status": "PASS",
+      "startup_scope": "Exact package integrity before and after startup; all selected Python parsed; v0.3 imports and deterministic in-memory predictions for all registered methods, CLI help and the circuit-versus-matrix invariant. No official input files used.",
+      "startup_binding": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.3\\draft_20261029_r3\\receipts\\FRESH_PACKAGE_VERIFICATION.json",
+        "bytes": 4231,
+        "sha256": "6f6cca60d1a78034fba7cf74a3ed60247c07040148069884722d220324de8daf"
+      },
+      "etel": false,
+      "licensing_decisions_remaining": [],
+      "revision_note": "r3 Code helper/quickstart corrections; original Study and Documentation ZIPs and seals reused unchanged.",
+      "publication_status": "published",
+      "release_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/study-v0.3",
+      "published_at": "2026-10-29T10:44:41Z",
+      "publication_record_path": "release_preparation/study-v0.3/publication_20261029_r3/PUBLICATION_RECEIPT.json",
+      "historical_draft_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-fb6505d04b28d9e00eb8"
+    },
+    {
+      "study_version": "v0.4",
+      "title": "Q-Pathformer Study v0.4 — Routing and Circuit Contribution",
+      "release_id": 427659592,
+      "tag_name": "study-v0.4",
+      "target_commit": "4b3f08eaa14e166c0781d7921f6b157aba48644c",
+      "draft": false,
+      "private": true,
+      "local_pack_folder": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r3",
+      "local_assets": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r3\\dist",
+      "record_path": "release_preparation/study-v0.4/revisions/draft_20261029_r3",
+      "evidence_commit": "fe90c4d68569ce23d21f9b0209d22ecb6bded490",
+      "evidence_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/fe90c4d68569ce23d21f9b0209d22ecb6bded490/release_preparation/study-v0.4/revisions/draft_20261029_r3/README.md",
+      "receipt_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/fe90c4d68569ce23d21f9b0209d22ecb6bded490/release_preparation/study-v0.4/revisions/draft_20261029_r3/DRAFT_RELEASE.json",
+      "assets": [
+        {
+          "id": 688264593,
+          "name": "QPathformer_v0.4_Code.seal.json",
+          "bytes": 1366,
+          "sha256": "84dadbef12bfa5a989048235fd476561765924d66bd030a756c6e80fe7de9da2",
+          "download_verified": true
+        },
+        {
+          "id": 688264816,
+          "name": "QPathformer_v0.4_Code.zip",
+          "bytes": 228843,
+          "sha256": "f1e4cd43174f7bf1183d7d6b2a8e274eddfe0d7806d378586cffd09b6990c29e",
+          "download_verified": true
+        },
+        {
+          "id": 688265026,
+          "name": "QPathformer_v0.4_Documentation.seal.json",
+          "bytes": 1436,
+          "sha256": "448e7879c9e4d350e5e79081c18c7ca0e245b871df0933d3b8d0030c4011a912",
+          "download_verified": true
+        },
+        {
+          "id": 688265246,
+          "name": "QPathformer_v0.4_Documentation.zip",
+          "bytes": 38523,
+          "sha256": "0f4df9d5855668c413d470834a84f9e5e3ea067d37f5fdce1aa0dfd5a0376a16",
+          "download_verified": true
+        },
+        {
+          "id": 688265481,
+          "name": "QPathformer_v0.4_Study.seal.json",
+          "bytes": 1373,
+          "sha256": "7ec9faa593ae355d255c844b7521f45119e4c29d82af7e171bdac75e14a1da3d",
+          "download_verified": true
+        },
+        {
+          "id": 688265788,
+          "name": "QPathformer_v0.4_Study.zip",
+          "bytes": 1791984,
+          "sha256": "a2ba6edce95c8ae85259b61db85ab30ad525ee7280a897a7a45348ce33f31beb",
+          "download_verified": true
+        }
+      ],
+      "counts": {
+        "prose_file_instances": 23,
+        "original_figures": 4,
+        "report_pages": 40,
+        "python_files": 50
+      },
+      "scopes": [
+        {
+          "package": "Study",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 4,
+          "identity": {
+            "bytes": 1351,
+            "sha256": "3b3c4b3582ec18ae2ec9050e7f671b192c36973f81944a3c5e8eb16744803bcb"
+          }
+        },
+        {
+          "package": "Study",
+          "path": "REPORT_LICENSE_SCOPE.json",
+          "files": 2,
+          "identity": {
+            "bytes": 1875,
+            "sha256": "274d69399631e0388529334d3bb3c423ee659c05fe5226fb6c0e08fc2957f0e1"
+          }
+        },
+        {
+          "package": "Documentation",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 12,
+          "identity": {
+            "bytes": 2732,
+            "sha256": "2b911bbb3a2baf7e21a7247e62a835c45ae9c44798b130d42693f64fe5fc284b"
+          }
+        },
+        {
+          "package": "Code",
+          "path": "CODE_LICENSE_SCOPE.json",
+          "files": 50,
+          "identity": {
+            "bytes": 10361,
+            "sha256": "d3990f360e9539ca7786971713001b1e22e357050f4f21d66a34f287042bf995"
+          }
+        },
+        {
+          "package": "Code",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 7,
+          "identity": {
+            "bytes": 1824,
+            "sha256": "b7534e63f531d0b8a810a488004428023ef90958a0e01167c404035464b81e7c"
+          }
+        }
+      ],
+      "pdf": {
+        "title": "Q-Pathformer Study v0.4 Routing and Circuit Contribution",
+        "author": "Anthony Siljeg",
+        "pages": 40,
+        "path": "reports/QPathformer_v0.4_Report.pdf",
+        "bytes": 1345176,
+        "sha256": "471cec4475e5c2a9d26591054fbee9dc19e9554c010ba272f8bba6abeef3a45f"
+      },
+      "startup_status": "PASS",
+      "startup_scope": "Exact package integrity before and after startup; all selected Python parsed; v0.4 imports and deterministic in-memory predictions for the nine model/routing combinations, CLI help and the full-matrix agreement invariant. No official input files used.",
+      "startup_binding": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.4\\draft_20261029_r3\\receipts\\FRESH_PACKAGE_VERIFICATION.json",
+        "bytes": 4244,
+        "sha256": "7bb0f2e759898e6ae7ab8acba907164a7e9c976c8003b1186411498328db4ea7"
+      },
+      "etel": false,
+      "licensing_decisions_remaining": [],
+      "revision_note": "r3 helper, quickstart and current guidance corrections; report/scientific/historical bytes unchanged.",
+      "publication_status": "published",
+      "release_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/study-v0.4",
+      "published_at": "2026-10-29T11:07:22Z",
+      "publication_record_path": "release_preparation/study-v0.4/publication_20261029_r3/PUBLICATION_RECEIPT.json",
+      "historical_draft_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-04301b17eba660def6fe"
+    },
+    {
+      "study_version": "v0.5",
+      "title": "Q-Pathformer Study v0.5 — Flexible Readouts and Classical Controls",
+      "release_id": 427648282,
+      "tag_name": "study-v0.5",
+      "target_commit": "8574df9248a23dfc1ceaaf5dd0bcc6b92ff9469d",
+      "draft": false,
+      "private": true,
+      "local_pack_folder": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261030_r3",
+      "local_assets": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261030_r3\\dist",
+      "record_path": "release_preparation/study-v0.5/revisions/draft_20261030_r3",
+      "evidence_commit": "0465553ce105689114428c71011e0cb0d88002c9",
+      "evidence_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/0465553ce105689114428c71011e0cb0d88002c9/release_preparation/study-v0.5/revisions/draft_20261030_r3/README.md",
+      "receipt_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/0465553ce105689114428c71011e0cb0d88002c9/release_preparation/study-v0.5/revisions/draft_20261030_r3/DRAFT_RELEASE.json",
+      "assets": [
+        {
+          "id": 690914963,
+          "name": "QPathformer_v0.5_Code.seal.json",
+          "bytes": 1554,
+          "sha256": "73a1479f0bc5dd59ba15059bbe29332139d4ef0baa141729fb44bbb3a8e4d687",
+          "download_verified": true
+        },
+        {
+          "id": 690915283,
+          "name": "QPathformer_v0.5_Code.zip",
+          "bytes": 276437,
+          "sha256": "e0e242521731719aac4472c064d1c389c4c7f13502e8ce27926945a98f0fac5b",
+          "download_verified": true
+        },
+        {
+          "id": 690915582,
+          "name": "QPathformer_v0.5_Documentation.seal.json",
+          "bytes": 1588,
+          "sha256": "4110a1f7e4cd6d3d0c225a6715ac6b375fc172c77227fe48e7fe45aaea6fc1fc",
+          "download_verified": true
+        },
+        {
+          "id": 690915794,
+          "name": "QPathformer_v0.5_Documentation.zip",
+          "bytes": 48711,
+          "sha256": "4266a35aed676e0c2b8470134f042a8b322f1299621ea763c7af985a248fb1ff",
+          "download_verified": true
+        },
+        {
+          "id": 690916160,
+          "name": "QPathformer_v0.5_Study.seal.json",
+          "bytes": 1557,
+          "sha256": "aaadf9a7fdadd934ba53898084eefd6564a362f476887374aabe5c135262c9e6",
+          "download_verified": true
+        },
+        {
+          "id": 690916443,
+          "name": "QPathformer_v0.5_Study.zip",
+          "bytes": 1650949,
+          "sha256": "b82153cbb33c26e3c04f77116b978bc276c6087420a700cd69794c74b0894274",
+          "download_verified": true
+        }
+      ],
+      "counts": {
+        "prose_file_instances": 19,
+        "original_figures": 4,
+        "report_pages": 34,
+        "python_files": 52
+      },
+      "scopes": [
+        {
+          "package": "Study",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 4,
+          "identity": {
+            "bytes": 1232,
+            "sha256": "48f3cda0965122effc4e8133f57b047f598a0744b46675cf1061bd939a604546"
+          }
+        },
+        {
+          "package": "Study",
+          "path": "REPORT_LICENSE_SCOPE.json",
+          "files": 2,
+          "identity": {
+            "bytes": 2209,
+            "sha256": "dc061c55b5763b2cef7dbc0a2a3b21fcaab47355abc291786166389d41310dc8"
+          }
+        },
+        {
+          "package": "Documentation",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 8,
+          "identity": {
+            "bytes": 1923,
+            "sha256": "e931c8ddb1da365bab38759e4a9020267404c37eda51e689275f5f1b5e66400f"
+          }
+        },
+        {
+          "package": "Code",
+          "path": "CODE_LICENSE_SCOPE.json",
+          "files": 52,
+          "identity": {
+            "bytes": 16171,
+            "sha256": "cff707d1494f60b74ada88c20c99968ff3ddf9cdf3c7daedbc2b4d9b317ce744"
+          }
+        },
+        {
+          "package": "Code",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 7,
+          "identity": {
+            "bytes": 1756,
+            "sha256": "ade0529054b20ed4a70162a5c586a70a54f57f644b9c0413151a591ef3e6928e"
+          }
+        }
+      ],
+      "pdf": {
+        "title": "Q-Pathformer Study v0.5 — Flexible Readouts and Classical Controls",
+        "author": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+        "pages": 34,
+        "path": "reports/QPathformer_v0.5_Report.pdf",
+        "bytes": 1326651,
+        "sha256": "54df391f847ee29016cb371df874d99516c3ba87c8aeec8f632d54c3c6d59080"
+      },
+      "startup_status": "PASS",
+      "startup_scope": "Exact package integrity before and after startup; all selected Python parsed; v0.5 numerical imports and exactly two selected tests: model parameter shapes/paired initial predictions and independent circuit-state/moment agreement. Network disabled in test subprocesses. No official input files used.",
+      "startup_binding": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261030_r3\\receipts\\FRESH_PACKAGE_VERIFICATION.json",
+        "bytes": 4292,
+        "sha256": "17ce35d4cd47052e09bb96a2e0ce96d9a75a7e72746f1abb88835de02f1c380d"
+      },
+      "etel": false,
+      "licensing_decisions_remaining": [],
+      "revision_note": "r3 helper, quickstart and current guidance corrections; report/scientific/historical bytes unchanged.",
+      "publication_status": "published",
+      "release_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/study-v0.5",
+      "published_at": "2026-10-30T04:34:45Z",
+      "publication_record_path": "release_preparation/study-v0.5/publication_20261030_r3/PUBLICATION_RECEIPT.json",
+      "historical_draft_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-648fa637d5f4293b4867"
+    },
+    {
+      "study_version": "v0.6",
+      "title": "Q-Pathformer Study v0.6 — Harder Tasks and Faster Inference",
+      "release_id": 427653047,
+      "tag_name": "study-v0.6",
+      "target_commit": "fe509de7d8b73683da89bf82c3009043c75b6e06",
+      "draft": false,
+      "private": true,
+      "local_pack_folder": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3",
+      "local_assets": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\dist",
+      "record_path": "release_preparation/study-v0.6/revisions/draft_20261030_r3",
+      "evidence_commit": "5005040d829edf64d4d4c8fac6fe7f7076d94650",
+      "evidence_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/5005040d829edf64d4d4c8fac6fe7f7076d94650/release_preparation/study-v0.6/revisions/draft_20261030_r3/README.md",
+      "receipt_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/5005040d829edf64d4d4c8fac6fe7f7076d94650/release_preparation/study-v0.6/revisions/draft_20261030_r3/DRAFT_RELEASE.json",
+      "assets": [
+        {
+          "id": 690973133,
+          "name": "QPathformer_v0.6_Code.seal.json",
+          "bytes": 1555,
+          "sha256": "ae4913937ab0e6661a413143b0455c9bf272d8fd1e8c50dbe0e17a9e82e09c26",
+          "download_verified": true
+        },
+        {
+          "id": 690973302,
+          "name": "QPathformer_v0.6_Code.zip",
+          "bytes": 326615,
+          "sha256": "5345f8858ba8d597afa140fdf9dd1fad653172df3032704cf75bba3baa6c9a40",
+          "download_verified": true
+        },
+        {
+          "id": 690973512,
+          "name": "QPathformer_v0.6_Documentation.seal.json",
+          "bytes": 1588,
+          "sha256": "a44845ecd2af8defbed647c26c6536f9bb3ed09ca78ed786f9500bbdc83f4bc2",
+          "download_verified": true
+        },
+        {
+          "id": 690973787,
+          "name": "QPathformer_v0.6_Documentation.zip",
+          "bytes": 55288,
+          "sha256": "e911957bacdbe1f54314951ad71323e3f34e6d77e945d187e897a24cd06e29ca",
+          "download_verified": true
+        },
+        {
+          "id": 690974006,
+          "name": "QPathformer_v0.6_Study.seal.json",
+          "bytes": 1557,
+          "sha256": "795a27660f813a788b2409a9f2fcdf6a728951afd6fb57c305ee98aa510bbd51",
+          "download_verified": true
+        },
+        {
+          "id": 690974230,
+          "name": "QPathformer_v0.6_Study.zip",
+          "bytes": 1969092,
+          "sha256": "293362ea6059fcdb4ceaf9564eecc8c76747e54b3b639967a01f1f9b7ec31cd6",
+          "download_verified": true
+        }
+      ],
+      "counts": {
+        "prose_file_instances": 19,
+        "original_figures": 3,
+        "report_pages": 35,
+        "python_files": 61
+      },
+      "scopes": [
+        {
+          "package": "Study",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 4,
+          "identity": {
+            "bytes": 1232,
+            "sha256": "be78eaf688c509fc51a7000301c4c063515e21dc793648aff1f4aa8358ca4921"
+          }
+        },
+        {
+          "package": "Study",
+          "path": "REPORT_LICENSE_SCOPE.json",
+          "files": 2,
+          "identity": {
+            "bytes": 2045,
+            "sha256": "179ec07af5f69b0178dd838a3f896bf13aac93bace634705e7cd8aa46fc0f11d"
+          }
+        },
+        {
+          "package": "Documentation",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 8,
+          "identity": {
+            "bytes": 1923,
+            "sha256": "3159e9e6e8894305cfb4f429654ce06c506655e48d47eef714fed87ba23f7e64"
+          }
+        },
+        {
+          "package": "Code",
+          "path": "CODE_LICENSE_SCOPE.json",
+          "files": 61,
+          "identity": {
+            "bytes": 18825,
+            "sha256": "1005884fc70ea29c4710fc4a5e9fd67a8bda2c15d5069c00540e08c105e1ebb8"
+          }
+        },
+        {
+          "package": "Code",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 7,
+          "identity": {
+            "bytes": 1756,
+            "sha256": "489900f89c7dbf4dbc99a0e2d18a41b076369e74277f2ef9f01b504c14878fb7"
+          }
+        }
+      ],
+      "pdf": {
+        "title": "Q-Pathformer Study v0.6 — Harder Tasks and Faster Inference",
+        "author": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+        "pages": 35,
+        "path": "reports/QPathformer_v0.6_Report.pdf",
+        "bytes": 1463490,
+        "sha256": "e25614ebe1be5a9edf9d3efba0aacf9eaab406ce210fe09fd3ad3c3f55015647"
+      },
+      "startup_status": "PASS",
+      "startup_scope": "Exact package integrity before and after startup; all selected Python parsed; v0.6 numerical imports and exactly six required tests: model parameter shapes/paired initial predictions, independent circuit-state/moment agreement, orthogonal conversion nodes, both heads off grid/forced banks, constant logits/invalid contracts and the learned Trig25 coefficient kernel. Network disabled in test subprocesses. No official input files used.",
+      "startup_binding": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\receipts\\FRESH_PACKAGE_VERIFICATION.json",
+        "bytes": 4430,
+        "sha256": "90b27a8fd09859d524cc46cf32d867ebea4c3940f5e9eade4b4da6150898bc93"
+      },
+      "etel": false,
+      "licensing_decisions_remaining": [],
+      "revision_note": "r3 helper, quickstart and current guidance corrections; report/scientific/historical bytes unchanged.",
+      "publication_status": "published",
+      "release_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/study-v0.6",
+      "published_at": "2026-10-30T04:57:51Z",
+      "publication_record_path": "release_preparation/study-v0.6/publication_20261030_r3/PUBLICATION_RECEIPT.json",
+      "historical_draft_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-07c04292fbbaac31d5bb"
+    },
+    {
+      "study_version": "v0.7",
+      "title": "Q-Pathformer Study v0.7 — Routing Capacity and Classical Deployment",
+      "release_id": 427663948,
+      "tag_name": "study-v0.7",
+      "target_commit": "b5284a346b21d86c663df01e239aa56f49a07fa5",
+      "draft": false,
+      "private": true,
+      "local_pack_folder": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261030_r3",
+      "local_assets": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261030_r3\\dist",
+      "record_path": "release_preparation/study-v0.7/revisions/draft_20261030_r3",
+      "evidence_commit": "0f7dea4575f0ac8313e70a3dcf4afd74618f51ee",
+      "evidence_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/0f7dea4575f0ac8313e70a3dcf4afd74618f51ee/release_preparation/study-v0.7/revisions/draft_20261030_r3/README.md",
+      "receipt_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/0f7dea4575f0ac8313e70a3dcf4afd74618f51ee/release_preparation/study-v0.7/revisions/draft_20261030_r3/DRAFT_RELEASE.json",
+      "assets": [
+        {
+          "id": 691019703,
+          "name": "QPathformer_v0.7_Code.seal.json",
+          "bytes": 1318,
+          "sha256": "0dbce202548aaa79a7fac01b18f5f1c35c768c0ca580727c6a45ab6307efb3bf",
+          "download_verified": true
+        },
+        {
+          "id": 691019854,
+          "name": "QPathformer_v0.7_Code.zip",
+          "bytes": 281836,
+          "sha256": "8fee12d75f38cee7fa552936aa63db30c2d53581d877e694d11a26bb765514b0",
+          "download_verified": true
+        },
+        {
+          "id": 691020001,
+          "name": "QPathformer_v0.7_Documentation.seal.json",
+          "bytes": 1388,
+          "sha256": "da4455f83ba36c746ac7efac1ef8c8d1864bee3efc34007690a78a69953bc219",
+          "download_verified": true
+        },
+        {
+          "id": 691020185,
+          "name": "QPathformer_v0.7_Documentation.zip",
+          "bytes": 47759,
+          "sha256": "6461297ea916ffe8513fed11f93169bb2737d00340ed37e328dc99282e33e8de",
+          "download_verified": true
+        },
+        {
+          "id": 688016227,
+          "name": "QPathformer_v0.7_Study.seal.json",
+          "bytes": 1294,
+          "sha256": "77ef2c857ddd447e88b1840c93c93324b0653fc5fc873a2cbce948efa50d427b",
+          "download_verified": true
+        },
+        {
+          "id": 688016408,
+          "name": "QPathformer_v0.7_Study.zip",
+          "bytes": 1917796,
+          "sha256": "d553edb203af47f8348ba51f11303cd908c9a330eee57b7b65f5206d647388e5",
+          "download_verified": true
+        }
+      ],
+      "counts": {
+        "prose_file_instances": 22,
+        "original_figures": 4,
+        "report_pages": 43,
+        "python_files": 52
+      },
+      "scopes": [
+        {
+          "package": "Study",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 4,
+          "identity": {
+            "bytes": 1641,
+            "sha256": "daec4b85fb1b8da48565d5e3abf08c72600cdc4664f5a07e28bd9a2a4eeba414"
+          }
+        },
+        {
+          "package": "Study",
+          "path": "REPORT_LICENSE_SCOPE.json",
+          "files": 2,
+          "identity": {
+            "bytes": 2307,
+            "sha256": "40671de20a54b3fc70e4bd55879147d7a1354672771f68dc693c8a75420a425d"
+          }
+        },
+        {
+          "package": "Documentation",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 13,
+          "identity": {
+            "bytes": 3344,
+            "sha256": "7542a3d38bc9e8035620c09be96569121cf5af151448947f701751a5e9885005"
+          }
+        },
+        {
+          "package": "Code",
+          "path": "CODE_LICENSE_SCOPE.json",
+          "files": 52,
+          "identity": {
+            "bytes": 14000,
+            "sha256": "7da04ecae4f1e2f334b6ac502272d5c812a969c6e2b4facbb5e4e62dd37feda4"
+          }
+        },
+        {
+          "package": "Code",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 5,
+          "identity": {
+            "bytes": 1855,
+            "sha256": "2295c1df4c94c5be0c4d757180251c82ec475eb464b22104e79b065a38018dbe"
+          }
+        }
+      ],
+      "pdf": {
+        "title": "Q-Pathformer study v0.7 Routing Capacity and Classical Deployment",
+        "author": "Anthony Siljeg",
+        "pages": 43,
+        "path": "reports/QPathformer_v0.7_Report_Edition_1.pdf",
+        "bytes": 1821136,
+        "sha256": "b5bd3d125798dc26682803770f0622a2ce026fdd2c9b8977c394a4f55532ead8"
+      },
+      "startup_status": "PASS",
+      "startup_scope": "Exact package integrity before and after startup; all selected Python parsed; v0.7 numerical imports, two inputs through a zero-angle circuit with moment shape/range and sigmoid checks, and required --help for study.py, execution/launcher.py and execution/bind_stage.py. Importing reference_v03 is not an independent matrix comparison. No model-family suite, conversion parity or ETEL fit/recovery checks run. Network disabled in test subprocesses. No official input files used.",
+      "startup_binding": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261030_r3\\receipts\\FRESH_PACKAGE_VERIFICATION.json",
+        "bytes": 4471,
+        "sha256": "15c0875ac4cff71aa4b43974963f303169d5300e0ea258554a79b502687b66ac"
+      },
+      "etel": true,
+      "licensing_decisions_remaining": [],
+      "revision_note": "r3 helper, quickstart and current guidance corrections; report/scientific/historical bytes unchanged.",
+      "publication_status": "published",
+      "release_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/study-v0.7",
+      "published_at": "2026-10-30T05:22:02Z",
+      "publication_record_path": "release_preparation/study-v0.7/publication_20261030_r3/PUBLICATION_RECEIPT.json",
+      "historical_draft_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-438104050e2201433199"
+    },
+    {
+      "study_version": "v0.8",
+      "title": "Q-Pathformer Study v0.8 — Priority Training and Routed Models",
+      "release_id": 427665050,
+      "tag_name": "study-v0.8",
+      "target_commit": "eab254e6ea1d1d2c504a27841de3feeb0a75bc6c",
+      "draft": false,
+      "private": true,
+      "local_pack_folder": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261030_r3",
+      "local_assets": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261030_r3\\dist",
+      "record_path": "release_preparation/study-v0.8/revisions/draft_20261030_r3",
+      "evidence_commit": "fe0547eb3f2b4d360ff2e38984dc35749b5d1056",
+      "evidence_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/fe0547eb3f2b4d360ff2e38984dc35749b5d1056/release_preparation/study-v0.8/revisions/draft_20261030_r3/README.md",
+      "receipt_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/fe0547eb3f2b4d360ff2e38984dc35749b5d1056/release_preparation/study-v0.8/revisions/draft_20261030_r3/DRAFT_RELEASE.json",
+      "assets": [
+        {
+          "id": 691060938,
+          "name": "QPathformer_v0.8_Code.seal.json",
+          "bytes": 1319,
+          "sha256": "5067ae6c12e901acee012de52f98b458abc86b10fc2c9667a3dc438c6b7092d6",
+          "download_verified": true
+        },
+        {
+          "id": 691061167,
+          "name": "QPathformer_v0.8_Code.zip",
+          "bytes": 389826,
+          "sha256": "382cb8c1cb1805562673f1087778650664cca2f3306a785718aded2ed114460a",
+          "download_verified": true
+        },
+        {
+          "id": 691061399,
+          "name": "QPathformer_v0.8_Documentation.seal.json",
+          "bytes": 1388,
+          "sha256": "8e9fb8b014517dba3a4df02055101c10f8fce37f0200ae0a2c0a4543ecb3e4f0",
+          "download_verified": true
+        },
+        {
+          "id": 691061659,
+          "name": "QPathformer_v0.8_Documentation.zip",
+          "bytes": 45853,
+          "sha256": "53f768f0dd863a222a915223e8f8b53056e0326ccff7a9e7603ac6409f0a90fd",
+          "download_verified": true
+        },
+        {
+          "id": 691061833,
+          "name": "QPathformer_v0.8_Study.seal.json",
+          "bytes": 1325,
+          "sha256": "fbce6c83bf2944ff886a50905d0cdb2a3945c43b1ef143f33ddb2c907e1745ec",
+          "download_verified": true
+        },
+        {
+          "id": 691061967,
+          "name": "QPathformer_v0.8_Study.zip",
+          "bytes": 2130266,
+          "sha256": "caf7bdec1b95007d6719d048af1a31699b8f38bdfc8a9d1c58ad1dab502c38da",
+          "download_verified": true
+        }
+      ],
+      "counts": {
+        "prose_file_instances": 21,
+        "original_figures": 2,
+        "report_pages": 45,
+        "python_files": 85
+      },
+      "scopes": [
+        {
+          "package": "Study",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 4,
+          "identity": {
+            "bytes": 1685,
+            "sha256": "4cbd6cab75f82536418b536f33d287ead7bbb8525d6737a04879c3aae15e1056"
+          }
+        },
+        {
+          "package": "Study",
+          "path": "REPORT_LICENSE_SCOPE.json",
+          "files": 2,
+          "identity": {
+            "bytes": 2044,
+            "sha256": "96500bb8cded8753cb6802d88b5306a2ce6f3f54d9c82f4af8655e24e646e218"
+          }
+        },
+        {
+          "package": "Documentation",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 12,
+          "identity": {
+            "bytes": 3168,
+            "sha256": "e79e453036570b929f28c63719209866f596b5f6bcde66eb2e3979f052d9b1f2"
+          }
+        },
+        {
+          "package": "Code",
+          "path": "CODE_LICENSE_SCOPE.json",
+          "files": 85,
+          "identity": {
+            "bytes": 22483,
+            "sha256": "3eca823700908d0fd1e8487d69cddd6e0e0b15208a763c33d60515f7597d9610"
+          }
+        },
+        {
+          "package": "Code",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 5,
+          "identity": {
+            "bytes": 1855,
+            "sha256": "3c1b92a3bdfa95a1431d9ed121fef0ee490e1a92265baec5378e2b67ee288427"
+          }
+        }
+      ],
+      "pdf": {
+        "title": "Q-Pathformer study v0.8 Priority Training and Routed Models",
+        "author": "Anthony Siljeg",
+        "pages": 45,
+        "path": "reports/QPathformer_v0.8_Report_Edition_1.pdf",
+        "bytes": 2020094,
+        "sha256": "92e06293cac5b1f796159a127dd9201bd7b83abc51f22a80cdf2aaeed7a3bd08"
+      },
+      "startup_status": "PASS",
+      "startup_scope": "Exact package integrity before and after startup; all selected Python parsed; v0.8 numerical imports, two inputs through a zero-angle circuit with moment shape/range and sigmoid checks, and required --help for study.py, execution/launcher.py and execution/bind_stage.py. Importing reference_v03 is not an independent matrix comparison. No model-family suite, conversion parity or ETEL fit/recovery checks run. Network disabled in test subprocesses. No official input files used.",
+      "startup_binding": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261030_r3\\receipts\\FRESH_PACKAGE_VERIFICATION.json",
+        "bytes": 4472,
+        "sha256": "6193d66b49971e6e849172aa239e6146206dab6ae70cd3008a50f20354bf2bf5"
+      },
+      "etel": true,
+      "licensing_decisions_remaining": [],
+      "revision_note": "r3 helper, quickstart and current guidance corrections; report/scientific/historical bytes unchanged.",
+      "publication_status": "published",
+      "release_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/study-v0.8",
+      "published_at": "2026-10-30T05:40:53Z",
+      "publication_record_path": "release_preparation/study-v0.8/publication_20261030_r3/PUBLICATION_RECEIPT.json",
+      "historical_draft_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-72147c8ae8f5ddbeaf05"
+    },
+    {
+      "study_version": "v0.9",
+      "title": "Q-Pathformer Study v0.9 — Learned Routing and Classical Controls",
+      "draft_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-4c274386a8eeae98c0ff",
+      "release_id": 427666199,
+      "tag_name": "study-v0.9",
+      "target_commit": "3885095cbb715f3d3df3f38d61b02b90bd3f944f",
+      "draft": true,
+      "private": true,
+      "local_pack_folder": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2",
+      "local_assets": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\dist",
+      "record_path": "release_preparation/study-v0.9/revisions/draft_20261029_r2",
+      "evidence_commit": "2350c164eeb28c0263359275a8f48c0734bdeb73",
+      "evidence_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/2350c164eeb28c0263359275a8f48c0734bdeb73/release_preparation/study-v0.9/revisions/draft_20261029_r2/README.md",
+      "receipt_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/2350c164eeb28c0263359275a8f48c0734bdeb73/release_preparation/study-v0.9/revisions/draft_20261029_r2/DRAFT_RELEASE.json",
+      "assets": [
+        {
+          "id": 688021292,
+          "name": "QPathformer_v0.9_Code.seal.json",
+          "bytes": 1287,
+          "sha256": "a984148629cbb38737f1fc7451d78b9e8598792b2d547aeca07391fb506ffc8b",
+          "download_verified": true
+        },
+        {
+          "id": 688021423,
+          "name": "QPathformer_v0.9_Code.zip",
+          "bytes": 274934,
+          "sha256": "04994fd4cbbfb73dd5946c6f116ed92e0183e756a583cdd7276d460dca2473a6",
+          "download_verified": true
+        },
+        {
+          "id": 688021591,
+          "name": "QPathformer_v0.9_Documentation.seal.json",
+          "bytes": 1356,
+          "sha256": "0d2ab5510acb5c0c0c760f7172bc6a9e60022c445e609da9c39aa4dbe638d1f3",
+          "download_verified": true
+        },
+        {
+          "id": 688021737,
+          "name": "QPathformer_v0.9_Documentation.zip",
+          "bytes": 36698,
+          "sha256": "757c2d9551123542f3462807e52aea3ebf406fe89dcf1ba227d3d02b367b0a08",
+          "download_verified": true
+        },
+        {
+          "id": 688021937,
+          "name": "QPathformer_v0.9_Study.seal.json",
+          "bytes": 1294,
+          "sha256": "f5a40f8cf9584b48324627a7f31a652f621e76b6b7a8d5ec39c3ee65a886ec19",
+          "download_verified": true
+        },
+        {
+          "id": 688022112,
+          "name": "QPathformer_v0.9_Study.zip",
+          "bytes": 2638081,
+          "sha256": "db5e22d077abb129f2f6ae05b4475040f9115aba3e6ecdd2e68843e115109c7f",
+          "download_verified": true
+        }
+      ],
+      "counts": {
+        "prose_file_instances": 22,
+        "original_figures": 6,
+        "report_pages": 40,
+        "python_files": 57
+      },
+      "scopes": [
+        {
+          "package": "Study",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 4,
+          "identity": {
+            "bytes": 1641,
+            "sha256": "76ffe68a91d2636a5ecf24e2c867b34a50780ed5f0604a3c376fe8ce0705de15"
+          }
+        },
+        {
+          "package": "Study",
+          "path": "REPORT_LICENSE_SCOPE.json",
+          "files": 2,
+          "identity": {
+            "bytes": 2625,
+            "sha256": "f60f6fe5f293b3fdf90e85051c8f81331b7c042ba0712d48833ffa3de5779162"
+          }
+        },
+        {
+          "package": "Documentation",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 13,
+          "identity": {
+            "bytes": 3278,
+            "sha256": "288e7a54a6900fc5029181357e08ca1a79b13c20ff254a664d82671179c3e345"
+          }
+        },
+        {
+          "package": "Code",
+          "path": "CODE_LICENSE_SCOPE.json",
+          "files": 57,
+          "identity": {
+            "bytes": 14918,
+            "sha256": "be6666e5f1b0083a9039ec437f3e6bb6af7465953fbc3a85982ccbd78f1aa47f"
+          }
+        },
+        {
+          "package": "Code",
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 5,
+          "identity": {
+            "bytes": 1805,
+            "sha256": "b07c6e33033dc0acdce17f19e30c4dc3a7f857d572749f467429a0457f812f19"
+          }
+        }
+      ],
+      "pdf": {
+        "title": "Q-Pathformer study v0.9 Learned Routing and Classical Controls",
+        "author": "Anthony Siljeg",
+        "pages": 40,
+        "path": "reports/QPathformer_v0.9_Report_Edition_1.pdf",
+        "bytes": 2177249,
+        "sha256": "13098d61dd1737f5f8646a3e56f8f85789aaabf909b954c0fc75db9ca2cd38ec"
+      },
+      "startup_status": "PASS",
+      "startup_scope": "Imports of scientific modules; tiny in-memory 2-input circuit expectation and sigmoid checks; three CLI help paths.",
+      "startup_binding": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\receipts\\FRESH_PACKAGE_VERIFICATION.json",
+        "bytes": 3928,
+        "sha256": "aa42930173294a8b67f2d78f179e993e5bc27b808b2fad035e6113942f2b4f76"
+      },
+      "etel": true,
+      "licensing_decisions_remaining": []
+    }
+  ],
+  "review_items": [
+    "Historical internal/not-for-publication labels and recommendations remain original scientific evidence; appended edition notes explain the current scoped licensing.",
+    "Historical local paths, host configuration, execution recoveries and usage/accounting details are retained for owner review; no silent redaction. v0.9 pages 36–37 include credit/account and token accounting.",
+    "v0.9 original top-level READ_ME is a stale pre-study notice; the final report and new overview describe completed work."
+  ],
+  "reproduction_boundaries": [
+    "All selected originals and report identities were checked against source evidence; this packaging task does not claim a new full multi-gigabyte archive rehash.",
+    "Raw datasets, checkpoints, installed environments, credentials and full operational archives are excluded. Full scientific repetition needs separately retained inputs and reviewed path/environment bindings.",
+    "Startup used compatible existing local environments. No clean-room installation, full training, official scoring, shot sampling or QPU jobs were performed.",
+    "Retained full-archive logical byte totals are distinct from ZIP sizes and do not define hardware minima."
+  ],
+  "superseded_evidence": "Earlier sealed builds remain under each study folder; revision receipts bind their identities. The first v0.5 draft assets were authenticated-downloaded and preserved locally before same-draft replacement, with SUPERSEDED_REMOTE_ASSETS.json retaining old and new identities. v0.2 publication is separately recorded; its historical draft records and prior index remain preserved. v0.3 publication is separately recorded; its historical draft records and prior index remain preserved. v0.4 publication is separately recorded; its historical draft records and prior index remain preserved. v0.5 publication is separately recorded; its historical draft records and prior index remain preserved. v0.6 publication is separately recorded; its historical draft records and prior index remain preserved. v0.7 publication is separately recorded; its historical draft records and prior index remain preserved. v0.8 publication is separately recorded; its historical draft records and prior index remain preserved.",
+  "completed_at_utc": "2026-10-30T05:41:06.633510+00:00",
+  "latest_revision_note": "v0.2 through v0.8 are published in the private repository; v0.9 remains a draft and v0.9.5 remains Latest.",
+  "published_from_batch_count": 7
+}
