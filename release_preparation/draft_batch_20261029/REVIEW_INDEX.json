@@ -431,59 +431,59 @@
     {
       "study_version": "v0.5",
       "title": "Q-Pathformer Study v0.5 — Flexible Readouts and Classical Controls",
-      "draft_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-3f4315e16e04b088cc1c",
+      "draft_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-648fa637d5f4293b4867",
       "release_id": 427648282,
       "tag_name": "study-v0.5",
-      "target_commit": "99dd3cadc9e3366dbf632352c56e0d0d06024e86",
+      "target_commit": "8574df9248a23dfc1ceaaf5dd0bcc6b92ff9469d",
       "draft": true,
       "private": true,
-      "local_pack_folder": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261029_r02",
-      "local_assets": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261029_r02\\dist",
-      "record_path": "release_preparation/study-v0.5/revisions/draft_20261029_r02",
-      "evidence_commit": "1ec1e579b9cd49d2c14346c1176cff3e75aa8c4a",
-      "evidence_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/1ec1e579b9cd49d2c14346c1176cff3e75aa8c4a/release_preparation/study-v0.5/revisions/draft_20261029_r02/README.md",
-      "receipt_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/1ec1e579b9cd49d2c14346c1176cff3e75aa8c4a/release_preparation/study-v0.5/revisions/draft_20261029_r02/DRAFT_RELEASE.json",
+      "local_pack_folder": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261030_r3",
+      "local_assets": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261030_r3\\dist",
+      "record_path": "release_preparation/study-v0.5/revisions/draft_20261030_r3",
+      "evidence_commit": "0465553ce105689114428c71011e0cb0d88002c9",
+      "evidence_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/0465553ce105689114428c71011e0cb0d88002c9/release_preparation/study-v0.5/revisions/draft_20261030_r3/README.md",
+      "receipt_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/0465553ce105689114428c71011e0cb0d88002c9/release_preparation/study-v0.5/revisions/draft_20261030_r3/DRAFT_RELEASE.json",
       "assets": [
         {
-          "id": 687992857,
+          "id": 690914963,
           "name": "QPathformer_v0.5_Code.seal.json",
-          "bytes": 1518,
-          "sha256": "10cda4969b19a0ec0bb432df74069788b33380b6c8bfb65495ccbd462630a714",
+          "bytes": 1554,
+          "sha256": "73a1479f0bc5dd59ba15059bbe29332139d4ef0baa141729fb44bbb3a8e4d687",
           "download_verified": true
         },
         {
-          "id": 687993157,
+          "id": 690915283,
           "name": "QPathformer_v0.5_Code.zip",
-          "bytes": 267317,
-          "sha256": "ac992cafc3d6a50483a55db9265e1721a76f72c320761a08f56d3dc421a5d078",
+          "bytes": 276437,
+          "sha256": "e0e242521731719aac4472c064d1c389c4c7f13502e8ce27926945a98f0fac5b",
           "download_verified": true
         },
         {
-          "id": 687993503,
+          "id": 690915582,
           "name": "QPathformer_v0.5_Documentation.seal.json",
-          "bytes": 1551,
-          "sha256": "e7c4555842f87ed7af6256b43a987dd8dcc63bf716cde29345dfe7807dca16e5",
+          "bytes": 1588,
+          "sha256": "4110a1f7e4cd6d3d0c225a6715ac6b375fc172c77227fe48e7fe45aaea6fc1fc",
           "download_verified": true
         },
         {
-          "id": 687993768,
+          "id": 690915794,
           "name": "QPathformer_v0.5_Documentation.zip",
-          "bytes": 41370,
-          "sha256": "24f1080b7f8390f4aff8bb89d50cb924bb30a2b9291b4fcd26ca364e6771ef8c",
+          "bytes": 48711,
+          "sha256": "4266a35aed676e0c2b8470134f042a8b322f1299621ea763c7af985a248fb1ff",
           "download_verified": true
         },
         {
-          "id": 687994064,
+          "id": 690916160,
           "name": "QPathformer_v0.5_Study.seal.json",
-          "bytes": 1521,
-          "sha256": "38ee2e5923baaac985e570cf495fd516ead6b7afed093205b3a44d6122599c90",
+          "bytes": 1557,
+          "sha256": "aaadf9a7fdadd934ba53898084eefd6564a362f476887374aabe5c135262c9e6",
           "download_verified": true
         },
         {
-          "id": 687994395,
+          "id": 690916443,
           "name": "QPathformer_v0.5_Study.zip",
-          "bytes": 1649207,
-          "sha256": "6ca8adce507a44cebfc5a99874409b0e0d1e400c4e04e90d89c3cd5e22b33978",
+          "bytes": 1650949,
+          "sha256": "b82153cbb33c26e3c04f77116b978bc276c6087420a700cd69794c74b0894274",
           "download_verified": true
         }
       ],
@@ -499,8 +499,8 @@
           "path": "GUIDANCE_LICENSE_SCOPE.json",
           "files": 4,
           "identity": {
-            "bytes": 1199,
-            "sha256": "bfff5eca47e2877b0c98ac59db3cbff5aae2e8984678d6a365d4a807255ce704"
+            "bytes": 1232,
+            "sha256": "48f3cda0965122effc4e8133f57b047f598a0744b46675cf1061bd939a604546"
           }
         },
         {
@@ -517,8 +517,8 @@
           "path": "GUIDANCE_LICENSE_SCOPE.json",
           "files": 8,
           "identity": {
-            "bytes": 1868,
-            "sha256": "842a449e8bd4019d473dbc2a0986e5f21bef4b4173723ed70d6d62eec38d4d67"
+            "bytes": 1923,
+            "sha256": "e931c8ddb1da365bab38759e4a9020267404c37eda51e689275f5f1b5e66400f"
           }
         },
         {
@@ -526,8 +526,8 @@
           "path": "CODE_LICENSE_SCOPE.json",
           "files": 52,
           "identity": {
-            "bytes": 15829,
-            "sha256": "a177eddfa24c5dc08af38c2989639485a8a569780b6ebd8d3983b68ac8f6e670"
+            "bytes": 16171,
+            "sha256": "cff707d1494f60b74ada88c20c99968ff3ddf9cdf3c7daedbc2b4d9b317ce744"
           }
         },
         {
@@ -535,8 +535,8 @@
           "path": "GUIDANCE_LICENSE_SCOPE.json",
           "files": 7,
           "identity": {
-            "bytes": 1708,
-            "sha256": "10b66b8ae66af0783c5802bd619987fc8d3b1cc12e882926aa331a5e3e681fb1"
+            "bytes": 1756,
+            "sha256": "ade0529054b20ed4a70162a5c586a70a54f57f644b9c0413151a591ef3e6928e"
           }
         }
       ],
@@ -549,14 +549,15 @@
         "sha256": "54df391f847ee29016cb371df874d99516c3ba87c8aeec8f632d54c3c6d59080"
       },
       "startup_status": "PASS",
-      "startup_scope": "AST/import and numerical unit checks only; no training, official scoring, shots or QPU job.",
+      "startup_scope": "Exact package integrity before and after startup; all selected Python parsed; v0.5 numerical imports and exactly two selected tests: model parameter shapes/paired initial predictions and independent circuit-state/moment agreement. Network disabled in test subprocesses. No official input files used.",
       "startup_binding": {
-        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261029_r02\\receipts\\FRESH_PACKAGE_VERIFICATION.json",
-        "bytes": 3505,
-        "sha256": "3fbe45a73ce8a406c2e3a8f845f6210aeab304da6fcfe7f623041eba135b1838"
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261030_r3\\receipts\\FRESH_PACKAGE_VERIFICATION.json",
+        "bytes": 4292,
+        "sha256": "17ce35d4cd47052e09bb96a2e0ce96d9a75a7e72746f1abb88835de02f1c380d"
       },
       "etel": false,
-      "licensing_decisions_remaining": []
+      "licensing_decisions_remaining": [],
+      "revision_note": "r3 helper, quickstart and current guidance corrections; report/scientific/historical bytes unchanged."
     },
     {
       "study_version": "v0.6",
@@ -1091,7 +1092,7 @@
     "Retained full-archive logical byte totals are distinct from ZIP sizes and do not define hardware minima."
   ],
   "superseded_evidence": "Earlier sealed builds remain under each study folder; revision receipts bind their identities. The first v0.5 draft assets were authenticated-downloaded and preserved locally before same-draft replacement, with SUPERSEDED_REMOTE_ASSETS.json retaining old and new identities. v0.2 publication is separately recorded; its historical draft records and prior index remain preserved. v0.3 publication is separately recorded; its historical draft records and prior index remain preserved. v0.4 publication is separately recorded; its historical draft records and prior index remain preserved.",
-  "completed_at_utc": "2026-10-29T11:07:33.718281+00:00",
-  "latest_revision_note": "v0.2, v0.3 and v0.4 are published in the private repository; v0.5–v0.9 remain drafts and v0.9.5 remains Latest.",
+  "completed_at_utc": "2026-10-30T04:27:00.025094+00:00",
+  "latest_revision_note": "v0.5 r3 corrections are verified in the private draft. v0.2, v0.3 and v0.4 remain published; v0.9.5 remains Latest; all other selections are unchanged.",
   "published_from_batch_count": 3
 }
