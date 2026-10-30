@@ -1,6 +1,6 @@
 {
   "schema": "qpath-eight-study-draft-review-index-1",
-  "status": "V02_V03_V04_V05_PUBLISHED_FOUR_PRIVATE_DRAFTS_REMAIN",
+  "status": "V02_V03_V04_V05_V06_PUBLISHED_THREE_PRIVATE_DRAFTS_REMAIN",
   "repository": {
     "id": 1438032349,
     "name": "qpathformer/qpathformer-classical-research-v1.0",
@@ -15,7 +15,7 @@
     427529591
   ],
   "latest": "study-v0.9.5",
-  "draft_count": 4,
+  "draft_count": 3,
   "asset_count": 48,
   "sealed_packages": 24,
   "report_pages_visually_reviewed": 275,
@@ -566,11 +566,10 @@
     {
       "study_version": "v0.6",
       "title": "Q-Pathformer Study v0.6 — Harder Tasks and Faster Inference",
-      "draft_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-07c04292fbbaac31d5bb",
       "release_id": 427653047,
       "tag_name": "study-v0.6",
       "target_commit": "fe509de7d8b73683da89bf82c3009043c75b6e06",
-      "draft": true,
+      "draft": false,
       "private": true,
       "local_pack_folder": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3",
       "local_assets": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\dist",
@@ -692,7 +691,12 @@
       },
       "etel": false,
       "licensing_decisions_remaining": [],
-      "revision_note": "r3 helper, quickstart and current guidance corrections; report/scientific/historical bytes unchanged."
+      "revision_note": "r3 helper, quickstart and current guidance corrections; report/scientific/historical bytes unchanged.",
+      "publication_status": "published",
+      "release_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/study-v0.6",
+      "published_at": "2026-10-30T04:57:51Z",
+      "publication_record_path": "release_preparation/study-v0.6/publication_20261030_r3/PUBLICATION_RECEIPT.json",
+      "historical_draft_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-07c04292fbbaac31d5bb"
     },
     {
       "study_version": "v0.7",
@@ -1096,8 +1100,8 @@
     "Startup used compatible existing local environments. No clean-room installation, full training, official scoring, shot sampling or QPU jobs were performed.",
     "Retained full-archive logical byte totals are distinct from ZIP sizes and do not define hardware minima."
   ],
-  "superseded_evidence": "Earlier sealed builds remain under each study folder; revision receipts bind their identities. The first v0.5 draft assets were authenticated-downloaded and preserved locally before same-draft replacement, with SUPERSEDED_REMOTE_ASSETS.json retaining old and new identities. v0.2 publication is separately recorded; its historical draft records and prior index remain preserved. v0.3 publication is separately recorded; its historical draft records and prior index remain preserved. v0.4 publication is separately recorded; its historical draft records and prior index remain preserved. v0.5 publication is separately recorded; its historical draft records and prior index remain preserved.",
-  "completed_at_utc": "2026-10-30T04:54:21.130701+00:00",
-  "latest_revision_note": "v0.6 r3 corrections are verified in the private draft. v0.2, v0.3, v0.4 and v0.5 remain published; v0.9.5 remains Latest; all other selections are unchanged.",
-  "published_from_batch_count": 4
+  "superseded_evidence": "Earlier sealed builds remain under each study folder; revision receipts bind their identities. The first v0.5 draft assets were authenticated-downloaded and preserved locally before same-draft replacement, with SUPERSEDED_REMOTE_ASSETS.json retaining old and new identities. v0.2 publication is separately recorded; its historical draft records and prior index remain preserved. v0.3 publication is separately recorded; its historical draft records and prior index remain preserved. v0.4 publication is separately recorded; its historical draft records and prior index remain preserved. v0.5 publication is separately recorded; its historical draft records and prior index remain preserved. v0.6 publication is separately recorded; its historical draft records and prior index remain preserved.",
+  "completed_at_utc": "2026-10-30T04:58:04.957456+00:00",
+  "latest_revision_note": "v0.2, v0.3, v0.4, v0.5 and v0.6 are published in the private repository; v0.7–v0.9 remain drafts and v0.9.5 remains Latest.",
+  "published_from_batch_count": 5
 }

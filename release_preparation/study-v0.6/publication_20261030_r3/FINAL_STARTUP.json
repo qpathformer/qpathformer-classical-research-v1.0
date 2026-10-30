@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "recorded_at_utc": "2026-10-30T04:57:29.030252+00:00",
+  "python": "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "parsed_python_files": 61,
+  "numpy_version": "2.5.4",
+  "scipy_version": "1.18.1",
+  "methods": [
+    "qscalar_kmeans",
+    "qmulti_kmeans",
+    "mlp8tanh_kmeans",
+    "trig_kmeans",
+    "trig_global",
+    "mlp_global"
+  ],
+  "model_methods_checked": 6,
+  "tests_run": 6,
+  "integrity_before": {
+    "status": "PASS",
+    "files": 90,
+    "package_fingerprint_sha256": "1980966a8a05eccbac9eb752354dc50e7ec69617f4acd36da3edb54ecae6abea"
+  },
+  "integrity_after": {
+    "status": "PASS",
+    "files": 90,
+    "package_fingerprint_sha256": "1980966a8a05eccbac9eb752354dc50e7ec69617f4acd36da3edb54ecae6abea"
+  },
+  "package_bytes_unchanged": true,
+  "checks": [
+    {
+      "label": "model shapes and paired initial predictions",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-c",
+        "import json, socket, sys, unittest\ndef denied(*args, **kwargs): raise RuntimeError('Network disabled during bounded startup')\nsocket.create_connection = denied\nsocket.socket.connect = denied\nsocket.socket.connect_ex = denied\nsys.path.insert(0, '..')\nsys.path.insert(0, '../deployment_checks')\nimport numpy, scipy, circuits, models, routers, study, verification, test_models, deployment_compiler, test_compiler\ntest_id = 'test_models.ModelTests.test_shapes_and_paired_initial_predictions'\nsuite = unittest.TestLoader().loadTestsFromName(test_id)\nresult = unittest.TextTestRunner(verbosity=2).run(suite)\nprint(json.dumps({'numpy_version': numpy.__version__, 'scipy_version': scipy.__version__, 'methods': list(models.METHODS), 'tests_run': result.testsRun, 'test_id': test_id}))\nraise SystemExit(0 if result.wasSuccessful() and result.testsRun == 1 else 1)"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\publication_20261030_r3\\final_check\\fresh_extraction\\QPathformer_v0.6_Code\\payload\\study\\quantum\\tests",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "{\"numpy_version\": \"2.5.4\", \"scipy_version\": \"1.18.1\", \"methods\": [\"qscalar_kmeans\", \"qmulti_kmeans\", \"mlp8tanh_kmeans\", \"trig_kmeans\", \"trig_global\", \"mlp_global\"], \"tests_run\": 1, \"test_id\": \"test_models.ModelTests.test_shapes_and_paired_initial_predictions\"}\n",
+      "stderr": "test_shapes_and_paired_initial_predictions (test_models.ModelTests.test_shapes_and_paired_initial_predictions) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.419s\n\nOK\n",
+      "test_id": "test_models.ModelTests.test_shapes_and_paired_initial_predictions"
+    },
+    {
+      "label": "independent circuit-state and moment agreement",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-c",
+        "import json, socket, sys, unittest\ndef denied(*args, **kwargs): raise RuntimeError('Network disabled during bounded startup')\nsocket.create_connection = denied\nsocket.socket.connect = denied\nsocket.socket.connect_ex = denied\nsys.path.insert(0, '..')\nsys.path.insert(0, '../deployment_checks')\nimport numpy, scipy, circuits, models, routers, study, verification, test_models, deployment_compiler, test_compiler\ntest_id = 'test_models.ModelTests.test_moments_and_state_against_independent_matrices'\nsuite = unittest.TestLoader().loadTestsFromName(test_id)\nresult = unittest.TextTestRunner(verbosity=2).run(suite)\nprint(json.dumps({'numpy_version': numpy.__version__, 'scipy_version': scipy.__version__, 'methods': list(models.METHODS), 'tests_run': result.testsRun, 'test_id': test_id}))\nraise SystemExit(0 if result.wasSuccessful() and result.testsRun == 1 else 1)"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\publication_20261030_r3\\final_check\\fresh_extraction\\QPathformer_v0.6_Code\\payload\\study\\quantum\\tests",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "{\"numpy_version\": \"2.5.4\", \"scipy_version\": \"1.18.1\", \"methods\": [\"qscalar_kmeans\", \"qmulti_kmeans\", \"mlp8tanh_kmeans\", \"trig_kmeans\", \"trig_global\", \"mlp_global\"], \"tests_run\": 1, \"test_id\": \"test_models.ModelTests.test_moments_and_state_against_independent_matrices\"}\n",
+      "stderr": "test_moments_and_state_against_independent_matrices (test_models.ModelTests.test_moments_and_state_against_independent_matrices) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.736s\n\nOK\n",
+      "test_id": "test_models.ModelTests.test_moments_and_state_against_independent_matrices"
+    },
+    {
+      "label": "orthogonal period-two construction nodes",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-c",
+        "import json, socket, sys, unittest\ndef denied(*args, **kwargs): raise RuntimeError('Network disabled during bounded startup')\nsocket.create_connection = denied\nsocket.socket.connect = denied\nsocket.socket.connect_ex = denied\nsys.path.insert(0, '..')\nsys.path.insert(0, '../deployment_checks')\nimport numpy, scipy, circuits, models, routers, study, verification, test_models, deployment_compiler, test_compiler\ntest_id = 'test_compiler.CompilerTests.test_orthogonal_period_two_nodes'\nsuite = unittest.TestLoader().loadTestsFromName(test_id)\nresult = unittest.TextTestRunner(verbosity=2).run(suite)\nprint(json.dumps({'numpy_version': numpy.__version__, 'scipy_version': scipy.__version__, 'methods': list(models.METHODS), 'tests_run': result.testsRun, 'test_id': test_id}))\nraise SystemExit(0 if result.wasSuccessful() and result.testsRun == 1 else 1)"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\publication_20261030_r3\\final_check\\fresh_extraction\\QPathformer_v0.6_Code\\payload\\study\\quantum\\tests",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "{\"numpy_version\": \"2.5.4\", \"scipy_version\": \"1.18.1\", \"methods\": [\"qscalar_kmeans\", \"qmulti_kmeans\", \"mlp8tanh_kmeans\", \"trig_kmeans\", \"trig_global\", \"mlp_global\"], \"tests_run\": 1, \"test_id\": \"test_compiler.CompilerTests.test_orthogonal_period_two_nodes\"}\n",
+      "stderr": "test_orthogonal_period_two_nodes (test_compiler.CompilerTests.test_orthogonal_period_two_nodes) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.383s\n\nOK\n",
+      "test_id": "test_compiler.CompilerTests.test_orthogonal_period_two_nodes"
+    },
+    {
+      "label": "both heads off grid and forced banks",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-c",
+        "import json, socket, sys, unittest\ndef denied(*args, **kwargs): raise RuntimeError('Network disabled during bounded startup')\nsocket.create_connection = denied\nsocket.socket.connect = denied\nsocket.socket.connect_ex = denied\nsys.path.insert(0, '..')\nsys.path.insert(0, '../deployment_checks')\nimport numpy, scipy, circuits, models, routers, study, verification, test_models, deployment_compiler, test_compiler\ntest_id = 'test_compiler.CompilerTests.test_both_heads_off_grid_and_forced_banks'\nsuite = unittest.TestLoader().loadTestsFromName(test_id)\nresult = unittest.TextTestRunner(verbosity=2).run(suite)\nprint(json.dumps({'numpy_version': numpy.__version__, 'scipy_version': scipy.__version__, 'methods': list(models.METHODS), 'tests_run': result.testsRun, 'test_id': test_id}))\nraise SystemExit(0 if result.wasSuccessful() and result.testsRun == 1 else 1)"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\publication_20261030_r3\\final_check\\fresh_extraction\\QPathformer_v0.6_Code\\payload\\study\\quantum\\tests",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "{\"numpy_version\": \"2.5.4\", \"scipy_version\": \"1.18.1\", \"methods\": [\"qscalar_kmeans\", \"qmulti_kmeans\", \"mlp8tanh_kmeans\", \"trig_kmeans\", \"trig_global\", \"mlp_global\"], \"tests_run\": 1, \"test_id\": \"test_compiler.CompilerTests.test_both_heads_off_grid_and_forced_banks\"}\n",
+      "stderr": "test_both_heads_off_grid_and_forced_banks (test_compiler.CompilerTests.test_both_heads_off_grid_and_forced_banks) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.547s\n\nOK\n",
+      "test_id": "test_compiler.CompilerTests.test_both_heads_off_grid_and_forced_banks"
+    },
+    {
+      "label": "constant logits and invalid conversion contracts",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-c",
+        "import json, socket, sys, unittest\ndef denied(*args, **kwargs): raise RuntimeError('Network disabled during bounded startup')\nsocket.create_connection = denied\nsocket.socket.connect = denied\nsocket.socket.connect_ex = denied\nsys.path.insert(0, '..')\nsys.path.insert(0, '../deployment_checks')\nimport numpy, scipy, circuits, models, routers, study, verification, test_models, deployment_compiler, test_compiler\ntest_id = 'test_compiler.CompilerTests.test_constant_logits_and_invalid_contracts'\nsuite = unittest.TestLoader().loadTestsFromName(test_id)\nresult = unittest.TextTestRunner(verbosity=2).run(suite)\nprint(json.dumps({'numpy_version': numpy.__version__, 'scipy_version': scipy.__version__, 'methods': list(models.METHODS), 'tests_run': result.testsRun, 'test_id': test_id}))\nraise SystemExit(0 if result.wasSuccessful() and result.testsRun == 1 else 1)"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\publication_20261030_r3\\final_check\\fresh_extraction\\QPathformer_v0.6_Code\\payload\\study\\quantum\\tests",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "{\"numpy_version\": \"2.5.4\", \"scipy_version\": \"1.18.1\", \"methods\": [\"qscalar_kmeans\", \"qmulti_kmeans\", \"mlp8tanh_kmeans\", \"trig_kmeans\", \"trig_global\", \"mlp_global\"], \"tests_run\": 1, \"test_id\": \"test_compiler.CompilerTests.test_constant_logits_and_invalid_contracts\"}\n",
+      "stderr": "test_constant_logits_and_invalid_contracts (test_compiler.CompilerTests.test_constant_logits_and_invalid_contracts) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.353s\n\nOK\n",
+      "test_id": "test_compiler.CompilerTests.test_constant_logits_and_invalid_contracts"
+    },
+    {
+      "label": "learned Trig25 identical coefficient kernel",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-c",
+        "import json, socket, sys, unittest\ndef denied(*args, **kwargs): raise RuntimeError('Network disabled during bounded startup')\nsocket.create_connection = denied\nsocket.socket.connect = denied\nsocket.socket.connect_ex = denied\nsys.path.insert(0, '..')\nsys.path.insert(0, '../deployment_checks')\nimport numpy, scipy, circuits, models, routers, study, verification, test_models, deployment_compiler, test_compiler\ntest_id = 'test_compiler.CompilerTests.test_learned_trig_uses_identical_coefficient_kernel'\nsuite = unittest.TestLoader().loadTestsFromName(test_id)\nresult = unittest.TextTestRunner(verbosity=2).run(suite)\nprint(json.dumps({'numpy_version': numpy.__version__, 'scipy_version': scipy.__version__, 'methods': list(models.METHODS), 'tests_run': result.testsRun, 'test_id': test_id}))\nraise SystemExit(0 if result.wasSuccessful() and result.testsRun == 1 else 1)"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\publication_20261030_r3\\final_check\\fresh_extraction\\QPathformer_v0.6_Code\\payload\\study\\quantum\\tests",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "{\"numpy_version\": \"2.5.4\", \"scipy_version\": \"1.18.1\", \"methods\": [\"qscalar_kmeans\", \"qmulti_kmeans\", \"mlp8tanh_kmeans\", \"trig_kmeans\", \"trig_global\", \"mlp_global\"], \"tests_run\": 1, \"test_id\": \"test_compiler.CompilerTests.test_learned_trig_uses_identical_coefficient_kernel\"}\n",
+      "stderr": "test_learned_trig_uses_identical_coefficient_kernel (test_compiler.CompilerTests.test_learned_trig_uses_identical_coefficient_kernel) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.407s\n\nOK\n",
+      "test_id": "test_compiler.CompilerTests.test_learned_trig_uses_identical_coefficient_kernel"
+    }
+  ],
+  "errors": [],
+  "scope": "Exact package integrity before and after startup; all selected Python parsed; v0.6 numerical imports and exactly six required tests: model parameter shapes/paired initial predictions, independent circuit-state/moment agreement, orthogonal conversion nodes, both heads off grid/forced banks, constant logits/invalid contracts and the learned Trig25 coefficient kernel. Network disabled in test subprocesses. No official input files used.",
+  "not_verified": [
+    "Clean-room dependency installation",
+    "Full training or official scoring",
+    "Datasets and selected checkpoints",
+    "Full-archive relocation",
+    "Shot sampling or noise experiments",
+    "Hardware or QPU execution"
+  ]
+}
