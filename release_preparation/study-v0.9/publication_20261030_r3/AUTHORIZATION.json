@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-30",
+  "timezone": "Australia/Sydney",
+  "owner_request": "Perfect - approved. Lets run one final check and publish v0.9, keeping the repo private and v0.9.5 as Latest.",
+  "prior_approval": "Updated v0.9 r3 private draft approved in the originating conversation",
+  "release_id": 427666199,
+  "tag": "study-v0.9",
+  "target_commit": "51926b4c4f2ea003a7c5224d54cfb33089a73522",
+  "assets_unchanged": true
+}

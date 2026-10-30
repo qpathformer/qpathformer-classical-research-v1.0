@@ -1,0 +1,12 @@
+{
+  "command": [
+    "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+    "-B",
+    "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\publication_20261030_r3\\final_check\\fresh_extraction\\QPathformer_v0.9_Code\\tools\\startup_check.py",
+    "--output",
+    "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\publication_20261030_r3\\FINAL_STARTUP.json"
+  ],
+  "returncode": 0,
+  "stdout": "{\"status\": \"PASS\", \"checks\": 4}\n",
+  "stderr": ""
+}

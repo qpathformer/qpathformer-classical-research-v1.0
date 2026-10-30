@@ -1,6 +1,6 @@
 # Q Pathformer study release review
 
-v0.2 through v0.8 are published in the private official repository; v0.9 remains a draft. All 48 uploaded assets were downloaded with authentication and matched byte-for-byte, size and SHA-256. Main and all previously published releases are unchanged; study-v0.9.5 remains Latest.
+v0.2 through v0.9 are published in the private official repository; all eight studies in this batch are published. All 48 uploaded assets were downloaded with authentication and matched byte-for-byte, size and SHA-256. Main and all previously published releases are unchanged; study-v0.9.5 remains Latest.
 
 The 24 packages passed inventory, safe-path, hash, JSON, link and adopted-scope checks. All 275 report pages were visually reviewed, and all eight actual final Code ZIPs passed fresh-extraction offline startup.
 
@@ -13,11 +13,11 @@ The 24 packages passed inventory, safe-path, hash, JSON, link and adopted-scope 
 | v0.6 | [Published v0.6](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/study-v0.6) | [Verification and scopes](https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/5005040d829edf64d4d4c8fac6fe7f7076d94650/release_preparation/study-v0.6/revisions/draft_20261030_r3/README.md) | 35 | 61 | 3 | Not supplied |
 | v0.7 | [Published v0.7](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/study-v0.7) | [Verification and scopes](https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/0f7dea4575f0ac8313e70a3dcf4afd74618f51ee/release_preparation/study-v0.7/revisions/draft_20261030_r3/README.md) | 43 | 52 | 4 | Included |
 | v0.8 | [Published v0.8](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/study-v0.8) | [Verification and scopes](https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/fe0547eb3f2b4d360ff2e38984dc35749b5d1056/release_preparation/study-v0.8/revisions/draft_20261030_r3/README.md) | 45 | 85 | 2 | Included |
-| v0.9 | [Open draft](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-70567fc568bc1bcf119b) | [Verification and scopes](https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/6ea74fe58d40ca2c4972d2cc2434310f66bc17a4/release_preparation/study-v0.9/revisions/draft_20261030_r3/README.md) | 40 | 57 | 6 | Included |
+| v0.9 | [Published v0.9](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/study-v0.9) | [Verification and scopes](https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/6ea74fe58d40ca2c4972d2cc2434310f66bc17a4/release_preparation/study-v0.9/revisions/draft_20261030_r3/README.md) | 40 | 57 | 6 | Included |
 
 The owner adopted the same separately scoped licensing scheme as v0.1 and v0.9.5 on 29 October 2026. Exact controlled report content and listed prose use CC BY 4.0; exact selected Python files and helpers use unchanged Q-Pathformer Platform License 1.0. Earlier grants survive. Anthony Siljeg is licensor; company affiliation is not an ownership transfer. **No licensing decisions or conflicting-license exceptions remain identified for these selections.**
 
-The owner review should consider retained historical internal labels, local paths, host details, recovery discussions and usage/accounting information. Those were preserved rather than silently removed. The final report resolves the stale v0.9 pre-study README. The owner authorized and completed v0.2 through v0.8 publication. v0.9 remains unpublished.
+The owner review should consider retained historical internal labels, local paths, host details, recovery discussions and usage/accounting information. Those were preserved rather than silently removed. The final report resolves the stale v0.9 pre-study README. The owner authorized and completed v0.2 through v0.9 publication. All eight studies in this batch are published.
 
 Full reproduction still requires separately retained data, checkpoints and historical environment/path bindings. Bounded startup is not clean-install validation or a new scientific run. Archive sizes are not ZIP sizes or hardware requirements.
 
@@ -62,4 +62,6 @@ The current v0.8 selection is r3: optimization-safe integrity checks, strict inv
 
 Published v0.8 uses the unchanged r3 ZIPs and seals. Its final publication check and receipt are retained separately from historical draft receipts. Repository access remains private and v0.9.5 remains Latest.
 
-The current v0.9 selection is r3: optimization-safe integrity checks, strict inventory parsing, guarded PowerShell quickstart, exact pre/post startup integrity and corrected release-level metric/verification wording. All three pairs were rebuilt; Study comparison wording changed while report and scientific bytes remain unchanged. v0.9 remains a private draft.
+The current v0.9 selection is r3: optimization-safe integrity checks, strict inventory parsing, guarded PowerShell quickstart, exact pre/post startup integrity and corrected release-level metric/verification wording. All three pairs were rebuilt; Study comparison wording changed while report and scientific bytes remain unchanged. v0.9 is now published in the private repository.
+
+Published v0.9 uses the unchanged r3 ZIPs and seals. Its final publication check and receipt are retained separately from historical draft receipts. Repository access remains private and v0.9.5 remains Latest.

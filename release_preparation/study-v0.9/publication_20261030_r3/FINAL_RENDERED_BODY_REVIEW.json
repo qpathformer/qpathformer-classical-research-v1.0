@@ -1,0 +1,12 @@
+{
+  "status": "PASS_GITHUB_RENDERED_PUBLICATION_BODY",
+  "rendered_html": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\publication_20261030_r3\\FINAL_RENDERED_BODY.html",
+    "bytes": 8749,
+    "sha256": "d24ef749d514bdff4ef5acf0d46e2da1099aa103938947a054b444c150d0e9f5"
+  },
+  "tables": 2,
+  "headings": 5,
+  "evidence_links": 7,
+  "scope": "GitHub Markdown renderer output; only publication-status wording changed. No browser pixel inspection claimed."
+}
