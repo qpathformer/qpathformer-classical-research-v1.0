@@ -4,7 +4,7 @@
   "target_commit": "b5284a346b21d86c663df01e239aa56f49a07fa5",
   "evidence_commit": "0f7dea4575f0ac8313e70a3dcf4afd74618f51ee",
   "record_path": "release_preparation/study-v0.7/revisions/draft_20261030_r3",
-  "draft": true,
+  "draft": false,
   "assets": [
     {
       "id": 691019703,
@@ -49,5 +49,9 @@
       "download_verified": true
     }
   ],
-  "previous_revision": "draft_20261029_r2"
+  "previous_revision": "draft_20261029_r2",
+  "publication_status": "published",
+  "release_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/study-v0.7",
+  "published_at": "2026-10-30T05:22:02Z",
+  "publication_record_path": "release_preparation/study-v0.7/publication_20261030_r3/PUBLICATION_RECEIPT.json"
 }

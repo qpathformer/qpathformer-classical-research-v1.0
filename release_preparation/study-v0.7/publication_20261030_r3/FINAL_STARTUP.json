@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "recorded_at_utc": "2026-10-30T05:21:45.686619+00:00",
+  "python": "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "parsed_python_files": 52,
+  "numpy_version": "2.5.4",
+  "scipy_version": "1.18.1",
+  "numerical_input_records": 2,
+  "cli_help_checks": 3,
+  "integrity_before": {
+    "status": "PASS",
+    "files": 75,
+    "package_fingerprint_sha256": "6d7ff5d867dc7f31bcd07bd726b022c61563069d5b4100e28c8f5be72bc930b2"
+  },
+  "integrity_after": {
+    "status": "PASS",
+    "files": 75,
+    "package_fingerprint_sha256": "6d7ff5d867dc7f31bcd07bd726b022c61563069d5b4100e28c8f5be72bc930b2"
+  },
+  "package_bytes_unchanged": true,
+  "checks": [
+    {
+      "label": "two-input numerical smoke check",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-c",
+        "import socket\ndef denied(*args, **kwargs): raise RuntimeError('Network disabled during bounded startup')\nsocket.create_connection = denied\nsocket.socket.connect = denied\nsocket.socket.connect_ex = denied\nimport json, sys\nsys.path.insert(0, 'C:\\\\Q2\\\\Release_Preparation\\\\QPathformer_Classical_Research\\\\study-v0.7\\\\publication_20261030_r3\\\\final_check\\\\fresh_extraction\\\\QPathformer_v0.7_Code\\\\payload\\\\study\\\\quantum')\nimport numpy as np, scipy, circuits, models, routers, reference_v03\nx=np.array([[0.0,0.0],[0.1,-0.3]],dtype=np.float64)\nbank=np.zeros((2,2,2),dtype=np.float64)\nmoments=circuits.moments(x,bank,count=5)\nif moments.shape != (2,5) or not np.isfinite(moments).all(): raise ValueError('Invalid moment shape or values')\nif not np.all(np.abs(moments)<=1+1e-12): raise ValueError('Moment range failed')\nvalues=np.array([-1.,0.,1.])\nif not np.allclose(models.sigmoid(values),1/(1+np.exp(-values)),rtol=1e-14,atol=1e-14): raise ValueError('Sigmoid comparison failed')\nprint(json.dumps({'numpy_version': np.__version__, 'scipy_version': scipy.__version__, 'numerical_input_records': 2}))"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\publication_20261030_r3\\final_check\\fresh_extraction\\QPathformer_v0.7_Code",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "{\"numpy_version\": \"2.5.4\", \"scipy_version\": \"1.18.1\", \"numerical_input_records\": 2}\n",
+      "stderr": ""
+    },
+    {
+      "label": "payload/study/quantum/study.py --help",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-c",
+        "import socket\ndef denied(*args, **kwargs): raise RuntimeError('Network disabled during bounded startup')\nsocket.create_connection = denied\nsocket.socket.connect = denied\nsocket.socket.connect_ex = denied\nimport runpy, sys\nsys.path.insert(0, 'C:\\\\Q2\\\\Release_Preparation\\\\QPathformer_Classical_Research\\\\study-v0.7\\\\publication_20261030_r3\\\\final_check\\\\fresh_extraction\\\\QPathformer_v0.7_Code\\\\payload\\\\study\\\\quantum')\nsys.argv = ['C:\\\\Q2\\\\Release_Preparation\\\\QPathformer_Classical_Research\\\\study-v0.7\\\\publication_20261030_r3\\\\final_check\\\\fresh_extraction\\\\QPathformer_v0.7_Code\\\\payload\\\\study\\\\quantum\\\\study.py', '--help']\nrunpy.run_path('C:\\\\Q2\\\\Release_Preparation\\\\QPathformer_Classical_Research\\\\study-v0.7\\\\publication_20261030_r3\\\\final_check\\\\fresh_extraction\\\\QPathformer_v0.7_Code\\\\payload\\\\study\\\\quantum\\\\study.py', run_name='__main__')"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\publication_20261030_r3\\final_check\\fresh_extraction\\QPathformer_v0.7_Code",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "usage: study.py [-h] --job-id JOB_ID --authorization AUTHORIZATION --output\n                OUTPUT\n\nInternal v0.7 trainer. Every registered run requires an external root freeze.\nTraining cannot load a test payload. All round parameters and validation\nprobabilities are flushed before that round's ledger entry. Failed runs retain\npartial arrays and current state; sampler state is not resumable\nautomatically.\n\noptions:\n  -h, --help            show this help message and exit\n  --job-id JOB_ID\n  --authorization AUTHORIZATION\n  --output OUTPUT\n",
+      "stderr": ""
+    },
+    {
+      "label": "payload/study/execution/launcher.py --help",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-c",
+        "import socket\ndef denied(*args, **kwargs): raise RuntimeError('Network disabled during bounded startup')\nsocket.create_connection = denied\nsocket.socket.connect = denied\nsocket.socket.connect_ex = denied\nimport runpy, sys\nsys.path.insert(0, 'C:\\\\Q2\\\\Release_Preparation\\\\QPathformer_Classical_Research\\\\study-v0.7\\\\publication_20261030_r3\\\\final_check\\\\fresh_extraction\\\\QPathformer_v0.7_Code\\\\payload\\\\study\\\\execution')\nsys.argv = ['C:\\\\Q2\\\\Release_Preparation\\\\QPathformer_Classical_Research\\\\study-v0.7\\\\publication_20261030_r3\\\\final_check\\\\fresh_extraction\\\\QPathformer_v0.7_Code\\\\payload\\\\study\\\\execution\\\\launcher.py', '--help']\nrunpy.run_path('C:\\\\Q2\\\\Release_Preparation\\\\QPathformer_Classical_Research\\\\study-v0.7\\\\publication_20261030_r3\\\\final_check\\\\fresh_extraction\\\\QPathformer_v0.7_Code\\\\payload\\\\study\\\\execution\\\\launcher.py', run_name='__main__')"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\publication_20261030_r3\\final_check\\fresh_extraction\\QPathformer_v0.7_Code",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "usage: launcher.py [-h] {run,status,cancel,recover} ...\n\nRoot-gated command line for Q-Path Multiplier (ETEL); no implicit approval.\n\npositional arguments:\n  {run,status,cancel,recover}\n\noptions:\n  -h, --help            show this help message and exit\n",
+      "stderr": ""
+    },
+    {
+      "label": "payload/study/execution/bind_stage.py --help",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-c",
+        "import socket\ndef denied(*args, **kwargs): raise RuntimeError('Network disabled during bounded startup')\nsocket.create_connection = denied\nsocket.socket.connect = denied\nsocket.socket.connect_ex = denied\nimport runpy, sys\nsys.path.insert(0, 'C:\\\\Q2\\\\Release_Preparation\\\\QPathformer_Classical_Research\\\\study-v0.7\\\\publication_20261030_r3\\\\final_check\\\\fresh_extraction\\\\QPathformer_v0.7_Code\\\\payload\\\\study\\\\execution')\nsys.argv = ['C:\\\\Q2\\\\Release_Preparation\\\\QPathformer_Classical_Research\\\\study-v0.7\\\\publication_20261030_r3\\\\final_check\\\\fresh_extraction\\\\QPathformer_v0.7_Code\\\\payload\\\\study\\\\execution\\\\bind_stage.py', '--help']\nrunpy.run_path('C:\\\\Q2\\\\Release_Preparation\\\\QPathformer_Classical_Research\\\\study-v0.7\\\\publication_20261030_r3\\\\final_check\\\\fresh_extraction\\\\QPathformer_v0.7_Code\\\\payload\\\\study\\\\execution\\\\bind_stage.py', run_name='__main__')"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\publication_20261030_r3\\final_check\\fresh_extraction\\QPathformer_v0.7_Code",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "usage: bind_stage.py [-h] --root ROOT --stage {engineering,A,B} --interpreter\n                     INTERPRETER --authorization AUTHORIZATION --max-parallel\n                     MAX_PARALLEL --deadline-seconds DEADLINE_SECONDS\n                     --environment ENVIRONMENT --output OUTPUT\n\nPrepare immutable execution manifest; never approve or launch it.\n\noptions:\n  -h, --help            show this help message and exit\n  --root ROOT\n  --stage {engineering,A,B}\n  --interpreter INTERPRETER\n  --authorization AUTHORIZATION\n  --max-parallel MAX_PARALLEL\n  --deadline-seconds DEADLINE_SECONDS\n  --environment ENVIRONMENT\n  --output OUTPUT\n",
+      "stderr": ""
+    }
+  ],
+  "errors": [],
+  "scope": "Exact package integrity before and after startup; all selected Python parsed; v0.7 numerical imports, two inputs through a zero-angle circuit with moment shape/range and sigmoid checks, and required --help for study.py, execution/launcher.py and execution/bind_stage.py. Importing reference_v03 is not an independent matrix comparison. No model-family suite, conversion parity or ETEL fit/recovery checks run. Network disabled in test subprocesses. No official input files used.",
+  "not_verified": [
+    "Clean-room dependency installation",
+    "Full training or official scoring",
+    "Datasets and selected checkpoints",
+    "Full-archive relocation",
+    "Shot sampling or noise experiments",
+    "Hardware or QPU execution"
+  ]
+}
