@@ -1,0 +1,92 @@
+{
+  "schema": "qpath-package-manifest-1",
+  "package": "QPathformer_v0.8_Documentation",
+  "study_version": "v0.8",
+  "files": [
+    {
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "bytes": 3168,
+      "sha256": "e79e453036570b929f28c63719209866f596b5f6bcde66eb2e3979f052d9b1f2"
+    },
+    {
+      "path": "LICENSE_ADOPTION.json",
+      "bytes": 1462,
+      "sha256": "9f26013376a75315c3d01bd16235a662beb2229ee6891a721411ea9deb3c112d"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 18615,
+      "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+    },
+    {
+      "path": "LICENSES/QPATHFORMER-PLATFORM-1.0.txt",
+      "bytes": 1461,
+      "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+    },
+    {
+      "path": "OVERVIEW.md",
+      "bytes": 11119,
+      "sha256": "85f13fb4391be14166a9c1a33b484ba8be83ea4713ba4ab321254c4cd10154f7"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 3556,
+      "sha256": "93e99a84d75892fa9b1821e79f4f639e3d322884cc0ef066221e25f231a5591b"
+    },
+    {
+      "path": "REPRODUCTION_BOUNDARIES.md",
+      "bytes": 1942,
+      "sha256": "ed73438099db65ed8a176288f2bd23631dd69bc0cff20ba63179b26be702175e"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 1064,
+      "sha256": "35dbc9a853640158e54bd68cae4c5ec83756a1812bc34913a9f2884e4a743127"
+    },
+    {
+      "path": "source/analysis/deployment/README_PREPARATION.txt",
+      "bytes": 6090,
+      "sha256": "90f325703d2c5ede312dee099901554d3e29f916a4e5ae1b6ff76f4cc0bdac90"
+    },
+    {
+      "path": "source/analysis/independent_audit/README_REPLAY_CONTRACT.txt",
+      "bytes": 6077,
+      "sha256": "e1702af948ce6db08cc33aa456089d319db558c6afb4f71d8397386481e17681"
+    },
+    {
+      "path": "source/analysis/independent_deployment/README_INDEPENDENT_DEPLOYMENT.txt",
+      "bytes": 5800,
+      "sha256": "4e497be17f8027d6f360d82421bc84aa7532dd3e6f7e44cf970452cb27c7c0cf"
+    },
+    {
+      "path": "source/analysis/official_evaluation/README_EVALUATION_CONTRACT.txt",
+      "bytes": 7484,
+      "sha256": "17df71824f88e9b5ad3b2f7f7db8de5d2ef675deff734f29b6a30ab9baa106a0"
+    },
+    {
+      "path": "source/analysis/reproduction/README_REPRODUCTION.txt",
+      "bytes": 6477,
+      "sha256": "d754adc4449a91c6bae97b4458f0d7eed72018c3ca2e3600510aad317e927078"
+    },
+    {
+      "path": "source/execution/README_EXECUTION.txt",
+      "bytes": 8202,
+      "sha256": "1f1e7a273d40b4b9c9f84f190f4f0d3cf67e82b09d7378f3ac7d131183a5eed3"
+    },
+    {
+      "path": "SOURCE_MAP.json",
+      "bytes": 11862,
+      "sha256": "321ee6c7d022a9cd37a83562762814112e14debe78ce0039cc144f2819112348"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 2261,
+      "sha256": "2d042d0a8735a8a6c347e2c67c9faeb510b9779324ef5067878575c55406aa10"
+    },
+    {
+      "path": "VERIFY.md",
+      "bytes": 1069,
+      "sha256": "463169ebe5379386d3f64874bd255b8ec57e8ebe58fdf5fdb24ec52f5d8bfd81"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "status": "PASS_V08_DISCLOSURE_CLARIFIED",
+  "checked_at_utc": "2026-10-30T05:33:06.356186+00:00",
+  "study_version": "v0.8",
+  "historical_receipt": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261029_r2\\assembly\\QPathformer_v0.8_Study\\provenance\\VISUAL_REVIEW.json",
+    "bytes": 14338,
+    "sha256": "1bec4da7b32ef652cceda603afa3b2257fdfb2a3b5037af36695eb5528adc1b5"
+  },
+  "historical_field": "disclosure_review",
+  "cross_study_carryover": "v0.9 includes account/credit/token usage on original page 37.",
+  "clarification": "This review concerns study v0.8. The historical v0.9/page-37 disclosure sentence does not describe this report. v0.8 retains local evidence paths, host configuration and resource/execution accounting. Page 37 contains inference ratios and the beginning of Appendix F training-cost tables. Report content is unchanged; this is not a scientific erratum.",
+  "review_scope": "Direct visual inspection of Poppler-rendered pages 37 and 38 plus pypdf text extraction. Both pages are legible with complete table rows, no material clipping/overlap and intact headers/footers. Page 38 shows all ten Spiral arm rows. Original and edition DOCX table 50 match exactly with ten arms. No new all-page review or DOCX export.",
+  "alternate_export_finding": {
+    "source": "Owner-supplied study-v0.8_release_review_and_codex_notes.md",
+    "reported_engine": "LibreOfficeDev 26.8.0.0.alpha0",
+    "finding": "Seven Spiral cost rows omitted in an alternate export; current supplied PDF and both DOCX tables contain all ten arms.",
+    "reproduced_here": false,
+    "cause": "Not established; no Microsoft Word defect inferred"
+  },
+  "report_pdf": {
+    "bytes": 2020094,
+    "sha256": "92e06293cac5b1f796159a127dd9201bd7b83abc51f22a80cdf2aaeed7a3bd08"
+  },
+  "report_docx": {
+    "bytes": 891122,
+    "sha256": "36287155f1a6f0a90773e3da01dc1666eaee5cd3d89e8add77e25c3787328657"
+  },
+  "previous_study_zip": {
+    "bytes": 2129826,
+    "sha256": "d76bbd7c9c794e3615e7e5e05907145c71ee625a54b33580f63e714cd0b2fa87"
+  },
+  "previous_study_seal": {
+    "bytes": 1294,
+    "sha256": "2a2f64d73639d655614d34437cb8d98ba77f7d693c7c6cea592a236dfb2311e6"
+  },
+  "targeted_evidence": [
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261030_r3\\qa\\targeted_report_review\\page37.txt",
+      "bytes": 1258,
+      "sha256": "4db60f50f0b7135241034e344a2cf049723a2aa9a471134be7a4ce5bb6f3b419"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261030_r3\\qa\\targeted_report_review\\page37.png",
+      "bytes": 192674,
+      "sha256": "2bce4c9e2b8755ad8df9a68aee94bd4fc396a4e91d88dc51f268e631b1e6c116"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261030_r3\\qa\\targeted_report_review\\page38.txt",
+      "bytes": 1245,
+      "sha256": "db7c8b3491c973f98aaf8665164cdb08c5b4d6ff5daea8437337dd4267f18e3a"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261030_r3\\qa\\targeted_report_review\\page38.png",
+      "bytes": 215292,
+      "sha256": "e89ba2f8de717a0ad1e93d13091c648dbdc66807eea31edea812b1d310c2755f"
+    },
+    {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261030_r3\\qa\\targeted_report_review\\SPIRAL_TABLE_CHECK.json",
+      "bytes": 1273,
+      "sha256": "9ebabe6ad1e1e9c44ddf403b87dfed75fc4b51d07fecf3894660ab73c7426d0b"
+    }
+  ],
+  "historical_receipt_and_report_files_unchanged": true,
+  "study_wrapper_change": "START_HERE adds reviewed PDF viewing guidance and identifies common clipped BCE; final asset bindings are added after sealing.",
+  "study_zip": {
+    "bytes": 2130266,
+    "sha256": "caf7bdec1b95007d6719d048af1a31699b8f38bdfc8a9d1c58ad1dab502c38da"
+  },
+  "study_seal": {
+    "bytes": 1325,
+    "sha256": "fbce6c83bf2944ff886a50905d0cdb2a3945c43b1ef143f33ddb2c907e1745ec"
+  },
+  "study_assets_unchanged": false
+}

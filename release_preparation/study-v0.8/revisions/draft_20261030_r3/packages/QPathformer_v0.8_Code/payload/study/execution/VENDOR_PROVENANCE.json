@@ -1,0 +1,21 @@
+{
+  "name": "Q-Path Multiplier (ETEL)",
+  "vendor_version": "0.2.0",
+  "source_archive_sha256": "5b1fa523927d822b7b6352c8852db84c9159c8b771ef9910593f3288f51a4e9b",
+  "source_archive": "C:\\Users\\Alnotrea\\Downloads\\ETEL_Q-Path-Multiply-64_v0.2.0.zip",
+  "vendored_files": [
+    {
+      "path": "vendor/etel/core.py",
+      "original_path": "etel/core.py",
+      "sha256": "621979dd1d8d595d5a53a097e3a2ee4e904cd3ad6053abed17f11b0f88dcd063",
+      "modified": false
+    },
+    {
+      "path": "vendor/etel/__init__.py",
+      "original_path": "etel/__init__.py",
+      "sha256": "fbe055aebc49a5a846aa43d17a7654de44a6ebb61a11ead668bb38ad2dcf235a",
+      "modified": false
+    }
+  ],
+  "integration_scope": "Persistent control plane and whole-fit isolated processes around unchanged scientific APIs. No native vector fixture, cloud, hardware or model architecture substitution."
+}

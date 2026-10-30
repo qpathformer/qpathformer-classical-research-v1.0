@@ -1,0 +1,33 @@
+{
+  "status": "PASS_SELECTED_ORIGINALS_RECONFIRMED",
+  "source_inventory": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261029_r2\\receipts\\SOURCE_INVENTORY.json",
+    "bytes": 37426,
+    "sha256": "8292fea9b5db84fb2ac247da92fb536b0e5bd7c98d3998326a87cf352ef88c69"
+  },
+  "current_source_maps": [
+    {
+      "package": "QPathformer_v0.8_Code",
+      "source_map": {
+        "bytes": 61236,
+        "sha256": "d193df486a8242bb23358f3f9d73e20665af9133a97c62488da61f0a75f4bd71"
+      }
+    },
+    {
+      "package": "QPathformer_v0.8_Documentation",
+      "source_map": {
+        "bytes": 11862,
+        "sha256": "321ee6c7d022a9cd37a83562762814112e14debe78ce0039cc144f2819112348"
+      }
+    },
+    {
+      "package": "QPathformer_v0.8_Study",
+      "source_map": {
+        "bytes": 9525,
+        "sha256": "1823fa50d8ada3937a2f280c264320da04f970cd22a32efe0ebb8fc22f47f4c4"
+      }
+    }
+  ],
+  "study_origin": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261030_r3",
+  "full_archive_rescanned": false
+}

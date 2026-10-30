@@ -1,0 +1,53 @@
+{
+  "status": "LICENSED_PRESERVATION_EDITION_PREPARED",
+  "source": {
+    "path": "C:\\Q2\\Improvement_Study_v0.8\\docs\\QPATH_RPT009_v0.8_Internal_Study_Report.docx",
+    "bytes": 890193,
+    "sha256": "499c25c86dba1a81486cd38edca25ba4b9741499d8f2a5a3e3145645ac2caa95"
+  },
+  "docx": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261029\\report\\files\\QPathformer_v0.8_Report_Edition_1.docx",
+    "bytes": 891122,
+    "sha256": "36287155f1a6f0a90773e3da01dc1666eaee5cd3d89e8add77e25c3787328657"
+  },
+  "original_body_nodes_byte_identical": true,
+  "original_paragraphs": 3031,
+  "original_tables": 57,
+  "media": [
+    {
+      "path": "word/media/image1.png",
+      "bytes": 471002,
+      "sha256": "1e4a3b78de0710d252778d0a44be6a9bc8e66d49a40122658e464b372ec85377"
+    },
+    {
+      "path": "word/media/image2.png",
+      "bytes": 398095,
+      "sha256": "29d9ba322478df180a8f021874764fa09c89ab6702a5d011d3aa249677e0af50"
+    }
+  ],
+  "changed_ooxml_parts": [
+    "word/document.xml",
+    "docProps/core.xml"
+  ],
+  "omitted_scientific_content": [],
+  "edition_changes": [
+    "Appended explicit edition/attribution/scoped adopted rights note",
+    "Corrected author/title/subject/affiliation metadata"
+  ],
+  "new_grants_adopted": true,
+  "disclosure_review": {
+    "redactions": [],
+    "retained_context": [
+      "The circuit models use classical numerical emulation of two qubits. Five separate parameter banks are available, and the frozen router selects the bank used for an input. The experiment does not test a large language model, a quantum processor, learned semantic priorities, retention policies, online adaptation or the full proposed architecture. Q-Path Multiplier (ETEL) schedules complete fits; its logical slots do not create additional scientific states or model capacity.",
+      "The recorded host is an MSI Stealth A18 AI+ A3XWJG with an AMD Ryzen AI 9 HX 370 processor, 12 physical cores and 24 logical processors. Windows reports 67,772,469,248 bytes of physical memory (approximately 63.1 GiB). The operating system is Windows 11 Pro, version 10.0.26300, build 26300. The study uses the CPU; the GPU is not used.",
+      "Each session contains 640 selected models, 256 additional compiled circuit representations, 2,688 conditions and 40,320 timed calls. The independent audit checks all 120,960 raw timed rows across three sessions. The 16,128 warmups are committed counters supported by the producer loop; individual warmup call times are not retained or independently observed. Each timed trial contains one complete raw-input call. Memory was sampled at start/end and at all 32 population blocks.",
+      "Resource availability in the following table follows the inner phase-summary records. The independent timing audit does not retain whole-process resource counters in its inner summary, hence the two Unrecorded cells. Its separate external completion records 270.890625 seconds of process CPU and a maximum live-sampled peak working-set observation of 173,367,296 bytes. Those broader counters are reported again in the operations record below. The memory observation is sampled, not a guaranteed final process peak. Nested counters overlap and must not be added.",
+      "Inner counters start after phase release verification and may exclude imports, source/hash validation and output preflight. Whole-process CPU and peak working set are shown only where explicitly recorded through the sampling point. Unrecorded is not zero. Peak RAM is process working set, not device memory or memory allocated solely to one model. These nested counters must not be added to each other. External invocation wall times belong to the separate operations supplement and must not be added to inner wall time. Construction and component probes are single instrumented observations that perturb execution.",
+      "Medians across 192 single instrumented observations per arm: 64 models across four tasks, each observed in all three sessions. These are loading diagnostics, not primary resident-call latencies, and their sum is not a measured cold-start latency. All model-specific loading and component records, session identities, memory samples and full scopes are retained in DERIVED_EVIDENCE.json.",
+      "The first audit invocation failed closed before numerical timing replay because a completed attempt PID was reused and the current process denied native access. It created no scientific audit outputs. A first reviewed coordination adapter covered that one exact original identity, but the next invocation encountered a second reused protected PID and also failed before numerical replay. The final separately reviewed adapter validates all 760 individually enumerated accepted closure proofs and still calls the unchanged native API first. Only access denied may use an exact proof that the original creation identity had ended. The entrypoint changed; original numerical/statistical source and inputs did not. Both failures and final provenance remain retained. No timing session was rerun. The first failed external invocation took 14.018 s; actual auditor CPU and peak memory were unrecorded.",
+      "Unchanged native API returned access denied on another exact historical creation identity (PID48176); the first versioned amendment only authorized the separate PID49660 case and correctly failed closed. This external timing_v02 attempt created no scientific audit output and ran no numerical audit. The successful separately authorized external attempt is timing_v03; its retained scientific output directory remains timing_v01. The second failed outer invocation took 97.394 s. Actual child PID 40264 used 89.031 s CPU; peak memory was unrecorded.",
+      "The first report-accounting helper invocation verified a bound Python source but then incorrectly attempted to parse it as JSON. It exited before creating the supplement. A separate v07 helper keeps every byte-identity check and uses JSON parsing only when consuming JSON data. No scientific phase, inference timing or numeric result was rerun. The failed presentation invocation took 0.231429 s outer wall and 0.09375 s CPU; peak memory was unrecorded."
+    ],
+    "owner_review": "Retained historical local paths, host and resource/usage details remain visible for owner publication review. No credential was deliberately included."
+  }
+}

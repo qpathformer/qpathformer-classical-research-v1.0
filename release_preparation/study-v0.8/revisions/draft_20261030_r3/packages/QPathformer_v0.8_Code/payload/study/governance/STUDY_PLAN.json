@@ -1,0 +1,449 @@
+{
+  "study_id": "QPATH-PRIORITY-ROUTING-v0.8",
+  "status": "USER_AUTHORIZED_IMPLEMENTATION_AND_PREFLIGHT_BEFORE_STAGE_RELEASE",
+  "created_utc": "2026-10-20T18:23:35.245213+00:00",
+  "approved_utc": "2026-10-20T18:23:35.245213+00:00",
+  "user_authorization": "Perfect, approved. Lets prepare and run v0.8 in C:\\Q2 to completion. Keep v0.7 unchanged and real quantum testing for v1.1. Prepare the internal Word report with results and findings and send the link here when ready.",
+  "scope": "Classical controlled priority-sampling and routing interaction with fixed model capacity; two-qubit emulation only. No semantic priority classification or full architecture claim.",
+  "authorization_boundary": "Complete v0.8 local study, evidence and internal Word report authorized. Root quality gates need no additional user permission. Preserve v0.7/Baseline7; no v0.9, text training, physical hardware, cloud, publication or external messages.",
+  "source_evidence": {
+    "approved_proposal": {
+      "path": "C:\\Q2\\v0.8_Proposed_Plan\\support\\PLAN_CONTENT.json",
+      "bytes": 26857,
+      "sha256": "8cf41ca9a546ba98ebd3831bb14f5a54b31f66a12b6915bbb5ed47ddb1d4c118"
+    },
+    "approved_proposal_docx": {
+      "path": "C:\\Q2\\v0.8_Proposed_Plan\\QPATH_v0.8_Proposed_Study_Plan_Draft0.1.docx",
+      "bytes": 48206,
+      "sha256": "2fd925219db514f3ac76e7a333c9b42d95e75876ddb9d55e69c75fddc1f88c15"
+    },
+    "v07_plan": {
+      "path": "C:\\Q2\\Improvement_Study_v0.7\\governance\\STUDY_PLAN.json",
+      "bytes": 30755,
+      "sha256": "4388ed77235ee18fc4fd1fad4846a78c9b00a0f09f870b29d8ae788126adbe5e"
+    },
+    "v07_manifest": {
+      "path": "C:\\Q2\\Improvement_Study_v0.7\\DELIVERY_MANIFEST.json",
+      "bytes": 13147346,
+      "sha256": "da1407baac8405cbc66ab53f321c970da688e31ae25de1ce0df527687f769ce5"
+    }
+  },
+  "matrix_summary": {
+    "families": [
+      "checkerboard",
+      "spiral",
+      "annulus",
+      "disks"
+    ],
+    "arm_count": 10,
+    "engineering_populations": 4,
+    "development_populations": 4,
+    "confirmation_populations": 32,
+    "total_new_populations": 40,
+    "new_records_total": 320000,
+    "engineering_short_runs": 40,
+    "development_full_endpoints": 80,
+    "confirmation_full_endpoints": 640,
+    "full_endpoints_total": 720,
+    "all_training_runs_including_short": 760,
+    "full_optimizer_updates": 10800000,
+    "engineering_optimizer_updates": 36000,
+    "full_training_record_visits": 691200000,
+    "engineering_record_visits": 2304000,
+    "confirmation_circuit_endpoints": 256,
+    "confirmation_classical_endpoints": 384,
+    "independent_reproduction_fits": 4,
+    "reproduction_optimizer_updates": 60000,
+    "all_fits_including_reproduction": 764,
+    "all_updates_including_engineering_and_reproduction": 10896000
+  },
+  "arms": [
+    {
+      "id": "MultiK_U",
+      "implementation_role": "qmulti_kmeans",
+      "predictor_parameters": 70,
+      "routing": "kmeans5",
+      "family": "circuit",
+      "moments": [
+        "X0",
+        "X1",
+        "Z0",
+        "Z1",
+        "Z0Z1"
+      ],
+      "settings": 2,
+      "base_model": "MultiK",
+      "sampling_policy": "uniform"
+    },
+    {
+      "id": "MultiK_P",
+      "implementation_role": "qmulti_kmeans",
+      "predictor_parameters": 70,
+      "routing": "kmeans5",
+      "family": "circuit",
+      "moments": [
+        "X0",
+        "X1",
+        "Z0",
+        "Z1",
+        "Z0Z1"
+      ],
+      "settings": 2,
+      "base_model": "MultiK",
+      "sampling_policy": "priority"
+    },
+    {
+      "id": "MultiHash_U",
+      "implementation_role": "qmulti_hash",
+      "predictor_parameters": 70,
+      "routing": "frozen_hash5",
+      "family": "circuit",
+      "moments": [
+        "X0",
+        "X1",
+        "Z0",
+        "Z1",
+        "Z0Z1"
+      ],
+      "settings": 2,
+      "base_model": "MultiHash",
+      "sampling_policy": "uniform"
+    },
+    {
+      "id": "MultiHash_P",
+      "implementation_role": "qmulti_hash",
+      "predictor_parameters": 70,
+      "routing": "frozen_hash5",
+      "family": "circuit",
+      "moments": [
+        "X0",
+        "X1",
+        "Z0",
+        "Z1",
+        "Z0Z1"
+      ],
+      "settings": 2,
+      "base_model": "MultiHash",
+      "sampling_policy": "priority"
+    },
+    {
+      "id": "TrigK_U",
+      "implementation_role": "trig_kmeans",
+      "predictor_parameters": 125,
+      "routing": "kmeans5",
+      "family": "classical",
+      "basis_max_frequency": 2,
+      "base_model": "TrigK",
+      "sampling_policy": "uniform"
+    },
+    {
+      "id": "TrigK_P",
+      "implementation_role": "trig_kmeans",
+      "predictor_parameters": 125,
+      "routing": "kmeans5",
+      "family": "classical",
+      "basis_max_frequency": 2,
+      "base_model": "TrigK",
+      "sampling_policy": "priority"
+    },
+    {
+      "id": "TrigHash_U",
+      "implementation_role": "trig_hash",
+      "predictor_parameters": 125,
+      "routing": "frozen_hash5",
+      "family": "classical",
+      "basis_max_frequency": 2,
+      "base_model": "TrigHash",
+      "sampling_policy": "uniform"
+    },
+    {
+      "id": "TrigHash_P",
+      "implementation_role": "trig_hash",
+      "predictor_parameters": 125,
+      "routing": "frozen_hash5",
+      "family": "classical",
+      "basis_max_frequency": 2,
+      "base_model": "TrigHash",
+      "sampling_policy": "priority"
+    },
+    {
+      "id": "TrigG121_U",
+      "implementation_role": "trig121_global",
+      "predictor_parameters": 121,
+      "routing": "none",
+      "family": "classical",
+      "basis_max_frequency": 5,
+      "base_model": "TrigG121",
+      "sampling_policy": "uniform"
+    },
+    {
+      "id": "TrigG121_P",
+      "implementation_role": "trig121_global",
+      "predictor_parameters": 121,
+      "routing": "none",
+      "family": "classical",
+      "basis_max_frequency": 5,
+      "base_model": "TrigG121",
+      "sampling_policy": "priority"
+    }
+  ],
+  "data": {
+    "semantics": "Unchanged v0.6 four task formulas, Uniform[-1,1]^2 raw coordinates; clean checkerboard/spiral/disks, annulus independent Bernoulli0.10 observed-label flips. Preserve natural prevalence with observed-label stratification.",
+    "population_sizes": {
+      "records": 8000,
+      "train": 4800,
+      "validation": 1600,
+      "test": 1600
+    },
+    "freshness": "Canonical float64 coordinate exclusion against all available v0.1-v0.7 populations plus all new populations; signed-zero normalized. Expected registered historical584000 (v0.1-v0.6 official264000 plus v0.7 official320000) must be independently audited. The all-available exclusion inventory may additionally contain retained fixtures and must be measured separately. No near-duplicate/real-world novelty claim.",
+    "latent_annulus": "clean_y and flip masks retained for post-release supplementary diagnostics only; never model, router, sampler, selection or training inputs.",
+    "rng": "548 unique SHA256-derived128-bit stream values enumerated in matrix; historical collision/exclusion audit required before generation.",
+    "statistical_scope": "Eight independently generated confirmation populations per task with newly fitted routers; two paired optimizer seeds nested within each. This measures joint data/router variation from the same task family, not real-world/OOD generalization."
+  },
+  "routing": {
+    "kmeans": "Copy the validated v0.6 train-only raw-coordinate five-kmeans rules: deterministic20restarts, max500iterations, canonical lexicographic centers and explicit empty-cluster/convergence checks. Source implementation and exact termination semantics must be independently re-reviewed before freeze. Fit once/population; all geometric arms share it.",
+    "hash": "Canonical little-endian float64(x0,x1), signed zeros normalized, plus frozen population-specific salt; SHA256 interpreted as a256-bit integer. Sort unique training digests. Set each of four inclusive upper cutpoints to the digest at cumulative corresponding kmeans training count minus1. Assign bank by number of cutpoints strictly below the new digest. Thus exact TRAIN occupancy matches the canonical kmeans bank histogram.",
+    "hash_collision_policy": "Reject duplicate canonical coordinates upstream. Any distinct-coordinate digest collision or ambiguous cutpoint aborts preparation before freeze; preserve evidence, do not redraw until an outcome looks favorable.",
+    "hash_heldout": "Same four immutable cutpoints at validation/test/inference, no rebalancing. Heldout occupancy is random; exact training occupancy does not guarantee exact heldout occupancy or exact target population probabilities. Report realized occupancy.",
+    "pairing": "MultiK_U/P and MultiHash_U/P share initialization and underlying uniform draws; TrigK_U/P and TrigHash_U/P share zero initialization and uniforms. Exact train-bank occupancy matches; realized priority exposure can differ. No labels/IDs/split identifiers enter hash.",
+    "resources": "Ten geometric centroid coordinates and hash salt/four cutpoints counted separately from predictor parameters. Log hashing, routing and grouping overhead. Equal allocated coefficients do not imply equal hypothesis class, sample exposure or optimization."
+  },
+  "training": {
+    "engineering": {
+      "rounds": 12,
+      "updates": 900,
+      "seed_ids": [
+        1500
+      ],
+      "purpose": "Forty endpoints exercise ten-round warmup and two genuine priority refreshes."
+    },
+    "development": {
+      "rounds": 200,
+      "updates": 15000,
+      "seed_ids": [
+        1501,
+        1502
+      ],
+      "populations_per_family": 1,
+      "purpose": "All eighty full endpoints; correctness and operating characteristics only, no pruning or tuning."
+    },
+    "confirmation": {
+      "rounds": 200,
+      "updates": 15000,
+      "seed_ids": [
+        1601,
+        1602
+      ],
+      "populations_per_family": 8
+    },
+    "batch_size": 64,
+    "optimizer": "Adam learning_rate0.01, betas0.9/0.999, epsilon1e-8, no decay/scheduler/gradient clipping; inherited packed-vector momentum semantics and total-minibatch normalization",
+    "native_objective": "Stable unbounded native-logit BCE for every arm",
+    "selection": "Earliest exact minimum full-validation common clipped natural-log BCE, clip[1e-7,1-1e-7], full horizon always completed",
+    "initialization": "All circuit U/P and geometric/hash arms share identical core/head initialization; all trigonometric coefficients zero.",
+    "test_threshold": 0.5,
+    "early_stopping": false,
+    "failures": "Preserve every failed or interrupted attempt, logs and consumed work. The inherited trainer has no proven checkpoint/sampler/selection resume. Until such equivalence is independently established, an infrastructure failure may be rerun only with the same recipe, data, streams and full budget into a fresh attempt directory following a recorded root recovery decision. No replacement seeds/populations, favorable complete-case analysis or removal of weak arms. Numerical failures remain scientific failures; missing required endpoints make affected contrasts incomplete.",
+    "sampling": "Independent draws with replacement via shared PCG64 uniform stream and inverse-CDF selection, not shuffled epochs."
+  },
+  "priority": {
+    "warmup_rounds": 10,
+    "uniform_mixture": 0.5,
+    "exponent": 0.5,
+    "loss_cap": 5.0,
+    "epsilon": 0.001,
+    "refresh": "start of each later round",
+    "importance_correction": "1/(N*p_i), before averaging, no normalization or clipping",
+    "native_loss": "Stable native-logit BCE, not clipped evaluation BCE",
+    "formula": "s_i=sqrt(min(native_BCE_i,5)+0.001); p_i=0.5/N+0.5*s_i/sum(s)",
+    "warmup": "Rounds1..10 uniformly sampled. At start of rounds11..200 refresh from current full training predictions without parameter updates.",
+    "uniform_control": "Same replacement draws and scheduled full-training diagnostic loss refreshes; uses p_i=1/N.",
+    "importance": "Multiply each sampled row data gradient by1/(N*p_i) before total-minibatch mean. No weight normalization/clipping, no sampler derivative.",
+    "bound": "p_i>=0.5/N, w_i<=2; fail on nonfinite input or invalid probability normalization.",
+    "staleness": "Probabilities fixed within each round only, exact refresh parameters recorded before updates.",
+    "regularization": "Retained recipe has no decay or explicit regularizer. Any general implementation handles regularizers separately from importance weights.",
+    "interpretation": "Conditional expectation of unclipped data gradient targets ordinary empirical BCE, not equal Adam trajectory or guaranteed improvement.",
+    "trace": "Retain round refresh native losses/scores/probabilities, underlying uniform stream, selected indices/weights and refresh parameter state sufficient for independent exact replay.",
+    "failure_tests": [
+      "Nonfinite losses",
+      "Stale round priorities",
+      "Probability normalization",
+      "Uniform-mixture limit",
+      "Independent weighted circuit/trigonometric gradient",
+      "Unbiased raw gradient identity",
+      "Warmup pairing",
+      "Packed Adam and absent-bank momentum",
+      "No validation/test/latent labels in priority"
+    ]
+  },
+  "analysis": {
+    "primary_metric": "Common clipped natural-log BCE as v0.6, native BCE separately reported",
+    "family_size": 20,
+    "alpha_family": 0.05,
+    "nominal_per_contrast_confidence": 0.9975,
+    "independent_unit": "Within each population, average the two paired seed differences; analyze eight population means per task.",
+    "primary_interval": "Paired population-mean t interval, df7; display all8 differences. Small-sample distributional assumptions and nominal coverage stated.",
+    "practical_reference_bce": 0.01,
+    "interpretation": "Negative favors first method; upper bound<0 supports direction under assumptions, upper bound<-0.01 exceeds declared practical reference. Crossingzero is inconclusive, not equivalence.",
+    "secondary": [
+      "macro-F1",
+      "accuracy",
+      "Brier",
+      "ECE10 and reliability bins",
+      "native BCE and clipping/extreme logit diagnostics",
+      "positive precision/recall and grouped-tie AP",
+      "90/95/97 validation milestones with nonreacher censoring and reached-only medians;97not an annulus expectation"
+    ],
+    "conditional_record_sensitivity": "Omitted from this study; registered primary population-mean t inference and descriptive per-record diagnostics only.",
+    "no_pooling": "Keep v0.7 historical evidence separate. Do not pool independent populations between studies.",
+    "primary_contrasts": [
+      {
+        "name": "priority_MultiK",
+        "weights": {
+          "MultiK_P": 1,
+          "MultiK_U": -1
+        }
+      },
+      {
+        "name": "priority_TrigK",
+        "weights": {
+          "TrigK_P": 1,
+          "TrigK_U": -1
+        }
+      },
+      {
+        "name": "priority_route_interaction_Multi",
+        "weights": {
+          "MultiK_P": 1,
+          "MultiK_U": -1,
+          "MultiHash_P": -1,
+          "MultiHash_U": 1
+        }
+      },
+      {
+        "name": "priority_route_interaction_Trig",
+        "weights": {
+          "TrigK_P": 1,
+          "TrigK_U": -1,
+          "TrigHash_P": -1,
+          "TrigHash_U": 1
+        }
+      },
+      {
+        "name": "priority_MultiK_vs_TrigG121",
+        "weights": {
+          "MultiK_P": 1,
+          "TrigG121_P": -1
+        }
+      }
+    ],
+    "global_priority_effect": "TrigG121_P minus TrigG121_U is secondary/descriptive.",
+    "checkpoint_scope": "Compare validation-selected predictors after equal FULL training budgets; selected steps may differ. Never select on test curves.",
+    "interaction_caveat": "A negative interaction alone does not establish absolute benefit for either priority arm."
+  },
+  "prespecified_mechanism_diagnostics": {
+    "training_only_bins": "For each fixed geometric router compute margin=d_second_squared-d_nearest_squared on train coordinates. Record train quantile edges[0,.1,.25,.5,1] using explicit linear interpolation; collapse duplicate edges deterministically. Apply unchanged edges to validation/test. All arms scored on the SAME geometric-margin slices.",
+    "reporting": "Per-bank and fixed-margin-bin BCE/F1, record counts, observed positive prevalence, class composition and uncertainty are descriptive; report empty bins and every bin. Do not select bin boundaries, models, epochs or narrative by test advantage.",
+    "hash_interpretation": "Also report hash-bank occupancy, per-bank record visits and minibatch appearances; bank indices across policies are not matched semantic groups.",
+    "additional": "Report learned head weights, coefficient norms, route time, bank gradient/update exposure and packed-Adam movement of absent banks. Distinguish mechanism descriptions from primary causal contrasts.",
+    "priority": "Every round log probabilities, ESS1/sum(p^2), unique records, repetition, bank and class exposure, high-loss draws, refresh/sampler CPU and wall costs. Hidden annulus flips can be used only by post-release diagnostics.",
+    "milestones": "Train/validation every round; fixed curves25/50/100/200; validation macro-F1 first reach90/95/97%, censor all nonreachers. No test checkpoints along curve."
+  },
+  "conversion_and_timing": {
+    "circuit_models": 256,
+    "include": [
+      "MultiK_U",
+      "MultiK_P",
+      "MultiHash_U",
+      "MultiHash_P"
+    ],
+    "basis": "Same per-bank25coefficient real-arithmetic logit conversion; include affine head/bias, retain each exact original router and sigmoid.",
+    "verification": "Independent Laurent coefficient reconstruction, all forcedbanks, fixedoffgrid and geometric-boundary fixtures; hash routing deterministic checks and forcedbank checks. All validation and post-release test parity; preserve raw probabilities and all disagreements. No accuracy gain via conversion.",
+    "sessions": 3,
+    "batch_sizes": [
+      1,
+      32,
+      1024
+    ],
+    "warmup_trials_per_condition": 2,
+    "timed_trials_per_condition": 15,
+    "protocol": "Fresh isolated single-process sessions, one BLASthread, no concurrent training/audit. Interleave task/population/model blocks and alternate paired original/converted order. Record per-session clocks, BLASvendor/build, thread policy, available memory telemetry, absolute latencies, matched ratios and drift.",
+    "classical_controls": "All640 selected original predictors plus256 exact compiled circuit representations;896 representations.",
+    "representation_conditions_per_session": 2688,
+    "timed_trials_across_three_sessions": 120960,
+    "warmup_trials_across_three_sessions": 16128,
+    "costs": "Measure loading, hashing/routing/features/sigmoid, coefficient-construction time and representation bytes separately. Break-even only where matched per-call saving>0. Technical trials do not increase independent model/population n.",
+    "optimized_learned_representations": 384
+  },
+  "independent_reproduction": {
+    "count": 4,
+    "selection_frozen_before_data": true,
+    "endpoints": [
+      "B/B_checkerboard_01/seed_1601/MultiK_P",
+      "B/B_spiral_01/seed_1601/TrigK_P",
+      "B/B_annulus_01/seed_1601/MultiHash_U",
+      "B/B_disks_01/seed_1601/TrigG121_U"
+    ],
+    "procedure": "Separate clean directory, recreate exact data/router and same full recipe from frozen sources/dependency records without copying trained checkpoints. Preserve every attempt.",
+    "timing": "After complete B audit and release; before exclusive inference timing. Reproduction is a separate ledger and does not change official B count.",
+    "checks": "Independent full curves, selected step, full/selected parameters and predictions. Numerical tolerances frozen before execution.",
+    "same_environment_tolerances": {
+      "parameters_abs": 1e-12,
+      "native_logits_abs": 1e-10,
+      "metrics_abs": 1e-12,
+      "selected_step": "exact",
+      "classifications": "exact"
+    },
+    "limits": "These are four reproducibility checks, not additional independent populations or hardware-portability evidence."
+  },
+  "runtime": {
+    "scientific_python": "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+    "scientific_python_version": "3.12.14",
+    "numpy_version": "2.5.4",
+    "scipy_version": "1.18.1",
+    "blas_threads": 1,
+    "effective_thread_check": "Read the loaded OpenBLAS scipy_openblas_get_num_threads64_ API in each child; require one.",
+    "bytecode": "Disabled; preserve prior environment unchanged.",
+    "document_runtime": "Separate Codex bundled authoring runtime; never silently replace scientific runtime."
+  },
+  "execution_layer": {
+    "name": "Q-Path Multiplier (ETEL)",
+    "expansion": "Elastic Task Execution Layer",
+    "source_version": "0.2.0",
+    "role": "Coordinate complete registered fits in isolated child processes; never substitute the native vector fixture for scientific models.",
+    "resource_ceiling": 5,
+    "selected_concurrency": "Fixed by resource qualification before development release, no more than five.",
+    "logical_slots": "Bookkeeping groups of 64, unrelated to scientific banks, physical cores or speedup.",
+    "requirements": [
+      "Bound canonical matrix identity, source, environment, data and protocol hashes.",
+      "Atomic persistent claims, process creation identity, immutable attempt directories and endpoint commit verification.",
+      "On restart reconcile live children and valid commits before dispatch; never repeat completed work.",
+      "Root release per stage after author and independent audits; sealed test scoring only after all 640 confirmation endpoints.",
+      "Stop and join all training and audit workers before isolated serial deployment timing."
+    ],
+    "deadline_per_fit_seconds": 3600
+  },
+  "resource_projection": {
+    "training_hours": [
+      7,
+      10
+    ],
+    "audit_deployment_report_hours": [
+      3,
+      6
+    ],
+    "complete_hours_after_implementation": [
+      10,
+      16
+    ],
+    "scope": "Planning estimate; refine from engineering, never truncate registered budgets."
+  },
+  "local_readiness": "Analytic gradient/state/observable/compiled-coefficient checks only. No new finite-shot/noise/Aer campaign.",
+  "preservation": {
+    "v07_payloads": 53427,
+    "v07_bytes": 6533819005,
+    "baseline7": "C:\\sealed files\\Q2\\Baseline7\\seal_20261020_151858",
+    "seal_files": 4,
+    "verify_before_and_after": true
+  }
+}

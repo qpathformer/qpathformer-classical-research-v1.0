@@ -1,0 +1,86 @@
+{
+  "status": "PASS_FRESH_EXTRACTION_AND_BOUNDED_STARTUP",
+  "checked_at_utc": "2026-10-30T05:33:51.580862+00:00",
+  "packages": [
+    {
+      "package": "QPathformer_v0.8_Code",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261030_r3\\dist\\QPathformer_v0.8_Code.zip",
+        "bytes": 389826,
+        "sha256": "382cb8c1cb1805562673f1087778650664cca2f3306a785718aded2ed114460a"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261030_r3\\dist\\QPathformer_v0.8_Code.seal.json",
+        "bytes": 1319,
+        "sha256": "5067ae6c12e901acee012de52f98b458abc86b10fc2c9667a3dc438c6b7092d6"
+      },
+      "fresh_extraction": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261030_r3\\qa\\fresh_extraction\\QPathformer_v0.8_Code",
+      "verification": {
+        "status": "PASS",
+        "files": 107
+      }
+    },
+    {
+      "package": "QPathformer_v0.8_Documentation",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261030_r3\\dist\\QPathformer_v0.8_Documentation.zip",
+        "bytes": 45853,
+        "sha256": "53f768f0dd863a222a915223e8f8b53056e0326ccff7a9e7603ac6409f0a90fd"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261030_r3\\dist\\QPathformer_v0.8_Documentation.seal.json",
+        "bytes": 1388,
+        "sha256": "8e9fb8b014517dba3a4df02055101c10f8fce37f0200ae0a2c0a4543ecb3e4f0"
+      },
+      "fresh_extraction": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261030_r3\\qa\\fresh_extraction\\QPathformer_v0.8_Documentation",
+      "verification": {
+        "status": "PASS",
+        "files": 19
+      }
+    },
+    {
+      "package": "QPathformer_v0.8_Study",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261030_r3\\dist\\QPathformer_v0.8_Study.zip",
+        "bytes": 2130266,
+        "sha256": "caf7bdec1b95007d6719d048af1a31699b8f38bdfc8a9d1c58ad1dab502c38da"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261030_r3\\dist\\QPathformer_v0.8_Study.seal.json",
+        "bytes": 1325,
+        "sha256": "fbce6c83bf2944ff886a50905d0cdb2a3945c43b1ef143f33ddb2c907e1745ec"
+      },
+      "fresh_extraction": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261030_r3\\qa\\fresh_extraction\\QPathformer_v0.8_Study",
+      "verification": {
+        "status": "PASS",
+        "files": 17
+      }
+    }
+  ],
+  "code_zip": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261030_r3\\dist\\QPathformer_v0.8_Code.zip",
+    "bytes": 389826,
+    "sha256": "382cb8c1cb1805562673f1087778650664cca2f3306a785718aded2ed114460a"
+  },
+  "code_seal": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261030_r3\\dist\\QPathformer_v0.8_Code.seal.json",
+    "bytes": 1319,
+    "sha256": "5067ae6c12e901acee012de52f98b458abc86b10fc2c9667a3dc438c6b7092d6"
+  },
+  "code_startup_receipt": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261030_r3\\receipts\\QPathformer_v0.8_Code.startup.json",
+    "bytes": 8727,
+    "sha256": "a1bf7ce99875b3206336dd858cd301d308946e71add2e3aa63d52484069d28cd"
+  },
+  "package_bytes_unchanged": true,
+  "receipt_outside_entire_package": true,
+  "scope": "Exact package integrity before and after startup; all selected Python parsed; v0.8 numerical imports, two inputs through a zero-angle circuit with moment shape/range and sigmoid checks, and required --help for study.py, execution/launcher.py and execution/bind_stage.py. Importing reference_v03 is not an independent matrix comparison. No model-family suite, conversion parity or ETEL fit/recovery checks run. Network disabled in test subprocesses. No official input files used.",
+  "not_verified": [
+    "Clean-room dependency installation",
+    "Full training or official scoring",
+    "Datasets and selected checkpoints",
+    "Full-archive relocation",
+    "Shot sampling or noise experiments",
+    "Hardware or QPU execution"
+  ]
+}

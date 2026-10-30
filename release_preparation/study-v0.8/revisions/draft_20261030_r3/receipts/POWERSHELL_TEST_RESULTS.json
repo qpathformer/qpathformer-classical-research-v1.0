@@ -1,0 +1,212 @@
+{
+  "status": "PASS_POWERSHELL_QUICKSTART_CHECKS",
+  "recorded_at_utc": "2026-10-30T05:29:29.324462+00:00",
+  "powershell": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+  "powershell_version": "7.6.9",
+  "invocation": [
+    "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+    "-B",
+    "C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\test_powershell.py"
+  ],
+  "harness_python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "python_runtime": "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+  "source_package": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.8\\draft_20261029_r2\\qa\\fresh_extraction\\QPathformer_v0.8_Code",
+  "source_package_unchanged": true,
+  "source_package_fingerprint_sha256": "f7e3dfde2d538ceaf365bb4667d7ebc741343e5e0d43f28ab28184705413713e",
+  "literal_quickstart_block_sha256": "e08a76d2942b2256a1e500b2ac58b8266687223ec419920cd8ace314df1919b7",
+  "tested_files": [
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\verify_package.py",
+      "bytes": 6066,
+      "sha256": "1cd61b0b93a1f0e679cad5bbc261ba6c6ca2636d6f965e77353f2efb3af6af3e"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\startup_check.py",
+      "bytes": 8964,
+      "sha256": "6f3df94c5fd6e4a29c07cae72b1ceec7cb686b77fcf0641068d3b8050e686bec"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\QUICKSTART.md",
+      "bytes": 2234,
+      "sha256": "6c55da5b9239d4bb10d2f27f58bdd691eca776de7ec083c9eab07fb4440ceea1"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\test_helpers.py",
+      "bytes": 21106,
+      "sha256": "fba9006527ed47b8b58f5c5e9b5d7af8d2b438a90b0e8a532c7b68bc354ad438"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\test_powershell.py",
+      "bytes": 5737,
+      "sha256": "a4ff93a2d27d3b27a2d4316fa9e010cec7a719bef12ea7a1a12e8bd80449c003"
+    }
+  ],
+  "probes": [
+    {
+      "probe": "invalid_missing",
+      "status": "PASS",
+      "command": [
+        "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+        "-NoLogo",
+        "-NoProfile",
+        "-NonInteractive",
+        "-File",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\powershell-probes-m9czyyc4\\invalid_missing\\quickstart.ps1"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\powershell-probes-m9czyyc4\\invalid_missing\\QPathformer_v0.8_Code\\tools\\verify_package.py\", line 141, in <module>\n    main()\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\powershell-probes-m9czyyc4\\invalid_missing\\QPathformer_v0.8_Code\\tools\\verify_package.py\", line 137, in main\n    print(json.dumps(verify()))\n                     ^^^^^^^^\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\powershell-probes-m9czyyc4\\invalid_missing\\QPathformer_v0.8_Code\\tools\\verify_package.py\", line 112, in verify\n    raise ValueError(\"Manifest membership differs\")\nValueError: Manifest membership differs\nException: C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\powershell-probes-m9czyyc4\\invalid_missing\\quickstart.ps1:8\nLine |\n   8 |          throw \"Package verification failed; startup was not run.\"\n     |          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | Package verification failed; startup was not run.\n",
+      "startup_receipt_created": false,
+      "package_bytes_unchanged": true,
+      "classification": "ACTUAL_POWERSHELL_STOP_BEFORE_STARTUP"
+    },
+    {
+      "probe": "invalid_changed_same_size",
+      "status": "PASS",
+      "command": [
+        "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+        "-NoLogo",
+        "-NoProfile",
+        "-NonInteractive",
+        "-File",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\powershell-probes-m9czyyc4\\invalid_changed_same_size\\quickstart.ps1"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\powershell-probes-m9czyyc4\\invalid_changed_same_size\\QPathformer_v0.8_Code\\tools\\verify_package.py\", line 141, in <module>\n    main()\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\powershell-probes-m9czyyc4\\invalid_changed_same_size\\QPathformer_v0.8_Code\\tools\\verify_package.py\", line 137, in main\n    print(json.dumps(verify()))\n                     ^^^^^^^^\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\powershell-probes-m9czyyc4\\invalid_changed_same_size\\QPathformer_v0.8_Code\\tools\\verify_package.py\", line 128, in verify\n    raise ValueError(\"Manifest differs: \" + name)\nValueError: Manifest differs: START_HERE.md\nException: C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\powershell-probes-m9czyyc4\\invalid_changed_same_size\\quickstart.ps1:8\nLine |\n   8 |          throw \"Package verification failed; startup was not run.\"\n     |          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | Package verification failed; startup was not run.\n",
+      "startup_receipt_created": false,
+      "package_bytes_unchanged": true,
+      "classification": "ACTUAL_POWERSHELL_STOP_BEFORE_STARTUP"
+    },
+    {
+      "probe": "invalid_unexpected",
+      "status": "PASS",
+      "command": [
+        "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+        "-NoLogo",
+        "-NoProfile",
+        "-NonInteractive",
+        "-File",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\powershell-probes-m9czyyc4\\invalid_unexpected\\quickstart.ps1"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\powershell-probes-m9czyyc4\\invalid_unexpected\\QPathformer_v0.8_Code\\tools\\verify_package.py\", line 141, in <module>\n    main()\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\powershell-probes-m9czyyc4\\invalid_unexpected\\QPathformer_v0.8_Code\\tools\\verify_package.py\", line 137, in main\n    print(json.dumps(verify()))\n                     ^^^^^^^^\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\powershell-probes-m9czyyc4\\invalid_unexpected\\QPathformer_v0.8_Code\\tools\\verify_package.py\", line 112, in verify\n    raise ValueError(\"Manifest membership differs\")\nValueError: Manifest membership differs\nException: C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\powershell-probes-m9czyyc4\\invalid_unexpected\\quickstart.ps1:8\nLine |\n   8 |          throw \"Package verification failed; startup was not run.\"\n     |          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | Package verification failed; startup was not run.\n",
+      "startup_receipt_created": false,
+      "package_bytes_unchanged": true,
+      "classification": "ACTUAL_POWERSHELL_STOP_BEFORE_STARTUP"
+    },
+    {
+      "probe": "valid",
+      "status": "PASS",
+      "command": [
+        "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+        "-NoLogo",
+        "-NoProfile",
+        "-NonInteractive",
+        "-File",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\powershell-probes-m9czyyc4\\valid\\quickstart.ps1"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"files\": 107, \"package_fingerprint_sha256\": \"7e9fd6bc271de1a42fdf573cfbdbf053a671b38d5dc02e12a44906485eb5c845\"}\n{\"status\": \"PASS\", \"checks\": 4}\n",
+      "stderr": "",
+      "startup_receipt_created": true,
+      "package_bytes_unchanged": true,
+      "classification": "GENUINE_BOUNDED_STARTUP_ON_UNSEALED_DISPOSABLE_HELPER_FIXTURE_NOT_FINAL_ZIP",
+      "startup_result": {
+        "status": "PASS",
+        "recorded_at_utc": "2026-10-30T05:29:28.796275+00:00",
+        "python": "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+        "platform": "Windows-11-10.0.26300-SP0",
+        "parsed_python_files": 85,
+        "numpy_version": "2.5.4",
+        "scipy_version": "1.18.1",
+        "numerical_input_records": 2,
+        "cli_help_checks": 3,
+        "integrity_before": {
+          "status": "PASS",
+          "files": 107,
+          "package_fingerprint_sha256": "7e9fd6bc271de1a42fdf573cfbdbf053a671b38d5dc02e12a44906485eb5c845"
+        },
+        "integrity_after": {
+          "status": "PASS",
+          "files": 107,
+          "package_fingerprint_sha256": "7e9fd6bc271de1a42fdf573cfbdbf053a671b38d5dc02e12a44906485eb5c845"
+        },
+        "package_bytes_unchanged": true,
+        "checks": [
+          {
+            "label": "two-input numerical smoke check",
+            "command": [
+              "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+              "-B",
+              "-c",
+              "import socket\ndef denied(*args, **kwargs): raise RuntimeError('Network disabled during bounded startup')\nsocket.create_connection = denied\nsocket.socket.connect = denied\nsocket.socket.connect_ex = denied\nimport json, sys\nsys.path.insert(0, 'C:\\\\Anthony Siljeg\\\\draft_releases_20261029\\\\v08_r3_helpers\\\\powershell-probes-m9czyyc4\\\\valid\\\\QPathformer_v0.8_Code\\\\payload\\\\study\\\\quantum')\nimport numpy as np, scipy, circuits, models, routers, reference_v03\nx=np.array([[0.0,0.0],[0.1,-0.3]],dtype=np.float64)\nbank=np.zeros((2,2,2),dtype=np.float64)\nmoments=circuits.moments(x,bank,count=5)\nif moments.shape != (2,5) or not np.isfinite(moments).all(): raise ValueError('Invalid moment shape or values')\nif not np.all(np.abs(moments)<=1+1e-12): raise ValueError('Moment range failed')\nvalues=np.array([-1.,0.,1.])\nif not np.allclose(models.sigmoid(values),1/(1+np.exp(-values)),rtol=1e-14,atol=1e-14): raise ValueError('Sigmoid comparison failed')\nprint(json.dumps({'numpy_version': np.__version__, 'scipy_version': scipy.__version__, 'numerical_input_records': 2}))"
+            ],
+            "cwd": "C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\powershell-probes-m9czyyc4\\valid\\QPathformer_v0.8_Code",
+            "status": "PASS",
+            "returncode": 0,
+            "stdout": "{\"numpy_version\": \"2.5.4\", \"scipy_version\": \"1.18.1\", \"numerical_input_records\": 2}\n",
+            "stderr": ""
+          },
+          {
+            "label": "payload/study/quantum/study.py --help",
+            "command": [
+              "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+              "-B",
+              "-c",
+              "import socket\ndef denied(*args, **kwargs): raise RuntimeError('Network disabled during bounded startup')\nsocket.create_connection = denied\nsocket.socket.connect = denied\nsocket.socket.connect_ex = denied\nimport runpy, sys\nsys.path.insert(0, 'C:\\\\Anthony Siljeg\\\\draft_releases_20261029\\\\v08_r3_helpers\\\\powershell-probes-m9czyyc4\\\\valid\\\\QPathformer_v0.8_Code\\\\payload\\\\study\\\\quantum')\nsys.argv = ['C:\\\\Anthony Siljeg\\\\draft_releases_20261029\\\\v08_r3_helpers\\\\powershell-probes-m9czyyc4\\\\valid\\\\QPathformer_v0.8_Code\\\\payload\\\\study\\\\quantum\\\\study.py', '--help']\nrunpy.run_path('C:\\\\Anthony Siljeg\\\\draft_releases_20261029\\\\v08_r3_helpers\\\\powershell-probes-m9czyyc4\\\\valid\\\\QPathformer_v0.8_Code\\\\payload\\\\study\\\\quantum\\\\study.py', run_name='__main__')"
+            ],
+            "cwd": "C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\powershell-probes-m9czyyc4\\valid\\QPathformer_v0.8_Code",
+            "status": "PASS",
+            "returncode": 0,
+            "stdout": "usage: study.py [-h] --job-id JOB_ID --authorization AUTHORIZATION --output\n                OUTPUT\n\nInternal v0.8 trainer. Every registered run requires an external root freeze.\nTraining cannot load a test payload. All round parameters and validation\nprobabilities are flushed before that round's ledger entry. Failed runs retain\npartial arrays and current state; sampler state is not resumable\nautomatically.\n\noptions:\n  -h, --help            show this help message and exit\n  --job-id JOB_ID\n  --authorization AUTHORIZATION\n  --output OUTPUT\n",
+            "stderr": ""
+          },
+          {
+            "label": "payload/study/execution/launcher.py --help",
+            "command": [
+              "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+              "-B",
+              "-c",
+              "import socket\ndef denied(*args, **kwargs): raise RuntimeError('Network disabled during bounded startup')\nsocket.create_connection = denied\nsocket.socket.connect = denied\nsocket.socket.connect_ex = denied\nimport runpy, sys\nsys.path.insert(0, 'C:\\\\Anthony Siljeg\\\\draft_releases_20261029\\\\v08_r3_helpers\\\\powershell-probes-m9czyyc4\\\\valid\\\\QPathformer_v0.8_Code\\\\payload\\\\study\\\\execution')\nsys.argv = ['C:\\\\Anthony Siljeg\\\\draft_releases_20261029\\\\v08_r3_helpers\\\\powershell-probes-m9czyyc4\\\\valid\\\\QPathformer_v0.8_Code\\\\payload\\\\study\\\\execution\\\\launcher.py', '--help']\nrunpy.run_path('C:\\\\Anthony Siljeg\\\\draft_releases_20261029\\\\v08_r3_helpers\\\\powershell-probes-m9czyyc4\\\\valid\\\\QPathformer_v0.8_Code\\\\payload\\\\study\\\\execution\\\\launcher.py', run_name='__main__')"
+            ],
+            "cwd": "C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\powershell-probes-m9czyyc4\\valid\\QPathformer_v0.8_Code",
+            "status": "PASS",
+            "returncode": 0,
+            "stdout": "usage: launcher.py [-h] {run,status,cancel,recover} ...\n\nRoot-gated command line for Q-Path Multiplier (ETEL); no implicit approval.\n\npositional arguments:\n  {run,status,cancel,recover}\n\noptions:\n  -h, --help            show this help message and exit\n",
+            "stderr": ""
+          },
+          {
+            "label": "payload/study/execution/bind_stage.py --help",
+            "command": [
+              "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+              "-B",
+              "-c",
+              "import socket\ndef denied(*args, **kwargs): raise RuntimeError('Network disabled during bounded startup')\nsocket.create_connection = denied\nsocket.socket.connect = denied\nsocket.socket.connect_ex = denied\nimport runpy, sys\nsys.path.insert(0, 'C:\\\\Anthony Siljeg\\\\draft_releases_20261029\\\\v08_r3_helpers\\\\powershell-probes-m9czyyc4\\\\valid\\\\QPathformer_v0.8_Code\\\\payload\\\\study\\\\execution')\nsys.argv = ['C:\\\\Anthony Siljeg\\\\draft_releases_20261029\\\\v08_r3_helpers\\\\powershell-probes-m9czyyc4\\\\valid\\\\QPathformer_v0.8_Code\\\\payload\\\\study\\\\execution\\\\bind_stage.py', '--help']\nrunpy.run_path('C:\\\\Anthony Siljeg\\\\draft_releases_20261029\\\\v08_r3_helpers\\\\powershell-probes-m9czyyc4\\\\valid\\\\QPathformer_v0.8_Code\\\\payload\\\\study\\\\execution\\\\bind_stage.py', run_name='__main__')"
+            ],
+            "cwd": "C:\\Anthony Siljeg\\draft_releases_20261029\\v08_r3_helpers\\powershell-probes-m9czyyc4\\valid\\QPathformer_v0.8_Code",
+            "status": "PASS",
+            "returncode": 0,
+            "stdout": "usage: bind_stage.py [-h] --root ROOT --stage {engineering,A,B} --interpreter\n                     INTERPRETER --authorization AUTHORIZATION --max-parallel\n                     MAX_PARALLEL --deadline-seconds DEADLINE_SECONDS\n                     --environment ENVIRONMENT --output OUTPUT\n\nPrepare immutable execution manifest; never approve or launch it.\n\noptions:\n  -h, --help            show this help message and exit\n  --root ROOT\n  --stage {engineering,A,B}\n  --interpreter INTERPRETER\n  --authorization AUTHORIZATION\n  --max-parallel MAX_PARALLEL\n  --deadline-seconds DEADLINE_SECONDS\n  --environment ENVIRONMENT\n  --output OUTPUT\n",
+            "stderr": ""
+          }
+        ],
+        "errors": [],
+        "scope": "Exact package integrity before and after startup; all selected Python parsed; v0.8 numerical imports, two inputs through a zero-angle circuit with moment shape/range and sigmoid checks, and required --help for study.py, execution/launcher.py and execution/bind_stage.py. Importing reference_v03 is not an independent matrix comparison. No model-family suite, conversion parity or ETEL fit/recovery checks run. Network disabled in test subprocesses. No official input files used.",
+        "not_verified": [
+          "Clean-room dependency installation",
+          "Full training or official scoring",
+          "Datasets and selected checkpoints",
+          "Full-archive relocation",
+          "Shot sampling or noise experiments",
+          "Hardware or QPU execution"
+        ]
+      }
+    }
+  ],
+  "boundary": "Three actual invalid-fixture shell checks and one genuine bounded startup on an unsealed disposable fixture. This does not substitute for final sealed-ZIP startup or scientific replication.",
+  "final_zip_startup_still_required": true
+}

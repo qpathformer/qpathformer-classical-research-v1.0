@@ -1,0 +1,37 @@
+{
+  "study_version": "v0.8",
+  "status": "ADOPTED",
+  "adopted_on": "2026-10-29",
+  "timezone": "Australia/Sydney",
+  "licensor": "Anthony Siljeg",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "adoption_record": "LICENSE_ADOPTION.json",
+  "exclusions": [
+    "Third-party dependencies and their expression",
+    "Datasets and dataset source content",
+    "Model artifacts and trained checkpoints",
+    "Architecture documents",
+    "Complete operational archives",
+    "Installed environments",
+    "Integrity/provenance records as whole files except explicitly listed controlled explanatory prose"
+  ],
+  "previous_grants_preserved": true,
+  "schema": "qpath-study-license-adoption-1",
+  "owner_instruction": "the licensing decisions can be adopted, if its the same as the first two",
+  "owner_followup": "this can save recomputing the seals?",
+  "condition": "Same separately scoped scheme as published studies v0.1 and v0.9.5: CC BY 4.0 for controlled original report and explicitly listed prose; unchanged Q-Pathformer Platform License 1.0 for exact selected Python.",
+  "satisfied_by": [
+    {
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "bytes": 1685,
+      "sha256": "4cbd6cab75f82536418b536f33d287ead7bbb8525d6737a04879c3aae15e1056"
+    },
+    {
+      "path": "REPORT_LICENSE_SCOPE.json",
+      "bytes": 2044,
+      "sha256": "96500bb8cded8753cb6802d88b5306a2ce6f3f54d9c82f4af8655e24e646e218"
+    }
+  ],
+  "rights_not_ownership_transfer": true,
+  "does_not_authorize_publication": true
+}

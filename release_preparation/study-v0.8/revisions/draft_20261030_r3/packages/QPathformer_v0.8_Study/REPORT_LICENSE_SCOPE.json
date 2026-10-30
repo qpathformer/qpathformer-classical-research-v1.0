@@ -1,0 +1,53 @@
+{
+  "study_version": "v0.8",
+  "status": "ADOPTED",
+  "adopted_on": "2026-10-29",
+  "timezone": "Australia/Sydney",
+  "licensor": "Anthony Siljeg",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "adoption_record": "LICENSE_ADOPTION.json",
+  "exclusions": [
+    "Third-party dependencies and their expression",
+    "Datasets and dataset source content",
+    "Model artifacts and trained checkpoints",
+    "Architecture documents",
+    "Complete operational archives",
+    "Installed environments",
+    "Integrity/provenance records as whole files except explicitly listed controlled explanatory prose"
+  ],
+  "previous_grants_preserved": true,
+  "schema": "qpath-report-license-scope-1",
+  "license": "CC-BY-4.0",
+  "scope": "Controlled original report prose, table presentation and original embedded figures, including appended edition note; no grant to quoted third-party material or underlying datasets.",
+  "files": [
+    {
+      "path": "reports/QPathformer_v0.8_Report_Edition_1.docx",
+      "bytes": 891122,
+      "sha256": "36287155f1a6f0a90773e3da01dc1666eaee5cd3d89e8add77e25c3787328657"
+    },
+    {
+      "path": "reports/QPathformer_v0.8_Report_Edition_1.pdf",
+      "bytes": 2020094,
+      "sha256": "92e06293cac5b1f796159a127dd9201bd7b83abc51f22a80cdf2aaeed7a3bd08"
+    }
+  ],
+  "source_report": {
+    "path": "C:\\Q2\\Improvement_Study_v0.8\\docs\\QPATH_RPT009_v0.8_Internal_Study_Report.docx",
+    "bytes": 890193,
+    "sha256": "499c25c86dba1a81486cd38edca25ba4b9741499d8f2a5a3e3145645ac2caa95"
+  },
+  "source_figures": [
+    {
+      "path": "word/media/image1.png",
+      "bytes": 471002,
+      "sha256": "1e4a3b78de0710d252778d0a44be6a9bc8e66d49a40122658e464b372ec85377"
+    },
+    {
+      "path": "word/media/image2.png",
+      "bytes": 398095,
+      "sha256": "29d9ba322478df180a8f021874764fa09c89ab6702a5d011d3aa249677e0af50"
+    }
+  ],
+  "figure_count": 2,
+  "original_tables": 57
+}
