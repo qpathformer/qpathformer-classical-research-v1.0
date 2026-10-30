@@ -1,0 +1,4 @@
+{
+  "reason": "Clarify that the regression harness includes real startup process probes as well as mocked control-flow probes; preserve previous records and rerun the final harness.",
+  "sealed_assets_unchanged": true
+}

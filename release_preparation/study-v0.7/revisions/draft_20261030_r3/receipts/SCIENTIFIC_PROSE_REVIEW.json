@@ -1,0 +1,262 @@
+{
+  "status": "PASS_RETAINED_PRIMARY_RECORD_CROSSCHECK",
+  "created_at_utc": "2026-10-30T05:06:29.128527+00:00",
+  "evidence": [
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.7\\governance\\ANALYSIS_PROTOCOL.json",
+      "bytes": 3188,
+      "sha256": "ea58009b9d1a7f5e4a0537dddd8559b9c6f1be01044640b21db66a6c77700712"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.7\\analysis\\official_results\\stage_B_v01\\primary_analysis.json",
+      "bytes": 67716,
+      "sha256": "436da0d39a0b26bcf55b0d03c2798e74a3c420dcc61929f563609c7febf319e9"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.7\\analysis\\official_results\\stage_B_v01\\descriptive_summary.json",
+      "bytes": 247333,
+      "sha256": "1e63dfddb59d446934e708bbe3471e26bcc423271107b68c69f82e875e20e709"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.7\\analysis\\deployment_results\\conversion_v01\\summary.json",
+      "bytes": 863,
+      "sha256": "8713f4c5142ccb5a071fd5ba5e72cfe488fc69719ad713043840bc5b6705001f"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.7\\analysis\\independent_deployment_results\\conversion_v01\\summary.json",
+      "bytes": 1304,
+      "sha256": "a0274cc8af55089aa852895e49f84178e531c0a77e2f7ea382cb55671721538f"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.7\\analysis\\deployment_results\\shots_v01\\summary.json",
+      "bytes": 980,
+      "sha256": "6f8f53712e4d31e6659c7c4f378755595aadd27c6a27d5948ab5e08e60b59db2"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.7\\report_work\\final_report\\REPORT_CONTENT_v04.json",
+      "bytes": 359277,
+      "sha256": "735aaaa9aaa7c9e7551d8a27b9adcac50179b02fc5c14fc8bc725f0430e73785"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.7\\execution\\VENDOR_PROVENANCE.json",
+      "bytes": 879,
+      "sha256": "7c60ddbf244d0e9a5ad3c9b12eaeed594081072d5f768185a3409be5c674c44e"
+    }
+  ],
+  "routing_contrasts": [
+    {
+      "family": "checkerboard",
+      "first": "MultiK",
+      "second": "MultiHash",
+      "interval": [
+        -0.22805254000263148,
+        -0.15148242612423984
+      ]
+    },
+    {
+      "family": "checkerboard",
+      "first": "TrigK",
+      "second": "TrigHash",
+      "interval": [
+        -0.4563023974169702,
+        -0.4094855903324508
+      ]
+    },
+    {
+      "family": "spiral",
+      "first": "MultiK",
+      "second": "MultiHash",
+      "interval": [
+        -0.40834196845578713,
+        -0.19097072734841175
+      ]
+    },
+    {
+      "family": "spiral",
+      "first": "TrigK",
+      "second": "TrigHash",
+      "interval": [
+        -0.490243182073956,
+        -0.33904781985850485
+      ]
+    },
+    {
+      "family": "annulus",
+      "first": "MultiK",
+      "second": "MultiHash",
+      "interval": [
+        -0.14172978972985611,
+        -0.0873546698650517
+      ]
+    },
+    {
+      "family": "annulus",
+      "first": "TrigK",
+      "second": "TrigHash",
+      "interval": [
+        -0.08953738674514655,
+        -0.05511740348995651
+      ]
+    },
+    {
+      "family": "disks",
+      "first": "MultiK",
+      "second": "MultiHash",
+      "interval": [
+        -0.07920580785192738,
+        -0.0589883389791479
+      ]
+    },
+    {
+      "family": "disks",
+      "first": "TrigK",
+      "second": "TrigHash",
+      "interval": [
+        -0.016520131200461523,
+        -0.007612613347869677
+      ]
+    }
+  ],
+  "f1_values_verified": {
+    "MultiK": [
+      76.57,
+      86.82,
+      87.14,
+      98.7
+    ],
+    "TrigK": [
+      90.18,
+      92.42,
+      87.75,
+      98.94
+    ],
+    "TrigG121": [
+      98.47,
+      96.57,
+      87.28,
+      99.16
+    ]
+  },
+  "changed_files": [
+    {
+      "path": "QPathformer_v0.7_Code/RIGHTS.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261029_r2\\assembly\\QPathformer_v0.7_Code\\RIGHTS.md",
+        "bytes": 1535,
+        "sha256": "200341c552ecf0a204fb574b6fff3082c606940edc4d8f74f09eed42f93bc0ca"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_prose\\QPathformer_v0.7_Code\\RIGHTS.md",
+        "bytes": 1064,
+        "sha256": "35dbc9a853640158e54bd68cae4c5ec83756a1812bc34913a9f2884e4a743127"
+      }
+    },
+    {
+      "path": "QPathformer_v0.7_Code/START_HERE.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261029_r2\\assembly\\QPathformer_v0.7_Code\\START_HERE.md",
+        "bytes": 1348,
+        "sha256": "810c8c0e65189f6b6eb5050aaf08a1814182ed827d7aae104de2d3ac71fde848"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_prose\\QPathformer_v0.7_Code\\START_HERE.md",
+        "bytes": 3096,
+        "sha256": "6153a05029ea6c989d5d59b8348298217efcbdc380f0b979bd8d83fdcfddf815"
+      }
+    },
+    {
+      "path": "QPathformer_v0.7_Code/VERIFY.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261029_r2\\assembly\\QPathformer_v0.7_Code\\VERIFY.md",
+        "bytes": 946,
+        "sha256": "35b64145b9f14fc27f25a5f688fd2e36426fa495bfd38ee685ce074665d1049c"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_prose\\QPathformer_v0.7_Code\\VERIFY.md",
+        "bytes": 1069,
+        "sha256": "463169ebe5379386d3f64874bd255b8ec57e8ebe58fdf5fdb24ec52f5d8bfd81"
+      }
+    },
+    {
+      "path": "QPathformer_v0.7_Documentation/OVERVIEW.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261029_r2\\assembly\\QPathformer_v0.7_Documentation\\OVERVIEW.md",
+        "bytes": 2163,
+        "sha256": "5c5e7762a6d5aa950e0f1b47c88e874747b6f7012ff343f393cf904d7215aed3"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_prose\\QPathformer_v0.7_Documentation\\OVERVIEW.md",
+        "bytes": 11477,
+        "sha256": "3aaab8fd0b236217088b032ad29e00b3d895306a2ed0c73eae53d49dd2ea120f"
+      }
+    },
+    {
+      "path": "QPathformer_v0.7_Documentation/RELEASE_NOTES.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261029_r2\\assembly\\QPathformer_v0.7_Documentation\\RELEASE_NOTES.md",
+        "bytes": 1075,
+        "sha256": "68c73f268c7742c34388581f60489ce5a96a5195c1936040f9d2a5a509197cb1"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_prose\\QPathformer_v0.7_Documentation\\RELEASE_NOTES.md",
+        "bytes": 4131,
+        "sha256": "0024c3ec8d760e37f79beddd797cbc72d4ebb1815bb55f07f8b05a3ff97c5c6f"
+      }
+    },
+    {
+      "path": "QPathformer_v0.7_Documentation/REPRODUCTION_BOUNDARIES.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261029_r2\\assembly\\QPathformer_v0.7_Documentation\\REPRODUCTION_BOUNDARIES.md",
+        "bytes": 1517,
+        "sha256": "c9418090d73f01866202767339074cedbebd9fe7234f060b2b462f0b8f77ea09"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_prose\\QPathformer_v0.7_Documentation\\REPRODUCTION_BOUNDARIES.md",
+        "bytes": 2113,
+        "sha256": "b846714cf9d1a51e0643e0064ea2cbc86e89f38e9d20d4157817770af6549526"
+      }
+    },
+    {
+      "path": "QPathformer_v0.7_Documentation/RIGHTS.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261029_r2\\assembly\\QPathformer_v0.7_Documentation\\RIGHTS.md",
+        "bytes": 1535,
+        "sha256": "200341c552ecf0a204fb574b6fff3082c606940edc4d8f74f09eed42f93bc0ca"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_prose\\QPathformer_v0.7_Documentation\\RIGHTS.md",
+        "bytes": 1064,
+        "sha256": "35dbc9a853640158e54bd68cae4c5ec83756a1812bc34913a9f2884e4a743127"
+      }
+    },
+    {
+      "path": "QPathformer_v0.7_Documentation/START_HERE.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261029_r2\\assembly\\QPathformer_v0.7_Documentation\\START_HERE.md",
+        "bytes": 1363,
+        "sha256": "04d18cda121464c556d91f648b445b04a0f9b0af9fede22f2c4fd96527f2151a"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_prose\\QPathformer_v0.7_Documentation\\START_HERE.md",
+        "bytes": 3054,
+        "sha256": "212e94e47f25b791c1f38ddbf9ecb79dbc2813e442fc31c38657aa6bfc00fa23"
+      }
+    },
+    {
+      "path": "QPathformer_v0.7_Documentation/VERIFY.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261029_r2\\assembly\\QPathformer_v0.7_Documentation\\VERIFY.md",
+        "bytes": 964,
+        "sha256": "fd6f0df2bfdf0ce19f3dd6c61b087a0dd97730836fe82a049668dc35e2848423"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_prose\\QPathformer_v0.7_Documentation\\VERIFY.md",
+        "bytes": 1069,
+        "sha256": "463169ebe5379386d3f64874bd255b8ec57e8ebe58fdf5fdb24ec52f5d8bfd81"
+      }
+    }
+  ],
+  "reviewer": "Preparing agent; source-record cross-check, not a second reviewer",
+  "no_experiments_run": true,
+  "final_package_checks": "Pending sealing and genuine final startup"
+}

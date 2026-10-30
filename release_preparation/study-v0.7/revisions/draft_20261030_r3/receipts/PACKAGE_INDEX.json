@@ -1,0 +1,325 @@
+{
+  "study_version": "v0.7",
+  "selection_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261030_r3",
+  "status": "READY_FOR_DRAFT_REVIEW",
+  "packages": [
+    {
+      "package": "QPathformer_v0.7_Code",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261030_r3\\dist\\QPathformer_v0.7_Code.zip",
+        "bytes": 281836,
+        "sha256": "8fee12d75f38cee7fa552936aa63db30c2d53581d877e694d11a26bb765514b0"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261030_r3\\dist\\QPathformer_v0.7_Code.seal.json",
+        "bytes": 1318,
+        "sha256": "0dbce202548aaa79a7fac01b18f5f1c35c768c0ca580727c6a45ab6307efb3bf"
+      },
+      "files": 75,
+      "json_files": 14,
+      "adopted_scopes": [
+        {
+          "path": "CODE_LICENSE_SCOPE.json",
+          "files": 52,
+          "bytes": 14000,
+          "sha256": "7da04ecae4f1e2f334b6ac502272d5c812a969c6e2b4facbb5e4e62dd37feda4"
+        },
+        {
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 5,
+          "bytes": 1855,
+          "sha256": "2295c1df4c94c5be0c4d757180251c82ec475eb464b22104e79b065a38018dbe"
+        }
+      ],
+      "markdown_links": [
+        {
+          "source": "QUICKSTART.md",
+          "target": "DEPENDENCY_INVENTORY.json",
+          "kind": "local_verified"
+        },
+        {
+          "source": "RIGHTS.md",
+          "target": "LICENSE_ADOPTION.json",
+          "kind": "local_verified"
+        },
+        {
+          "source": "RIGHTS.md",
+          "target": "LICENSES/CC-BY-4.0.txt",
+          "kind": "local_verified"
+        },
+        {
+          "source": "RIGHTS.md",
+          "target": "LICENSES/QPATHFORMER-PLATFORM-1.0.txt",
+          "kind": "local_verified"
+        },
+        {
+          "source": "START_HERE.md",
+          "target": "QUICKSTART.md",
+          "kind": "local_verified"
+        },
+        {
+          "source": "START_HERE.md",
+          "target": "SOURCE_SELECTION.json",
+          "kind": "local_verified"
+        },
+        {
+          "source": "START_HERE.md",
+          "target": "DEPENDENCY_INVENTORY.json",
+          "kind": "local_verified"
+        },
+        {
+          "source": "START_HERE.md",
+          "target": "INHERITED_LICENSE_MAP.json",
+          "kind": "local_verified"
+        },
+        {
+          "source": "START_HERE.md",
+          "target": "RIGHTS.md",
+          "kind": "local_verified"
+        },
+        {
+          "source": "START_HERE.md",
+          "target": "VERIFY.md",
+          "kind": "local_verified"
+        },
+        {
+          "source": "START_HERE.md",
+          "target": "SOURCE_MAP.json",
+          "kind": "local_verified"
+        },
+        {
+          "source": "VERIFY.md",
+          "target": "SOURCE_MAP.json",
+          "kind": "local_verified"
+        }
+      ],
+      "status": "PASS_INDEPENDENT_PACKAGE_INTEGRITY",
+      "reused_unchanged": false,
+      "actual_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261030_r3"
+    },
+    {
+      "package": "QPathformer_v0.7_Documentation",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261030_r3\\dist\\QPathformer_v0.7_Documentation.zip",
+        "bytes": 47759,
+        "sha256": "6461297ea916ffe8513fed11f93169bb2737d00340ed37e328dc99282e33e8de"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261030_r3\\dist\\QPathformer_v0.7_Documentation.seal.json",
+        "bytes": 1388,
+        "sha256": "da4455f83ba36c746ac7efac1ef8c8d1864bee3efc34007690a78a69953bc219"
+      },
+      "files": 20,
+      "json_files": 4,
+      "adopted_scopes": [
+        {
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 13,
+          "bytes": 3344,
+          "sha256": "7542a3d38bc9e8035620c09be96569121cf5af151448947f701751a5e9885005"
+        }
+      ],
+      "markdown_links": [
+        {
+          "source": "OVERVIEW.md",
+          "target": "source/analysis/deployment/README_CONTRACT.txt",
+          "kind": "local_verified"
+        },
+        {
+          "source": "OVERVIEW.md",
+          "target": "source/analysis/independent_audit/README_INDEPENDENT_REPLAY.txt",
+          "kind": "local_verified"
+        },
+        {
+          "source": "OVERVIEW.md",
+          "target": "source/analysis/independent_deployment/README_INDEPENDENT_DEPLOYMENT.txt",
+          "kind": "local_verified"
+        },
+        {
+          "source": "OVERVIEW.md",
+          "target": "source/analysis/official/README_EVALUATION_CONTRACT.txt",
+          "kind": "local_verified"
+        },
+        {
+          "source": "OVERVIEW.md",
+          "target": "source/execution/README_EXECUTION.txt",
+          "kind": "local_verified"
+        },
+        {
+          "source": "OVERVIEW.md",
+          "target": "source/reproducibility/README_REPRODUCIBILITY.txt",
+          "kind": "local_verified"
+        },
+        {
+          "source": "OVERVIEW.md",
+          "target": "source/reproducibility/requirements-scientific.txt",
+          "kind": "local_verified"
+        },
+        {
+          "source": "RELEASE_NOTES.md",
+          "target": "OVERVIEW.md",
+          "kind": "local_verified"
+        },
+        {
+          "source": "RELEASE_NOTES.md",
+          "target": "RIGHTS.md",
+          "kind": "local_verified"
+        },
+        {
+          "source": "REPRODUCTION_BOUNDARIES.md",
+          "target": "OVERVIEW.md",
+          "kind": "local_verified"
+        },
+        {
+          "source": "REPRODUCTION_BOUNDARIES.md",
+          "target": "SOURCE_MAP.json",
+          "kind": "local_verified"
+        },
+        {
+          "source": "REPRODUCTION_BOUNDARIES.md",
+          "target": "RIGHTS.md",
+          "kind": "local_verified"
+        },
+        {
+          "source": "RIGHTS.md",
+          "target": "LICENSE_ADOPTION.json",
+          "kind": "local_verified"
+        },
+        {
+          "source": "RIGHTS.md",
+          "target": "LICENSES/CC-BY-4.0.txt",
+          "kind": "local_verified"
+        },
+        {
+          "source": "RIGHTS.md",
+          "target": "LICENSES/QPATHFORMER-PLATFORM-1.0.txt",
+          "kind": "local_verified"
+        },
+        {
+          "source": "START_HERE.md",
+          "target": "OVERVIEW.md",
+          "kind": "local_verified"
+        },
+        {
+          "source": "START_HERE.md",
+          "target": "RELEASE_NOTES.md",
+          "kind": "local_verified"
+        },
+        {
+          "source": "START_HERE.md",
+          "target": "REPRODUCTION_BOUNDARIES.md",
+          "kind": "local_verified"
+        },
+        {
+          "source": "START_HERE.md",
+          "target": "RIGHTS.md",
+          "kind": "local_verified"
+        },
+        {
+          "source": "START_HERE.md",
+          "target": "VERIFY.md",
+          "kind": "local_verified"
+        },
+        {
+          "source": "START_HERE.md",
+          "target": "SOURCE_MAP.json",
+          "kind": "local_verified"
+        },
+        {
+          "source": "VERIFY.md",
+          "target": "SOURCE_MAP.json",
+          "kind": "local_verified"
+        }
+      ],
+      "status": "PASS_INDEPENDENT_PACKAGE_INTEGRITY",
+      "reused_unchanged": false,
+      "actual_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261030_r3"
+    },
+    {
+      "package": "QPathformer_v0.7_Study",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261030_r3\\dist\\QPathformer_v0.7_Study.zip",
+        "bytes": 1917796,
+        "sha256": "d553edb203af47f8348ba51f11303cd908c9a330eee57b7b65f5206d647388e5"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261030_r3\\dist\\QPathformer_v0.7_Study.seal.json",
+        "bytes": 1294,
+        "sha256": "77ef2c857ddd447e88b1840c93c93324b0653fc5fc873a2cbce948efa50d427b"
+      },
+      "files": 17,
+      "json_files": 8,
+      "adopted_scopes": [
+        {
+          "path": "GUIDANCE_LICENSE_SCOPE.json",
+          "files": 4,
+          "bytes": 1641,
+          "sha256": "daec4b85fb1b8da48565d5e3abf08c72600cdc4664f5a07e28bd9a2a4eeba414"
+        },
+        {
+          "path": "REPORT_LICENSE_SCOPE.json",
+          "files": 2,
+          "bytes": 2307,
+          "sha256": "40671de20a54b3fc70e4bd55879147d7a1354672771f68dc693c8a75420a425d"
+        }
+      ],
+      "markdown_links": [
+        {
+          "source": "RIGHTS.md",
+          "target": "LICENSE_ADOPTION.json",
+          "kind": "local_verified"
+        },
+        {
+          "source": "RIGHTS.md",
+          "target": "LICENSES/CC-BY-4.0.txt",
+          "kind": "local_verified"
+        },
+        {
+          "source": "RIGHTS.md",
+          "target": "LICENSES/QPATHFORMER-PLATFORM-1.0.txt",
+          "kind": "local_verified"
+        },
+        {
+          "source": "START_HERE.md",
+          "target": "reports/QPathformer_v0.7_Report_Edition_1.pdf",
+          "kind": "local_verified"
+        },
+        {
+          "source": "START_HERE.md",
+          "target": "reports/QPathformer_v0.7_Report_Edition_1.docx",
+          "kind": "local_verified"
+        },
+        {
+          "source": "START_HERE.md",
+          "target": "provenance/EDITION_CHANGES.md",
+          "kind": "local_verified"
+        },
+        {
+          "source": "START_HERE.md",
+          "target": "RIGHTS.md",
+          "kind": "local_verified"
+        },
+        {
+          "source": "START_HERE.md",
+          "target": "VERIFY.md",
+          "kind": "local_verified"
+        },
+        {
+          "source": "START_HERE.md",
+          "target": "SOURCE_MAP.json",
+          "kind": "local_verified"
+        }
+      ],
+      "status": "PASS_INDEPENDENT_PACKAGE_INTEGRITY",
+      "reused_unchanged": true,
+      "actual_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261029_r2"
+    }
+  ],
+  "rebuilt_assets": 4,
+  "reused_assets": 2,
+  "startup_binding": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261030_r3\\receipts\\FRESH_PACKAGE_VERIFICATION.json",
+    "bytes": 4471,
+    "sha256": "15c0875ac4cff71aa4b43974963f303169d5300e0ea258554a79b502687b66ac"
+  }
+}

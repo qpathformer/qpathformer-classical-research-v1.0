@@ -1,0 +1,42 @@
+{
+  "status": "PASS_V07_DISCLOSURE_CLARIFIED",
+  "checked_at_utc": "2026-10-30T05:11:33.456096+00:00",
+  "study_version": "v0.7",
+  "historical_receipt": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261029_r2\\assembly\\QPathformer_v0.7_Study\\provenance\\VISUAL_REVIEW.json",
+    "bytes": 13776,
+    "sha256": "34d67ccbdda18e214c2389c6e007c46bcca1293a5d1af55aabd1b6181f752af9"
+  },
+  "historical_field": "disclosure_review",
+  "cross_study_carryover": "v0.9 includes account/credit/token usage on original page 37.",
+  "clarification": "That sentence concerns v0.9 and is cross-study metadata carryover. The v0.7 page 37 is Joint measurement verification and costs: local ideal joint multinomial sampling, checkpoint/count coverage, simulated measurement outcomes and producer/replay CPU/wall accounting. It states no physical shots, Aer, IBM services or cloud jobs. This is not a report-content defect or hash mismatch.",
+  "v07_disclosure_review": "Retained v0.7 historical local evidence paths, machine details and operational/resource accounting remain for owner review. Page 37 contains sampling and CPU/wall accounting, not the cited v0.9 account/credit/token discussion. No redactions made.",
+  "review_scope": "Targeted pypdf text extraction and direct visual inspection of a Poppler-rendered page 37; legible heading, body, source note and page footer, with no clipping or overlap. Prior all-page visual QA remains historical; no new full-report review or edit is claimed.",
+  "report_pdf": {
+    "bytes": 1821136,
+    "sha256": "b5bd3d125798dc26682803770f0622a2ce026fdd2c9b8977c394a4f55532ead8"
+  },
+  "report_docx": {
+    "bytes": 698067,
+    "sha256": "f2144ed93098717d44140ceee988f4a7ccd005806544d305c59de1cc1dd15b73"
+  },
+  "study_zip": {
+    "bytes": 1917796,
+    "sha256": "d553edb203af47f8348ba51f11303cd908c9a330eee57b7b65f5206d647388e5"
+  },
+  "study_seal": {
+    "bytes": 1294,
+    "sha256": "77ef2c857ddd447e88b1840c93c93324b0653fc5fc873a2cbce948efa50d427b"
+  },
+  "page37_text": {
+    "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_audit\\page37.txt",
+    "bytes": 2166,
+    "sha256": "643963254c9a1faf3d1ace7390fd646e54fad1564e9b512b9e1f7ffb293e59c8"
+  },
+  "page37_render": {
+    "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_audit\\page37.png",
+    "bytes": 217301,
+    "sha256": "54067ee0f8c162fe477a4e1f25b3ef7ecb6d3665fe74cfb8dd90abf048e2dced"
+  },
+  "historical_receipt_and_study_assets_unchanged": true
+}

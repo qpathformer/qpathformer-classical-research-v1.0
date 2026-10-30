@@ -1,0 +1,4 @@
+# Recorded scientific versions; not a complete environment or wheel lock.
+# Python itself must be verified separately as3.12.14.
+numpy==2.5.4
+scipy==1.18.1

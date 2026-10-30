@@ -1,0 +1,684 @@
+{
+  "status": "PASS_HELPER_REGRESSION_PROBES",
+  "recorded_at_utc": "2026-10-30T05:15:13.613531+00:00",
+  "classification": "Actual validator checks, mocked startup control-flow checks and actual startup processes on disposable fixtures; not final sealed-ZIP startup evidence",
+  "invocation": [
+    "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+    "-B",
+    "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\test_helpers.py"
+  ],
+  "python_runtime": "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "source_package": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261029_r2\\qa\\fresh_extraction\\QPathformer_v0.7_Code",
+  "source_package_before": {
+    "status": "PASS",
+    "files": 75,
+    "package_fingerprint_sha256": "627c40bab3ac3b57aef652c4886a4c514238f11c022e42139df4075caae29d14"
+  },
+  "source_package_after": {
+    "status": "PASS",
+    "files": 75,
+    "package_fingerprint_sha256": "627c40bab3ac3b57aef652c4886a4c514238f11c022e42139df4075caae29d14"
+  },
+  "retained_scientific_python_files": 50,
+  "source_package_unchanged": true,
+  "tested_files": [
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\verify_package.py",
+      "bytes": 5925,
+      "sha256": "b58cadbc82203234ab928d82a749e8c41bf1a856d3274af8245c6875593d126f"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup_check.py",
+      "bytes": 8822,
+      "sha256": "9c5862c25a351318fe58535cb1c11ce5e304011c5c6036f19a2d990fa663cfdb"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\QUICKSTART.md",
+      "bytes": 2213,
+      "sha256": "3f2fc90bd69f400e37fca4a56983d68d44ae2c0743beccb0a64a117bf4f4c108"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\test_helpers.py",
+      "bytes": 20769,
+      "sha256": "b3a9b2876d6edcff0d3d776bde584b9881942469ac10dc2b4810c4d7c59ad33d"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\test_powershell.py",
+      "bytes": 5646,
+      "sha256": "e259ce26b076f4ddd9e24b526a00b498e3f2a959c804ea88551dc12562821da9"
+    }
+  ],
+  "probes": [
+    {
+      "probe": "unchanged_r2_package",
+      "status": "PASS",
+      "files": 75
+    },
+    {
+      "probe": "revised_helpers_in_valid_disposable_inventory",
+      "status": "PASS"
+    },
+    {
+      "probe": "duplicate_checksum_path",
+      "status": "PASS",
+      "rejected_with": "ValueError: Checksums has duplicate or case-colliding paths: CODE_LICENSE_SCOPE.json"
+    },
+    {
+      "probe": "conflicting_duplicate_checksum_path",
+      "status": "PASS",
+      "rejected_with": "ValueError: Checksums has duplicate or case-colliding paths: CODE_LICENSE_SCOPE.json"
+    },
+    {
+      "probe": "duplicate_manifest_path",
+      "status": "PASS",
+      "rejected_with": "ValueError: Manifest has duplicate or case-colliding paths: CODE_LICENSE_SCOPE.json"
+    },
+    {
+      "probe": "conflicting_duplicate_manifest_path",
+      "status": "PASS",
+      "rejected_with": "ValueError: Manifest has duplicate or case-colliding paths: CODE_LICENSE_SCOPE.json"
+    },
+    {
+      "probe": "manifest_case_collision",
+      "status": "PASS",
+      "rejected_with": "ValueError: Manifest has duplicate or case-colliding paths: code_license_scope.json"
+    },
+    {
+      "probe": "unsafe_manifest_path",
+      "status": "PASS",
+      "rejected_with": "ValueError: Unsafe package path: '../escape.py'"
+    },
+    {
+      "probe": "malformed_manifest_size",
+      "status": "PASS",
+      "rejected_with": "ValueError: Invalid manifest size: CODE_LICENSE_SCOPE.json"
+    },
+    {
+      "probe": "malformed_manifest_digest",
+      "status": "PASS",
+      "rejected_with": "ValueError: Invalid manifest digest: CODE_LICENSE_SCOPE.json"
+    },
+    {
+      "probe": "malformed_manifest_record",
+      "status": "PASS",
+      "rejected_with": "ValueError: Malformed manifest file record"
+    },
+    {
+      "probe": "unsafe_windows_manifest_path",
+      "status": "PASS",
+      "rejected_with": "ValueError: Reserved package path: 'aux.txt'"
+    },
+    {
+      "probe": "trailing_dot_manifest_path",
+      "status": "PASS",
+      "rejected_with": "ValueError: Unsafe package path: 'unsafe./file.py'"
+    },
+    {
+      "probe": "checksum_case_collision",
+      "status": "PASS",
+      "rejected_with": "ValueError: Checksums has duplicate or case-colliding paths: code_license_scope.json"
+    },
+    {
+      "probe": "malformed_checksum_syntax",
+      "status": "PASS",
+      "rejected_with": "ValueError: Malformed checksum line"
+    },
+    {
+      "probe": "unsafe_checksum_path",
+      "status": "PASS",
+      "rejected_with": "ValueError: Unsafe package path: '../escape.txt'"
+    },
+    {
+      "probe": "duplicate_manifest_json_key",
+      "status": "PASS",
+      "rejected_with": "ValueError: Duplicate JSON member: package"
+    },
+    {
+      "probe": "changed_source",
+      "status": "PASS",
+      "rejected_with": "ValueError: Manifest differs: payload/study/quantum/study.py"
+    },
+    {
+      "probe": "changed_same_size_guidance",
+      "status": "PASS",
+      "rejected_with": "ValueError: Manifest differs: START_HERE.md"
+    },
+    {
+      "probe": "missing_file",
+      "status": "PASS",
+      "rejected_with": "ValueError: Manifest membership differs"
+    },
+    {
+      "probe": "extra_file",
+      "status": "PASS",
+      "rejected_with": "ValueError: Manifest membership differs"
+    },
+    {
+      "probe": "extra_empty_directory",
+      "status": "PASS",
+      "rejected_with": "ValueError: Unexpected empty directory in package"
+    },
+    {
+      "probe": "optimization_ordinary_valid",
+      "status": "PASS",
+      "classification": "ACTUAL_VERIFIER_PROCESS",
+      "interpreter_mode": "ordinary",
+      "fixture_condition": "valid",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_ordinary_valid\\QPathformer_v0.7_Code\\tools\\verify_package.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"files\": 75, \"package_fingerprint_sha256\": \"f0aafd357ab84e9a13647ab98185b760029129655ff5a559a24fe5a1356c0860\"}\n",
+      "stderr": ""
+    },
+    {
+      "probe": "optimization_ordinary_changed_same_size",
+      "status": "PASS",
+      "classification": "ACTUAL_VERIFIER_PROCESS",
+      "interpreter_mode": "ordinary",
+      "fixture_condition": "changed_same_size",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_ordinary_changed_same_size\\QPathformer_v0.7_Code\\tools\\verify_package.py"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_ordinary_changed_same_size\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 141, in <module>\n    main()\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_ordinary_changed_same_size\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 137, in main\n    print(json.dumps(verify()))\n                     ^^^^^^^^\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_ordinary_changed_same_size\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 128, in verify\n    raise ValueError(\"Manifest differs: \" + name)\nValueError: Manifest differs: START_HERE.md\n"
+    },
+    {
+      "probe": "optimization_ordinary_missing",
+      "status": "PASS",
+      "classification": "ACTUAL_VERIFIER_PROCESS",
+      "interpreter_mode": "ordinary",
+      "fixture_condition": "missing",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_ordinary_missing\\QPathformer_v0.7_Code\\tools\\verify_package.py"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_ordinary_missing\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 141, in <module>\n    main()\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_ordinary_missing\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 137, in main\n    print(json.dumps(verify()))\n                     ^^^^^^^^\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_ordinary_missing\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 112, in verify\n    raise ValueError(\"Manifest membership differs\")\nValueError: Manifest membership differs\n"
+    },
+    {
+      "probe": "optimization_ordinary_unexpected",
+      "status": "PASS",
+      "classification": "ACTUAL_VERIFIER_PROCESS",
+      "interpreter_mode": "ordinary",
+      "fixture_condition": "unexpected",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_ordinary_unexpected\\QPathformer_v0.7_Code\\tools\\verify_package.py"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_ordinary_unexpected\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 141, in <module>\n    main()\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_ordinary_unexpected\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 137, in main\n    print(json.dumps(verify()))\n                     ^^^^^^^^\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_ordinary_unexpected\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 112, in verify\n    raise ValueError(\"Manifest membership differs\")\nValueError: Manifest membership differs\n"
+    },
+    {
+      "probe": "optimization_python_O_valid",
+      "status": "PASS",
+      "classification": "ACTUAL_VERIFIER_PROCESS",
+      "interpreter_mode": "python_O",
+      "fixture_condition": "valid",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-O",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_python_O_valid\\QPathformer_v0.7_Code\\tools\\verify_package.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"files\": 75, \"package_fingerprint_sha256\": \"f0aafd357ab84e9a13647ab98185b760029129655ff5a559a24fe5a1356c0860\"}\n",
+      "stderr": ""
+    },
+    {
+      "probe": "optimization_python_O_changed_same_size",
+      "status": "PASS",
+      "classification": "ACTUAL_VERIFIER_PROCESS",
+      "interpreter_mode": "python_O",
+      "fixture_condition": "changed_same_size",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-O",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_python_O_changed_same_size\\QPathformer_v0.7_Code\\tools\\verify_package.py"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_python_O_changed_same_size\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 141, in <module>\n    main()\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_python_O_changed_same_size\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 137, in main\n    print(json.dumps(verify()))\n                     ^^^^^^^^\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_python_O_changed_same_size\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 128, in verify\n    raise ValueError(\"Manifest differs: \" + name)\nValueError: Manifest differs: START_HERE.md\n"
+    },
+    {
+      "probe": "optimization_python_O_missing",
+      "status": "PASS",
+      "classification": "ACTUAL_VERIFIER_PROCESS",
+      "interpreter_mode": "python_O",
+      "fixture_condition": "missing",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-O",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_python_O_missing\\QPathformer_v0.7_Code\\tools\\verify_package.py"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_python_O_missing\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 141, in <module>\n    main()\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_python_O_missing\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 137, in main\n    print(json.dumps(verify()))\n                     ^^^^^^^^\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_python_O_missing\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 112, in verify\n    raise ValueError(\"Manifest membership differs\")\nValueError: Manifest membership differs\n"
+    },
+    {
+      "probe": "optimization_python_O_unexpected",
+      "status": "PASS",
+      "classification": "ACTUAL_VERIFIER_PROCESS",
+      "interpreter_mode": "python_O",
+      "fixture_condition": "unexpected",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-O",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_python_O_unexpected\\QPathformer_v0.7_Code\\tools\\verify_package.py"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_python_O_unexpected\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 141, in <module>\n    main()\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_python_O_unexpected\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 137, in main\n    print(json.dumps(verify()))\n                     ^^^^^^^^\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_python_O_unexpected\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 112, in verify\n    raise ValueError(\"Manifest membership differs\")\nValueError: Manifest membership differs\n"
+    },
+    {
+      "probe": "optimization_PYTHONOPTIMIZE_1_valid",
+      "status": "PASS",
+      "classification": "ACTUAL_VERIFIER_PROCESS",
+      "interpreter_mode": "PYTHONOPTIMIZE_1",
+      "fixture_condition": "valid",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_PYTHONOPTIMIZE_1_valid\\QPathformer_v0.7_Code\\tools\\verify_package.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"files\": 75, \"package_fingerprint_sha256\": \"f0aafd357ab84e9a13647ab98185b760029129655ff5a559a24fe5a1356c0860\"}\n",
+      "stderr": ""
+    },
+    {
+      "probe": "optimization_PYTHONOPTIMIZE_1_changed_same_size",
+      "status": "PASS",
+      "classification": "ACTUAL_VERIFIER_PROCESS",
+      "interpreter_mode": "PYTHONOPTIMIZE_1",
+      "fixture_condition": "changed_same_size",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_PYTHONOPTIMIZE_1_changed_same_size\\QPathformer_v0.7_Code\\tools\\verify_package.py"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_PYTHONOPTIMIZE_1_changed_same_size\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 141, in <module>\n    main()\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_PYTHONOPTIMIZE_1_changed_same_size\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 137, in main\n    print(json.dumps(verify()))\n                     ^^^^^^^^\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_PYTHONOPTIMIZE_1_changed_same_size\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 128, in verify\n    raise ValueError(\"Manifest differs: \" + name)\nValueError: Manifest differs: START_HERE.md\n"
+    },
+    {
+      "probe": "optimization_PYTHONOPTIMIZE_1_missing",
+      "status": "PASS",
+      "classification": "ACTUAL_VERIFIER_PROCESS",
+      "interpreter_mode": "PYTHONOPTIMIZE_1",
+      "fixture_condition": "missing",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_PYTHONOPTIMIZE_1_missing\\QPathformer_v0.7_Code\\tools\\verify_package.py"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_PYTHONOPTIMIZE_1_missing\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 141, in <module>\n    main()\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_PYTHONOPTIMIZE_1_missing\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 137, in main\n    print(json.dumps(verify()))\n                     ^^^^^^^^\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_PYTHONOPTIMIZE_1_missing\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 112, in verify\n    raise ValueError(\"Manifest membership differs\")\nValueError: Manifest membership differs\n"
+    },
+    {
+      "probe": "optimization_PYTHONOPTIMIZE_1_unexpected",
+      "status": "PASS",
+      "classification": "ACTUAL_VERIFIER_PROCESS",
+      "interpreter_mode": "PYTHONOPTIMIZE_1",
+      "fixture_condition": "unexpected",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_PYTHONOPTIMIZE_1_unexpected\\QPathformer_v0.7_Code\\tools\\verify_package.py"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_PYTHONOPTIMIZE_1_unexpected\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 141, in <module>\n    main()\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_PYTHONOPTIMIZE_1_unexpected\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 137, in main\n    print(json.dumps(verify()))\n                     ^^^^^^^^\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\helper-probes-ssczck9h\\optimization_PYTHONOPTIMIZE_1_unexpected\\QPathformer_v0.7_Code\\tools\\verify_package.py\", line 112, in verify\n    raise ValueError(\"Manifest membership differs\")\nValueError: Manifest membership differs\n"
+    },
+    {
+      "probe": "directory_reparse_point",
+      "status": "PASS",
+      "rejected_with": "Link or reparse point in package: linked"
+    },
+    {
+      "probe": "mock_unchanged_control_flow",
+      "status": "PASS",
+      "classification": "MOCKED_CONTROL_FLOW_ONLY_NOT_STARTUP_VERIFICATION"
+    },
+    {
+      "probe": "preexisting_receipt_preserved",
+      "status": "PASS",
+      "classification": "MOCKED_CONTROL_FLOW_ONLY_NOT_STARTUP_VERIFICATION"
+    },
+    {
+      "probe": "inside_package_receipt_rejected",
+      "status": "PASS",
+      "classification": "MOCKED_CONTROL_FLOW_ONLY_NOT_STARTUP_VERIFICATION"
+    },
+    {
+      "probe": "receipt_reserved_before_child_checks",
+      "status": "PASS",
+      "classification": "MOCKED_CONTROL_FLOW_ONLY_NOT_STARTUP_VERIFICATION"
+    },
+    {
+      "probe": "foreign_receipt_content_preserved",
+      "status": "PASS",
+      "classification": "MOCKED_CONTROL_FLOW_ONLY_NOT_STARTUP_VERIFICATION"
+    },
+    {
+      "probe": "prestartup_integrity_failure_stops_checks",
+      "status": "PASS",
+      "classification": "MOCKED_CONTROL_FLOW_ONLY_NOT_STARTUP_VERIFICATION"
+    },
+    {
+      "probe": "midstartup_integrity_failure",
+      "status": "PASS",
+      "classification": "MOCKED_CONTROL_FLOW_ONLY_NOT_STARTUP_VERIFICATION"
+    },
+    {
+      "probe": "rebound_inventories_do_not_hide_midstartup_change",
+      "status": "PASS",
+      "classification": "MOCKED_CONTROL_FLOW_ONLY_NOT_STARTUP_VERIFICATION"
+    },
+    {
+      "probe": "child_timeout_recorded_as_failure",
+      "status": "PASS",
+      "classification": "MOCKED_CONTROL_FLOW_ONLY_NOT_STARTUP_VERIFICATION"
+    },
+    {
+      "probe": "child_nonzero_recorded_as_failure",
+      "status": "PASS",
+      "classification": "MOCKED_CONTROL_FLOW_ONLY_NOT_STARTUP_VERIFICATION"
+    },
+    {
+      "probe": "child_launch_error_recorded_as_failure",
+      "status": "PASS",
+      "classification": "MOCKED_CONTROL_FLOW_ONLY_NOT_STARTUP_VERIFICATION"
+    },
+    {
+      "probe": "startup_ordinary_valid",
+      "status": "PASS",
+      "classification": "ACTUAL_STARTUP_PROCESS_ON_DISPOSABLE_FIXTURE",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\ordinary_valid\\QPathformer_v0.7_Code\\tools\\startup_check.py",
+        "--output",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\ordinary_valid\\startup.json"
+      ],
+      "interpreter_mode": "ordinary",
+      "fixture_condition": "valid",
+      "returncode": 0,
+      "observed_status": "PASS",
+      "cli_help_checks": 3,
+      "package_bytes_unchanged": true
+    },
+    {
+      "probe": "startup_ordinary_changed_payload",
+      "status": "PASS",
+      "classification": "ACTUAL_STARTUP_PROCESS_ON_DISPOSABLE_FIXTURE",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\ordinary_changed_payload\\QPathformer_v0.7_Code\\tools\\startup_check.py",
+        "--output",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\ordinary_changed_payload\\startup.json"
+      ],
+      "interpreter_mode": "ordinary",
+      "fixture_condition": "changed_payload",
+      "returncode": 1,
+      "observed_status": "FAIL",
+      "cli_help_checks": 0,
+      "package_bytes_unchanged": true
+    },
+    {
+      "probe": "startup_ordinary_missing_launcher",
+      "status": "PASS",
+      "classification": "ACTUAL_STARTUP_PROCESS_ON_DISPOSABLE_FIXTURE",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\ordinary_missing_launcher\\QPathformer_v0.7_Code\\tools\\startup_check.py",
+        "--output",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\ordinary_missing_launcher\\startup.json"
+      ],
+      "interpreter_mode": "ordinary",
+      "fixture_condition": "missing_launcher",
+      "returncode": 1,
+      "observed_status": "FAIL",
+      "cli_help_checks": 0,
+      "package_bytes_unchanged": true
+    },
+    {
+      "probe": "startup_ordinary_failing_cli",
+      "status": "PASS",
+      "classification": "ACTUAL_STARTUP_PROCESS_ON_DISPOSABLE_FIXTURE",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\ordinary_failing_cli\\QPathformer_v0.7_Code\\tools\\startup_check.py",
+        "--output",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\ordinary_failing_cli\\startup.json"
+      ],
+      "interpreter_mode": "ordinary",
+      "fixture_condition": "failing_cli",
+      "returncode": 1,
+      "observed_status": "FAIL",
+      "cli_help_checks": 2,
+      "package_bytes_unchanged": true
+    },
+    {
+      "probe": "startup_ordinary_missing_help",
+      "status": "PASS",
+      "classification": "ACTUAL_STARTUP_PROCESS_ON_DISPOSABLE_FIXTURE",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\ordinary_missing_help\\QPathformer_v0.7_Code\\tools\\startup_check.py",
+        "--output",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\ordinary_missing_help\\startup.json"
+      ],
+      "interpreter_mode": "ordinary",
+      "fixture_condition": "missing_help",
+      "returncode": 1,
+      "observed_status": "FAIL",
+      "cli_help_checks": 2,
+      "package_bytes_unchanged": true
+    },
+    {
+      "probe": "startup_python_O_valid",
+      "status": "PASS",
+      "classification": "ACTUAL_STARTUP_PROCESS_ON_DISPOSABLE_FIXTURE",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-O",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\python_O_valid\\QPathformer_v0.7_Code\\tools\\startup_check.py",
+        "--output",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\python_O_valid\\startup.json"
+      ],
+      "interpreter_mode": "python_O",
+      "fixture_condition": "valid",
+      "returncode": 0,
+      "observed_status": "PASS",
+      "cli_help_checks": 3,
+      "package_bytes_unchanged": true
+    },
+    {
+      "probe": "startup_python_O_changed_payload",
+      "status": "PASS",
+      "classification": "ACTUAL_STARTUP_PROCESS_ON_DISPOSABLE_FIXTURE",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-O",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\python_O_changed_payload\\QPathformer_v0.7_Code\\tools\\startup_check.py",
+        "--output",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\python_O_changed_payload\\startup.json"
+      ],
+      "interpreter_mode": "python_O",
+      "fixture_condition": "changed_payload",
+      "returncode": 1,
+      "observed_status": "FAIL",
+      "cli_help_checks": 0,
+      "package_bytes_unchanged": true
+    },
+    {
+      "probe": "startup_python_O_missing_launcher",
+      "status": "PASS",
+      "classification": "ACTUAL_STARTUP_PROCESS_ON_DISPOSABLE_FIXTURE",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-O",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\python_O_missing_launcher\\QPathformer_v0.7_Code\\tools\\startup_check.py",
+        "--output",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\python_O_missing_launcher\\startup.json"
+      ],
+      "interpreter_mode": "python_O",
+      "fixture_condition": "missing_launcher",
+      "returncode": 1,
+      "observed_status": "FAIL",
+      "cli_help_checks": 0,
+      "package_bytes_unchanged": true
+    },
+    {
+      "probe": "startup_python_O_failing_cli",
+      "status": "PASS",
+      "classification": "ACTUAL_STARTUP_PROCESS_ON_DISPOSABLE_FIXTURE",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-O",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\python_O_failing_cli\\QPathformer_v0.7_Code\\tools\\startup_check.py",
+        "--output",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\python_O_failing_cli\\startup.json"
+      ],
+      "interpreter_mode": "python_O",
+      "fixture_condition": "failing_cli",
+      "returncode": 1,
+      "observed_status": "FAIL",
+      "cli_help_checks": 2,
+      "package_bytes_unchanged": true
+    },
+    {
+      "probe": "startup_python_O_missing_help",
+      "status": "PASS",
+      "classification": "ACTUAL_STARTUP_PROCESS_ON_DISPOSABLE_FIXTURE",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-O",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\python_O_missing_help\\QPathformer_v0.7_Code\\tools\\startup_check.py",
+        "--output",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\python_O_missing_help\\startup.json"
+      ],
+      "interpreter_mode": "python_O",
+      "fixture_condition": "missing_help",
+      "returncode": 1,
+      "observed_status": "FAIL",
+      "cli_help_checks": 2,
+      "package_bytes_unchanged": true
+    },
+    {
+      "probe": "startup_PYTHONOPTIMIZE_1_valid",
+      "status": "PASS",
+      "classification": "ACTUAL_STARTUP_PROCESS_ON_DISPOSABLE_FIXTURE",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\PYTHONOPTIMIZE_1_valid\\QPathformer_v0.7_Code\\tools\\startup_check.py",
+        "--output",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\PYTHONOPTIMIZE_1_valid\\startup.json"
+      ],
+      "interpreter_mode": "PYTHONOPTIMIZE_1",
+      "fixture_condition": "valid",
+      "returncode": 0,
+      "observed_status": "PASS",
+      "cli_help_checks": 3,
+      "package_bytes_unchanged": true
+    },
+    {
+      "probe": "startup_PYTHONOPTIMIZE_1_changed_payload",
+      "status": "PASS",
+      "classification": "ACTUAL_STARTUP_PROCESS_ON_DISPOSABLE_FIXTURE",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\PYTHONOPTIMIZE_1_changed_payload\\QPathformer_v0.7_Code\\tools\\startup_check.py",
+        "--output",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\PYTHONOPTIMIZE_1_changed_payload\\startup.json"
+      ],
+      "interpreter_mode": "PYTHONOPTIMIZE_1",
+      "fixture_condition": "changed_payload",
+      "returncode": 1,
+      "observed_status": "FAIL",
+      "cli_help_checks": 0,
+      "package_bytes_unchanged": true
+    },
+    {
+      "probe": "startup_PYTHONOPTIMIZE_1_missing_launcher",
+      "status": "PASS",
+      "classification": "ACTUAL_STARTUP_PROCESS_ON_DISPOSABLE_FIXTURE",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\PYTHONOPTIMIZE_1_missing_launcher\\QPathformer_v0.7_Code\\tools\\startup_check.py",
+        "--output",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\PYTHONOPTIMIZE_1_missing_launcher\\startup.json"
+      ],
+      "interpreter_mode": "PYTHONOPTIMIZE_1",
+      "fixture_condition": "missing_launcher",
+      "returncode": 1,
+      "observed_status": "FAIL",
+      "cli_help_checks": 0,
+      "package_bytes_unchanged": true
+    },
+    {
+      "probe": "startup_PYTHONOPTIMIZE_1_failing_cli",
+      "status": "PASS",
+      "classification": "ACTUAL_STARTUP_PROCESS_ON_DISPOSABLE_FIXTURE",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\PYTHONOPTIMIZE_1_failing_cli\\QPathformer_v0.7_Code\\tools\\startup_check.py",
+        "--output",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\PYTHONOPTIMIZE_1_failing_cli\\startup.json"
+      ],
+      "interpreter_mode": "PYTHONOPTIMIZE_1",
+      "fixture_condition": "failing_cli",
+      "returncode": 1,
+      "observed_status": "FAIL",
+      "cli_help_checks": 2,
+      "package_bytes_unchanged": true
+    },
+    {
+      "probe": "startup_PYTHONOPTIMIZE_1_missing_help",
+      "status": "PASS",
+      "classification": "ACTUAL_STARTUP_PROCESS_ON_DISPOSABLE_FIXTURE",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\PYTHONOPTIMIZE_1_missing_help\\QPathformer_v0.7_Code\\tools\\startup_check.py",
+        "--output",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v07_r3_helpers\\startup-modes-b2s5zhal\\PYTHONOPTIMIZE_1_missing_help\\startup.json"
+      ],
+      "interpreter_mode": "PYTHONOPTIMIZE_1",
+      "fixture_condition": "missing_help",
+      "returncode": 1,
+      "observed_status": "FAIL",
+      "cli_help_checks": 2,
+      "package_bytes_unchanged": true
+    }
+  ],
+  "genuine_startup_required_after_final_sealing": true
+}

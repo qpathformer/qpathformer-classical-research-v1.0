@@ -1,0 +1,89 @@
+{
+  "study_version": "v0.7",
+  "status": "ADOPTED",
+  "adopted_on": "2026-10-29",
+  "timezone": "Australia/Sydney",
+  "licensor": "Anthony Siljeg",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "adoption_record": "LICENSE_ADOPTION.json",
+  "exclusions": [
+    "Third-party dependencies and their expression",
+    "Datasets and dataset source content",
+    "Model artifacts and trained checkpoints",
+    "Architecture documents",
+    "Complete operational archives",
+    "Installed environments",
+    "Integrity/provenance records as whole files except explicitly listed controlled explanatory prose"
+  ],
+  "previous_grants_preserved": true,
+  "schema": "qpath-guidance-license-scope-1",
+  "license": "CC-BY-4.0",
+  "scope": "Controlled original explanatory prose in exactly the listed file instances; embedded third-party expression retains its own terms. Source instructions are historical; licensing is not operational authorization.",
+  "files": [
+    {
+      "path": "OVERVIEW.md",
+      "bytes": 11477,
+      "sha256": "3aaab8fd0b236217088b032ad29e00b3d895306a2ed0c73eae53d49dd2ea120f"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 4131,
+      "sha256": "0024c3ec8d760e37f79beddd797cbc72d4ebb1815bb55f07f8b05a3ff97c5c6f"
+    },
+    {
+      "path": "REPRODUCTION_BOUNDARIES.md",
+      "bytes": 2113,
+      "sha256": "b846714cf9d1a51e0643e0064ea2cbc86e89f38e9d20d4157817770af6549526"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 1064,
+      "sha256": "35dbc9a853640158e54bd68cae4c5ec83756a1812bc34913a9f2884e4a743127"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 3054,
+      "sha256": "212e94e47f25b791c1f38ddbf9ecb79dbc2813e442fc31c38657aa6bfc00fa23"
+    },
+    {
+      "path": "VERIFY.md",
+      "bytes": 1069,
+      "sha256": "463169ebe5379386d3f64874bd255b8ec57e8ebe58fdf5fdb24ec52f5d8bfd81"
+    },
+    {
+      "path": "source/analysis/deployment/README_CONTRACT.txt",
+      "bytes": 10217,
+      "sha256": "87fe8a9033bf35c2a79885a044b2a337b16f292f9705c8f7e04413c51d1bd341"
+    },
+    {
+      "path": "source/analysis/independent_audit/README_INDEPENDENT_REPLAY.txt",
+      "bytes": 3005,
+      "sha256": "3b8b589d911f0c35f81e49460bc9c46f974b548f4927876c787dab54c11b9420"
+    },
+    {
+      "path": "source/analysis/independent_deployment/README_INDEPENDENT_DEPLOYMENT.txt",
+      "bytes": 5754,
+      "sha256": "9bb13ceff94405dac0b08a5617d6c37aff48c81b14699bf13f3a020ece6106df"
+    },
+    {
+      "path": "source/analysis/official/README_EVALUATION_CONTRACT.txt",
+      "bytes": 5719,
+      "sha256": "ec2faa1a9d674c915251376ca067c4b6d70725deb41191c0efe21568c6ad4e81"
+    },
+    {
+      "path": "source/execution/README_EXECUTION.txt",
+      "bytes": 7384,
+      "sha256": "f21629e97f4a40ae837da95f95758c683d1c2713958699307ab071a15ba837f9"
+    },
+    {
+      "path": "source/reproducibility/README_REPRODUCIBILITY.txt",
+      "bytes": 8663,
+      "sha256": "11863210425047d6c5edf24a4796d76a13e8aa1af81e42b0ee9ea6eafb73518c"
+    },
+    {
+      "path": "source/reproducibility/requirements-scientific.txt",
+      "bytes": 156,
+      "sha256": "304e8d14d8afd087843ff79a1428b834ee97f93661430be371f3f92118e5d0f2"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "study_id": "QPATH-ROUTING-REPLICATION-v0.7",
+  "registered_utc": "2026-10-20T07:13:30.151907+00:00",
+  "primary_metric": "Common clipped natural-log BCE as v0.6, native BCE separately reported",
+  "primary_contrasts_first_minus_second": [
+    [
+      "MultiK",
+      "ScalarK"
+    ],
+    [
+      "MultiK",
+      "MultiHash"
+    ],
+    [
+      "MultiK",
+      "TrigK"
+    ],
+    [
+      "TrigK",
+      "TrigHash"
+    ],
+    [
+      "TrigK",
+      "TrigG121"
+    ]
+  ],
+  "family_size": 20,
+  "alpha_family": 0.05,
+  "nominal_per_contrast_confidence": 0.9975,
+  "independent_unit": "Within each population, average the two paired seed differences; analyze eight population means per task.",
+  "primary_interval": "Paired population-mean t interval, df7; display all8 differences. Small-sample distributional assumptions and nominal coverage stated.",
+  "practical_reference_bce": 0.01,
+  "interpretation": "Negative favors first method; upper bound<0 supports direction under assumptions, upper bound<-0.01 exceeds declared practical reference. Crossingzero is inconclusive, not equivalence.",
+  "secondary": [
+    "macro-F1",
+    "accuracy",
+    "Brier",
+    "ECE10 and reliability bins",
+    "native BCE and clipping/extreme logit diagnostics",
+    "positive precision/recall and grouped-tie AP",
+    "90/95/97 validation milestones with nonreacher censoring and reached-only medians;97not an annulus expectation"
+  ],
+  "conditional_record_sensitivity": "Omitted from this study; registered primary population-mean t inference and descriptive per-record diagnostics only.",
+  "no_pooling": "Keep all v0.6 evidence identifiable, never pool its selected populations with v0.7 confirmation.",
+  "mechanism_diagnostics": {
+    "training_only_bins": "For each fixed geometric router compute margin=d_second_squared-d_nearest_squared on train coordinates. Record train quantile edges[0,.1,.25,.5,1] using explicit linear interpolation; collapse duplicate edges deterministically. Apply unchanged edges to validation/test. All arms scored on the SAME geometric-margin slices.",
+    "reporting": "Per-bank and fixed-margin-bin BCE/F1, record counts, observed positive prevalence, class composition and uncertainty are descriptive; report empty bins and every bin. Do not select bin boundaries, models, epochs or narrative by test advantage.",
+    "hash_interpretation": "Also report hash-bank occupancy, per-bank record visits and minibatch appearances; bank indices across policies are not matched semantic groups.",
+    "additional": "Report learned head weights, coefficient norms, route time, bank gradient/update exposure and packed-Adam movement of absent banks. Distinguish mechanism descriptions from primary causal contrasts."
+  },
+  "confirmation_count": 512,
+  "populations_per_family": 8,
+  "seeds_per_population": 2,
+  "release_gate": "All confirmation commits and author plus independent audits, then root hash-bound release. No test outcome inspection before release.",
+  "independent_replay": "Independent predictions/native logits and statistics, using separately implemented reference code before final findings."
+}

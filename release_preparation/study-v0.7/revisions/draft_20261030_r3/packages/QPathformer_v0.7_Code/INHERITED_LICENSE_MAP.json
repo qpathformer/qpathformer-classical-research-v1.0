@@ -1,0 +1,238 @@
+{
+  "schema": "qpath-inherited-license-map-1",
+  "exact_file_matches": [
+    {
+      "path": "payload/study/execution/process_identity.py",
+      "bytes": 3188,
+      "sha256": "a8289729e9cdc26b5b4465357428d9c66782915d4e95c2b0db942e8d94661d02",
+      "adopted_study": "v0.9.5",
+      "adopted_path": "study/execution/process_identity.py",
+      "scope_record": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9.5\\final_20261029\\repository\\CODE_LICENSE_SCOPE.json",
+      "scope_identity": {
+        "bytes": 9567,
+        "sha256": "02d5e60edbe02f42f94fa273b644cd5e597a2d67e2f9ee1fed913eacb45966d4"
+      },
+      "license": "Q-Pathformer Platform License 1.0"
+    },
+    {
+      "path": "payload/study/execution/resource_probe.py",
+      "bytes": 3066,
+      "sha256": "03a1dfc50002d882df95821bdaa012c50d2b18af81c04e0458a079194206c7e6",
+      "adopted_study": "v0.9.5",
+      "adopted_path": "study/execution/resource_probe.py",
+      "scope_record": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9.5\\final_20261029\\repository\\CODE_LICENSE_SCOPE.json",
+      "scope_identity": {
+        "bytes": 9567,
+        "sha256": "02d5e60edbe02f42f94fa273b644cd5e597a2d67e2f9ee1fed913eacb45966d4"
+      },
+      "license": "Q-Pathformer Platform License 1.0"
+    },
+    {
+      "path": "payload/study/quantum/circuits.py",
+      "bytes": 5505,
+      "sha256": "2ac3d12903899f8baf9e226e53e0fe5178f9ab700e83a6e929d212cc6e8da90e",
+      "adopted_study": "v0.9.5",
+      "adopted_path": "study/scientific/v09_kernels/circuits.py",
+      "scope_record": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9.5\\final_20261029\\repository\\CODE_LICENSE_SCOPE.json",
+      "scope_identity": {
+        "bytes": 9567,
+        "sha256": "02d5e60edbe02f42f94fa273b644cd5e597a2d67e2f9ee1fed913eacb45966d4"
+      },
+      "license": "Q-Pathformer Platform License 1.0"
+    },
+    {
+      "path": "payload/study/execution/vendor/etel/core.py",
+      "bytes": 12042,
+      "sha256": "621979dd1d8d595d5a53a097e3a2ee4e904cd3ad6053abed17f11b0f88dcd063",
+      "adopted_study": "v0.9.5",
+      "adopted_path": "study/execution/vendor/etel/core.py",
+      "scope_record": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9.5\\final_20261029\\repository\\CODE_LICENSE_SCOPE.json",
+      "scope_identity": {
+        "bytes": 9567,
+        "sha256": "02d5e60edbe02f42f94fa273b644cd5e597a2d67e2f9ee1fed913eacb45966d4"
+      },
+      "license": "Q-Pathformer Platform License 1.0"
+    },
+    {
+      "path": "payload/study/execution/vendor/etel/__init__.py",
+      "bytes": 99,
+      "sha256": "fbe055aebc49a5a846aa43d17a7654de44a6ebb61a11ead668bb38ad2dcf235a",
+      "adopted_study": "v0.9.5",
+      "adopted_path": "study/execution/vendor/etel/__init__.py",
+      "scope_record": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9.5\\final_20261029\\repository\\CODE_LICENSE_SCOPE.json",
+      "scope_identity": {
+        "bytes": 9567,
+        "sha256": "02d5e60edbe02f42f94fa273b644cd5e597a2d67e2f9ee1fed913eacb45966d4"
+      },
+      "license": "Q-Pathformer Platform License 1.0"
+    }
+  ],
+  "shared_expression_matches": [
+    {
+      "path": "payload/study/execution/durable.py",
+      "bytes": 28498,
+      "sha256": "26afe20a563d127cd6c8487005432729940187d65c56977affbffed3a0160f7a",
+      "adopted_study": "v0.9.5",
+      "adopted_path": "study/execution/durable.py",
+      "adopted_sha256": "3dda5364bebc29788c6ded4ea68864d252f45caa26623238fad125acb0f9f6b7",
+      "scope_record": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9.5\\final_20261029\\repository\\CODE_LICENSE_SCOPE.json",
+      "scope_identity": {
+        "bytes": 9567,
+        "sha256": "02d5e60edbe02f42f94fa273b644cd5e597a2d67e2f9ee1fed913eacb45966d4"
+      },
+      "matching_blocks": [
+        {
+          "adopted_line_start": 2,
+          "selected_line_start": 5,
+          "line_count": 3,
+          "utf8_bytes": 113,
+          "sha256": "54edac310b6a13dbd96f9ff6b659b9adc7ced84e4a2b7314b946eee55c7732a5"
+        }
+      ],
+      "license": "Q-Pathformer Platform License 1.0",
+      "interpretation": "Verified shared text retains earlier applicable permissions. Matching text is evidence, not an assertion that all similarities are copyrightable or that new portions were previously granted."
+    },
+    {
+      "path": "payload/study/quantum/models.py",
+      "bytes": 14890,
+      "sha256": "a1c5dd0f4bfad5891a78ed15f4476237f0307f3d9f886d077bbb7316a6150081",
+      "adopted_study": "v0.9.5",
+      "adopted_path": "study/scientific/v09_kernels/models.py",
+      "adopted_sha256": "bc0c5658474b4c3bf57f87627fc1a7dea33125d5f32910c6507f206b598f86a6",
+      "scope_record": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9.5\\final_20261029\\repository\\CODE_LICENSE_SCOPE.json",
+      "scope_identity": {
+        "bytes": 9567,
+        "sha256": "02d5e60edbe02f42f94fa273b644cd5e597a2d67e2f9ee1fed913eacb45966d4"
+      },
+      "matching_blocks": [
+        {
+          "adopted_line_start": 28,
+          "selected_line_start": 31,
+          "line_count": 5,
+          "utf8_bytes": 228,
+          "sha256": "2389a99a911b54147b5aad826658d7f5176747212ff9048e2251838213d9dc2a"
+        },
+        {
+          "adopted_line_start": 39,
+          "selected_line_start": 44,
+          "line_count": 3,
+          "utf8_bytes": 128,
+          "sha256": "60f750b015b1fe7ebcf243b4a49a8b7528c081146ae6b76e843b4cdc7f7dce7e"
+        },
+        {
+          "adopted_line_start": 44,
+          "selected_line_start": 50,
+          "line_count": 3,
+          "utf8_bytes": 118,
+          "sha256": "7bc5d554dd3cb6ba0e65ddc9ebc76cb147f73a4ca4d0a58cba1f65014a0c0502"
+        },
+        {
+          "adopted_line_start": 49,
+          "selected_line_start": 53,
+          "line_count": 8,
+          "utf8_bytes": 374,
+          "sha256": "3009e70a6f642523433cc115851acce2f6179a96c08b369d4f89a25f5951cc85"
+        },
+        {
+          "adopted_line_start": 57,
+          "selected_line_start": 62,
+          "line_count": 4,
+          "utf8_bytes": 121,
+          "sha256": "31ab8e445a4f595cf6e369aa5ad860825b291f8a88f3c53441b494987cd5b013"
+        },
+        {
+          "adopted_line_start": 79,
+          "selected_line_start": 81,
+          "line_count": 3,
+          "utf8_bytes": 231,
+          "sha256": "5f567d1d0f7f211a7fdb29b44f0aded0ff791e92a323a23c60d9c0a3875cbfca"
+        }
+      ],
+      "license": "Q-Pathformer Platform License 1.0",
+      "interpretation": "Verified shared text retains earlier applicable permissions. Matching text is evidence, not an assertion that all similarities are copyrightable or that new portions were previously granted."
+    },
+    {
+      "path": "payload/study/quantum/routers.py",
+      "bytes": 10175,
+      "sha256": "13414db0692222852a52614f7ffc77262c6fa6708e0cf702dd6593e07526c791",
+      "adopted_study": "v0.9.5",
+      "adopted_path": "study/data/routers.py",
+      "adopted_sha256": "5d27f6fbbe6e013f9d9dd5d7b56ef3a15ce65728762ed6a991b7f35963795ee5",
+      "scope_record": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9.5\\final_20261029\\repository\\CODE_LICENSE_SCOPE.json",
+      "scope_identity": {
+        "bytes": 9567,
+        "sha256": "02d5e60edbe02f42f94fa273b644cd5e597a2d67e2f9ee1fed913eacb45966d4"
+      },
+      "matching_blocks": [
+        {
+          "adopted_line_start": 8,
+          "selected_line_start": 17,
+          "line_count": 12,
+          "utf8_bytes": 379,
+          "sha256": "e1b839b051fc6bde71133b1a54dffb8ca1e73a317e6977623f2e4818d491a116"
+        },
+        {
+          "adopted_line_start": 20,
+          "selected_line_start": 36,
+          "line_count": 60,
+          "utf8_bytes": 2365,
+          "sha256": "62ee638f46351cb9d1b3842ac19bbd7bd2e6d186202b0f6d69e96ab30be89645"
+        }
+      ],
+      "license": "Q-Pathformer Platform License 1.0",
+      "interpretation": "Verified shared text retains earlier applicable permissions. Matching text is evidence, not an assertion that all similarities are copyrightable or that new portions were previously granted."
+    }
+  ],
+  "adopted_records": [
+    {
+      "path": "LICENSES/inherited/v0.9.5_CODE_LICENSE_SCOPE.json",
+      "bytes": 9567,
+      "sha256": "02d5e60edbe02f42f94fa273b644cd5e597a2d67e2f9ee1fed913eacb45966d4",
+      "original_path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9.5\\final_20261029\\repository\\CODE_LICENSE_SCOPE.json"
+    }
+  ],
+  "preservation": "All earlier applicable licenses remain in force, including licensed expression reused in modified files. The new adoption covers controlled new material under the same terms and does not revoke earlier grants.",
+  "limits": "Exact matching maps demonstrable identities; unmatched expression is not a conclusion that it lacks prior permissions. Third-party materials retain their own terms.",
+  "package_helper_lineage": [
+    {
+      "path": "tools/startup_check.py",
+      "current": {
+        "bytes": 8822,
+        "sha256": "9c5862c25a351318fe58535cb1c11ce5e304011c5c6036f19a2d990fa663cfdb"
+      },
+      "source_path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261030_r3\\assembly\\QPathformer_v0.5_Code\\tools\\startup_check.py",
+      "source_identity": {
+        "bytes": 8117,
+        "sha256": "ee4c80a13db2fc32c6be34b4bdc43e52fc1cecb59f8711b56f5b23559ae78a1e"
+      },
+      "scope_record": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261030_r3\\assembly\\QPathformer_v0.5_Code\\CODE_LICENSE_SCOPE.json",
+      "scope_record_identity": {
+        "bytes": 16171,
+        "sha256": "cff707d1494f60b74ada88c20c99968ff3ddf9cdf3c7daedbc2b4d9b317ce744"
+      },
+      "license": "Q-Pathformer Platform License 1.0",
+      "relation": "Adapted guarded startup structure; original v0.7 numerical/CLI scope retained",
+      "adopted_study": "v0.5"
+    },
+    {
+      "path": "tools/verify_package.py",
+      "current": {
+        "bytes": 5925,
+        "sha256": "b58cadbc82203234ab928d82a749e8c41bf1a856d3274af8245c6875593d126f"
+      },
+      "source_path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261030_r3\\assembly\\QPathformer_v0.5_Code\\tools\\verify_package.py",
+      "source_identity": {
+        "bytes": 5925,
+        "sha256": "b58cadbc82203234ab928d82a749e8c41bf1a856d3274af8245c6875593d126f"
+      },
+      "scope_record": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261030_r3\\assembly\\QPathformer_v0.5_Code\\CODE_LICENSE_SCOPE.json",
+      "scope_record_identity": {
+        "bytes": 16171,
+        "sha256": "cff707d1494f60b74ada88c20c99968ff3ddf9cdf3c7daedbc2b4d9b317ce744"
+      },
+      "license": "Q-Pathformer Platform License 1.0",
+      "relation": "Byte-identical verifier reuse",
+      "adopted_study": "v0.5"
+    }
+  ]
+}

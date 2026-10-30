@@ -1,0 +1,710 @@
+{
+  "python_historical": "3.12.14",
+  "numerical": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "numpy_scipy_terms": "Third-party dependencies retain their upstream licenses; no dependency code or wheels included.",
+  "platform": "Windows ETEL process/resource APIs; CPU float64, recorded OpenBLAS binary and one effective thread per process",
+  "all_import_roots": [
+    "__future__",
+    "argparse",
+    "ast",
+    "audit_artifacts",
+    "audit_endpoints_v07",
+    "bind_stage",
+    "bisect",
+    "circuits",
+    "collections",
+    "compiler",
+    "concurrent",
+    "contextlib",
+    "copy",
+    "csv",
+    "ctypes",
+    "dataclasses",
+    "datetime",
+    "durable",
+    "etel",
+    "fcntl",
+    "fixtures",
+    "gate",
+    "hashlib",
+    "importlib",
+    "io",
+    "joint",
+    "json",
+    "math",
+    "metrics",
+    "models",
+    "msvcrt",
+    "numpy",
+    "os",
+    "pathlib",
+    "platform",
+    "prepare_data",
+    "process_identity",
+    "producer",
+    "re",
+    "reference",
+    "reference_v03",
+    "reference_v07",
+    "replay_evaluation_v07",
+    "replay_metrics_v07",
+    "resource",
+    "resource_probe",
+    "routers",
+    "runpy",
+    "scipy",
+    "shutil",
+    "signal",
+    "sqlite3",
+    "stat",
+    "statistics_core",
+    "statistics_v07",
+    "struct",
+    "study",
+    "subprocess",
+    "support",
+    "sys",
+    "tempfile",
+    "test_independent_audit",
+    "test_replay_evaluation_v07",
+    "test_replay_metrics_v07",
+    "test_routers_data",
+    "test_statistics_v07",
+    "threading",
+    "time",
+    "timing",
+    "traceback",
+    "types",
+    "typing",
+    "unittest",
+    "uuid",
+    "verify_arrays",
+    "verify_package",
+    "zipfile"
+  ],
+  "installed_environment_included": false,
+  "complete_lock": false,
+  "startup_scope": "Imports, CLI help and tiny in-memory calculations only",
+  "direct_import_inventory": {
+    "__future__": [
+      "payload/study/analysis/deployment/compiler.py",
+      "payload/study/analysis/deployment/fixtures.py",
+      "payload/study/analysis/deployment/joint.py",
+      "payload/study/analysis/deployment/producer.py",
+      "payload/study/analysis/deployment/support.py",
+      "payload/study/analysis/deployment/tests/test_deployment.py",
+      "payload/study/analysis/deployment/timing.py",
+      "payload/study/analysis/independent_deployment/audit_artifacts.py",
+      "payload/study/analysis/independent_deployment/reference.py",
+      "payload/study/analysis/independent_deployment/test_reference.py",
+      "payload/study/analysis/independent_deployment/verify_arrays.py",
+      "payload/study/analysis/official/evaluate.py",
+      "payload/study/analysis/official/gate.py",
+      "payload/study/analysis/official/metrics.py",
+      "payload/study/analysis/official/statistics_core.py",
+      "payload/study/execution/durable.py",
+      "payload/study/execution/process_identity.py",
+      "payload/study/execution/tests/test_execution.py",
+      "payload/study/execution/vendor/etel/core.py",
+      "payload/study/execution/worker.py",
+      "payload/study/quantum/audit_stage_v07.py",
+      "payload/study/quantum/models.py",
+      "payload/study/quantum/prepare_data.py",
+      "payload/study/quantum/routers.py",
+      "payload/study/quantum/study.py",
+      "payload/study/quantum/tests/test_v07_science.py"
+    ],
+    "argparse": [
+      "payload/study/analysis/deployment/producer.py",
+      "payload/study/analysis/deployment/timing.py",
+      "payload/study/analysis/independent_audit/audit_endpoints_v07.py",
+      "payload/study/analysis/independent_audit/replay_evaluation_v07.py",
+      "payload/study/analysis/independent_audit/run_audit_leased.py",
+      "payload/study/analysis/independent_audit/run_replay_leased.py",
+      "payload/study/analysis/independent_audit/run_replay_preflight.py",
+      "payload/study/analysis/independent_deployment/audit_artifacts.py",
+      "payload/study/analysis/official/evaluate.py",
+      "payload/study/analysis/official/gate.py",
+      "payload/study/execution/bind_stage.py",
+      "payload/study/execution/launcher.py",
+      "payload/study/execution/tests/synthetic_trainer.py",
+      "payload/study/execution/worker.py",
+      "payload/study/quantum/audit_stage_v07.py",
+      "payload/study/quantum/prepare_data.py",
+      "payload/study/quantum/study.py",
+      "tools/startup_check.py"
+    ],
+    "ast": [
+      "payload/study/quantum/prepare_data.py",
+      "payload/study/quantum/tests/test_routers_data.py",
+      "tools/startup_check.py"
+    ],
+    "audit_artifacts": [
+      "payload/study/analysis/independent_deployment/test_reference.py"
+    ],
+    "audit_endpoints_v07": [
+      "payload/study/analysis/independent_audit/replay_evaluation_v07.py",
+      "payload/study/analysis/independent_audit/test_independent_audit.py"
+    ],
+    "bind_stage": [
+      "payload/study/execution/durable.py"
+    ],
+    "bisect": [
+      "payload/study/analysis/independent_audit/replay_evaluation_v07.py",
+      "payload/study/analysis/independent_deployment/reference.py",
+      "payload/study/quantum/routers.py"
+    ],
+    "circuits": [
+      "payload/study/analysis/deployment/compiler.py",
+      "payload/study/analysis/deployment/joint.py",
+      "payload/study/analysis/deployment/timing.py",
+      "payload/study/quantum/models.py",
+      "payload/study/quantum/tests/test_v07_science.py"
+    ],
+    "collections": [
+      "payload/study/analysis/deployment/producer.py",
+      "payload/study/analysis/deployment/timing.py"
+    ],
+    "compiler": [
+      "payload/study/analysis/deployment/producer.py",
+      "payload/study/analysis/deployment/tests/test_deployment.py",
+      "payload/study/analysis/deployment/timing.py",
+      "payload/study/analysis/independent_deployment/test_reference.py"
+    ],
+    "concurrent": [
+      "payload/study/execution/vendor/etel/core.py"
+    ],
+    "contextlib": [
+      "payload/study/execution/durable.py"
+    ],
+    "copy": [
+      "payload/study/analysis/deployment/tests/test_deployment.py",
+      "payload/study/analysis/independent_audit/test_independent_audit.py",
+      "payload/study/analysis/independent_audit/test_replay_evaluation_v07.py",
+      "payload/study/analysis/independent_audit/test_statistics_v07.py",
+      "payload/study/quantum/tests/test_routers_data.py"
+    ],
+    "csv": [
+      "payload/study/analysis/deployment/timing.py",
+      "payload/study/analysis/independent_audit/audit_endpoints_v07.py",
+      "payload/study/quantum/study.py"
+    ],
+    "ctypes": [
+      "payload/study/analysis/deployment/timing.py",
+      "payload/study/execution/process_identity.py",
+      "payload/study/execution/resource_probe.py"
+    ],
+    "dataclasses": [
+      "payload/study/execution/vendor/etel/core.py"
+    ],
+    "datetime": [
+      "payload/study/analysis/deployment/support.py",
+      "payload/study/analysis/independent_audit/audit_endpoints_v07.py",
+      "payload/study/analysis/independent_audit/capture_data_test_receipt.py",
+      "payload/study/analysis/independent_audit/record_official_evaluator_review.py",
+      "payload/study/analysis/independent_audit/replay_evaluation_v07.py",
+      "payload/study/analysis/independent_audit/review_trainer_sources.py",
+      "payload/study/analysis/independent_audit/run_replay_preflight.py",
+      "payload/study/analysis/independent_deployment/audit_artifacts.py",
+      "payload/study/analysis/official/evaluate.py",
+      "payload/study/analysis/official/gate.py",
+      "payload/study/execution/durable.py",
+      "payload/study/execution/tests/test_execution.py",
+      "payload/study/quantum/audit_stage_v07.py",
+      "payload/study/quantum/prepare_data.py",
+      "payload/study/quantum/study.py",
+      "tools/startup_check.py"
+    ],
+    "durable": [
+      "payload/study/analysis/deployment/producer.py",
+      "payload/study/analysis/deployment/timing.py",
+      "payload/study/analysis/independent_audit/run_audit_leased.py",
+      "payload/study/analysis/independent_audit/run_replay_leased.py",
+      "payload/study/analysis/independent_deployment/audit_artifacts.py",
+      "payload/study/analysis/official/evaluate.py",
+      "payload/study/analysis/official/gate.py",
+      "payload/study/execution/bind_stage.py",
+      "payload/study/execution/launcher.py",
+      "payload/study/execution/tests/test_execution.py",
+      "payload/study/execution/worker.py",
+      "payload/study/quantum/audit_stage_v07.py"
+    ],
+    "etel": [
+      "payload/study/execution/durable.py"
+    ],
+    "fcntl": [
+      "payload/study/execution/durable.py"
+    ],
+    "fixtures": [
+      "payload/study/analysis/deployment/producer.py",
+      "payload/study/analysis/deployment/tests/test_deployment.py",
+      "payload/study/analysis/deployment/timing.py",
+      "payload/study/analysis/independent_deployment/test_reference.py"
+    ],
+    "gate": [
+      "payload/study/analysis/deployment/support.py",
+      "payload/study/analysis/independent_deployment/audit_artifacts.py",
+      "payload/study/analysis/official/evaluate.py"
+    ],
+    "hashlib": [
+      "payload/study/analysis/deployment/joint.py",
+      "payload/study/analysis/independent_audit/audit_endpoints_v07.py",
+      "payload/study/analysis/independent_audit/capture_data_test_receipt.py",
+      "payload/study/analysis/independent_audit/record_official_evaluator_review.py",
+      "payload/study/analysis/independent_audit/replay_evaluation_v07.py",
+      "payload/study/analysis/independent_audit/review_trainer_sources.py",
+      "payload/study/analysis/independent_audit/run_replay_preflight.py",
+      "payload/study/analysis/independent_audit/test_independent_audit.py",
+      "payload/study/analysis/independent_deployment/reference.py",
+      "payload/study/analysis/independent_deployment/test_reference.py",
+      "payload/study/analysis/official/gate.py",
+      "payload/study/execution/durable.py",
+      "payload/study/execution/resource_probe.py",
+      "payload/study/execution/tests/synthetic_trainer.py",
+      "payload/study/quantum/audit_stage_v07.py",
+      "payload/study/quantum/prepare_data.py",
+      "payload/study/quantum/routers.py",
+      "payload/study/quantum/study.py",
+      "payload/study/quantum/tests/test_routers_data.py",
+      "payload/study/quantum/tests/test_v07_science.py",
+      "tools/verify_package.py"
+    ],
+    "importlib": [
+      "payload/study/analysis/independent_audit/test_independent_audit.py",
+      "payload/study/analysis/independent_audit/test_replay_evaluation_v07.py",
+      "payload/study/analysis/independent_audit/test_replay_metrics_v07.py"
+    ],
+    "io": [
+      "payload/study/analysis/independent_audit/capture_data_test_receipt.py",
+      "payload/study/analysis/independent_audit/review_trainer_sources.py",
+      "payload/study/analysis/independent_audit/run_replay_preflight.py"
+    ],
+    "joint": [
+      "payload/study/analysis/deployment/producer.py",
+      "payload/study/analysis/deployment/tests/test_deployment.py",
+      "payload/study/analysis/independent_deployment/test_reference.py"
+    ],
+    "json": [
+      "payload/study/analysis/deployment/producer.py",
+      "payload/study/analysis/deployment/tests/test_deployment.py",
+      "payload/study/analysis/deployment/timing.py",
+      "payload/study/analysis/independent_audit/audit_endpoints_v07.py",
+      "payload/study/analysis/independent_audit/capture_data_test_receipt.py",
+      "payload/study/analysis/independent_audit/record_official_evaluator_review.py",
+      "payload/study/analysis/independent_audit/replay_evaluation_v07.py",
+      "payload/study/analysis/independent_audit/review_trainer_sources.py",
+      "payload/study/analysis/independent_audit/run_replay_leased.py",
+      "payload/study/analysis/independent_audit/run_replay_preflight.py",
+      "payload/study/analysis/independent_audit/test_independent_audit.py",
+      "payload/study/analysis/independent_audit/test_replay_evaluation_v07.py",
+      "payload/study/analysis/independent_deployment/audit_artifacts.py",
+      "payload/study/analysis/independent_deployment/test_reference.py",
+      "payload/study/analysis/official/evaluate.py",
+      "payload/study/analysis/official/gate.py",
+      "payload/study/execution/durable.py",
+      "payload/study/execution/launcher.py",
+      "payload/study/execution/resource_probe.py",
+      "payload/study/execution/tests/synthetic_trainer.py",
+      "payload/study/execution/tests/test_execution.py",
+      "payload/study/execution/vendor/etel/core.py",
+      "payload/study/execution/worker.py",
+      "payload/study/quantum/audit_stage_v07.py",
+      "payload/study/quantum/prepare_data.py",
+      "payload/study/quantum/study.py",
+      "payload/study/quantum/tests/test_routers_data.py",
+      "payload/study/quantum/tests/test_v07_science.py",
+      "tools/startup_check.py",
+      "tools/verify_package.py"
+    ],
+    "math": [
+      "payload/study/analysis/independent_audit/reference_v07.py",
+      "payload/study/analysis/independent_audit/replay_evaluation_v07.py",
+      "payload/study/analysis/independent_audit/replay_metrics_v07.py",
+      "payload/study/analysis/independent_audit/statistics_v07.py",
+      "payload/study/analysis/independent_audit/test_statistics_v07.py",
+      "payload/study/analysis/official/metrics.py",
+      "payload/study/analysis/official/statistics_core.py",
+      "payload/study/quantum/tests/test_v07_science.py"
+    ],
+    "metrics": [
+      "payload/study/analysis/official/evaluate.py"
+    ],
+    "models": [
+      "payload/study/analysis/deployment/compiler.py",
+      "payload/study/analysis/deployment/joint.py",
+      "payload/study/analysis/deployment/support.py",
+      "payload/study/analysis/deployment/tests/test_deployment.py",
+      "payload/study/analysis/deployment/timing.py",
+      "payload/study/analysis/independent_audit/test_independent_audit.py",
+      "payload/study/analysis/independent_deployment/test_reference.py",
+      "payload/study/analysis/official/evaluate.py",
+      "payload/study/quantum/audit_stage_v07.py",
+      "payload/study/quantum/study.py",
+      "payload/study/quantum/tests/test_v07_science.py"
+    ],
+    "msvcrt": [
+      "payload/study/execution/durable.py"
+    ],
+    "numpy": [
+      "payload/study/analysis/deployment/compiler.py",
+      "payload/study/analysis/deployment/fixtures.py",
+      "payload/study/analysis/deployment/joint.py",
+      "payload/study/analysis/deployment/producer.py",
+      "payload/study/analysis/deployment/support.py",
+      "payload/study/analysis/deployment/tests/test_deployment.py",
+      "payload/study/analysis/deployment/timing.py",
+      "payload/study/analysis/independent_audit/audit_endpoints_v07.py",
+      "payload/study/analysis/independent_audit/capture_data_test_receipt.py",
+      "payload/study/analysis/independent_audit/reference_v07.py",
+      "payload/study/analysis/independent_audit/replay_evaluation_v07.py",
+      "payload/study/analysis/independent_audit/replay_metrics_v07.py",
+      "payload/study/analysis/independent_audit/review_trainer_sources.py",
+      "payload/study/analysis/independent_audit/statistics_v07.py",
+      "payload/study/analysis/independent_audit/test_independent_audit.py",
+      "payload/study/analysis/independent_audit/test_replay_evaluation_v07.py",
+      "payload/study/analysis/independent_audit/test_replay_metrics_v07.py",
+      "payload/study/analysis/independent_audit/test_statistics_v07.py",
+      "payload/study/analysis/independent_deployment/audit_artifacts.py",
+      "payload/study/analysis/independent_deployment/reference.py",
+      "payload/study/analysis/independent_deployment/test_reference.py",
+      "payload/study/analysis/independent_deployment/verify_arrays.py",
+      "payload/study/analysis/official/evaluate.py",
+      "payload/study/analysis/official/metrics.py",
+      "payload/study/analysis/official/statistics_core.py",
+      "payload/study/execution/resource_probe.py",
+      "payload/study/quantum/audit_stage_v07.py",
+      "payload/study/quantum/circuits.py",
+      "payload/study/quantum/models.py",
+      "payload/study/quantum/prepare_data.py",
+      "payload/study/quantum/reference_v03.py",
+      "payload/study/quantum/routers.py",
+      "payload/study/quantum/study.py",
+      "payload/study/quantum/tests/test_routers_data.py",
+      "payload/study/quantum/tests/test_v07_science.py"
+    ],
+    "os": [
+      "payload/study/analysis/deployment/producer.py",
+      "payload/study/analysis/deployment/support.py",
+      "payload/study/analysis/deployment/tests/test_deployment.py",
+      "payload/study/analysis/deployment/timing.py",
+      "payload/study/analysis/independent_audit/run_audit_leased.py",
+      "payload/study/analysis/independent_audit/run_replay_leased.py",
+      "payload/study/analysis/independent_audit/run_replay_preflight.py",
+      "payload/study/analysis/independent_deployment/audit_artifacts.py",
+      "payload/study/analysis/official/evaluate.py",
+      "payload/study/analysis/official/gate.py",
+      "payload/study/execution/durable.py",
+      "payload/study/execution/process_identity.py",
+      "payload/study/execution/tests/test_execution.py",
+      "payload/study/execution/worker.py",
+      "payload/study/quantum/audit_stage_v07.py",
+      "payload/study/quantum/study.py",
+      "tools/startup_check.py",
+      "tools/verify_package.py"
+    ],
+    "pathlib": [
+      "payload/study/analysis/deployment/compiler.py",
+      "payload/study/analysis/deployment/joint.py",
+      "payload/study/analysis/deployment/producer.py",
+      "payload/study/analysis/deployment/support.py",
+      "payload/study/analysis/deployment/tests/test_deployment.py",
+      "payload/study/analysis/deployment/timing.py",
+      "payload/study/analysis/independent_audit/adapt_v06_auditor.py",
+      "payload/study/analysis/independent_audit/audit_endpoints_v07.py",
+      "payload/study/analysis/independent_audit/capture_data_test_receipt.py",
+      "payload/study/analysis/independent_audit/record_official_evaluator_review.py",
+      "payload/study/analysis/independent_audit/replay_evaluation_v07.py",
+      "payload/study/analysis/independent_audit/review_trainer_sources.py",
+      "payload/study/analysis/independent_audit/run_audit_leased.py",
+      "payload/study/analysis/independent_audit/run_replay_leased.py",
+      "payload/study/analysis/independent_audit/run_replay_preflight.py",
+      "payload/study/analysis/independent_audit/test_independent_audit.py",
+      "payload/study/analysis/independent_audit/test_replay_evaluation_v07.py",
+      "payload/study/analysis/independent_audit/test_replay_metrics_v07.py",
+      "payload/study/analysis/independent_deployment/audit_artifacts.py",
+      "payload/study/analysis/independent_deployment/test_reference.py",
+      "payload/study/analysis/official/evaluate.py",
+      "payload/study/analysis/official/gate.py",
+      "payload/study/execution/bind_stage.py",
+      "payload/study/execution/durable.py",
+      "payload/study/execution/launcher.py",
+      "payload/study/execution/process_identity.py",
+      "payload/study/execution/resource_probe.py",
+      "payload/study/execution/tests/synthetic_trainer.py",
+      "payload/study/execution/tests/test_execution.py",
+      "payload/study/execution/worker.py",
+      "payload/study/quantum/audit_stage_v07.py",
+      "payload/study/quantum/prepare_data.py",
+      "payload/study/quantum/study.py",
+      "payload/study/quantum/tests/test_routers_data.py",
+      "payload/study/quantum/tests/test_v07_science.py",
+      "tools/startup_check.py",
+      "tools/verify_package.py"
+    ],
+    "platform": [
+      "payload/study/execution/resource_probe.py",
+      "payload/study/quantum/prepare_data.py",
+      "payload/study/quantum/study.py",
+      "tools/startup_check.py"
+    ],
+    "prepare_data": [
+      "payload/study/quantum/tests/test_routers_data.py"
+    ],
+    "process_identity": [
+      "payload/study/analysis/deployment/timing.py",
+      "payload/study/execution/durable.py",
+      "payload/study/execution/tests/test_execution.py",
+      "payload/study/execution/worker.py"
+    ],
+    "producer": [
+      "payload/study/analysis/deployment/tests/test_deployment.py",
+      "payload/study/analysis/deployment/timing.py"
+    ],
+    "re": [
+      "tools/verify_package.py"
+    ],
+    "reference": [
+      "payload/study/analysis/independent_deployment/audit_artifacts.py",
+      "payload/study/analysis/independent_deployment/test_reference.py",
+      "payload/study/analysis/independent_deployment/verify_arrays.py"
+    ],
+    "reference_v03": [
+      "payload/study/quantum/tests/test_v07_science.py"
+    ],
+    "reference_v07": [
+      "payload/study/analysis/independent_audit/audit_endpoints_v07.py",
+      "payload/study/analysis/independent_audit/replay_evaluation_v07.py",
+      "payload/study/analysis/independent_audit/replay_metrics_v07.py",
+      "payload/study/analysis/independent_audit/test_independent_audit.py"
+    ],
+    "replay_evaluation_v07": [
+      "payload/study/analysis/independent_audit/run_replay_preflight.py",
+      "payload/study/analysis/independent_audit/test_replay_evaluation_v07.py"
+    ],
+    "replay_metrics_v07": [
+      "payload/study/analysis/independent_audit/replay_evaluation_v07.py",
+      "payload/study/analysis/independent_audit/test_replay_metrics_v07.py"
+    ],
+    "resource": [
+      "payload/study/execution/resource_probe.py"
+    ],
+    "resource_probe": [
+      "payload/study/analysis/deployment/producer.py",
+      "payload/study/analysis/deployment/support.py",
+      "payload/study/analysis/deployment/timing.py",
+      "payload/study/analysis/independent_audit/run_replay_leased.py",
+      "payload/study/analysis/independent_deployment/audit_artifacts.py",
+      "payload/study/analysis/official/evaluate.py",
+      "payload/study/execution/worker.py",
+      "payload/study/quantum/audit_stage_v07.py"
+    ],
+    "routers": [
+      "payload/study/analysis/deployment/producer.py",
+      "payload/study/analysis/deployment/support.py",
+      "payload/study/analysis/deployment/tests/test_deployment.py",
+      "payload/study/analysis/deployment/timing.py",
+      "payload/study/analysis/independent_audit/test_replay_evaluation_v07.py",
+      "payload/study/analysis/independent_deployment/test_reference.py",
+      "payload/study/analysis/official/evaluate.py",
+      "payload/study/quantum/prepare_data.py",
+      "payload/study/quantum/study.py",
+      "payload/study/quantum/tests/test_routers_data.py",
+      "payload/study/quantum/tests/test_v07_science.py"
+    ],
+    "runpy": [
+      "payload/study/execution/worker.py"
+    ],
+    "scipy": [
+      "payload/study/analysis/independent_audit/test_statistics_v07.py",
+      "payload/study/analysis/official/evaluate.py",
+      "payload/study/analysis/official/statistics_core.py"
+    ],
+    "shutil": [
+      "payload/study/execution/tests/test_execution.py",
+      "payload/study/quantum/study.py"
+    ],
+    "signal": [
+      "payload/study/execution/durable.py",
+      "payload/study/execution/process_identity.py"
+    ],
+    "sqlite3": [
+      "payload/study/analysis/independent_audit/audit_endpoints_v07.py",
+      "payload/study/execution/durable.py",
+      "payload/study/quantum/audit_stage_v07.py"
+    ],
+    "stat": [
+      "tools/verify_package.py"
+    ],
+    "statistics_core": [
+      "payload/study/analysis/official/evaluate.py"
+    ],
+    "statistics_v07": [
+      "payload/study/analysis/independent_audit/replay_evaluation_v07.py",
+      "payload/study/analysis/independent_audit/replay_metrics_v07.py",
+      "payload/study/analysis/independent_audit/test_replay_evaluation_v07.py",
+      "payload/study/analysis/independent_audit/test_statistics_v07.py"
+    ],
+    "struct": [
+      "payload/study/analysis/independent_audit/replay_evaluation_v07.py"
+    ],
+    "study": [
+      "payload/study/analysis/independent_audit/test_independent_audit.py",
+      "payload/study/quantum/audit_stage_v07.py",
+      "payload/study/quantum/tests/test_v07_science.py"
+    ],
+    "subprocess": [
+      "payload/study/analysis/independent_audit/run_audit_leased.py",
+      "payload/study/analysis/independent_audit/run_replay_leased.py",
+      "payload/study/execution/durable.py",
+      "payload/study/execution/tests/test_execution.py",
+      "tools/startup_check.py"
+    ],
+    "support": [
+      "payload/study/analysis/deployment/producer.py",
+      "payload/study/analysis/deployment/tests/test_deployment.py",
+      "payload/study/analysis/deployment/timing.py"
+    ],
+    "sys": [
+      "payload/study/analysis/deployment/compiler.py",
+      "payload/study/analysis/deployment/joint.py",
+      "payload/study/analysis/deployment/producer.py",
+      "payload/study/analysis/deployment/support.py",
+      "payload/study/analysis/deployment/tests/test_deployment.py",
+      "payload/study/analysis/deployment/timing.py",
+      "payload/study/analysis/independent_audit/audit_endpoints_v07.py",
+      "payload/study/analysis/independent_audit/capture_data_test_receipt.py",
+      "payload/study/analysis/independent_audit/run_audit_leased.py",
+      "payload/study/analysis/independent_audit/run_replay_leased.py",
+      "payload/study/analysis/independent_audit/test_independent_audit.py",
+      "payload/study/analysis/independent_audit/test_replay_evaluation_v07.py",
+      "payload/study/analysis/independent_deployment/audit_artifacts.py",
+      "payload/study/analysis/independent_deployment/test_reference.py",
+      "payload/study/analysis/official/evaluate.py",
+      "payload/study/analysis/official/gate.py",
+      "payload/study/execution/durable.py",
+      "payload/study/execution/resource_probe.py",
+      "payload/study/execution/tests/test_execution.py",
+      "payload/study/execution/worker.py",
+      "payload/study/quantum/audit_stage_v07.py",
+      "payload/study/quantum/study.py",
+      "payload/study/quantum/tests/test_v07_science.py",
+      "tools/startup_check.py"
+    ],
+    "tempfile": [
+      "payload/study/analysis/deployment/tests/test_deployment.py",
+      "payload/study/analysis/independent_audit/test_independent_audit.py",
+      "payload/study/analysis/independent_deployment/test_reference.py",
+      "payload/study/quantum/tests/test_v07_science.py"
+    ],
+    "test_independent_audit": [
+      "payload/study/analysis/independent_audit/review_trainer_sources.py",
+      "payload/study/analysis/independent_audit/run_replay_preflight.py"
+    ],
+    "test_replay_evaluation_v07": [
+      "payload/study/analysis/independent_audit/run_replay_preflight.py"
+    ],
+    "test_replay_metrics_v07": [
+      "payload/study/analysis/independent_audit/run_replay_preflight.py"
+    ],
+    "test_routers_data": [
+      "payload/study/analysis/independent_audit/capture_data_test_receipt.py"
+    ],
+    "test_statistics_v07": [
+      "payload/study/analysis/independent_audit/run_replay_preflight.py"
+    ],
+    "threading": [
+      "payload/study/execution/durable.py",
+      "payload/study/execution/vendor/etel/core.py",
+      "payload/study/execution/worker.py"
+    ],
+    "time": [
+      "payload/study/analysis/deployment/producer.py",
+      "payload/study/analysis/deployment/support.py",
+      "payload/study/analysis/deployment/timing.py",
+      "payload/study/analysis/independent_audit/audit_endpoints_v07.py",
+      "payload/study/analysis/independent_audit/replay_evaluation_v07.py",
+      "payload/study/analysis/independent_audit/run_replay_preflight.py",
+      "payload/study/analysis/independent_deployment/audit_artifacts.py",
+      "payload/study/analysis/official/evaluate.py",
+      "payload/study/execution/durable.py",
+      "payload/study/execution/resource_probe.py",
+      "payload/study/execution/tests/synthetic_trainer.py",
+      "payload/study/execution/tests/test_execution.py",
+      "payload/study/execution/worker.py",
+      "payload/study/quantum/audit_stage_v07.py",
+      "payload/study/quantum/prepare_data.py",
+      "payload/study/quantum/study.py"
+    ],
+    "timing": [
+      "payload/study/analysis/deployment/tests/test_deployment.py"
+    ],
+    "traceback": [
+      "payload/study/analysis/deployment/producer.py",
+      "payload/study/analysis/deployment/timing.py",
+      "payload/study/analysis/independent_audit/audit_endpoints_v07.py",
+      "payload/study/analysis/independent_audit/replay_evaluation_v07.py",
+      "payload/study/analysis/independent_deployment/audit_artifacts.py",
+      "payload/study/analysis/official/evaluate.py",
+      "payload/study/execution/worker.py",
+      "payload/study/quantum/prepare_data.py",
+      "payload/study/quantum/study.py"
+    ],
+    "types": [
+      "payload/study/analysis/deployment/tests/test_deployment.py"
+    ],
+    "typing": [
+      "payload/study/execution/vendor/etel/core.py"
+    ],
+    "unittest": [
+      "payload/study/analysis/deployment/tests/test_deployment.py",
+      "payload/study/analysis/independent_audit/capture_data_test_receipt.py",
+      "payload/study/analysis/independent_audit/review_trainer_sources.py",
+      "payload/study/analysis/independent_audit/run_replay_preflight.py",
+      "payload/study/analysis/independent_audit/test_independent_audit.py",
+      "payload/study/analysis/independent_audit/test_replay_evaluation_v07.py",
+      "payload/study/analysis/independent_audit/test_replay_metrics_v07.py",
+      "payload/study/analysis/independent_audit/test_statistics_v07.py",
+      "payload/study/analysis/independent_deployment/test_reference.py",
+      "payload/study/execution/tests/test_execution.py",
+      "payload/study/quantum/tests/test_routers_data.py",
+      "payload/study/quantum/tests/test_v07_science.py"
+    ],
+    "uuid": [
+      "payload/study/execution/tests/test_execution.py"
+    ],
+    "verify_arrays": [
+      "payload/study/analysis/independent_deployment/audit_artifacts.py",
+      "payload/study/analysis/independent_deployment/test_reference.py"
+    ],
+    "verify_package": [
+      "tools/startup_check.py"
+    ],
+    "zipfile": [
+      "payload/study/quantum/prepare_data.py"
+    ]
+  },
+  "embedded_startup_import_roots": {
+    "path": "tools/startup_check.py",
+    "roots": [
+      "circuits",
+      "json",
+      "models",
+      "numpy",
+      "reference_v03",
+      "routers",
+      "runpy",
+      "scipy",
+      "socket",
+      "sys"
+    ],
+    "scope": "Explicit imports in generated bounded child programs; target CLI source imports are listed in the direct inventory."
+  },
+  "inventory_scope": {
+    "scientific_python_files": 50,
+    "package_helpers": 2,
+    "boundary": "Direct inventory includes local and standard-library modules, not only third-party requirements. Original helper imports were already included; this revision refreshes changed helper imports and separately records embedded programs."
+  }
+}
