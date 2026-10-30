@@ -1,6 +1,6 @@
 # Reading the consolidated research edition
 
-The research-v1.0 release is published within the private repository. This repository integration remains a final-check edition before the planned public transition; rights decisions are tracked separately. Start with [Q-Pathformer Routed States](papers/QPathformer_Main_Paper_v1.0.pdf), the main findings paper on classical models and quantum circuit simulation. It reports v0.6, v0.9 and v0.9.5 as distinct experiments, including negative and inconclusive findings.
+The earlier research-v1.0 release is published within the private repository. This replacement retains research edition v1.0 and is prepared under the distinct tag research-v1.0-20261031 for the owner’s release check. The controlled-content licence and trademark policy have been adopted; public visibility remains a separate decision. Start with [Q-Pathformer Routed States](papers/QPathformer_Main_Paper_v1.0.pdf), the main findings paper on classical models and quantum circuit simulation. It reports v0.6, v0.9 and v0.9.5 as distinct experiments, including negative and inconclusive findings.
 
 Read [Q-Pathformer Three-State Architecture and Experimental Specification](papers/QPathformer_Architecture_and_Experimental_Specification_v1.0.pdf) for the proposed system, protocols, evidence map and unresolved questions. It is the architecture companion; the full integrated architecture remains unvalidated.
 

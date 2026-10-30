@@ -1,0 +1,18 @@
+{
+  "schema": "qpath-research-content-adoption-1",
+  "status": "ADOPTED",
+  "licensor": "Anthony Siljeg",
+  "approved_date_local": "2026-10-31",
+  "timezone": "Australia/Sydney",
+  "decision": "Owner explicitly approved scoped CC BY 4.0 for controlled original content in both papers, covers, current Research Approach and new README/helper/policy prose with the prepared exclusions.",
+  "scope": {
+    "path": "RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
+    "bytes": 5896,
+    "sha256": "24274ffcef81cf73865a96013f60d3177eb2f6f84f3d50f964c26522b6faa7ca"
+  },
+  "licence": "CC-BY-4.0",
+  "historical_grants_preserved": true,
+  "blanket_repository_grant": false,
+  "trademark_adoption_record": "TRADEMARK_POLICY_ADOPTION.json",
+  "publication_or_visibility_approval": false
+}

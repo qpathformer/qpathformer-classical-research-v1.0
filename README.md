@@ -6,6 +6,7 @@
 
 **[Latest consolidated research release: research-v1.0](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/research-v1.0)** · [Papers ZIP](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/download/research-v1.0/QPathformer_All_Papers_v1.0.zip) · [Consolidated ZIP](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/download/research-v1.0/QPathformer_Consolidated_Release_v1.0.zip)
 
+The replacement research edition remains **v1.0** and is being prepared under the distinct tag `research-v1.0-20261031`. Its paper review labels have been removed and its [content licence adoption](RESEARCH_V1_LICENSE_ADOPTION.json) and [trademark policy](TRADEMARKS.md) are recorded. The published release linked above remains Latest until the replacement is approved and published.
 Q-Pathformer investigates how learning systems choose where to spend their effort: which examples receive training, which specialist models handle an input, and which training jobs receive more computation.
 
 This research edition brings together completed component studies, selected implementations and a separate specification for the proposed three-state architecture. It records improvements, adverse comparisons and inconclusive findings so that the next experiment can build on what the evidence supports.
@@ -113,9 +114,9 @@ The illustration connects preparation and priorities, grouped representations an
 
 ## Rights and attribution
 
-Selected Python sources are source available under **Q-Pathformer Platform License 1.0**. Identified report and explanatory content use their separately recorded content licences, including CC BY 4.0. The applicable scope records identify what is licensed; no licence applies to the entire collection merely because the files are packaged together. Platform License 1.0 requires a separate agreement for **production deployment or commercial integration** of its identified software. That condition does not extend to separately licensed CC BY content. QPATH-ARCH-001 retains its original notices. See [licence scope](LICENSE_SCOPE.md), [edition status](docs/EDITION_STATUS.md) and [artifact rights](ARTIFACT_RIGHTS.md).
+Selected Python sources are source available under **Q-Pathformer Platform License 1.0**. Identified report and explanatory content use their separately recorded content licences, including CC BY 4.0. Controlled original content in the current v1.0 papers, covers, Research Approach and named helper prose is covered by the [new scoped CC BY 4.0 grant](RESEARCH_V1_CONTENT_LICENSE_SCOPE.json). The applicable scope records identify what is licensed; no licence applies to the entire collection merely because the files are packaged together. Platform License 1.0 requires a separate agreement for **production deployment or commercial integration** of its identified software. That condition does not extend to separately licensed CC BY content. QPATH-ARCH-001 retains its original notices. See [licence scope](LICENSE_SCOPE.md), [edition status](docs/EDITION_STATUS.md) and [artifact rights](ARTIFACT_RIGHTS.md).
 
-Branding and endorsement are separate from copyright reuse and Lab participation. [Proposed trademark policy](TRADEMARKS.md) · Trademark enquiries: [Anthony Siljeg](mailto:asiljeg@alnotrea.com).
+Branding and endorsement are separate from copyright reuse and Lab participation. [Trademark policy](TRADEMARKS.md) · Trademark enquiries: [Anthony Siljeg](mailto:asiljeg@alnotrea.com).
 
 **Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative.**
 

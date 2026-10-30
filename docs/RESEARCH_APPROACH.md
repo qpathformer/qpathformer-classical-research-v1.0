@@ -1,6 +1,6 @@
 # Q-Pathformer research approach
 
-**Revised candidate for review · research edition v1.0 · 30 October 2026.** Existing licensed expression retains its CC BY 4.0 grant; added prose has a proposed current scope. See [rights and changes](RESEARCH_APPROACH_RIGHTS.md).
+**Research edition v1.0 · 30 October 2026.** The owner adopted CC BY 4.0 for controlled original content in this current edition on 31 October 2026, with the recorded exclusions. Existing grants remain in force. See [rights and changes](RESEARCH_APPROACH_RIGHTS.md).
 
 ## Purpose
 

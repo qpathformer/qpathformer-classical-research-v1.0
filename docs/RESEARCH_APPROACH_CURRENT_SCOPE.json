@@ -1,21 +1,21 @@
 {
   "schema": "qpath-current-prose-scope-1",
-  "edition": "Research v1.0 candidate, 30 October 2026",
+  "edition": "Research v1.0",
   "file": {
     "path": "docs/RESEARCH_APPROACH.md",
-    "bytes": 9677,
-    "sha256": "99a70f4f555d10f41f030c43b549b930262e04be4e12db2492cf6059aa60d43d"
+    "bytes": 9712,
+    "sha256": "9b2bb06e3f667541554a7bb2e1f5f95b52d24271d0c711383200159eb34fc4c5"
   },
-  "current_status": "PROPOSED_CC_BY_4_0_FOR_ADDED_PROSE",
+  "current_status": "ADOPTED_CC_BY_4_0_FOR_CONTROLLED_ORIGINAL_CONTENT",
   "existing_grant": "ADOPTED_CC_BY_4_0_REMAINS_APPLICABLE_TO_ORIGINAL_EXPRESSION_AND_ADAPTATIONS",
   "licensor": "Anthony Siljeg",
   "historical_scope": "docs/rights/research_approach_adopted_20261030/docs/RESEARCH_APPROACH_LICENSE_SCOPE.json",
   "change_record": {
     "path": "docs/rights/RESEARCH_APPROACH_CHANGES.diff",
-    "bytes": 15535,
-    "sha256": "f9c3157b81507608b021b149ad98e159aea2c5a7045c53f5ed89d6a4639c4d88"
+    "bytes": 15570,
+    "sha256": "7663b7b4fe9e9b8f03a55840ed79826ea74f8b3d61b462b15e7701f37cc20e17"
   },
-  "new_adoption_record": null,
+  "new_adoption_record": "RESEARCH_V1_LICENSE_ADOPTION.json",
   "excludes": [
     "main manuscript",
     "other helper documents",
@@ -26,5 +26,5 @@
     "restricted assets"
   ],
   "note": "File identity locates this edition, not a restriction on permitted adaptations.",
-  "revision_note": "Current candidate distinguishes completed findings from proposed architecture. Original adopted expression and scope remain unchanged; no new adoption recorded."
+  "revision_note": "Owner approved the scoped current original content on 31 October 2026. Earlier adoption records remain unchanged."
 }

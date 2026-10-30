@@ -1,0 +1,11 @@
+# Research v1.0 content rights
+
+Copyright (c) 2026 Anthony Siljeg. The owner adopted Creative Commons Attribution 4.0 International (CC BY 4.0) on 31 October 2026 for the controlled original prose, table presentation and original figures/artwork in the files identified by [the content scope](../RESEARCH_V1_CONTENT_LICENSE_SCOPE.json). This includes the current two papers, covers, Research Approach and named README/helper/policy prose. The [adoption record](../RESEARCH_V1_LICENSE_ADOPTION.json) identifies the decision, and the [unchanged CC BY 4.0 legal code](../LICENSES/CC-BY-4.0.txt) supplies its terms.
+
+Attribution: Anthony Siljeg, the relevant document title, research edition v1.0, Q-Pathformer Initiative / Alnotrea Labs, CC BY 4.0; identify modifications. Company affiliation: Alnotrea Pty Ltd. Affiliation does not transfer ownership. Hashes identify the distributed edition and do not restrict permitted excerpts, translations or adaptations.
+
+Third-party works, quoted/cited source material, font software, trademarks, patent rights, endorsement, executable software, datasets, model artifacts and private Lab assets are excluded from this new grant. The original QPATH-ARCH-001 document remains under its original notices; it is not newly licensed as a whole. Any already licensed expression retained or adapted elsewhere keeps its existing permissions. The SIL OFL font notice and historical source/report grants are preserved.
+
+The software's Platform 1.0 restrictions do not apply to independently licensed CC BY content. Lab membership, qualifying contributions and owner access review are not conditions on CC BY reuse. A copyright licence for policy prose does not adopt operational repository rules or give authority to grant trademark permission or commercial software agreements.
+
+The [adopted trademark policy](../TRADEMARKS.md) separately addresses branding, accurate identification and endorsement. Release publication and public repository visibility remain separate owner decisions. The current draft release is private; adoption of these terms does not change repository visibility.

@@ -1,6 +1,6 @@
 # Q-Pathformer trademark policy
 
-Draft for owner review | 31 October 2026 | Not adopted
+Adopted for this v1.0 replacement | 31 October 2026 | ALNOTREA PTY LTD
 
 ## Owner and scope
 
@@ -8,7 +8,7 @@ Q-Pathformer is a registered Australian word mark of ALNOTREA PTY LTD, registrat
 
 A further Q-Pathformer word-mark application, No. 2699750, was filed by ALNOTREA PTY LTD on 24 September 2026 in classes 9 and 42. Its status on 31 October 2026 is Published: Awaiting examination. This later application is pending; it does not replace the existing registration and must not be described as registered. [S2]
 
-This proposed policy concerns the name and uses of branding that imply origin, sponsorship or endorsement. It does not assert that any logo is registered. Ownership and applicable permissions for a specific logo must be established before authorising its use.
+This policy concerns the name and uses of branding that imply origin, sponsorship or endorsement. It does not assert that any logo is registered. Ownership and applicable permissions for a specific logo must be established before authorising its use.
 
 ## Accurate reference and attribution
 
@@ -24,7 +24,7 @@ An accepted pull request, merged contribution, private repository invitation, En
 
 ## Permission requests
 
-Trademark permission enquiries: Anthony Siljeg, asiljeg@alnotrea.com. The owner nominated Anthony Siljeg as the contact and authorised respondent for ALNOTREA PTY LTD in this review on 31 October 2026. This nomination does not itself adopt this draft policy or grant permission for a specific use. Identify the proposed mark or logo, exact wording and visual context, the product or service, audience, territories, channels and duration. Written permission should identify the approving representative, permitted use, quality requirements, term and any conditions. A pending request or silence is not approval.
+Trademark permission enquiries: Anthony Siljeg, asiljeg@alnotrea.com. The owner nominated Anthony Siljeg as the contact and authorised respondent for ALNOTREA PTY LTD in this review on 31 October 2026. The owner separately approved this policy for the v1.0 replacement on 31 October 2026. The nomination and policy do not grant permission for a specific use. Identify the proposed mark or logo, exact wording and visual context, the product or service, audience, territories, channels and duration. Written permission should identify the approving representative, permitted use, quality requirements, term and any conditions. A pending request or silence is not approval.
 
 ## Attribution and symbols
 
@@ -40,6 +40,6 @@ Anthony Siljeg remains the named copyright licensor where the existing records s
 
 ## Status and maintenance
 
-This policy text is proposed for the final owner decision; applying it to the private review tree does not adopt it. Record its final text, adopting authority and effective date before deployment. Recheck the register before publication and when an application status changes. Changes operate subject to existing licences, permissions and applicable law; this draft makes no retrospective demand.
+This policy was adopted for the v1.0 replacement by the owner on 31 October 2026. The exact text and authorised respondent are recorded in [the adoption record](TRADEMARK_POLICY_ADOPTION.json). Recheck the register before publication and when an application status changes. Changes operate subject to existing licences, permissions and applicable law; this policy makes no retrospective demand.
 
 Sources: S1 [registered mark 2585092](https://search.ipaustralia.gov.au/trademarks/search/view/2585092?q=Q-pathformer); S2 [pending application 2699750](https://search.ipaustralia.gov.au/trademarks/search/view/2699750?q=Q-pathformer); S3 [IP Australia guidance](https://www.ipaustralia.gov.au/trade-marks/what-are-trade-marks); S4 [CC BY 4.0 legal code](https://creativecommons.org/licenses/by/4.0/legalcode.en). Registry status above was observed on 31 October 2026 and must be refreshed before public deployment.
