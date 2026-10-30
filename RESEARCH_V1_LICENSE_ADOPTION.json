@@ -7,8 +7,8 @@
   "decision": "Owner explicitly approved scoped CC BY 4.0 for controlled original content in both papers, covers, current Research Approach and new README/helper/policy prose with the prepared exclusions.",
   "scope": {
     "path": "RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
-    "bytes": 6719,
-    "sha256": "4f8327d9c40e7571c32dd404c6d5efe6955cfdcbc4dd26b8eb220c4a9d80003b"
+    "bytes": 6900,
+    "sha256": "f56128fce1307ea14830181aabd87577862a7a27d50853fd2b74220467af2dd8"
   },
   "licence": "CC-BY-4.0",
   "historical_grants_preserved": true,
@@ -21,10 +21,15 @@
     "sha256": "f5ee411762621944d0aad8f6f4f6f4e19236c176fc2c339e57f44f8297089cc8"
   },
   "identity_revision": "RESEARCH_V1_SCOPE_REVISION.json",
-  "revision_note": "The original content-licence decision is unchanged. This current identity mapping follows the authorised live documentation update after release; historical source records remain intact. Release publication and visibility are separately recorded.",
+  "revision_note": "Original content-licence decision preserved; current mapping reflects the separately owner-approved public-status documentation update.",
   "released_adoption": {
     "path": "docs/rights/research_v1_released_20261031/RESEARCH_V1_LICENSE_ADOPTION.json",
     "bytes": 1245,
     "sha256": "4269ba520261861ee7f102ac90fd462955376b013b538b3c80541ba34a68088c"
+  },
+  "previous_main_adoption": {
+    "path": "docs/rights/research_v1_main_review_20261031/RESEARCH_V1_LICENSE_ADOPTION.json",
+    "bytes": 1570,
+    "sha256": "911d1ab813fd1e7bcffb710168b25c270b5f0af1f6c3b4ab27f7886e33eb4d47"
   }
 }
