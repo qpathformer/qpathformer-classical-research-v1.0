@@ -1,0 +1,71 @@
+{
+  "schema": "qpath-draft-release-1",
+  "status": "PRIVATE_DRAFT_UPLOADED_AND_AUTHENTICATED_DOWNLOAD_VERIFIED",
+  "study_version": "v0.8",
+  "repository": {
+    "id": 1438032349,
+    "name": "qpathformer/qpathformer-classical-research-v1.0",
+    "private": true
+  },
+  "draft_release": {
+    "id": 427665050,
+    "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-babdb2b320f8ab072541",
+    "tag_name": "study-v0.8",
+    "target_commitish": "eab254e6ea1d1d2c504a27841de3feeb0a75bc6c",
+    "name": "Q-Pathformer Study v0.8 — Priority Training and Routed Models",
+    "draft": true,
+    "prerelease": false,
+    "published_at": null
+  },
+  "assets": [
+    {
+      "id": 691060938,
+      "name": "QPathformer_v0.8_Code.seal.json",
+      "bytes": 1319,
+      "sha256": "5067ae6c12e901acee012de52f98b458abc86b10fc2c9667a3dc438c6b7092d6",
+      "download_verified": true
+    },
+    {
+      "id": 691061167,
+      "name": "QPathformer_v0.8_Code.zip",
+      "bytes": 389826,
+      "sha256": "382cb8c1cb1805562673f1087778650664cca2f3306a785718aded2ed114460a",
+      "download_verified": true
+    },
+    {
+      "id": 691061399,
+      "name": "QPathformer_v0.8_Documentation.seal.json",
+      "bytes": 1388,
+      "sha256": "8e9fb8b014517dba3a4df02055101c10f8fce37f0200ae0a2c0a4543ecb3e4f0",
+      "download_verified": true
+    },
+    {
+      "id": 691061659,
+      "name": "QPathformer_v0.8_Documentation.zip",
+      "bytes": 45853,
+      "sha256": "53f768f0dd863a222a915223e8f8b53056e0326ccff7a9e7603ac6409f0a90fd",
+      "download_verified": true
+    },
+    {
+      "id": 691061833,
+      "name": "QPathformer_v0.8_Study.seal.json",
+      "bytes": 1325,
+      "sha256": "fbce6c83bf2944ff886a50905d0cdb2a3945c43b1ef143f33ddb2c907e1745ec",
+      "download_verified": true
+    },
+    {
+      "id": 691061967,
+      "name": "QPathformer_v0.8_Study.zip",
+      "bytes": 2130266,
+      "sha256": "caf7bdec1b95007d6719d048af1a31699b8f38bdfc8a9d1c58ad1dab502c38da",
+      "download_verified": true
+    }
+  ],
+  "branch": "prepare-studies-v0.2-v0.9-20261029",
+  "main_unchanged": "7c05ea9712d4b21a3b16fd1258f2731972e344c2",
+  "protected_releases_unchanged": true,
+  "other_drafts_unchanged": true,
+  "v095_remains_latest": true,
+  "checked_at_utc": "2026-10-30T05:35:13.867980+00:00",
+  "publication_authorized": false
+}
