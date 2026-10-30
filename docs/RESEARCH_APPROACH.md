@@ -76,4 +76,4 @@ The [governance](../GOVERNANCE.md), [contribution](../CONTRIBUTING.md), [evidenc
 
 Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative.
 
-The existing Research Approach original prose has an adopted CC BY 4.0 scope dated 30 October 2026. The revised edition and its added prose require an explicit current edition/scope record before publication. The grant for the original text remains in force. Code, the main manuscript, datasets, model artifacts, restricted Lab material and third-party expression retain their separately determined terms.
+The original Research Approach prose retains its adopted CC BY 4.0 grant of 30 October 2026. The current edition, including its controlled original added prose, is covered by the scoped adoption of 31 October 2026; see the [current scope](RESEARCH_APPROACH_CURRENT_SCOPE.json) and [adoption record](../RESEARCH_V1_LICENSE_ADOPTION.json). Code, datasets, model artifacts, restricted Lab material and third-party expression retain their separate terms.

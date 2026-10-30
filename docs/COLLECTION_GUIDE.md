@@ -10,4 +10,4 @@ The Papers ZIP includes those three works and ten supporting reports. The [repos
 
 The [collection cover](../assets/covers/QPathformer_Collection_Cover_v1.0.pdf) uses the overall Research Framework for Routed Learning title. Each new paper has its own title, cover, bibliography and metadata. Read [edition status](EDITION_STATUS.md) for remaining rights and publication decisions.
 
-The [main-paper change note](MAIN_PAPER_CHANGE_NOTE.md) and [architecture-companion change map](ARCHITECTURE_COMPANION_CHANGE_NOTE.md) describe their source treatment. Their PDF and Word bytes match the existing consolidated release. Later repository navigation changes are not represented as changes to that sealed release.
+The [main-paper change note](MAIN_PAPER_CHANGE_NOTE.md) and [architecture-companion change map](ARCHITECTURE_COMPANION_CHANGE_NOTE.md) document the preserved scientific content and the editorial status and metadata updates in `research-v1.0-20261031`. The earlier `research-v1.0` files remain preserved in their historical release. This replacement has its own package and manuscript identities.

@@ -13,7 +13,7 @@
     "unchanged original QPATH-ARCH-001 as a licensed document",
     "code, data, model artifacts and privately retained Lab materials"
   ],
-  "existing_grants": "Preserved; proposed new scope adds no restrictions to existing CC BY permissions.",
+  "existing_grants": "Preserved; this adopted scope adds no restrictions to existing CC BY permissions.",
   "files": [
     {
       "path": "GOVERNANCE.md",
@@ -32,8 +32,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 13526,
-      "sha256": "636bc5a126b05134553e1eaf1142e51ee0e25f80fb4ae861b278528281f495db"
+      "bytes": 12946,
+      "sha256": "bd30ec80dbc55017a2d00ca5479a236f52d519df2ffd6b4102c4b92b72af9d34"
     },
     {
       "path": "TRADEMARKS.md",
@@ -67,8 +67,8 @@
     },
     {
       "path": "docs/COLLECTION_GUIDE.md",
-      "bytes": 2379,
-      "sha256": "716db92a10d20c40e7e35cffe9072b0a719bd85ac151d065978c837c1339f7a2"
+      "bytes": 2450,
+      "sha256": "d47a843780a2f74223da795e2c670c5382e2381bde3435689ac388d06b3e5736"
     },
     {
       "path": "docs/CONTRIBUTION_EVIDENCE.md",
@@ -77,8 +77,8 @@
     },
     {
       "path": "docs/EDITION_STATUS.md",
-      "bytes": 2046,
-      "sha256": "e0942aa56b49fb9c3bfd1050e0fe570d1f2f56dcc0af5de6b51f6e7a2ed9bdd6"
+      "bytes": 2680,
+      "sha256": "bcc2a5f2228993792df3a2e954e2a847371d1c92223810ae1f2a69f3af3b6871"
     },
     {
       "path": "docs/MAIN_PAPER_CHANGE_NOTE.md",
@@ -92,8 +92,8 @@
     },
     {
       "path": "docs/PUBLICATION_READINESS.md",
-      "bytes": 1668,
-      "sha256": "03113bed19cdb148b8a0a1703fe90a5d1506313d3e18e6967f1de33e1bb60f18"
+      "bytes": 2302,
+      "sha256": "069fe0e566f401e471d027da231918ea1f5b4f0205ec683e7b2b989e0b289b6e"
     },
     {
       "path": "docs/RELEASE_POLICY.md",
@@ -102,8 +102,8 @@
     },
     {
       "path": "docs/RESEARCH_APPROACH.md",
-      "bytes": 9712,
-      "sha256": "9b2bb06e3f667541554a7bb2e1f5f95b52d24271d0c711383200159eb34fc4c5"
+      "bytes": 9757,
+      "sha256": "accd8ddd5972e5c3feb4c884be37c7575c87ff55831bf03d00dcb38452ebd494"
     },
     {
       "path": "docs/RESEARCH_APPROACH_RIGHTS.md",
@@ -142,8 +142,8 @@
     },
     {
       "path": "release_notes/research-v1.0-20261031.md",
-      "bytes": 8107,
-      "sha256": "a738c2aae85a49a774c1818af6131e3282ee3e0e6e8da09ce90445c79e243f4e"
+      "bytes": 8623,
+      "sha256": "3ca083ad6791474a5561c858b2fb5558e2713594d3915828423cfc1a2902e98b"
     }
   ],
   "attribution": "Anthony Siljeg; relevant document title; research edition v1.0; Q-Pathformer Initiative / Alnotrea Labs; CC BY 4.0; identify modifications. Company affiliation Alnotrea Pty Ltd.",
@@ -152,5 +152,12 @@
     "path": "LICENSES/CC-BY-4.0.txt",
     "bytes": 18615,
     "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
-  }
+  },
+  "revision_record": "RESEARCH_V1_SCOPE_REVISION.json",
+  "original_adopted_scope": {
+    "path": "docs/rights/research_v1_adopted_20261031/RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
+    "bytes": 5896,
+    "sha256": "24274ffcef81cf73865a96013f60d3177eb2f6f84f3d50f964c26522b6faa7ca"
+  },
+  "revision_note": "Current file identities refreshed for the owner-requested release presentation and clarity corrections. The approved content categories, exclusions, licence and effective date are unchanged; historical adoption evidence is preserved."
 }

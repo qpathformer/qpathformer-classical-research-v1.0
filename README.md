@@ -1,67 +1,80 @@
-# Q-Pathformer Classical Research v1.0
+# Q-Pathformer Research v1.0 — Routed States and Three-State Architecture
 
 **Routed learning, classical baselines and quantum circuit simulation.**
 
-> **Private final-check edition.** The papers and guides are available here for owner review. See [current rights and publication status](docs/EDITION_STATUS.md) before the planned public transition.
+Q-Pathformer investigates how learning systems choose where to spend their effort: which examples receive training, which specialist models contribute to a prediction, and which training jobs receive more computation.
 
-**[Latest consolidated research release: research-v1.0](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/research-v1.0)** · [Papers ZIP](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/download/research-v1.0/QPathformer_All_Papers_v1.0.zip) · [Consolidated ZIP](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/download/research-v1.0/QPathformer_Consolidated_Release_v1.0.zip)
+This research collection brings together completed component studies, the main findings paper and a separate specification for the proposed three-state architecture. It connects an architectural idea with experiments that examine its mechanisms, preserving improvements, adverse comparisons and inconclusive results.
 
-The replacement research edition remains **v1.0** and is being prepared under the distinct tag `research-v1.0-20261031`. Its paper review labels have been removed and its [content licence adoption](RESEARCH_V1_LICENSE_ADOPTION.json) and [trademark policy](TRADEMARKS.md) are recorded. The published release linked above remains Latest until the replacement is approved and published.
-Q-Pathformer investigates how learning systems choose where to spend their effort: which examples receive training, which specialist models handle an input, and which training jobs receive more computation.
+## Why we created this collection
 
-This research edition brings together completed component studies, selected implementations and a separate specification for the proposed three-state architecture. It records improvements, adverse comparisons and inconclusive findings so that the next experiment can build on what the evidence supports.
+An architectural idea becomes useful when its mechanisms can be tested and its results explained. If a model improves, what produced the gain: routing, a more flexible predictor, different input information or a larger training budget?
 
-The aim is to make architectural ideas testable. Comparisons examine whether a result comes from useful routing, additional model flexibility, different information or a larger resource budget. Strong classical controls and numerical reference implementations help identify what a circuit-based approach contributes under the tested conditions.
+These questions matter when assessing both AI systems and quantum-circuit models. The Q-Pathformer studies examine them through defined text tasks and small classical and simulated quantum-circuit models. The collection provides methods, comparison results, selected implementations through individual study releases, and a research direction that others can inspect and extend.
+
+The aim is to identify which choices justify their cost, where simpler alternatives remain preferable, and what evidence would support the next stage of development.
 
 ## Start reading
 
-| Read | What it helps you understand |
+| Document | What it offers |
 | --- | --- |
-| **[Q-Pathformer Routed States: Classical Models and Quantum Circuit Simulation](docs/papers/QPathformer_Main_Paper_v1.0.pdf)** | Completed findings on circuit readouts, routing, classical inference conversion and training allocation, centred on studies v0.6, v0.9 and v0.9.5. |
-| **[Q-Pathformer Three-State Architecture and Experimental Specification](docs/papers/QPathformer_Architecture_and_Experimental_Specification_v1.0.pdf)** | The proposed system, experimental controls and decisions to settle before future integrated runs. |
-| **[Research Approach](docs/RESEARCH_APPROACH.md)** | The research questions, comparison method, contribution opportunities and future research cycle. |
+| **[Q-Pathformer Routed States: Classical Models and Quantum Circuit Simulation](https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/research-v1.0-20261031/docs/papers/QPathformer_Main_Paper_v1.0.pdf)** | The main findings on circuit readouts, routing, equivalent classical inference and training allocation, centred on studies v0.6, v0.9 and v0.9.5. |
+| **[Q-Pathformer Three-State Architecture and Experimental Specification](https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/research-v1.0-20261031/docs/papers/QPathformer_Architecture_and_Experimental_Specification_v1.0.pdf)** | The proposed architecture, software responsibilities, experimental controls and decisions to settle before integrated experiments. |
+| **[Research Approach](https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/research-v1.0-20261031/docs/RESEARCH_APPROACH.md)** | A separate guide to the scientific questions, comparison method, contribution opportunities and future research cycle. |
 
-[Collection reading guide](docs/COLLECTION_GUIDE.md) · [Main paper in Word](docs/papers/QPathformer_Main_Paper_v1.0.docx) · [Architecture companion in Word](docs/papers/QPathformer_Architecture_and_Experimental_Specification_v1.0.docx)
+Supporting study reports retain their individual methods, results and reproduction boundaries. The original architecture is preserved with its source history and notices.
 
 ## What the studies show
 
-- **Routing and richer readouts can help on selected tasks.** The gains depend on the task, model and control; stronger classical alternatives remain important counterexamples.
-- **Some trained circuit predictors support equivalent classical inference.** The converted implementations preserve their predictions within the reported numerical checks and improve local inference time under the measured conditions.
-- **An execution layer and a successful allocation policy require different evidence.** In study v0.9.5, the tested Elastic Task Execution Layer (ETEL) suitability policy did not establish its registered practical quality gain. Capped successive halving used less mean CPU across the four tested tasks.
-- **Simulation and component results define a starting point for further work.** The completed series reports no physical-QPU result and does not validate the full integrated architecture or establish quantum advantage.
+- **Richer readouts and routing can help on selected tasks.** Their value depends on the task and comparison. Strong classical controls remain better in important cases.
+- **Selected trained circuit predictors support equivalent classical inference.** Conversion preserves their predictions within the reported numerical checks and improves local inference time under the measured conditions.
+- **Execution and training allocation require separate evaluation.** The tested ETEL suitability policy did not establish its registered practical quality gain. Capped successive halving used less mean CPU across the four tested tasks.
+- **Component evidence guides the next experiments.** These studies report classical computation and quantum-circuit simulation. The results do not establish physical-QPU performance, quantum advantage or validation of the full integrated architecture.
 
-The studies use different tasks, controls, populations and budgets. Their results should be read within each protocol, rather than combined into a version-to-version leaderboard. See the [main findings paper](docs/papers/QPathformer_Main_Paper_v1.0.pdf) and [v0.9.5 study summary](release_notes/study-v0.9.5.md) for the comparisons and uncertainty.
+The studies use different tasks, populations, controls and budgets. Read each result within its protocol; the version sequence records the development of the research questions. The [main paper](https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/research-v1.0-20261031/docs/papers/QPathformer_Main_Paper_v1.0.pdf) explains the comparisons and their limits.
+
+## How we approach the research
+
+The programme separates three decisions:
+
+- **Training-example selection:** which examples receive attention during learning.
+- **Model routing:** which specialist components contribute to a prediction and how their outputs are combined.
+- **Training-budget allocation:** which candidate models receive more work under a limited budget.
+
+Each comparison needs a defined question, suitable controls, a resource allowance and an evaluation rule. Predictive quality and execution cost are reported separately, with uncertainty appropriate to the comparison. Negative and inconclusive results help determine what to test next.
+
+The later studies use spiral, checkerboard, noisy-annulus and rare-positive-disk tasks to make decision boundaries and routing behaviour inspectable. These controlled settings help isolate mechanisms; broader applications require further evidence.
 
 ## Choose a download
 
-Start with the [research-v1.0 consolidated release](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/research-v1.0), currently marked Latest. It brings together the findings and supporting documents. [All releases](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases) also retain the individual study packages.
-
 | Package | Best starting point |
 | --- | --- |
-| **`QPathformer_All_Papers_v1.0.zip`** | Read the main paper, architecture companion, supporting study reports and preserved original architecture, with reading and rights indexes. |
-| **`QPathformer_Consolidated_Release_v1.0.zip`** | Read the Papers collection together with the separate Research Approach, repository guidance and documentation. It already contains Papers. |
+| **`QPathformer_All_Papers_v1.0.zip`** | The main paper, architecture companion, supporting study reports and preserved original architecture, with reading and rights indexes. |
+| **`QPathformer_Consolidated_Release_v1.0.zip`** | The Papers collection together with Research Approach, repository guidance and the identified repository source snapshot. It already contains Papers. |
 
-Download a ZIP with its matching `.seal.json` from that same release and extract it once. Open `README.md` for Papers or `START_HERE.md` for Consolidated. The seal records file identity; it does not establish a scientific result.
+Choose **one ZIP and its matching `.seal.json`** from the [release assets](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/research-v1.0-20261031). Extract it and open `README.md` for Papers or `START_HERE.md` for Consolidated. Research Approach is included in Consolidated at `repository/docs/RESEARCH_APPROACH.md`.
 
-GitHub also offers automatic **Source code (zip)** and **Source code (tar.gz)** downloads. These contain the tagged repository tree; they are separate from the curated Papers, Consolidated and study Code packages.
+The seals and accompanying delivery receipt support file-integrity checking. GitHub’s automatic **Source code** archives contain the tagged repository tree; the curated ZIPs above provide the research collection and its reading guides.
 
-Individual studies retain three separately scoped downloads:
+Both papers include bookmarks and page labels. If a PDF reader blocks a link to the companion document, open the adjacent PDF directly.
+
+## What has been built
+
+The studies produced training and evaluation software, circuit and classical-model implementations, routing and readout components, and equivalent classical inference implementations for selected predictors.
+
+Later work includes **Q-Path Multiplier - Elastic Task Execution Layer (ETEL) v0.1**, which coordinates bounded tasks and workers, records execution state for recovery and accounts for resources. Its execution role and the quality of its training-allocation policy are evaluated separately.
+
+**ETEL v0.1** is a component version. **Study v0.1** is the initial experiment series, including local QPU-readiness checks, and contains no ETEL component. **Research v1.0** identifies this collection.
+
+Individual [study releases](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases) retain three complementary downloads:
 
 | Part | Purpose |
 | --- | --- |
 | **Study** | Report, methods, findings and limitations. |
-| **Documentation** | Study guidance, provenance and reproduction boundaries. |
+| **Documentation** | Guidance, provenance and reproduction boundaries. |
 | **Code** | Selected implementation and package-specific startup instructions. |
 
-The consolidated papers do not introduce a unified software implementation. To inspect or run selected code, choose the relevant study's Code package and follow its own instructions.
-
-## What has been built
-
-The programme has produced training and evaluation software, circuit and classical-model implementations, routing and readout components, equivalent classical inference implementations for selected predictors, and records supporting the reported comparisons. Individual study releases provide selected source code and guidance. Trained checkpoints, datasets and full experiment archives remain separately retained where the study specifies.
-
-Later work includes **Q-Path Multiplier - Elastic Task Execution Layer (ETEL) v0.1**. ETEL coordinates bounded tasks and workers, records execution state for recovery and accounts for resources. Its execution role is distinct from the policy that allocates training budget. The v0.9.5 Code package includes the selected ETEL core and execution adapter.
-
-**ETEL v0.1 is a component version. Study v0.1 is the initial experiment series and has no ETEL component.** Research edition v1.0 identifies this collection. Historical source identifiers are recorded in [naming and attribution](NOTICE.md).
+Use the relevant study’s Code package to inspect its implementation. The collection does not introduce a unified implementation of the proposed architecture. Each study’s guide identifies its reproduction requirements, including separately retained datasets, checkpoints and compatible environments where required.
 
 ## Four illustrative tasks
 
@@ -81,7 +94,7 @@ The later studies use small two-dimensional classification tasks to make routing
 
 ## Release index
 
-The [consolidated research-v1.0 release](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/research-v1.0) is the main entry. The studies below follow from newest to earliest; this is a navigation order, not a performance ranking. Each study preserves its own Study, Documentation and Code assets.
+The [consolidated Research v1.0 release](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/research-v1.0-20261031) is the main entry. The studies below follow from newest to earliest; this is a navigation order, not a performance ranking. Each study preserves its own Study, Documentation and Code assets.
 
 | Study | Main question |
 | --- | --- |
@@ -104,20 +117,14 @@ Useful contributions include independent reproductions, corrections, stronger co
 
 ## Where the research goes next
 
-The next questions concern routing beyond the present task families, training priorities, adaptation and retention, execution recovery, and allocation policies measured against simple controls. Each requires a declared protocol and evidence appropriate to its claim.
+The next questions concern routing beyond the present tasks, training priorities, adaptation and retention, execution recovery and allocation policies measured against simple controls. A physical-QPU pilot would be a separate experiment, with a frozen predictor, saved reference outputs and a declared measurement budget.
 
-A first physical-QPU pilot is a separate proposed experiment. It would evaluate a frozen, classically trained predictor against saved references, using a qualified current device and a declared measurement budget. Hardware inference and hardware training are separate milestones. See the [research direction](docs/RESEARCH_ROADMAP.md) and [QPU preparation plan](docs/QPU_RELEASE_PLAN.md).
+Useful contributions include independent reproductions, stronger baselines, numerical checks, clearer resource measurements, corrections and documented negative findings. The [contribution guide](https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/research-v1.0-20261031/CONTRIBUTING.md) explains how to participate.
 
 ![Q-Pathformer three-state conceptual architecture](assets/qpathformer-three-state.png)
 
 The illustration connects preparation and priorities, grouped representations and routing, and token clusters and adaptation. The [architecture companion](docs/papers/QPathformer_Architecture_and_Experimental_Specification_v1.0.pdf) specifies the proposed model and future experiments. The [original QPATH-ARCH-001](docs/architecture/QPATH-ARCH-001.pdf) remains unchanged, with its [source and publication history](docs/architecture/README.md).
 
-## Rights and attribution
-
-Selected Python sources are source available under **Q-Pathformer Platform License 1.0**. Identified report and explanatory content use their separately recorded content licences, including CC BY 4.0. Controlled original content in the current v1.0 papers, covers, Research Approach and named helper prose is covered by the [new scoped CC BY 4.0 grant](RESEARCH_V1_CONTENT_LICENSE_SCOPE.json). The applicable scope records identify what is licensed; no licence applies to the entire collection merely because the files are packaged together. Platform License 1.0 requires a separate agreement for **production deployment or commercial integration** of its identified software. That condition does not extend to separately licensed CC BY content. QPATH-ARCH-001 retains its original notices. See [licence scope](LICENSE_SCOPE.md), [edition status](docs/EDITION_STATUS.md) and [artifact rights](ARTIFACT_RIGHTS.md).
-
-Branding and endorsement are separate from copyright reuse and Lab participation. [Trademark policy](TRADEMARKS.md) · Trademark enquiries: [Anthony Siljeg](mailto:asiljeg@alnotrea.com).
+Reuse terms are identified in the [research rights guide](https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/research-v1.0-20261031/docs/RESEARCH_V1_RIGHTS.md) and the notices included with each package.
 
 **Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative.**
-
-[Q-Pathformer research programme](https://github.com/qpathformer) · [Research Approach](docs/RESEARCH_APPROACH.md)

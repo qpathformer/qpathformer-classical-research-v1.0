@@ -1,5 +1,7 @@
 # Research edition v1.0 status
 
+**Dated preparation record — 31 October 2026.** These observations describe this review stage, not a permanent live publication status.
+
 The main findings paper is Routed States. The Three-State Architecture and Experimental Specification is its separate companion. Both retain scientific edition v1.0; editorial draft labels have been removed without adding a Final label. The papers' scientific content, limitations, citations, tables, equations and cover artwork remain preserved. Research Approach stays in separate release documentation.
 
 | Decision | Current state |
@@ -15,3 +17,5 @@ The main findings paper is Routed States. The Three-State Architecture and Exper
 | Public repository transition | Not approved or performed by this preparation |
 
 The [31 October repository integration inventory](REPOSITORY_UPDATE_SCOPE.json) describes an earlier snapshot, including then-pending decisions. It is historical evidence, not the current rights status. The new adoption and current file scope identify this replacement. The content grant does not certify independent scientific review, third-party title, complete public-history clearance or a new software agreement.
+
+The replacement reading links deliberately pin `research-v1.0-20261031`. That tag will resolve when the reviewed draft is published. The default branch remains at its earlier edition during owner review. Publication handoff must integrate the approved papers, guides, rights records and navigation into the private default branch, or explicitly retain the pinned reading route; changing download URLs alone is insufficient. Later navigation commits must not move the immutable release tag.
