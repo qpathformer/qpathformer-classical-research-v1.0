@@ -1,15 +1,19 @@
-# Repository review before public access
+# Public publication record and remaining tasks
 
-The owner-approved [Research v1.0 release](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/research-v1.0-20261031) is published and marked Latest inside the private repository. Its exact source commit is `a2171d9748f66efdaaf0ed56af5b66e730cdb8c5`. The approved five release assets and reader-facing release body are unchanged.
+The owner approved public access to the existing v1.0 repository on 31 October 2026, following the approved main README and linked-document review. [Research v1.0](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/research-v1.0-20261031) remains Latest; its release source is `a2171d9748f66efdaaf0ed56af5b66e730cdb8c5`. The five approved release assets and consolidated release body remain unchanged.
 
-The main README and linked documents now lead to that edition. The main branch includes the approved papers, Research Approach, scoped CC BY records and trademark policy. Later navigation and status updates are separate from the immutable release tag and downloadable files; [edition status](EDITION_STATUS.md) explains the distinction. The superseded research-v1.0 release entry was removed after its metadata and five assets were archived and verified locally; its Git tag remains.
+All eleven releases were checked for obsolete publication notices. Nine study release descriptions had outdated private-access or Latest wording removed. Historical verification filenames and links were retained. The research release and study v0.1 descriptions required no change.
 
-## Remaining review
+The main branch includes the approved papers, Research Approach, scoped CC BY records and trademark policy. Live documentation updates are separate from immutable tags and sealed downloads; see [edition status](EDITION_STATUS.md). The superseded research-v1.0 release entry was removed after its metadata and assets were archived and verified locally; its original Git tag remains.
 
-The repository remains private for the owner's final check of these documentation updates. Repository rules and access settings are the next task; this update does not implement them. The organisation-profile revision remains separate.
+## Review scope
 
-Before changing visibility, review the selected source tree and reachable history, branches/tags, releases, PRs/issues, Actions material and linked storage. The unchanged v0.9 report's page 37 account/usage section and recorded operational paths still need their public-distribution decision. Excluding owner planning from curated ZIPs does not establish that every other repository surface is ready for public access.
+The public-transition check examined reachable Git history, nested archive members, extracted PDF text, release metadata and existing pull-request discussions using bounded credential checks. No Actions runs or stored Actions artifacts were present. Historical temporary read-only clone-token fields were identified and classified as expired using their recorded age and GitHub's documented five-minute lifetime. No historical credential was used and no history or tag was rewritten.
 
-Software-contracting authority behind Q-Pathformer HQ and the separate Dataset Lifecycle historical TXT/PDF discrepancy remain separate matters. The research Platform reference reproduces its own canonical TXT; it does not amend the Dataset distribution. Existing grants and third-party notices remain scoped.
+The owner-approved historical study material remains intact, including account/usage context and operational paths previously identified for review. Public availability does not grant permissions beyond the recorded content/software scopes or establish independent scientific replication, peer review or exhaustive secret/legal-title clearance.
 
-After the owner approves public access, verify the repository, reading links, illustrations and release downloads from a non-member view before directing public readers through the organisation profile. Current checks establish private authenticated access and file identities, not public access or independent scientific replication.
+## Remaining tasks
+
+Repository rules and access settings are the next task. The organisation profile is a separate follow-up. Software-contracting authority behind Q-Pathformer HQ and the separate Dataset Lifecycle historical TXT/PDF discrepancy remain separate matters; this research publication does not amend another repository's distribution or licence.
+
+Public access is verified independently of the authenticated editing session. Preserve the release tag and assets when updating later navigation or operational guidance.

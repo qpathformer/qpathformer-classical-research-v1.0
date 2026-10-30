@@ -67,8 +67,8 @@
     },
     {
       "path": "docs/COLLECTION_GUIDE.md",
-      "bytes": 2757,
-      "sha256": "05ebf7e4a23a9d42f6d8e1e465971f0bbd426002fa592c3fd3f9ffea4c8d8d10"
+      "bytes": 2732,
+      "sha256": "b017f1c4dd57edf7ddc34fa1fd8643f787a10de79049a63c1c3c7d026fd4a4bb"
     },
     {
       "path": "docs/CONTRIBUTION_EVIDENCE.md",
@@ -77,8 +77,8 @@
     },
     {
       "path": "docs/EDITION_STATUS.md",
-      "bytes": 3048,
-      "sha256": "fab489b40e68187f8fe2160ae01029e08e433c68ae679f514241550cbe0dd235"
+      "bytes": 2999,
+      "sha256": "28ebec1db6b070c91a3a0dae2fff5ea7b8b6cc7216dc8ecd44d99ca4a0f2969f"
     },
     {
       "path": "docs/MAIN_PAPER_CHANGE_NOTE.md",
@@ -92,13 +92,13 @@
     },
     {
       "path": "docs/PUBLICATION_READINESS.md",
-      "bytes": 2226,
-      "sha256": "21cd3cca0d1fa2d1a959899f7355fbe1f391f1be26e73699b3f1ff0aac04840e"
+      "bytes": 2543,
+      "sha256": "ec9ec806d215bf84f0ddbbe1831e2dfce371778e64571c254275650728c4c94b"
     },
     {
       "path": "docs/RELEASE_POLICY.md",
-      "bytes": 4405,
-      "sha256": "cf79b3ded1781384e2b1189d52a9f16ea0f21f9db2b723d2c65f422d91324d58"
+      "bytes": 4433,
+      "sha256": "086050ae0ea2af2c2b5da023fc833a17d19850e3eddcc6426ea851dc4655aedb"
     },
     {
       "path": "docs/RESEARCH_APPROACH.md",
@@ -112,8 +112,8 @@
     },
     {
       "path": "docs/RESEARCH_V1_RIGHTS.md",
-      "bytes": 2513,
-      "sha256": "4e0902695a3af3d44d71df3677932ced91d5b31f3baea02bd948b12167d2e188"
+      "bytes": 2564,
+      "sha256": "8d3658654762950126e3656e2000c50ee6a21eec6ca0efb27dc9eee5b214790e"
     },
     {
       "path": "docs/papers/QPathformer_Architecture_and_Experimental_Specification_v1.0.docx",
@@ -159,10 +159,15 @@
     "bytes": 5896,
     "sha256": "24274ffcef81cf73865a96013f60d3177eb2f6f84f3d50f964c26522b6faa7ca"
   },
-  "revision_note": "Current file identities include the owner-requested main README, navigation and publication-status updates after release. Published scope records and original adoption evidence are preserved. The approved licence categories, exclusions, licensor and effective date are unchanged.",
+  "revision_note": "Identity refresh for the owner-approved public-status wording. Scientific files, licence categories, exclusions, licensor and effective date are unchanged. Original, released and pre-public main-review records are preserved.",
   "released_scope": {
     "path": "docs/rights/research_v1_released_20261031/RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
     "bytes": 6445,
     "sha256": "5e87fbad0564317e357d73a90d57d6ec0aeee5cb6fc96e405c448356ddee24ec"
+  },
+  "previous_main_scope": {
+    "path": "docs/rights/research_v1_main_review_20261031/RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
+    "bytes": 6719,
+    "sha256": "4f8327d9c40e7571c32dd404c6d5efe6955cfdcbc4dd26b8eb220c4a9d80003b"
   }
 }

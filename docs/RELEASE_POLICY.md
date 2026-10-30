@@ -8,11 +8,11 @@ The main findings paper is Q-Pathformer Routed States: Classical Models and Quan
 
 The Consolidated ZIP contains the Papers ZIP/seal pair and the identified repository snapshot. Its separate Research Approach is at repository/docs/RESEARCH_APPROACH.md; governance, contribution guidance, reproducibility requirements and the publication notice remain repository documents. Historical reports stay individually identified. Do not treat an assembled archive as a new experiment or an empirical endorsement of the architecture proposal.
 
-The current [research-v1.0-20261031 release](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/research-v1.0-20261031) was published on 31 October 2026 inside the private repository and is marked Latest. Earlier packaging entries, including research-v1.0, were removed at the owner's request. Their original Git tags and verified private recovery archives are retained.
+The current [research-v1.0-20261031 release](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/research-v1.0-20261031) was published on 31 October 2026 and is marked Latest. The owner subsequently approved public repository access on the same date. Earlier packaging entries, including research-v1.0, were removed at the owner's request. Their original Git tags and verified private recovery archives are retained.
 
 The published release body, five offered assets and source commit remain unchanged during later README/navigation updates. The current main branch may contain later guidance and status corrections, identified in [edition status](EDITION_STATUS.md). A navigation update does not require rebuilding a sealed release. Any later packaging edition must have an unambiguous identity and reviewed source commit; do not force-move historical tags.
 
-Keep the repository private and research-v1.0-20261031 as Latest during this documentation review. Repository-rule implementation and public visibility remain separate tasks.
+The repository is public and research-v1.0-20261031 remains Latest. Repository-rule implementation and the organisation-profile update remain separate tasks.
 
 ## Publication checks
 
