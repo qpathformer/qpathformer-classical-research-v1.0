@@ -1,0 +1,64 @@
+{
+  "status": "PASS_GITHUB_RENDERED_BODY_AND_LINKS",
+  "checked_at_utc": "2026-10-30T05:17:43.453693+00:00",
+  "release_id": 427663948,
+  "body_identity": {
+    "bytes": 9031,
+    "sha256": "891d9fe4e27df3b81412eb4741c95cae58b8a167f8b91795f5a049658ea2fa17"
+  },
+  "rendered_html": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261030_r3\\qa\\GITHUB_RENDERED_BODY.html",
+    "bytes": 10783,
+    "sha256": "381588fe0e33c8fa096ce3972afc8ad1286f2adba8a9c27be121659aec7dfdbf"
+  },
+  "rendered_tables": 2,
+  "rendered_section_headings": 5,
+  "evidence_links": [
+    {
+      "commit": "b5284a346b21d86c663df01e239aa56f49a07fa5",
+      "path": "release_preparation/study-v0.7/revisions/draft_20261030_r3/report/VISUAL_REVIEW_CLARIFICATION.json",
+      "bytes": 2558,
+      "sha256": "f1ac2118ffc5b37d363dff58bf1376a6ae0578545467ead3625ca87e49d716f6"
+    },
+    {
+      "commit": "b5284a346b21d86c663df01e239aa56f49a07fa5",
+      "path": "release_preparation/study-v0.7/revisions/draft_20261030_r3/PACKAGE_INDEX.json",
+      "bytes": 1889,
+      "sha256": "421b0dd8897639fc19f60ae8489961a1e6486c9f34a86a94f9fb85989a598981"
+    },
+    {
+      "commit": "b5284a346b21d86c663df01e239aa56f49a07fa5",
+      "path": "release_preparation/study-v0.7/revisions/draft_20261030_r3/receipts/FRESH_PACKAGE_VERIFICATION.json",
+      "bytes": 4471,
+      "sha256": "15c0875ac4cff71aa4b43974963f303169d5300e0ea258554a79b502687b66ac"
+    },
+    {
+      "commit": "b5284a346b21d86c663df01e239aa56f49a07fa5",
+      "path": "release_preparation/study-v0.7/revisions/draft_20261030_r3/receipts/ROOT_PACKAGE_VERIFICATION.json",
+      "bytes": 10546,
+      "sha256": "2fe841ff4eac8781f65fa55660afd136b47c36b960abac0c3967db546e4632ef"
+    },
+    {
+      "commit": "b5284a346b21d86c663df01e239aa56f49a07fa5",
+      "path": "release_preparation/study-v0.7/revisions/draft_20261030_r3/receipts/SOURCE_INVENTORY.json",
+      "bytes": 25702,
+      "sha256": "c5cf98ff44ee9ef67b7b8823e38e49b80f5a9b0a75e75df9827ef694a596b04d"
+    },
+    {
+      "commit": "b5284a346b21d86c663df01e239aa56f49a07fa5",
+      "path": "release_preparation/study-v0.7/revisions/draft_20261030_r3/OWNER_LICENSE_AUTHORIZATION.json",
+      "bytes": 1944,
+      "sha256": "079679582d015f1f0422edb31da07bbbf867a0eff1a57e2a61e3dafe2477845b"
+    },
+    {
+      "commit": "0f7dea4575f0ac8313e70a3dcf4afd74618f51ee",
+      "path": "release_preparation/study-v0.7/revisions/draft_20261030_r3/DRAFT_RELEASE.json",
+      "bytes": 2431,
+      "sha256": "72eebcdfc97b6bf589a28ee510ea31f4c2528af3ab3b856a16d086601ce39713"
+    }
+  ],
+  "draft": true,
+  "repository_private": true,
+  "v095_latest": true,
+  "boundary": "GitHub Markdown renderer output checked for structure, text and exact commit-pinned links. No new browser-page pixel inspection is claimed."
+}

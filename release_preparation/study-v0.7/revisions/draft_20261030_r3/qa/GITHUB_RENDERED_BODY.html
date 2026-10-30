@@ -1,0 +1,85 @@
+<p dir="auto"><strong>Draft for owner review · Private repository · Study · Documentation · Code</strong></p>
+<p dir="auto">Q-Pathformer v0.7 examines whether grouping nearby inputs into specialist model banks improves classification, and how trained circuit models can run through an equivalent classical representation. Its advances are independent population replication, matched-count routing controls, a wider classical feature baseline and study-specific execution integration.</p>
+<p dir="auto">Study v0.7 and repository edition v1.0 are separate identifiers.</p>
+<h3 dir="auto">Historical findings</h3>
+<p dir="auto"><strong>Common clipped binary cross-entropy (BCE) was primary; lower is better.</strong> These descriptive means average two seeds within each population, then eight populations per task. Macro-F1 is secondary.</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>Recipe</th>
+<th align="right">Checkerboard</th>
+<th align="right">Spiral</th>
+<th align="right">Noisy annulus</th>
+<th align="right">Rare disks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Flexible circuit (MultiK)</td>
+<td align="right">0.50907</td>
+<td align="right">0.37167</td>
+<td align="right">0.39927</td>
+<td align="right">0.01562</td>
+</tr>
+<tr>
+<td>Routed Trig25</td>
+<td align="right">0.26559</td>
+<td align="right">0.24968</td>
+<td align="right">0.39400</td>
+<td align="right">0.01314</td>
+</tr>
+<tr>
+<td>Global Trig121</td>
+<td align="right">0.04971</td>
+<td align="right">0.07878</td>
+<td align="right">0.39457</td>
+<td align="right">0.00827</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p dir="auto">Geometric routing achieved lower common clipped BCE than matched-count hash routing for both Multi and Trig25 on all four task families. All eight adjusted routing intervals favor geometric routing; seven establish improvement beyond the 0.01 practical reference, with rare-disk Trig the exception. The result concerns the tested data, feature representations and optimization, not universal routing superiority.</p>
+<p dir="auto">The wider global Trig121 control led the two harder clean tasks. Its mean macro-F1 was <strong>98.47% on checkerboard and 96.57% on spiral</strong>, compared with <strong>76.57% and 86.82%</strong> for MultiK. It does not lead every metric or family: routed Trig25 has higher descriptive F1 on noisy annulus, where its primary contrast with Trig121 is inconclusive.</p>
+<p dir="auto">The twenty primary comparisons use eight paired population-level differences, seven degrees of freedom and nominal 99.75% Bonferroni-adjusted t intervals. There is no paired-record bootstrap. An interval crossing zero is inconclusive; the practical reference is not an equivalence test.</p>
+<p dir="auto">Classical conversion preserved every checked class prediction. For matched single-input CPU calls, reported speedups were <strong>4.28–4.58× relative to the original circuit implementation</strong>. Conversion changes how the same fitted predictor is evaluated; it adds no accuracy gain, compression or quantum-advantage claim. The MLP is fastest in the timing tables, and learned Trig controls use the optimized common kernel.</p>
+<h3 dir="auto">What changed in this study</h3>
+<p dir="auto">Eight model recipes were compared on checkerboard, spiral, noisy annulus and rare disks. Confirmation uses eight independently generated populations per task, with two paired optimizer seeds within each population. The completed design has 32 engineering, 64 development and 512 confirmation fits: 608 total. The 576 full fits completed 200 rounds and 15,000 updates each.</p>
+<p dir="auto">The Code package includes the study-specific execution integration for <strong>Q-Path Multiplier - Elastic Task Execution Layer (ETEL) v0.1</strong>, using retained ETEL source version <strong>0.2.0</strong>. It schedules complete registered fits in isolated local processes. The component label, historical source version, study v0.7 and repository edition v1.0 identify different things. This selection is not a standalone ETEL component release.</p>
+<p dir="auto">Model routing selects a bank for an input record; ETEL schedules an entire fit. Logical 64-slot groups and peak ready capacity 192 are scheduling bookkeeping. At most five fit workers ran concurrently; logical slots are not physical processors, qubits, model banks or measured speedup.</p>
+<h3 dir="auto">Historical verification and limitations</h3>
+<p dir="auto">The study converted 192 circuit predictors and repacked 256 learned Trig predictors. These 448 representations are existing fitted models, not extra training fits. The algebraic identity is specific to the retained core/readout; finite floating-point checks do not promise bitwise equality for every input or efficient conversion of arbitrary deeper circuits.</p>
+<p dir="auto">Timing uses microseconds per complete batch call, with matched ratios calculated before aggregation. Three timing sessions and fifteen trials per condition are technical repeats, not additional population replications. Host conditions and unexplained session drift limit inference.</p>
+<p dir="auto">Historical shot sensitivity used ideal local multinomial sampling at equal <strong>total</strong> budgets per prediction: Scalar uses one setting and Multi splits the budget between two. These are simulated measurement outcomes, not Aer/device-noise or physical shots. Release preparation does not repeat these experiments.</p>
+<p dir="auto">The findings concern four small synthetic binary task families on classical CPU hardware. Eight population differences per task and small-sample t assumptions limit generalization. Historical cross-version scores are context, not paired improvement evidence. No physical-QPU performance, device-noise tolerance, full language-architecture benchmark or quantum advantage is established.</p>
+<h3 dir="auto">Downloads and release-packaging checks</h3>
+<p dir="auto">Download each ZIP with its matching <code class="notranslate">.seal.json</code>, check the external identity and safe extraction, then open <code class="notranslate">START_HERE.md</code>.</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>Download</th>
+<th>Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code class="notranslate">QPathformer_v0.7_Study.zip</code></td>
+<td>Preserved report in PDF and Word, edition note, rights and provenance</td>
+</tr>
+<tr>
+<td><code class="notranslate">QPathformer_v0.7_Documentation.zip</code></td>
+<td>Updated overview, findings, original guidance and reproduction boundaries</td>
+</tr>
+<tr>
+<td><code class="notranslate">QPathformer_v0.7_Code.zip</code></td>
+<td>Selected models, audits, classical conversion, ETEL execution integration and bounded startup tools</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p dir="auto">The Study ZIP/seal and report bytes are reused unchanged. The <a href="https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/b5284a346b21d86c663df01e239aa56f49a07fa5/release_preparation/study-v0.7/revisions/draft_20261030_r3/report/VISUAL_REVIEW_CLARIFICATION.json">visual-review clarification</a> identifies a cross-study sentence in the retained receipt; it is not a report erratum or new all-page visual review.</p>
+<p dir="auto">Bounded startup verifies exact package integrity before and after execution, parses all 52 Python files, imports NumPy/SciPy and selected modules, checks two inputs through a zero-angle circuit plus a sigmoid comparison, and requires successful <code class="notranslate">--help</code> from <code class="notranslate">quantum/study.py</code>, <code class="notranslate">execution/launcher.py</code> and <code class="notranslate">execution/bind_stage.py</code>. It does not test all eight model families, independently compare matrices, run conversion parity, execute ETEL fits/recovery, score official data or rerun timing/sampling. See the final receipts for actual execution against the revised assets. Historical scientific verification is separate from these packaging checks.</p>
+<p dir="auto">Raw datasets, trained checkpoints, installed environments and the full archive are excluded. Full replay requires separately retained inputs and reviewed environment/path bindings. Seals are integrity records, not digital signatures.</p>
+<p dir="auto"><a href="https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/b5284a346b21d86c663df01e239aa56f49a07fa5/release_preparation/study-v0.7/revisions/draft_20261030_r3/PACKAGE_INDEX.json">Exact package identities</a> · <a href="https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/b5284a346b21d86c663df01e239aa56f49a07fa5/release_preparation/study-v0.7/revisions/draft_20261030_r3/receipts/FRESH_PACKAGE_VERIFICATION.json">Fresh extraction and startup</a> · <a href="https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/b5284a346b21d86c663df01e239aa56f49a07fa5/release_preparation/study-v0.7/revisions/draft_20261030_r3/receipts/ROOT_PACKAGE_VERIFICATION.json">Package verification</a> · <a href="https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/b5284a346b21d86c663df01e239aa56f49a07fa5/release_preparation/study-v0.7/revisions/draft_20261030_r3/receipts/SOURCE_INVENTORY.json">Source inventory</a>.</p>
+<h3 dir="auto">Scoped licensing</h3>
+<p dir="auto">Identified original report content and explanatory prose use <strong>CC BY 4.0</strong>. The exact selected Python files, including the retained ETEL files and package helpers, are <strong>source available under the unchanged Q-Pathformer Platform License 1.0</strong>. Existing applicable grants remain in force. Package scopes identify exclusions; dependencies, datasets, trained models, architecture documents and whole archives retain separate terms. <a href="https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/b5284a346b21d86c663df01e239aa56f49a07fa5/release_preparation/study-v0.7/revisions/draft_20261030_r3/OWNER_LICENSE_AUTHORIZATION.json">Owner licensing record</a>.</p>
+<p dir="auto">Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative. Anthony is licensor; affiliations do not transfer ownership.</p>
+<p dir="auto">This release remains a draft in the private repository. Content licensing was adopted separately from publication. <strong>Study v0.9.5 remains Latest.</strong></p>
+<p dir="auto"><a href="https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/0f7dea4575f0ac8313e70a3dcf4afd74618f51ee/release_preparation/study-v0.7/revisions/draft_20261030_r3/DRAFT_RELEASE.json">Authenticated draft assets</a>.</p>

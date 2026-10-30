@@ -701,45 +701,45 @@
     {
       "study_version": "v0.7",
       "title": "Q-Pathformer Study v0.7 — Routing Capacity and Classical Deployment",
-      "draft_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-c26e591c106a90c492f4",
+      "draft_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-438104050e2201433199",
       "release_id": 427663948,
       "tag_name": "study-v0.7",
-      "target_commit": "e0f91d3b9d2b46bc656f4ca74db36005056f1160",
+      "target_commit": "b5284a346b21d86c663df01e239aa56f49a07fa5",
       "draft": true,
       "private": true,
-      "local_pack_folder": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261029_r2",
-      "local_assets": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261029_r2\\dist",
-      "record_path": "release_preparation/study-v0.7/revisions/draft_20261029_r2",
-      "evidence_commit": "e7cad21db725878bbc3059d411c6aba3986a1230",
-      "evidence_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/e7cad21db725878bbc3059d411c6aba3986a1230/release_preparation/study-v0.7/revisions/draft_20261029_r2/README.md",
-      "receipt_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/e7cad21db725878bbc3059d411c6aba3986a1230/release_preparation/study-v0.7/revisions/draft_20261029_r2/DRAFT_RELEASE.json",
+      "local_pack_folder": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261030_r3",
+      "local_assets": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261030_r3\\dist",
+      "record_path": "release_preparation/study-v0.7/revisions/draft_20261030_r3",
+      "evidence_commit": "0f7dea4575f0ac8313e70a3dcf4afd74618f51ee",
+      "evidence_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/0f7dea4575f0ac8313e70a3dcf4afd74618f51ee/release_preparation/study-v0.7/revisions/draft_20261030_r3/README.md",
+      "receipt_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/blob/0f7dea4575f0ac8313e70a3dcf4afd74618f51ee/release_preparation/study-v0.7/revisions/draft_20261030_r3/DRAFT_RELEASE.json",
       "assets": [
         {
-          "id": 688015535,
+          "id": 691019703,
           "name": "QPathformer_v0.7_Code.seal.json",
-          "bytes": 1287,
-          "sha256": "3852e80e820cf306e75909cdb2813066431ee0a8b0054aba06e6cfea821ba81e",
+          "bytes": 1318,
+          "sha256": "0dbce202548aaa79a7fac01b18f5f1c35c768c0ca580727c6a45ab6307efb3bf",
           "download_verified": true
         },
         {
-          "id": 688015696,
+          "id": 691019854,
           "name": "QPathformer_v0.7_Code.zip",
-          "bytes": 273995,
-          "sha256": "d4bf3e7513c4cb7a022e0340ca78e112988652c8f89c906536392abbb6082b51",
+          "bytes": 281836,
+          "sha256": "8fee12d75f38cee7fa552936aa63db30c2d53581d877e694d11a26bb765514b0",
           "download_verified": true
         },
         {
-          "id": 688015867,
+          "id": 691020001,
           "name": "QPathformer_v0.7_Documentation.seal.json",
-          "bytes": 1356,
-          "sha256": "105ad6211e538f2c95ee18668a743d53b37d4afe5677e9dc7d92e510b38376f6",
+          "bytes": 1388,
+          "sha256": "da4455f83ba36c746ac7efac1ef8c8d1864bee3efc34007690a78a69953bc219",
           "download_verified": true
         },
         {
-          "id": 688016009,
+          "id": 691020185,
           "name": "QPathformer_v0.7_Documentation.zip",
-          "bytes": 40941,
-          "sha256": "1e867fc80b4dffce839be3c0e8f405f570360bbaa79132ef9c2bb4211d566c87",
+          "bytes": 47759,
+          "sha256": "6461297ea916ffe8513fed11f93169bb2737d00340ed37e328dc99282e33e8de",
           "download_verified": true
         },
         {
@@ -787,8 +787,8 @@
           "path": "GUIDANCE_LICENSE_SCOPE.json",
           "files": 13,
           "identity": {
-            "bytes": 3253,
-            "sha256": "75f79fde1c236293bf50f4ee17e28c119399e0c5f789eb9358cc99ea223fd923"
+            "bytes": 3344,
+            "sha256": "7542a3d38bc9e8035620c09be96569121cf5af151448947f701751a5e9885005"
           }
         },
         {
@@ -796,8 +796,8 @@
           "path": "CODE_LICENSE_SCOPE.json",
           "files": 52,
           "identity": {
-            "bytes": 13660,
-            "sha256": "39f4bc8318747a2f67cc97dee341a589c6bca3bf240b2780a42678156c1cc2c9"
+            "bytes": 14000,
+            "sha256": "7da04ecae4f1e2f334b6ac502272d5c812a969c6e2b4facbb5e4e62dd37feda4"
           }
         },
         {
@@ -805,8 +805,8 @@
           "path": "GUIDANCE_LICENSE_SCOPE.json",
           "files": 5,
           "identity": {
-            "bytes": 1805,
-            "sha256": "c87df7f502b53aa4c1f353276c2835d0ca696b8e58effa3a3c9d98e4004e7452"
+            "bytes": 1855,
+            "sha256": "2295c1df4c94c5be0c4d757180251c82ec475eb464b22104e79b065a38018dbe"
           }
         }
       ],
@@ -819,14 +819,15 @@
         "sha256": "b5bd3d125798dc26682803770f0622a2ce026fdd2c9b8977c394a4f55532ead8"
       },
       "startup_status": "PASS",
-      "startup_scope": "Imports of scientific modules; tiny in-memory 2-input circuit expectation and sigmoid checks; three CLI help paths.",
+      "startup_scope": "Exact package integrity before and after startup; all selected Python parsed; v0.7 numerical imports, two inputs through a zero-angle circuit with moment shape/range and sigmoid checks, and required --help for study.py, execution/launcher.py and execution/bind_stage.py. Importing reference_v03 is not an independent matrix comparison. No model-family suite, conversion parity or ETEL fit/recovery checks run. Network disabled in test subprocesses. No official input files used.",
       "startup_binding": {
-        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261029_r2\\receipts\\FRESH_PACKAGE_VERIFICATION.json",
-        "bytes": 3928,
-        "sha256": "54a5762967ec9fa268e6135e857e29623c34310fbbc150b0d48ff3a615d32152"
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.7\\draft_20261030_r3\\receipts\\FRESH_PACKAGE_VERIFICATION.json",
+        "bytes": 4471,
+        "sha256": "15c0875ac4cff71aa4b43974963f303169d5300e0ea258554a79b502687b66ac"
       },
       "etel": true,
-      "licensing_decisions_remaining": []
+      "licensing_decisions_remaining": [],
+      "revision_note": "r3 helper, quickstart and current guidance corrections; report/scientific/historical bytes unchanged."
     },
     {
       "study_version": "v0.8",
@@ -1101,7 +1102,7 @@
     "Retained full-archive logical byte totals are distinct from ZIP sizes and do not define hardware minima."
   ],
   "superseded_evidence": "Earlier sealed builds remain under each study folder; revision receipts bind their identities. The first v0.5 draft assets were authenticated-downloaded and preserved locally before same-draft replacement, with SUPERSEDED_REMOTE_ASSETS.json retaining old and new identities. v0.2 publication is separately recorded; its historical draft records and prior index remain preserved. v0.3 publication is separately recorded; its historical draft records and prior index remain preserved. v0.4 publication is separately recorded; its historical draft records and prior index remain preserved. v0.5 publication is separately recorded; its historical draft records and prior index remain preserved. v0.6 publication is separately recorded; its historical draft records and prior index remain preserved.",
-  "completed_at_utc": "2026-10-30T04:58:04.957456+00:00",
-  "latest_revision_note": "v0.2, v0.3, v0.4, v0.5 and v0.6 are published in the private repository; v0.7–v0.9 remain drafts and v0.9.5 remains Latest.",
+  "completed_at_utc": "2026-10-30T05:17:58.276330+00:00",
+  "latest_revision_note": "v0.7 r3 corrections are verified in the private draft. v0.2, v0.3, v0.4, v0.5 and v0.6 remain published; v0.9.5 remains Latest; all other selections are unchanged.",
   "published_from_batch_count": 5
 }
