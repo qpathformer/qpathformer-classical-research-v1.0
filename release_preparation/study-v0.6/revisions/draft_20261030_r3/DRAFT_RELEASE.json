@@ -1,0 +1,71 @@
+{
+  "schema": "qpath-draft-release-1",
+  "status": "PRIVATE_DRAFT_UPLOADED_AND_AUTHENTICATED_DOWNLOAD_VERIFIED",
+  "study_version": "v0.6",
+  "repository": {
+    "id": 1438032349,
+    "name": "qpathformer/qpathformer-classical-research-v1.0",
+    "private": true
+  },
+  "draft_release": {
+    "id": 427653047,
+    "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/untagged-a97652037cc841f6ba44",
+    "tag_name": "study-v0.6",
+    "target_commitish": "fe509de7d8b73683da89bf82c3009043c75b6e06",
+    "name": "Q-Pathformer Study v0.6 — Harder Tasks and Faster Inference",
+    "draft": true,
+    "prerelease": false,
+    "published_at": null
+  },
+  "assets": [
+    {
+      "id": 690973133,
+      "name": "QPathformer_v0.6_Code.seal.json",
+      "bytes": 1555,
+      "sha256": "ae4913937ab0e6661a413143b0455c9bf272d8fd1e8c50dbe0e17a9e82e09c26",
+      "download_verified": true
+    },
+    {
+      "id": 690973302,
+      "name": "QPathformer_v0.6_Code.zip",
+      "bytes": 326615,
+      "sha256": "5345f8858ba8d597afa140fdf9dd1fad653172df3032704cf75bba3baa6c9a40",
+      "download_verified": true
+    },
+    {
+      "id": 690973512,
+      "name": "QPathformer_v0.6_Documentation.seal.json",
+      "bytes": 1588,
+      "sha256": "a44845ecd2af8defbed647c26c6536f9bb3ed09ca78ed786f9500bbdc83f4bc2",
+      "download_verified": true
+    },
+    {
+      "id": 690973787,
+      "name": "QPathformer_v0.6_Documentation.zip",
+      "bytes": 55288,
+      "sha256": "e911957bacdbe1f54314951ad71323e3f34e6d77e945d187e897a24cd06e29ca",
+      "download_verified": true
+    },
+    {
+      "id": 690974006,
+      "name": "QPathformer_v0.6_Study.seal.json",
+      "bytes": 1557,
+      "sha256": "795a27660f813a788b2409a9f2fcdf6a728951afd6fb57c305ee98aa510bbd51",
+      "download_verified": true
+    },
+    {
+      "id": 690974230,
+      "name": "QPathformer_v0.6_Study.zip",
+      "bytes": 1969092,
+      "sha256": "293362ea6059fcdb4ceaf9564eecc8c76747e54b3b639967a01f1f9b7ec31cd6",
+      "download_verified": true
+    }
+  ],
+  "branch": "prepare-studies-v0.2-v0.9-20261029",
+  "main_unchanged": "7c05ea9712d4b21a3b16fd1258f2731972e344c2",
+  "protected_releases_unchanged": true,
+  "other_drafts_unchanged": true,
+  "v095_remains_latest": true,
+  "checked_at_utc": "2026-10-30T04:53:51.910446+00:00",
+  "publication_authorized": false
+}
