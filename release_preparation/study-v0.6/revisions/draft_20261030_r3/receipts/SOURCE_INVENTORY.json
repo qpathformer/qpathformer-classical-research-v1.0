@@ -1,0 +1,398 @@
+{
+  "status": "PASS_SELECTED_ORIGINAL_IDENTITIES_RECONFIRMED",
+  "study_version": "v0.6",
+  "checked_at_utc": "2026-10-30T04:51:20.215332+00:00",
+  "prior_inventory": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\INVENTORY.json",
+    "bytes": 15600,
+    "sha256": "f559b952d56f587e975c6f97bdee3c06c923b388d5c261a4ff4fddafe3b1e4c6"
+  },
+  "report": {
+    "path": "C:\\Q2\\Improvement_Study_v0.6\\docs\\QPATH-RPT-007_Harder_Tasks_and_Faster_Inference_v0.6.docx",
+    "bytes": 867873,
+    "sha256": "e26164a4e9378ec3b1a2a26cc0cf6d47421550493ca3fb5fab6b868c0138c012",
+    "figures": 3,
+    "tables": 39
+  },
+  "source_root": "C:\\Q2\\Improvement_Study_v0.6",
+  "selected_python": [
+    {
+      "path": "analysis/classical_review/audit_confirmation_deployment_v06.py",
+      "bytes": 21764,
+      "sha256": "f1d2d14fa7e945dcf2ce9d14cea3dce01239506e0af24eb23a85a29dcac8ea23"
+    },
+    {
+      "path": "analysis/classical_review/audit_confirmation_readiness_v06.py",
+      "bytes": 38382,
+      "sha256": "ce7681b3cb9e1206714aaab75a40cfd0f8d1c5826ba6a0b2db78a2a59fe848f7"
+    },
+    {
+      "path": "analysis/classical_review/audit_data_v06.py",
+      "bytes": 12792,
+      "sha256": "d15fdb3b16d89a8f3f3e789f890890ec67a81437d04bda77634b8a498498b880"
+    },
+    {
+      "path": "analysis/classical_review/audit_endpoints_v06.py",
+      "bytes": 40077,
+      "sha256": "1f7ffa3e7f5dcb50c540bef48c7ce9936f0bb79f3e66284b0e1b3197081ccbd3"
+    },
+    {
+      "path": "analysis/classical_review/audit_synthetic_snapshot_v06.py",
+      "bytes": 9622,
+      "sha256": "750cbb26f471a5082e07d770c1cb1aa4e4f90ed1e3d8ee6924d249a471ea4214"
+    },
+    {
+      "path": "analysis/classical_review/crosscheck_statistics_v06.py",
+      "bytes": 3515,
+      "sha256": "e1605878c63b23b10723b838c418217e4f0391121f4a49e2adeec021fa317544"
+    },
+    {
+      "path": "analysis/classical_review/deployment_reference_v06.py",
+      "bytes": 8256,
+      "sha256": "d15599c861cf6e5cf4de58cb3a6efc8cafeac5e4fd858fc91df762729049d163"
+    },
+    {
+      "path": "analysis/classical_review/laurent_reference_v06.py",
+      "bytes": 7457,
+      "sha256": "cb07f3a7c51b13edaf8d2f5c8b331403f82fcbfd2c3161e1dbfb000b75210cd4"
+    },
+    {
+      "path": "analysis/classical_review/readout_reference_v06.py",
+      "bytes": 11814,
+      "sha256": "15417a2c9987a0d290a0fe24acedfd0856ecd58f5b8f73baf8d6daf4a555476a"
+    },
+    {
+      "path": "analysis/classical_review/reference_v06.py",
+      "bytes": 11364,
+      "sha256": "1e4d635297ab3d5a3acdadcb7041d31e6a48a59fcc367001238d9cd21ece4b26"
+    },
+    {
+      "path": "analysis/classical_review/test_confirmation_deployment_v06.py",
+      "bytes": 8474,
+      "sha256": "3e2dc6bb446428fc8c7cc7658cc6cfac58180448f7d51ac070dc3699fa0dbb2d"
+    },
+    {
+      "path": "analysis/classical_review/test_confirmation_readiness_v06.py",
+      "bytes": 13002,
+      "sha256": "d493dd09b974813e0624f33a5e0d089957f037e50979178bfde2e7c0e0029605"
+    },
+    {
+      "path": "analysis/classical_review/test_deployment_reference_v06.py",
+      "bytes": 4027,
+      "sha256": "0b43480ab0c9ac7f1ae7cf8b4bb79cf50de0e19f47969c3271a89120bb98b31c"
+    },
+    {
+      "path": "analysis/classical_review/test_endpoint_auditor_v06.py",
+      "bytes": 8789,
+      "sha256": "8ed8327ab8fa58c5dce6b10292fed134f11b6f8c0677524c136b57b5947152d3"
+    },
+    {
+      "path": "analysis/classical_review/test_laurent_reference_v06.py",
+      "bytes": 9300,
+      "sha256": "6b964188cc6ebe5dc5300d7b5ac93ee6c1ee8a0387db15bf414636f794cc2bf6"
+    },
+    {
+      "path": "analysis/classical_review/test_readout_reference_v06.py",
+      "bytes": 2888,
+      "sha256": "24dba090c30ddb720f5f70322a5cfeb30f90fc605e89e8ce10abce1486e52b06"
+    },
+    {
+      "path": "analysis/extract_v05_context.py",
+      "bytes": 2881,
+      "sha256": "e05e7dbdba77910c189281489cf62645f58c652ca5da6d5ec193a02ab15c14f1"
+    },
+    {
+      "path": "analysis/independent_replay/evidence_io.py",
+      "bytes": 7030,
+      "sha256": "e6db78caa892901997b928206b8a7737c561620d82b484aa17142e3d03e9f8a3"
+    },
+    {
+      "path": "analysis/independent_replay/official_comparison.py",
+      "bytes": 12735,
+      "sha256": "fdd97960b99a2794e6e5d020c7d796d6323a77f6d29952cf2e368c81adf79d90"
+    },
+    {
+      "path": "analysis/independent_replay/prediction_reference.py",
+      "bytes": 4277,
+      "sha256": "e1a6256d089f31353bbc30861ebb0187c38b25a36a79fe8a369759480b5af1a4"
+    },
+    {
+      "path": "analysis/independent_replay/preflight_relocated.py",
+      "bytes": 6411,
+      "sha256": "c3e99cfe9d28dd7efe410fc7311f68bb6f72632186d54b568d1bd73d0f36dfcb"
+    },
+    {
+      "path": "analysis/independent_replay/register_ready.py",
+      "bytes": 7273,
+      "sha256": "467c2a43326823d94dedb5d1459d2dc7503692af4be192c858afdde6f0c35c29"
+    },
+    {
+      "path": "analysis/independent_replay/release_gate.py",
+      "bytes": 17453,
+      "sha256": "1bf665a5614216f285ce07fc64e4245520131ee161e3466fecccb0c7771e9265"
+    },
+    {
+      "path": "analysis/independent_replay/replay_and_analyse.py",
+      "bytes": 28127,
+      "sha256": "4e56de9bc10243ddae348f3d94ae33e24ccac672dafaf9f1e9e1bce543a418b2"
+    },
+    {
+      "path": "analysis/independent_replay/statistics_reference.py",
+      "bytes": 16142,
+      "sha256": "4259a596f4d8310f01407dfd32c6ffe5c3cb968246c1f1275c44ce4b00070179"
+    },
+    {
+      "path": "analysis/independent_replay/synthetic_fixture.py",
+      "bytes": 21120,
+      "sha256": "9abe8cf12da13e29f136f2d8a17b354f9635ae3c6489fe26ae3fbfd0c01f6c4a"
+    },
+    {
+      "path": "analysis/independent_replay/test_prediction_reference.py",
+      "bytes": 4259,
+      "sha256": "8c48c526afe2fa9b3cb510d6cb3eef3117b1e09642250c0fdbd9e5d48a18932d"
+    },
+    {
+      "path": "analysis/independent_replay/test_replay_adapter.py",
+      "bytes": 13914,
+      "sha256": "da838ddf21059d98109bcd4b24c5077f9bef76d911a38f49f9cbae364ec0c4f2"
+    },
+    {
+      "path": "analysis/independent_replay/test_replay_cores.py",
+      "bytes": 13653,
+      "sha256": "fa0a756a6041e8a851d15d479db4cef81d14939cfe1f6dcdf9adf784604f4bee"
+    },
+    {
+      "path": "analysis/independent_replay/threshold_reference.py",
+      "bytes": 4164,
+      "sha256": "646261d3c055fdf1129dca9fb436becba8f3ccadd2bee2b221b823c13eabe1d0"
+    },
+    {
+      "path": "analysis/learning_resources_v06.py",
+      "bytes": 38496,
+      "sha256": "8fe06b4dea03025084364cdb9ea679d7d537f255bb6ed53672150987a05671f6"
+    },
+    {
+      "path": "analysis/statistics_v06.py",
+      "bytes": 10418,
+      "sha256": "fbe6ce8aa85030aca1365f0b1bfae40b65af3aded1b8f5f36422f50f93d414da"
+    },
+    {
+      "path": "analysis/test_statistics_v06.py",
+      "bytes": 4480,
+      "sha256": "5e61e81f4b1998581e416db13912e7914f23ce0762e1cfd762e20074b0d411c4"
+    },
+    {
+      "path": "analysis/tests/test_learning_resources_v06.py",
+      "bytes": 20743,
+      "sha256": "f9df7e1d79307a04f75ac6b1b45652ec543b68988c96b00e9297e9a315aedce3"
+    },
+    {
+      "path": "quantum/audit_stage.py",
+      "bytes": 16118,
+      "sha256": "cf92635df7899c577efdc23c912602fddd8f80cdee19fd3d7c756a3887d08bab"
+    },
+    {
+      "path": "quantum/circuits.py",
+      "bytes": 5505,
+      "sha256": "2ac3d12903899f8baf9e226e53e0fe5178f9ab700e83a6e929d212cc6e8da90e"
+    },
+    {
+      "path": "quantum/deployment_benchmark.py",
+      "bytes": 22476,
+      "sha256": "cbdd3f3f4f02b542c2b8e374f0524d8a58956eeca3b73326c48fe090a75474f6"
+    },
+    {
+      "path": "quantum/deployment_checks/test_benchmark.py",
+      "bytes": 2348,
+      "sha256": "7008cb184d6fcb4b6b813f9048dafe0a26e20725cecb7afc33f38a0f56dfd5d5"
+    },
+    {
+      "path": "quantum/deployment_checks/test_compiler.py",
+      "bytes": 3559,
+      "sha256": "a57dcf2f6559edde8151069827a5bfcf01a78076973fd9b8c4f2bf4907688c4d"
+    },
+    {
+      "path": "quantum/deployment_checks/test_integrity.py",
+      "bytes": 9456,
+      "sha256": "f8e84223c9b000199ef9c3abaaecb7f6ed5a3de72a1bf4eb07a1bb2b7897e296"
+    },
+    {
+      "path": "quantum/deployment_compiler.py",
+      "bytes": 5896,
+      "sha256": "a94b47b230a612595a04124194a9372c2efbf8e19670999a8af039dde5723404"
+    },
+    {
+      "path": "quantum/device_snapshot.py",
+      "bytes": 859,
+      "sha256": "98aac03463d176424b69dcbda914eddaeb122e0ba3908f7bf36e77c0b59e066f"
+    },
+    {
+      "path": "quantum/evaluate_confirmation.py",
+      "bytes": 19951,
+      "sha256": "92e13605e65a1e4c04ce3e1fac477baa04e2e60be14f31e65d9cbfee46ae8e54"
+    },
+    {
+      "path": "quantum/evaluation_checks/test_evaluation_v06.py",
+      "bytes": 15377,
+      "sha256": "0ccc735b5993cf5ff720cb435603301f3696558933b65689e8b145d4e8d150aa"
+    },
+    {
+      "path": "quantum/launch_stage.py",
+      "bytes": 4780,
+      "sha256": "9e9fc824b4ce8d65ea2487e2724956d982e4a4ed04e0391405616c46f2468218"
+    },
+    {
+      "path": "quantum/local_readiness.py",
+      "bytes": 28990,
+      "sha256": "d73bc5e2d490bd7ef68cf5c0ccf68a4cc0abcdd4202a1642d5be994e88097d0c"
+    },
+    {
+      "path": "quantum/models.py",
+      "bytes": 13496,
+      "sha256": "ce25197f789917bd0225a8550f533f03f5b01a1112224ffa093599b8104bfb9b"
+    },
+    {
+      "path": "quantum/path_mapping.py",
+      "bytes": 1305,
+      "sha256": "82cd687acee98f6432b925f5e1e20d219a0c5343cfdc265125c2b5bf14733637"
+    },
+    {
+      "path": "quantum/prepare_data.py",
+      "bytes": 27622,
+      "sha256": "cc3f3f0654a93a6ebf1b84538b0d51cded82e5a255bf4701ff4bea78cbbd5986"
+    },
+    {
+      "path": "quantum/readiness_checks/synthetic_capsule.py",
+      "bytes": 4004,
+      "sha256": "c06a778013a2cb750814ca21ab3f3beb891648574cf9aa7d49ba2614d9fa2547"
+    },
+    {
+      "path": "quantum/reference_v03.py",
+      "bytes": 1251,
+      "sha256": "6740c96737c3f46f53967c579543bc5d0b4b8aac2f9305dd21b6b51d2a725071"
+    },
+    {
+      "path": "quantum/register_evaluation.py",
+      "bytes": 4162,
+      "sha256": "75c3158bb6eed1b10eb79c114747326d0f7e9b68bca98424fae92d65bd8f18a4"
+    },
+    {
+      "path": "quantum/routers.py",
+      "bytes": 8349,
+      "sha256": "0b62c0bcca42ab93551dab88e0e20828158f8a3d529253db6f0c1a5cf67a2c68"
+    },
+    {
+      "path": "quantum/run_engineering.py",
+      "bytes": 4096,
+      "sha256": "9c82b850f4fdb7d70663722cfc968c0094ca03aec61897a38a0b9a978defb39b"
+    },
+    {
+      "path": "quantum/snapshot_execution.py",
+      "bytes": 4949,
+      "sha256": "e21485213b5fa5ee3982d7bb35aa9065682c9a6aa72de8330f38b9a4dd70000b"
+    },
+    {
+      "path": "quantum/study.py",
+      "bytes": 27090,
+      "sha256": "5cd3349e572ef00c70d4a89cf97ce41e229f6436aaf31497289f2601b6925c62"
+    },
+    {
+      "path": "quantum/tests/test_models.py",
+      "bytes": 11506,
+      "sha256": "0fe3a6f7532aee7ad4d4299f00380ded45919564fc0dc2c60183c20848abfa92"
+    },
+    {
+      "path": "quantum/tests/test_routers_data.py",
+      "bytes": 14378,
+      "sha256": "cd9033ac01fbc3db86d27e707bcce05010efd0f94fa18ec7a644ce24fbf4f039"
+    },
+    {
+      "path": "quantum/verification.py",
+      "bytes": 6904,
+      "sha256": "45b5d4ce89b2ade49db6a5c555901f84df5e5373a97fdea8d02d9b81a6cade82"
+    }
+  ],
+  "selected_guidance": [
+    {
+      "path": "README.txt",
+      "bytes": 3121,
+      "sha256": "aa88cd1e85bd3607c9146aac20b3cca22763ce77412a053bdeac6aad5d560443"
+    },
+    {
+      "path": "REPRODUCTION_GUIDE.txt",
+      "bytes": 16363,
+      "sha256": "de12ce1144056e7f5dfea54a1a8ebf1f3a57f0deb331024181667d31c201704c"
+    },
+    {
+      "path": "governance/STUDY_PLAN.json",
+      "bytes": 6937,
+      "sha256": "4552a6de4b72cf860ab3e6712f33539de404687c95b36e053ead44627579864f"
+    },
+    {
+      "path": "governance/ANALYSIS_PROTOCOL.json",
+      "bytes": 6852,
+      "sha256": "904bb7972de661bb7dcc501a9e55ff18675893064f0434e6fff0309add48d5f0"
+    },
+    {
+      "path": "governance/LOCAL_READINESS_PROTOCOL.json",
+      "bytes": 6210,
+      "sha256": "cb7c1243f1ea1591e68083a6bb55c8e1c2362a86f9a622ae1e15143d90eb8637"
+    },
+    {
+      "path": "governance/DEPLOYMENT_PROTOCOL.json",
+      "bytes": 3943,
+      "sha256": "ee9b3daacb706fbe2741251ec4242fdea2456e9d18ae151aac60462730a2ee56"
+    },
+    {
+      "path": "governance/REPRODUCTION_TECHNICAL_NOTES.txt",
+      "bytes": 15837,
+      "sha256": "741209eb2bb90be6f4905df7bfc6332e0be889e097f9bf0a6835d7499e204938"
+    },
+    {
+      "path": "governance/numeric_replay_requirements.txt",
+      "bytes": 258,
+      "sha256": "a1a9d7f981cecc86198a5564b341d7378881dac35b402c5817b021f75d7d38b1"
+    },
+    {
+      "path": "governance/numeric_requirements_observed.txt",
+      "bytes": 598,
+      "sha256": "f9ed4051fe538785ac6465a624b2d517c4bdda1eaf91c18490887a0db053808d"
+    },
+    {
+      "path": "governance/simulator_requirements_lock.txt",
+      "bytes": 801,
+      "sha256": "7255bc0697e54ec529a0e79c14456d5696fd2ddba8b8deb72fb98bc06a0e415e"
+    },
+    {
+      "path": "governance/scientific_plot_requirements_lock.txt",
+      "bytes": 878,
+      "sha256": "8975fdfa7eff0dd815f7ab3f9b31df60048ef86961955b9095ae5e49e9c76082"
+    },
+    {
+      "path": "governance/plotting_replay_requirements.txt",
+      "bytes": 295,
+      "sha256": "e2bae301a23532ff9590268d7d63e378be4374a1998fabce2a23016ac9e3ef7d"
+    }
+  ],
+  "source_maps": [
+    {
+      "package": "QPathformer_v0.6_Code",
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\assembly\\QPathformer_v0.6_Code\\provenance\\SOURCE_MAP.json",
+      "bytes": 49896,
+      "sha256": "77e9342105d67b9c4f0a1cce9e7fc5e9a95749091fe017fbbed669e261e4dba4"
+    },
+    {
+      "package": "QPathformer_v0.6_Documentation",
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\assembly\\QPathformer_v0.6_Documentation\\provenance\\SOURCE_MAP.json",
+      "bytes": 14346,
+      "sha256": "a46457fef7bd571dde31bd90a02078776c08ed73ecf60e0a8457fc729cc58f3b"
+    },
+    {
+      "package": "QPathformer_v0.6_Study",
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\assembly\\QPathformer_v0.6_Study\\provenance\\SOURCE_MAP.json",
+      "bytes": 9242,
+      "sha256": "d445ca215637051f27f550775264f4c0f8f2baa2926174c0dd0951989ba87683"
+    }
+  ],
+  "boundary": "Selected originals and report provenance verified; no fresh full archive rehash or experiments. Historical inventory is retained unchanged."
+}

@@ -1,0 +1,153 @@
+{
+  "status": "PASS_PRELIMINARY_R02",
+  "checked_at_utc": "2026-10-30T04:48:28.645841+00:00",
+  "packages": [
+    {
+      "package": "QPathformer_v0.6_Study",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\dist\\QPathformer_v0.6_Study.zip",
+        "bytes": 1967452,
+        "sha256": "4c5f85ae03acf03d3029497de0e630a102708f376265c58bdb9eaaaf8485cc36"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\dist\\QPathformer_v0.6_Study.seal.json",
+        "bytes": 1521,
+        "sha256": "4d907488b26a435793d0d26ea1aff1c5f67db4905cdb9acf0ab2bb67c975d371"
+      },
+      "files": 16,
+      "actual_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02"
+    },
+    {
+      "package": "QPathformer_v0.6_Documentation",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\dist\\QPathformer_v0.6_Documentation.zip",
+        "bytes": 47850,
+        "sha256": "41f26786e1018f55c08511f2481d227617a9a5015efd89f5b1debb31308e940d"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\dist\\QPathformer_v0.6_Documentation.seal.json",
+        "bytes": 1551,
+        "sha256": "8082653851287620d3dfc8bf43fe073eedee1d492a94c9e556936467c9203ce0"
+      },
+      "files": 24,
+      "actual_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02"
+    },
+    {
+      "package": "QPathformer_v0.6_Code",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\dist\\QPathformer_v0.6_Code.zip",
+        "bytes": 316728,
+        "sha256": "d5070fe265018f0100e2dc8806a3c72b7f585048881f1beec7936f810563a22e"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\dist\\QPathformer_v0.6_Code.seal.json",
+        "bytes": 1519,
+        "sha256": "47d10c4a425809f8622d3d3b2791e0e885eb43dfa60f323f6a5704b4c4836056"
+      },
+      "files": 90,
+      "actual_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02"
+    }
+  ],
+  "assets": [
+    {
+      "name": "QPathformer_v0.6_Code.seal.json",
+      "bytes": 1519,
+      "sha256": "47d10c4a425809f8622d3d3b2791e0e885eb43dfa60f323f6a5704b4c4836056"
+    },
+    {
+      "name": "QPathformer_v0.6_Code.zip",
+      "bytes": 316728,
+      "sha256": "d5070fe265018f0100e2dc8806a3c72b7f585048881f1beec7936f810563a22e"
+    },
+    {
+      "name": "QPathformer_v0.6_Documentation.seal.json",
+      "bytes": 1551,
+      "sha256": "8082653851287620d3dfc8bf43fe073eedee1d492a94c9e556936467c9203ce0"
+    },
+    {
+      "name": "QPathformer_v0.6_Documentation.zip",
+      "bytes": 47850,
+      "sha256": "41f26786e1018f55c08511f2481d227617a9a5015efd89f5b1debb31308e940d"
+    },
+    {
+      "name": "QPathformer_v0.6_Study.seal.json",
+      "bytes": 1521,
+      "sha256": "4d907488b26a435793d0d26ea1aff1c5f67db4905cdb9acf0ab2bb67c975d371"
+    },
+    {
+      "name": "QPathformer_v0.6_Study.zip",
+      "bytes": 1967452,
+      "sha256": "4c5f85ae03acf03d3029497de0e630a102708f376265c58bdb9eaaaf8485cc36"
+    }
+  ],
+  "source_map_entries_checked": 96,
+  "scopes": {
+    "Study": {
+      "GUIDANCE_LICENSE_SCOPE.json": {
+        "files": 4,
+        "bytes": 1199,
+        "sha256": "bb990c3d0147e7ee74b741cb1ebf2988c100f606b1ee3f635b286b7b10b1ba89"
+      },
+      "REPORT_LICENSE_SCOPE.json": {
+        "files": 2,
+        "bytes": 2045,
+        "sha256": "179ec07af5f69b0178dd838a3f896bf13aac93bace634705e7cd8aa46fc0f11d"
+      }
+    },
+    "Documentation": {
+      "GUIDANCE_LICENSE_SCOPE.json": {
+        "files": 8,
+        "bytes": 1868,
+        "sha256": "295647c1230b7c5613b6734ec52d1d7101b1839358e800f7daff537c4961ff4a"
+      }
+    },
+    "Code": {
+      "CODE_LICENSE_SCOPE.json": {
+        "files": 61,
+        "bytes": 18429,
+        "sha256": "fff1c95722d20e0cdcb8ff694a35233c79a4b51804b5122331a98cb7887b8e42"
+      },
+      "GUIDANCE_LICENSE_SCOPE.json": {
+        "files": 7,
+        "bytes": 1708,
+        "sha256": "72d2d8761de8dd8358ae9b82ba689690bdb5a735badb400e0185c5788391d7b0"
+      }
+    }
+  },
+  "scientific_python_files": 59,
+  "original_report_preservation": {
+    "source": {
+      "path": "C:\\Q2\\Improvement_Study_v0.6\\docs\\QPATH-RPT-007_Harder_Tasks_and_Faster_Inference_v0.6.docx",
+      "bytes": 867873,
+      "sha256": "e26164a4e9378ec3b1a2a26cc0cf6d47421550493ca3fb5fab6b868c0138c012"
+    },
+    "original_body_elements": 222,
+    "edition_note_elements": 6,
+    "tables_preserved": 39,
+    "figures_preserved": 3,
+    "changed_original_parts": [
+      "docProps/core.xml",
+      "word/document.xml"
+    ]
+  },
+  "scientific_inheritance": {
+    "exact_scientific_matches": 1,
+    "scientific_expression_blocks": 2,
+    "declared_catalog": {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\draft_batch_20261029\\ADOPTED_SCOPE_CATALOG.json",
+      "bytes": 143493,
+      "sha256": "c2469e6bd04fe24fcf99568e0e56aadca3ee1e476f0c17f937c9f04e768286f0"
+    },
+    "bound_catalog": {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\draft_batch_20261029\\history\\ADOPTED_SCOPE_CATALOG_initial.json",
+      "bytes": 143493,
+      "sha256": "c2469e6bd04fe24fcf99568e0e56aadca3ee1e476f0c17f937c9f04e768286f0"
+    },
+    "source_location_catalog": {
+      "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\draft_batch_20261029\\ADOPTED_SCOPE_CATALOG.json",
+      "bytes": 193887,
+      "sha256": "59dd27a0f4b1f857ed62d68a18d2fcfbac44415957c8c15e1d65ecfadf9d9fa5"
+    }
+  },
+  "review_boundary": "Independent exact package, source, adoption-scope, report XML/media and inherited-expression audit. Retained delivery manifest hash checked; no full archive scan, report render or scientific experiment rerun."
+}

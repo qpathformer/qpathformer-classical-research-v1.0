@@ -1,0 +1,250 @@
+{
+  "status": "PASS_STAGED_SCIENTIFIC_AND_PROSE_REVIEW",
+  "checked_at_utc": "2026-10-30T04:51:03.068738+00:00",
+  "reviewer": "Preparing agent; retained primary evidence cross-check, not a second reviewer",
+  "evidence": [
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.6\\governance\\ANALYSIS_PROTOCOL.json",
+      "bytes": 6852,
+      "sha256": "904bb7972de661bb7dcc501a9e55ff18675893064f0434e6fff0309add48d5f0"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.6\\governance\\LOCAL_READINESS_PROTOCOL.json",
+      "bytes": 6210,
+      "sha256": "cb7c1243f1ea1591e68083a6bb55c8e1c2362a86f9a622ae1e15143d90eb8637"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\deployment_confirmation\\summary.json",
+      "bytes": 2414351,
+      "sha256": "3e7e3965dc5123b4be84a07679f34f200faea07ce60bcde202556e498017bba9"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\classical_review\\confirmation_deployment_audit\\summary.json",
+      "bytes": 2764594,
+      "sha256": "5dd05619730015bce3c985eb4ab54b643841f8250b01ca5cd71dc014053ea423"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.6\\governance\\DEPLOYMENT_PROTOCOL.json",
+      "bytes": 3943,
+      "sha256": "ee9b3daacb706fbe2741251ec4242fdea2456e9d18ae151aac60462730a2ee56"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.6\\report_work\\report_content.json",
+      "bytes": 121474,
+      "sha256": "eb11b241b682597fca9ba81b34beab835d3a2ac617762c01cdbea08c1a716222"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\models.py",
+      "bytes": 13496,
+      "sha256": "ce25197f789917bd0225a8550f533f03f5b01a1112224ffa093599b8104bfb9b"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\confirmation_evaluation\\confirmation_checkerboard\\statistics\\population_summary.json",
+      "bytes": 136145,
+      "sha256": "c10a67fab10caabf5e1c7f80d6e0dcb0cad7d6142527343da34ca23f4ab5acdd"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\confirmation_evaluation\\confirmation_spiral\\statistics\\population_summary.json",
+      "bytes": 137113,
+      "sha256": "8f53f718a834670629635b2ad96406f7d6c7838e4e732d18cd93d3c4f114a4bc"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\confirmation_evaluation\\confirmation_annulus\\statistics\\population_summary.json",
+      "bytes": 137903,
+      "sha256": "e8ab4567af3380a6e01db7d3f5ae7ed9782d7b3ea7f4ec1cdb0de4cf52415b0d"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\confirmation_evaluation\\confirmation_disks\\statistics\\population_summary.json",
+      "bytes": 135083,
+      "sha256": "9251f935361310a047d6e2d22f14ec9c82866391eb9af354bb6d6198e54d3c08"
+    }
+  ],
+  "selected_source_bindings": [
+    {
+      "original": {
+        "path": "C:\\Q2\\Improvement_Study_v0.6\\governance\\ANALYSIS_PROTOCOL.json",
+        "bytes": 6852,
+        "sha256": "904bb7972de661bb7dcc501a9e55ff18675893064f0434e6fff0309add48d5f0"
+      },
+      "member": "QPathformer_v0.6_Code/payload/study/governance/ANALYSIS_PROTOCOL.json",
+      "byte_identical": true
+    },
+    {
+      "original": {
+        "path": "C:\\Q2\\Improvement_Study_v0.6\\governance\\LOCAL_READINESS_PROTOCOL.json",
+        "bytes": 6210,
+        "sha256": "cb7c1243f1ea1591e68083a6bb55c8e1c2362a86f9a622ae1e15143d90eb8637"
+      },
+      "member": "QPathformer_v0.6_Code/payload/study/governance/LOCAL_READINESS_PROTOCOL.json",
+      "byte_identical": true
+    },
+    {
+      "original": {
+        "path": "C:\\Q2\\Improvement_Study_v0.6\\governance\\DEPLOYMENT_PROTOCOL.json",
+        "bytes": 3943,
+        "sha256": "ee9b3daacb706fbe2741251ec4242fdea2456e9d18ae151aac60462730a2ee56"
+      },
+      "member": "QPathformer_v0.6_Code/payload/study/governance/DEPLOYMENT_PROTOCOL.json",
+      "byte_identical": true
+    },
+    {
+      "original": {
+        "path": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\models.py",
+        "bytes": 13496,
+        "sha256": "ce25197f789917bd0225a8550f533f03f5b01a1112224ffa093599b8104bfb9b"
+      },
+      "member": "QPathformer_v0.6_Code/payload/study/quantum/models.py",
+      "byte_identical": true
+    },
+    {
+      "original": {
+        "path": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\deployment_compiler.py",
+        "bytes": 5896,
+        "sha256": "a94b47b230a612595a04124194a9372c2efbf8e19670999a8af039dde5723404"
+      },
+      "member": "QPathformer_v0.6_Code/payload/study/quantum/deployment_compiler.py",
+      "byte_identical": true
+    }
+  ],
+  "primary_metric": "Common clipped BCE natural logs,clip[1e-7,1-1e-7]; lowerbetter; bounded comparison metric, not strictlyproper onraw[0,1].",
+  "primary_family_size": 16,
+  "training_seeds": 5,
+  "adjusted_confidence": 0.996875,
+  "record_resamples": 10000,
+  "contrasts": [
+    {
+      "population": "confirmation_checkerboard",
+      "contrast": "Multi minus Scalar",
+      "seed_interval": {
+        "mean": -0.056426616689756307,
+        "sample_sd": 0.012482272646937723,
+        "n": 5,
+        "confidence": 0.996875,
+        "lower": -0.09195359814661778,
+        "upper": -0.020899635232894828
+      },
+      "record_interval": [
+        -0.08332297756163543,
+        -0.028634160589540818
+      ]
+    },
+    {
+      "population": "confirmation_spiral",
+      "contrast": "Multi minus Scalar",
+      "seed_interval": {
+        "mean": -0.07537080333692918,
+        "sample_sd": 0.009919603157402474,
+        "n": 5,
+        "confidence": 0.996875,
+        "lower": -0.1036039278167826,
+        "upper": -0.04713767885707576
+      },
+      "record_interval": [
+        -0.10197652813843383,
+        -0.044815713306014235
+      ]
+    },
+    {
+      "population": "confirmation_annulus",
+      "contrast": "Multi minus Scalar",
+      "seed_interval": {
+        "mean": -0.001531393165960504,
+        "sample_sd": 0.0031363116249241724,
+        "n": 5,
+        "confidence": 0.996875,
+        "lower": -0.010457947495708761,
+        "upper": 0.007395161163787752
+      },
+      "record_interval": [
+        -0.011803440927549785,
+        0.008956963557632579
+      ]
+    },
+    {
+      "population": "confirmation_disks",
+      "contrast": "Multi minus Scalar",
+      "seed_interval": {
+        "mean": 0.0011076810309713907,
+        "sample_sd": 0.0010275680101927078,
+        "n": 5,
+        "confidence": 0.996875,
+        "lower": -0.0018169778573870917,
+        "upper": 0.004032339919329873
+      },
+      "record_interval": [
+        -0.0008291260897960699,
+        0.0034315518537837296
+      ]
+    }
+  ],
+  "readiness": {
+    "checkpoints": 40,
+    "aer_simulated_shots": 983040,
+    "separate_multinomial_trials": 265420800
+  },
+  "staged_file_identities": [
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\QPathformer_v0.6_Study\\RIGHTS.md",
+      "bytes": 1343,
+      "sha256": "1156c76a7c1ee68d34e571121a39d73a6a7c70ee08ce98a9bd5b71c7baa779e0"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\QPathformer_v0.6_Study\\START_HERE.md",
+      "bytes": 3024,
+      "sha256": "476f51a936334502978d964c0857bbd753edb416c753ae7bb679823715366419"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\QPathformer_v0.6_Study\\VERIFY.md",
+      "bytes": 1279,
+      "sha256": "b15eacdc200ecaf5baf37daa47d4a2c94cf0f8cd786e928d96d8c0b7441884f5"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\QPathformer_v0.6_Documentation\\RELEASE_NOTES.md",
+      "bytes": 4681,
+      "sha256": "92db2702863be49fc91aa7207748bbba78eed7e6ed29a43ed31a5f3fc6a56d9d"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\QPathformer_v0.6_Documentation\\RESEARCH_GUIDE.md",
+      "bytes": 11489,
+      "sha256": "18a6c5ef5bb142678a27ee3eefdbc316a4317651422ca9ae5a694f6be9469c16"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\QPathformer_v0.6_Documentation\\RIGHTS.md",
+      "bytes": 1343,
+      "sha256": "1156c76a7c1ee68d34e571121a39d73a6a7c70ee08ce98a9bd5b71c7baa779e0"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\QPathformer_v0.6_Documentation\\START_HERE.md",
+      "bytes": 2482,
+      "sha256": "6fb5df13a12f17683fccbb2374893a6c659ca82df44a4006571aef0398bafb87"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\QPathformer_v0.6_Documentation\\VERIFY.md",
+      "bytes": 1279,
+      "sha256": "b15eacdc200ecaf5baf37daa47d4a2c94cf0f8cd786e928d96d8c0b7441884f5"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\QPathformer_v0.6_Code\\RIGHTS.md",
+      "bytes": 1343,
+      "sha256": "1156c76a7c1ee68d34e571121a39d73a6a7c70ee08ce98a9bd5b71c7baa779e0"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\QPathformer_v0.6_Code\\START_HERE.md",
+      "bytes": 3103,
+      "sha256": "3174be13a4761513de014ca89bf42a9eca3a3389c04790c78b172c79efa3e08d"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\QPathformer_v0.6_Code\\VERIFY.md",
+      "bytes": 1279,
+      "sha256": "b15eacdc200ecaf5baf37daa47d4a2c94cf0f8cd786e928d96d8c0b7441884f5"
+    }
+  ],
+  "release_body": {
+    "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\RELEASE_BODY.md",
+    "bytes": 7034,
+    "sha256": "e5c3a226ea75d556df28345370491e36b25c53ae25209edbdb2a0c46a23133a9"
+  },
+  "licensing": "Existing terms and adoption decision preserved; current scope identity bindings refreshed during assembly",
+  "final_package_verification": "Pending final sealing, extraction/startup and authenticated draft downloads",
+  "no_experiments_run": true
+}

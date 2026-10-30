@@ -1,0 +1,86 @@
+{
+  "status": "PASS_FRESH_EXTRACTION_AND_BOUNDED_STARTUP",
+  "checked_at_utc": "2026-10-30T04:51:34.095895+00:00",
+  "packages": [
+    {
+      "package": "QPathformer_v0.6_Code",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\dist\\QPathformer_v0.6_Code.zip",
+        "bytes": 326615,
+        "sha256": "5345f8858ba8d597afa140fdf9dd1fad653172df3032704cf75bba3baa6c9a40"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\dist\\QPathformer_v0.6_Code.seal.json",
+        "bytes": 1555,
+        "sha256": "ae4913937ab0e6661a413143b0455c9bf272d8fd1e8c50dbe0e17a9e82e09c26"
+      },
+      "fresh_extraction": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\qa\\fresh_extraction\\QPathformer_v0.6_Code",
+      "verification": {
+        "status": "PASS",
+        "files": 90
+      }
+    },
+    {
+      "package": "QPathformer_v0.6_Documentation",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\dist\\QPathformer_v0.6_Documentation.zip",
+        "bytes": 55288,
+        "sha256": "e911957bacdbe1f54314951ad71323e3f34e6d77e945d187e897a24cd06e29ca"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\dist\\QPathformer_v0.6_Documentation.seal.json",
+        "bytes": 1588,
+        "sha256": "a44845ecd2af8defbed647c26c6536f9bb3ed09ca78ed786f9500bbdc83f4bc2"
+      },
+      "fresh_extraction": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\qa\\fresh_extraction\\QPathformer_v0.6_Documentation",
+      "verification": {
+        "status": "PASS",
+        "files": 24
+      }
+    },
+    {
+      "package": "QPathformer_v0.6_Study",
+      "zip": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\dist\\QPathformer_v0.6_Study.zip",
+        "bytes": 1969092,
+        "sha256": "293362ea6059fcdb4ceaf9564eecc8c76747e54b3b639967a01f1f9b7ec31cd6"
+      },
+      "seal": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\dist\\QPathformer_v0.6_Study.seal.json",
+        "bytes": 1557,
+        "sha256": "795a27660f813a788b2409a9f2fcdf6a728951afd6fb57c305ee98aa510bbd51"
+      },
+      "fresh_extraction": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\qa\\fresh_extraction\\QPathformer_v0.6_Study",
+      "verification": {
+        "status": "PASS",
+        "files": 16
+      }
+    }
+  ],
+  "code_zip": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\dist\\QPathformer_v0.6_Code.zip",
+    "bytes": 326615,
+    "sha256": "5345f8858ba8d597afa140fdf9dd1fad653172df3032704cf75bba3baa6c9a40"
+  },
+  "code_seal": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\dist\\QPathformer_v0.6_Code.seal.json",
+    "bytes": 1555,
+    "sha256": "ae4913937ab0e6661a413143b0455c9bf272d8fd1e8c50dbe0e17a9e82e09c26"
+  },
+  "code_startup_receipt": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\receipts\\QPathformer_v0.6_Code.startup.json",
+    "bytes": 13434,
+    "sha256": "cdb9a95be07d18016939ff921d2b58c90a5a4723954b41ef1f27e8b9c0b259c6"
+  },
+  "package_bytes_unchanged": true,
+  "receipt_outside_entire_package": true,
+  "scope": "Exact package integrity before and after startup; all selected Python parsed; v0.6 numerical imports and exactly six required tests: model parameter shapes/paired initial predictions, independent circuit-state/moment agreement, orthogonal conversion nodes, both heads off grid/forced banks, constant logits/invalid contracts and the learned Trig25 coefficient kernel. Network disabled in test subprocesses. No official input files used.",
+  "not_verified": [
+    "Clean-room dependency installation",
+    "Full training or official scoring",
+    "Datasets and selected checkpoints",
+    "Full-archive relocation",
+    "Shot sampling or noise experiments",
+    "Hardware or QPU execution"
+  ]
+}

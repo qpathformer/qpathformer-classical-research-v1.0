@@ -1,0 +1,131 @@
+{
+  "study_id": "QPATH-GENERALIZATION-v0.6",
+  "status": "DESIGN_PREPARED_BEFORE_DATA_AND_OFFICIAL_TRAINING",
+  "working_root": "C:\\Anthony Siljeg\\Q2_improvement_study_v06",
+  "delivery_root": "C:\\Q2\\Improvement_Study_v0.6",
+  "authorization": "User authorized a complete internal local v0.6 study with harder fresh tasks, faster classical inference and quantum simulator tests. Preserve sealed v0.5. No IBM hardware, cloud jobs, publication, external messages or new text benchmark.",
+  "purpose": "Measure generalization on four harder synthetic boundary families, compare useful classical implementations and verify an algebraically equivalent faster deployment of selected circuit logits. Prepare evidence for later hardware, without a quantum-advantage objective.",
+  "methods": [
+    "qscalar_kmeans",
+    "qmulti_kmeans",
+    "mlp8tanh_kmeans",
+    "trig_kmeans",
+    "trig_global",
+    "mlp_global"
+  ],
+  "models": {
+    "core": "Unchanged v0.5 two-qubit depth-two RY feature reuploading, trainable RY/RZ and CX core. Eight trainable angles per bank; raw inputs x0,x1. Same core initialization for Scalar/Multi.",
+    "qscalar_kmeans": "Five banks; learned sigmoid(w*X0+b), joint core/head training;50 trainable parameters.",
+    "qmulti_kmeans": "Five banks; learned sigmoid of [X0,X1,Z0,Z1,Z0Z1] and bias;70 trainable parameters.",
+    "mlp8tanh_kmeans": "Five banks of width8 single-hidden-layer tanh networks;165 trainable parameters.",
+    "trig_kmeans": "Five banks of25 tensor trigonometric features;125 trainable coefficients.",
+    "trig_global": "One bank of25 tensor trigonometric features;25 coefficients.",
+    "mlp_global": "One width32 ReLU network;129 trainable parameters.",
+    "routing": "Shared immutable training-only five-kmeans spatial router per population; ten centroid coordinates counted separately. All routed methods share it. Input-only hash routes retained as provenance if emitted; no hash training arm.",
+    "compiled_representation": "Scalar/Multi coefficients converted after checkpoint selection to exact per-bank Trig25 logits. This is an alternate inference representation of the same trained model, not another training arm or accuracy improvement."
+  },
+  "data": {
+    "registration": "governance/DATA_REGISTRATION.json",
+    "families": [
+      "checkerboard",
+      "spiral",
+      "annulus",
+      "disks"
+    ],
+    "populations": {
+      "engineering": [
+        "engineering_checkerboard",
+        "engineering_spiral",
+        "engineering_annulus",
+        "engineering_disks"
+      ],
+      "A": [
+        "development_checkerboard",
+        "development_spiral",
+        "development_annulus",
+        "development_disks"
+      ],
+      "B": [
+        "confirmation_checkerboard",
+        "confirmation_spiral",
+        "confirmation_annulus",
+        "confirmation_disks"
+      ]
+    },
+    "records_per_population": 8000,
+    "train": 4800,
+    "validation": 1600,
+    "test": 1600,
+    "distribution": "Independent raw uniform[-1,1]^2 coordinates. Fresh exact-coordinate exclusions against all v0.1-v0.5 sources and earlier v0.6 populations; signed zero canonicalized.",
+    "checkerboard": "y=1[sin(3*pi*x0+pi/7)*sin(3*pi*x1+pi/5)>0], clean.",
+    "spiral": "y=1[sin(2*atan2(x1,x0)+4*pi*sqrt(x0*x0+x1*x1))>0], clean.",
+    "annulus": "Latent y=1[0.25<x0*x0+x1*x1<0.85]; observed label independently flipped with Bernoulli probability0.10. Realized fraction is not forced to10 percent.",
+    "disks": "Positive union of three radius0.22 disks centered(-0.55,-0.45),(0.50,-0.35),(0,0.55), clean. Approximately11.4 percent positive.",
+    "splits": "Observed-label stratification preserving natural prevalence, not class balancing. All model/router fitting uses training data only. Latent labels and flip masks are provenance only.",
+    "limits": "Four synthetic two-dimensional families, not a real tabular or language-model benchmark. Higher frequency, curved topology, irreducible label noise and rarity are predefined stressors; no assumption every observed score will decline.",
+    "gate": "No confirmation test model predictions, scores, deployment parity or labels-based diagnostics until all120 B endpoints are committed, independently audited and hash-bound root release is issued."
+  },
+  "training": {
+    "rounds": 200,
+    "batch_size": 64,
+    "optimizer_updates": 15000,
+    "optimizer": "Adam",
+    "learning_rate": 0.01,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "epsilon": 1e-08,
+    "weight_decay": 0,
+    "native_loss": "All six methods optimize stable unbounded logit BCE; no hard-zero gradient due to probability clipping.",
+    "selection": "Earliest exact minimum full-validation common clipped BCE, clip[1e-7,1-1e-7]. Every run completes all200 rounds. No early stopping or test selection.",
+    "evidence": "Every-round parameters, validation probabilities/logits/native losses, record orders, optimizer updates/ledgers, selected and final checkpoints, source/data/router hashes and work counters.",
+    "seed_pairing": "Same record orders across methods within population/seed. Scalar/Multi use identical core initialization and initial predictions. Different model families retain their declared v0.5 initialization."
+  },
+  "stages": {
+    "A": {
+      "populations": [
+        "development_checkerboard",
+        "development_spiral",
+        "development_annulus",
+        "development_disks"
+      ],
+      "seeds": [
+        1101,
+        1102
+      ],
+      "runs": 48
+    },
+    "B": {
+      "populations": [
+        "confirmation_checkerboard",
+        "confirmation_spiral",
+        "confirmation_annulus",
+        "confirmation_disks"
+      ],
+      "seeds": [
+        1201,
+        1202,
+        1203,
+        1204,
+        1205
+      ],
+      "runs": 120
+    },
+    "progression": "All six arms and four families continue regardless of development rank. Independent audit of all48 full A endpoints before root B freeze. No model search or budget/source change after freeze."
+  },
+  "engineering": {
+    "populations": [
+      "engineering_checkerboard",
+      "engineering_spiral",
+      "engineering_annulus",
+      "engineering_disks"
+    ],
+    "seed": 10901,
+    "rounds": 3,
+    "updates": 225,
+    "runs": 24,
+    "purpose": "Correctness and feasibility only; no test scoring. Preserve every failed attempt and document fixes before official source freeze."
+  },
+  "completion": "24 engineering plus168 full training endpoints; both-stage all-round audits; official scoring and independent prediction/statistics replay; exact compilation and independent coefficient verification; isolated inference benchmark; frozen local simulator/noise/shot capsule and independent audit; v0.5/Baseline5 after checks; QPATH RPT007 Word report all pages inspected; verified reproducible delivery."
+}

@@ -1,0 +1,334 @@
+{
+  "study_version": "v0.6",
+  "actual_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3",
+  "source_root": "C:\\Q2\\Improvement_Study_v0.6",
+  "original_report": {
+    "path": "C:\\Q2\\Improvement_Study_v0.6\\docs\\QPATH-RPT-007_Harder_Tasks_and_Faster_Inference_v0.6.docx",
+    "bytes": 867873,
+    "sha256": "e26164a4e9378ec3b1a2a26cc0cf6d47421550493ca3fb5fab6b868c0138c012",
+    "figures": 3,
+    "tables": 39
+  },
+  "source_delivery_manifest": {
+    "path": "C:\\Q2\\Improvement_Study_v0.6\\DELIVERY_MANIFEST.json",
+    "bytes": 5077038,
+    "sha256": "e55dd7b6a449654c99cd6c65bbae2d559c24098f5db1748643164a8db8ac949e"
+  },
+  "files": [
+    {
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\assembly\\QPathformer_v0.6_Documentation\\GUIDANCE_LICENSE_SCOPE.json",
+      "source_identity": {
+        "bytes": 1923,
+        "sha256": "3159e9e6e8894305cfb4f429654ce06c506655e48d47eef714fed87ba23f7e64"
+      },
+      "output_identity": {
+        "bytes": 1923,
+        "sha256": "3159e9e6e8894305cfb4f429654ce06c506655e48d47eef714fed87ba23f7e64"
+      },
+      "classification": "reviewed_current_revision",
+      "previous_edition_identity": {
+        "bytes": 1868,
+        "sha256": "295647c1230b7c5613b6734ec52d1d7101b1839358e800f7daff537c4961ff4a"
+      },
+      "handling": "Current helper/guidance or exact record binding updated; preserved report/scientific/historical bytes unchanged."
+    },
+    {
+      "path": "LICENSE_ADOPTION.json",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\assembly\\QPathformer_v0.6_Documentation\\LICENSE_ADOPTION.json",
+      "source_identity": {
+        "bytes": 1557,
+        "sha256": "a4347781bef9bd2feaa6491bf73320e76f59020460846ef84d3b2ed28f0eb790"
+      },
+      "output_identity": {
+        "bytes": 1557,
+        "sha256": "a4347781bef9bd2feaa6491bf73320e76f59020460846ef84d3b2ed28f0eb790"
+      },
+      "classification": "reviewed_current_revision",
+      "previous_edition_identity": {
+        "bytes": 1526,
+        "sha256": "9271eba3e35779c48ee7abd5c66b9aef40215a3892f1a5e2968b64db2b0ce534"
+      },
+      "handling": "Current helper/guidance or exact record binding updated; preserved report/scientific/historical bytes unchanged."
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\assembly\\QPathformer_v0.1_Code\\LICENSES\\CC-BY-4.0.txt",
+      "source_identity": {
+        "bytes": 18615,
+        "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+      },
+      "output_identity": {
+        "bytes": 18615,
+        "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+      },
+      "classification": "canonical_unchanged_license"
+    },
+    {
+      "path": "QPATHFORMER-PLATFORM-1.0.txt",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\assembly\\QPathformer_v0.1_Code\\QPATHFORMER-PLATFORM-1.0.txt",
+      "source_identity": {
+        "bytes": 1461,
+        "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+      },
+      "output_identity": {
+        "bytes": 1461,
+        "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+      },
+      "classification": "canonical_unchanged_license"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\assembly\\QPathformer_v0.6_Documentation\\RELEASE_NOTES.md",
+      "source_identity": {
+        "bytes": 4681,
+        "sha256": "92db2702863be49fc91aa7207748bbba78eed7e6ed29a43ed31a5f3fc6a56d9d"
+      },
+      "output_identity": {
+        "bytes": 4681,
+        "sha256": "92db2702863be49fc91aa7207748bbba78eed7e6ed29a43ed31a5f3fc6a56d9d"
+      },
+      "classification": "reviewed_current_revision",
+      "previous_edition_identity": {
+        "bytes": 525,
+        "sha256": "e7294fb39908425e5d5b6c598b9d1eacf2d6a3b3d86667f625f7079f61419c95"
+      },
+      "handling": "Current helper/guidance or exact record binding updated; preserved report/scientific/historical bytes unchanged."
+    },
+    {
+      "path": "RESEARCH_GUIDE.md",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\assembly\\QPathformer_v0.6_Documentation\\RESEARCH_GUIDE.md",
+      "source_identity": {
+        "bytes": 11489,
+        "sha256": "18a6c5ef5bb142678a27ee3eefdbc316a4317651422ca9ae5a694f6be9469c16"
+      },
+      "output_identity": {
+        "bytes": 11489,
+        "sha256": "18a6c5ef5bb142678a27ee3eefdbc316a4317651422ca9ae5a694f6be9469c16"
+      },
+      "classification": "reviewed_current_revision",
+      "previous_edition_identity": {
+        "bytes": 2342,
+        "sha256": "9b0b9f598afdc02ded489de231e1f9bcf93f2ef5597504374af1b4e0a679e80a"
+      },
+      "handling": "Current helper/guidance or exact record binding updated; preserved report/scientific/historical bytes unchanged."
+    },
+    {
+      "path": "RIGHTS.md",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\assembly\\QPathformer_v0.6_Documentation\\RIGHTS.md",
+      "source_identity": {
+        "bytes": 1343,
+        "sha256": "1156c76a7c1ee68d34e571121a39d73a6a7c70ee08ce98a9bd5b71c7baa779e0"
+      },
+      "output_identity": {
+        "bytes": 1343,
+        "sha256": "1156c76a7c1ee68d34e571121a39d73a6a7c70ee08ce98a9bd5b71c7baa779e0"
+      },
+      "classification": "reviewed_current_revision",
+      "previous_edition_identity": {
+        "bytes": 1092,
+        "sha256": "fe73c673f2c2538bcf467fa078f51084c26945d4540a9d1856619f7402fc90d3"
+      },
+      "handling": "Current helper/guidance or exact record binding updated; preserved report/scientific/historical bytes unchanged."
+    },
+    {
+      "path": "source_guidance/governance/ANALYSIS_PROTOCOL.json",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\ANALYSIS_PROTOCOL.json",
+      "source_identity": {
+        "bytes": 6852,
+        "sha256": "904bb7972de661bb7dcc501a9e55ff18675893064f0434e6fff0309add48d5f0"
+      },
+      "output_identity": {
+        "bytes": 6852,
+        "sha256": "904bb7972de661bb7dcc501a9e55ff18675893064f0434e6fff0309add48d5f0"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "source_guidance/governance/DEPLOYMENT_PROTOCOL.json",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\DEPLOYMENT_PROTOCOL.json",
+      "source_identity": {
+        "bytes": 3943,
+        "sha256": "ee9b3daacb706fbe2741251ec4242fdea2456e9d18ae151aac60462730a2ee56"
+      },
+      "output_identity": {
+        "bytes": 3943,
+        "sha256": "ee9b3daacb706fbe2741251ec4242fdea2456e9d18ae151aac60462730a2ee56"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "source_guidance/governance/LOCAL_READINESS_PROTOCOL.json",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\LOCAL_READINESS_PROTOCOL.json",
+      "source_identity": {
+        "bytes": 6210,
+        "sha256": "cb7c1243f1ea1591e68083a6bb55c8e1c2362a86f9a622ae1e15143d90eb8637"
+      },
+      "output_identity": {
+        "bytes": 6210,
+        "sha256": "cb7c1243f1ea1591e68083a6bb55c8e1c2362a86f9a622ae1e15143d90eb8637"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "source_guidance/governance/numeric_replay_requirements.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\numeric_replay_requirements.txt",
+      "source_identity": {
+        "bytes": 258,
+        "sha256": "a1a9d7f981cecc86198a5564b341d7378881dac35b402c5817b021f75d7d38b1"
+      },
+      "output_identity": {
+        "bytes": 258,
+        "sha256": "a1a9d7f981cecc86198a5564b341d7378881dac35b402c5817b021f75d7d38b1"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "source_guidance/governance/numeric_requirements_observed.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\numeric_requirements_observed.txt",
+      "source_identity": {
+        "bytes": 598,
+        "sha256": "f9ed4051fe538785ac6465a624b2d517c4bdda1eaf91c18490887a0db053808d"
+      },
+      "output_identity": {
+        "bytes": 598,
+        "sha256": "f9ed4051fe538785ac6465a624b2d517c4bdda1eaf91c18490887a0db053808d"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "source_guidance/governance/plotting_replay_requirements.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\plotting_replay_requirements.txt",
+      "source_identity": {
+        "bytes": 295,
+        "sha256": "e2bae301a23532ff9590268d7d63e378be4374a1998fabce2a23016ac9e3ef7d"
+      },
+      "output_identity": {
+        "bytes": 295,
+        "sha256": "e2bae301a23532ff9590268d7d63e378be4374a1998fabce2a23016ac9e3ef7d"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "source_guidance/governance/REPRODUCTION_TECHNICAL_NOTES.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\REPRODUCTION_TECHNICAL_NOTES.txt",
+      "source_identity": {
+        "bytes": 15837,
+        "sha256": "741209eb2bb90be6f4905df7bfc6332e0be889e097f9bf0a6835d7499e204938"
+      },
+      "output_identity": {
+        "bytes": 15837,
+        "sha256": "741209eb2bb90be6f4905df7bfc6332e0be889e097f9bf0a6835d7499e204938"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "source_guidance/governance/scientific_plot_requirements_lock.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\scientific_plot_requirements_lock.txt",
+      "source_identity": {
+        "bytes": 878,
+        "sha256": "8975fdfa7eff0dd815f7ab3f9b31df60048ef86961955b9095ae5e49e9c76082"
+      },
+      "output_identity": {
+        "bytes": 878,
+        "sha256": "8975fdfa7eff0dd815f7ab3f9b31df60048ef86961955b9095ae5e49e9c76082"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "source_guidance/governance/simulator_requirements_lock.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\simulator_requirements_lock.txt",
+      "source_identity": {
+        "bytes": 801,
+        "sha256": "7255bc0697e54ec529a0e79c14456d5696fd2ddba8b8deb72fb98bc06a0e415e"
+      },
+      "output_identity": {
+        "bytes": 801,
+        "sha256": "7255bc0697e54ec529a0e79c14456d5696fd2ddba8b8deb72fb98bc06a0e415e"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "source_guidance/governance/STUDY_PLAN.json",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\STUDY_PLAN.json",
+      "source_identity": {
+        "bytes": 6937,
+        "sha256": "4552a6de4b72cf860ab3e6712f33539de404687c95b36e053ead44627579864f"
+      },
+      "output_identity": {
+        "bytes": 6937,
+        "sha256": "4552a6de4b72cf860ab3e6712f33539de404687c95b36e053ead44627579864f"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "source_guidance/README.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\README.txt",
+      "source_identity": {
+        "bytes": 3121,
+        "sha256": "aa88cd1e85bd3607c9146aac20b3cca22763ce77412a053bdeac6aad5d560443"
+      },
+      "output_identity": {
+        "bytes": 3121,
+        "sha256": "aa88cd1e85bd3607c9146aac20b3cca22763ce77412a053bdeac6aad5d560443"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "source_guidance/REPRODUCTION_GUIDE.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\REPRODUCTION_GUIDE.txt",
+      "source_identity": {
+        "bytes": 16363,
+        "sha256": "de12ce1144056e7f5dfea54a1a8ebf1f3a57f0deb331024181667d31c201704c"
+      },
+      "output_identity": {
+        "bytes": 16363,
+        "sha256": "de12ce1144056e7f5dfea54a1a8ebf1f3a57f0deb331024181667d31c201704c"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "START_HERE.md",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\assembly\\QPathformer_v0.6_Documentation\\START_HERE.md",
+      "source_identity": {
+        "bytes": 2482,
+        "sha256": "6fb5df13a12f17683fccbb2374893a6c659ca82df44a4006571aef0398bafb87"
+      },
+      "output_identity": {
+        "bytes": 2482,
+        "sha256": "6fb5df13a12f17683fccbb2374893a6c659ca82df44a4006571aef0398bafb87"
+      },
+      "classification": "reviewed_current_revision",
+      "previous_edition_identity": {
+        "bytes": 1140,
+        "sha256": "743a5590d64864a4a5fbd686c1a6d22d2b16c17d3506397e2354d2fa68947b69"
+      },
+      "handling": "Current helper/guidance or exact record binding updated; preserved report/scientific/historical bytes unchanged."
+    },
+    {
+      "path": "VERIFY.md",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\assembly\\QPathformer_v0.6_Documentation\\VERIFY.md",
+      "source_identity": {
+        "bytes": 1279,
+        "sha256": "b15eacdc200ecaf5baf37daa47d4a2c94cf0f8cd786e928d96d8c0b7441884f5"
+      },
+      "output_identity": {
+        "bytes": 1279,
+        "sha256": "b15eacdc200ecaf5baf37daa47d4a2c94cf0f8cd786e928d96d8c0b7441884f5"
+      },
+      "classification": "reviewed_current_revision",
+      "previous_edition_identity": {
+        "bytes": 625,
+        "sha256": "f721c391a965641b181706a2d1afdcc6af034b141b28722d6ac3371b228b0ce2"
+      },
+      "handling": "Current helper/guidance or exact record binding updated; preserved report/scientific/historical bytes unchanged."
+    }
+  ],
+  "generated_files": [],
+  "retained_full_archive": {
+    "logical_payload_bytes": 2229408138,
+    "files": 20859,
+    "not_included": true
+  },
+  "size_note": "Retained archive size is distinct from curated ZIP size and hardware minimums."
+}

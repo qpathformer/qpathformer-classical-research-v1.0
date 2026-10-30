@@ -1,0 +1,32 @@
+{
+  "status": "ADOPTED",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "files": [
+    {
+      "path": "provenance/EDITION_CHANGES.md",
+      "bytes": 763,
+      "sha256": "2b7d5aee9986ca4c69079367f17939a03870211c5e8ba4ff118f9a0cdf39db1a"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 1343,
+      "sha256": "1156c76a7c1ee68d34e571121a39d73a6a7c70ee08ce98a9bd5b71c7baa779e0"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 3024,
+      "sha256": "476f51a936334502978d964c0857bbd753edb416c753ae7bb679823715366419"
+    },
+    {
+      "path": "VERIFY.md",
+      "bytes": 1279,
+      "sha256": "b15eacdc200ecaf5baf37daa47d4a2c94cf0f8cd786e928d96d8c0b7441884f5"
+    }
+  ],
+  "scope": "Controlled original explanatory prose in exact listed files. Any previously licensed expression retains its existing grant. Canonical license texts, technical JSON records, third-party expression and scientific artifacts are not blanket covered.",
+  "license": "CC-BY-4.0",
+  "licensor": "Anthony Siljeg",
+  "adopted_on": "2026-10-29",
+  "timezone": "Australia/Sydney",
+  "adoption_record": "LICENSE_ADOPTION.json"
+}

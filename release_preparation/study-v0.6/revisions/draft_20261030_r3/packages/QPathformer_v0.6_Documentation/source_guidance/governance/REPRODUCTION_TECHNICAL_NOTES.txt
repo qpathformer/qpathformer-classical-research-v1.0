@@ -1,0 +1,250 @@
+Q-Pathformer v0.6: reproduction preparation notes
+Study: QPATH-GENERALIZATION-v0.6
+Internal; prepared before scientific completion and final delivery.
+
+This file describes the retained implementation and its command interfaces. It
+does not assert that future training, test scoring, audits or delivery passed.
+The final Word report is docs/QPATH-RPT-007_Harder_Tasks_and_Faster_Inference_v0.6.docx.
+Only actual commits, final review and both delivery verifications establish closure.
+
+1. Preserve the evidence package
+
+Never run computations inside a delivered or sealed package. Verification is
+read-only. Use an explicit fresh writable copy, retain all original metadata,
+and give every derived computation a fresh output directory. Do not delete an
+old result to make a guard pass. Failed partial outputs must be preserved.
+
+The exact root manifest excludes only itself and two root verification metadata
+files. It includes sources, datasets, every-round training evidence, checkpoints,
+official predictions, independent replays, simulator and deployment outputs,
+snapshot JSON, source/analysis locks, report sources and scientific reviews.
+Virtual environments, bytecode, generated synthetic test trees, plot caches,
+Word page-render intermediates and a duplicate working Word file are excluded
+at copy time. Their durable sources, logs and review evidence remain. Compact
+quantum/preflight_evidence is retained; it is synthetic evidence, not trained-model
+findings. Exact omissions are in governance/DELIVERY_COPY_RECORD.json.
+
+PowerShell example: use a real final manifest SHA obtained from the parent
+delivery record, not a guessed value. The names below are explicit examples.
+
+  $qpathPackage = 'C:\Q2\Improvement_Study_v0.6'
+  $qpathPython = 'C:\Q2\Implementation_v0.1\.venv\Scripts\python.exe'
+  $qpathManifestSha = '<exact delivered manifest SHA256>'
+  & $qpathPython -B (Join-Path $qpathPackage 'governance\verify_delivery_independent.py') --package-root $qpathPackage --expected-manifest-sha256 $qpathManifestSha --output 'C:\Anthony Siljeg\v06_verify_fresh.json'
+
+The second verifier uses PowerShell 7 (System.Text.Json), independently of Python:
+
+  & pwsh -NoProfile -File (Join-Path $qpathPackage 'governance\Verify_Delivery.ps1') -PackageRoot $qpathPackage
+
+Both verification tools read payloads only. The Python --output must be absent
+and outside the inspected package. Do not redirect a verifier log into the package.
+
+To prepare a new copy, first run without --copy for a preflight, then explicitly
+request --copy. Destination and receipt must be absent; neither may be inside
+the source, and the receipt must also be outside the destination.
+
+  & $qpathPython -B (Join-Path $qpathPackage 'governance\prepare_reproduction_copy.py') --package-root $qpathPackage --destination 'C:\Anthony Siljeg\QPath_v06_reproduction_001' --expected-manifest-sha256 $qpathManifestSha --receipt 'C:\Anthony Siljeg\v06_reproduction_copy_001.json' --copy
+  $qpathCopy = 'C:\Anthony Siljeg\QPath_v06_reproduction_001'
+
+The helper fully verifies the source and copied inventory before returning PASS.
+After new derived outputs are added, the writable copy intentionally no longer
+has the initial manifest inventory. The original delivered package remains intact.
+
+2. Runtime separation
+
+Numerical training, official scoring, independent prediction/statistics replay
+and deployment benchmarking used the read-only existing Python3.12.14 runtime
+recorded in governance/RUNTIME.json. NumPy2.5.4 is required for registered RNG and
+replay gates. The direct dependencies are numeric_replay_requirements.txt;
+numeric_requirements_observed.txt records all observed installed distributions.
+These version lists are not wheel-hash locks or a claim of bitwise portability.
+Set one thread before starting the numerical process:
+
+  $env:OMP_NUM_THREADS='1'
+  $env:OPENBLAS_NUM_THREADS='1'
+  $env:MKL_NUM_THREADS='1'
+  $env:NUMEXPR_NUM_THREADS='1'
+
+The local snapshot/noise capsule used a separate .venv_sim with Qiskit2.6.0,
+Aer0.17.2 and qiskit-ibm-runtime0.50.0. The complete observed installation list
+is governance/simulator_requirements_lock.txt and installation log is retained.
+The virtual environment itself is not distributed. No IBM account, service,
+credential, backend refresh or hardware job is needed by the retained capsule.
+Its immutable FakeManila snapshot is in quantum/device_snapshot, with source,
+package/wheel provenance, archived calibration date and payload hashes.
+It is a historical approximate noise model, not current device calibration.
+
+For future authorized setup, install only into new environments outside the
+evidence package. These commands are documentation, not actions run by packaging:
+
+  py -3.12 -m venv 'C:\Anthony Siljeg\v06_numeric_replay_env'
+  & 'C:\Anthony Siljeg\v06_numeric_replay_env\Scripts\python.exe' -m pip install -r (Join-Path $qpathCopy 'governance\numeric_replay_requirements.txt')
+  py -3.12 -m venv 'C:\Anthony Siljeg\v06_simulator_replay_env'
+  & 'C:\Anthony Siljeg\v06_simulator_replay_env\Scripts\python.exe' -m pip install -r (Join-Path $qpathCopy 'governance\simulator_requirements_lock.txt')
+
+Availability of the recorded distributions on another host is not guaranteed.
+Do not silently substitute versions when exact numerical replay is required.
+Record new interpreter/library versions, architecture and thread settings.
+
+Scientific plots have a separate small environment specification:
+governance/plotting_replay_requirements.txt (Matplotlib3.11.2, NumPy2.3.5,
+Pillow12.3.0). scientific_plot_requirements_lock.txt retains observed bundled
+authoring metadata; its artifact_tool_v2 local temporary path is not a portable
+pip requirement. Do not install that whole observed list as a clean-room lock.
+Primary Word authoring used the Codex bundled document runtime; native Word
+and font/render dependencies remain machine-specific and are recorded by root.
+The standalone plot runtime does not replace Word authoring or numerical replay.
+
+3. Retained data and original provenance
+
+Twelve independent populations cover engineering/development/confirmation for
+checkerboard, spiral, noisy annulus and rare-positive disks. All populations have
+8,000 records split4,800/1,600/1,600 with observed-label stratification preserving
+prevalence. Training-only five-kmeans policies are frozen. Models consume raw2D
+coordinates and applicable fixed routes. clean_y and label_flip are audit fields;
+they are never model/router fitting or checkpoint-selection inputs.
+Annulus flips are independent Bernoulli0.10, not forced to exactly10percent.
+
+The package contains all36 NPZ files and12 router policies needed for retained
+model/evaluation replay. DATA_REGISTRATION and DATA_SEAL bind formulas/seeds,
+historical exclusions, sources, bytes and exact-coordinate novelty. Full original
+generation also read65 historical NPZ sources outside this package. Recreating
+that exclusion audit requires those exact historical inputs and reviewed path
+mapping; no clean-room regeneration claim is made. The delivered saved data are
+sufficient for the registered model, scoring and independent replay interfaces.
+
+Registered absolute paths are provenance. The official evaluator and independent
+replay validate those identities against original_working_root and remap to the
+current package root; they do not rewrite the old registrations. The complete
+copied-package synthetic preflight actively blocked original-tree access. Do not
+globally replace paths inside sealed metadata to make another program run.
+
+4. Prediction/statistics replay after the original root release
+
+In a verified writable copy, the recorded root release and complete official
+commit permit rechecking the same historical confirmation evidence. This is a
+derived replay, not another independent cohort or fresh scientific confirmation.
+The independent adapter requires its final READY source/evidence hashes, all120
+registered checkpoints, full stage audit/release bindings and all250 official
+payloads. It validates inputs before accessing any sealed test payload.
+
+  Set-Location $qpathCopy
+  & $qpathPython -B -u 'analysis\independent_replay\replay_and_analyse.py' --release 'quantum\EVALUATION_RELEASE.json' --output (Join-Path $qpathCopy 'analysis\independent_replay\reproduction_replay_001')
+
+The output must be a new direct child of analysis/independent_replay. It preserves
+failure evidence and refuses in-place retries. It reconstructs120x1,600 model
+probabilities and native logits with a separate oracle, canonical observed-label
+metrics/class quality/calibration, numerical ambiguity and all per-population
+paired seed and10,000 paired-record bootstrap statistics. Five training seeds,
+not test records, define the seed interval sample size. Record bootstrap intervals
+are conditional on those fitted checkpoints. Family16 adjusted primary seed
+intervals are99.6875percent; ordinary95percent and secondary intervals remain
+separately identified. Latent annulus/noise-oracle diagnostics are supplemental
+generator context, never primary arm selection or fitting.
+
+The historical official evaluator command is quantum/evaluate_confirmation.py
+--evaluate. It has a fixed absent confirmation_evaluation destination. The
+delivered package already contains that completed destination; do not delete it
+or invoke a second official evaluation there. The independent fresh-output replay
+is the supported retained-evidence check.
+
+5. Derived deployment and simulator reproduction
+
+The deployment producer has its own explicit new output argument and requires
+root release plus completed official scoring. It compiles the same selected
+Scalar/Multi logits into Trig25 coefficients without fitting or reselecting
+checkpoints. It also uses direct fast trigonometric control representations.
+The independent Laurent oracle checks coefficient construction separately.
+Run this only when training/audits/compilation/other benchmarks are quiescent:
+
+  & $qpathPython -B -u 'quantum\deployment_benchmark.py' --output (Join-Path $qpathCopy 'quantum\deployment_reproduction_001')
+
+The canonical deployment result is quantum/deployment_confirmation. It contains
+coefficient artifacts, validation and released-test parity, off-grid/route-boundary
+checks, load/compile measurements, raw timing trials, summaries and a full commit.
+All120 original models plus40 compiled and40 fast-trig representations yield600
+batch conditions. Two warmups and15 timed trials produce10,200 timing rows,
+of which9,000 are timed. The trials are technical repeats nested within checkpoint,
+not new training seeds. Hot raw-input inference excludes model loading and fitting;
+router/model work is included. Load/compile/artifact bytes are separate. Wallclock
+timings depend on host/software/background load, not physical quantum-device time.
+
+For the local capsule, choose the separate simulator environment explicitly:
+
+  $qpathSimulatorPython = 'C:\Anthony Siljeg\v06_simulator_replay_env\Scripts\python.exe'
+  & $qpathSimulatorPython -B -u 'quantum\local_readiness.py' --output (Join-Path $qpathCopy 'quantum\readiness_reproduction_001')
+
+The public capsule gate requires the original complete confirmation release;
+the capsule itself uses validation fixtures only. Its registered40 quantum
+checkpoints/1,280 fixture pairs cover Scalar and Multi on all four populations.
+Scalar has one XX measurement setting; Multi uses XX and ZZ. Three distinct
+noise scenarios include ideal, logical mild and the frozen native snapshot;
+the native model is not stacked on logical mild noise. Joint shot draws retain
+correlations; budgets are per setting. Shot repeats are nested within each
+trained checkpoint. Simulated density, finite-shot prediction and measured Aer
+smoke work are counted separately. No hardware or cloud jobs occur.
+
+The actual independent audits are retained under
+analysis/classical_review/confirmation_deployment_audit and
+analysis/classical_review/confirmation_readiness_audit, each with its own commit.
+Their frozen CLI/source/preflight evidence is the authority for rerun arguments;
+do not substitute an unregistered synthetic fixture driver for a trained-model
+audit. Synthetic preflight drivers produce untrained artificial examples only.
+
+6. Validation/resource summaries and new optimizer runs
+
+analysis/learning_resources_v06.py reads committed selected training/validation
+and resource evidence. Its CLI requires --stage A|B, --author-lock,
+--independent-audit and --output, with a fresh output folder under analysis.
+The root release and completed independent scoring replay are prerequisites.
+It describes90/95/97percent validation milestones with nonreachers censored and
+reached-only medians explicitly conditional. For observed noisy-annulus labels,
+97percent is not a sensible expected generalization requirement. All training
+runs completed200rounds/15,000updates; milestone counts do not establish savings.
+Training-loop seconds include validation and within-loop evidence writes;
+they are wall time, not CPU process time. Parallel worker seconds cannot be
+summed and labelled project elapsed time. Reference inference timers collected
+during training are separate from the isolated deployment benchmark.
+
+The retained original launch commands are quantum/launch_stage.py --stage A
+and --stage B, but they use fixed absent stage folders. Never invoke them in a
+delivered copy containing those runs, or remove stage evidence to allow them.
+
+An explicitly authorized optimizer reproduction may use study.py with a fresh
+output while retaining the copied frozen recipe, for example:
+
+  & $qpathPython -B -u 'quantum\study.py' --stage A --population development_checkerboard --method qmulti_kmeans --seed 1101 --rounds 200 --output (Join-Path $qpathCopy 'reproduction_training_001\development_checkerboard\seed_1101\qmulti_kmeans')
+
+This uses the same historical train/validation rows. Record separate reproduction
+authorization; do not merge its evidence into stage_A/stage_B, replace an arm,
+reselect the original checkpoint or count it as a new cohort. Official mode
+refuses reduced budgets. No automatic resume is supported. New research needs
+a new identity, fresh preregistered populations/seeds, audits and release chain.
+
+7. Interpretation and limits
+
+These are four synthetic2D boundary families, not a real tabular or language
+benchmark. Exact-coordinate novelty does not establish semantic novelty. Seed
+and conditional record uncertainty address different sources of variability.
+An algebraically equivalent classical coefficient representation is a deployment
+of the same fitted model, not an additional model-quality result or evidence
+of quantum speedup. Finite fixtures and tolerance checks are not an every-input
+floating-point proof. Coefficient-L1 bounds refer to the represented polynomials
+and exclude floating-point evaluation error.
+
+The retained simulation snapshot is dated and approximate. Shot effects are
+reported as sampling/distortion with nested repeats, not evidence that noise
+helps generalization. No hardware readiness or broad quantum advantage claim
+follows from successful local software checks.
+
+8. Closure
+
+Final closure requires both stages and all120 test endpoints, independent replay,
+learning summaries, deployment/capsule and their independent audits, baseline
+after checks, scientific report review and every Word page inspected. Root owns
+final report-input approval and delivery acceptance. The package copy helper
+requires all eight result commits and their full inventories, current registered
+sources/data/snapshot, report proof and baseline preservation. It writes only a
+new destination and preserves failures. Manifest creation and both independent
+delivery checks follow separately. Presence of these preparation notes alone
+never establishes completed science or verified delivery.

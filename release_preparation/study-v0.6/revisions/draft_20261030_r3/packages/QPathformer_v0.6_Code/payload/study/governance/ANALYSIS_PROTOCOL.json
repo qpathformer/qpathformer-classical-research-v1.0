@@ -1,0 +1,152 @@
+{
+  "study_id": "QPATH-GENERALIZATION-v0.6",
+  "status": "REGISTERED_BEFORE_OFFICIAL_TRAINING",
+  "methods": [
+    "qscalar_kmeans",
+    "qmulti_kmeans",
+    "mlp8tanh_kmeans",
+    "trig_kmeans",
+    "trig_global",
+    "mlp_global"
+  ],
+  "population_order": [
+    "confirmation_checkerboard",
+    "confirmation_spiral",
+    "confirmation_annulus",
+    "confirmation_disks"
+  ],
+  "training_seeds": [
+    1201,
+    1202,
+    1203,
+    1204,
+    1205
+  ],
+  "primary_metric": "Common clipped BCE natural logs,clip[1e-7,1-1e-7]; lowerbetter; bounded comparison metric, not strictlyproper onraw[0,1].",
+  "primary_contrasts": [
+    [
+      "qmulti_kmeans",
+      "qscalar_kmeans"
+    ],
+    [
+      "qscalar_kmeans",
+      "trig_kmeans"
+    ],
+    [
+      "qmulti_kmeans",
+      "trig_kmeans"
+    ],
+    [
+      "trig_kmeans",
+      "trig_global"
+    ]
+  ],
+  "primary_family_size": 16,
+  "primary_direction": "First minus second perpairedseed/population. NegativeBCEfavorfirst.",
+  "practical_difference": 0.01,
+  "seed_uncertainty": {
+    "n": 5,
+    "df": 4,
+    "descriptive_confidence": 0.95,
+    "primary_confidence": 0.996875,
+    "formula": "meanpaired differences +/- t.ppf(1-alpha/2,4)*sampleSD/sqrt5",
+    "limits": "Each of four populations separately; five training seeds conditional on one split/router/recipe/selection. No pooling20 seed/population cells as independent tasks; t interval assumptions and small n apply."
+  },
+  "record_bootstrap": {
+    "replicates": 10000,
+    "rng": "NumPy2.5.4 PCG64",
+    "seeds": {
+      "confirmation_checkerboard": 298601,
+      "confirmation_spiral": 298602,
+      "confirmation_annulus": 298603,
+      "confirmation_disks": 298604
+    },
+    "draws": "rng.multinomial(n,np.full(n,1.0/n),size=10000),saveuint16NPYandSHA256; samecountsforALLmethods/fiveseeds withinpopulation",
+    "metrics": [
+      "bce",
+      "macro_f1",
+      "accuracy",
+      "brier"
+    ],
+    "aggregation": "Recomputepercheckpointmetricforeachsample, then averagefivecheckpoints. BCE/Brierlinearrecordloss canaveragebeforeweighting;F1mustrecomputeconfusionspercheckpoint.",
+    "quantiles": "NumPy linear quantiles; primary alpha=.05/16 with separate adjusted percentiles; descriptive2.5/97.5. Approximate bootstrap tails.",
+    "limits": "Conditionalfixedtrainedcheckpoints/testpopulation; not additionaltrainingreplications. Do not combinewithseedCI."
+  },
+  "secondary_contrasts": [
+    [
+      "qscalar_kmeans",
+      "mlp8tanh_kmeans"
+    ],
+    [
+      "qmulti_kmeans",
+      "mlp8tanh_kmeans"
+    ],
+    [
+      "qscalar_kmeans",
+      "mlp_global"
+    ],
+    [
+      "qmulti_kmeans",
+      "mlp_global"
+    ],
+    [
+      "mlp8tanh_kmeans",
+      "mlp_global"
+    ],
+    [
+      "trig_global",
+      "mlp_global"
+    ]
+  ],
+  "secondary_metrics": [
+    "bce",
+    "macro_f1",
+    "accuracy",
+    "brier"
+  ],
+  "secondary_units": "F1/accuracydeltaspercentagepoints;BCE/Brieroriginalunits;ordinary95intervalsdescriptive,nosecondarysuperiorityclaims.",
+  "probability_quality": {
+    "brier": "mean((rawp-y)^2)",
+    "reliability": "10 fixed equal-width bins with float64 edges np.linspace(0,1,11); [edge_i,edge_i+1) except final includes 1. Empty bins count 0 and means null, omit weighted ECE contribution. Per-seed bin counts, mean probability and mean label.",
+    "ece": "sum(n_bin/n)*abs(meanp_bin-meanlabel_bin),descriptiveonly; neitherstrictlypropernorstandalonecalibrationproof. No fittedposthoccalibration.",
+    "native_loss": "All six arms use unbounded stable-logit BCE. Record native logits/loss and common clipped BCE, including probability bounds and wrong extreme predictions. No legacy raw-probability arm in v0.6."
+  },
+  "numerical": {
+    "canonical_threshold": 0.5,
+    "rule": "class1 iff p>=.5",
+    "probability_abs_tolerance": 2E-12,
+    "independent_aggregate_bce_abs_tolerance": 1E-08,
+    "canonical_saved_probability_metric_abs_tolerance": 2E-12,
+    "band": 7.105427357601002E-15,
+    "band_policy": "Anyindependentclassdifference musthaveBOTHrawprobabilitieswithinbandaround.5;otherwiseFAIL. Retaincanonicalmetrics, rawreferenceclasses,ambiguitycounts andall0/all1/label-assistedincorrect/correctextrema asdiagnostics only.",
+    "independent_native_logit_abs_tolerance": 1E-09,
+    "independent_native_aggregate_loss_abs_tolerance": 1E-08,
+    "native_policy": "Independent native logits and stable native loss must meet these absolute limits in addition to unchanged probability, canonical metric and class-band gates. No tolerance relaxation after outcomes."
+  },
+  "milestones": {
+    "threshold": 0.97,
+    "cadence_updates": 75,
+    "confirmation_checks": 3,
+    "all_runs_full_budget": true,
+    "first": "FirstloggedvalidationF1>=.97",
+    "confirmed": "Earliestthirdconsecutivequalifyingcheck;alsoreportsequencefirst.150updatesafteritsownsequencefirst.",
+    "nonreachers": "Explicitcountsandcensored15000horizon;conditionalmediansonlyamongreached;no actualearlysavings or earlycheckpointtestscore.",
+    "thresholds": [
+      0.9,
+      0.95,
+      0.97
+    ],
+    "interpretation": "All thresholds descriptive, never stopping/pass gates. Annulus has10 percent independent label noise:97 percent against observed labels is not a sensible expected generalization target. Reached-only medians and censored counts must be shown."
+  },
+  "resources": "Separateallocated/trainable/frozenparameters,bankexposure,train/val/diagnostic/inferencecost,cachecreation/storage,corestateevolutions,shiftcoreevolutions,Pauliobservablecalculations,headwork,MLP/trigcountsandlogicalmeasurementsettings. CPUhostconcurrency,notquantumdevicecost.",
+  "gate": "All120 full B endpoints, independent all-round validation audit and root hash-bound release before any test outcomes.",
+  "failure_policy": "Keepallpartialandfailedoutputs, nooverwrite/droppingarms,budgetsorsourcechangesafterfreeze. Documentrecoveries withindependentreview.",
+  "label_semantics": {
+    "primary": "Observed labels only. No clean labels/flip masks in training, routing, selection or prediction.",
+    "supplemental": "After root release, annulus latent-clean metrics and known conditional-probability/Bayes-reference metrics are labeled descriptive oracle diagnostics, not fair deployable model arms."
+  },
+  "imbalance": {
+    "metrics": "Observed prevalence and confusion matrix, positive precision and recall, and tie-aware noninterpolated average precision per seed; descriptive mean/sampleSD. No fitted threshold or reweighting.",
+    "average_precision": "Group identical scores, descending order. Sum each group positive-count divided by total positives times cumulative precision at group end. Return null if no positives. No trapezoidal PR-AUC claim."
+  }
+}

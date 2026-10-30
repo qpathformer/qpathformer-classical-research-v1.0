@@ -1,0 +1,1201 @@
+{
+  "study_version": "v0.6",
+  "actual_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3",
+  "source_root": "C:\\Q2\\Improvement_Study_v0.6",
+  "original_report": {
+    "path": "C:\\Q2\\Improvement_Study_v0.6\\docs\\QPATH-RPT-007_Harder_Tasks_and_Faster_Inference_v0.6.docx",
+    "bytes": 867873,
+    "sha256": "e26164a4e9378ec3b1a2a26cc0cf6d47421550493ca3fb5fab6b868c0138c012",
+    "figures": 3,
+    "tables": 39
+  },
+  "source_delivery_manifest": {
+    "path": "C:\\Q2\\Improvement_Study_v0.6\\DELIVERY_MANIFEST.json",
+    "bytes": 5077038,
+    "sha256": "e55dd7b6a449654c99cd6c65bbae2d559c24098f5db1748643164a8db8ac949e"
+  },
+  "files": [
+    {
+      "path": "CODE_LICENSE_SCOPE.json",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\assembly\\QPathformer_v0.6_Code\\CODE_LICENSE_SCOPE.json",
+      "source_identity": {
+        "bytes": 18825,
+        "sha256": "1005884fc70ea29c4710fc4a5e9fd67a8bda2c15d5069c00540e08c105e1ebb8"
+      },
+      "output_identity": {
+        "bytes": 18825,
+        "sha256": "1005884fc70ea29c4710fc4a5e9fd67a8bda2c15d5069c00540e08c105e1ebb8"
+      },
+      "classification": "reviewed_current_revision",
+      "previous_edition_identity": {
+        "bytes": 18429,
+        "sha256": "fff1c95722d20e0cdcb8ff694a35233c79a4b51804b5122331a98cb7887b8e42"
+      },
+      "handling": "Current helper/guidance or exact record binding updated; preserved report/scientific/historical bytes unchanged."
+    },
+    {
+      "path": "DEPENDENCY_INVENTORY.json",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\assembly\\QPathformer_v0.6_Code\\DEPENDENCY_INVENTORY.json",
+      "source_identity": {
+        "bytes": 36084,
+        "sha256": "c1aaaa2569255a49d2bba3fa7e1dde3a255f161b2ba9a33d1df487667b6a5d1d"
+      },
+      "output_identity": {
+        "bytes": 36084,
+        "sha256": "c1aaaa2569255a49d2bba3fa7e1dde3a255f161b2ba9a33d1df487667b6a5d1d"
+      },
+      "classification": "reviewed_current_revision",
+      "previous_edition_identity": {
+        "bytes": 2726,
+        "sha256": "b507ab6c731b28987bdfd888d6a3d30ba9a0ec42eee849e128d9dc3e33024e40"
+      },
+      "handling": "Current helper/guidance or exact record binding updated; preserved report/scientific/historical bytes unchanged."
+    },
+    {
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\assembly\\QPathformer_v0.6_Code\\GUIDANCE_LICENSE_SCOPE.json",
+      "source_identity": {
+        "bytes": 1756,
+        "sha256": "489900f89c7dbf4dbc99a0e2d18a41b076369e74277f2ef9f01b504c14878fb7"
+      },
+      "output_identity": {
+        "bytes": 1756,
+        "sha256": "489900f89c7dbf4dbc99a0e2d18a41b076369e74277f2ef9f01b504c14878fb7"
+      },
+      "classification": "reviewed_current_revision",
+      "previous_edition_identity": {
+        "bytes": 1708,
+        "sha256": "72d2d8761de8dd8358ae9b82ba689690bdb5a735badb400e0185c5788391d7b0"
+      },
+      "handling": "Current helper/guidance or exact record binding updated; preserved report/scientific/historical bytes unchanged."
+    },
+    {
+      "path": "INHERITED_LICENSE_COVERAGE.json",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\assembly\\QPathformer_v0.6_Code\\INHERITED_LICENSE_COVERAGE.json",
+      "source_identity": {
+        "bytes": 31411,
+        "sha256": "023c0983b14f4e0d90f30e0dda1717beec4e10bd6c1e225bdcd389c9ef72fd78"
+      },
+      "output_identity": {
+        "bytes": 31411,
+        "sha256": "023c0983b14f4e0d90f30e0dda1717beec4e10bd6c1e225bdcd389c9ef72fd78"
+      },
+      "classification": "reviewed_current_revision",
+      "previous_edition_identity": {
+        "bytes": 26179,
+        "sha256": "ea4887db29b6bb57d987ab50111559121b80f573c23017cb13c42fcc376965cf"
+      },
+      "handling": "Current helper/guidance or exact record binding updated; preserved report/scientific/historical bytes unchanged."
+    },
+    {
+      "path": "LICENSE_ADOPTION.json",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\assembly\\QPathformer_v0.6_Code\\LICENSE_ADOPTION.json",
+      "source_identity": {
+        "bytes": 1721,
+        "sha256": "bcd5c5aed80bb0481ad01c471d6b565ed6879d6507c284fac8980a34c287650d"
+      },
+      "output_identity": {
+        "bytes": 1721,
+        "sha256": "bcd5c5aed80bb0481ad01c471d6b565ed6879d6507c284fac8980a34c287650d"
+      },
+      "classification": "reviewed_current_revision",
+      "previous_edition_identity": {
+        "bytes": 1685,
+        "sha256": "8a0f37f1dd0e48dc9408d619665139b4335923687d438d588719b8eaa0781f3b"
+      },
+      "handling": "Current helper/guidance or exact record binding updated; preserved report/scientific/historical bytes unchanged."
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\assembly\\QPathformer_v0.1_Code\\LICENSES\\CC-BY-4.0.txt",
+      "source_identity": {
+        "bytes": 18615,
+        "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+      },
+      "output_identity": {
+        "bytes": 18615,
+        "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+      },
+      "classification": "canonical_unchanged_license"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/audit_confirmation_deployment_v06.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\classical_review\\audit_confirmation_deployment_v06.py",
+      "source_identity": {
+        "bytes": 21764,
+        "sha256": "f1d2d14fa7e945dcf2ce9d14cea3dce01239506e0af24eb23a85a29dcac8ea23"
+      },
+      "output_identity": {
+        "bytes": 21764,
+        "sha256": "f1d2d14fa7e945dcf2ce9d14cea3dce01239506e0af24eb23a85a29dcac8ea23"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/audit_confirmation_readiness_v06.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\classical_review\\audit_confirmation_readiness_v06.py",
+      "source_identity": {
+        "bytes": 38382,
+        "sha256": "ce7681b3cb9e1206714aaab75a40cfd0f8d1c5826ba6a0b2db78a2a59fe848f7"
+      },
+      "output_identity": {
+        "bytes": 38382,
+        "sha256": "ce7681b3cb9e1206714aaab75a40cfd0f8d1c5826ba6a0b2db78a2a59fe848f7"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/audit_data_v06.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\classical_review\\audit_data_v06.py",
+      "source_identity": {
+        "bytes": 12792,
+        "sha256": "d15fdb3b16d89a8f3f3e789f890890ec67a81437d04bda77634b8a498498b880"
+      },
+      "output_identity": {
+        "bytes": 12792,
+        "sha256": "d15fdb3b16d89a8f3f3e789f890890ec67a81437d04bda77634b8a498498b880"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/audit_endpoints_v06.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\classical_review\\audit_endpoints_v06.py",
+      "source_identity": {
+        "bytes": 40077,
+        "sha256": "1f7ffa3e7f5dcb50c540bef48c7ce9936f0bb79f3e66284b0e1b3197081ccbd3"
+      },
+      "output_identity": {
+        "bytes": 40077,
+        "sha256": "1f7ffa3e7f5dcb50c540bef48c7ce9936f0bb79f3e66284b0e1b3197081ccbd3"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/audit_synthetic_snapshot_v06.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\classical_review\\audit_synthetic_snapshot_v06.py",
+      "source_identity": {
+        "bytes": 9622,
+        "sha256": "750cbb26f471a5082e07d770c1cb1aa4e4f90ed1e3d8ee6924d249a471ea4214"
+      },
+      "output_identity": {
+        "bytes": 9622,
+        "sha256": "750cbb26f471a5082e07d770c1cb1aa4e4f90ed1e3d8ee6924d249a471ea4214"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/crosscheck_statistics_v06.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\classical_review\\crosscheck_statistics_v06.py",
+      "source_identity": {
+        "bytes": 3515,
+        "sha256": "e1605878c63b23b10723b838c418217e4f0391121f4a49e2adeec021fa317544"
+      },
+      "output_identity": {
+        "bytes": 3515,
+        "sha256": "e1605878c63b23b10723b838c418217e4f0391121f4a49e2adeec021fa317544"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/deployment_reference_v06.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\classical_review\\deployment_reference_v06.py",
+      "source_identity": {
+        "bytes": 8256,
+        "sha256": "d15599c861cf6e5cf4de58cb3a6efc8cafeac5e4fd858fc91df762729049d163"
+      },
+      "output_identity": {
+        "bytes": 8256,
+        "sha256": "d15599c861cf6e5cf4de58cb3a6efc8cafeac5e4fd858fc91df762729049d163"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/laurent_reference_v06.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\classical_review\\laurent_reference_v06.py",
+      "source_identity": {
+        "bytes": 7457,
+        "sha256": "cb07f3a7c51b13edaf8d2f5c8b331403f82fcbfd2c3161e1dbfb000b75210cd4"
+      },
+      "output_identity": {
+        "bytes": 7457,
+        "sha256": "cb07f3a7c51b13edaf8d2f5c8b331403f82fcbfd2c3161e1dbfb000b75210cd4"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/readout_reference_v06.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\classical_review\\readout_reference_v06.py",
+      "source_identity": {
+        "bytes": 11814,
+        "sha256": "15417a2c9987a0d290a0fe24acedfd0856ecd58f5b8f73baf8d6daf4a555476a"
+      },
+      "output_identity": {
+        "bytes": 11814,
+        "sha256": "15417a2c9987a0d290a0fe24acedfd0856ecd58f5b8f73baf8d6daf4a555476a"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/reference_v06.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\classical_review\\reference_v06.py",
+      "source_identity": {
+        "bytes": 11364,
+        "sha256": "1e4d635297ab3d5a3acdadcb7041d31e6a48a59fcc367001238d9cd21ece4b26"
+      },
+      "output_identity": {
+        "bytes": 11364,
+        "sha256": "1e4d635297ab3d5a3acdadcb7041d31e6a48a59fcc367001238d9cd21ece4b26"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/test_confirmation_deployment_v06.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\classical_review\\test_confirmation_deployment_v06.py",
+      "source_identity": {
+        "bytes": 8474,
+        "sha256": "3e2dc6bb446428fc8c7cc7658cc6cfac58180448f7d51ac070dc3699fa0dbb2d"
+      },
+      "output_identity": {
+        "bytes": 8474,
+        "sha256": "3e2dc6bb446428fc8c7cc7658cc6cfac58180448f7d51ac070dc3699fa0dbb2d"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/test_confirmation_readiness_v06.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\classical_review\\test_confirmation_readiness_v06.py",
+      "source_identity": {
+        "bytes": 13002,
+        "sha256": "d493dd09b974813e0624f33a5e0d089957f037e50979178bfde2e7c0e0029605"
+      },
+      "output_identity": {
+        "bytes": 13002,
+        "sha256": "d493dd09b974813e0624f33a5e0d089957f037e50979178bfde2e7c0e0029605"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/test_deployment_reference_v06.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\classical_review\\test_deployment_reference_v06.py",
+      "source_identity": {
+        "bytes": 4027,
+        "sha256": "0b43480ab0c9ac7f1ae7cf8b4bb79cf50de0e19f47969c3271a89120bb98b31c"
+      },
+      "output_identity": {
+        "bytes": 4027,
+        "sha256": "0b43480ab0c9ac7f1ae7cf8b4bb79cf50de0e19f47969c3271a89120bb98b31c"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/test_endpoint_auditor_v06.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\classical_review\\test_endpoint_auditor_v06.py",
+      "source_identity": {
+        "bytes": 8789,
+        "sha256": "8ed8327ab8fa58c5dce6b10292fed134f11b6f8c0677524c136b57b5947152d3"
+      },
+      "output_identity": {
+        "bytes": 8789,
+        "sha256": "8ed8327ab8fa58c5dce6b10292fed134f11b6f8c0677524c136b57b5947152d3"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/test_laurent_reference_v06.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\classical_review\\test_laurent_reference_v06.py",
+      "source_identity": {
+        "bytes": 9300,
+        "sha256": "6b964188cc6ebe5dc5300d7b5ac93ee6c1ee8a0387db15bf414636f794cc2bf6"
+      },
+      "output_identity": {
+        "bytes": 9300,
+        "sha256": "6b964188cc6ebe5dc5300d7b5ac93ee6c1ee8a0387db15bf414636f794cc2bf6"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/classical_review/test_readout_reference_v06.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\classical_review\\test_readout_reference_v06.py",
+      "source_identity": {
+        "bytes": 2888,
+        "sha256": "24dba090c30ddb720f5f70322a5cfeb30f90fc605e89e8ce10abce1486e52b06"
+      },
+      "output_identity": {
+        "bytes": 2888,
+        "sha256": "24dba090c30ddb720f5f70322a5cfeb30f90fc605e89e8ce10abce1486e52b06"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/extract_v05_context.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\extract_v05_context.py",
+      "source_identity": {
+        "bytes": 2881,
+        "sha256": "e05e7dbdba77910c189281489cf62645f58c652ca5da6d5ec193a02ab15c14f1"
+      },
+      "output_identity": {
+        "bytes": 2881,
+        "sha256": "e05e7dbdba77910c189281489cf62645f58c652ca5da6d5ec193a02ab15c14f1"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/evidence_io.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\independent_replay\\evidence_io.py",
+      "source_identity": {
+        "bytes": 7030,
+        "sha256": "e6db78caa892901997b928206b8a7737c561620d82b484aa17142e3d03e9f8a3"
+      },
+      "output_identity": {
+        "bytes": 7030,
+        "sha256": "e6db78caa892901997b928206b8a7737c561620d82b484aa17142e3d03e9f8a3"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/official_comparison.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\independent_replay\\official_comparison.py",
+      "source_identity": {
+        "bytes": 12735,
+        "sha256": "fdd97960b99a2794e6e5d020c7d796d6323a77f6d29952cf2e368c81adf79d90"
+      },
+      "output_identity": {
+        "bytes": 12735,
+        "sha256": "fdd97960b99a2794e6e5d020c7d796d6323a77f6d29952cf2e368c81adf79d90"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/prediction_reference.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\independent_replay\\prediction_reference.py",
+      "source_identity": {
+        "bytes": 4277,
+        "sha256": "e1a6256d089f31353bbc30861ebb0187c38b25a36a79fe8a369759480b5af1a4"
+      },
+      "output_identity": {
+        "bytes": 4277,
+        "sha256": "e1a6256d089f31353bbc30861ebb0187c38b25a36a79fe8a369759480b5af1a4"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/preflight_relocated.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\independent_replay\\preflight_relocated.py",
+      "source_identity": {
+        "bytes": 6411,
+        "sha256": "c3e99cfe9d28dd7efe410fc7311f68bb6f72632186d54b568d1bd73d0f36dfcb"
+      },
+      "output_identity": {
+        "bytes": 6411,
+        "sha256": "c3e99cfe9d28dd7efe410fc7311f68bb6f72632186d54b568d1bd73d0f36dfcb"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/register_ready.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\independent_replay\\register_ready.py",
+      "source_identity": {
+        "bytes": 7273,
+        "sha256": "467c2a43326823d94dedb5d1459d2dc7503692af4be192c858afdde6f0c35c29"
+      },
+      "output_identity": {
+        "bytes": 7273,
+        "sha256": "467c2a43326823d94dedb5d1459d2dc7503692af4be192c858afdde6f0c35c29"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/release_gate.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\independent_replay\\release_gate.py",
+      "source_identity": {
+        "bytes": 17453,
+        "sha256": "1bf665a5614216f285ce07fc64e4245520131ee161e3466fecccb0c7771e9265"
+      },
+      "output_identity": {
+        "bytes": 17453,
+        "sha256": "1bf665a5614216f285ce07fc64e4245520131ee161e3466fecccb0c7771e9265"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/replay_and_analyse.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\independent_replay\\replay_and_analyse.py",
+      "source_identity": {
+        "bytes": 28127,
+        "sha256": "4e56de9bc10243ddae348f3d94ae33e24ccac672dafaf9f1e9e1bce543a418b2"
+      },
+      "output_identity": {
+        "bytes": 28127,
+        "sha256": "4e56de9bc10243ddae348f3d94ae33e24ccac672dafaf9f1e9e1bce543a418b2"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/statistics_reference.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\independent_replay\\statistics_reference.py",
+      "source_identity": {
+        "bytes": 16142,
+        "sha256": "4259a596f4d8310f01407dfd32c6ffe5c3cb968246c1f1275c44ce4b00070179"
+      },
+      "output_identity": {
+        "bytes": 16142,
+        "sha256": "4259a596f4d8310f01407dfd32c6ffe5c3cb968246c1f1275c44ce4b00070179"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/synthetic_fixture.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\independent_replay\\synthetic_fixture.py",
+      "source_identity": {
+        "bytes": 21120,
+        "sha256": "9abe8cf12da13e29f136f2d8a17b354f9635ae3c6489fe26ae3fbfd0c01f6c4a"
+      },
+      "output_identity": {
+        "bytes": 21120,
+        "sha256": "9abe8cf12da13e29f136f2d8a17b354f9635ae3c6489fe26ae3fbfd0c01f6c4a"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/test_prediction_reference.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\independent_replay\\test_prediction_reference.py",
+      "source_identity": {
+        "bytes": 4259,
+        "sha256": "8c48c526afe2fa9b3cb510d6cb3eef3117b1e09642250c0fdbd9e5d48a18932d"
+      },
+      "output_identity": {
+        "bytes": 4259,
+        "sha256": "8c48c526afe2fa9b3cb510d6cb3eef3117b1e09642250c0fdbd9e5d48a18932d"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/test_replay_adapter.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\independent_replay\\test_replay_adapter.py",
+      "source_identity": {
+        "bytes": 13914,
+        "sha256": "da838ddf21059d98109bcd4b24c5077f9bef76d911a38f49f9cbae364ec0c4f2"
+      },
+      "output_identity": {
+        "bytes": 13914,
+        "sha256": "da838ddf21059d98109bcd4b24c5077f9bef76d911a38f49f9cbae364ec0c4f2"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/test_replay_cores.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\independent_replay\\test_replay_cores.py",
+      "source_identity": {
+        "bytes": 13653,
+        "sha256": "fa0a756a6041e8a851d15d479db4cef81d14939cfe1f6dcdf9adf784604f4bee"
+      },
+      "output_identity": {
+        "bytes": 13653,
+        "sha256": "fa0a756a6041e8a851d15d479db4cef81d14939cfe1f6dcdf9adf784604f4bee"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/independent_replay/threshold_reference.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\independent_replay\\threshold_reference.py",
+      "source_identity": {
+        "bytes": 4164,
+        "sha256": "646261d3c055fdf1129dca9fb436becba8f3ccadd2bee2b221b823c13eabe1d0"
+      },
+      "output_identity": {
+        "bytes": 4164,
+        "sha256": "646261d3c055fdf1129dca9fb436becba8f3ccadd2bee2b221b823c13eabe1d0"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/learning_resources_v06.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\learning_resources_v06.py",
+      "source_identity": {
+        "bytes": 38496,
+        "sha256": "8fe06b4dea03025084364cdb9ea679d7d537f255bb6ed53672150987a05671f6"
+      },
+      "output_identity": {
+        "bytes": 38496,
+        "sha256": "8fe06b4dea03025084364cdb9ea679d7d537f255bb6ed53672150987a05671f6"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/statistics_v06.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\statistics_v06.py",
+      "source_identity": {
+        "bytes": 10418,
+        "sha256": "fbe6ce8aa85030aca1365f0b1bfae40b65af3aded1b8f5f36422f50f93d414da"
+      },
+      "output_identity": {
+        "bytes": 10418,
+        "sha256": "fbe6ce8aa85030aca1365f0b1bfae40b65af3aded1b8f5f36422f50f93d414da"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/test_statistics_v06.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\test_statistics_v06.py",
+      "source_identity": {
+        "bytes": 4480,
+        "sha256": "5e61e81f4b1998581e416db13912e7914f23ce0762e1cfd762e20074b0d411c4"
+      },
+      "output_identity": {
+        "bytes": 4480,
+        "sha256": "5e61e81f4b1998581e416db13912e7914f23ce0762e1cfd762e20074b0d411c4"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/analysis/tests/test_learning_resources_v06.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\analysis\\tests\\test_learning_resources_v06.py",
+      "source_identity": {
+        "bytes": 20743,
+        "sha256": "f9df7e1d79307a04f75ac6b1b45652ec543b68988c96b00e9297e9a315aedce3"
+      },
+      "output_identity": {
+        "bytes": 20743,
+        "sha256": "f9df7e1d79307a04f75ac6b1b45652ec543b68988c96b00e9297e9a315aedce3"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/governance/ANALYSIS_PROTOCOL.json",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\ANALYSIS_PROTOCOL.json",
+      "source_identity": {
+        "bytes": 6852,
+        "sha256": "904bb7972de661bb7dcc501a9e55ff18675893064f0434e6fff0309add48d5f0"
+      },
+      "output_identity": {
+        "bytes": 6852,
+        "sha256": "904bb7972de661bb7dcc501a9e55ff18675893064f0434e6fff0309add48d5f0"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/governance/DEPLOYMENT_PROTOCOL.json",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\DEPLOYMENT_PROTOCOL.json",
+      "source_identity": {
+        "bytes": 3943,
+        "sha256": "ee9b3daacb706fbe2741251ec4242fdea2456e9d18ae151aac60462730a2ee56"
+      },
+      "output_identity": {
+        "bytes": 3943,
+        "sha256": "ee9b3daacb706fbe2741251ec4242fdea2456e9d18ae151aac60462730a2ee56"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/governance/LOCAL_READINESS_PROTOCOL.json",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\LOCAL_READINESS_PROTOCOL.json",
+      "source_identity": {
+        "bytes": 6210,
+        "sha256": "cb7c1243f1ea1591e68083a6bb55c8e1c2362a86f9a622ae1e15143d90eb8637"
+      },
+      "output_identity": {
+        "bytes": 6210,
+        "sha256": "cb7c1243f1ea1591e68083a6bb55c8e1c2362a86f9a622ae1e15143d90eb8637"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/governance/numeric_replay_requirements.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\numeric_replay_requirements.txt",
+      "source_identity": {
+        "bytes": 258,
+        "sha256": "a1a9d7f981cecc86198a5564b341d7378881dac35b402c5817b021f75d7d38b1"
+      },
+      "output_identity": {
+        "bytes": 258,
+        "sha256": "a1a9d7f981cecc86198a5564b341d7378881dac35b402c5817b021f75d7d38b1"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/governance/numeric_requirements_observed.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\numeric_requirements_observed.txt",
+      "source_identity": {
+        "bytes": 598,
+        "sha256": "f9ed4051fe538785ac6465a624b2d517c4bdda1eaf91c18490887a0db053808d"
+      },
+      "output_identity": {
+        "bytes": 598,
+        "sha256": "f9ed4051fe538785ac6465a624b2d517c4bdda1eaf91c18490887a0db053808d"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/governance/plotting_replay_requirements.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\plotting_replay_requirements.txt",
+      "source_identity": {
+        "bytes": 295,
+        "sha256": "e2bae301a23532ff9590268d7d63e378be4374a1998fabce2a23016ac9e3ef7d"
+      },
+      "output_identity": {
+        "bytes": 295,
+        "sha256": "e2bae301a23532ff9590268d7d63e378be4374a1998fabce2a23016ac9e3ef7d"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/governance/REPRODUCTION_TECHNICAL_NOTES.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\REPRODUCTION_TECHNICAL_NOTES.txt",
+      "source_identity": {
+        "bytes": 15837,
+        "sha256": "741209eb2bb90be6f4905df7bfc6332e0be889e097f9bf0a6835d7499e204938"
+      },
+      "output_identity": {
+        "bytes": 15837,
+        "sha256": "741209eb2bb90be6f4905df7bfc6332e0be889e097f9bf0a6835d7499e204938"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/governance/scientific_plot_requirements_lock.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\scientific_plot_requirements_lock.txt",
+      "source_identity": {
+        "bytes": 878,
+        "sha256": "8975fdfa7eff0dd815f7ab3f9b31df60048ef86961955b9095ae5e49e9c76082"
+      },
+      "output_identity": {
+        "bytes": 878,
+        "sha256": "8975fdfa7eff0dd815f7ab3f9b31df60048ef86961955b9095ae5e49e9c76082"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/governance/simulator_requirements_lock.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\simulator_requirements_lock.txt",
+      "source_identity": {
+        "bytes": 801,
+        "sha256": "7255bc0697e54ec529a0e79c14456d5696fd2ddba8b8deb72fb98bc06a0e415e"
+      },
+      "output_identity": {
+        "bytes": 801,
+        "sha256": "7255bc0697e54ec529a0e79c14456d5696fd2ddba8b8deb72fb98bc06a0e415e"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/governance/STUDY_PLAN.json",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\governance\\STUDY_PLAN.json",
+      "source_identity": {
+        "bytes": 6937,
+        "sha256": "4552a6de4b72cf860ab3e6712f33539de404687c95b36e053ead44627579864f"
+      },
+      "output_identity": {
+        "bytes": 6937,
+        "sha256": "4552a6de4b72cf860ab3e6712f33539de404687c95b36e053ead44627579864f"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/audit_stage.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\audit_stage.py",
+      "source_identity": {
+        "bytes": 16118,
+        "sha256": "cf92635df7899c577efdc23c912602fddd8f80cdee19fd3d7c756a3887d08bab"
+      },
+      "output_identity": {
+        "bytes": 16118,
+        "sha256": "cf92635df7899c577efdc23c912602fddd8f80cdee19fd3d7c756a3887d08bab"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/circuits.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\circuits.py",
+      "source_identity": {
+        "bytes": 5505,
+        "sha256": "2ac3d12903899f8baf9e226e53e0fe5178f9ab700e83a6e929d212cc6e8da90e"
+      },
+      "output_identity": {
+        "bytes": 5505,
+        "sha256": "2ac3d12903899f8baf9e226e53e0fe5178f9ab700e83a6e929d212cc6e8da90e"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/deployment_benchmark.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\deployment_benchmark.py",
+      "source_identity": {
+        "bytes": 22476,
+        "sha256": "cbdd3f3f4f02b542c2b8e374f0524d8a58956eeca3b73326c48fe090a75474f6"
+      },
+      "output_identity": {
+        "bytes": 22476,
+        "sha256": "cbdd3f3f4f02b542c2b8e374f0524d8a58956eeca3b73326c48fe090a75474f6"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/deployment_checks/test_benchmark.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\deployment_checks\\test_benchmark.py",
+      "source_identity": {
+        "bytes": 2348,
+        "sha256": "7008cb184d6fcb4b6b813f9048dafe0a26e20725cecb7afc33f38a0f56dfd5d5"
+      },
+      "output_identity": {
+        "bytes": 2348,
+        "sha256": "7008cb184d6fcb4b6b813f9048dafe0a26e20725cecb7afc33f38a0f56dfd5d5"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/deployment_checks/test_compiler.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\deployment_checks\\test_compiler.py",
+      "source_identity": {
+        "bytes": 3559,
+        "sha256": "a57dcf2f6559edde8151069827a5bfcf01a78076973fd9b8c4f2bf4907688c4d"
+      },
+      "output_identity": {
+        "bytes": 3559,
+        "sha256": "a57dcf2f6559edde8151069827a5bfcf01a78076973fd9b8c4f2bf4907688c4d"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/deployment_checks/test_integrity.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\deployment_checks\\test_integrity.py",
+      "source_identity": {
+        "bytes": 9456,
+        "sha256": "f8e84223c9b000199ef9c3abaaecb7f6ed5a3de72a1bf4eb07a1bb2b7897e296"
+      },
+      "output_identity": {
+        "bytes": 9456,
+        "sha256": "f8e84223c9b000199ef9c3abaaecb7f6ed5a3de72a1bf4eb07a1bb2b7897e296"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/deployment_compiler.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\deployment_compiler.py",
+      "source_identity": {
+        "bytes": 5896,
+        "sha256": "a94b47b230a612595a04124194a9372c2efbf8e19670999a8af039dde5723404"
+      },
+      "output_identity": {
+        "bytes": 5896,
+        "sha256": "a94b47b230a612595a04124194a9372c2efbf8e19670999a8af039dde5723404"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/device_snapshot.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\device_snapshot.py",
+      "source_identity": {
+        "bytes": 859,
+        "sha256": "98aac03463d176424b69dcbda914eddaeb122e0ba3908f7bf36e77c0b59e066f"
+      },
+      "output_identity": {
+        "bytes": 859,
+        "sha256": "98aac03463d176424b69dcbda914eddaeb122e0ba3908f7bf36e77c0b59e066f"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/evaluate_confirmation.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\evaluate_confirmation.py",
+      "source_identity": {
+        "bytes": 19951,
+        "sha256": "92e13605e65a1e4c04ce3e1fac477baa04e2e60be14f31e65d9cbfee46ae8e54"
+      },
+      "output_identity": {
+        "bytes": 19951,
+        "sha256": "92e13605e65a1e4c04ce3e1fac477baa04e2e60be14f31e65d9cbfee46ae8e54"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/evaluation_checks/test_evaluation_v06.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\evaluation_checks\\test_evaluation_v06.py",
+      "source_identity": {
+        "bytes": 15377,
+        "sha256": "0ccc735b5993cf5ff720cb435603301f3696558933b65689e8b145d4e8d150aa"
+      },
+      "output_identity": {
+        "bytes": 15377,
+        "sha256": "0ccc735b5993cf5ff720cb435603301f3696558933b65689e8b145d4e8d150aa"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/launch_stage.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\launch_stage.py",
+      "source_identity": {
+        "bytes": 4780,
+        "sha256": "9e9fc824b4ce8d65ea2487e2724956d982e4a4ed04e0391405616c46f2468218"
+      },
+      "output_identity": {
+        "bytes": 4780,
+        "sha256": "9e9fc824b4ce8d65ea2487e2724956d982e4a4ed04e0391405616c46f2468218"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/local_readiness.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\local_readiness.py",
+      "source_identity": {
+        "bytes": 28990,
+        "sha256": "d73bc5e2d490bd7ef68cf5c0ccf68a4cc0abcdd4202a1642d5be994e88097d0c"
+      },
+      "output_identity": {
+        "bytes": 28990,
+        "sha256": "d73bc5e2d490bd7ef68cf5c0ccf68a4cc0abcdd4202a1642d5be994e88097d0c"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/models.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\models.py",
+      "source_identity": {
+        "bytes": 13496,
+        "sha256": "ce25197f789917bd0225a8550f533f03f5b01a1112224ffa093599b8104bfb9b"
+      },
+      "output_identity": {
+        "bytes": 13496,
+        "sha256": "ce25197f789917bd0225a8550f533f03f5b01a1112224ffa093599b8104bfb9b"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/path_mapping.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\path_mapping.py",
+      "source_identity": {
+        "bytes": 1305,
+        "sha256": "82cd687acee98f6432b925f5e1e20d219a0c5343cfdc265125c2b5bf14733637"
+      },
+      "output_identity": {
+        "bytes": 1305,
+        "sha256": "82cd687acee98f6432b925f5e1e20d219a0c5343cfdc265125c2b5bf14733637"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/prepare_data.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\prepare_data.py",
+      "source_identity": {
+        "bytes": 27622,
+        "sha256": "cc3f3f0654a93a6ebf1b84538b0d51cded82e5a255bf4701ff4bea78cbbd5986"
+      },
+      "output_identity": {
+        "bytes": 27622,
+        "sha256": "cc3f3f0654a93a6ebf1b84538b0d51cded82e5a255bf4701ff4bea78cbbd5986"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/readiness_checks/synthetic_capsule.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\readiness_checks\\synthetic_capsule.py",
+      "source_identity": {
+        "bytes": 4004,
+        "sha256": "c06a778013a2cb750814ca21ab3f3beb891648574cf9aa7d49ba2614d9fa2547"
+      },
+      "output_identity": {
+        "bytes": 4004,
+        "sha256": "c06a778013a2cb750814ca21ab3f3beb891648574cf9aa7d49ba2614d9fa2547"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/reference_v03.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\reference_v03.py",
+      "source_identity": {
+        "bytes": 1251,
+        "sha256": "6740c96737c3f46f53967c579543bc5d0b4b8aac2f9305dd21b6b51d2a725071"
+      },
+      "output_identity": {
+        "bytes": 1251,
+        "sha256": "6740c96737c3f46f53967c579543bc5d0b4b8aac2f9305dd21b6b51d2a725071"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/register_evaluation.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\register_evaluation.py",
+      "source_identity": {
+        "bytes": 4162,
+        "sha256": "75c3158bb6eed1b10eb79c114747326d0f7e9b68bca98424fae92d65bd8f18a4"
+      },
+      "output_identity": {
+        "bytes": 4162,
+        "sha256": "75c3158bb6eed1b10eb79c114747326d0f7e9b68bca98424fae92d65bd8f18a4"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/routers.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\routers.py",
+      "source_identity": {
+        "bytes": 8349,
+        "sha256": "0b62c0bcca42ab93551dab88e0e20828158f8a3d529253db6f0c1a5cf67a2c68"
+      },
+      "output_identity": {
+        "bytes": 8349,
+        "sha256": "0b62c0bcca42ab93551dab88e0e20828158f8a3d529253db6f0c1a5cf67a2c68"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/run_engineering.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\run_engineering.py",
+      "source_identity": {
+        "bytes": 4096,
+        "sha256": "9c82b850f4fdb7d70663722cfc968c0094ca03aec61897a38a0b9a978defb39b"
+      },
+      "output_identity": {
+        "bytes": 4096,
+        "sha256": "9c82b850f4fdb7d70663722cfc968c0094ca03aec61897a38a0b9a978defb39b"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/snapshot_execution.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\snapshot_execution.py",
+      "source_identity": {
+        "bytes": 4949,
+        "sha256": "e21485213b5fa5ee3982d7bb35aa9065682c9a6aa72de8330f38b9a4dd70000b"
+      },
+      "output_identity": {
+        "bytes": 4949,
+        "sha256": "e21485213b5fa5ee3982d7bb35aa9065682c9a6aa72de8330f38b9a4dd70000b"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/study.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\study.py",
+      "source_identity": {
+        "bytes": 27090,
+        "sha256": "5cd3349e572ef00c70d4a89cf97ce41e229f6436aaf31497289f2601b6925c62"
+      },
+      "output_identity": {
+        "bytes": 27090,
+        "sha256": "5cd3349e572ef00c70d4a89cf97ce41e229f6436aaf31497289f2601b6925c62"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/tests/test_models.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\tests\\test_models.py",
+      "source_identity": {
+        "bytes": 11506,
+        "sha256": "0fe3a6f7532aee7ad4d4299f00380ded45919564fc0dc2c60183c20848abfa92"
+      },
+      "output_identity": {
+        "bytes": 11506,
+        "sha256": "0fe3a6f7532aee7ad4d4299f00380ded45919564fc0dc2c60183c20848abfa92"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/tests/test_routers_data.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\tests\\test_routers_data.py",
+      "source_identity": {
+        "bytes": 14378,
+        "sha256": "cd9033ac01fbc3db86d27e707bcce05010efd0f94fa18ec7a644ce24fbf4f039"
+      },
+      "output_identity": {
+        "bytes": 14378,
+        "sha256": "cd9033ac01fbc3db86d27e707bcce05010efd0f94fa18ec7a644ce24fbf4f039"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/quantum/verification.py",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\quantum\\verification.py",
+      "source_identity": {
+        "bytes": 6904,
+        "sha256": "45b5d4ce89b2ade49db6a5c555901f84df5e5373a97fdea8d02d9b81a6cade82"
+      },
+      "output_identity": {
+        "bytes": 6904,
+        "sha256": "45b5d4ce89b2ade49db6a5c555901f84df5e5373a97fdea8d02d9b81a6cade82"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/README.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\README.txt",
+      "source_identity": {
+        "bytes": 3121,
+        "sha256": "aa88cd1e85bd3607c9146aac20b3cca22763ce77412a053bdeac6aad5d560443"
+      },
+      "output_identity": {
+        "bytes": 3121,
+        "sha256": "aa88cd1e85bd3607c9146aac20b3cca22763ce77412a053bdeac6aad5d560443"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "payload/study/REPRODUCTION_GUIDE.txt",
+      "source": "C:\\Q2\\Improvement_Study_v0.6\\REPRODUCTION_GUIDE.txt",
+      "source_identity": {
+        "bytes": 16363,
+        "sha256": "de12ce1144056e7f5dfea54a1a8ebf1f3a57f0deb331024181667d31c201704c"
+      },
+      "output_identity": {
+        "bytes": 16363,
+        "sha256": "de12ce1144056e7f5dfea54a1a8ebf1f3a57f0deb331024181667d31c201704c"
+      },
+      "classification": "unchanged_source"
+    },
+    {
+      "path": "provenance/adopted/v0.1_CODE_LICENSE_SCOPE.json",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\assembly\\QPathformer_v0.1_Code\\CODE_LICENSE_SCOPE.json",
+      "source_identity": {
+        "bytes": 6678,
+        "sha256": "e4fbd5efbe5505ee2349eed036c7463befce83c2e261d0f478f1dd5552867dc1"
+      },
+      "output_identity": {
+        "bytes": 6678,
+        "sha256": "e4fbd5efbe5505ee2349eed036c7463befce83c2e261d0f478f1dd5552867dc1"
+      },
+      "classification": "adopted_scope_record"
+    },
+    {
+      "path": "provenance/adopted/v0.9.5_CODE_LICENSE_SCOPE.json",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9.5\\final_20261029\\repository\\CODE_LICENSE_SCOPE.json",
+      "source_identity": {
+        "bytes": 9567,
+        "sha256": "02d5e60edbe02f42f94fa273b644cd5e597a2d67e2f9ee1fed913eacb45966d4"
+      },
+      "output_identity": {
+        "bytes": 9567,
+        "sha256": "02d5e60edbe02f42f94fa273b644cd5e597a2d67e2f9ee1fed913eacb45966d4"
+      },
+      "classification": "adopted_scope_record"
+    },
+    {
+      "path": "QPATHFORMER-PLATFORM-1.0.txt",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\assembly\\QPathformer_v0.1_Code\\QPATHFORMER-PLATFORM-1.0.txt",
+      "source_identity": {
+        "bytes": 1461,
+        "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+      },
+      "output_identity": {
+        "bytes": 1461,
+        "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+      },
+      "classification": "canonical_unchanged_license"
+    },
+    {
+      "path": "QUICKSTART.md",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\assembly\\QPathformer_v0.6_Code\\QUICKSTART.md",
+      "source_identity": {
+        "bytes": 2205,
+        "sha256": "db52f482ad3b417a5ca1574eed4ed572f287ebb328a89addd316399e77d170ea"
+      },
+      "output_identity": {
+        "bytes": 2205,
+        "sha256": "db52f482ad3b417a5ca1574eed4ed572f287ebb328a89addd316399e77d170ea"
+      },
+      "classification": "reviewed_current_revision",
+      "previous_edition_identity": {
+        "bytes": 1301,
+        "sha256": "b154a92091e5cbb4820d9a9c1d29d3e424ade60d72a163a545d9805afa959880"
+      },
+      "handling": "Current helper/guidance or exact record binding updated; preserved report/scientific/historical bytes unchanged."
+    },
+    {
+      "path": "RIGHTS.md",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\assembly\\QPathformer_v0.6_Code\\RIGHTS.md",
+      "source_identity": {
+        "bytes": 1343,
+        "sha256": "1156c76a7c1ee68d34e571121a39d73a6a7c70ee08ce98a9bd5b71c7baa779e0"
+      },
+      "output_identity": {
+        "bytes": 1343,
+        "sha256": "1156c76a7c1ee68d34e571121a39d73a6a7c70ee08ce98a9bd5b71c7baa779e0"
+      },
+      "classification": "reviewed_current_revision",
+      "previous_edition_identity": {
+        "bytes": 1092,
+        "sha256": "fe73c673f2c2538bcf467fa078f51084c26945d4540a9d1856619f7402fc90d3"
+      },
+      "handling": "Current helper/guidance or exact record binding updated; preserved report/scientific/historical bytes unchanged."
+    },
+    {
+      "path": "START_HERE.md",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\assembly\\QPathformer_v0.6_Code\\START_HERE.md",
+      "source_identity": {
+        "bytes": 3103,
+        "sha256": "3174be13a4761513de014ca89bf42a9eca3a3389c04790c78b172c79efa3e08d"
+      },
+      "output_identity": {
+        "bytes": 3103,
+        "sha256": "3174be13a4761513de014ca89bf42a9eca3a3389c04790c78b172c79efa3e08d"
+      },
+      "classification": "reviewed_current_revision",
+      "previous_edition_identity": {
+        "bytes": 1137,
+        "sha256": "975c2c041f3b2ebac09d595f74b4f976728596af413baf78b9f3109094f42bac"
+      },
+      "handling": "Current helper/guidance or exact record binding updated; preserved report/scientific/historical bytes unchanged."
+    },
+    {
+      "path": "tools/startup_check.py",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\assembly\\QPathformer_v0.6_Code\\tools\\startup_check.py",
+      "source_identity": {
+        "bytes": 9216,
+        "sha256": "ac6b17cb1ac09f6d6e6d24ba096a2f31a5dba3bffe653fbb2a5544b56c9c3067"
+      },
+      "output_identity": {
+        "bytes": 9216,
+        "sha256": "ac6b17cb1ac09f6d6e6d24ba096a2f31a5dba3bffe653fbb2a5544b56c9c3067"
+      },
+      "classification": "reviewed_current_revision",
+      "previous_edition_identity": {
+        "bytes": 1536,
+        "sha256": "26eadb4c9e163639081edd1c15ff7042deeef56eaf7d33859b29fbe1c599cbf8"
+      },
+      "handling": "Current helper/guidance or exact record binding updated; preserved report/scientific/historical bytes unchanged."
+    },
+    {
+      "path": "tools/verify_package.py",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\assembly\\QPathformer_v0.6_Code\\tools\\verify_package.py",
+      "source_identity": {
+        "bytes": 5925,
+        "sha256": "b58cadbc82203234ab928d82a749e8c41bf1a856d3274af8245c6875593d126f"
+      },
+      "output_identity": {
+        "bytes": 5925,
+        "sha256": "b58cadbc82203234ab928d82a749e8c41bf1a856d3274af8245c6875593d126f"
+      },
+      "classification": "reviewed_current_revision",
+      "previous_edition_identity": {
+        "bytes": 793,
+        "sha256": "19345ef4c4f160cb8e068481768fb5e919f51dcc046842efe60f4ec2fe77c105"
+      },
+      "handling": "Current helper/guidance or exact record binding updated; preserved report/scientific/historical bytes unchanged."
+    },
+    {
+      "path": "VERIFY.md",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261030_r3\\assembly\\QPathformer_v0.6_Code\\VERIFY.md",
+      "source_identity": {
+        "bytes": 1279,
+        "sha256": "b15eacdc200ecaf5baf37daa47d4a2c94cf0f8cd786e928d96d8c0b7441884f5"
+      },
+      "output_identity": {
+        "bytes": 1279,
+        "sha256": "b15eacdc200ecaf5baf37daa47d4a2c94cf0f8cd786e928d96d8c0b7441884f5"
+      },
+      "classification": "reviewed_current_revision",
+      "previous_edition_identity": {
+        "bytes": 625,
+        "sha256": "f721c391a965641b181706a2d1afdcc6af034b141b28722d6ac3371b228b0ce2"
+      },
+      "handling": "Current helper/guidance or exact record binding updated; preserved report/scientific/historical bytes unchanged."
+    }
+  ],
+  "generated_files": [
+    "SOURCE_SELECTION.json"
+  ],
+  "retained_full_archive": {
+    "logical_payload_bytes": 2229408138,
+    "files": 20859,
+    "not_included": true
+  },
+  "size_note": "Retained archive size is distinct from curated ZIP size and hardware minimums."
+}

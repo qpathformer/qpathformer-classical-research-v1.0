@@ -1,0 +1,6 @@
+# Standalone plotting dependencies, separate from the numeric evaluation environment.
+# scientific_plot_requirements_lock.txt is retained observed bundled metadata;
+# its local artifact_tool_v2 reference is not a portable installation requirement.
+matplotlib==3.11.2
+numpy==2.3.5
+pillow==12.3.0

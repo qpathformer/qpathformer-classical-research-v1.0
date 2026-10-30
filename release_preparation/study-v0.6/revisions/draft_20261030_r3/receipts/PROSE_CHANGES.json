@@ -1,0 +1,347 @@
+{
+  "status": "STAGED_FOR_REBUILD",
+  "created_utc": "2026-10-30T04:51:03.064705+00:00",
+  "source_notes": {
+    "path": "C:\\Anthony Siljeg\\CPU-QPU git repo prep\\v6 final staging\\study-v0.6_release_review_and_codex_notes.md",
+    "bytes": 33572,
+    "sha256": "d172d7a13da74c84e62606918a6a4914747b24f36c1a55717c8031b34065f654"
+  },
+  "changed_package_files": [
+    {
+      "package": "QPathformer_v0.6_Study",
+      "relative_path": "RIGHTS.md",
+      "staged_path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\QPathformer_v0.6_Study\\RIGHTS.md",
+      "original_archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\dist\\QPathformer_v0.6_Study.zip",
+      "original_member": "QPathformer_v0.6_Study/RIGHTS.md",
+      "original": {
+        "bytes": 1092,
+        "sha256": "fe73c673f2c2538bcf467fa078f51084c26945d4540a9d1856619f7402fc90d3"
+      },
+      "new": {
+        "bytes": 1343,
+        "sha256": "1156c76a7c1ee68d34e571121a39d73a6a7c70ee08ce98a9bd5b71c7baa779e0"
+      },
+      "scope_action": "Refresh current controlled guidance identity and dependent scope/adoption bindings while preserving the original owner decision and legal texts.",
+      "relative_links_checked": true
+    },
+    {
+      "package": "QPathformer_v0.6_Study",
+      "relative_path": "START_HERE.md",
+      "staged_path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\QPathformer_v0.6_Study\\START_HERE.md",
+      "original_archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\dist\\QPathformer_v0.6_Study.zip",
+      "original_member": "QPathformer_v0.6_Study/START_HERE.md",
+      "original": {
+        "bytes": 1606,
+        "sha256": "a8c11956aa8e4218882b3437c8e6a13bb7e1a8dbcaa09f5c67fec8d9cf4b22dc"
+      },
+      "new": {
+        "bytes": 3024,
+        "sha256": "476f51a936334502978d964c0857bbd753edb416c753ae7bb679823715366419"
+      },
+      "scope_action": "Refresh current controlled guidance identity and dependent scope/adoption bindings while preserving the original owner decision and legal texts.",
+      "relative_links_checked": true
+    },
+    {
+      "package": "QPathformer_v0.6_Study",
+      "relative_path": "VERIFY.md",
+      "staged_path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\QPathformer_v0.6_Study\\VERIFY.md",
+      "original_archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\dist\\QPathformer_v0.6_Study.zip",
+      "original_member": "QPathformer_v0.6_Study/VERIFY.md",
+      "original": {
+        "bytes": 625,
+        "sha256": "f721c391a965641b181706a2d1afdcc6af034b141b28722d6ac3371b228b0ce2"
+      },
+      "new": {
+        "bytes": 1279,
+        "sha256": "b15eacdc200ecaf5baf37daa47d4a2c94cf0f8cd786e928d96d8c0b7441884f5"
+      },
+      "scope_action": "Refresh current controlled guidance identity and dependent scope/adoption bindings while preserving the original owner decision and legal texts.",
+      "relative_links_checked": true
+    },
+    {
+      "package": "QPathformer_v0.6_Documentation",
+      "relative_path": "RELEASE_NOTES.md",
+      "staged_path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\QPathformer_v0.6_Documentation\\RELEASE_NOTES.md",
+      "original_archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\dist\\QPathformer_v0.6_Documentation.zip",
+      "original_member": "QPathformer_v0.6_Documentation/RELEASE_NOTES.md",
+      "original": {
+        "bytes": 525,
+        "sha256": "e7294fb39908425e5d5b6c598b9d1eacf2d6a3b3d86667f625f7079f61419c95"
+      },
+      "new": {
+        "bytes": 4681,
+        "sha256": "92db2702863be49fc91aa7207748bbba78eed7e6ed29a43ed31a5f3fc6a56d9d"
+      },
+      "scope_action": "Refresh current controlled guidance identity and dependent scope/adoption bindings while preserving the original owner decision and legal texts.",
+      "relative_links_checked": true
+    },
+    {
+      "package": "QPathformer_v0.6_Documentation",
+      "relative_path": "RESEARCH_GUIDE.md",
+      "staged_path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\QPathformer_v0.6_Documentation\\RESEARCH_GUIDE.md",
+      "original_archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\dist\\QPathformer_v0.6_Documentation.zip",
+      "original_member": "QPathformer_v0.6_Documentation/RESEARCH_GUIDE.md",
+      "original": {
+        "bytes": 2342,
+        "sha256": "9b0b9f598afdc02ded489de231e1f9bcf93f2ef5597504374af1b4e0a679e80a"
+      },
+      "new": {
+        "bytes": 11489,
+        "sha256": "18a6c5ef5bb142678a27ee3eefdbc316a4317651422ca9ae5a694f6be9469c16"
+      },
+      "scope_action": "Refresh current controlled guidance identity and dependent scope/adoption bindings while preserving the original owner decision and legal texts.",
+      "relative_links_checked": true
+    },
+    {
+      "package": "QPathformer_v0.6_Documentation",
+      "relative_path": "RIGHTS.md",
+      "staged_path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\QPathformer_v0.6_Documentation\\RIGHTS.md",
+      "original_archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\dist\\QPathformer_v0.6_Documentation.zip",
+      "original_member": "QPathformer_v0.6_Documentation/RIGHTS.md",
+      "original": {
+        "bytes": 1092,
+        "sha256": "fe73c673f2c2538bcf467fa078f51084c26945d4540a9d1856619f7402fc90d3"
+      },
+      "new": {
+        "bytes": 1343,
+        "sha256": "1156c76a7c1ee68d34e571121a39d73a6a7c70ee08ce98a9bd5b71c7baa779e0"
+      },
+      "scope_action": "Refresh current controlled guidance identity and dependent scope/adoption bindings while preserving the original owner decision and legal texts.",
+      "relative_links_checked": true
+    },
+    {
+      "package": "QPathformer_v0.6_Documentation",
+      "relative_path": "START_HERE.md",
+      "staged_path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\QPathformer_v0.6_Documentation\\START_HERE.md",
+      "original_archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\dist\\QPathformer_v0.6_Documentation.zip",
+      "original_member": "QPathformer_v0.6_Documentation/START_HERE.md",
+      "original": {
+        "bytes": 1140,
+        "sha256": "743a5590d64864a4a5fbd686c1a6d22d2b16c17d3506397e2354d2fa68947b69"
+      },
+      "new": {
+        "bytes": 2482,
+        "sha256": "6fb5df13a12f17683fccbb2374893a6c659ca82df44a4006571aef0398bafb87"
+      },
+      "scope_action": "Refresh current controlled guidance identity and dependent scope/adoption bindings while preserving the original owner decision and legal texts.",
+      "relative_links_checked": true
+    },
+    {
+      "package": "QPathformer_v0.6_Documentation",
+      "relative_path": "VERIFY.md",
+      "staged_path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\QPathformer_v0.6_Documentation\\VERIFY.md",
+      "original_archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\dist\\QPathformer_v0.6_Documentation.zip",
+      "original_member": "QPathformer_v0.6_Documentation/VERIFY.md",
+      "original": {
+        "bytes": 625,
+        "sha256": "f721c391a965641b181706a2d1afdcc6af034b141b28722d6ac3371b228b0ce2"
+      },
+      "new": {
+        "bytes": 1279,
+        "sha256": "b15eacdc200ecaf5baf37daa47d4a2c94cf0f8cd786e928d96d8c0b7441884f5"
+      },
+      "scope_action": "Refresh current controlled guidance identity and dependent scope/adoption bindings while preserving the original owner decision and legal texts.",
+      "relative_links_checked": true
+    },
+    {
+      "package": "QPathformer_v0.6_Code",
+      "relative_path": "RIGHTS.md",
+      "staged_path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\QPathformer_v0.6_Code\\RIGHTS.md",
+      "original_archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\dist\\QPathformer_v0.6_Code.zip",
+      "original_member": "QPathformer_v0.6_Code/RIGHTS.md",
+      "original": {
+        "bytes": 1092,
+        "sha256": "fe73c673f2c2538bcf467fa078f51084c26945d4540a9d1856619f7402fc90d3"
+      },
+      "new": {
+        "bytes": 1343,
+        "sha256": "1156c76a7c1ee68d34e571121a39d73a6a7c70ee08ce98a9bd5b71c7baa779e0"
+      },
+      "scope_action": "Refresh current controlled guidance identity and dependent scope/adoption bindings while preserving the original owner decision and legal texts.",
+      "relative_links_checked": true
+    },
+    {
+      "package": "QPathformer_v0.6_Code",
+      "relative_path": "START_HERE.md",
+      "staged_path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\QPathformer_v0.6_Code\\START_HERE.md",
+      "original_archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\dist\\QPathformer_v0.6_Code.zip",
+      "original_member": "QPathformer_v0.6_Code/START_HERE.md",
+      "original": {
+        "bytes": 1137,
+        "sha256": "975c2c041f3b2ebac09d595f74b4f976728596af413baf78b9f3109094f42bac"
+      },
+      "new": {
+        "bytes": 3103,
+        "sha256": "3174be13a4761513de014ca89bf42a9eca3a3389c04790c78b172c79efa3e08d"
+      },
+      "scope_action": "Refresh current controlled guidance identity and dependent scope/adoption bindings while preserving the original owner decision and legal texts.",
+      "relative_links_checked": true
+    },
+    {
+      "package": "QPathformer_v0.6_Code",
+      "relative_path": "VERIFY.md",
+      "staged_path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\QPathformer_v0.6_Code\\VERIFY.md",
+      "original_archive": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\dist\\QPathformer_v0.6_Code.zip",
+      "original_member": "QPathformer_v0.6_Code/VERIFY.md",
+      "original": {
+        "bytes": 625,
+        "sha256": "f721c391a965641b181706a2d1afdcc6af034b141b28722d6ac3371b228b0ce2"
+      },
+      "new": {
+        "bytes": 1279,
+        "sha256": "b15eacdc200ecaf5baf37daa47d4a2c94cf0f8cd786e928d96d8c0b7441884f5"
+      },
+      "scope_action": "Refresh current controlled guidance identity and dependent scope/adoption bindings while preserving the original owner decision and legal texts.",
+      "relative_links_checked": true
+    }
+  ],
+  "preserved_payloads": [
+    {
+      "package": "QPathformer_v0.6_Study",
+      "path": "LICENSE_ADOPTION.json",
+      "bytes": 1686,
+      "sha256": "733c4efacfb7de207c7bc4a6344844d35490a25e40190146d184d7d189b8fbbb",
+      "action": "Not staged or modified; root must preserve historical/scientific records and refresh only current identity bindings where required."
+    },
+    {
+      "package": "QPathformer_v0.6_Study",
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 18615,
+      "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196",
+      "action": "Not staged or modified; root must preserve historical/scientific records and refresh only current identity bindings where required."
+    },
+    {
+      "package": "QPathformer_v0.6_Study",
+      "path": "provenance/EDITION_CHANGES.md",
+      "bytes": 763,
+      "sha256": "2b7d5aee9986ca4c69079367f17939a03870211c5e8ba4ff118f9a0cdf39db1a",
+      "action": "Not staged or modified; root must preserve historical/scientific records and refresh only current identity bindings where required."
+    },
+    {
+      "package": "QPathformer_v0.6_Study",
+      "path": "provenance/REPORT_PRESERVATION.json",
+      "bytes": 3293,
+      "sha256": "774ca12b70fc8b5a7dff25be1faabb35ded3f21b6dd229e26329a1242bac35d7",
+      "action": "Not staged or modified; root must preserve historical/scientific records and refresh only current identity bindings where required."
+    },
+    {
+      "package": "QPathformer_v0.6_Study",
+      "path": "provenance/REPORT_REVIEW.json",
+      "bytes": 2644,
+      "sha256": "b15fccbff48b036bbed34fc366ae3e4c78b9554d27b110a00270ca69ca0a82c8",
+      "action": "Not staged or modified; root must preserve historical/scientific records and refresh only current identity bindings where required."
+    },
+    {
+      "package": "QPathformer_v0.6_Study",
+      "path": "provenance/SOURCE_MAP.json",
+      "bytes": 4971,
+      "sha256": "af2e79b4ced44f7590999a53cfdc665d345edf6c37d84eae44c035ce8e05f884",
+      "action": "Not staged or modified; root must preserve historical/scientific records and refresh only current identity bindings where required."
+    },
+    {
+      "package": "QPathformer_v0.6_Study",
+      "path": "QPATHFORMER-PLATFORM-1.0.txt",
+      "bytes": 1461,
+      "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057",
+      "action": "Not staged or modified; root must preserve historical/scientific records and refresh only current identity bindings where required."
+    },
+    {
+      "package": "QPathformer_v0.6_Study",
+      "path": "reports/QPathformer_v0.6_Report.docx",
+      "bytes": 868690,
+      "sha256": "55db1c2b47569435e461b6756019c5767b81b0aca933e74b7b7c86da63d095b0",
+      "action": "Not staged or modified; root must preserve historical/scientific records and refresh only current identity bindings where required."
+    },
+    {
+      "package": "QPathformer_v0.6_Study",
+      "path": "reports/QPathformer_v0.6_Report.pdf",
+      "bytes": 1463490,
+      "sha256": "e25614ebe1be5a9edf9d3efba0aacf9eaab406ce210fe09fd3ad3c3f55015647",
+      "action": "Not staged or modified; root must preserve historical/scientific records and refresh only current identity bindings where required."
+    },
+    {
+      "package": "QPathformer_v0.6_Documentation",
+      "path": "LICENSE_ADOPTION.json",
+      "bytes": 1526,
+      "sha256": "9271eba3e35779c48ee7abd5c66b9aef40215a3892f1a5e2968b64db2b0ce534",
+      "action": "Not staged or modified; root must preserve historical/scientific records and refresh only current identity bindings where required."
+    },
+    {
+      "package": "QPathformer_v0.6_Documentation",
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 18615,
+      "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196",
+      "action": "Not staged or modified; root must preserve historical/scientific records and refresh only current identity bindings where required."
+    },
+    {
+      "package": "QPathformer_v0.6_Documentation",
+      "path": "provenance/SOURCE_MAP.json",
+      "bytes": 8268,
+      "sha256": "f154c8b0320005bf7a6dc4dda6e14d6a192da2f5cbf414d809dbb4bb3a931d4f",
+      "action": "Not staged or modified; root must preserve historical/scientific records and refresh only current identity bindings where required."
+    },
+    {
+      "package": "QPathformer_v0.6_Documentation",
+      "path": "QPATHFORMER-PLATFORM-1.0.txt",
+      "bytes": 1461,
+      "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057",
+      "action": "Not staged or modified; root must preserve historical/scientific records and refresh only current identity bindings where required."
+    },
+    {
+      "package": "QPathformer_v0.6_Code",
+      "path": "LICENSE_ADOPTION.json",
+      "bytes": 1685,
+      "sha256": "8a0f37f1dd0e48dc9408d619665139b4335923687d438d588719b8eaa0781f3b",
+      "action": "Not staged or modified; root must preserve historical/scientific records and refresh only current identity bindings where required."
+    },
+    {
+      "package": "QPathformer_v0.6_Code",
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 18615,
+      "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196",
+      "action": "Not staged or modified; root must preserve historical/scientific records and refresh only current identity bindings where required."
+    },
+    {
+      "package": "QPathformer_v0.6_Code",
+      "path": "provenance/adopted/v0.1_CODE_LICENSE_SCOPE.json",
+      "bytes": 6678,
+      "sha256": "e4fbd5efbe5505ee2349eed036c7463befce83c2e261d0f478f1dd5552867dc1",
+      "action": "Not staged or modified; root must preserve historical/scientific records and refresh only current identity bindings where required."
+    },
+    {
+      "package": "QPathformer_v0.6_Code",
+      "path": "provenance/adopted/v0.9.5_CODE_LICENSE_SCOPE.json",
+      "bytes": 9567,
+      "sha256": "02d5e60edbe02f42f94fa273b644cd5e597a2d67e2f9ee1fed913eacb45966d4",
+      "action": "Not staged or modified; root must preserve historical/scientific records and refresh only current identity bindings where required."
+    },
+    {
+      "package": "QPathformer_v0.6_Code",
+      "path": "provenance/SOURCE_MAP.json",
+      "bytes": 39716,
+      "sha256": "82b042bb878de8393e703796f9832690ffd6df44638c271491611b781878bb90",
+      "action": "Not staged or modified; root must preserve historical/scientific records and refresh only current identity bindings where required."
+    },
+    {
+      "package": "QPathformer_v0.6_Code",
+      "path": "QPATHFORMER-PLATFORM-1.0.txt",
+      "bytes": 1461,
+      "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057",
+      "action": "Not staged or modified; root must preserve historical/scientific records and refresh only current identity bindings where required."
+    }
+  ],
+  "package_rebuild_required": [
+    "QPathformer_v0.6_Study",
+    "QPathformer_v0.6_Documentation",
+    "QPathformer_v0.6_Code"
+  ],
+  "reason": "All three current START_HERE wrappers qualify conversion and current verification; report bytes remain unchanged.",
+  "release_title": "Q-Pathformer Study v0.6 — Harder Tasks and Faster Inference",
+  "release_body": {
+    "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_prose\\RELEASE_BODY.md",
+    "bytes": 7034,
+    "sha256": "e5c3a226ea75d556df28345370491e36b25c53ae25209edbdb2a0c46a23133a9"
+  },
+  "no_experiments_run": true,
+  "publication_authorized": false
+}

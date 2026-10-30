@@ -1,0 +1,254 @@
+{
+  "status": "PASS_POWERSHELL_QUICKSTART_CHECKS",
+  "recorded_at_utc": "2026-10-30T04:48:38.696814+00:00",
+  "powershell": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+  "powershell_version": "7.6.9",
+  "invocation": [
+    "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+    "-B",
+    "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\test_powershell.py"
+  ],
+  "harness_python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "python_runtime": "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+  "source_package": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.6\\draft_20261029_r02\\qa\\fresh_extraction\\QPathformer_v0.6_Code",
+  "source_package_unchanged": true,
+  "source_package_fingerprint_sha256": "d7704cf6a5f6947d1adb543413cdc5d269d3c0aee46331d7706737de0f02635f",
+  "literal_quickstart_block_sha256": "7a6eef78fed74c92b41ce29c2232aac56bd48c69d9e6b42c67a783198dedce67",
+  "tested_files": [
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\verify_package.py",
+      "bytes": 5925,
+      "sha256": "b58cadbc82203234ab928d82a749e8c41bf1a856d3274af8245c6875593d126f"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\startup_check.py",
+      "bytes": 9216,
+      "sha256": "ac6b17cb1ac09f6d6e6d24ba096a2f31a5dba3bffe653fbb2a5544b56c9c3067"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\QUICKSTART.md",
+      "bytes": 2205,
+      "sha256": "db52f482ad3b417a5ca1574eed4ed572f287ebb328a89addd316399e77d170ea"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\test_helpers.py",
+      "bytes": 20424,
+      "sha256": "4fa5bfa9ab7394a50320736d54ad8acf59d2d23d041c9dfda78ae53e9e471c54"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\test_powershell.py",
+      "bytes": 5631,
+      "sha256": "02158b92a24505b03864de01fc32f33378799c7be3b01071326b7a3841ca9931"
+    }
+  ],
+  "probes": [
+    {
+      "probe": "invalid_missing",
+      "status": "PASS",
+      "command": [
+        "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+        "-NoLogo",
+        "-NoProfile",
+        "-NonInteractive",
+        "-File",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\powershell-probes-5dr8qpsa\\invalid_missing\\quickstart.ps1"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\powershell-probes-5dr8qpsa\\invalid_missing\\QPathformer_v0.6_Code\\tools\\verify_package.py\", line 141, in <module>\n    main()\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\powershell-probes-5dr8qpsa\\invalid_missing\\QPathformer_v0.6_Code\\tools\\verify_package.py\", line 137, in main\n    print(json.dumps(verify()))\n                     ^^^^^^^^\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\powershell-probes-5dr8qpsa\\invalid_missing\\QPathformer_v0.6_Code\\tools\\verify_package.py\", line 112, in verify\n    raise ValueError(\"Manifest membership differs\")\nValueError: Manifest membership differs\nException: C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\powershell-probes-5dr8qpsa\\invalid_missing\\quickstart.ps1:8\nLine |\n   8 |          throw \"Package verification failed; startup was not run.\"\n     |          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | Package verification failed; startup was not run.\n",
+      "startup_receipt_created": false,
+      "package_bytes_unchanged": true,
+      "classification": "ACTUAL_POWERSHELL_STOP_BEFORE_STARTUP"
+    },
+    {
+      "probe": "invalid_changed_same_size",
+      "status": "PASS",
+      "command": [
+        "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+        "-NoLogo",
+        "-NoProfile",
+        "-NonInteractive",
+        "-File",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\powershell-probes-5dr8qpsa\\invalid_changed_same_size\\quickstart.ps1"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\powershell-probes-5dr8qpsa\\invalid_changed_same_size\\QPathformer_v0.6_Code\\tools\\verify_package.py\", line 141, in <module>\n    main()\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\powershell-probes-5dr8qpsa\\invalid_changed_same_size\\QPathformer_v0.6_Code\\tools\\verify_package.py\", line 137, in main\n    print(json.dumps(verify()))\n                     ^^^^^^^^\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\powershell-probes-5dr8qpsa\\invalid_changed_same_size\\QPathformer_v0.6_Code\\tools\\verify_package.py\", line 128, in verify\n    raise ValueError(\"Manifest differs: \" + name)\nValueError: Manifest differs: START_HERE.md\nException: C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\powershell-probes-5dr8qpsa\\invalid_changed_same_size\\quickstart.ps1:8\nLine |\n   8 |          throw \"Package verification failed; startup was not run.\"\n     |          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | Package verification failed; startup was not run.\n",
+      "startup_receipt_created": false,
+      "package_bytes_unchanged": true,
+      "classification": "ACTUAL_POWERSHELL_STOP_BEFORE_STARTUP"
+    },
+    {
+      "probe": "invalid_unexpected",
+      "status": "PASS",
+      "command": [
+        "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+        "-NoLogo",
+        "-NoProfile",
+        "-NonInteractive",
+        "-File",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\powershell-probes-5dr8qpsa\\invalid_unexpected\\quickstart.ps1"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\powershell-probes-5dr8qpsa\\invalid_unexpected\\QPathformer_v0.6_Code\\tools\\verify_package.py\", line 141, in <module>\n    main()\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\powershell-probes-5dr8qpsa\\invalid_unexpected\\QPathformer_v0.6_Code\\tools\\verify_package.py\", line 137, in main\n    print(json.dumps(verify()))\n                     ^^^^^^^^\n  File \"C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\powershell-probes-5dr8qpsa\\invalid_unexpected\\QPathformer_v0.6_Code\\tools\\verify_package.py\", line 112, in verify\n    raise ValueError(\"Manifest membership differs\")\nValueError: Manifest membership differs\nException: C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\powershell-probes-5dr8qpsa\\invalid_unexpected\\quickstart.ps1:8\nLine |\n   8 |          throw \"Package verification failed; startup was not run.\"\n     |          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | Package verification failed; startup was not run.\n",
+      "startup_receipt_created": false,
+      "package_bytes_unchanged": true,
+      "classification": "ACTUAL_POWERSHELL_STOP_BEFORE_STARTUP"
+    },
+    {
+      "probe": "valid",
+      "status": "PASS",
+      "command": [
+        "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+        "-NoLogo",
+        "-NoProfile",
+        "-NonInteractive",
+        "-File",
+        "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\powershell-probes-5dr8qpsa\\valid\\quickstart.ps1"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"files\": 90, \"package_fingerprint_sha256\": \"717a74bb6a363c70d3b550633e69beaa0e09194b8880ccfe9427a63a0772cf25\"}\n{\"status\": \"PASS\", \"checks\": 6}\n",
+      "stderr": "",
+      "startup_receipt_created": true,
+      "package_bytes_unchanged": true,
+      "classification": "GENUINE_BOUNDED_STARTUP_ON_UNSEALED_DISPOSABLE_HELPER_FIXTURE_NOT_FINAL_ZIP",
+      "startup_result": {
+        "status": "PASS",
+        "recorded_at_utc": "2026-10-30T04:48:37.980711+00:00",
+        "python": "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+        "platform": "Windows-11-10.0.26300-SP0",
+        "parsed_python_files": 61,
+        "numpy_version": "2.5.4",
+        "scipy_version": "1.18.1",
+        "methods": [
+          "qscalar_kmeans",
+          "qmulti_kmeans",
+          "mlp8tanh_kmeans",
+          "trig_kmeans",
+          "trig_global",
+          "mlp_global"
+        ],
+        "model_methods_checked": 6,
+        "tests_run": 6,
+        "integrity_before": {
+          "status": "PASS",
+          "files": 90,
+          "package_fingerprint_sha256": "717a74bb6a363c70d3b550633e69beaa0e09194b8880ccfe9427a63a0772cf25"
+        },
+        "integrity_after": {
+          "status": "PASS",
+          "files": 90,
+          "package_fingerprint_sha256": "717a74bb6a363c70d3b550633e69beaa0e09194b8880ccfe9427a63a0772cf25"
+        },
+        "package_bytes_unchanged": true,
+        "checks": [
+          {
+            "label": "model shapes and paired initial predictions",
+            "command": [
+              "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+              "-B",
+              "-c",
+              "import json, socket, sys, unittest\ndef denied(*args, **kwargs): raise RuntimeError('Network disabled during bounded startup')\nsocket.create_connection = denied\nsocket.socket.connect = denied\nsocket.socket.connect_ex = denied\nsys.path.insert(0, '..')\nsys.path.insert(0, '../deployment_checks')\nimport numpy, scipy, circuits, models, routers, study, verification, test_models, deployment_compiler, test_compiler\ntest_id = 'test_models.ModelTests.test_shapes_and_paired_initial_predictions'\nsuite = unittest.TestLoader().loadTestsFromName(test_id)\nresult = unittest.TextTestRunner(verbosity=2).run(suite)\nprint(json.dumps({'numpy_version': numpy.__version__, 'scipy_version': scipy.__version__, 'methods': list(models.METHODS), 'tests_run': result.testsRun, 'test_id': test_id}))\nraise SystemExit(0 if result.wasSuccessful() and result.testsRun == 1 else 1)"
+            ],
+            "cwd": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\powershell-probes-5dr8qpsa\\valid\\QPathformer_v0.6_Code\\payload\\study\\quantum\\tests",
+            "status": "PASS",
+            "returncode": 0,
+            "stdout": "{\"numpy_version\": \"2.5.4\", \"scipy_version\": \"1.18.1\", \"methods\": [\"qscalar_kmeans\", \"qmulti_kmeans\", \"mlp8tanh_kmeans\", \"trig_kmeans\", \"trig_global\", \"mlp_global\"], \"tests_run\": 1, \"test_id\": \"test_models.ModelTests.test_shapes_and_paired_initial_predictions\"}\n",
+            "stderr": "test_shapes_and_paired_initial_predictions (test_models.ModelTests.test_shapes_and_paired_initial_predictions) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.197s\n\nOK\n",
+            "test_id": "test_models.ModelTests.test_shapes_and_paired_initial_predictions"
+          },
+          {
+            "label": "independent circuit-state and moment agreement",
+            "command": [
+              "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+              "-B",
+              "-c",
+              "import json, socket, sys, unittest\ndef denied(*args, **kwargs): raise RuntimeError('Network disabled during bounded startup')\nsocket.create_connection = denied\nsocket.socket.connect = denied\nsocket.socket.connect_ex = denied\nsys.path.insert(0, '..')\nsys.path.insert(0, '../deployment_checks')\nimport numpy, scipy, circuits, models, routers, study, verification, test_models, deployment_compiler, test_compiler\ntest_id = 'test_models.ModelTests.test_moments_and_state_against_independent_matrices'\nsuite = unittest.TestLoader().loadTestsFromName(test_id)\nresult = unittest.TextTestRunner(verbosity=2).run(suite)\nprint(json.dumps({'numpy_version': numpy.__version__, 'scipy_version': scipy.__version__, 'methods': list(models.METHODS), 'tests_run': result.testsRun, 'test_id': test_id}))\nraise SystemExit(0 if result.wasSuccessful() and result.testsRun == 1 else 1)"
+            ],
+            "cwd": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\powershell-probes-5dr8qpsa\\valid\\QPathformer_v0.6_Code\\payload\\study\\quantum\\tests",
+            "status": "PASS",
+            "returncode": 0,
+            "stdout": "{\"numpy_version\": \"2.5.4\", \"scipy_version\": \"1.18.1\", \"methods\": [\"qscalar_kmeans\", \"qmulti_kmeans\", \"mlp8tanh_kmeans\", \"trig_kmeans\", \"trig_global\", \"mlp_global\"], \"tests_run\": 1, \"test_id\": \"test_models.ModelTests.test_moments_and_state_against_independent_matrices\"}\n",
+            "stderr": "test_moments_and_state_against_independent_matrices (test_models.ModelTests.test_moments_and_state_against_independent_matrices) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.346s\n\nOK\n",
+            "test_id": "test_models.ModelTests.test_moments_and_state_against_independent_matrices"
+          },
+          {
+            "label": "orthogonal period-two construction nodes",
+            "command": [
+              "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+              "-B",
+              "-c",
+              "import json, socket, sys, unittest\ndef denied(*args, **kwargs): raise RuntimeError('Network disabled during bounded startup')\nsocket.create_connection = denied\nsocket.socket.connect = denied\nsocket.socket.connect_ex = denied\nsys.path.insert(0, '..')\nsys.path.insert(0, '../deployment_checks')\nimport numpy, scipy, circuits, models, routers, study, verification, test_models, deployment_compiler, test_compiler\ntest_id = 'test_compiler.CompilerTests.test_orthogonal_period_two_nodes'\nsuite = unittest.TestLoader().loadTestsFromName(test_id)\nresult = unittest.TextTestRunner(verbosity=2).run(suite)\nprint(json.dumps({'numpy_version': numpy.__version__, 'scipy_version': scipy.__version__, 'methods': list(models.METHODS), 'tests_run': result.testsRun, 'test_id': test_id}))\nraise SystemExit(0 if result.wasSuccessful() and result.testsRun == 1 else 1)"
+            ],
+            "cwd": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\powershell-probes-5dr8qpsa\\valid\\QPathformer_v0.6_Code\\payload\\study\\quantum\\tests",
+            "status": "PASS",
+            "returncode": 0,
+            "stdout": "{\"numpy_version\": \"2.5.4\", \"scipy_version\": \"1.18.1\", \"methods\": [\"qscalar_kmeans\", \"qmulti_kmeans\", \"mlp8tanh_kmeans\", \"trig_kmeans\", \"trig_global\", \"mlp_global\"], \"tests_run\": 1, \"test_id\": \"test_compiler.CompilerTests.test_orthogonal_period_two_nodes\"}\n",
+            "stderr": "test_orthogonal_period_two_nodes (test_compiler.CompilerTests.test_orthogonal_period_two_nodes) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.183s\n\nOK\n",
+            "test_id": "test_compiler.CompilerTests.test_orthogonal_period_two_nodes"
+          },
+          {
+            "label": "both heads off grid and forced banks",
+            "command": [
+              "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+              "-B",
+              "-c",
+              "import json, socket, sys, unittest\ndef denied(*args, **kwargs): raise RuntimeError('Network disabled during bounded startup')\nsocket.create_connection = denied\nsocket.socket.connect = denied\nsocket.socket.connect_ex = denied\nsys.path.insert(0, '..')\nsys.path.insert(0, '../deployment_checks')\nimport numpy, scipy, circuits, models, routers, study, verification, test_models, deployment_compiler, test_compiler\ntest_id = 'test_compiler.CompilerTests.test_both_heads_off_grid_and_forced_banks'\nsuite = unittest.TestLoader().loadTestsFromName(test_id)\nresult = unittest.TextTestRunner(verbosity=2).run(suite)\nprint(json.dumps({'numpy_version': numpy.__version__, 'scipy_version': scipy.__version__, 'methods': list(models.METHODS), 'tests_run': result.testsRun, 'test_id': test_id}))\nraise SystemExit(0 if result.wasSuccessful() and result.testsRun == 1 else 1)"
+            ],
+            "cwd": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\powershell-probes-5dr8qpsa\\valid\\QPathformer_v0.6_Code\\payload\\study\\quantum\\tests",
+            "status": "PASS",
+            "returncode": 0,
+            "stdout": "{\"numpy_version\": \"2.5.4\", \"scipy_version\": \"1.18.1\", \"methods\": [\"qscalar_kmeans\", \"qmulti_kmeans\", \"mlp8tanh_kmeans\", \"trig_kmeans\", \"trig_global\", \"mlp_global\"], \"tests_run\": 1, \"test_id\": \"test_compiler.CompilerTests.test_both_heads_off_grid_and_forced_banks\"}\n",
+            "stderr": "test_both_heads_off_grid_and_forced_banks (test_compiler.CompilerTests.test_both_heads_off_grid_and_forced_banks) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.242s\n\nOK\n",
+            "test_id": "test_compiler.CompilerTests.test_both_heads_off_grid_and_forced_banks"
+          },
+          {
+            "label": "constant logits and invalid conversion contracts",
+            "command": [
+              "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+              "-B",
+              "-c",
+              "import json, socket, sys, unittest\ndef denied(*args, **kwargs): raise RuntimeError('Network disabled during bounded startup')\nsocket.create_connection = denied\nsocket.socket.connect = denied\nsocket.socket.connect_ex = denied\nsys.path.insert(0, '..')\nsys.path.insert(0, '../deployment_checks')\nimport numpy, scipy, circuits, models, routers, study, verification, test_models, deployment_compiler, test_compiler\ntest_id = 'test_compiler.CompilerTests.test_constant_logits_and_invalid_contracts'\nsuite = unittest.TestLoader().loadTestsFromName(test_id)\nresult = unittest.TextTestRunner(verbosity=2).run(suite)\nprint(json.dumps({'numpy_version': numpy.__version__, 'scipy_version': scipy.__version__, 'methods': list(models.METHODS), 'tests_run': result.testsRun, 'test_id': test_id}))\nraise SystemExit(0 if result.wasSuccessful() and result.testsRun == 1 else 1)"
+            ],
+            "cwd": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\powershell-probes-5dr8qpsa\\valid\\QPathformer_v0.6_Code\\payload\\study\\quantum\\tests",
+            "status": "PASS",
+            "returncode": 0,
+            "stdout": "{\"numpy_version\": \"2.5.4\", \"scipy_version\": \"1.18.1\", \"methods\": [\"qscalar_kmeans\", \"qmulti_kmeans\", \"mlp8tanh_kmeans\", \"trig_kmeans\", \"trig_global\", \"mlp_global\"], \"tests_run\": 1, \"test_id\": \"test_compiler.CompilerTests.test_constant_logits_and_invalid_contracts\"}\n",
+            "stderr": "test_constant_logits_and_invalid_contracts (test_compiler.CompilerTests.test_constant_logits_and_invalid_contracts) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.179s\n\nOK\n",
+            "test_id": "test_compiler.CompilerTests.test_constant_logits_and_invalid_contracts"
+          },
+          {
+            "label": "learned Trig25 identical coefficient kernel",
+            "command": [
+              "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+              "-B",
+              "-c",
+              "import json, socket, sys, unittest\ndef denied(*args, **kwargs): raise RuntimeError('Network disabled during bounded startup')\nsocket.create_connection = denied\nsocket.socket.connect = denied\nsocket.socket.connect_ex = denied\nsys.path.insert(0, '..')\nsys.path.insert(0, '../deployment_checks')\nimport numpy, scipy, circuits, models, routers, study, verification, test_models, deployment_compiler, test_compiler\ntest_id = 'test_compiler.CompilerTests.test_learned_trig_uses_identical_coefficient_kernel'\nsuite = unittest.TestLoader().loadTestsFromName(test_id)\nresult = unittest.TextTestRunner(verbosity=2).run(suite)\nprint(json.dumps({'numpy_version': numpy.__version__, 'scipy_version': scipy.__version__, 'methods': list(models.METHODS), 'tests_run': result.testsRun, 'test_id': test_id}))\nraise SystemExit(0 if result.wasSuccessful() and result.testsRun == 1 else 1)"
+            ],
+            "cwd": "C:\\Anthony Siljeg\\draft_releases_20261029\\v06_r3_helpers\\powershell-probes-5dr8qpsa\\valid\\QPathformer_v0.6_Code\\payload\\study\\quantum\\tests",
+            "status": "PASS",
+            "returncode": 0,
+            "stdout": "{\"numpy_version\": \"2.5.4\", \"scipy_version\": \"1.18.1\", \"methods\": [\"qscalar_kmeans\", \"qmulti_kmeans\", \"mlp8tanh_kmeans\", \"trig_kmeans\", \"trig_global\", \"mlp_global\"], \"tests_run\": 1, \"test_id\": \"test_compiler.CompilerTests.test_learned_trig_uses_identical_coefficient_kernel\"}\n",
+            "stderr": "test_learned_trig_uses_identical_coefficient_kernel (test_compiler.CompilerTests.test_learned_trig_uses_identical_coefficient_kernel) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.168s\n\nOK\n",
+            "test_id": "test_compiler.CompilerTests.test_learned_trig_uses_identical_coefficient_kernel"
+          }
+        ],
+        "errors": [],
+        "scope": "Exact package integrity before and after startup; all selected Python parsed; v0.6 numerical imports and exactly six required tests: model parameter shapes/paired initial predictions, independent circuit-state/moment agreement, orthogonal conversion nodes, both heads off grid/forced banks, constant logits/invalid contracts and the learned Trig25 coefficient kernel. Network disabled in test subprocesses. No official input files used.",
+        "not_verified": [
+          "Clean-room dependency installation",
+          "Full training or official scoring",
+          "Datasets and selected checkpoints",
+          "Full-archive relocation",
+          "Shot sampling or noise experiments",
+          "Hardware or QPU execution"
+        ]
+      }
+    }
+  ],
+  "boundary": "Three actual invalid-fixture shell checks and one genuine bounded startup on an unsealed disposable fixture. This does not substitute for final sealed-ZIP startup or scientific replication.",
+  "final_zip_startup_still_required": true
+}
