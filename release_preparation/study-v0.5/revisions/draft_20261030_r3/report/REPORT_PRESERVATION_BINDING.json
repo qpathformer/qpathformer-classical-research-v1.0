@@ -1,0 +1,21 @@
+{
+  "status": "IDENTICAL_REPORT_BYTES_HISTORICAL_VISUAL_QA_RETAINED",
+  "prior_review": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261029_r02\\report\\REPORT_REVIEW.json",
+    "bytes": 2636,
+    "sha256": "994ecb518b131da07a6147c994de42b4323bc4cc4eaf9e81bff8d269ae606c2b"
+  },
+  "reports": [
+    {
+      "path": "reports/QPathformer_v0.5_Report.docx",
+      "bytes": 675972,
+      "sha256": "51580cfc9f21a69a815f3887c0405c5b5b854aee37513b189e67aa29f7eadeea"
+    },
+    {
+      "path": "reports/QPathformer_v0.5_Report.pdf",
+      "bytes": 1326651,
+      "sha256": "54df391f847ee29016cb371df874d99516c3ba87c8aeec8f632d54c3c6d59080"
+    }
+  ],
+  "note": "PDF/DOCX and historical edition/review records are byte-identical to the predecessor. No new report rendering or visual review is claimed."
+}

@@ -1,0 +1,132 @@
+{
+  "study_id": "QPATH-READOUT-v0.5",
+  "status": "REGISTERED_SPECIFICATION_BEFORE_OFFICIAL_TRAINING",
+  "working_root": "C:\\Anthony Siljeg\\Q2_improvement_study_v05",
+  "delivery_root": "C:\\Q2\\Improvement_Study_v0.5",
+  "purpose": "Improve useful prediction quality and measured classical execution within the registered candidates, and assess a circuit specification for possible later hardware tests. Quantum computational advantage is not a primary objective. No claim of a globally optimal architecture.",
+  "authorization": "User authorized local preparation and complete study with fresh data and internal Word report, preserving sealed v0.4. No new text benchmark, hardware, cloud jobs, publication or external messages.",
+  "methods": [
+    "q2_kmeans",
+    "qscalar_kmeans",
+    "qmulti_kmeans",
+    "qfrozen_kmeans",
+    "mlp4relu_kmeans",
+    "mlp8relu_kmeans",
+    "mlp4tanh_kmeans",
+    "mlp8tanh_kmeans",
+    "trig_kmeans",
+    "trig_global",
+    "mlp_global"
+  ],
+  "models": {
+    "core": "Same v0.4 two-qubit depth-two feature-reuploading core. RY(pi*x) on each qubit in each layer, trained RY/RZ on each qubit, CX q0-to-q1; eight angles per bank. Moments before old final readout RY(pi/2).",
+    "q2_kmeans": "Historical fixed probability p=(1+X0)/2 equivalently finalRY(pi/2) thenP(q0=1), exact v0.4 clipped-BCE training/gradient recipe. Fivebanks40trainedangles. Anchor not a pure readout-only contrast.",
+    "qscalar_kmeans": "p=sigmoid(w*X0+b), train core and head. Initialw2,b0; fivebanks50trained parameters.",
+    "qmulti_kmeans": "p=sigmoid(w dot [X0,X1,Z0,Z1,Z0Z1]+b), train core and head. Initialw[2,0,0,0,0],b0; fivebanks70trained parameters.",
+    "qfrozen_kmeans": "Same initial core/moments/head as qmulti, core remains fixed random. Fivebanks30trained head coefficients plus40stored fixed angles. No legacy-core pretraining. Cache train/validation moments once with data/core/cache hashes and measured cost/storage. Timed raw-input inference uncached.",
+    "mlp": "Raw x0,x1. Four routed controls width4 or8, ReLU or tanh, single hidden layer with biases;85or165allocated parameters. Globalwidth32ReLU129params. Xavier initial weights,zero biases. All use stable native logit BCE.",
+    "trig": "Complete25-dimensional tensor basis phi(x0) outer phi(x1),phi=[1,cos(pi*x),sin(pi*x),cos(2*pi*x),sin(2*pi*x)],sigmoid linear logit. Zero initial coefficients. Routed125/global25parameters. Strong classical feature controls, no exact bounded probability-family equivalence claim.",
+    "router": "One immutable training-only5-kmeans spatial router per fresh population, shared across all routed arms, adds10centroidcoordinates. Existing input-onlyhash routes retained in data for provenance/diagnostics but no hash-trained v05arm. Routing heldfixed to focus readout/capacity.",
+    "pairing": "Same core master initialization and record permutations for quantum arms withinseed; scalar/multi/frozen start with identical sigmoid predictions, not exactly the legacy linear link. ReLU/tanh pair samewidth initializedweights; all models share recordorder. Core/head trainable counts and fixed storage separate."
+  },
+  "data": {
+    "registration": "governance/DATA_REGISTRATION.json",
+    "populations": 7,
+    "records_per_population": 8000,
+    "train": 4800,
+    "validation": 1600,
+    "test": 1600,
+    "tasks": "Retain circle x0^2+x1^2<2/pi and area2 rotated45degree ellipse withaxisratio1.5, uniformlydrawn raw[-1,1]^2. Twoindependentconfirmationcircles andoneellipse, no crosspopulationpooling.",
+    "novelty": "Exact signed-zero-normalized float64 coordinate exclusions against all v01-v04 source populations and precedingv05 populations. Expected112000historicalunique/56000new. New training-only routers. No claim out-of-distribution.",
+    "test_gate": "Data preparation may use labels for declared stratification. No test model predictions or scores before all165Bendpoints are committed, independently audited, and root releases hash-bound evaluation."
+  },
+  "training": {
+    "rounds": 200,
+    "batch_size": 64,
+    "optimizer_updates": 15000,
+    "optimizer": "Adam",
+    "learning_rate": 0.01,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "epsilon": 1e-8,
+    "weight_decay": 0,
+    "native_loss": "Legacyq2 uses historical clipped probability BCE and clipping derivative. All other arms use stable softplus(z)-y*z with derivative sigmoid(z)-y, never hard-zero logit gradients due to probability clipping. Record native losses/logits plus common clipped metrics.",
+    "selection": "Earliest exact minimum common fullvalidation clippedBCE, clip[1e-7,1-1e-7]. All200rounds executed; noearlystopping.",
+    "evidence": "Save all200parameter states, full validation probabilities and native-loss summaries, recordorders, optimizer counts/ledgers, selected+finalcheckpoint/logits, fixed-core/cachebindings and resourcecounters. Independent replay allvalidationrounds/selection, not a second run of allAdamupdates.",
+    "clipping": "Report every training/validation/test probability clip count and rawprobability bounds; native stablelogitBCE and maximum absolute logits for logitarms. Common clippedBCE is bounded and not strictly proper outside its clipping interval."
+  },
+  "stages": {
+    "A": {
+      "populations": [
+        "development_circle",
+        "development_ellipse"
+      ],
+      "seeds": [
+        901,
+        902,
+        903
+      ],
+      "runs": 66
+    },
+    "B": {
+      "populations": [
+        "confirmation_circle_1",
+        "confirmation_circle_2",
+        "confirmation_ellipse"
+      ],
+      "seeds": [
+        1001,
+        1002,
+        1003,
+        1004,
+        1005
+      ],
+      "runs": 165
+    },
+    "progression": "All11arms continue regardless ofdevelopment rank; no model/hyperparameter search or post-A winnerselection. A independent fullendpoint audit before rootBfreeze. Frozen source/budgets unchanged. Preserveallfailures."
+  },
+  "engineering": {
+    "populations": [
+      "engineering_circle",
+      "engineering_ellipse"
+    ],
+    "seed": 8901,
+    "rounds": 3,
+    "updates": 225,
+    "runs": 22,
+    "purpose": "Correctness/runtime only. No test outcomes. Source fixes documented before official freeze; every pilot attempt retained."
+  },
+  "primary": {
+    "metric": "Common clipped test BCE lowerbetter",
+    "contrasts": [
+      [
+        "qscalar_kmeans",
+        "q2_kmeans"
+      ],
+      [
+        "qmulti_kmeans",
+        "qscalar_kmeans"
+      ],
+      [
+        "qmulti_kmeans",
+        "qfrozen_kmeans"
+      ],
+      [
+        "qmulti_kmeans",
+        "trig_kmeans"
+      ]
+    ],
+    "populations": [
+      "confirmation_circle_1",
+      "confirmation_circle_2",
+      "confirmation_ellipse"
+    ],
+    "comparison_family": 12,
+    "practical_reference_bce": 0.01,
+    "interpretation": "Scalar-minus-legacy changes outputlink/readoutand native training objective. Multi-minus-scalar compares extra observables withinstablelogit framework. Multi-minus-frozen compares trainingthecore withsameinitialcore/head. Multi-minus-trig compares complete model recipes withunequalcapacity. Notquantumadvantage tests."
+  },
+  "secondary": "RawBrier,F1,accuracy,10fixed-binbinaryprobability reliability/ECE, completeallarmcomparisons,censoredvalidationstepsto97percent,andmeasuredCPUcost/caches/storage/measurementsettings. No test-fittedcalibrator.",
+  "completion": "All231fullruns plus22engineeringpilots, endpointaudits, official scoring andindependentprediction/statisticsreplay, localmultiobservablecircuit/compilation/noise/shot capsule, baselinev04andBaseline4afterverification, QPATH RPT006 Word everypageverified, source/data/logs/checkpoints/analysis delivered withmanifestandtwoindependentdeliverychecks. Launchingtrainingisnotcompletion."
+}

@@ -1,0 +1,248 @@
+Q Pathformer v0.5 reproduction guide
+Generated after complete scientific inputs and final Word QA on 2026-10-19T04:19:10.924958+00:00
+
+The delivered evidence retains the registered runs and their original metadata.
+The commands below describe verification or derived reproduction. They do not
+authorize changing a seal, replacing the registered results or treating the same
+test records as a fresh study. Original preparation notes remain in governance.
+
+The final data, release, official score, independent replay, learning and simulator
+commit paths in the index are present and bound by report_work/ROOT_REPORT_INPUTS.json.
+Final delivery integrity is established separately by DELIVERY_MANIFEST.json and
+both delivery verification records. Do not infer PASS from the existence of a guide.
+
+1. Preserve the evidence package
+
+The working study is C:\Anthony Siljeg\Q2_improvement_study_v05. The planned delivery is
+C:\Q2\Improvement_Study_v0.5. Treat delivered/sealed packages and earlier v0.4 evidence
+as read-only. Never overwrite an endpoint, checkpoint, ledger, release, registration,
+commit, failed attempt or canonical report to make a reproduction pass.
+
+For computation, first make a complete verified working copy at a new writable path.
+Retain relative paths and all source/data/protocol/audit/READY evidence referenced by
+the manifests. A reduced source-only copy is insufficient for the evidence guards.
+Do not rewrite recorded absolute provenance strings. The registered evaluator and
+independent tools validate those strings against original_working_root and resolve
+the actual reads under their current copied study root. The original tree need not
+be available. Source hashes and source bytes must remain unchanged for evidence replay.
+
+Use a fresh absent output folder/file for every new replay. Preserve failures and
+record the exact command, interpreter, input manifest hashes, purpose and exit code.
+Do not run a second live/completed stage launcher, author monitor, evaluator or capsule.
+The monitor is orchestration, not a reproduction prerequisite.
+
+After final packaging, a read-only inventory/hash verification can be run as follows:
+
+  & 'C:\Program Files\PowerShell\7\pwsh.exe' -NoProfile -File 'C:\Q2\Improvement_Study_v0.5\governance\Verify_Delivery.ps1' -PackageRoot 'C:\Q2\Improvement_Study_v0.5'
+
+That command requires the actual final DELIVERY_MANIFEST.json. Its existence or a
+prior PASS must not be inferred from this preparation note. The verifier requires
+PowerShell 7.5+ features, including ConvertFrom-Json -DateKind String and System.Text.Json.
+Keep the package quiescent and Word closed; owner/temp files can be unregistered
+payloads. Capture a new verification result outside the sealed package unless its
+exact metadata filename was explicitly excluded by the delivery manifest.
+
+2. Runtime requirements
+
+The observed CPU runtime is recorded in governance/RUNTIME.json and the broader
+installed inventory in governance/requirements-observed.txt. Actual versions:
+
+  Python 3.12.14, 64-bit Windows
+  NumPy 2.5.4
+  SciPy 1.18.1
+  Qiskit 2.6.0
+  qiskit-aer 0.17.2
+
+Original interpreter:
+  C:\Q2\Implementation_v0.1\.venv\Scripts\python.exe
+
+Training needs NumPy; statistical analysis additionally uses SciPy. Local circuit
+compilation/noise/measurement checks use Qiskit and Aer. All are local CPU programs;
+no provider, account token, hardware backend or cloud access is required. No runtime
+installation is performed by these commands. The full observed inventory contains
+unrelated installed packages and is not a claim that every package is necessary.
+
+For exact multinomial/bootstrap count replay, use recorded NumPy 2.5.4, not the
+separate document/plotting environment. Matching only the seed does not establish
+identical draws across NumPy versions. BLAS/platform changes can alter floating
+arithmetic; compare using the registered tolerances and preserve any failure.
+
+PowerShell examples below assume an already verified writable copy:
+
+  $qpathCopy = 'C:\Anthony Siljeg\Q2_v05_replay_001'
+  $qpathPython = 'C:\Q2\Implementation_v0.1\.venv\Scripts\python.exe'
+  $env:OMP_NUM_THREADS = '1'
+  $env:OPENBLAS_NUM_THREADS = '1'
+  $env:MKL_NUM_THREADS = '1'
+  $env:NUMEXPR_NUM_THREADS = '1'
+  Set-Location -LiteralPath (Join-Path $qpathCopy 'quantum')
+
+Use -B to avoid adding __pycache__ artifacts. The scientific scripts do not need
+Python -O; both normal and optimized guard tests passed, but use ordinary mode for
+reproduction. Do not substitute GPU/tensor libraries for the retained NumPy model.
+
+3. Evidence and source index
+
+governance/STUDY_PLAN.json: arm mathematics, cohorts, budgets and interpretation.
+governance/ANALYSIS_PROTOCOL.json: metrics, contrasts, tolerances and uncertainty.
+governance/LOCAL_READINESS_PROTOCOL.json: validation fixture/noise/shot settings.
+governance/DATA_REGISTRATION.json and quantum/data/DATA_SEAL.json: fresh inputs,
+  generator identities, population preparation, routing costs and all payload hashes.
+quantum/data: 21 NPZ payloads, seven train-only router policies; no regeneration is
+  needed to replay this study. Retain SEALED_test names and all access gates.
+quantum/SOURCE_COPY_MANIFEST.json and EVALUATOR_SOURCE_COPY_MANIFEST.json: read-only
+  source ancestry from v0.4; final derivative hashes are in the current freezes.
+quantum/STAGE_A_FREEZE.json and STAGE_B_FREEZE.json: registered training recipe.
+quantum/EVALUATION_REGISTRATION.json: registered evaluator/readiness dependencies,
+  original working root and exact 338-payload official evaluation inventory.
+quantum/stage_A and stage_B: canonical endpoints, per-seed order/failure logs,
+  process exits and closed stage status. A has66 endpoints; B has165.
+quantum/{STAGE_A_ENDPOINT_LOCK,CONFIRMATION_ENDPOINT_LOCK}.json: author audits.
+analysis/classical_review: independent full-round validation/oracle evidence.
+quantum/EVALUATION_RELEASE.json: root release, only after both complete B audits.
+analysis/independent_replay/ANALYSIS_READY.json: independent replay dependencies.
+quantum/confirmation_evaluation: reports, native logits, predictions, statistics,
+  access event and final EVALUATION_COMMIT.json, once actually produced.
+analysis/independent_replay: independently reconstructed predictions/statistics and
+  REPLAY_COMMIT.json in the designated completed result folder, once produced.
+quantum/local_readiness_confirmation: planned local capsule/report/counts/QASM and
+  READINESS_COMMIT.json after root release; its final presence must be checked.
+
+An endpoint includes config/status/result/commit, all round parameters, full
+validation probabilities, native losses, native logits for logit arms, sample
+orders, initial state, selected/final checkpoints and preserved selected generations.
+q2 has no native logit: its CSV field is blank. qfrozen stores40 fixed core angles
+separately from30 optimized head coefficients, and retains train/validation moment
+caches with data/route/core hashes, costs and bytes. Do not discard or regenerate
+those caches while claiming to verify the original endpoint inventory.
+
+4. Read-only input verification and validation replay
+
+The following source-level gate hashes metadata and inputs; it does not load model
+test arrays or score predictions. It is useful only after the actual root release
+and all required evidence exist. It accepts an already completed official output:
+
+  & $qpathPython -B -c "import evaluate_confirmation as e; r,l,a,w=e.verify_guard(output_must_be_absent=False); print('Metadata gate PASS',len(w))"
+
+Author full-round production replay, to a new report path whose parent exists:
+
+  & $qpathPython -B -u audit_stage.py --stage A --output 'C:\Anthony Siljeg\Q2_v05_replay_A_author_001.json'
+  & $qpathPython -B -u audit_stage.py --stage B --output 'C:\Anthony Siljeg\Q2_v05_replay_B_author_001.json'
+
+These do not optimize weights or load test data. They replay all validation rounds
+and selected independent scalar predictions. A newly produced author report is a
+derived verification artifact; do not replace the historical canonical lock with it.
+
+Independent full-round validation replay uses the preserved canonical author lock:
+
+  & $qpathPython -B -u (Join-Path $qpathCopy 'analysis\classical_review\audit_endpoints_v05.py') --stage A --author-lock (Join-Path $qpathCopy 'quantum\STAGE_A_ENDPOINT_LOCK.json') --output 'C:\Anthony Siljeg\Q2_v05_replay_A_independent_001.json'
+  & $qpathPython -B -u (Join-Path $qpathCopy 'analysis\classical_review\audit_endpoints_v05.py') --stage B --author-lock (Join-Path $qpathCopy 'quantum\CONFIRMATION_ENDPOINT_LOCK.json') --output 'C:\Anthony Siljeg\Q2_v05_replay_B_independent_001.json'
+
+This reconstructs every saved validation state, all1600 validation predictions per
+round, selection, native logits/loss, sampling orders and operation/exposure counters.
+It does not rerun all15000 Adam updates or independently recreate every minibatch
+loss/gradient. Timing checks validate recorded arithmetic, not new benchmark speed.
+
+5. Replay existing released test evidence
+
+After actual official completion and independent READY, the independent replay CLI
+is the supported route for a fresh verification of existing checkpoints and test
+statistics without retraining. It requires the release and completed official commit.
+The output must be an absent direct child of the copied independent_replay directory:
+
+  & $qpathPython -B -u (Join-Path $qpathCopy 'analysis\independent_replay\replay_and_analyse.py') --release (Join-Path $qpathCopy 'quantum\EVALUATION_RELEASE.json') --output (Join-Path $qpathCopy 'analysis\independent_replay\replay_derived_001')
+
+This is a verification of an already released test set, not new independent test
+evidence, another training replicate, or permission to tune against those outcomes.
+It preserves canonical saved probability metrics, independently reconstructs all165
+checkpoints and native logits, and reproduces the three registered bootstrap arrays.
+
+The official evaluation command used at the original one-time release is:
+
+  & $qpathPython -B -u evaluate_confirmation.py --evaluate
+
+It has no --output option, writes fixed quantum/confirmation_evaluation, and refuses
+an existing folder. Do not delete/rename that folder in a complete package to force
+another official evaluation or reuse an old release as if a new study were frozen.
+Use the independent replay above. Any separately authorized new official-style
+execution requires its own documented provenance/approval in a new execution tree;
+its outputs must be labelled derived reproduction, never the original committed run.
+
+6. Local simulator capsule reproduction
+
+Only after the full B release exists, the public capsule can reproduce the retained
+validation-only fixture in a new output folder in a working copy:
+
+  & $qpathPython -B -u local_readiness.py --output (Join-Path $qpathCopy 'reproduction_capsule_001')
+
+The public capsule has no engineering bypass. It checks all165 B endpoint gates,
+uses60 selected quantum checkpoints and32 lowest-ID validation records per population,
+then checks all five Pauli expectations, abstract compilation, fixed logical noise,
+joint XX/ZZ multinomial counts and measured local Aer smoke. There are no hardware
+shots. Extra original legacy circuits and the scalar XX extra q1 rotation are charged
+separately. Fixed frozen-core caches are not an inference speed substitute.
+
+This is a derived deterministic/stochastic software replay of the same validation
+fixtures and saved models, not a new efficacy experiment or device calibration.
+Retain NumPy2.5.4 and the exact setting/fixture/seed order for exact count arrays.
+Repeated1024/8192 budgets have separate RNG identities; five repeats are nested within
+each trained checkpoint, not new independent training seeds or shared-shot prefixes.
+
+Synthetic preflight drivers are separate from this public command. They generate
+untrained parameters and artificial coordinates in explicitly synthetic fixture
+folders. They are not substitutes for the gated registered capsule and must never
+be reported as results from trained confirmation checkpoints.
+
+7. New training versus historical registered launch
+
+The original complete-stage commands, for reference, are:
+
+  & $qpathPython -B -u launch_stage.py --stage A
+  & $qpathPython -B -u launch_stage.py --stage B
+
+These create fixed absent stage_A/stage_B directories and three/five seed workers.
+A verified delivered copy already contains those directories: do not invoke these
+commands there or delete evidence to make them run. Root froze A after22 engineering
+endpoints; root may freeze B only after all66 A endpoints pass both full audits.
+All11 arms continue, with no development winner filter; all165 B must finish before
+root test release. The historical engineer command is run_engineering.py --approval
+<the recorded approval JSON> --output <an absent folder>, seed8901,3rounds,22endpoints.
+
+For an explicitly authorized optimizer reproduction in a writable copy, study.py
+accepts a fresh output location while checking the copied frozen recipe. Example:
+
+  & $qpathPython -B -u study.py --stage A --population development_circle --method qmulti_kmeans --seed 901 --rounds 200 --output (Join-Path $qpathCopy 'reproduction_training_001\development_circle\seed_901\qmulti_kmeans')
+
+This runs new optimization on the SAME historical training/validation data. Its
+config can bind the old freeze as a recipe identity, but that is not a new study
+approval or an additional independent cohort. Record the reproduction authorization
+and purpose separately before launch. Never merge its files into stage_A/stage_B,
+rewrite original commits, substitute it for a failed arm, or use it to reselect the
+original checkpoint. Official mode refuses reduced rounds or --train-limit. No
+automatic resume is supported: failed partial arrays/checkpoints remain, and any
+fresh-output restart must be separately reviewed and disclosed.
+
+A genuinely new research study requires a new identity, reviewed specification,
+fresh generator/router policies and seeds, new source/protocol registrations and
+approval/release records. Old freezes, releases and test labels cannot establish
+fresh confirmation. Changing a frozen source, test-file inventory, metric, data
+payload or recipe invalidates the old hashes; it must be a declared new derivative,
+not an attempt to repair or silently rebind the sealed v0.5 evidence.
+
+
+8. Completed evidence and limits
+
+Independent capsule audit: analysis/classical_review/confirmation_readiness_audit/
+Report input proof: report_work/REPORT_INPUT_VERIFICATION.json
+Final scientific review: analysis/classical_review/FINAL_REPORT_CONTENT_SCIENTIFIC_REVIEW.json
+Final all-page Word QA: report_work/FINAL_QA.json
+Prior-version preservation: governance/baseline_v04_after.json and baseline4_after.json
+
+Final Word SHA256: b08a039280e478710eeae7faa521fd37a41224bfd81100391ba8880f15992fb9
+Technical preparation notes SHA256: 9f66e4d9f3f11eb7057699ae6f917d676fb2b7fbfc91349f8594248898db4486
+
+Exact bitwise optimization replay on every host is not promised. Saved-state and
+count verification uses the registered tolerances and runtime versions. Evidence
+replay is not a new independent training replicate, device calibration or proof of
+quantum advantage. Publication, hardware testing and a new research study require
+separate instructions and their own recorded protocol.

@@ -1,0 +1,209 @@
+{
+  "study_version": "v0.5",
+  "actual_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261030_r3",
+  "source_root": "C:\\Q2\\Improvement_Study_v0.5",
+  "original_report": {
+    "path": "C:\\Q2\\Improvement_Study_v0.5\\docs\\QPATH-RPT-006_Flexible_Readouts_and_Classical_Controls_v0.5.docx",
+    "bytes": 675200,
+    "sha256": "b08a039280e478710eeae7faa521fd37a41224bfd81100391ba8880f15992fb9",
+    "figures": 4,
+    "tables": 25
+  },
+  "source_delivery_manifest": {
+    "path": "C:\\Q2\\Improvement_Study_v0.5\\DELIVERY_MANIFEST.json",
+    "bytes": 7420512,
+    "sha256": "c0be8e4cc5126ae3027b3e8b55d869fb5a0e89b0dd64b609baea21cb23ce3e5e"
+  },
+  "files": [
+    {
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261030_r3\\assembly\\QPathformer_v0.5_Study\\GUIDANCE_LICENSE_SCOPE.json",
+      "source_identity": {
+        "bytes": 1232,
+        "sha256": "48f3cda0965122effc4e8133f57b047f598a0744b46675cf1061bd939a604546"
+      },
+      "output_identity": {
+        "bytes": 1232,
+        "sha256": "48f3cda0965122effc4e8133f57b047f598a0744b46675cf1061bd939a604546"
+      },
+      "classification": "reviewed_current_revision",
+      "previous_edition_identity": {
+        "bytes": 1199,
+        "sha256": "bfff5eca47e2877b0c98ac59db3cbff5aae2e8984678d6a365d4a807255ce704"
+      },
+      "handling": "Current helper/guidance or exact record binding updated; preserved report/scientific/historical bytes unchanged."
+    },
+    {
+      "path": "LICENSE_ADOPTION.json",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261030_r3\\assembly\\QPathformer_v0.5_Study\\LICENSE_ADOPTION.json",
+      "source_identity": {
+        "bytes": 1722,
+        "sha256": "055259c8b4dc6502f0ebe67f68eaddf697543b4bae1ecdc68c1e1d4fbc3c4156"
+      },
+      "output_identity": {
+        "bytes": 1722,
+        "sha256": "055259c8b4dc6502f0ebe67f68eaddf697543b4bae1ecdc68c1e1d4fbc3c4156"
+      },
+      "classification": "reviewed_current_revision",
+      "previous_edition_identity": {
+        "bytes": 1686,
+        "sha256": "9b7661366e4d5a6766a1baf81b05420f3924b4107030fdbb89aa27720f09f449"
+      },
+      "handling": "Current helper/guidance or exact record binding updated; preserved report/scientific/historical bytes unchanged."
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\assembly\\QPathformer_v0.1_Code\\LICENSES\\CC-BY-4.0.txt",
+      "source_identity": {
+        "bytes": 18615,
+        "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+      },
+      "output_identity": {
+        "bytes": 18615,
+        "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+      },
+      "classification": "canonical_unchanged_license"
+    },
+    {
+      "path": "provenance/EDITION_CHANGES.md",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261029_r02\\report\\EDITION_CHANGES.md",
+      "source_identity": {
+        "bytes": 763,
+        "sha256": "5f5022e7a9826c84799c936326ea6ad8ddfca7870e27fc600c5927c526838403"
+      },
+      "output_identity": {
+        "bytes": 763,
+        "sha256": "5f5022e7a9826c84799c936326ea6ad8ddfca7870e27fc600c5927c526838403"
+      },
+      "classification": "release_review_record"
+    },
+    {
+      "path": "provenance/REPORT_PRESERVATION.json",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261029_r02\\report\\REPORT_PRESERVATION.json",
+      "source_identity": {
+        "bytes": 3329,
+        "sha256": "2ed1684b59f7a9141df3d26d4bcd2a374924e3a8e767476be8e3ea0821f9d989"
+      },
+      "output_identity": {
+        "bytes": 3329,
+        "sha256": "2ed1684b59f7a9141df3d26d4bcd2a374924e3a8e767476be8e3ea0821f9d989"
+      },
+      "classification": "release_review_record"
+    },
+    {
+      "path": "provenance/REPORT_REVIEW.json",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261029_r02\\report\\REPORT_REVIEW.json",
+      "source_identity": {
+        "bytes": 2636,
+        "sha256": "994ecb518b131da07a6147c994de42b4323bc4cc4eaf9e81bff8d269ae606c2b"
+      },
+      "output_identity": {
+        "bytes": 2636,
+        "sha256": "994ecb518b131da07a6147c994de42b4323bc4cc4eaf9e81bff8d269ae606c2b"
+      },
+      "classification": "release_review_record"
+    },
+    {
+      "path": "QPATHFORMER-PLATFORM-1.0.txt",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.1\\final_20261029\\assembly\\QPathformer_v0.1_Code\\QPATHFORMER-PLATFORM-1.0.txt",
+      "source_identity": {
+        "bytes": 1461,
+        "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+      },
+      "output_identity": {
+        "bytes": 1461,
+        "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+      },
+      "classification": "canonical_unchanged_license"
+    },
+    {
+      "path": "reports/QPathformer_v0.5_Report.docx",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261029_r02\\report\\QPathformer_v0.5_Report.docx",
+      "source_identity": {
+        "bytes": 675972,
+        "sha256": "51580cfc9f21a69a815f3887c0405c5b5b854aee37513b189e67aa29f7eadeea"
+      },
+      "output_identity": {
+        "bytes": 675972,
+        "sha256": "51580cfc9f21a69a815f3887c0405c5b5b854aee37513b189e67aa29f7eadeea"
+      },
+      "classification": "preservation_report_edition"
+    },
+    {
+      "path": "reports/QPathformer_v0.5_Report.pdf",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261029_r02\\report\\QPathformer_v0.5_Report.pdf",
+      "source_identity": {
+        "bytes": 1326651,
+        "sha256": "54df391f847ee29016cb371df874d99516c3ba87c8aeec8f632d54c3c6d59080"
+      },
+      "output_identity": {
+        "bytes": 1326651,
+        "sha256": "54df391f847ee29016cb371df874d99516c3ba87c8aeec8f632d54c3c6d59080"
+      },
+      "classification": "preservation_report_edition"
+    },
+    {
+      "path": "RIGHTS.md",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261030_r3\\assembly\\QPathformer_v0.5_Study\\RIGHTS.md",
+      "source_identity": {
+        "bytes": 1375,
+        "sha256": "7890894bb13e1fa862eb5406f04079f9b9d509cd8dd40c61ec923404f5e7d7b2"
+      },
+      "output_identity": {
+        "bytes": 1375,
+        "sha256": "7890894bb13e1fa862eb5406f04079f9b9d509cd8dd40c61ec923404f5e7d7b2"
+      },
+      "classification": "reviewed_current_revision",
+      "previous_edition_identity": {
+        "bytes": 1092,
+        "sha256": "fe73c673f2c2538bcf467fa078f51084c26945d4540a9d1856619f7402fc90d3"
+      },
+      "handling": "Current helper/guidance or exact record binding updated; preserved report/scientific/historical bytes unchanged."
+    },
+    {
+      "path": "START_HERE.md",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261030_r3\\assembly\\QPathformer_v0.5_Study\\START_HERE.md",
+      "source_identity": {
+        "bytes": 3019,
+        "sha256": "335de434777f3ddb0003aa7f117ab5ca0c9af6ad20dae211c10269ac68f5d944"
+      },
+      "output_identity": {
+        "bytes": 3019,
+        "sha256": "335de434777f3ddb0003aa7f117ab5ca0c9af6ad20dae211c10269ac68f5d944"
+      },
+      "classification": "reviewed_current_revision",
+      "previous_edition_identity": {
+        "bytes": 1555,
+        "sha256": "49b28fae3698f4b3d3836e11fbd4aa1daaaa11d44e28f81b1c16364ab5d9a0be"
+      },
+      "handling": "Current helper/guidance or exact record binding updated; preserved report/scientific/historical bytes unchanged."
+    },
+    {
+      "path": "VERIFY.md",
+      "source": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261030_r3\\assembly\\QPathformer_v0.5_Study\\VERIFY.md",
+      "source_identity": {
+        "bytes": 1279,
+        "sha256": "b15eacdc200ecaf5baf37daa47d4a2c94cf0f8cd786e928d96d8c0b7441884f5"
+      },
+      "output_identity": {
+        "bytes": 1279,
+        "sha256": "b15eacdc200ecaf5baf37daa47d4a2c94cf0f8cd786e928d96d8c0b7441884f5"
+      },
+      "classification": "reviewed_current_revision",
+      "previous_edition_identity": {
+        "bytes": 625,
+        "sha256": "f721c391a965641b181706a2d1afdcc6af034b141b28722d6ac3371b228b0ce2"
+      },
+      "handling": "Current helper/guidance or exact record binding updated; preserved report/scientific/historical bytes unchanged."
+    }
+  ],
+  "generated_files": [
+    "REPORT_LICENSE_SCOPE.json"
+  ],
+  "retained_full_archive": {
+    "logical_payload_bytes": 2812931271,
+    "files": 30234,
+    "not_included": true
+  },
+  "size_note": "Retained archive size is distinct from curated ZIP size and hardware minimums."
+}

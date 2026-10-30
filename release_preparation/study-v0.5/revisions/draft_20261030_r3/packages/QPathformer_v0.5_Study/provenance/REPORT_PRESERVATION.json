@@ -1,0 +1,53 @@
+{
+  "status": "PASS_ORIGINAL_BODY_AND_ALL_OTHER_PARTS_PRESERVED",
+  "source": {
+    "path": "C:\\Q2\\Improvement_Study_v0.5\\docs\\QPATH-RPT-006_Flexible_Readouts_and_Classical_Controls_v0.5.docx",
+    "bytes": 675200,
+    "sha256": "b08a039280e478710eeae7faa521fd37a41224bfd81100391ba8880f15992fb9"
+  },
+  "edition": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261029_r02\\report\\QPathformer_v0.5_Report.docx",
+    "bytes": 675972,
+    "sha256": "51580cfc9f21a69a815f3887c0405c5b5b854aee37513b189e67aa29f7eadeea"
+  },
+  "original_body_elements_preserved": 189,
+  "unchanged_package_parts": [
+    "[Content_Types].xml",
+    "_rels/.rels",
+    "customXml/_rels/item1.xml.rels",
+    "customXml/item1.xml",
+    "customXml/itemProps1.xml",
+    "docProps/app.xml",
+    "docProps/thumbnail.jpeg",
+    "word/_rels/document.xml.rels",
+    "word/fontTable.xml",
+    "word/footer1.xml",
+    "word/header1.xml",
+    "word/media/image1.png",
+    "word/media/image2.png",
+    "word/media/image3.png",
+    "word/media/image4.png",
+    "word/numbering.xml",
+    "word/settings.xml",
+    "word/styles.xml",
+    "word/stylesWithEffects.xml",
+    "word/theme/theme1.xml",
+    "word/webSettings.xml"
+  ],
+  "added_paragraphs": [
+    "Q Pathformer study v0 5 release edition",
+    "Edition note dated 29 October 2026. This Word edition preserves the original study report in full and adds this release note after it. The companion PDF is rendered from this Word edition. Repository edition v1.0 is separate from study v0.5.",
+    "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative. Anthony is the licensor; company affiliation is not a transfer of ownership.",
+    "The original scientific text, results, figures, tables, limitations and historical recommendations are unchanged. Historical internal-use labels and evidence paths are retained as source context. References to a complete delivery describe the retained full study archive, not the curated release downloads.",
+    "On 29 October 2026, Anthony Siljeg adopted CC BY 4.0 for controlled original report prose, table presentation and original report figures, and this edition note, under the same scoped scheme as the earlier studies. Exact report and guidance scope records are supplied with this edition. Existing permissions in previously licensed expression remain in force. Third-party sources, architecture documents outside this report, datasets, models and full archives retain separate terms.",
+    "The release omits raw data, checkpoints, installed environments and full operational archives from its curated downloads. It does not repeat training, scoring, simulated shot sampling or hardware jobs. The original findings and historical recommendations are not revalidated as current device guidance."
+  ],
+  "changed_parts": [
+    "word/document.xml: appended edition note only",
+    "docProps/core.xml: release metadata only"
+  ],
+  "figure_count": 4,
+  "table_count": 25,
+  "removed_content": [],
+  "disclosure_review": "Historical local filesystem paths and operational references retained as scientific provenance; no credentials detected by structured scan. Owner review should consider publication of local path labels and internal-use historical labels."
+}

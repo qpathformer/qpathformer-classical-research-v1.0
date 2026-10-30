@@ -1,0 +1,36 @@
+{
+  "schema": "qpath-study-license-adoption-1",
+  "status": "ADOPTED",
+  "study_version": "v0.5",
+  "repository_edition": "v1.0",
+  "adopted_on": "2026-10-29",
+  "timezone": "Australia/Sydney",
+  "licensor": "Anthony Siljeg",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "owner_instruction": "the licensing decisions can be adopted, if its the same as the first two",
+  "owner_followup": "this can save recomputing the seals?",
+  "authorization_source": "Owner wording relayed by the coordinating parent chat during preparation on 29 October 2026.",
+  "condition_satisfied": "Same scoped scheme as v0.1 and v0.9.5: CC BY 4.0 original report/prose and unchanged Q-Pathformer Platform License 1.0 selected Python/helpers; exact selections, preserved existing grants and exclusions.",
+  "scopes": [
+    {
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "bytes": 1232,
+      "sha256": "48f3cda0965122effc4e8133f57b047f598a0744b46675cf1061bd939a604546"
+    },
+    {
+      "path": "REPORT_LICENSE_SCOPE.json",
+      "bytes": 2209,
+      "sha256": "dc061c55b5763b2cef7dbc0a2a3b21fcaab47355abc291786166389d41310dc8"
+    }
+  ],
+  "exclusions": [
+    "Third-party expression and dependencies",
+    "Datasets",
+    "Model artifacts",
+    "Architecture documents outside the report",
+    "Full operational archives",
+    "Surrounding integrity/provenance records as whole files"
+  ],
+  "attribution_note": "Anthony is licensor; company affiliation does not transfer ownership.",
+  "publication_note": "This is license adoption only; it does not publish the GitHub release or change repository visibility."
+}

@@ -1,0 +1,350 @@
+{
+  "status": "PASS_STAGED_SCIENTIFIC_AND_PROSE_REVIEW",
+  "checked_utc": "2026-10-30T04:22:31.276524+00:00",
+  "evidence": [
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\models.py",
+      "bytes": 13361,
+      "sha256": "1366920341ee6060cf49adbb0bb3b1845d9e86bfaa7976eddbb6b8d086e402f7"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.5\\governance\\ANALYSIS_PROTOCOL.json",
+      "bytes": 6179,
+      "sha256": "78413430df30892a8703ae7fc3c75f21cd3ee4420be1cbf517572714c4d7ff20"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.5\\governance\\LOCAL_READINESS_PROTOCOL.json",
+      "bytes": 5900,
+      "sha256": "99233677dd44d6797682d502e625e81e8e52ca0baeffd7ef8698fc855d6a5720"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.5\\report_work\\report_content.json",
+      "bytes": 82926,
+      "sha256": "b0edb362a3b8a55ad2961cb41cceb2f14efaaf894536ad094e28a88d65eafa13"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\confirmation_evaluation\\confirmation_circle_1\\statistics\\population_summary.json",
+      "bytes": 207672,
+      "sha256": "d888b1226c4124443d4f0ff909e8c4c65467518e4d9c14f9f6e1c172c02f077d"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\confirmation_evaluation\\confirmation_circle_2\\statistics\\population_summary.json",
+      "bytes": 207449,
+      "sha256": "dcad7627c0865f825644625e62e8ec0e2a9f883177a99235305adc27b19b1628"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\confirmation_evaluation\\confirmation_ellipse\\statistics\\population_summary.json",
+      "bytes": 207774,
+      "sha256": "68955f76b1e3fea878f94848fd829d52212b31223941ce1a5fd41ccd61cc472d"
+    }
+  ],
+  "selected_source_bindings": [
+    {
+      "original": {
+        "path": "C:\\Q2\\Improvement_Study_v0.5\\quantum\\models.py",
+        "bytes": 13361,
+        "sha256": "1366920341ee6060cf49adbb0bb3b1845d9e86bfaa7976eddbb6b8d086e402f7"
+      },
+      "archive_member": "QPathformer_v0.5_Code/payload/study/quantum/models.py",
+      "byte_identical": true
+    },
+    {
+      "original": {
+        "path": "C:\\Q2\\Improvement_Study_v0.5\\governance\\ANALYSIS_PROTOCOL.json",
+        "bytes": 6179,
+        "sha256": "78413430df30892a8703ae7fc3c75f21cd3ee4420be1cbf517572714c4d7ff20"
+      },
+      "archive_member": "QPathformer_v0.5_Code/payload/study/governance/ANALYSIS_PROTOCOL.json",
+      "byte_identical": true
+    },
+    {
+      "original": {
+        "path": "C:\\Q2\\Improvement_Study_v0.5\\governance\\LOCAL_READINESS_PROTOCOL.json",
+        "bytes": 5900,
+        "sha256": "99233677dd44d6797682d502e625e81e8e52ca0baeffd7ef8698fc855d6a5720"
+      },
+      "archive_member": "QPathformer_v0.5_Code/payload/study/governance/LOCAL_READINESS_PROTOCOL.json",
+      "byte_identical": true
+    }
+  ],
+  "checks": {
+    "primary_metric": "Common clipped BCE, natural logs, clip [1e-7,1-1e-7]",
+    "family_size": 12,
+    "seed_count": 5,
+    "degrees_of_freedom": 4,
+    "adjusted_confidence": 0.9958333333333333,
+    "record_resamples": 10000,
+    "results_table_values_verified": true,
+    "scalar_legacy_link_capacity_loss_confound_verified": true,
+    "frozen_core_random_not_pretrained": true,
+    "mean_trig_ranking_and_seed_uncertainty_verified": true,
+    "timing_and_milestone_limits_verified": true,
+    "learned_logit_fourier_limit_verified": true
+  },
+  "contrasts": [
+    {
+      "population": "confirmation_circle_1",
+      "contrast": "qscalar_kmeans minus q2_kmeans",
+      "seed_interval": {
+        "mean": -0.2091696788035277,
+        "sample_sd": 0.002255856672751216,
+        "n": 5,
+        "confidence": 0.9958333333333333,
+        "lower": -0.21510706750257727,
+        "upper": -0.2032322901044781
+      },
+      "record_interval": [
+        -0.22508553061251638,
+        -0.19418103163110065
+      ]
+    },
+    {
+      "population": "confirmation_circle_1",
+      "contrast": "qmulti_kmeans minus qscalar_kmeans",
+      "seed_interval": {
+        "mean": -0.000471978592950513,
+        "sample_sd": 0.0020319226435346243,
+        "n": 5,
+        "confidence": 0.9958333333333333,
+        "lower": -0.005819975514382546,
+        "upper": 0.00487601832848152
+      },
+      "record_interval": [
+        -0.0036323534477447107,
+        0.0026157292341599343
+      ]
+    },
+    {
+      "population": "confirmation_circle_1",
+      "contrast": "qmulti_kmeans minus qfrozen_kmeans",
+      "seed_interval": {
+        "mean": -0.37847902155836355,
+        "sample_sd": 0.016377549032717206,
+        "n": 5,
+        "confidence": 0.9958333333333333,
+        "lower": -0.42158454139016777,
+        "upper": -0.33537350172655933
+      },
+      "record_interval": [
+        -0.4133682971563739,
+        -0.345914821230968
+      ]
+    },
+    {
+      "population": "confirmation_circle_1",
+      "contrast": "qmulti_kmeans minus trig_kmeans",
+      "seed_interval": {
+        "mean": 0.00260645935149742,
+        "sample_sd": 0.0011595799249601595,
+        "n": 5,
+        "confidence": 0.9958333333333333,
+        "lower": -0.0004455416134869776,
+        "upper": 0.005658460316481817
+      },
+      "record_interval": [
+        0.0006873071645596914,
+        0.004848154426359638
+      ]
+    },
+    {
+      "population": "confirmation_circle_2",
+      "contrast": "qscalar_kmeans minus q2_kmeans",
+      "seed_interval": {
+        "mean": -0.1626053409912564,
+        "sample_sd": 0.001996270255602206,
+        "n": 5,
+        "confidence": 0.9958333333333333,
+        "lower": -0.16785950123956953,
+        "upper": -0.15735118074294327
+      },
+      "record_interval": [
+        -0.176064112841745,
+        -0.14890322982830023
+      ]
+    },
+    {
+      "population": "confirmation_circle_2",
+      "contrast": "qmulti_kmeans minus qscalar_kmeans",
+      "seed_interval": {
+        "mean": -0.003783105780593165,
+        "sample_sd": 0.0025128027870375542,
+        "n": 5,
+        "confidence": 0.9958333333333333,
+        "lower": -0.010396773683750068,
+        "upper": 0.0028305621225637395
+      },
+      "record_interval": [
+        -0.007708620717310933,
+        -0.00043047363828666913
+      ]
+    },
+    {
+      "population": "confirmation_circle_2",
+      "contrast": "qmulti_kmeans minus qfrozen_kmeans",
+      "seed_interval": {
+        "mean": -0.4359235426307686,
+        "sample_sd": 0.01770487904295924,
+        "n": 5,
+        "confidence": 0.9958333333333333,
+        "lower": -0.4825225797138745,
+        "upper": -0.3893245055476627
+      },
+      "record_interval": [
+        -0.4688984163227805,
+        -0.40447844244734604
+      ]
+    },
+    {
+      "population": "confirmation_circle_2",
+      "contrast": "qmulti_kmeans minus trig_kmeans",
+      "seed_interval": {
+        "mean": 0.0009692645665188675,
+        "sample_sd": 0.0010294425134946322,
+        "n": 5,
+        "confidence": 0.9958333333333333,
+        "lower": -0.001740216235064972,
+        "upper": 0.003678745368102707
+      },
+      "record_interval": [
+        -0.003113633135873827,
+        0.004405874204137333
+      ]
+    },
+    {
+      "population": "confirmation_ellipse",
+      "contrast": "qscalar_kmeans minus q2_kmeans",
+      "seed_interval": {
+        "mean": -0.18735621364079877,
+        "sample_sd": 0.010878583101142803,
+        "n": 5,
+        "confidence": 0.9958333333333333,
+        "lower": -0.21598851867444405,
+        "upper": -0.1587239086071535
+      },
+      "record_interval": [
+        -0.20093099151675586,
+        -0.1731964997790591
+      ]
+    },
+    {
+      "population": "confirmation_ellipse",
+      "contrast": "qmulti_kmeans minus qscalar_kmeans",
+      "seed_interval": {
+        "mean": -0.005029476807163121,
+        "sample_sd": 0.0012533684653957325,
+        "n": 5,
+        "confidence": 0.9958333333333333,
+        "lower": -0.00832832812696345,
+        "upper": -0.0017306254873627916
+      },
+      "record_interval": [
+        -0.008435790120395019,
+        -0.0018432936540177525
+      ]
+    },
+    {
+      "population": "confirmation_ellipse",
+      "contrast": "qmulti_kmeans minus qfrozen_kmeans",
+      "seed_interval": {
+        "mean": -0.3860135034673638,
+        "sample_sd": 0.015145121796435316,
+        "n": 5,
+        "confidence": 0.9958333333333333,
+        "lower": -0.4258752890524453,
+        "upper": -0.3461517178822823
+      },
+      "record_interval": [
+        -0.4245857850199552,
+        -0.349937079674422
+      ]
+    },
+    {
+      "population": "confirmation_ellipse",
+      "contrast": "qmulti_kmeans minus trig_kmeans",
+      "seed_interval": {
+        "mean": 0.006978220215676137,
+        "sample_sd": 0.001532727447886944,
+        "n": 5,
+        "confidence": 0.9958333333333333,
+        "lower": 0.0029440992816062005,
+        "upper": 0.011012341149746073
+      },
+      "record_interval": [
+        0.0043682454766243535,
+        0.00986162422352148
+      ]
+    }
+  ],
+  "readiness": {
+    "checkpoints": 60,
+    "checkpoint_fixture_pairs": 1920,
+    "aer_experiments": 1440,
+    "simulated_aer_shots": 1474560,
+    "separate_multinomial_trials": 398131200
+  },
+  "staged_file_identities": [
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v05_r3_prose\\QPathformer_v0.5_Study\\RIGHTS.md",
+      "bytes": 1375,
+      "sha256": "7890894bb13e1fa862eb5406f04079f9b9d509cd8dd40c61ec923404f5e7d7b2"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v05_r3_prose\\QPathformer_v0.5_Study\\START_HERE.md",
+      "bytes": 3019,
+      "sha256": "335de434777f3ddb0003aa7f117ab5ca0c9af6ad20dae211c10269ac68f5d944"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v05_r3_prose\\QPathformer_v0.5_Study\\VERIFY.md",
+      "bytes": 1279,
+      "sha256": "b15eacdc200ecaf5baf37daa47d4a2c94cf0f8cd786e928d96d8c0b7441884f5"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v05_r3_prose\\QPathformer_v0.5_Documentation\\RELEASE_NOTES.md",
+      "bytes": 4592,
+      "sha256": "c30dbcf98206da3fba4d5d8c5b21e90bfdc720f20d71e77a19701b2db80348fc"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v05_r3_prose\\QPathformer_v0.5_Documentation\\RESEARCH_GUIDE.md",
+      "bytes": 11420,
+      "sha256": "4830b918c7582ea525212f5a201c42bbdf380d1d0a9584758b5e35fbbf98a96c"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v05_r3_prose\\QPathformer_v0.5_Documentation\\RIGHTS.md",
+      "bytes": 1375,
+      "sha256": "7890894bb13e1fa862eb5406f04079f9b9d509cd8dd40c61ec923404f5e7d7b2"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v05_r3_prose\\QPathformer_v0.5_Documentation\\START_HERE.md",
+      "bytes": 2392,
+      "sha256": "a3bbc0c56275a6eebbae2b4f88ab3e7fb7c9f11e2dc2e3bbaed4d1855a2b8ced"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v05_r3_prose\\QPathformer_v0.5_Documentation\\VERIFY.md",
+      "bytes": 1279,
+      "sha256": "b15eacdc200ecaf5baf37daa47d4a2c94cf0f8cd786e928d96d8c0b7441884f5"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v05_r3_prose\\QPathformer_v0.5_Code\\RIGHTS.md",
+      "bytes": 1375,
+      "sha256": "7890894bb13e1fa862eb5406f04079f9b9d509cd8dd40c61ec923404f5e7d7b2"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v05_r3_prose\\QPathformer_v0.5_Code\\START_HERE.md",
+      "bytes": 2886,
+      "sha256": "b3ee8b3daca0b0743fdf5df4f20c9b6f44ff35c3119cdb272930b4c38c48c428"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v05_r3_prose\\QPathformer_v0.5_Code\\VERIFY.md",
+      "bytes": 1279,
+      "sha256": "b15eacdc200ecaf5baf37daa47d4a2c94cf0f8cd786e928d96d8c0b7441884f5"
+    }
+  ],
+  "release_body": {
+    "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v05_r3_prose\\RELEASE_BODY.md",
+    "bytes": 7280,
+    "sha256": "ae534e4c3ba6db6b5f0317f44fbe10d928a89f31cec29f2eac99ebf832755795"
+  },
+  "licences_and_adoption_decision": "Preserved; package-specific scope identities must be refreshed by root when assembling changed current guidance.",
+  "no_experiments_run": true,
+  "final_package_verification": "Pending root final assembly/seal/fresh startup/authenticated draft checks"
+}

@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "recorded_at_utc": "2026-10-30T04:24:04.254411+00:00",
+  "python": "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "parsed_python_files": 52,
+  "numpy_version": "2.5.4",
+  "scipy_version": "1.18.1",
+  "methods": [
+    "q2_kmeans",
+    "qscalar_kmeans",
+    "qmulti_kmeans",
+    "qfrozen_kmeans",
+    "mlp4relu_kmeans",
+    "mlp8relu_kmeans",
+    "mlp4tanh_kmeans",
+    "mlp8tanh_kmeans",
+    "trig_kmeans",
+    "trig_global",
+    "mlp_global"
+  ],
+  "model_methods_checked": 11,
+  "tests_run": 2,
+  "integrity_before": {
+    "status": "PASS",
+    "files": 76,
+    "package_fingerprint_sha256": "967bc4e13a8080a693b543c4bbdce294b50dbb8bf3ef173ef65a1c1ac7086ba2"
+  },
+  "integrity_after": {
+    "status": "PASS",
+    "files": 76,
+    "package_fingerprint_sha256": "967bc4e13a8080a693b543c4bbdce294b50dbb8bf3ef173ef65a1c1ac7086ba2"
+  },
+  "package_bytes_unchanged": true,
+  "checks": [
+    {
+      "label": "model shapes and paired initial predictions",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-c",
+        "import json, socket, sys, unittest\ndef denied(*args, **kwargs): raise RuntimeError('Network disabled during bounded startup')\nsocket.create_connection = denied\nsocket.socket.connect = denied\nsocket.socket.connect_ex = denied\nsys.path.insert(0, '..')\nimport numpy, scipy, circuits, models, routers, study, verification, test_models\nsuite = unittest.TestSuite([test_models.ModelTests('test_shapes_and_paired_initial_predictions')])\nresult = unittest.TextTestRunner(verbosity=2).run(suite)\nprint(json.dumps({'numpy_version': numpy.__version__, 'scipy_version': scipy.__version__, 'methods': list(models.METHODS), 'tests_run': result.testsRun}))\nraise SystemExit(0 if result.wasSuccessful() and result.testsRun == 1 else 1)"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261030_r3\\qa\\fresh_extraction\\QPathformer_v0.5_Code\\payload\\study\\quantum\\tests",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "{\"numpy_version\": \"2.5.4\", \"scipy_version\": \"1.18.1\", \"methods\": [\"q2_kmeans\", \"qscalar_kmeans\", \"qmulti_kmeans\", \"qfrozen_kmeans\", \"mlp4relu_kmeans\", \"mlp8relu_kmeans\", \"mlp4tanh_kmeans\", \"mlp8tanh_kmeans\", \"trig_kmeans\", \"trig_global\", \"mlp_global\"], \"tests_run\": 1}\n",
+      "stderr": "test_shapes_and_paired_initial_predictions (test_models.ModelTests.test_shapes_and_paired_initial_predictions) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.196s\n\nOK\n"
+    },
+    {
+      "label": "independent circuit-state and moment agreement",
+      "command": [
+        "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "-c",
+        "import json, socket, sys, unittest\ndef denied(*args, **kwargs): raise RuntimeError('Network disabled during bounded startup')\nsocket.create_connection = denied\nsocket.socket.connect = denied\nsocket.socket.connect_ex = denied\nsys.path.insert(0, '..')\nimport numpy, scipy, circuits, models, routers, study, verification, test_models\nsuite = unittest.TestSuite([test_models.ModelTests('test_moments_and_state_against_independent_matrices')])\nresult = unittest.TextTestRunner(verbosity=2).run(suite)\nprint(json.dumps({'numpy_version': numpy.__version__, 'scipy_version': scipy.__version__, 'methods': list(models.METHODS), 'tests_run': result.testsRun}))\nraise SystemExit(0 if result.wasSuccessful() and result.testsRun == 1 else 1)"
+      ],
+      "cwd": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261030_r3\\qa\\fresh_extraction\\QPathformer_v0.5_Code\\payload\\study\\quantum\\tests",
+      "status": "PASS",
+      "returncode": 0,
+      "stdout": "{\"numpy_version\": \"2.5.4\", \"scipy_version\": \"1.18.1\", \"methods\": [\"q2_kmeans\", \"qscalar_kmeans\", \"qmulti_kmeans\", \"qfrozen_kmeans\", \"mlp4relu_kmeans\", \"mlp8relu_kmeans\", \"mlp4tanh_kmeans\", \"mlp8tanh_kmeans\", \"trig_kmeans\", \"trig_global\", \"mlp_global\"], \"tests_run\": 1}\n",
+      "stderr": "test_moments_and_state_against_independent_matrices (test_models.ModelTests.test_moments_and_state_against_independent_matrices) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.312s\n\nOK\n"
+    }
+  ],
+  "errors": [],
+  "scope": "Exact package integrity before and after startup; all selected Python parsed; v0.5 numerical imports and exactly two selected tests: model parameter shapes/paired initial predictions and independent circuit-state/moment agreement. Network disabled in test subprocesses. No official input files used.",
+  "not_verified": [
+    "Clean-room dependency installation",
+    "Full training or official scoring",
+    "Datasets and selected checkpoints",
+    "Full-archive relocation",
+    "Shot sampling or noise experiments",
+    "Hardware or QPU execution"
+  ]
+}

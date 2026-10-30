@@ -1,0 +1,36 @@
+{
+  "schema": "qpath-batch-owner-authorization-1",
+  "adopted_on": "2026-10-29",
+  "timezone": "Australia/Sydney",
+  "owner": "Anthony Siljeg",
+  "owner_wording": [
+    "the licensing decisions can be adopted, if its the same as the first two",
+    "this can save recomputing the seals?"
+  ],
+  "received_via": "Originating owner chat 01a17bed-f2d9-7401-8cd8-669ee0a1ccc1 delegated instruction to this preparation chat",
+  "condition": "Same scoped licensing scheme used in completed study-v0.1 and study-v0.9.5. Exact per-study memberships and identities must be recorded; no blanket grant.",
+  "terms": {
+    "report_and_prose": "CC BY 4.0 for identified controlled original report prose, table presentation, original figures, and explicitly listed original explanatory/wrapper/support prose",
+    "python": "Unchanged Q-Pathformer Platform License 1.0 for exact selected Python implementation and package helpers"
+  },
+  "preserve_existing_grants": true,
+  "excluded": [
+    "Third-party dependencies or expression",
+    "Datasets",
+    "Model artifacts/checkpoints",
+    "Architecture documents",
+    "Full archives",
+    "Unrelated records"
+  ],
+  "exceptions": "Isolate specific selections needing different terms, genuinely unresolved ownership or conflicting notices; do not invent ownership evidence.",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "affiliation_is_not_ownership_transfer": true,
+  "release_constraints": {
+    "draft": true,
+    "private": true,
+    "make_latest": false,
+    "protected_releases_unchanged": true
+  },
+  "sealing_order": "Finalize adopted scopes, notices, report visible edition notes and metadata before manifest/checksum/ZIP/seal. Preserve prior sealed candidates; rebuild changed packs and bind rebuilt Code startup.",
+  "recorded_at_utc": "2026-10-29T08:56:56.685065+00:00"
+}
