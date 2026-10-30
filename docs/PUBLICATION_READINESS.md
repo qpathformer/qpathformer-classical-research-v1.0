@@ -1,13 +1,15 @@
-# Private v1.0 release check
+# Repository review before public access
 
-**Dated preparation record — 31 October 2026.** These observations describe this review stage, not a permanent live publication status.
+The owner-approved [Research v1.0 release](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/research-v1.0-20261031) is published and marked Latest inside the private repository. Its exact source commit is `a2171d9748f66efdaaf0ed56af5b66e730cdb8c5`. The approved five release assets and reader-facing release body are unchanged.
 
-The replacement retains the visible edition v1.0 and uses research-v1.0-20261031 as its distinct GitHub tag. The two papers no longer carry editorial draft labels. The owner approved the controlled-content CC BY 4.0 scope and adopted the trademark policy on 31 October 2026. Existing software terms, study grants, original architecture and third-party notices are preserved.
+The main README and linked documents now lead to that edition. The main branch includes the approved papers, Research Approach, scoped CC BY records and trademark policy. Later navigation and status updates are separate from the immutable release tag and downloadable files; [edition status](EDITION_STATUS.md) explains the distinction. The superseded research-v1.0 release entry was removed after its metadata and five assets were archived and verified locally; its Git tag remains.
 
-Before publication, review the rebuilt Papers and Consolidated ZIPs, their matching seals and the delivery receipt against the intended source commit. The replacement is a private GitHub draft. Publish only after the owner's release approval; then mark the earlier research-v1.0 release superseded, retain its old assets/tag and designate the replacement Latest.
+## Remaining review
 
-Making the repository public is a separate step. Review the exact source tree and reachable history, branches/tags, releases, PR/issues, Actions material and any linked storage. The prior bounded scan and these package checks are not exhaustive disclosure or legal-title clearance. The unchanged v0.9 report's page 37 account/usage section and recorded operational paths still need their public-distribution decision. No disclosure has been silently removed from an old report.
+The repository remains private for the owner's final check of these documentation updates. Repository rules and access settings are the next task; this update does not implement them. The organisation-profile revision remains separate.
 
-Software-contracting authority behind Q-Pathformer HQ and the Dataset Lifecycle historical TXT/PDF discrepancy remain separate matters. This research reference reproduces its own canonical TXT; it does not amend the Dataset repository or settle earlier recipient reliance. Operational repository rules and the organisation-profile update remain separate tasks. The repository stays private during this review.
+Before changing visibility, review the selected source tree and reachable history, branches/tags, releases, PRs/issues, Actions material and linked storage. The unchanged v0.9 report's page 37 account/usage section and recorded operational paths still need their public-distribution decision. Excluding owner planning from curated ZIPs does not establish that every other repository surface is ready for public access.
 
-The replacement reading links deliberately pin `research-v1.0-20261031`. That tag will resolve when the reviewed draft is published. The default branch remains at its earlier edition during owner review. Publication handoff must integrate the approved papers, guides, rights records and navigation into the private default branch, or explicitly retain the pinned reading route; changing download URLs alone is insufficient. Later navigation commits must not move the immutable release tag.
+Software-contracting authority behind Q-Pathformer HQ and the separate Dataset Lifecycle historical TXT/PDF discrepancy remain separate matters. The research Platform reference reproduces its own canonical TXT; it does not amend the Dataset distribution. Existing grants and third-party notices remain scoped.
+
+After the owner approves public access, verify the repository, reading links, illustrations and release downloads from a non-member view before directing public readers through the organisation profile. Current checks establish private authenticated access and file identities, not public access or independent scientific replication.

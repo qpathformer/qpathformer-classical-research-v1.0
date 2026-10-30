@@ -27,13 +27,13 @@
     },
     {
       "path": "LICENSE_SCOPE.md",
-      "bytes": 5942,
-      "sha256": "7465120328c38c978536368cb23c725c14ce51ff4af46f4e6c9ce0bfaf1d14da"
+      "bytes": 6220,
+      "sha256": "e4000ae3c179c0940cb53418a53876812b9ac86d8f5e936490914973df46a5e7"
     },
     {
       "path": "README.md",
-      "bytes": 12946,
-      "sha256": "bd30ec80dbc55017a2d00ca5479a236f52d519df2ffd6b4102c4b92b72af9d34"
+      "bytes": 12546,
+      "sha256": "d5de05eecfe99ab3aa37a95e9a0c73df976955b060da18dbb73b380b859a9e81"
     },
     {
       "path": "TRADEMARKS.md",
@@ -67,8 +67,8 @@
     },
     {
       "path": "docs/COLLECTION_GUIDE.md",
-      "bytes": 2450,
-      "sha256": "d47a843780a2f74223da795e2c670c5382e2381bde3435689ac388d06b3e5736"
+      "bytes": 2757,
+      "sha256": "05ebf7e4a23a9d42f6d8e1e465971f0bbd426002fa592c3fd3f9ffea4c8d8d10"
     },
     {
       "path": "docs/CONTRIBUTION_EVIDENCE.md",
@@ -77,8 +77,8 @@
     },
     {
       "path": "docs/EDITION_STATUS.md",
-      "bytes": 2680,
-      "sha256": "bcc2a5f2228993792df3a2e954e2a847371d1c92223810ae1f2a69f3af3b6871"
+      "bytes": 3048,
+      "sha256": "fab489b40e68187f8fe2160ae01029e08e433c68ae679f514241550cbe0dd235"
     },
     {
       "path": "docs/MAIN_PAPER_CHANGE_NOTE.md",
@@ -92,13 +92,13 @@
     },
     {
       "path": "docs/PUBLICATION_READINESS.md",
-      "bytes": 2302,
-      "sha256": "069fe0e566f401e471d027da231918ea1f5b4f0205ec683e7b2b989e0b289b6e"
+      "bytes": 2226,
+      "sha256": "21cd3cca0d1fa2d1a959899f7355fbe1f391f1be26e73699b3f1ff0aac04840e"
     },
     {
       "path": "docs/RELEASE_POLICY.md",
-      "bytes": 4464,
-      "sha256": "c58576b5d2f0abfdab6c63f3f1b7e3a7a778e4c0d4c0c50271f72036ce897159"
+      "bytes": 4405,
+      "sha256": "cf79b3ded1781384e2b1189d52a9f16ea0f21f9db2b723d2c65f422d91324d58"
     },
     {
       "path": "docs/RESEARCH_APPROACH.md",
@@ -112,8 +112,8 @@
     },
     {
       "path": "docs/RESEARCH_V1_RIGHTS.md",
-      "bytes": 2127,
-      "sha256": "d85a2de0c71e7c61c8feb6250802a19643847d4b94ca2b858a72fcf7ed443209"
+      "bytes": 2513,
+      "sha256": "4e0902695a3af3d44d71df3677932ced91d5b31f3baea02bd948b12167d2e188"
     },
     {
       "path": "docs/papers/QPathformer_Architecture_and_Experimental_Specification_v1.0.docx",
@@ -159,5 +159,10 @@
     "bytes": 5896,
     "sha256": "24274ffcef81cf73865a96013f60d3177eb2f6f84f3d50f964c26522b6faa7ca"
   },
-  "revision_note": "Current file identities refreshed for the owner-requested release presentation and clarity corrections. The approved content categories, exclusions, licence and effective date are unchanged; historical adoption evidence is preserved."
+  "revision_note": "Current file identities include the owner-requested main README, navigation and publication-status updates after release. Published scope records and original adoption evidence are preserved. The approved licence categories, exclusions, licensor and effective date are unchanged.",
+  "released_scope": {
+    "path": "docs/rights/research_v1_released_20261031/RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
+    "bytes": 6445,
+    "sha256": "5e87fbad0564317e357d73a90d57d6ec0aeee5cb6fc96e405c448356ddee24ec"
+  }
 }

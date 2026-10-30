@@ -1,6 +1,6 @@
 # A guide to the research
 
-[Main README](../README.md) · [Latest study](../release_notes/study-v0.9.5.md) · [Reproduction limits](REPRODUCIBILITY.md)
+[Main README](../README.md) · [Collection reading guide](COLLECTION_GUIDE.md) · [Latest study](../release_notes/study-v0.9.5.md) · [Reproduction limits](REPRODUCIBILITY.md)
 
 ## Four separate decisions
 
