@@ -1,0 +1,95 @@
+{
+  "schema": "qpath-publication-receipt-1",
+  "status": "PASS_PUBLISHED_PRIVATE_REPOSITORY",
+  "study_version": "v0.5",
+  "release_id": 427648282,
+  "release_url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/study-v0.5",
+  "tag": "study-v0.5",
+  "target_commit": "8574df9248a23dfc1ceaaf5dd0bcc6b92ff9469d",
+  "published_at": "2026-10-30T04:34:45Z",
+  "checked_at_utc": "2026-10-30T04:34:50.957969+00:00",
+  "draft": false,
+  "prerelease": false,
+  "immutable": false,
+  "repository": {
+    "id": 1438032349,
+    "name": "qpathformer/qpathformer-classical-research-v1.0",
+    "private": true,
+    "visibility": "private"
+  },
+  "latest": {
+    "id": 427547832,
+    "tag": "study-v0.9.5"
+  },
+  "assets": [
+    {
+      "id": 690914963,
+      "name": "QPathformer_v0.5_Code.seal.json",
+      "bytes": 1554,
+      "sha256": "73a1479f0bc5dd59ba15059bbe29332139d4ef0baa141729fb44bbb3a8e4d687",
+      "download_verified": true,
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/download/study-v0.5/QPathformer_v0.5_Code.seal.json"
+    },
+    {
+      "id": 690915283,
+      "name": "QPathformer_v0.5_Code.zip",
+      "bytes": 276437,
+      "sha256": "e0e242521731719aac4472c064d1c389c4c7f13502e8ce27926945a98f0fac5b",
+      "download_verified": true,
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/download/study-v0.5/QPathformer_v0.5_Code.zip"
+    },
+    {
+      "id": 690915582,
+      "name": "QPathformer_v0.5_Documentation.seal.json",
+      "bytes": 1588,
+      "sha256": "4110a1f7e4cd6d3d0c225a6715ac6b375fc172c77227fe48e7fe45aaea6fc1fc",
+      "download_verified": true,
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/download/study-v0.5/QPathformer_v0.5_Documentation.seal.json"
+    },
+    {
+      "id": 690915794,
+      "name": "QPathformer_v0.5_Documentation.zip",
+      "bytes": 48711,
+      "sha256": "4266a35aed676e0c2b8470134f042a8b322f1299621ea763c7af985a248fb1ff",
+      "download_verified": true,
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/download/study-v0.5/QPathformer_v0.5_Documentation.zip"
+    },
+    {
+      "id": 690916160,
+      "name": "QPathformer_v0.5_Study.seal.json",
+      "bytes": 1557,
+      "sha256": "aaadf9a7fdadd934ba53898084eefd6564a362f476887374aabe5c135262c9e6",
+      "download_verified": true,
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/download/study-v0.5/QPathformer_v0.5_Study.seal.json"
+    },
+    {
+      "id": 690916443,
+      "name": "QPathformer_v0.5_Study.zip",
+      "bytes": 1650949,
+      "sha256": "b82153cbb33c26e3c04f77116b978bc276c6087420a700cd69794c74b0894274",
+      "download_verified": true,
+      "url": "https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/download/study-v0.5/QPathformer_v0.5_Study.zip"
+    }
+  ],
+  "main_unchanged": "7c05ea9712d4b21a3b16fd1258f2731972e344c2",
+  "other_releases_unchanged": true,
+  "prior_tags_unchanged": true,
+  "new_tag": "refs/tags/study-v0.5",
+  "package_bytes_unchanged": true,
+  "report_and_scientific_source_unchanged": true,
+  "automatic_source_archives": {
+    "zipball_url": "https://api.github.com/repos/qpathformer/qpathformer-classical-research-v1.0/zipball/study-v0.5",
+    "tarball_url": "https://api.github.com/repos/qpathformer/qpathformer-classical-research-v1.0/tarball/study-v0.5"
+  },
+  "historical_draft_evidence": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\draft_20261030_r3\\receipts\\DRAFT_RELEASE.json",
+  "authorization": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\publication_20261030_r3\\AUTHORIZATION.json",
+    "bytes": 411,
+    "sha256": "7021b3d5ea48335cd5b01644abbd229899fdea42965c0010a363b518c7d770f3"
+  },
+  "final_check": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.5\\publication_20261030_r3\\FINAL_CHECK.json",
+    "bytes": 13763,
+    "sha256": "ff5d0e278fd9ecc73d2138e448b21cda494c209dcdfa054118ab352f2a6d153c"
+  }
+}
