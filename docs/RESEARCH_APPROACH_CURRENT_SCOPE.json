@@ -1,0 +1,30 @@
+{
+  "schema": "qpath-current-prose-scope-1",
+  "edition": "Research v1.0 candidate, 30 October 2026",
+  "file": {
+    "path": "docs/RESEARCH_APPROACH.md",
+    "bytes": 9677,
+    "sha256": "99a70f4f555d10f41f030c43b549b930262e04be4e12db2492cf6059aa60d43d"
+  },
+  "current_status": "PROPOSED_CC_BY_4_0_FOR_ADDED_PROSE",
+  "existing_grant": "ADOPTED_CC_BY_4_0_REMAINS_APPLICABLE_TO_ORIGINAL_EXPRESSION_AND_ADAPTATIONS",
+  "licensor": "Anthony Siljeg",
+  "historical_scope": "docs/rights/research_approach_adopted_20261030/docs/RESEARCH_APPROACH_LICENSE_SCOPE.json",
+  "change_record": {
+    "path": "docs/rights/RESEARCH_APPROACH_CHANGES.diff",
+    "bytes": 15535,
+    "sha256": "f9c3157b81507608b021b149ad98e159aea2c5a7045c53f5ed89d6a4639c4d88"
+  },
+  "new_adoption_record": null,
+  "excludes": [
+    "main manuscript",
+    "other helper documents",
+    "code",
+    "datasets",
+    "models",
+    "third-party expression",
+    "restricted assets"
+  ],
+  "note": "File identity locates this edition, not a restriction on permitted adaptations.",
+  "revision_note": "Current candidate distinguishes completed findings from proposed architecture. Original adopted expression and scope remain unchanged; no new adoption recorded."
+}

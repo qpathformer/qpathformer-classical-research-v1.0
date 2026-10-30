@@ -21,3 +21,12 @@ Content already licensed through the report or documentation grant remains reusa
 The Platform license's commercial/production and distribution conditions apply to its identified code. They do not carry over to CC-licensed report or documentation content. The unchanged [CC BY 4.0 legal text](LICENSES/CC-BY-4.0.txt) governs the CC grants.
 
 Anthony Siljeg remains the named licensor. Attribution: Founder, Alnotrea Labs; company affiliation, Alnotrea Pty Ltd; project, Q-Pathformer Initiative. These details do not transfer ownership. No blanket incoming-contribution agreement is created. Datasets, model artifacts, full archives and future additions require their own identified treatment.
+
+
+## Research v1.0 repository integration
+
+The 31 October 2026 repository update adds the main findings paper, architecture companion, covers, separate Research Approach and proposed governance/trademark guidance for private final review. See [current edition status](docs/EDITION_STATUS.md) and the [exact update scope](docs/REPOSITORY_UPDATE_SCOPE.json). This integration creates no new whole-repository or whole-package licence.
+
+The existing root source map, documentation scope and adopted new-guidance scope preserve the earlier distribution identities and grants. Their earlier README hashes identify the earlier expression; they do not silently adopt newly added wording. Already licensed expression and permitted adaptations keep their existing permissions. The update scope identifies the later files and pending new-expression decisions without rewriting the historical adoption records.
+
+The Research Approach's [adopted source edition and current changes](docs/RESEARCH_APPROACH_RIGHTS.md) remain separately identified. Rights for the new main paper, companion, covers and additional helper prose remain under review, with applicable prior grants preserved. The [trademark policy](TRADEMARKS.md) is a proposed policy and concerns branding, not a replacement for copyright permissions or a grant of Lab access.
