@@ -1,0 +1,18 @@
+{
+  "schema": "qpath-trademark-policy-adoption-1",
+  "status": "ADOPTED_FOR_V1_REPLACEMENT",
+  "effective_date": "2026-10-31",
+  "timezone": "Australia/Sydney",
+  "mark_owner": "ALNOTREA PTY LTD",
+  "authorised_respondent": "Anthony Siljeg",
+  "contact": "asiljeg@alnotrea.com",
+  "policy": {
+    "path": "TRADEMARKS.md",
+    "bytes": 5635,
+    "sha256": "a257a4f81cbcd662378f3ad5a67531f3427bdf90e71bdfe1766eac708e98d0d6"
+  },
+  "authority_basis": "Owner explicitly approved adoption of the reviewed policy and nominated Anthony Siljeg as authorised company respondent in this preparation.",
+  "copyright_assignment": false,
+  "software_contracting_authority_inferred": false,
+  "public_visibility_approval": false
+}

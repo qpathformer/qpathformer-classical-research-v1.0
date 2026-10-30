@@ -1,0 +1,133 @@
+{
+  "schema": "qpath-content-scope-revision-1",
+  "recorded_at_utc": "2026-10-30T23:22:14+00:00",
+  "date_local": "2026-10-31",
+  "reason": "Owner requested updating the private main README and linked documents using the reviewed notes, keeping the published release Latest and repository rules for a later task.",
+  "previous_source_commit": "a2171d9748f66efdaaf0ed56af5b66e730cdb8c5",
+  "previous_release_tag": "research-v1.0-20261031",
+  "original_scope": {
+    "path": "docs/rights/research_v1_adopted_20261031/RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
+    "bytes": 5896,
+    "sha256": "24274ffcef81cf73865a96013f60d3177eb2f6f84f3d50f964c26522b6faa7ca"
+  },
+  "original_adoption": {
+    "path": "docs/rights/research_v1_adopted_20261031/RESEARCH_V1_LICENSE_ADOPTION.json",
+    "bytes": 791,
+    "sha256": "f5ee411762621944d0aad8f6f4f6f4e19236c176fc2c339e57f44f8297089cc8"
+  },
+  "released_scope": {
+    "path": "docs/rights/research_v1_released_20261031/RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
+    "bytes": 6445,
+    "sha256": "5e87fbad0564317e357d73a90d57d6ec0aeee5cb6fc96e405c448356ddee24ec"
+  },
+  "released_adoption": {
+    "path": "docs/rights/research_v1_released_20261031/RESEARCH_V1_LICENSE_ADOPTION.json",
+    "bytes": 1245,
+    "sha256": "4269ba520261861ee7f102ac90fd462955376b013b538b3c80541ba34a68088c"
+  },
+  "previous_revision": {
+    "path": "docs/rights/research_v1_released_20261031/RESEARCH_V1_SCOPE_REVISION.json",
+    "bytes": 3689,
+    "sha256": "29c3019d63b48c0e8636f5ca5afd5805e1ba6a0c945e20329ee6be132125d86f"
+  },
+  "current_scope": {
+    "path": "RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
+    "bytes": 6719,
+    "sha256": "4f8327d9c40e7571c32dd404c6d5efe6955cfdcbc4dd26b8eb220c4a9d80003b"
+  },
+  "current_adoption": {
+    "path": "RESEARCH_V1_LICENSE_ADOPTION.json",
+    "bytes": 1570,
+    "sha256": "911d1ab813fd1e7bcffb710168b25c270b5f0af1f6c3b4ab27f7886e33eb4d47"
+  },
+  "changed_scoped_files": [
+    {
+      "before": {
+        "path": "LICENSE_SCOPE.md",
+        "bytes": 5942,
+        "sha256": "7465120328c38c978536368cb23c725c14ce51ff4af46f4e6c9ce0bfaf1d14da"
+      },
+      "after": {
+        "path": "LICENSE_SCOPE.md",
+        "bytes": 6220,
+        "sha256": "e4000ae3c179c0940cb53418a53876812b9ac86d8f5e936490914973df46a5e7"
+      }
+    },
+    {
+      "before": {
+        "path": "README.md",
+        "bytes": 12946,
+        "sha256": "bd30ec80dbc55017a2d00ca5479a236f52d519df2ffd6b4102c4b92b72af9d34"
+      },
+      "after": {
+        "path": "README.md",
+        "bytes": 12546,
+        "sha256": "d5de05eecfe99ab3aa37a95e9a0c73df976955b060da18dbb73b380b859a9e81"
+      }
+    },
+    {
+      "before": {
+        "path": "docs/COLLECTION_GUIDE.md",
+        "bytes": 2450,
+        "sha256": "d47a843780a2f74223da795e2c670c5382e2381bde3435689ac388d06b3e5736"
+      },
+      "after": {
+        "path": "docs/COLLECTION_GUIDE.md",
+        "bytes": 2757,
+        "sha256": "05ebf7e4a23a9d42f6d8e1e465971f0bbd426002fa592c3fd3f9ffea4c8d8d10"
+      }
+    },
+    {
+      "before": {
+        "path": "docs/EDITION_STATUS.md",
+        "bytes": 2680,
+        "sha256": "bcc2a5f2228993792df3a2e954e2a847371d1c92223810ae1f2a69f3af3b6871"
+      },
+      "after": {
+        "path": "docs/EDITION_STATUS.md",
+        "bytes": 3048,
+        "sha256": "fab489b40e68187f8fe2160ae01029e08e433c68ae679f514241550cbe0dd235"
+      }
+    },
+    {
+      "before": {
+        "path": "docs/PUBLICATION_READINESS.md",
+        "bytes": 2302,
+        "sha256": "069fe0e566f401e471d027da231918ea1f5b4f0205ec683e7b2b989e0b289b6e"
+      },
+      "after": {
+        "path": "docs/PUBLICATION_READINESS.md",
+        "bytes": 2226,
+        "sha256": "21cd3cca0d1fa2d1a959899f7355fbe1f391f1be26e73699b3f1ff0aac04840e"
+      }
+    },
+    {
+      "before": {
+        "path": "docs/RELEASE_POLICY.md",
+        "bytes": 4464,
+        "sha256": "c58576b5d2f0abfdab6c63f3f1b7e3a7a778e4c0d4c0c50271f72036ce897159"
+      },
+      "after": {
+        "path": "docs/RELEASE_POLICY.md",
+        "bytes": 4405,
+        "sha256": "cf79b3ded1781384e2b1189d52a9f16ea0f21f9db2b723d2c65f422d91324d58"
+      }
+    },
+    {
+      "before": {
+        "path": "docs/RESEARCH_V1_RIGHTS.md",
+        "bytes": 2127,
+        "sha256": "d85a2de0c71e7c61c8feb6250802a19643847d4b94ca2b858a72fcf7ed443209"
+      },
+      "after": {
+        "path": "docs/RESEARCH_V1_RIGHTS.md",
+        "bytes": 2513,
+        "sha256": "4e0902695a3af3d44d71df3677932ced91d5b31f3baea02bd948b12167d2e188"
+      }
+    }
+  ],
+  "licence_categories_and_exclusions_unchanged": true,
+  "new_blanket_grant": false,
+  "public_visibility_approval": false,
+  "repository_rules_changed": false
+}

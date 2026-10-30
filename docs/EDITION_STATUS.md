@@ -1,27 +1,25 @@
-# Research edition v1.0: rights and publication status
+# Research edition v1.0 status
 
-Routed States is the draft main findings paper. The Three-State Architecture and Experimental Specification is a separate companion. Their respective abstracts, scientific tables and equations are preserved from their identified sources; original proposals and study reports remain unchanged. The separate Research Approach belongs in release documentation.
+**Updated 31 October 2026.** [Research v1.0](https://github.com/qpathformer/qpathformer-classical-research-v1.0/releases/tag/research-v1.0-20261031) is published and marked Latest inside this private repository. The displayed paper edition remains v1.0. Publishing a release inside a private repository does not make it publicly accessible.
+
+Routed States is the main findings paper. Three-State Architecture and Experimental Specification is its companion; Research Approach remains separate documentation. The main branch's four paper PDF/Word files and Research Approach match the approved release source. The papers' scientific content, limitations, references, tables, equations and artwork have not been changed by this repository update.
 
 | Decision | Current state |
 | --- | --- |
-| Existing Research Approach original prose | Adopted CC BY 4.0; exact historical scope preserved |
-| Revised Research Approach additions | Proposed current CC BY 4.0 scope; new adoption pending |
-| Supporting study reports | Existing adopted scopes preserved |
-| Main paper, architecture companion, covers and new helper additions | Rights/publication review pending; prior applicable grants remain in force |
-| Participation model | Owner-confirmed: two qualifying public merges, then owner approval; Enterprise participants / Strategic owners |
-| Operational governance and settings | Staged proposal; not applied by this revision |
-| Existing release | research-v1.0 is a published, non-draft release inside the private repository; marked Latest, observed 31 October 2026 |
-| Public repository publication | Planned after rights, source-tree, history and download checks; not performed by this draft |
+| Published research collection | `research-v1.0-20261031`, published 31 October 2026, designated Latest |
+| Repository visibility | Private; public transition remains a separate decision |
+| Controlled original papers, covers, Research Approach and named helper prose | CC BY 4.0 adopted by Anthony Siljeg on 31 October 2026; [current exact scope](../RESEARCH_V1_CONTENT_LICENSE_SCOPE.json) and exclusions apply |
+| Prior source, report, code and third-party grants | Preserved with their historical records |
+| Trademark policy | Adopted; [policy](../TRADEMARKS.md) and [authority record](../TRADEMARK_POLICY_ADOPTION.json) |
+| Superseded research-v1.0 release entry | Removed at the owner's request; original Git tag and verified local recovery archive retained |
+| Participation model | Two qualifying public merges establish eligibility, followed by owner approval; Enterprise participants / Strategic owners |
+| Repository rules and access settings | Review and implementation deferred to the next task |
+| Organisation profile | Separate update after the intended research destination is publicly available |
 
-This preparation introduces no unified software implementation and makes no new claim to have validated the current Code packages. Their existing source scopes, reproduction limits and reports remain authoritative.
+## Released files and live documentation
 
-This proposed status update describes the current private integration stage. Before a public change, replace pending entries only with recorded decisions, then bind the reviewed files and release to their actual source commit. Historical packaged records remain unchanged.
+The release tag identifies source commit `a2171d9748f66efdaaf0ed56af5b66e730cdb8c5`. Its Papers ZIP, Consolidated ZIP, seals, delivery receipt and release body remain unchanged. The main branch integrates those approved papers and rights records, followed by a documentation update to the README, collection guide and current publication notices. These later text changes are not claimed to be inside the published ZIPs.
 
+The [released rights records](rights/research_v1_released_20261031/README.md), [current content scope](../RESEARCH_V1_CONTENT_LICENSE_SCOPE.json) and [scope-revision record](../RESEARCH_V1_SCOPE_REVISION.json) distinguish the released and current document identities without changing the approved licence categories or exclusions. The [earlier integration inventory](REPOSITORY_UPDATE_SCOPE.json) remains historical evidence.
 
-## Private repository integration on 31 October 2026
-
-The README now links the existing consolidated research-v1.0 release first, then all ten study releases from v0.9.5 to v0.1. The four paper PDF/Word files, three covers and the Research Approach source/rights records were copied from that existing release without changing their source content, except for identified current navigation/status edits to supporting guidance. The original architecture remains unchanged.
-
-The [repository update scope](REPOSITORY_UPDATE_SCOPE.json) identifies the newly integrated and edited files. It is an identity and review-status record, not a new grant. Existing adopted documentation/code/report scopes remain in force for the expression and files they identify; new controlled prose and separately reviewed paper/cover rights still require their recorded decisions. The [final-check guide](PUBLICATION_READINESS.md) separates completed integration checks from pending owner decisions.
-
-Trademark contact and authorised respondent: Anthony Siljeg, asiljeg@alnotrea.com, confirmed by the owner on 31 October 2026. The policy text remains proposed. Software contracting-party/signing authority is a separate pending decision. No organisation-profile update, access/rule change, public exposure or release replacement is made by this integration.
+See [public-access readiness](PUBLICATION_READINESS.md) for the remaining repository review. Publication and integrity checks do not establish independent scientific replication or peer review.

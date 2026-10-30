@@ -1,0 +1,19 @@
+{
+  "checked_at_utc": "2026-10-30T22:22:48+00:00",
+  "canonical_txt": {
+    "path": "QPATHFORMER-PLATFORM-1.0.txt",
+    "bytes": 1461,
+    "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+  },
+  "reference_pdf": {
+    "path": "LICENSES/QPATHFORMER-PLATFORM-1.0_REFERENCE.pdf",
+    "bytes": 43019,
+    "sha256": "fbdadb9efe755363fe637a217bf0c771f8781b3d76f8ee8c47a8b8ba22782615"
+  },
+  "comparison": "Whitespace only; exact known presentation note removed; punctuation, section numbers, bullets and SPDX identifier retained",
+  "body_matches": true,
+  "source_commit": "cfb16f6c5286c786abcbdd19dba7c88c2d8cbed4",
+  "source_blob": "QPATHFORMER-PLATFORM-1.0.txt",
+  "existing_grants_unchanged": true,
+  "dataset_identifier_distinction": "Dataset TXT lacks LicenseRef-; its separate historical discrepancy is not resolved by this research reference."
+}
