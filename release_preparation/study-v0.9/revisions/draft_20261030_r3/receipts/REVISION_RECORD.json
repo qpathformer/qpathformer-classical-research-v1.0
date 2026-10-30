@@ -1,0 +1,368 @@
+{
+  "status": "APPROVED_CORRECTIONS_PREPARED",
+  "review": {
+    "path": "C:\\Anthony Siljeg\\CPU-QPU git repo prep\\v6 final staging\\study-v0.9_release_review_and_codex_notes.md",
+    "bytes": 39590,
+    "sha256": "b9a151d1c179c1cb9718399799f8ac71283c3c3b2785c17f39d8a19267b56c3a"
+  },
+  "authorization": "User requested applying v0.9 notes and preparing an updated private draft for final check, retaining private visibility and v0.9.5 Latest.",
+  "previous_build": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2",
+  "actual_build_root": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261030_r3",
+  "prior_assets": {
+    "QPathformer_v0.9_Code.seal.json": {
+      "bytes": 1287,
+      "sha256": "a984148629cbb38737f1fc7451d78b9e8598792b2d547aeca07391fb506ffc8b"
+    },
+    "QPathformer_v0.9_Code.zip": {
+      "bytes": 274934,
+      "sha256": "04994fd4cbbfb73dd5946c6f116ed92e0183e756a583cdd7276d460dca2473a6"
+    },
+    "QPathformer_v0.9_Documentation.seal.json": {
+      "bytes": 1356,
+      "sha256": "0d2ab5510acb5c0c0c760f7172bc6a9e60022c445e609da9c39aa4dbe638d1f3"
+    },
+    "QPathformer_v0.9_Documentation.zip": {
+      "bytes": 36698,
+      "sha256": "757c2d9551123542f3462807e52aea3ebf406fe89dcf1ba227d3d02b367b0a08"
+    },
+    "QPathformer_v0.9_Study.seal.json": {
+      "bytes": 1294,
+      "sha256": "f5a40f8cf9584b48324627a7f31a652f621e76b6b7a8d5ec39c3ee65a886ec19"
+    },
+    "QPathformer_v0.9_Study.zip": {
+      "bytes": 2638081,
+      "sha256": "db5e22d077abb129f2f6ae05b4475040f9115aba3e6ecdd2e68843e115109c7f"
+    }
+  },
+  "changed_files": [
+    {
+      "package": "QPathformer_v0.9_Code",
+      "path": "CODE_LICENSE_SCOPE.json",
+      "previous": {
+        "bytes": 14918,
+        "sha256": "be6666e5f1b0083a9039ec437f3e6bb6af7465953fbc3a85982ccbd78f1aa47f"
+      },
+      "current": {
+        "bytes": 15288,
+        "sha256": "ddfd0e64b1b5280105b34706fdee10dc59c0a29f0fafc91899b18c204b4d0661"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Code",
+      "path": "DEPENDENCY_INVENTORY.json",
+      "previous": {
+        "bytes": 1712,
+        "sha256": "5374e5ee66a5c4a755b82e8d62e346224ee12b93b436f7594ac98cad6c57becf"
+      },
+      "current": {
+        "bytes": 35940,
+        "sha256": "05a9273b8227b4ac18fa1dfad4d6a5ef1f2185f15aabde709bfffdde30c63121"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Code",
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "previous": {
+        "bytes": 1805,
+        "sha256": "b07c6e33033dc0acdce17f19e30c4dc3a7f857d572749f467429a0457f812f19"
+      },
+      "current": {
+        "bytes": 1855,
+        "sha256": "6704340d9945b2e11d6f4380651f4e014f6b65d4010fa517295f52c1888842f3"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Code",
+      "path": "INHERITED_LICENSE_MAP.json",
+      "previous": {
+        "bytes": 7045,
+        "sha256": "e4271f7a18c6a07de17030ae250e48008d600f612dd67173853d9260b839822c"
+      },
+      "current": {
+        "bytes": 9248,
+        "sha256": "01de77d5c5999ca063b34032a1745bbfa9dffbae0036f8c457525a2da1885d26"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Code",
+      "path": "LICENSE_ADOPTION.json",
+      "previous": {
+        "bytes": 1589,
+        "sha256": "b1b852ac242d2f99b7538a675f293217fb64c8c039d8aa9506f536226e583291"
+      },
+      "current": {
+        "bytes": 1626,
+        "sha256": "7c20e62366a967b2f3bcd3fe6deb7aa062f2032cd149b5f05c878a2284c57d71"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Code",
+      "path": "QUICKSTART.md",
+      "previous": {
+        "bytes": 1615,
+        "sha256": "254ff5ab41171342d5a07693b620cf46ca89bd3cee6e953e291f42feb46d43a9"
+      },
+      "current": {
+        "bytes": 2625,
+        "sha256": "5dcf60215812a102dc73d6ff92fcf9f13d04d61964eae7233ad5ed77111eeb11"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Code",
+      "path": "RIGHTS.md",
+      "previous": {
+        "bytes": 1535,
+        "sha256": "bf3ed815017cd7decb07930aa33b3ca051243926f1d88a06fa8c499780f1d8b9"
+      },
+      "current": {
+        "bytes": 1057,
+        "sha256": "64083b2f05684d2be6205f1466ece101bde9944f36712067a98902366a5b72a3"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Code",
+      "path": "SOURCE_MAP.json",
+      "previous": {
+        "bytes": 40077,
+        "sha256": "d72b8bfa589aa4a238f7ae2b44079d13e514f83cd520d9e24f9879958760906f"
+      },
+      "current": {
+        "bytes": 46133,
+        "sha256": "0a14d40031c354a4521af1823d001ad738c0280f26abff6cf9fa5e772b9d608e"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Code",
+      "path": "SOURCE_SELECTION.json",
+      "previous": {
+        "bytes": 16968,
+        "sha256": "591df2cdd9df7296eaed022bb691cf34c6c1b8235a1a631247bb3197d4476a75"
+      },
+      "current": {
+        "bytes": 17579,
+        "sha256": "f392e1195b85ec976c96dc10a536b97751c0647fd7d52302266b64951ba154ce"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Code",
+      "path": "START_HERE.md",
+      "previous": {
+        "bytes": 1401,
+        "sha256": "5ad6c39eeb69371e8b382dd6ac6f24e47e5bd0904617c8116da8710a1f3b96aa"
+      },
+      "current": {
+        "bytes": 2784,
+        "sha256": "fd4b20f8bd09b087504651da1f862d6d346435e18feae8d882a40a5448c7760d"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Code",
+      "path": "tools/startup_check.py",
+      "previous": {
+        "bytes": 1950,
+        "sha256": "008f1a80c0cf6fd95f095c9356a30b6e3773a6e872ec47341f3522b8919bafc9"
+      },
+      "current": {
+        "bytes": 8936,
+        "sha256": "d02b5ecceb47e68af8a19e32b3a2ada9af11bb19ea08f71b38da92be4a8c5f14"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Code",
+      "path": "tools/verify_package.py",
+      "previous": {
+        "bytes": 1091,
+        "sha256": "3487bd39a23818779cfe7d59113f8539c62d61934e3674d6c9d7d22156c1e4fc"
+      },
+      "current": {
+        "bytes": 6066,
+        "sha256": "1cd61b0b93a1f0e679cad5bbc261ba6c6ca2636d6f965e77353f2efb3af6af3e"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Code",
+      "path": "VERIFY.md",
+      "previous": {
+        "bytes": 946,
+        "sha256": "3cad398a47ea43b112b5047c46bad99487ff15aa4972dd75ed0fa2983eb01584"
+      },
+      "current": {
+        "bytes": 1241,
+        "sha256": "cc49c690e4e01acd03b70a27ee46435a4a2b4fb53b39d91f958a3491f113ac0d"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Documentation",
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "previous": {
+        "bytes": 3278,
+        "sha256": "288e7a54a6900fc5029181357e08ca1a79b13c20ff254a664d82671179c3e345"
+      },
+      "current": {
+        "bytes": 3369,
+        "sha256": "f123d0c3501b7f7b9a91a1931d3da56d0c301dd4c8b76a5393af2b891f3a76a8"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Documentation",
+      "path": "LICENSE_ADOPTION.json",
+      "previous": {
+        "bytes": 1430,
+        "sha256": "33c0cef53ec7826ac78c27922cbdb55a59b4d03160c4fbb72725bba69f77266e"
+      },
+      "current": {
+        "bytes": 1462,
+        "sha256": "933953ee039613d8ebecab46de0d1f0fba7dadc26ae325f00c48fe6d32917145"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Documentation",
+      "path": "OVERVIEW.md",
+      "previous": {
+        "bytes": 2256,
+        "sha256": "cdf89d5734f869ec1d48cc7249c6476b5d48d6561312415243e23d4d87cb8238"
+      },
+      "current": {
+        "bytes": 14742,
+        "sha256": "5aaa4561fa9d99ce3ac49ded89e5d2d64fb4c28c60ba9f67dc37819b06f4c60a"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Documentation",
+      "path": "RELEASE_NOTES.md",
+      "previous": {
+        "bytes": 1131,
+        "sha256": "1a96d757f78a63bf1cd120ede80919769b3a69a8165bb09ceab3304f731d9c53"
+      },
+      "current": {
+        "bytes": 4359,
+        "sha256": "e7f09e714be2845a0e15e3e1db8d559e05dc9df2034b614418c2176412174e6c"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Documentation",
+      "path": "REPRODUCTION_BOUNDARIES.md",
+      "previous": {
+        "bytes": 1518,
+        "sha256": "94aabeaf6a077a2b494ea0fc4d861c7ce5263c3b274983dd674227fa353c3787"
+      },
+      "current": {
+        "bytes": 3848,
+        "sha256": "ec80fc92b0812a9f6bb346d602e2a3dd802d91ec915106784e3ec84c95d69653"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Documentation",
+      "path": "RIGHTS.md",
+      "previous": {
+        "bytes": 1535,
+        "sha256": "bf3ed815017cd7decb07930aa33b3ca051243926f1d88a06fa8c499780f1d8b9"
+      },
+      "current": {
+        "bytes": 1057,
+        "sha256": "64083b2f05684d2be6205f1466ece101bde9944f36712067a98902366a5b72a3"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Documentation",
+      "path": "SOURCE_MAP.json",
+      "previous": {
+        "bytes": 8600,
+        "sha256": "2d90b6be45f6517e7de323a4e59c88be966a661a8bf65b2c49335e6b7c310a10"
+      },
+      "current": {
+        "bytes": 12442,
+        "sha256": "2aa3d21d955eba62f7ae2d228f50060a0bdc1e5eae157fb78f78015fafb9587f"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Documentation",
+      "path": "START_HERE.md",
+      "previous": {
+        "bytes": 1416,
+        "sha256": "66daff02c10040e6cfcde066ac47dd14247fa4015ff4adee5d4fdcc0bd5abc90"
+      },
+      "current": {
+        "bytes": 2749,
+        "sha256": "bdffa646882bd987de33854402a0ff668bce604ad57066cb4ac3569ffd3a1f3f"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Documentation",
+      "path": "VERIFY.md",
+      "previous": {
+        "bytes": 964,
+        "sha256": "432b08f6f7823a9c17e9e16a2b1db4c63661e041d1f59f5eada01bdec344e6e8"
+      },
+      "current": {
+        "bytes": 1241,
+        "sha256": "cc49c690e4e01acd03b70a27ee46435a4a2b4fb53b39d91f958a3491f113ac0d"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Study",
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "previous": {
+        "bytes": 1641,
+        "sha256": "76ffe68a91d2636a5ecf24e2c867b34a50780ed5f0604a3c376fe8ce0705de15"
+      },
+      "current": {
+        "bytes": 1685,
+        "sha256": "3c6382f5c0e9a979c536040121a953d92c901861e612afca0999b091ead6facc"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Study",
+      "path": "LICENSE_ADOPTION.json",
+      "previous": {
+        "bytes": 1590,
+        "sha256": "702eebcf01ce8b261d86ac57d5436accde32dfdde1e4e757113a50231da3885b"
+      },
+      "current": {
+        "bytes": 1627,
+        "sha256": "98fc3604477dd605dbfbfae64d689e12e070d64de7cb93486b2c0b2dc49ccb80"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Study",
+      "path": "REPORT_LICENSE_SCOPE.json",
+      "previous": {
+        "bytes": 2625,
+        "sha256": "f60f6fe5f293b3fdf90e85051c8f81331b7c042ba0712d48833ffa3de5779162"
+      },
+      "current": {
+        "bytes": 2698,
+        "sha256": "c57979bab2a2e292be64f97e3cffd01db6fd45661df09320c8807ee872aacb72"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Study",
+      "path": "SOURCE_MAP.json",
+      "previous": {
+        "bytes": 7548,
+        "sha256": "15b65377a143e1d679fee444300df2b5bebb76a4f7ca722a48449832dd8424c4"
+      },
+      "current": {
+        "bytes": 9527,
+        "sha256": "13eefa522c29f2a42a1ddd414bf17d9aecfe2e5d7d714469750fd5affce999de"
+      }
+    },
+    {
+      "package": "QPathformer_v0.9_Study",
+      "path": "START_HERE.md",
+      "previous": {
+        "bytes": 1461,
+        "sha256": "e141389bc4a448ea448d36cc764f15824c87d5615eacfb52e8baf0080cda213a"
+      },
+      "current": {
+        "bytes": 2800,
+        "sha256": "b9f7552759f3c21c958a48730a4d54a12988819a12d7225aa5c8a78a4366aa7e"
+      }
+    }
+  ],
+  "scientific_python_files_unchanged": 55,
+  "study_assets_reused": false,
+  "adoption_decisions_unchanged": true,
+  "publication_authorized": false,
+  "checked_at_utc": "2026-10-30T05:49:36.084031+00:00"
+}

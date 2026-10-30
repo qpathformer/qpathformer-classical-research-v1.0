@@ -1,0 +1,137 @@
+{
+  "status": "STAGED",
+  "changed_files": [
+    {
+      "path": "QPathformer_v0.9_Code/RIGHTS.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\assembly\\QPathformer_v0.9_Code\\RIGHTS.md",
+        "bytes": 1535,
+        "sha256": "bf3ed815017cd7decb07930aa33b3ca051243926f1d88a06fa8c499780f1d8b9"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v09_r3_prose\\QPathformer_v0.9_Code\\RIGHTS.md",
+        "bytes": 1057,
+        "sha256": "64083b2f05684d2be6205f1466ece101bde9944f36712067a98902366a5b72a3"
+      }
+    },
+    {
+      "path": "QPathformer_v0.9_Code/START_HERE.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\assembly\\QPathformer_v0.9_Code\\START_HERE.md",
+        "bytes": 1401,
+        "sha256": "5ad6c39eeb69371e8b382dd6ac6f24e47e5bd0904617c8116da8710a1f3b96aa"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v09_r3_prose\\QPathformer_v0.9_Code\\START_HERE.md",
+        "bytes": 2784,
+        "sha256": "fd4b20f8bd09b087504651da1f862d6d346435e18feae8d882a40a5448c7760d"
+      }
+    },
+    {
+      "path": "QPathformer_v0.9_Code/VERIFY.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\assembly\\QPathformer_v0.9_Code\\VERIFY.md",
+        "bytes": 946,
+        "sha256": "3cad398a47ea43b112b5047c46bad99487ff15aa4972dd75ed0fa2983eb01584"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v09_r3_prose\\QPathformer_v0.9_Code\\VERIFY.md",
+        "bytes": 1241,
+        "sha256": "cc49c690e4e01acd03b70a27ee46435a4a2b4fb53b39d91f958a3491f113ac0d"
+      }
+    },
+    {
+      "path": "QPathformer_v0.9_Documentation/OVERVIEW.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\assembly\\QPathformer_v0.9_Documentation\\OVERVIEW.md",
+        "bytes": 2256,
+        "sha256": "cdf89d5734f869ec1d48cc7249c6476b5d48d6561312415243e23d4d87cb8238"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v09_r3_prose\\QPathformer_v0.9_Documentation\\OVERVIEW.md",
+        "bytes": 14742,
+        "sha256": "5aaa4561fa9d99ce3ac49ded89e5d2d64fb4c28c60ba9f67dc37819b06f4c60a"
+      }
+    },
+    {
+      "path": "QPathformer_v0.9_Documentation/RELEASE_NOTES.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\assembly\\QPathformer_v0.9_Documentation\\RELEASE_NOTES.md",
+        "bytes": 1131,
+        "sha256": "1a96d757f78a63bf1cd120ede80919769b3a69a8165bb09ceab3304f731d9c53"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v09_r3_prose\\QPathformer_v0.9_Documentation\\RELEASE_NOTES.md",
+        "bytes": 4359,
+        "sha256": "e7f09e714be2845a0e15e3e1db8d559e05dc9df2034b614418c2176412174e6c"
+      }
+    },
+    {
+      "path": "QPathformer_v0.9_Documentation/REPRODUCTION_BOUNDARIES.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\assembly\\QPathformer_v0.9_Documentation\\REPRODUCTION_BOUNDARIES.md",
+        "bytes": 1518,
+        "sha256": "94aabeaf6a077a2b494ea0fc4d861c7ce5263c3b274983dd674227fa353c3787"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v09_r3_prose\\QPathformer_v0.9_Documentation\\REPRODUCTION_BOUNDARIES.md",
+        "bytes": 3848,
+        "sha256": "ec80fc92b0812a9f6bb346d602e2a3dd802d91ec915106784e3ec84c95d69653"
+      }
+    },
+    {
+      "path": "QPathformer_v0.9_Documentation/RIGHTS.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\assembly\\QPathformer_v0.9_Documentation\\RIGHTS.md",
+        "bytes": 1535,
+        "sha256": "bf3ed815017cd7decb07930aa33b3ca051243926f1d88a06fa8c499780f1d8b9"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v09_r3_prose\\QPathformer_v0.9_Documentation\\RIGHTS.md",
+        "bytes": 1057,
+        "sha256": "64083b2f05684d2be6205f1466ece101bde9944f36712067a98902366a5b72a3"
+      }
+    },
+    {
+      "path": "QPathformer_v0.9_Documentation/START_HERE.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\assembly\\QPathformer_v0.9_Documentation\\START_HERE.md",
+        "bytes": 1416,
+        "sha256": "66daff02c10040e6cfcde066ac47dd14247fa4015ff4adee5d4fdcc0bd5abc90"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v09_r3_prose\\QPathformer_v0.9_Documentation\\START_HERE.md",
+        "bytes": 2749,
+        "sha256": "bdffa646882bd987de33854402a0ff668bce604ad57066cb4ac3569ffd3a1f3f"
+      }
+    },
+    {
+      "path": "QPathformer_v0.9_Documentation/VERIFY.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\assembly\\QPathformer_v0.9_Documentation\\VERIFY.md",
+        "bytes": 964,
+        "sha256": "432b08f6f7823a9c17e9e16a2b1db4c63661e041d1f59f5eada01bdec344e6e8"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v09_r3_prose\\QPathformer_v0.9_Documentation\\VERIFY.md",
+        "bytes": 1241,
+        "sha256": "cc49c690e4e01acd03b70a27ee46435a4a2b4fb53b39d91f958a3491f113ac0d"
+      }
+    },
+    {
+      "path": "QPathformer_v0.9_Study/START_HERE.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\assembly\\QPathformer_v0.9_Study\\START_HERE.md",
+        "bytes": 1461,
+        "sha256": "e141389bc4a448ea448d36cc764f15824c87d5615eacfb52e8baf0080cda213a"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v09_r3_prose\\QPathformer_v0.9_Study\\START_HERE.md",
+        "bytes": 2800,
+        "sha256": "b9f7552759f3c21c958a48730a4d54a12988819a12d7225aa5c8a78a4366aa7e"
+      }
+    }
+  ],
+  "study_assets_reused": false,
+  "report_bytes_unchanged": true
+}

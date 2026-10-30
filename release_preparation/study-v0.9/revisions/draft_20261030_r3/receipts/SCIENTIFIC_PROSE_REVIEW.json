@@ -1,0 +1,360 @@
+{
+  "status": "PASS_RETAINED_PRIMARY_RECORD_CROSSCHECK",
+  "created_at_utc": "2026-10-30T05:48:18.610502+00:00",
+  "evidence": [
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\governance\\ANALYSIS_PROTOCOL.json",
+      "bytes": 4483,
+      "sha256": "0fc572d743a9266c8c9f928032e1b234d8c70d50f94b2151bd846ef0b25b76e8"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\official_evaluation_v01\\STATISTICAL_ANALYSIS.json",
+      "bytes": 1557532,
+      "sha256": "a1bad61ae9987ac11b95972931f386784cf0ca03321227f0abc9159045c93049"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\governance\\RUN_MATRIX.json",
+      "bytes": 1234945,
+      "sha256": "10a8816ab2a351aca2c4f4836291b8cc2d77f47454df1edc49858c1af9b60d5e"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\conversion_v01\\CONVERSION_SUMMARY.json",
+      "bytes": 642525,
+      "sha256": "7803004335b520c9354aa32703068b6636077c30b89b818e02e42cdfc8d33225"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_conversion_v02\\INDEPENDENT_DERIVED_REPLAY.json",
+      "bytes": 307159,
+      "sha256": "efbe99f516d9fd11c4a92377f916c5649a35515d69988a097ae75fe71d2a9206"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\reproduction_v01\\REPRODUCTION_SUMMARY.json",
+      "bytes": 19525,
+      "sha256": "eb4cb1fc831d0690924861076b9caab184e1ebc3dd730ee371eef876c68ff815"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_derived_recovery03\\README_RECOVERY.txt",
+      "bytes": 2361,
+      "sha256": "177edb895974ed1e4e96f2b57f8c6cb20075444f6ade710975a5398160fd82c7"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_derived_recovery04\\README_RECOVERY04.txt",
+      "bytes": 2445,
+      "sha256": "23902197ddc4a7eefdec3f0fc49e24616f059e61814f61eb12db7bbb4f29176e"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit_recovery03\\SEMANTIC_DIFF.patch",
+      "bytes": 6243,
+      "sha256": "bf9cb4a390a05f64a293ad11bb9625eb662289ee0d4d0a9ce4a2f6e38fb1eac1"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\models.py",
+      "bytes": 13910,
+      "sha256": "bc0c5658474b4c3bf57f87627fc1a7dea33125d5f32910c6507f206b598f86a6"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\study.py",
+      "bytes": 20824,
+      "sha256": "92c25d1501fd4b1413729a7a705eb2ee55ca94d14f0b01dd35db31d301b006f7"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\quantum\\prepare_data.py",
+      "bytes": 37450,
+      "sha256": "096dcd6c4550280dc8fe7bcefda5032b3c931292a4af406ce40a797c8981380a"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\execution\\VENDOR_PROVENANCE.json",
+      "bytes": 879,
+      "sha256": "7c60ddbf244d0e9a5ad3c9b12eaeed594081072d5f768185a3409be5c674c44e"
+    },
+    {
+      "path": "C:\\Q2\\Improvement_Study_v0.9\\evidence\\analysis\\independent_audit\\replay_analysis_v09.py",
+      "bytes": 25674,
+      "sha256": "1994c2f9f229b82cbdc6b9ba0c650ad166af8183e5dc416014fddd568bc247a7"
+    }
+  ],
+  "primary_contrasts": [
+    {
+      "family": "checkerboard",
+      "first": "C_L",
+      "second": "C_S",
+      "mean_difference": -0.018134907124480765,
+      "interval": [
+        -0.04199003207154077,
+        0.005720217822579237
+      ]
+    },
+    {
+      "family": "checkerboard",
+      "first": "C_L",
+      "second": "C_R",
+      "mean_difference": -0.003597194300223025,
+      "interval": [
+        -0.024373472080226073,
+        0.017179083479780023
+      ]
+    },
+    {
+      "family": "checkerboard",
+      "first": "C_L",
+      "second": "G121",
+      "mean_difference": 0.4673451295788953,
+      "interval": [
+        0.43603634827489646,
+        0.4986539108828941
+      ]
+    },
+    {
+      "family": "spiral",
+      "first": "C_L",
+      "second": "C_S",
+      "mean_difference": -0.042174047047347105,
+      "interval": [
+        -0.05763030545681597,
+        -0.026717788637878243
+      ]
+    },
+    {
+      "family": "spiral",
+      "first": "C_L",
+      "second": "C_R",
+      "mean_difference": -0.02436166741646905,
+      "interval": [
+        -0.04737854044808157,
+        -0.001344794384856532
+      ]
+    },
+    {
+      "family": "spiral",
+      "first": "C_L",
+      "second": "G121",
+      "mean_difference": 0.2528282457799892,
+      "interval": [
+        0.22637828376690627,
+        0.2792782077930721
+      ]
+    },
+    {
+      "family": "annulus",
+      "first": "C_L",
+      "second": "C_S",
+      "mean_difference": -0.003497749995136759,
+      "interval": [
+        -0.012288519948375015,
+        0.005293019958101497
+      ]
+    },
+    {
+      "family": "annulus",
+      "first": "C_L",
+      "second": "C_R",
+      "mean_difference": 0.0012285095623376131,
+      "interval": [
+        -0.005458084051321846,
+        0.007915103175997073
+      ]
+    },
+    {
+      "family": "annulus",
+      "first": "C_L",
+      "second": "G121",
+      "mean_difference": -0.022298052251825677,
+      "interval": [
+        -0.03147587520351562,
+        -0.01312022930013573
+      ]
+    },
+    {
+      "family": "disks",
+      "first": "C_L",
+      "second": "C_S",
+      "mean_difference": -0.02245249922828403,
+      "interval": [
+        -0.03017510574904857,
+        -0.014729892707519492
+      ]
+    },
+    {
+      "family": "disks",
+      "first": "C_L",
+      "second": "C_R",
+      "mean_difference": -0.009705856667224691,
+      "interval": [
+        -0.013059138482731217,
+        -0.0063525748517181645
+      ]
+    },
+    {
+      "family": "disks",
+      "first": "C_L",
+      "second": "G121",
+      "mean_difference": 0.0072453171940261695,
+      "interval": [
+        0.004393263112229649,
+        0.01009737127582269
+      ]
+    }
+  ],
+  "primary_directions": {
+    "inconclusive": 4,
+    "unfavorable": 3,
+    "favorable": 5
+  },
+  "omitted_replay_prerequisites": [
+    "analysis/independent_audit_recovery03/",
+    "analysis/independent_derived_recovery03/",
+    "analysis/independent_derived_recovery04/",
+    "governance/DEPLOYMENT_PROTOCOL.json",
+    "governance/REPRODUCTION_PROTOCOL.json",
+    "analysis/reproduction/tests/test_reproduction.py"
+  ],
+  "banknote": {
+    "bce": 0.01649230496628003,
+    "macro_f1": 0.9911549894414031,
+    "optimizer_seeds": 5,
+    "fixed_splits": 1
+  },
+  "dataset_source": {
+    "url": "https://archive.ics.uci.edu/dataset/267/banknote+authentication",
+    "checked_on": "2026-10-30",
+    "instances": 1372,
+    "features": 4,
+    "upstream_license": "CC BY 4.0",
+    "creator": "Volker Lohweg",
+    "doi": "10.24432/C55P57"
+  },
+  "changed_files": [
+    {
+      "path": "QPathformer_v0.9_Code/RIGHTS.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\assembly\\QPathformer_v0.9_Code\\RIGHTS.md",
+        "bytes": 1535,
+        "sha256": "bf3ed815017cd7decb07930aa33b3ca051243926f1d88a06fa8c499780f1d8b9"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v09_r3_prose\\QPathformer_v0.9_Code\\RIGHTS.md",
+        "bytes": 1057,
+        "sha256": "64083b2f05684d2be6205f1466ece101bde9944f36712067a98902366a5b72a3"
+      }
+    },
+    {
+      "path": "QPathformer_v0.9_Code/START_HERE.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\assembly\\QPathformer_v0.9_Code\\START_HERE.md",
+        "bytes": 1401,
+        "sha256": "5ad6c39eeb69371e8b382dd6ac6f24e47e5bd0904617c8116da8710a1f3b96aa"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v09_r3_prose\\QPathformer_v0.9_Code\\START_HERE.md",
+        "bytes": 2784,
+        "sha256": "fd4b20f8bd09b087504651da1f862d6d346435e18feae8d882a40a5448c7760d"
+      }
+    },
+    {
+      "path": "QPathformer_v0.9_Code/VERIFY.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\assembly\\QPathformer_v0.9_Code\\VERIFY.md",
+        "bytes": 946,
+        "sha256": "3cad398a47ea43b112b5047c46bad99487ff15aa4972dd75ed0fa2983eb01584"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v09_r3_prose\\QPathformer_v0.9_Code\\VERIFY.md",
+        "bytes": 1241,
+        "sha256": "cc49c690e4e01acd03b70a27ee46435a4a2b4fb53b39d91f958a3491f113ac0d"
+      }
+    },
+    {
+      "path": "QPathformer_v0.9_Documentation/OVERVIEW.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\assembly\\QPathformer_v0.9_Documentation\\OVERVIEW.md",
+        "bytes": 2256,
+        "sha256": "cdf89d5734f869ec1d48cc7249c6476b5d48d6561312415243e23d4d87cb8238"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v09_r3_prose\\QPathformer_v0.9_Documentation\\OVERVIEW.md",
+        "bytes": 14742,
+        "sha256": "5aaa4561fa9d99ce3ac49ded89e5d2d64fb4c28c60ba9f67dc37819b06f4c60a"
+      }
+    },
+    {
+      "path": "QPathformer_v0.9_Documentation/RELEASE_NOTES.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\assembly\\QPathformer_v0.9_Documentation\\RELEASE_NOTES.md",
+        "bytes": 1131,
+        "sha256": "1a96d757f78a63bf1cd120ede80919769b3a69a8165bb09ceab3304f731d9c53"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v09_r3_prose\\QPathformer_v0.9_Documentation\\RELEASE_NOTES.md",
+        "bytes": 4359,
+        "sha256": "e7f09e714be2845a0e15e3e1db8d559e05dc9df2034b614418c2176412174e6c"
+      }
+    },
+    {
+      "path": "QPathformer_v0.9_Documentation/REPRODUCTION_BOUNDARIES.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\assembly\\QPathformer_v0.9_Documentation\\REPRODUCTION_BOUNDARIES.md",
+        "bytes": 1518,
+        "sha256": "94aabeaf6a077a2b494ea0fc4d861c7ce5263c3b274983dd674227fa353c3787"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v09_r3_prose\\QPathformer_v0.9_Documentation\\REPRODUCTION_BOUNDARIES.md",
+        "bytes": 3848,
+        "sha256": "ec80fc92b0812a9f6bb346d602e2a3dd802d91ec915106784e3ec84c95d69653"
+      }
+    },
+    {
+      "path": "QPathformer_v0.9_Documentation/RIGHTS.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\assembly\\QPathformer_v0.9_Documentation\\RIGHTS.md",
+        "bytes": 1535,
+        "sha256": "bf3ed815017cd7decb07930aa33b3ca051243926f1d88a06fa8c499780f1d8b9"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v09_r3_prose\\QPathformer_v0.9_Documentation\\RIGHTS.md",
+        "bytes": 1057,
+        "sha256": "64083b2f05684d2be6205f1466ece101bde9944f36712067a98902366a5b72a3"
+      }
+    },
+    {
+      "path": "QPathformer_v0.9_Documentation/START_HERE.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\assembly\\QPathformer_v0.9_Documentation\\START_HERE.md",
+        "bytes": 1416,
+        "sha256": "66daff02c10040e6cfcde066ac47dd14247fa4015ff4adee5d4fdcc0bd5abc90"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v09_r3_prose\\QPathformer_v0.9_Documentation\\START_HERE.md",
+        "bytes": 2749,
+        "sha256": "bdffa646882bd987de33854402a0ff668bce604ad57066cb4ac3569ffd3a1f3f"
+      }
+    },
+    {
+      "path": "QPathformer_v0.9_Documentation/VERIFY.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\assembly\\QPathformer_v0.9_Documentation\\VERIFY.md",
+        "bytes": 964,
+        "sha256": "432b08f6f7823a9c17e9e16a2b1db4c63661e041d1f59f5eada01bdec344e6e8"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v09_r3_prose\\QPathformer_v0.9_Documentation\\VERIFY.md",
+        "bytes": 1241,
+        "sha256": "cc49c690e4e01acd03b70a27ee46435a4a2b4fb53b39d91f958a3491f113ac0d"
+      }
+    },
+    {
+      "path": "QPathformer_v0.9_Study/START_HERE.md",
+      "previous": {
+        "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\assembly\\QPathformer_v0.9_Study\\START_HERE.md",
+        "bytes": 1461,
+        "sha256": "e141389bc4a448ea448d36cc764f15824c87d5615eacfb52e8baf0080cda213a"
+      },
+      "current": {
+        "path": "C:\\Anthony Siljeg\\draft_releases_20261029\\v09_r3_prose\\QPathformer_v0.9_Study\\START_HERE.md",
+        "bytes": 2800,
+        "sha256": "b9f7552759f3c21c958a48730a4d54a12988819a12d7225aa5c8a78a4366aa7e"
+      }
+    }
+  ],
+  "reviewer": "Preparing agent; retained-source and selection checks, not a second reviewer or full replay",
+  "no_experiments_run": true
+}

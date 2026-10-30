@@ -1,0 +1,82 @@
+{
+  "schema": "qpath-package-manifest-1",
+  "package": "QPathformer_v0.9_Study",
+  "study_version": "v0.9",
+  "files": [
+    {
+      "path": "GUIDANCE_LICENSE_SCOPE.json",
+      "bytes": 1685,
+      "sha256": "3c6382f5c0e9a979c536040121a953d92c901861e612afca0999b091ead6facc"
+    },
+    {
+      "path": "LICENSE_ADOPTION.json",
+      "bytes": 1627,
+      "sha256": "98fc3604477dd605dbfbfae64d689e12e070d64de7cb93486b2c0b2dc49ccb80"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 18615,
+      "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+    },
+    {
+      "path": "LICENSES/QPATHFORMER-PLATFORM-1.0.txt",
+      "bytes": 1461,
+      "sha256": "efa2911bfa72c36bd471bdf8d047c4a54cebf19e0a0f835184c348ef0e772057"
+    },
+    {
+      "path": "provenance/EDITION_CHANGES.json",
+      "bytes": 5152,
+      "sha256": "eb2ed807f04f1c07fd5e64d9368bfa693655439412cf7b78011ec1c1c7c2e594"
+    },
+    {
+      "path": "provenance/EDITION_CHANGES.md",
+      "bytes": 643,
+      "sha256": "2ee5a86b70f5db8528c3c6319f28e8b40bc9b847ab09a41d8662106b63a56d47"
+    },
+    {
+      "path": "provenance/RENDER.json",
+      "bytes": 5494,
+      "sha256": "c195285a5004ca67994cf00fb86455a91252af901d0d3f2f6bf576e9372577c1"
+    },
+    {
+      "path": "provenance/VISUAL_REVIEW.json",
+      "bytes": 12910,
+      "sha256": "974a7cc02d83525d039d29e90dba598cbb49908685984edadf750c9205a90f16"
+    },
+    {
+      "path": "REPORT_LICENSE_SCOPE.json",
+      "bytes": 2698,
+      "sha256": "c57979bab2a2e292be64f97e3cffd01db6fd45661df09320c8807ee872aacb72"
+    },
+    {
+      "path": "reports/QPathformer_v0.9_Report_Edition_1.docx",
+      "bytes": 1114685,
+      "sha256": "6dd007d63937e67518b1fe312cdeb5b28596d06689f03c992be087a18d862244"
+    },
+    {
+      "path": "reports/QPathformer_v0.9_Report_Edition_1.pdf",
+      "bytes": 2177249,
+      "sha256": "13098d61dd1737f5f8646a3e56f8f85789aaabf909b954c0fc75db9ca2cd38ec"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 1535,
+      "sha256": "bf3ed815017cd7decb07930aa33b3ca051243926f1d88a06fa8c499780f1d8b9"
+    },
+    {
+      "path": "SOURCE_MAP.json",
+      "bytes": 9527,
+      "sha256": "13eefa522c29f2a42a1ddd414bf17d9aecfe2e5d7d714469750fd5affce999de"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 2800,
+      "sha256": "b9f7552759f3c21c958a48730a4d54a12988819a12d7225aa5c8a78a4366aa7e"
+    },
+    {
+      "path": "VERIFY.md",
+      "bytes": 948,
+      "sha256": "94285d067635c1c19c5ed549dfcba3bf5c15a81e312722e87f3555e79bb574df"
+    }
+  ]
+}

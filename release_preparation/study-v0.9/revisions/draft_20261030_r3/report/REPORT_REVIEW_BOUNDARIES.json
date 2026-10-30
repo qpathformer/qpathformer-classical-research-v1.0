@@ -1,0 +1,59 @@
+{
+  "status": "PASS_V09_REPORT_PRESERVATION",
+  "checked_at_utc": "2026-10-30T05:49:09.392325+00:00",
+  "study_version": "v0.9",
+  "report_pdf": {
+    "bytes": 2177249,
+    "sha256": "13098d61dd1737f5f8646a3e56f8f85789aaabf909b954c0fc75db9ca2cd38ec"
+  },
+  "report_docx": {
+    "bytes": 1114685,
+    "sha256": "6dd007d63937e67518b1fe312cdeb5b28596d06689f03c992be087a18d862244"
+  },
+  "original_report": {
+    "path": "C:\\Q2\\Improvement_Study_v0.9\\docs\\QPATH_RPT010_v0.9_Internal_Study_Report.docx",
+    "bytes": 1113738,
+    "sha256": "6f35101e9d3fda4581c2ef7102d0b330c89cd3bacc1771cf0c0e21b5db556ad8"
+  },
+  "supplied_review": {
+    "path": "C:\\Anthony Siljeg\\CPU-QPU git repo prep\\v6 final staging\\study-v0.9_release_review_and_codex_notes.md",
+    "bytes": 39590,
+    "sha256": "b9a151d1c179c1cb9718399799f8ac71283c3c3b2785c17f39d8a19267b56c3a"
+  },
+  "historical_visual_receipt": {
+    "path": "C:\\Q2\\Release_Preparation\\QPathformer_Classical_Research\\study-v0.9\\draft_20261029_r2\\assembly\\QPathformer_v0.9_Study\\provenance\\VISUAL_REVIEW.json",
+    "bytes": 12910,
+    "sha256": "974a7cc02d83525d039d29e90dba598cbb49908685984edadf750c9205a90f16"
+  },
+  "report_pages": 40,
+  "disclosure_context": "The historical page-37 account/credit/token disclosure applies to v0.9. PDF text confirms the context; operational usage is retained with its historical cutoff and qualifications. It is not a current-price claim or a billed study-specific price.",
+  "cross_study_correction_applied": false,
+  "redactions_applied": false,
+  "report_reexported": false,
+  "alternate_render": {
+    "source": "Owner-supplied review notes",
+    "reported_result": "LibreOfficeDev 26.8.0.0.alpha0 produced 40 pages with corresponding whitespace-normalized text; no v0.8-style missing-row finding.",
+    "new_alternate_export_performed": false,
+    "universal_rendering_equivalence_claimed": false
+  },
+  "new_review_scope": "Exact reviewed PDF/DOCX identity, page count and bounded text-context confirmation. Separate package audit verifies original XML-prefix, tables and embedded images. No new page-render/all-page visual review, operational account analysis or scientific run.",
+  "historical_receipt_and_report_files_unchanged": true,
+  "study_wrapper_change": "Current introduction names comparison controls and qualifies Banknote inputs and accepted replay prerequisites. Final package bindings added after sealing.",
+  "previous_study_zip": {
+    "bytes": 2638081,
+    "sha256": "db5e22d077abb129f2f6ae05b4475040f9115aba3e6ecdd2e68843e115109c7f"
+  },
+  "previous_study_seal": {
+    "bytes": 1294,
+    "sha256": "f5a40f8cf9584b48324627a7f31a652f621e76b6b7a8d5ec39c3ee65a886ec19"
+  },
+  "study_zip": {
+    "bytes": 2639001,
+    "sha256": "85abea6cd7660752ea83dc861d15698dc4dc6a447e25485bc2b79bc3545bbee3"
+  },
+  "study_seal": {
+    "bytes": 1325,
+    "sha256": "234e5dbe8c2a9af9e6aaf88f9aa8aefdb33dad8e6e757e3dbbcf0b1ca0b43a71"
+  },
+  "study_assets_unchanged": false
+}

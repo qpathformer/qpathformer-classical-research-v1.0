@@ -1,0 +1,235 @@
+{
+  "analysis": {
+    "independent_unit": "eightpopulationmeans/task,two pairedseedsnested",
+    "primary_family": 12,
+    "test_release": "all636Bendpointscommittedandauditedbeforeanymodeltestoutcomes"
+  },
+  "arms": [
+    {
+      "family": "circuit",
+      "id": "C_H",
+      "predictor_parameters": 70,
+      "routing": "hard_geometric",
+      "sampling_policy": "uniform"
+    },
+    {
+      "family": "circuit",
+      "id": "C_S",
+      "predictor_parameters": 70,
+      "routing": "fixed_soft",
+      "sampling_policy": "uniform"
+    },
+    {
+      "family": "circuit",
+      "id": "C_L",
+      "predictor_parameters": 82,
+      "routing": "learned_soft",
+      "sampling_policy": "uniform"
+    },
+    {
+      "family": "circuit",
+      "id": "C_R",
+      "predictor_parameters": 82,
+      "routing": "fixed_soft_plus_residual",
+      "sampling_policy": "uniform"
+    },
+    {
+      "family": "classical",
+      "id": "T_H",
+      "predictor_parameters": 125,
+      "routing": "hard_geometric",
+      "sampling_policy": "uniform"
+    },
+    {
+      "family": "classical",
+      "id": "T_S",
+      "predictor_parameters": 125,
+      "routing": "fixed_soft",
+      "sampling_policy": "uniform"
+    },
+    {
+      "family": "classical",
+      "id": "T_L",
+      "predictor_parameters": 137,
+      "routing": "learned_soft",
+      "sampling_policy": "uniform"
+    },
+    {
+      "family": "classical",
+      "id": "T_R",
+      "predictor_parameters": 137,
+      "routing": "fixed_soft_plus_residual",
+      "sampling_policy": "uniform"
+    },
+    {
+      "family": "classical",
+      "id": "G121",
+      "predictor_parameters": 121,
+      "routing": "global",
+      "sampling_policy": "uniform"
+    },
+    {
+      "family": "classical",
+      "id": "MLP2",
+      "predictor_parameters": 65,
+      "routing": "global",
+      "sampling_policy": "uniform"
+    },
+    {
+      "family": "classical",
+      "id": "MLP4",
+      "predictor_parameters": 97,
+      "routing": "global",
+      "sampling_policy": "uniform"
+    },
+    {
+      "family": "classical",
+      "id": "LR2",
+      "predictor_parameters": 3,
+      "routing": "global",
+      "sampling_policy": "uniform"
+    }
+  ],
+  "created_utc": "2026-10-22T08:20:11.988615+00:00",
+  "data": {
+    "freshness": "Exact canonical float64 coordinate exclusion against all availablev0.1-v0.8 inputs plus new synthetic populations; separate raw4feature Banknote historical-presence scan.",
+    "latent": "clean_y/flip data in separate sealed diagnostic files; no training/selection access",
+    "population_sizes": {
+      "records": 8000,
+      "test": 1600,
+      "train": 4800,
+      "validation": 1600
+    },
+    "real": "UCI Banknote DOI10.24432/C55P57,CC BY4.0; one feature-grouped class-stratified approx60/20/20 split; exact algorithm recorded DATA_REGISTRATION before generation.",
+    "synthetic": "Unchanged v0.6 four task formulas; uniform[-1,1]^2; annulus independent observed-label Bernoulli0.10 flips. Natural prevalence, largest-remainder observed-label stratified4800/1600/1600."
+  },
+  "execution_layer": {
+    "core": "unchangedETEL0.2.0; versionedv09adapteronly",
+    "deadline_per_fit_seconds": 7200,
+    "max_workers": 5,
+    "name": "Q-Path Multiplier (ETEL)",
+    "recovery": "reviewedhashboundsamerecipefreshattempt;completedfitsverifiedskipped;neverduplicatealivefit",
+    "resource_ceiling": {
+      "blas_threads_per_worker": 1,
+      "max_parallel": 5,
+      "max_workers": 5
+    }
+  },
+  "matrix_summary": {
+    "all_fits_including_reproduction": 760,
+    "all_training_runs_including_short": 756,
+    "all_updates_including_engineering_and_reproduction": 10752000,
+    "confirmation_circuit_endpoints": 276,
+    "confirmation_full_endpoints": 636,
+    "confirmation_real": 60,
+    "confirmation_synthetic": 576,
+    "development_full_endpoints": 72,
+    "engineering_short_runs": 48,
+    "families": [
+      "checkerboard",
+      "spiral",
+      "annulus",
+      "disks"
+    ],
+    "full_fits_including_reproduction": 712,
+    "independent_reproduction_fits": 4,
+    "real_arm_count": 12,
+    "real_records": 1372,
+    "synthetic_arm_count": 9,
+    "synthetic_records": 320000,
+    "total_new_synthetic_populations": 40
+  },
+  "preservation": "Read-onlyv0.8andBaseline8; before/afterallpayloadhashes; no priorstudy mutation",
+  "resource_projection": {
+    "credit_budget": 30000,
+    "estimate_status": "provisional;reestimateafterengineering;implementationadditional",
+    "hours_after_qualification": [
+      24,
+      48
+    ],
+    "usage_policy": "root-ownedgovernance/CREDIT_BUDGET_POLICY.json"
+  },
+  "routing": {
+    "banks": 5,
+    "fixed_soft": "softmax(-squared_distances/tau)",
+    "kmeans_max_iter": 500,
+    "kmeans_restarts": 20,
+    "learned_soft": "four affine corrections in[x0,x1,1] to geometric scores; fifth zero;12parameters",
+    "order": "lexicographic centroid x0 then x1; argmin tie lowest index",
+    "probability_mixture": "sum_j q_j sigmoid(z_j),stable logs",
+    "residual": "sigmoid(logit(p_fixed_soft)+12monomials totaldegrees2..4 dot alpha),train-onlyscale=max(1,maxabs(column))",
+    "temperature": "max(.001,median_train(second-nearest squared distance minus nearest squared distance))",
+    "warmup": "L/R new parameterszero/frozenfirst750updates; S/L/R identicalexperts and predictions untilactivation"
+  },
+  "runtime": {
+    "blas_threads": 1,
+    "device": "CPU",
+    "numpy": "2.5.4",
+    "precision": "float64",
+    "python": "3.12.14",
+    "scientific_python": "C:\\Q2\\Implementation_v0.1\\.venv\\Scripts\\python.exe",
+    "scipy": "1.18.1"
+  },
+  "scope": "Classical routing mechanism confirmation, five banks of two-qubit emulation or freely learned trigonometric experts plus global baseline and secondary Banknote check.",
+  "selected_plan": "B",
+  "source_evidence": {
+    "approved_proposal": {
+      "bytes": 48712,
+      "path": "C:\\Anthony Siljeg\\Q2_improvement_study_v09\\governance\\approved_proposal\\PLAN_B_CONTENT.json",
+      "sha256": "e382122c9534e2991e21f4f707e90fafa820ce7238ebda6e31ce44b73b455054"
+    }
+  },
+  "status": "USER_SELECTED_PLAN_B_IMPLEMENTATION_BEFORE_STAGE_RELEASE",
+  "study_id": "QPATH-LEARNED-ROUTING-v0.9-PLAN-B",
+  "training": {
+    "batch_size": 64,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "class_rule": "p>=.5",
+    "confirmation": {
+      "banknote_seed_ids": [
+        1901,
+        1902,
+        1903,
+        1904,
+        1905
+      ],
+      "rounds": 200,
+      "seed_ids": [
+        1801,
+        1802
+      ],
+      "updates": 15000
+    },
+    "development": {
+      "rounds": 200,
+      "seed_ids": [
+        1701,
+        1702
+      ],
+      "updates": 15000
+    },
+    "dtype": "float64",
+    "engineering": {
+      "rounds": 20,
+      "seed_ids": [
+        1700
+      ],
+      "updates": 1500
+    },
+    "epsilon": 1e-08,
+    "expert_Adam_state": "retainedthroughactivation",
+    "expert_lr": 0.01,
+    "native_objective": "Stable Bernoulli mixture likelihood or native logit BCE. LR2 adds0.001/2 squared weightnorm excludingintercept.",
+    "new_coefficients_activation_update": 751,
+    "new_coefficients_local_step_on_activation": 1,
+    "new_coefficients_lr": 0.001,
+    "regularization": "none except declared LR2 L2penalty; no decay/clipping/gatebalance/HPO",
+    "sampling": "uniform_with_replacement",
+    "selection": "earlieststrictminimum commonclippedvalidationBCE[1e-7,1-1e-7]; fullbudget alwayscompleted",
+    "updates_per_round": 75
+  },
+  "user_authorization": "Run v0.9 Plan B to completion in C:/Q2 with recovery and usage checks between stages; ETEL stable; v0.8 unchanged; real quantum for v1.1; internal Word report; 30000 credit budget with safe resume."
+}

@@ -1,0 +1,162 @@
+{
+  "alpha_family": 0.05,
+  "average_precision": "groupidenticalprobabilityties,stepwise area sum recallincrement*precision;undefinedwhenno positives reportednull",
+  "bce_clip": [
+    1e-07,
+    0.9999999
+  ],
+  "calibration": "rawprobabilities;noposthocfit;ECE10fixed[0,.1,..1],rightbinonboundaryexcept1last",
+  "checkpoint_scope": "earlieststrictminimumfullvalidationcommonBCE,allfullbudgets",
+  "confirmation_count": 636,
+  "family_size": 12,
+  "independent_replay": [
+    "checkpointprediction",
+    "eachmetric",
+    "pairedpopulationdifferences",
+    "primaryintervals"
+  ],
+  "independent_unit": "Mean of two paired seed differences within each of eight independent synthetic populations per family",
+  "interpretation": "upperCI<0favoursfirst;upperCI<-.01exceedspracticalreference;crossing0notproofequivalence",
+  "macro_f1": "meanF1overbothregisteredclasses0and1;zero_denominator0",
+  "mechanism_diagnostics": [
+    "averagebankweights",
+    "argmaxoccupancy",
+    "entropy",
+    "exp(entropy)",
+    "classconditionalexposureandloss",
+    "fixedgeometrymarginbinswithcounts",
+    "postfitlearnedargmaxgate diagnostic",
+    "annuluscleanlabelsandflipflag postreleaseonly",
+    "disksminorityconfusion",
+    "validationfirst90/95/97F1andnevercounts"
+  ],
+  "no_pooling": "eachfamilyseparate;nosingleheadlineaverageoverfamilies",
+  "nominal_per_contrast_confidence": 0.9958333333333333,
+  "populations_per_family": 8,
+  "practical_reference_bce": 0.01,
+  "primary_contrasts": [
+    {
+      "difference": "first_minus_second",
+      "family": "checkerboard",
+      "first": "C_L",
+      "metric": "bce",
+      "second": "C_S"
+    },
+    {
+      "difference": "first_minus_second",
+      "family": "checkerboard",
+      "first": "C_L",
+      "metric": "bce",
+      "second": "C_R"
+    },
+    {
+      "difference": "first_minus_second",
+      "family": "checkerboard",
+      "first": "C_L",
+      "metric": "bce",
+      "second": "G121"
+    },
+    {
+      "difference": "first_minus_second",
+      "family": "spiral",
+      "first": "C_L",
+      "metric": "bce",
+      "second": "C_S"
+    },
+    {
+      "difference": "first_minus_second",
+      "family": "spiral",
+      "first": "C_L",
+      "metric": "bce",
+      "second": "C_R"
+    },
+    {
+      "difference": "first_minus_second",
+      "family": "spiral",
+      "first": "C_L",
+      "metric": "bce",
+      "second": "G121"
+    },
+    {
+      "difference": "first_minus_second",
+      "family": "annulus",
+      "first": "C_L",
+      "metric": "bce",
+      "second": "C_S"
+    },
+    {
+      "difference": "first_minus_second",
+      "family": "annulus",
+      "first": "C_L",
+      "metric": "bce",
+      "second": "C_R"
+    },
+    {
+      "difference": "first_minus_second",
+      "family": "annulus",
+      "first": "C_L",
+      "metric": "bce",
+      "second": "G121"
+    },
+    {
+      "difference": "first_minus_second",
+      "family": "disks",
+      "first": "C_L",
+      "metric": "bce",
+      "second": "C_S"
+    },
+    {
+      "difference": "first_minus_second",
+      "family": "disks",
+      "first": "C_L",
+      "metric": "bce",
+      "second": "C_R"
+    },
+    {
+      "difference": "first_minus_second",
+      "family": "disks",
+      "first": "C_L",
+      "metric": "bce",
+      "second": "G121"
+    }
+  ],
+  "primary_interval": {
+    "critical_quantile": 0.9979166666666667,
+    "df": 7,
+    "method": "Student_t_two_sided_Bonferroni",
+    "rounding": "compute fullfloat64beforeprinting",
+    "standard_error": "sample_sd_of8populationmeans/sqrt(8)"
+  },
+  "primary_metric": "bce",
+  "real_data": "descriptive fiveoptimizerseedsonefixedsplit;perseedvaluesmeanrange;nosyntheticn8CI",
+  "registered_utc": "2026-10-22T08:20:11.988615+00:00",
+  "release_gate": "all636Bcommitted,authorandindependentaudits,root hashboundrelease",
+  "secondary": [
+    "macro_f1",
+    "accuracy",
+    "brier",
+    "ece10_fixedbins",
+    "positive_precision",
+    "positive_recall",
+    "average_precision",
+    "native_bce",
+    "clipping_frequency",
+    "confusion_matrix"
+  ],
+  "secondary_contrasts": [
+    {
+      "first": "C_L",
+      "second": "C_H"
+    },
+    {
+      "first": "T_L",
+      "second": "T_S"
+    },
+    {
+      "first": "C_S",
+      "second": "C_H"
+    }
+  ],
+  "seeds_per_population": 2,
+  "study_id": "QPATH-LEARNED-ROUTING-v0.9-PLAN-B"
+}

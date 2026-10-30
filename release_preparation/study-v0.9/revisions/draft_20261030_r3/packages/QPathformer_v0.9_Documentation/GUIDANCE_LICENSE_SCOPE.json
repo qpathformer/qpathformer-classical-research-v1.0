@@ -1,0 +1,89 @@
+{
+  "study_version": "v0.9",
+  "status": "ADOPTED",
+  "adopted_on": "2026-10-29",
+  "timezone": "Australia/Sydney",
+  "licensor": "Anthony Siljeg",
+  "attribution": "Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative",
+  "adoption_record": "LICENSE_ADOPTION.json",
+  "exclusions": [
+    "Third-party dependencies and their expression",
+    "Datasets and dataset source content",
+    "Model artifacts and trained checkpoints",
+    "Architecture documents",
+    "Complete operational archives",
+    "Installed environments",
+    "Integrity/provenance records as whole files except explicitly listed controlled explanatory prose"
+  ],
+  "previous_grants_preserved": true,
+  "schema": "qpath-guidance-license-scope-1",
+  "license": "CC-BY-4.0",
+  "scope": "Controlled original explanatory prose in exactly the listed file instances; embedded third-party expression retains its own terms. Source instructions are historical; licensing is not operational authorization.",
+  "files": [
+    {
+      "path": "OVERVIEW.md",
+      "bytes": 14742,
+      "sha256": "5aaa4561fa9d99ce3ac49ded89e5d2d64fb4c28c60ba9f67dc37819b06f4c60a"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 4359,
+      "sha256": "e7f09e714be2845a0e15e3e1db8d559e05dc9df2034b614418c2176412174e6c"
+    },
+    {
+      "path": "REPRODUCTION_BOUNDARIES.md",
+      "bytes": 3848,
+      "sha256": "ec80fc92b0812a9f6bb346d602e2a3dd802d91ec915106784e3ec84c95d69653"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 1057,
+      "sha256": "64083b2f05684d2be6205f1466ece101bde9944f36712067a98902366a5b72a3"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 2749,
+      "sha256": "bdffa646882bd987de33854402a0ff668bce604ad57066cb4ac3569ffd3a1f3f"
+    },
+    {
+      "path": "VERIFY.md",
+      "bytes": 1241,
+      "sha256": "cc49c690e4e01acd03b70a27ee46435a4a2b4fb53b39d91f958a3491f113ac0d"
+    },
+    {
+      "path": "source/REPRODUCIBILITY.txt",
+      "bytes": 3612,
+      "sha256": "40e3b66f851254c68c6a7f23d871857f26fd25bd908635c9c3b0043ae293968f"
+    },
+    {
+      "path": "source/evidence/analysis/author/README_EVALUATION.txt",
+      "bytes": 7209,
+      "sha256": "5c59786efcc67babb4ddff04950e664bd4c4a88313431fa87a4718520ea451f9"
+    },
+    {
+      "path": "source/evidence/analysis/deployment/README_DERIVED.txt",
+      "bytes": 3623,
+      "sha256": "8f73ddaff9130227ada90e1cd17c755f4ed03f7165f46bb4bcf6840a48ea14d7"
+    },
+    {
+      "path": "source/evidence/analysis/independent_audit/README_INDEPENDENT_ANALYSIS.txt",
+      "bytes": 3283,
+      "sha256": "dac3f0d1298898f6e92a066324c29b1fc258511bfc662f5f154e41918ed4d643"
+    },
+    {
+      "path": "source/evidence/analysis/independent_audit/README_INDEPENDENT_AUDIT.txt",
+      "bytes": 2479,
+      "sha256": "c2890d5a671fd3fab4f9cf616c25aa15be2de2fdd5077dcaebfef9ad9b8a17cf"
+    },
+    {
+      "path": "source/evidence/analysis/independent_audit/README_RESOURCE_ACCOUNTING.txt",
+      "bytes": 2458,
+      "sha256": "7c1f5db018ddcd6384e6e92797a276d275fe464482346d3c0dcc05c465581efd"
+    },
+    {
+      "path": "source/evidence/execution/README_EXECUTION.txt",
+      "bytes": 7579,
+      "sha256": "5fd278a24066e6fa49059db1c5be0f2fb0c935a72abb91443964fc58581a2b78"
+    }
+  ]
+}
