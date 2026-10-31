@@ -1,6 +1,6 @@
 # Candidate asset review
 
-Proposed procedure. Every submission begins as a candidate asset, including a proposed PR diff, findings report, adapter, weight file, dataset, script, configuration and documentation change. Classification is an access decision; it does not establish ownership, a licence or scientific validity.
+Repository procedure adopted on 31 October 2026. Every submission begins as a candidate asset, including a proposed PR diff, findings report, adapter, weight file, dataset, script, configuration and documentation change. Classification is an access decision; it does not establish ownership, a licence or scientific validity.
 
 ## Intake and identity
 

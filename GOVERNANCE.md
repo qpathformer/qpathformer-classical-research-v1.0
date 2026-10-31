@@ -1,10 +1,10 @@
 # Q Pathformer research governance
 
-Proposed policy for owner adoption. Q-Pathformer publishes reviewed research editions while developing the next edition privately. Public access, research validity, licensing and eligibility for private participation are separate decisions. The [research approach](docs/RESEARCH_APPROACH.md) is a standalone release document; repository governance does not alter the scientific paper.
+Repository policy adopted for implementation on 31 October 2026 at the owner's request. Q-Pathformer publishes reviewed research editions while developing the next edition privately. Public access, research validity, licensing and eligibility for private participation are separate decisions. The [research approach](docs/RESEARCH_APPROACH.md) is a standalone release document; repository governance does not alter the scientific paper.
 
 ## Editions and authority
 
-The v1.0 research edition is intended for public release when its main paper, supporting studies, rights and repository contents are ready. Q-Pathformer Lab is the working name for private v2.0 research. Its release requires internal checks, documented runs, independent review where feasible, rights clearance and the safety checks in [Asset review](docs/ASSET_REVIEW.md). Organisation owners approve access, classification, merges and releases, and set the scope of v3.0 and later work.
+Research v1.0 is public. Q-Pathformer Lab is the working name for proposed private research v2.0; it is separate from the already-public [Enterprise v2.0 Standards Edition](https://github.com/qpathformer/qpathformer-enterprise-v2.0-standards-release). This policy does not establish a Lab repository or grant membership. Its release requires internal checks, documented runs, independent review where feasible, rights clearance and the safety checks in [Asset review](docs/ASSET_REVIEW.md). Organisation owners approve access, classification, merges and releases, and set the scope of v3.0 and later work.
 
 The [architecture companion](docs/papers/QPathformer_Architecture_and_Experimental_Specification_v1.0.pdf) is a new editorial edition derived from the preserved architecture proposal v0.3, with identified specification patch v0.3.1 clarifications and links to completed component evidence. [Routed States](docs/papers/QPathformer_Main_Paper_v1.0.pdf) is the separate main findings paper, consolidating the completed studies. Both carry the research edition v1.0 label. The replacement removes editorial review labels without changing the scientific claims or limitations. Participation and publication procedures remain in release documentation. A version label does not establish an experimental result or grant permission to publish.
 
@@ -15,6 +15,8 @@ The [architecture companion](docs/papers/QPathformer_Architecture_and_Experiment
 | Public | Anyone | Approved public research repository and release |
 | Enterprise | All approved Lab participants and organisation owners | Private Q-Pathformer Lab repository or approved private asset store |
 | Strategic | Q-Pathformer organisation owners only | Separate private owner-controlled repository or asset store |
+
+The proposed research Lab and public Enterprise Standards are separate projects in the wider Q-Pathformer programme. No technical integration, dependency or shared membership is established by these policies. Enterprise is a Lab audience label; it does not identify the Enterprise Standards project.
 
 Enterprise is a project access tier, not a GitHub product subscription or GitHub `internal` visibility. Enterprise and Strategic access labels also do not grant the separate production or commercial permissions described by the Q-Pathformer Platform License; those require their own applicable agreement. Lab participation does not grant organisation ownership or access to Strategic materials. Owners already have administrative access; audit installed applications, service identities and any elevated organisation roles for equivalent access.
 
@@ -40,7 +42,11 @@ Independent review is preferred for substantive research, safety and rights deci
 
 ## Merges and publication
 
-Require a reviewed PR, resolved discussions, current evidence and owner approval for protected branches. Use enforceable GitHub rules where the plan supports them; while private branch protection is unavailable, restrict write/admin to owners and maintain a manual review record. A written rule alone does not enforce access or merge controls.
+Changes to `main` require a pull request, resolved review conversations, an up-to-date branch and the GitHub Actions checks **Documentation links** and **Content scope**. Force pushes and deletion of `main` are blocked; no bypass actors are configured. See [repository checks](.github/CHECKS.md) for the bounded coverage and [live rules](https://github.com/qpathformer/qpathformer-classical-research-v1.0/rules).
+
+The single-maintainer configuration requires zero approving reviews. An owner inspects the diff, evidence and rights before merging; the merge is the recorded owner decision. This setting permits an owner to merge their own PR once checks pass and discussions are resolved. It does not establish independent review, approve private access or validate a scientific claim. Record any substantive review exception as described above. Reviewers and bots cannot grant Lab membership through a merge.
+
+Future private repositories need their own enforceable controls and access review. Check the applicable GitHub plan before provisioning them; written policy and public-repository rules do not protect another repository.
 
 Public release uses a curated, approved snapshot and asset manifest. Review all reachable history, branches, tags, releases and Actions material before making an existing repository public. Preserve private development history if it contains withheld material. The [release policy](docs/RELEASE_POLICY.md) defines the public transition and the next private cycle.
 

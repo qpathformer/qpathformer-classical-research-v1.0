@@ -1,0 +1,35 @@
+{
+  "schema": "qpath-research-content-adoption-1",
+  "status": "ADOPTED",
+  "licensor": "Anthony Siljeg",
+  "approved_date_local": "2026-10-31",
+  "timezone": "Australia/Sydney",
+  "decision": "Owner explicitly approved scoped CC BY 4.0 for controlled original content in both papers, covers, current Research Approach and new README/helper/policy prose with the prepared exclusions.",
+  "scope": {
+    "path": "RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
+    "bytes": 6900,
+    "sha256": "f56128fce1307ea14830181aabd87577862a7a27d50853fd2b74220467af2dd8"
+  },
+  "licence": "CC-BY-4.0",
+  "historical_grants_preserved": true,
+  "blanket_repository_grant": false,
+  "trademark_adoption_record": "TRADEMARK_POLICY_ADOPTION.json",
+  "publication_or_visibility_approval": false,
+  "original_adoption": {
+    "path": "docs/rights/research_v1_adopted_20261031/RESEARCH_V1_LICENSE_ADOPTION.json",
+    "bytes": 791,
+    "sha256": "f5ee411762621944d0aad8f6f4f6f4e19236c176fc2c339e57f44f8297089cc8"
+  },
+  "identity_revision": "RESEARCH_V1_SCOPE_REVISION.json",
+  "revision_note": "Original content-licence decision preserved; current mapping reflects the separately owner-approved public-status documentation update.",
+  "released_adoption": {
+    "path": "docs/rights/research_v1_released_20261031/RESEARCH_V1_LICENSE_ADOPTION.json",
+    "bytes": 1245,
+    "sha256": "4269ba520261861ee7f102ac90fd462955376b013b538b3c80541ba34a68088c"
+  },
+  "previous_main_adoption": {
+    "path": "docs/rights/research_v1_main_review_20261031/RESEARCH_V1_LICENSE_ADOPTION.json",
+    "bytes": 1570,
+    "sha256": "911d1ab813fd1e7bcffb710168b25c270b5f0af1f6c3b4ab27f7886e33eb4d47"
+  }
+}

@@ -3,8 +3,8 @@
   "edition": "Research v1.0",
   "file": {
     "path": "docs/RESEARCH_APPROACH.md",
-    "bytes": 9757,
-    "sha256": "accd8ddd5972e5c3feb4c884be37c7575c87ff55831bf03d00dcb38452ebd494"
+    "bytes": 10076,
+    "sha256": "326afb973c968113126fba4dfcc3a5585efd4f3438b57e407adc5cec6b1d9222"
   },
   "current_status": "ADOPTED_CC_BY_4_0_FOR_CONTROLLED_ORIGINAL_CONTENT",
   "existing_grant": "ADOPTED_CC_BY_4_0_REMAINS_APPLICABLE_TO_ORIGINAL_EXPRESSION_AND_ADAPTATIONS",
@@ -12,8 +12,8 @@
   "historical_scope": "docs/rights/research_approach_adopted_20261030/docs/RESEARCH_APPROACH_LICENSE_SCOPE.json",
   "change_record": {
     "path": "docs/rights/RESEARCH_APPROACH_CHANGES.diff",
-    "bytes": 15615,
-    "sha256": "81f0f4b2c3a92e8455a83989591e128f5973ca92fc72dfa2fd4dee94a98a7e56"
+    "bytes": 15956,
+    "sha256": "dab758b1554585c4b82ba4f25a06cda5f300674899c33b7aaa1d8d8f1867343d"
   },
   "new_adoption_record": "RESEARCH_V1_LICENSE_ADOPTION.json",
   "excludes": [
@@ -26,5 +26,5 @@
     "restricted assets"
   ],
   "note": "File identity locates this edition, not a restriction on permitted adaptations.",
-  "revision_note": "The 31 October 2026 scoped adoption is preserved. Current identities reflect the owner-requested clarity correction; see RESEARCH_V1_SCOPE_REVISION.json. Earlier adoption records remain unchanged."
+  "revision_note": "Original grants preserved. Current identity reflects the public availability and separate future research-Lab clarification of 31 October 2026. Prior scope/diff are preserved with the public-transition records."
 }

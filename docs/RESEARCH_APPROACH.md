@@ -60,13 +60,13 @@ Useful contributions include independent reproductions, corrections, stronger co
 
 The owner-confirmed participation model requires at least two distinct, substantive qualifying merged public contributions to establish eligibility for private Lab access review. Owner approval follows a review of the contribution, rights, reproducibility, safety and participation scope. Eligibility is not automatic admission.
 
-Approved Lab participants may access Enterprise materials within their permissions. Strategic materials remain restricted to organisation owners and are held separately. These are project access categories, not commercial software licence grants. Participation does not promise authorship, publication, a release date or access to every asset or future edition.
+Approved Lab participants may access Enterprise materials within their permissions. Strategic materials remain restricted to organisation owners and are held separately. These are Lab audience categories, distinct from the public Enterprise Standards project and from commercial software licence grants. No integration, dependency or shared membership between the two projects is established here. Participation does not promise authorship, publication, a release date or access to every asset or future edition.
 
 Proposed code, datasets, adapters, weights and other artifacts pass through the contribution and asset-review process before merge. Implementation patches must follow the confirmed incoming-rights route in [CONTRIBUTING.md](../CONTRIBUTING.md). That process does not introduce a blanket incoming-contribution agreement. Existing licences and separately agreed permissions continue to apply.
 
 ## Editions and availability
 
-The planned public v1.0 foundation brings together the approved main paper, supporting studies and explanatory documents. The proposed private v2.0 Lab will investigate the next questions. A later public edition and subsequent private research cycle follow review of the actual evidence and assets, with scope and access reassessed for each edition.
+The public Research v1.0 foundation brings together the main paper, supporting studies and explanatory documents. The proposed private research v2.0 Lab will investigate the next questions. This future Lab is separate from the already-public [Enterprise v2.0 Standards Edition](https://github.com/qpathformer/qpathformer-enterprise-v2.0-standards-release). A later public edition and subsequent private research cycle follow review of the actual evidence and assets, with scope and access reassessed for each edition.
 
 Not all working material will be distributed. Each release identifies what is included, what is omitted and which limitations affect reproduction. Public permissions already granted remain applicable to their identified content.
 

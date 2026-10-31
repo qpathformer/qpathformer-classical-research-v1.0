@@ -14,6 +14,8 @@ The owner-approved historical study material remains intact, including account/u
 
 ## Remaining tasks
 
-Repository rules and access settings are the next task. The organisation profile is a separate follow-up. Software-contracting authority behind Q-Pathformer HQ and the separate Dataset Lifecycle historical TXT/PDF discrepancy remain separate matters; this research publication does not amend another repository's distribution or licence.
+The organisation profile now features Research v1.0 and the four public projects. Public research `main` uses the PR and check requirements in [governance](../GOVERNANCE.md). These are maintenance controls, not independent scientific approval.
+
+Before admitting any private Lab participant, complete a separate access setup: organisation base permission None, explicit repository/team grants, separate owner-only Strategic storage, two-factor authentication and app/service-account review. The observed organisation base permission was Read on 31 October 2026; it has not been changed by this repository update. Lab provisioning and access grants remain separate owner decisions. Software-contracting authority behind Q-Pathformer HQ and the separate Dataset Lifecycle historical TXT/PDF discrepancy remain separate matters; this research publication does not amend another repository's distribution or licence.
 
 Public access is verified independently of the authenticated editing session. Preserve the release tag and assets when updating later navigation or operational guidance.

@@ -1,6 +1,6 @@
 # Reproducibility and package verification
 
-Repository edition v1.0 begins with release study-v0.9.5. "Public report edition" identifies an editorial edition; repository access is a separate setting. Access is currently private while further releases are prepared.
+Research v1.0 is publicly available. This page preserves the reproduction and package-verification boundaries of the v0.9.5 selection. For another study, use its own Study, Documentation and Code guides linked from the [release index](../README.md#release-index). Public access to the collection does not mean the separately retained datasets, checkpoints or full evidence archives are included.
 
 The three companion packages separate Study, Documentation and Code. The Study package preserves the final v0.9.5 report PDF and Word edition. The Code package preserves the complete selected original code package: 36 study Python files, two review tools, its quickstart and integrity records. This Documentation package provides project explanations, task/concept illustrations and the unchanged QPATH-ARCH-001 PDF with source provenance. Generated data, trained checkpoints, full runtime trees and the complete reproduction archive are not included. The [code](../CODE_LICENSE_SCOPE.json), [report](../REPORT_LICENSE_SCOPE.json) and [documentation](../DOCUMENTATION_RIGHTS.md) scopes remain distinct.
 

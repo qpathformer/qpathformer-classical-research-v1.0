@@ -1,0 +1,23 @@
+[
+  "README.md",
+  "CONTRIBUTING.md",
+  "GOVERNANCE.md",
+  ".github/CHECKS.md",
+  ".github/pull_request_template.md",
+  "docs/REPRODUCIBILITY.md",
+  "docs/RESEARCH_APPROACH.md",
+  "docs/RESEARCH_ROADMAP.md",
+  "docs/RESEARCH_GUIDE.md",
+  "docs/ASSET_REVIEW.md",
+  "docs/CONTRIBUTION_EVIDENCE.md",
+  "docs/EDITION_STATUS.md",
+  "docs/PUBLICATION_READINESS.md",
+  "docs/PUBLICATION_NOTICE.md",
+  "docs/RELEASE_POLICY.md",
+  "docs/COLLECTION_GUIDE.md",
+  "docs/RESEARCH_APPROACH_RIGHTS.md",
+  "docs/RESEARCH_V1_RIGHTS.md",
+  "templates/LAB_ACCESS_REVIEW.md",
+  "LICENSE_SCOPE.md",
+  "THIRD_PARTY_NOTICES.md"
+]

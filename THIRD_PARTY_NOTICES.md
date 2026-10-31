@@ -10,6 +10,7 @@
 | Generated three-state image | Recorded generated-image and reference provenance; the grant applies to controlled expression and rights actually held, not a claim of copyright in every generated element. |
 | QPATH-ARCH-001 | Unchanged PDF with original notices and source provenance; excluded as a licensed document. Expression actually licensed through selected prose/images retains its grant. |
 | Trained models and complete archives | Not supplied; later distribution requires artifact-specific provenance and rights. |
+| Repository maintenance helpers and their tests | Imported/adapted Access PoD MIT helpers, with original copyright notice retained in [.github/ci/LICENSE](.github/ci/LICENSE) and provenance in [SOURCE.md](.github/ci/SOURCE.md). Markdown parser dependencies are installed for checks and retain their upstream terms. |
 | Canonical legal texts and historical evidence | Retained under their existing terms. Their presence does not license neighbouring material. |
 
 The unchanged payloads may retain historical notices and source paths. The outer package records describe their inclusion without rewriting that history. [License scope](LICENSE_SCOPE.md) · [Artifact contents](ARTIFACT_RIGHTS.md).

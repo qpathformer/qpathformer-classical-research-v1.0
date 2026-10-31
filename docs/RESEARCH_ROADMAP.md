@@ -2,7 +2,7 @@
 
 [Main README](../README.md) · [Research guide](RESEARCH_GUIDE.md) · [QPU preparation plan](QPU_RELEASE_PLAN.md)
 
-Repository edition **v1.0** describes completed classical studies through **v0.9.5**, beginning with release **study-v0.9.5**. Further completed study results will be added as versioned releases in this repository after review. The repository edition identifies the collection; it does not rename the completed experiments.
+Research edition v1.0 brings together the completed study series through v0.9.5, the main findings paper and the architecture companion. Each study retains its original version and protocol. Further experiments will receive separate study identities and evidence records.
 
 ## Completed classical findings
 
