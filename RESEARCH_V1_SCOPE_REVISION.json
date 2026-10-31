@@ -1,24 +1,5 @@
 {
   "schema": "qpath-content-scope-revision-1",
-  "recorded_at_utc": "2026-10-30T23:38:42+00:00",
-  "date_local": "2026-10-31",
-  "reason": "Owner approved the reviewed main documentation and public visibility after obsolete release notices are removed.",
-  "previous_source_commit": "bca5e0b345478f401e936927139fa474ea0b428e",
-  "previous_main_scope": {
-    "path": "docs/rights/research_v1_main_review_20261031/RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
-    "bytes": 6719,
-    "sha256": "4f8327d9c40e7571c32dd404c6d5efe6955cfdcbc4dd26b8eb220c4a9d80003b"
-  },
-  "previous_main_adoption": {
-    "path": "docs/rights/research_v1_main_review_20261031/RESEARCH_V1_LICENSE_ADOPTION.json",
-    "bytes": 1570,
-    "sha256": "911d1ab813fd1e7bcffb710168b25c270b5f0af1f6c3b4ab27f7886e33eb4d47"
-  },
-  "previous_revision": {
-    "path": "docs/rights/research_v1_main_review_20261031/RESEARCH_V1_SCOPE_REVISION.json",
-    "bytes": 4773,
-    "sha256": "bf3fa5b087e2de4c8f4bd58995b834fcddc62e91ad289557608d95a9fb5d40a9"
-  },
   "original_scope": {
     "path": "docs/rights/research_v1_adopted_20261031/RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
     "bytes": 5896,
@@ -39,80 +20,167 @@
     "bytes": 1245,
     "sha256": "4269ba520261861ee7f102ac90fd462955376b013b538b3c80541ba34a68088c"
   },
-  "current_scope": {
-    "path": "RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
+  "recorded_at_utc": "2026-10-31T00:13:56.618207+00:00",
+  "date_local": "2026-10-31",
+  "reason": "Owner requested organisation/profile and research rules updates; other project repositories excluded.",
+  "previous_source_commit": "eb14311ab4853db6216c510980f70fd63441dfbe",
+  "previous_main_scope": {
+    "path": "docs/rights/research_v1_public_20261031/RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
     "bytes": 6900,
     "sha256": "f56128fce1307ea14830181aabd87577862a7a27d50853fd2b74220467af2dd8"
   },
-  "current_adoption": {
-    "path": "RESEARCH_V1_LICENSE_ADOPTION.json",
+  "previous_main_adoption": {
+    "path": "docs/rights/research_v1_public_20261031/RESEARCH_V1_LICENSE_ADOPTION.json",
     "bytes": 1693,
     "sha256": "ea67869adcb7736c1bc7fe71575bdf7c2cb7759723828bbd86526aede7d3b3c8"
+  },
+  "previous_revision": {
+    "path": "docs/rights/research_v1_public_20261031/RESEARCH_V1_SCOPE_REVISION.json",
+    "bytes": 4415,
+    "sha256": "bec5d28e908fc450ab2821d975abd20dd47d9068b694567dd27a8277695d09cf"
+  },
+  "current_scope": {
+    "path": "RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
+    "bytes": 8025,
+    "sha256": "ebe17b7a1c90a7d7d7580dfcf58a93e9b9980381c51e65ea3ac0bcf46cc0e82d"
+  },
+  "current_adoption": {
+    "path": "RESEARCH_V1_LICENSE_ADOPTION.json",
+    "bytes": 1776,
+    "sha256": "24e6600c25970c33cf9cea0a6272cb819c4b2d8ddd4dc5b9b39ce91dfc00b46f"
   },
   "changed_scoped_files": [
     {
       "before": {
-        "path": "docs/COLLECTION_GUIDE.md",
-        "bytes": 2757,
-        "sha256": "05ebf7e4a23a9d42f6d8e1e465971f0bbd426002fa592c3fd3f9ffea4c8d8d10"
+        "path": "GOVERNANCE.md",
+        "bytes": 7249,
+        "sha256": "22cab5d3c95e07afc43ce66306812284e82295f3917a562e06e0f0bec9b2f97b"
       },
       "after": {
-        "path": "docs/COLLECTION_GUIDE.md",
-        "bytes": 2732,
-        "sha256": "b017f1c4dd57edf7ddc34fa1fd8643f787a10de79049a63c1c3c7d026fd4a4bb"
+        "path": "GOVERNANCE.md",
+        "bytes": 8511,
+        "sha256": "8f9d0bbcfd3f0e121710541589b8de8327a06e403aecd2d8a47a724c4522daf8"
       }
     },
     {
       "before": {
-        "path": "docs/EDITION_STATUS.md",
-        "bytes": 3048,
-        "sha256": "fab489b40e68187f8fe2160ae01029e08e433c68ae679f514241550cbe0dd235"
+        "path": "LICENSE_SCOPE.md",
+        "bytes": 6220,
+        "sha256": "e4000ae3c179c0940cb53418a53876812b9ac86d8f5e936490914973df46a5e7"
       },
       "after": {
+        "path": "LICENSE_SCOPE.md",
+        "bytes": 6506,
+        "sha256": "d7324dd51b0c64d8e2903a1d05108cad0d357fae648a71c1f4ec8259c499eca6"
+      }
+    },
+    {
+      "before": {
+        "path": "docs/ASSET_REVIEW.md",
+        "bytes": 3556,
+        "sha256": "c5ea61a31b588c7e1274e377d3047cefda8d474ca08e1eba536d5759b7f81ac3"
+      },
+      "after": {
+        "path": "docs/ASSET_REVIEW.md",
+        "bytes": 3585,
+        "sha256": "e4636778b33d4803aa62e298fdb22705edf7b8d8ecf0cecb982226b09f6562d2"
+      }
+    },
+    {
+      "before": {
         "path": "docs/EDITION_STATUS.md",
         "bytes": 2999,
         "sha256": "28ebec1db6b070c91a3a0dae2fff5ea7b8b6cc7216dc8ecd44d99ca4a0f2969f"
+      },
+      "after": {
+        "path": "docs/EDITION_STATUS.md",
+        "bytes": 3370,
+        "sha256": "6850c0adf669f8ae65baf5321a1a36dc2e0b630f9a1d3febad08083d4148e710"
       }
     },
     {
       "before": {
-        "path": "docs/PUBLICATION_READINESS.md",
-        "bytes": 2226,
-        "sha256": "21cd3cca0d1fa2d1a959899f7355fbe1f391f1be26e73699b3f1ff0aac04840e"
+        "path": "docs/PUBLICATION_NOTICE.md",
+        "bytes": 1162,
+        "sha256": "9ae2da5138c808b27cd29dae238782b2baec510352c3ac26d7b773bba966df6c"
       },
       "after": {
+        "path": "docs/PUBLICATION_NOTICE.md",
+        "bytes": 1176,
+        "sha256": "d85558b84fd0da725a7ae52521b44cfcd8f2f144470ced09e2ed42d0179b78d3"
+      }
+    },
+    {
+      "before": {
         "path": "docs/PUBLICATION_READINESS.md",
         "bytes": 2543,
         "sha256": "ec9ec806d215bf84f0ddbbe1831e2dfce371778e64571c254275650728c4c94b"
+      },
+      "after": {
+        "path": "docs/PUBLICATION_READINESS.md",
+        "bytes": 3119,
+        "sha256": "5b81e4e7aa3d368318fcc8385c5ab6d3c54843ee0e8f37d8156f71726655e474"
       }
     },
     {
       "before": {
-        "path": "docs/RELEASE_POLICY.md",
-        "bytes": 4405,
-        "sha256": "cf79b3ded1781384e2b1189d52a9f16ea0f21f9db2b723d2c65f422d91324d58"
-      },
-      "after": {
         "path": "docs/RELEASE_POLICY.md",
         "bytes": 4433,
         "sha256": "086050ae0ea2af2c2b5da023fc833a17d19850e3eddcc6426ea851dc4655aedb"
+      },
+      "after": {
+        "path": "docs/RELEASE_POLICY.md",
+        "bytes": 4514,
+        "sha256": "b56456aa637ed2a832b080804994fec47703564ca32cc9c19447eb633008a9e2"
       }
     },
     {
       "before": {
-        "path": "docs/RESEARCH_V1_RIGHTS.md",
-        "bytes": 2513,
-        "sha256": "4e0902695a3af3d44d71df3677932ced91d5b31f3baea02bd948b12167d2e188"
+        "path": "docs/RESEARCH_APPROACH.md",
+        "bytes": 9757,
+        "sha256": "accd8ddd5972e5c3feb4c884be37c7575c87ff55831bf03d00dcb38452ebd494"
       },
       "after": {
-        "path": "docs/RESEARCH_V1_RIGHTS.md",
-        "bytes": 2564,
-        "sha256": "8d3658654762950126e3656e2000c50ee6a21eec6ca0efb27dc9eee5b214790e"
+        "path": "docs/RESEARCH_APPROACH.md",
+        "bytes": 10076,
+        "sha256": "326afb973c968113126fba4dfcc3a5585efd4f3438b57e407adc5cec6b1d9222"
       }
+    }
+  ],
+  "additional_current_helper_identities": [
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 4883,
+      "sha256": "4336c68ee038e7299d0d7adfa794e420650325aa35339f429c60a3fc35ef69d2"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "bytes": 5040,
+      "sha256": "bd9cdb95313e0de0f7a13fd221fbbca10e8cb3737988f039abb77fa424cd6f46"
+    },
+    {
+      "path": "docs/RESEARCH_ROADMAP.md",
+      "bytes": 3333,
+      "sha256": "dc7970ceac0884e6e3966f1f25704c02a2f2a252174eb1150a1915ecf6b18800"
+    },
+    {
+      "path": ".github/CHECKS.md",
+      "bytes": 3680,
+      "sha256": "6acd13c20b5dbb25884b0dbe06a7dc2952c0e7ea7cafb416ebe3d7d0d0e3453b"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "bytes": 1262,
+      "sha256": "8fd95e273296222a4dc174063204c8002d2a263bc1e1bc5ce0952ac8a9b882d8"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2349,
+      "sha256": "1625eeceacf1ed743867de14dd77b7a65156a926a527e0a0c16fc87a19013f6b"
     }
   ],
   "licence_categories_and_exclusions_unchanged": true,
   "new_blanket_grant": false,
-  "public_visibility_approval": true,
-  "repository_rules_changed": false
+  "repository_rules_changed": true,
+  "release_tag_and_assets_unchanged": true
 }

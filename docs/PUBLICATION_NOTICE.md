@@ -1,6 +1,6 @@
 # Publication and availability notice
 
-Proposed release notice. Q-Pathformer releases contain the materials specifically identified in their approved manifests. Not all research, code, adapters, weights, datasets, run records or working documents will be made available. Some material may be reserved for a later version or withheld because of rights, privacy, safety, reproducibility or strategic considerations.
+Current repository publication notice. Q-Pathformer releases contain the materials specifically identified in their approved manifests. Not all research, code, adapters, weights, datasets, run records or working documents will be made available. Some material may be reserved for a later version or withheld because of rights, privacy, safety, reproducibility or strategic considerations.
 
 Private participation does not guarantee access to every asset, future editions, publication, authorship or a release date. Two qualifying merged contributions establish eligibility for an owner access review; access still requires owner approval. Enterprise access covers approved Lab participants, while Strategic materials remain restricted to organisation owners.
 

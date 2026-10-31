@@ -12,6 +12,7 @@ Repository edition v1.0 contains separately scoped material. Releases study-v0.9
 | Original source documentation content | The adopted **CC BY 4.0** source grant is preserved in [its exact record](provenance/source-edition/DOCUMENTATION_LICENSE_SCOPE.json). See [documentation rights](DOCUMENTATION_RIGHTS.md) for retained/adapted content and the distinction from new material. |
 | Newly authored wrapper and support prose | **CC BY 4.0**, adopted by Anthony Siljeg on 29 October 2026 for the identified original content. The [new guidance scope](NEW_GUIDANCE_LICENSE_SCOPE.json) identifies project guidance; each companion package records its outer guidance separately. This grant does not expand the earlier grants. |
 | QPATH-ARCH-001 | Retained unchanged with its embedded notices and [source provenance](docs/architecture/README.md). It is excluded as a licensed document from these grants. |
+| Repository maintenance helpers under .github/ci/ | Scoped [MIT notice](.github/ci/LICENSE), adapted from Access PoD through the organisation profile repository; [source and change record](.github/ci/SOURCE.md). This does not license study code or the whole repository as MIT. |
 | Third-party material, historical READMEs and other supporting files | Their applicable notices and terms remain in force. No whole-repository or whole-ZIP grant is made. |
 
 The exact copied code/report scopes refer to files within their original payload trees in the companion packages, not implementation or report files in this documentation tree. The source documentation scope identifies its source editions; it is not a current-byte inventory for edited or moved files. The [current source map](SOURCE_MAP.json) identifies current files, source identities and changes, while the [documentation index](DOCUMENTATION_LICENSE_SCOPE.json) distinguishes retained/adapted source content from new additions.
@@ -25,7 +26,7 @@ Anthony Siljeg remains the named licensor. Attribution: Founder, Alnotrea Labs; 
 
 ## Research v1.0 repository integration
 
-The 31 October 2026 replacement includes the main findings paper, architecture companion, covers, separate Research Approach, proposed operational governance and the adopted trademark policy. See [current edition status](docs/EDITION_STATUS.md) and the [current scope-revision record](RESEARCH_V1_SCOPE_REVISION.json). This integration creates no new whole-repository or whole-package licence.
+The 31 October 2026 replacement includes the main findings paper, architecture companion, covers, separate Research Approach, then-proposed operational governance and the adopted trademark policy. See [current edition status](docs/EDITION_STATUS.md) and the [current scope-revision record](RESEARCH_V1_SCOPE_REVISION.json). This integration creates no new whole-repository or whole-package licence.
 
 The existing root source map, documentation scope and adopted new-guidance scope preserve the earlier distribution identities and grants. Their earlier README hashes identify the earlier expression. The separately recorded new grant identifies the later controlled original content. Already licensed expression and permitted adaptations keep their existing permissions. The earlier update scope remains historical integration evidence. The current content scope records the owner-approved new grant without rewriting historical adoption records.
 

@@ -1,0 +1,118 @@
+{
+  "schema": "qpath-content-scope-revision-1",
+  "recorded_at_utc": "2026-10-30T23:38:42+00:00",
+  "date_local": "2026-10-31",
+  "reason": "Owner approved the reviewed main documentation and public visibility after obsolete release notices are removed.",
+  "previous_source_commit": "bca5e0b345478f401e936927139fa474ea0b428e",
+  "previous_main_scope": {
+    "path": "docs/rights/research_v1_main_review_20261031/RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
+    "bytes": 6719,
+    "sha256": "4f8327d9c40e7571c32dd404c6d5efe6955cfdcbc4dd26b8eb220c4a9d80003b"
+  },
+  "previous_main_adoption": {
+    "path": "docs/rights/research_v1_main_review_20261031/RESEARCH_V1_LICENSE_ADOPTION.json",
+    "bytes": 1570,
+    "sha256": "911d1ab813fd1e7bcffb710168b25c270b5f0af1f6c3b4ab27f7886e33eb4d47"
+  },
+  "previous_revision": {
+    "path": "docs/rights/research_v1_main_review_20261031/RESEARCH_V1_SCOPE_REVISION.json",
+    "bytes": 4773,
+    "sha256": "bf3fa5b087e2de4c8f4bd58995b834fcddc62e91ad289557608d95a9fb5d40a9"
+  },
+  "original_scope": {
+    "path": "docs/rights/research_v1_adopted_20261031/RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
+    "bytes": 5896,
+    "sha256": "24274ffcef81cf73865a96013f60d3177eb2f6f84f3d50f964c26522b6faa7ca"
+  },
+  "original_adoption": {
+    "path": "docs/rights/research_v1_adopted_20261031/RESEARCH_V1_LICENSE_ADOPTION.json",
+    "bytes": 791,
+    "sha256": "f5ee411762621944d0aad8f6f4f6f4e19236c176fc2c339e57f44f8297089cc8"
+  },
+  "released_scope": {
+    "path": "docs/rights/research_v1_released_20261031/RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
+    "bytes": 6445,
+    "sha256": "5e87fbad0564317e357d73a90d57d6ec0aeee5cb6fc96e405c448356ddee24ec"
+  },
+  "released_adoption": {
+    "path": "docs/rights/research_v1_released_20261031/RESEARCH_V1_LICENSE_ADOPTION.json",
+    "bytes": 1245,
+    "sha256": "4269ba520261861ee7f102ac90fd462955376b013b538b3c80541ba34a68088c"
+  },
+  "current_scope": {
+    "path": "RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
+    "bytes": 6900,
+    "sha256": "f56128fce1307ea14830181aabd87577862a7a27d50853fd2b74220467af2dd8"
+  },
+  "current_adoption": {
+    "path": "RESEARCH_V1_LICENSE_ADOPTION.json",
+    "bytes": 1693,
+    "sha256": "ea67869adcb7736c1bc7fe71575bdf7c2cb7759723828bbd86526aede7d3b3c8"
+  },
+  "changed_scoped_files": [
+    {
+      "before": {
+        "path": "docs/COLLECTION_GUIDE.md",
+        "bytes": 2757,
+        "sha256": "05ebf7e4a23a9d42f6d8e1e465971f0bbd426002fa592c3fd3f9ffea4c8d8d10"
+      },
+      "after": {
+        "path": "docs/COLLECTION_GUIDE.md",
+        "bytes": 2732,
+        "sha256": "b017f1c4dd57edf7ddc34fa1fd8643f787a10de79049a63c1c3c7d026fd4a4bb"
+      }
+    },
+    {
+      "before": {
+        "path": "docs/EDITION_STATUS.md",
+        "bytes": 3048,
+        "sha256": "fab489b40e68187f8fe2160ae01029e08e433c68ae679f514241550cbe0dd235"
+      },
+      "after": {
+        "path": "docs/EDITION_STATUS.md",
+        "bytes": 2999,
+        "sha256": "28ebec1db6b070c91a3a0dae2fff5ea7b8b6cc7216dc8ecd44d99ca4a0f2969f"
+      }
+    },
+    {
+      "before": {
+        "path": "docs/PUBLICATION_READINESS.md",
+        "bytes": 2226,
+        "sha256": "21cd3cca0d1fa2d1a959899f7355fbe1f391f1be26e73699b3f1ff0aac04840e"
+      },
+      "after": {
+        "path": "docs/PUBLICATION_READINESS.md",
+        "bytes": 2543,
+        "sha256": "ec9ec806d215bf84f0ddbbe1831e2dfce371778e64571c254275650728c4c94b"
+      }
+    },
+    {
+      "before": {
+        "path": "docs/RELEASE_POLICY.md",
+        "bytes": 4405,
+        "sha256": "cf79b3ded1781384e2b1189d52a9f16ea0f21f9db2b723d2c65f422d91324d58"
+      },
+      "after": {
+        "path": "docs/RELEASE_POLICY.md",
+        "bytes": 4433,
+        "sha256": "086050ae0ea2af2c2b5da023fc833a17d19850e3eddcc6426ea851dc4655aedb"
+      }
+    },
+    {
+      "before": {
+        "path": "docs/RESEARCH_V1_RIGHTS.md",
+        "bytes": 2513,
+        "sha256": "4e0902695a3af3d44d71df3677932ced91d5b31f3baea02bd948b12167d2e188"
+      },
+      "after": {
+        "path": "docs/RESEARCH_V1_RIGHTS.md",
+        "bytes": 2564,
+        "sha256": "8d3658654762950126e3656e2000c50ee6a21eec6ca0efb27dc9eee5b214790e"
+      }
+    }
+  ],
+  "licence_categories_and_exclusions_unchanged": true,
+  "new_blanket_grant": false,
+  "public_visibility_approval": true,
+  "repository_rules_changed": false
+}

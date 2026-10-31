@@ -1,6 +1,6 @@
 # Research release policy
 
-Proposed policy. A release is an owner-approved snapshot of identified papers and supporting materials. The scientific paper, research approach and repository rules are distinct documents. The [research approach](RESEARCH_APPROACH.md) must be linked in the release notes and included under release docs; it is excluded from the main paper.
+Repository policy adopted on 31 October 2026. A release is an owner-approved snapshot of identified papers and supporting materials. The scientific paper, research approach and repository rules are distinct documents. The [research approach](RESEARCH_APPROACH.md) must be linked in the release notes and included under release docs; it is excluded from the main paper.
 
 ## Consolidated v1 release
 
@@ -12,7 +12,7 @@ The current [research-v1.0-20261031 release](https://github.com/qpathformer/qpat
 
 The published release body, five offered assets and source commit remain unchanged during later README/navigation updates. The current main branch may contain later guidance and status corrections, identified in [edition status](EDITION_STATUS.md). A navigation update does not require rebuilding a sealed release. Any later packaging edition must have an unambiguous identity and reviewed source commit; do not force-move historical tags.
 
-The repository is public and research-v1.0-20261031 remains Latest. Repository-rule implementation and the organisation-profile update remain separate tasks.
+The repository is public and research-v1.0-20261031 remains Latest. Live repository rules and the organisation profile are maintained separately from the sealed publication; see [governance](../GOVERNANCE.md).
 
 ## Publication checks
 
