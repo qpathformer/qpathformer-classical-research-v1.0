@@ -1,14 +1,12 @@
 {
   "schema": "qpath-research-content-adoption-1",
-  "status": "ADOPTED",
+  "status": "HISTORICAL_GRANT_WITH_OWNER_CONFIRMED_CURRENT_MAPPING",
   "licensor": "Anthony Siljeg",
-  "approved_date_local": "2026-10-31",
   "timezone": "Australia/Sydney",
-  "decision": "Owner explicitly approved scoped CC BY 4.0 for controlled original content in both papers, covers, current Research Approach and new README/helper/policy prose with the prepared exclusions.",
   "scope": {
     "path": "RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
-    "bytes": 8025,
-    "sha256": "ebe17b7a1c90a7d7d7580dfcf58a93e9b9980381c51e65ea3ac0bcf46cc0e82d"
+    "bytes": 9147,
+    "sha256": "9c82a66ebabfb7f8aeedbd25c44bf139e4614dda3da7b7fbacf191d75c46eb92"
   },
   "licence": "CC-BY-4.0",
   "historical_grants_preserved": true,
@@ -21,15 +19,29 @@
     "sha256": "f5ee411762621944d0aad8f6f4f6f4e19236c176fc2c339e57f44f8297089cc8"
   },
   "identity_revision": "RESEARCH_V1_SCOPE_REVISION.json",
-  "revision_note": "Original owner licence decision preserved; the current mapping identifies updated current guides and operational policy/helper prose within the approved selection. No blanket incoming contribution or project software grant.",
+  "revision_note": "Historical owner content decisions remain unchanged. On 1 November 2026 the owner approved the reviewed r2 policy and confirmed this exact current mapping within the prior mandate. Retained grants are not re-adopted; no blanket incoming, software or private-material grant is created.",
   "released_adoption": {
     "path": "docs/rights/research_v1_released_20261031/RESEARCH_V1_LICENSE_ADOPTION.json",
     "bytes": 1245,
     "sha256": "4269ba520261861ee7f102ac90fd462955376b013b538b3c80541ba34a68088c"
   },
   "previous_main_adoption": {
-    "path": "docs/rights/research_v1_public_20261031/RESEARCH_V1_LICENSE_ADOPTION.json",
-    "bytes": 1693,
-    "sha256": "ea67869adcb7736c1bc7fe71575bdf7c2cb7759723828bbd86526aede7d3b3c8"
+    "path": "docs/rights/research_v1_guidance_before_20261101/RESEARCH_V1_LICENSE_ADOPTION.json",
+    "bytes": 1776,
+    "sha256": "24e6600c25970c33cf9cea0a6272cb819c4b2d8ddd4dc5b9b39ce91dfc00b46f"
+  },
+  "historical_approved_date_local": "2026-10-31",
+  "historical_decision": "Owner explicitly approved scoped CC BY 4.0 for controlled original content in both papers, covers, current Research Approach and new README/helper/policy prose with the prepared exclusions.",
+  "decision_record": {
+    "path": "docs/GUIDANCE_UPDATE_STATUS.json",
+    "bytes": 6461,
+    "sha256": "7e8de1fcf74c3203903d34e9616c527dc372634e7b079cbf4678f7b86c39f9bc"
+  },
+  "reviewed_candidate_revision": "Research_v1.0_Approach_Update_20261101_r2",
+  "mapping_confirmed_date_local": "2026-11-01",
+  "preserved_reviewed_adoption": {
+    "path": "docs/rights/research_v1_guidance_r2_reviewed_20261101/RESEARCH_V1_LICENSE_ADOPTION.json",
+    "bytes": 2179,
+    "sha256": "2d185dc579a8ad2e7b74d45dd45b7f8185905d0d7fa5117f48a1871bfd3f9b4d"
   }
 }

@@ -1,7 +1,7 @@
 # Publication and availability notice
 
-Current repository publication notice. Q-Pathformer releases contain the materials specifically identified in their approved manifests. Not all research, code, adapters, weights, datasets, run records or working documents will be made available. Some material may be reserved for a later version or withheld because of rights, privacy, safety, reproducibility or strategic considerations.
+Each release contains the materials identified in its approved manifest. Other work may remain private, be deferred or be withheld under its applicable terms. No access decision promises every asset, a future edition, authorship or a publication date.
 
-Private participation does not guarantee access to every asset, future editions, publication, authorship or a release date. Two qualifying merged contributions establish eligibility for an owner access review; access still requires owner approval. Enterprise access covers approved Lab participants, while Strategic materials remain restricted to organisation owners.
+Public research editions accept permitted contributions while the next research cycle may develop privately. Only the approved selection is published after review. The [research-cycle guide](RESEARCH_CYCLE.md) explains that process, optional parallel Strategic work and agreements for contributed private material. The [governance policy](../GOVERNANCE.md) defines audience and access decisions.
 
-Published grants and third-party terms remain applicable to their identified content. This notice neither retracts an existing licence nor creates a new blanket grant. The research approach is a separate release document and does not amend the main scientific paper. Proposed methods and future work must be distinguished from completed experiments and verified results.
+Existing public permissions remain unchanged. Participation and classification do not create an incoming licence or withdraw permissions already granted. The Research Approach is separate from the main scientific paper; live guidance revisions are not silently inserted into historical sealed downloads.

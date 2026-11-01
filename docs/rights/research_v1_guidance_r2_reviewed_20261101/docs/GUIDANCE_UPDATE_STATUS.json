@@ -1,0 +1,142 @@
+{
+  "schema": "qpath-guidance-decision-1",
+  "candidate_revision": "Research_v1.0_Approach_Update_20261101_r2",
+  "status": "PENDING_OWNER_REVIEW",
+  "prepared_date_local": "2026-11-01",
+  "timezone": "Australia/Sydney",
+  "base_commit": "c9e213a2b39b88929e3c16316944567620d9a699",
+  "policy_decision": {
+    "status": "PENDING",
+    "approved_by": null,
+    "approved_date_local": null,
+    "effective_date": null,
+    "guidance_applied_date_local": null,
+    "scope": "Recurring research cycle, optional parallel Strategic role, asset-specific consent and contribution/access clarification."
+  },
+  "content_selection_review": {
+    "status": "PENDING_EXACT_SELECTION_REVIEW",
+    "licence": "CC-BY-4.0",
+    "licensor": "Anthony Siljeg",
+    "prior_mandate": "31 October 2026 owner approval includes controlled original README/helper/policy prose with exclusions. New cycle and blank retention-review prose are within that category; final review confirms the exact mapping, not re-adoption of retained licensed expression.",
+    "new_licence_adoption_recorded": false,
+    "existing_grants_preserved": true,
+    "new_original_prose_candidates": [
+      "docs/RESEARCH_CYCLE.md",
+      "templates/STRATEGIC_RETENTION_REVIEW.md",
+      "docs/rights/research_v1_guidance_before_20261101/README.md"
+    ],
+    "excluded_from_inferred_new_grant": [
+      "templates/ASSET_RECORD.json",
+      "machine-readable identity/provenance records",
+      "private completed records",
+      "software",
+      "data",
+      "model artifacts",
+      "third-party expression"
+    ]
+  },
+  "private_infrastructure": {
+    "research_lab": "PROPOSED_NOT_PROVISIONED_BY_THIS_UPDATE",
+    "strategic_workspace": "PROPOSED_NOT_PROVISIONED_BY_THIS_UPDATE",
+    "access_grants_made": false
+  },
+  "intended_public_prose": [
+    {
+      "path": ".github/pull_request_template.md",
+      "bytes": 1579,
+      "sha256": "1f025aec0f31339e748499603bd8d9a701edef4202736572a6f2787710efa14e"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 6623,
+      "sha256": "0ab8798cc2f3c9ff07318299a1a324b28cf60c5ee43eb95f7e1751877766e851"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "bytes": 11763,
+      "sha256": "9aa7a04c749b678ca3416a09f1506a7aed22a88ce0bbb004f85613281dd66f4c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12881,
+      "sha256": "d2a5dcbb641320fb9980bde459f2156ffc4795ae15fc579436696416bc9a7384"
+    },
+    {
+      "path": "docs/ASSET_REVIEW.md",
+      "bytes": 6279,
+      "sha256": "cf9e6b647cb68b21924e22d9ce421ef12dfb2170144b80969d02dbe00c108fd0"
+    },
+    {
+      "path": "docs/EDITION_STATUS.md",
+      "bytes": 3942,
+      "sha256": "ac19caf34f506b758215bf595d906b6f729218a20a0c8455fa919ee6f5e71042"
+    },
+    {
+      "path": "docs/PUBLICATION_NOTICE.md",
+      "bytes": 1000,
+      "sha256": "3586f9be6ec7b4568be0b85e23e3be7f963b3bc587b6567d89c9f0a22d5bdf77"
+    },
+    {
+      "path": "docs/PUBLICATION_READINESS.md",
+      "bytes": 3590,
+      "sha256": "c93953b9231a9b496c1243a0949f9813f4eaf2bdab71d2fb74a636df2fcb7f5e"
+    },
+    {
+      "path": "docs/RELEASE_POLICY.md",
+      "bytes": 5749,
+      "sha256": "2767987b65f99b6a3add24833a01b773944b2983f3e47af52708647c9a52962b"
+    },
+    {
+      "path": "docs/RESEARCH_APPROACH.md",
+      "bytes": 9528,
+      "sha256": "22d876c156a8c4a9623c78836cb4dc079332c43d9c508fc84ac60b47528d0c6d"
+    },
+    {
+      "path": "docs/RESEARCH_APPROACH_RIGHTS.md",
+      "bytes": 2998,
+      "sha256": "ec3101332af662da4e66034e2a10a64c4d419f2f5e1acc7024dc94408abc8403"
+    },
+    {
+      "path": "docs/RESEARCH_CYCLE.md",
+      "bytes": 5105,
+      "sha256": "755deac9856cc10a8b5ef9ddeaa8ae6ae2ce8bcf3bb0de0fa97ea92de238915f"
+    },
+    {
+      "path": "docs/RESEARCH_V1_RIGHTS.md",
+      "bytes": 3033,
+      "sha256": "fba23b420570047be5ed4d0808f4adc417dbe2f4fe5eee092f8862c712601bcf"
+    },
+    {
+      "path": "docs/rights/research_v1_guidance_before_20261101/README.md",
+      "bytes": 847,
+      "sha256": "b157eb140d3563eafe5c260aa5f552e1d58cf12961f1745d4348cf76200b3b88"
+    },
+    {
+      "path": "templates/LAB_ACCESS_REVIEW.md",
+      "bytes": 1544,
+      "sha256": "9850eeb526038ec33cf67f51b2f18a9b74877e6a20125edac7d79505d4627fb4"
+    },
+    {
+      "path": "templates/STRATEGIC_RETENTION_REVIEW.md",
+      "bytes": 1622,
+      "sha256": "03db09f68326d78e151f2120c2280f4f6b5a29a3438a5958ab83e36cf1d16d6c"
+    }
+  ],
+  "blank_asset_template": {
+    "path": "templates/ASSET_RECORD.json",
+    "bytes": 1681,
+    "sha256": "de01fc4f4c8d6be88287be70aca2c565f944a489cc32bef950356bddcde2e25d"
+  },
+  "maintenance_selection": {
+    "path": ".github/ci/documentation-scope.json",
+    "bytes": 680,
+    "sha256": "a4e36c91d87c21d09ae6d2296925aa59767bfb18bfc06f93cca1521d6fda7d23"
+  },
+  "activation_requirements": [
+    "Record actual owner decision and effective/application dates against reviewed identities.",
+    "Confirm exact controlled-prose scope within the existing mandate; do not re-adopt existing grants.",
+    "Preserve this pending record and update only necessary activation metadata/current bindings.",
+    "Re-run existing checks on activated exact content; any substantive policy/prose change returns for review.",
+    "Use a normal PR with required GitHub checks; provisioning and release changes require separate authorisation."
+  ]
+}

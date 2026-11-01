@@ -1,0 +1,36 @@
+{
+  "schema": "qpath-current-prose-scope-1",
+  "edition": "Research v1.0",
+  "file": {
+    "path": "docs/RESEARCH_APPROACH.md",
+    "bytes": 9528,
+    "sha256": "22d876c156a8c4a9623c78836cb4dc079332c43d9c508fc84ac60b47528d0c6d"
+  },
+  "current_status": "CANDIDATE_IDENTITY_PENDING_GUIDANCE_DECISION",
+  "existing_grant": "ADOPTED_CC_BY_4_0_REMAINS_APPLICABLE_TO_ORIGINAL_EXPRESSION_AND_ADAPTATIONS",
+  "licensor": "Anthony Siljeg",
+  "historical_scope": "docs/rights/research_approach_adopted_20261030/docs/RESEARCH_APPROACH_LICENSE_SCOPE.json",
+  "change_record": {
+    "path": "docs/rights/RESEARCH_APPROACH_CHANGES.diff",
+    "bytes": 15408,
+    "sha256": "f439eb0757b7e198263fa941b71073377e59d9c0cffb8324a306f53ff8b892d8"
+  },
+  "new_adoption_record": "RESEARCH_V1_LICENSE_ADOPTION.json",
+  "excludes": [
+    "main manuscript",
+    "other helper documents",
+    "code",
+    "datasets",
+    "models",
+    "third-party expression",
+    "restricted assets"
+  ],
+  "note": "File identity locates this edition, not a restriction on permitted adaptations.",
+  "revision_note": "Candidate identity and cumulative changes; historical grants remain in force. No later policy adoption or application date has been recorded.",
+  "decision_record": "docs/GUIDANCE_UPDATE_STATUS.json",
+  "previous_current_scope": {
+    "path": "docs/rights/research_v1_guidance_before_20261101/docs/RESEARCH_APPROACH_CURRENT_SCOPE.json",
+    "bytes": 1326,
+    "sha256": "a08140b71a2c4807e481f3b403814972a67df03e3e94c12943e3e6f80ad6c5c7"
+  }
+}

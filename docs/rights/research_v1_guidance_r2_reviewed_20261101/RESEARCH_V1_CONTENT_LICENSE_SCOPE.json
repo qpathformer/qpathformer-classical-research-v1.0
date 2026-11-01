@@ -1,0 +1,225 @@
+{
+  "schema": "qpath-research-content-scope-1",
+  "edition": "Research v1.0",
+  "status": "CANDIDATE_IDENTITY_REFRESH_PENDING_EXACT_SELECTION_REVIEW",
+  "licence": "CC-BY-4.0",
+  "licensor": "Anthony Siljeg",
+  "scope": "Only original prose, original table presentation and original figures/artwork within the named files to the extent controlled by the licensor. Facts, ideas and scientific methods are not made exclusive by this record.",
+  "exclusions": [
+    "third-party expression and cited works",
+    "font software (separate SIL OFL)",
+    "trademarks, patent rights and endorsement",
+    "unchanged original QPATH-ARCH-001 as a licensed document",
+    "code, data, model artifacts and privately retained Lab materials"
+  ],
+  "existing_grants": "Preserved; this adopted scope adds no restrictions to existing CC BY permissions.",
+  "files": [
+    {
+      "path": "GOVERNANCE.md",
+      "bytes": 11763,
+      "sha256": "9aa7a04c749b678ca3416a09f1506a7aed22a88ce0bbb004f85613281dd66f4c"
+    },
+    {
+      "path": "LICENSES/PLATFORM_REFERENCE_NOTICE.md",
+      "bytes": 1062,
+      "sha256": "01666976c4b123b5bca5986c229c74bfc845f0831626934bae086f6c86795770"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "bytes": 6506,
+      "sha256": "d7324dd51b0c64d8e2903a1d05108cad0d357fae648a71c1f4ec8259c499eca6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12881,
+      "sha256": "d2a5dcbb641320fb9980bde459f2156ffc4795ae15fc579436696416bc9a7384"
+    },
+    {
+      "path": "TRADEMARKS.md",
+      "bytes": 5635,
+      "sha256": "a257a4f81cbcd662378f3ad5a67531f3427bdf90e71bdfe1766eac708e98d0d6"
+    },
+    {
+      "path": "assets/covers/QPathformer_Architecture_Cover_v1.0.pdf",
+      "bytes": 1254198,
+      "sha256": "a8986e387a50bafc11b8e06edd2c38eec34a97f22e9b366d83fedc19eed89406"
+    },
+    {
+      "path": "assets/covers/QPathformer_Collection_Cover_v1.0.pdf",
+      "bytes": 1968017,
+      "sha256": "815294731ef734724aa3af42b1121a294db73725484e77797d71fe9451083b61"
+    },
+    {
+      "path": "assets/covers/QPathformer_Routed_States_Cover_v1.0.pdf",
+      "bytes": 1977456,
+      "sha256": "c5f9cdbf27dcb9f0e4737260a414ecf8699a74f919ce23102a3dded08b4cab51"
+    },
+    {
+      "path": "docs/ARCHITECTURE_COMPANION_CHANGE_NOTE.md",
+      "bytes": 2763,
+      "sha256": "65e06b78cbc5174e49f44831c656b8024a4a024688b12916d458e3f20541097b"
+    },
+    {
+      "path": "docs/ASSET_REVIEW.md",
+      "bytes": 6279,
+      "sha256": "cf9e6b647cb68b21924e22d9ce421ef12dfb2170144b80969d02dbe00c108fd0"
+    },
+    {
+      "path": "docs/COLLECTION_GUIDE.md",
+      "bytes": 2732,
+      "sha256": "b017f1c4dd57edf7ddc34fa1fd8643f787a10de79049a63c1c3c7d026fd4a4bb"
+    },
+    {
+      "path": "docs/CONTRIBUTION_EVIDENCE.md",
+      "bytes": 2383,
+      "sha256": "92b93d69019d7820b738ad216402e7fe834af59abea52169921e6edd73c71886"
+    },
+    {
+      "path": "docs/EDITION_STATUS.md",
+      "bytes": 3942,
+      "sha256": "ac19caf34f506b758215bf595d906b6f729218a20a0c8455fa919ee6f5e71042"
+    },
+    {
+      "path": "docs/MAIN_PAPER_CHANGE_NOTE.md",
+      "bytes": 1644,
+      "sha256": "e3a0bc1a9f2c1e76fa619e9a017fe91d683eb7b5e7f8c27920e75c6e463d286c"
+    },
+    {
+      "path": "docs/PUBLICATION_NOTICE.md",
+      "bytes": 1000,
+      "sha256": "3586f9be6ec7b4568be0b85e23e3be7f963b3bc587b6567d89c9f0a22d5bdf77"
+    },
+    {
+      "path": "docs/PUBLICATION_READINESS.md",
+      "bytes": 3590,
+      "sha256": "c93953b9231a9b496c1243a0949f9813f4eaf2bdab71d2fb74a636df2fcb7f5e"
+    },
+    {
+      "path": "docs/RELEASE_POLICY.md",
+      "bytes": 5749,
+      "sha256": "2767987b65f99b6a3add24833a01b773944b2983f3e47af52708647c9a52962b"
+    },
+    {
+      "path": "docs/RESEARCH_APPROACH.md",
+      "bytes": 9528,
+      "sha256": "22d876c156a8c4a9623c78836cb4dc079332c43d9c508fc84ac60b47528d0c6d"
+    },
+    {
+      "path": "docs/RESEARCH_APPROACH_RIGHTS.md",
+      "bytes": 2998,
+      "sha256": "ec3101332af662da4e66034e2a10a64c4d419f2f5e1acc7024dc94408abc8403"
+    },
+    {
+      "path": "docs/RESEARCH_V1_RIGHTS.md",
+      "bytes": 3033,
+      "sha256": "fba23b420570047be5ed4d0808f4adc417dbe2f4fe5eee092f8862c712601bcf"
+    },
+    {
+      "path": "docs/papers/QPathformer_Architecture_and_Experimental_Specification_v1.0.docx",
+      "bytes": 6081607,
+      "sha256": "b71565fd3abb44b1f9c7705a3ba24709b151b4e23effc0a2469167712b9ba60e"
+    },
+    {
+      "path": "docs/papers/QPathformer_Architecture_and_Experimental_Specification_v1.0.pdf",
+      "bytes": 2296922,
+      "sha256": "9d615ea2545d35c59528b1131a47bfaa19119c4444be9c6a7d6d3fe2d6d02b89"
+    },
+    {
+      "path": "docs/papers/QPathformer_Main_Paper_v1.0.docx",
+      "bytes": 5759183,
+      "sha256": "5bc936ebbce2d811cc1217f0a0a3b94b726c0be4e4149cf53a72dc0f93feb8cf"
+    },
+    {
+      "path": "docs/papers/QPathformer_Main_Paper_v1.0.pdf",
+      "bytes": 3928692,
+      "sha256": "a94a775eab9fe8d2722a7299a775d27bf02b4ade8d8e0d4db5d85a2c392bab39"
+    },
+    {
+      "path": "templates/LAB_ACCESS_REVIEW.md",
+      "bytes": 1544,
+      "sha256": "9850eeb526038ec33cf67f51b2f18a9b74877e6a20125edac7d79505d4627fb4"
+    },
+    {
+      "path": "release_notes/research-v1.0-20261031.md",
+      "bytes": 8623,
+      "sha256": "3ca083ad6791474a5561c858b2fb5558e2713594d3915828423cfc1a2902e98b"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 6623,
+      "sha256": "0ab8798cc2f3c9ff07318299a1a324b28cf60c5ee43eb95f7e1751877766e851"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "bytes": 5040,
+      "sha256": "bd9cdb95313e0de0f7a13fd221fbbca10e8cb3737988f039abb77fa424cd6f46"
+    },
+    {
+      "path": "docs/RESEARCH_ROADMAP.md",
+      "bytes": 3333,
+      "sha256": "dc7970ceac0884e6e3966f1f25704c02a2f2a252174eb1150a1915ecf6b18800"
+    },
+    {
+      "path": ".github/CHECKS.md",
+      "bytes": 3680,
+      "sha256": "6acd13c20b5dbb25884b0dbe06a7dc2952c0e7ea7cafb416ebe3d7d0d0e3453b"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "bytes": 1579,
+      "sha256": "1f025aec0f31339e748499603bd8d9a701edef4202736572a6f2787710efa14e"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2349,
+      "sha256": "1625eeceacf1ed743867de14dd77b7a65156a926a527e0a0c16fc87a19013f6b"
+    },
+    {
+      "path": "docs/RESEARCH_CYCLE.md",
+      "bytes": 5105,
+      "sha256": "755deac9856cc10a8b5ef9ddeaa8ae6ae2ce8bcf3bb0de0fa97ea92de238915f"
+    },
+    {
+      "path": "templates/STRATEGIC_RETENTION_REVIEW.md",
+      "bytes": 1622,
+      "sha256": "03db09f68326d78e151f2120c2280f4f6b5a29a3438a5958ab83e36cf1d16d6c"
+    },
+    {
+      "path": "docs/rights/research_v1_guidance_before_20261101/README.md",
+      "bytes": 847,
+      "sha256": "b157eb140d3563eafe5c260aa5f552e1d58cf12961f1745d4348cf76200b3b88"
+    }
+  ],
+  "attribution": "Anthony Siljeg; relevant document title; research edition v1.0; Q-Pathformer Initiative / Alnotrea Labs; CC BY 4.0; identify modifications. Company affiliation Alnotrea Pty Ltd.",
+  "identity_note": "Hashes identify this edition, not limits on permitted excerpts, translations or adaptations.",
+  "canonical_legal_text": {
+    "path": "LICENSES/CC-BY-4.0.txt",
+    "bytes": 18615,
+    "sha256": "2ade8c89b8bbe0d859b124a9e47032c8494022f43091e8278ae8e2554a292196"
+  },
+  "revision_record": "RESEARCH_V1_SCOPE_REVISION.json",
+  "original_adopted_scope": {
+    "path": "docs/rights/research_v1_adopted_20261031/RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
+    "bytes": 5896,
+    "sha256": "24274ffcef81cf73865a96013f60d3177eb2f6f84f3d50f964c26522b6faa7ca"
+  },
+  "revision_note": "Existing content grants remain in force. These exact candidate identities are prepared under the prior controlled-original helper/policy mandate. Final policy approval and exact mapping review remain pending in the guidance decision record; hashing is not a grant. New machine-readable asset-template fields are recorded separately without an inferred licence.",
+  "released_scope": {
+    "path": "docs/rights/research_v1_released_20261031/RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
+    "bytes": 6445,
+    "sha256": "5e87fbad0564317e357d73a90d57d6ec0aeee5cb6fc96e405c448356ddee24ec"
+  },
+  "previous_main_scope": {
+    "path": "docs/rights/research_v1_guidance_before_20261101/RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
+    "bytes": 8025,
+    "sha256": "ebe17b7a1c90a7d7d7580dfcf58a93e9b9980381c51e65ea3ac0bcf46cc0e82d"
+  },
+  "historical_content_grant_effective_date": "2026-10-31",
+  "candidate_effective_date": null,
+  "candidate_revision": "Research_v1.0_Approach_Update_20261101_r2",
+  "decision_record": {
+    "path": "docs/GUIDANCE_UPDATE_STATUS.json",
+    "bytes": 5316,
+    "sha256": "6bc28c65b572a3c93f410b5abe96c7df67dd39c95945dbcbb701a498a41db6be"
+  }
+}
