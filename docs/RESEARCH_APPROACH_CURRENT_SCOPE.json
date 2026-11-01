@@ -3,8 +3,8 @@
   "edition": "Research v1.0",
   "file": {
     "path": "docs/RESEARCH_APPROACH.md",
-    "bytes": 10076,
-    "sha256": "326afb973c968113126fba4dfcc3a5585efd4f3438b57e407adc5cec6b1d9222"
+    "bytes": 9528,
+    "sha256": "22d876c156a8c4a9623c78836cb4dc079332c43d9c508fc84ac60b47528d0c6d"
   },
   "current_status": "ADOPTED_CC_BY_4_0_FOR_CONTROLLED_ORIGINAL_CONTENT",
   "existing_grant": "ADOPTED_CC_BY_4_0_REMAINS_APPLICABLE_TO_ORIGINAL_EXPRESSION_AND_ADAPTATIONS",
@@ -12,8 +12,8 @@
   "historical_scope": "docs/rights/research_approach_adopted_20261030/docs/RESEARCH_APPROACH_LICENSE_SCOPE.json",
   "change_record": {
     "path": "docs/rights/RESEARCH_APPROACH_CHANGES.diff",
-    "bytes": 15956,
-    "sha256": "dab758b1554585c4b82ba4f25a06cda5f300674899c33b7aaa1d8d8f1867343d"
+    "bytes": 15408,
+    "sha256": "f439eb0757b7e198263fa941b71073377e59d9c0cffb8324a306f53ff8b892d8"
   },
   "new_adoption_record": "RESEARCH_V1_LICENSE_ADOPTION.json",
   "excludes": [
@@ -26,5 +26,17 @@
     "restricted assets"
   ],
   "note": "File identity locates this edition, not a restriction on permitted adaptations.",
-  "revision_note": "Original grants preserved. Current identity reflects the public availability and separate future research-Lab clarification of 31 October 2026. Prior scope/diff are preserved with the public-transition records."
+  "revision_note": "Owner-approved r2 guidance activated on 1 November 2026. Historical content grants and the exact reviewed Research Approach prose/cumulative diff are unchanged.",
+  "decision_record": "docs/GUIDANCE_UPDATE_STATUS.json",
+  "previous_current_scope": {
+    "path": "docs/rights/research_v1_guidance_before_20261101/docs/RESEARCH_APPROACH_CURRENT_SCOPE.json",
+    "bytes": 1326,
+    "sha256": "a08140b71a2c4807e481f3b403814972a67df03e3e94c12943e3e6f80ad6c5c7"
+  },
+  "guidance_revision_date_local": "2026-11-01",
+  "preserved_reviewed_scope": {
+    "path": "docs/rights/research_v1_guidance_r2_reviewed_20261101/docs/RESEARCH_APPROACH_CURRENT_SCOPE.json",
+    "bytes": 1555,
+    "sha256": "a1c6d98dccf1d50537f446a5f995cf41888426e91f74a4d301d4169d8c2d0785"
+  }
 }

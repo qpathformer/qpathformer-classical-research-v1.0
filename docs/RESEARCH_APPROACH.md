@@ -1,6 +1,6 @@
 # Q-Pathformer research approach
 
-**Research edition v1.0 · 30 October 2026.** The owner adopted CC BY 4.0 for controlled original content in this current edition on 31 October 2026, with the recorded exclusions. Existing grants remain in force. See [rights and changes](RESEARCH_APPROACH_RIGHTS.md).
+**Research edition v1.0 · 30 October 2026.** See [rights and changes](RESEARCH_APPROACH_RIGHTS.md).
 
 ## Purpose
 
@@ -26,7 +26,7 @@ Selected circuit predictors admit equivalent classical inference implementations
 
 Later execution work includes Q-Path Multiplier - Elastic Task Execution Layer (ETEL) v0.1. ETEL coordinates bounded work and supports execution records and recovery. Its suitability allocation policy has its own empirical evaluation; the existence of an execution layer does not establish an allocation-quality benefit.
 
-The public research collection is intended to provide approved papers, selected code, explanations and provenance. Curated downloads have explicit reproduction boundaries. Some datasets, checkpoints, environments and full evidence archives remain separately retained.
+The public research collection provides identified papers, selected code, explanations and provenance. Curated downloads have explicit reproduction boundaries. Some datasets, checkpoints, environments and full evidence archives remain separately retained.
 
 ## How we investigate a question
 
@@ -56,24 +56,24 @@ These are directions for separately specified studies. Their inclusion here does
 
 ## Contributing and private research
 
-Useful contributions include independent reproductions, corrections, stronger controls, numerical checks, clearer resource measurements and documented negative findings. Reports should include enough configuration, provenance and permitted evidence for a reviewer to assess the claim.
+Research v1.0 welcomes independent reproductions, corrections, stronger controls, resource measurements and documented negative findings. Start with a public issue or a permitted pull request and follow the [contribution guide](../CONTRIBUTING.md). Implementation patches require the confirmed incoming-rights route described there.
 
-The owner-confirmed participation model requires at least two distinct, substantive qualifying merged public contributions to establish eligibility for private Lab access review. Owner approval follows a review of the contribution, rights, reproducibility, safety and participation scope. Eligibility is not automatic admission.
+At least two distinct substantive qualifying merged public contributions establish eligibility for an owner review of private Lab access. Admission is a separate decision based on the evidence, rights, reproducibility, safety, conduct and proposed participation scope. Access is reassessed for each cycle; this does not automatically require two newly earned merges at every transition.
 
-Approved Lab participants may access Enterprise materials within their permissions. Strategic materials remain restricted to organisation owners and are held separately. These are Lab audience categories, distinct from the public Enterprise Standards project and from commercial software licence grants. No integration, dependency or shared membership between the two projects is established here. Participation does not promise authorship, publication, a release date or access to every asset or future edition.
+Approved participants receive defined access to the private Research Lab. Strategic development is a separate workstream for specifically authorised internal Q-Pathformer developers. Lab admission does not grant Strategic access. The [governance policy](../GOVERNANCE.md) defines the audiences and approval responsibilities.
 
-Proposed code, datasets, adapters, weights and other artifacts pass through the contribution and asset-review process before merge. Implementation patches must follow the confirmed incoming-rights route in [CONTRIBUTING.md](../CONTRIBUTING.md). That process does not introduce a blanket incoming-contribution agreement. Existing licences and separately agreed permissions continue to apply.
+For a private-intake enquiry, contact Anthony Siljeg at [asiljeg@alnotrea.com](mailto:asiljeg@alnotrea.com) with a non-sensitive description. Agree the review scope and transfer route before sending restricted material.
 
 ## Editions and availability
 
-The public Research v1.0 foundation brings together the main paper, supporting studies and explanatory documents. The proposed private research v2.0 Lab will investigate the next questions. This future Lab is separate from the already-public [Enterprise v2.0 Standards Edition](https://github.com/qpathformer/qpathformer-enterprise-v2.0-standards-release). A later public edition and subsequent private research cycle follow review of the actual evidence and assets, with scope and access reassessed for each edition.
+Public research editions remain available for permitted contributions while the next cycle develops privately. The proposed Research v2.0 Lab will investigate the next defined questions. Following review of the evidence, reproducibility, rights, safety and disclosure scope, an approved selection may become a public Research v2.0 edition. Later editions follow the same process.
 
-Not all working material will be distributed. Each release identifies what is included, what is omitted and which limitations affect reproduction. Public permissions already granted remain applicable to their identified content.
+Some work may remain private or continue into a later cycle. New Strategic retention or use of contributed private work requires a recorded agreement with the contributor or applicable rights holder and the authorised project representative for the identified assets and purposes. Existing public permissions remain in force. Each release identifies its contents and reproduction boundaries.
 
-The [governance](../GOVERNANCE.md), [contribution](../CONTRIBUTING.md), [evidence](CONTRIBUTION_EVIDENCE.md), [asset-review](ASSET_REVIEW.md) and [publication](RELEASE_POLICY.md) documents provide the operational details. Research claims remain tied to the relevant study rather than to membership or release status.
+Research editions are separate from the public Enterprise Standards releases and Access-PoD document versions. Participation categories are also independent of the architecture's three processing states. See the [research-cycle guide](RESEARCH_CYCLE.md) for the development and publication process.
 
 ## Attribution and rights
 
 Anthony Siljeg — Founder, Alnotrea Labs · Company affiliation: Alnotrea Pty Ltd · Q-Pathformer Initiative.
 
-The original Research Approach prose retains its adopted CC BY 4.0 grant of 30 October 2026. The current edition, including its controlled original added prose, is covered by the scoped adoption of 31 October 2026; see the [current scope](RESEARCH_APPROACH_CURRENT_SCOPE.json) and [adoption record](../RESEARCH_V1_LICENSE_ADOPTION.json). Code, datasets, model artifacts, restricted Lab material and third-party expression retain their separate terms.
+Existing controlled original content grants and their exclusions remain in force. The [rights and changes](RESEARCH_APPROACH_RIGHTS.md) record identifies the historical grants, current file identities and status of later revisions. Code, datasets, models, third-party material and restricted assets retain their separate terms.

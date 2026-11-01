@@ -1,0 +1,62 @@
+{
+  "record": "Reviewed r2 state before owner-approved activation",
+  "reviewed_tree": "8a6bb1bbda5c32c5b072297ec69cc54faa26b9e9",
+  "reviewed_zip": {
+    "filename": "QPathformer_Research_v1.0_Approach_Update_Review_20261101_r2.zip",
+    "bytes": 136696,
+    "sha256": "879d3b021bf2ed1a7f09689f67ee419582033a224ee29186bad0333024a75cd7"
+  },
+  "reviewed_seal": {
+    "filename": "QPathformer_Research_v1.0_Approach_Update_Review_20261101_r2.seal.json",
+    "bytes": 2817,
+    "sha256": "1a3606da7aa49341952490bb559d5eec7678626287d7faba277390d576bb493b"
+  },
+  "interpretation": "Identities and paths inside these unchanged records refer to the reviewed r2 candidate, not the current activated tree. Pending wording is historical. Private review wrapper and source PDFs are not included.",
+  "files": [
+    {
+      "path": "docs/rights/research_v1_guidance_r2_reviewed_20261101/RESEARCH_V1_CONTENT_LICENSE_SCOPE.json",
+      "bytes": 8916,
+      "sha256": "6d9cb70efb4b63787366c8a78540b4c9405895ead8d55ed899055536484aa616"
+    },
+    {
+      "path": "docs/rights/research_v1_guidance_r2_reviewed_20261101/RESEARCH_V1_LICENSE_ADOPTION.json",
+      "bytes": 2179,
+      "sha256": "2d185dc579a8ad2e7b74d45dd45b7f8185905d0d7fa5117f48a1871bfd3f9b4d"
+    },
+    {
+      "path": "docs/rights/research_v1_guidance_r2_reviewed_20261101/RESEARCH_V1_SCOPE_REVISION.json",
+      "bytes": 10769,
+      "sha256": "3cd2bbe56a3ce2688bce92c4fa9b71eca5e3952f9c94df5910b16d6da2ded672"
+    },
+    {
+      "path": "docs/rights/research_v1_guidance_r2_reviewed_20261101/docs/GUIDANCE_UPDATE_STATUS.json",
+      "bytes": 5316,
+      "sha256": "6bc28c65b572a3c93f410b5abe96c7df67dd39c95945dbcbb701a498a41db6be"
+    },
+    {
+      "path": "docs/rights/research_v1_guidance_r2_reviewed_20261101/docs/RESEARCH_APPROACH_CURRENT_SCOPE.json",
+      "bytes": 1555,
+      "sha256": "a1c6d98dccf1d50537f446a5f995cf41888426e91f74a4d301d4169d8c2d0785"
+    },
+    {
+      "path": "docs/rights/research_v1_guidance_r2_reviewed_20261101/docs/RESEARCH_APPROACH_RIGHTS.md",
+      "bytes": 2998,
+      "sha256": "ec3101332af662da4e66034e2a10a64c4d419f2f5e1acc7024dc94408abc8403"
+    },
+    {
+      "path": "docs/rights/research_v1_guidance_r2_reviewed_20261101/docs/RESEARCH_V1_RIGHTS.md",
+      "bytes": 3033,
+      "sha256": "fba23b420570047be5ed4d0808f4adc417dbe2f4fe5eee092f8862c712601bcf"
+    },
+    {
+      "path": "docs/rights/research_v1_guidance_r2_reviewed_20261101/docs/EDITION_STATUS.md",
+      "bytes": 3942,
+      "sha256": "ac19caf34f506b758215bf595d906b6f729218a20a0c8455fa919ee6f5e71042"
+    },
+    {
+      "path": "docs/rights/research_v1_guidance_r2_reviewed_20261101/docs/RELEASE_POLICY.md",
+      "bytes": 5749,
+      "sha256": "2767987b65f99b6a3add24833a01b773944b2983f3e47af52708647c9a52962b"
+    }
+  ]
+}

@@ -96,7 +96,9 @@ The [consolidated Research v1.0 release](https://github.com/qpathformer/qpathfor
 
 Start with the relevant Code package's quickstart. A passed startup check shows that selected commands ran in the recorded environment; it does not reproduce the study. Full reproduction needs the separately retained frozen artifacts and a compatible environment. Storage figures describe retained evidence and should be read separately from model size or hardware requirements.
 
-Useful contributions include independent reproductions, corrections, stronger controls, numerical checks, clearer resource measurements and well-documented negative findings. See [Contributing](CONTRIBUTING.md), [reproduction boundaries](docs/REPRODUCIBILITY.md) and [artifact contents and rights](ARTIFACT_RIGHTS.md).
+Share a correction, reproduction or research proposal through [issues](https://github.com/qpathformer/qpathformer-classical-research-v1.0/issues/new) or a permitted pull request. The [contribution guide](CONTRIBUTING.md) explains the available routes and requirements. The [research cycle](docs/RESEARCH_CYCLE.md) describes how public contributions connect with future private research and selected public editions. For private-intake enquiries, contact [Anthony Siljeg](mailto:asiljeg@alnotrea.com) with a non-sensitive description first.
+
+See [reproduction boundaries](docs/REPRODUCIBILITY.md) and [artifact contents and rights](ARTIFACT_RIGHTS.md).
 
 ## Where the research goes next
 

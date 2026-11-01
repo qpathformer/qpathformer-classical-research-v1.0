@@ -42,6 +42,30 @@
     "date": null,
     "destination": null,
     "merge_commit": null,
-    "next_review": null
+    "next_review": null,
+    "permitted_uses": [],
+    "release_eligibility": null,
+    "expiry": null
+  },
+  "research_cycle": null,
+  "review_extensions": {
+    "reproducibility": null,
+    "audience_disclosure": null
+  },
+  "strategic_agreement": {
+    "required": null,
+    "asset_identity_reference": null,
+    "submitter": null,
+    "authorised_rightsholders": [],
+    "authorised_project_representative": null,
+    "agreement_reference": null,
+    "permitted_purpose": null,
+    "audience": null,
+    "duration": null,
+    "disclosure_terms": null,
+    "additional_permissions": [],
+    "recorded_consents": [],
+    "review_date": null,
+    "existing_public_permissions_preserved": null
   }
 }
